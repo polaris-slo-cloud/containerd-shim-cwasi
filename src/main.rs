@@ -2,6 +2,7 @@ use std::path::Path;
 use std::path::PathBuf;
 use std::sync::mpsc::channel;
 use std::sync::mpsc::Sender;
+use libc::{dup, dup2, SIGINT, SIGKILL, STDERR_FILENO, STDIN_FILENO, STDOUT_FILENO};
 use std::sync::Arc;
 use std::sync::{Condvar, Mutex};
 use std::thread;
@@ -10,12 +11,12 @@ use chrono::{DateTime, Utc};
 use containerd_shim as shim;
 use containerd_shim_wasm::sandbox::error::Error;
 use containerd_shim_wasm::sandbox::instance::EngineGetter;
-use containerd_shim_wasm::sandbox::oci;
+use containerd_shim_wasm::sandbox::{exec, oci};
 use containerd_shim_wasm::sandbox::Instance;
 use containerd_shim_wasm::sandbox::{instance::InstanceConfig, ShimCli};
-use log::info;
+use log::{error, info};
+use openssl_sys::{dup, dup2, SIGINT, SIGKILL, STDERR_FILENO, STDIN_FILENO, STDOUT_FILENO};
 
-use slight_lib::commands::run::handle_run;
 use tokio::runtime::Runtime;
 
 type ExitCode = Arc<(Mutex<Option<(u32, DateTime<Utc>)>>, Condvar)>;
@@ -29,31 +30,67 @@ pub struct Wasi {
     shutdown_signal: Arc<(Mutex<bool>, Condvar)>,
 }
 
-pub fn prepare_module(bundle: String) -> Result<(PathBuf, PathBuf), Error> {
-    let mut spec = oci::load(Path::new(&bundle).join("config.json").to_str().unwrap())
-        .expect("unable to load OCI bundle");
 
-    spec.canonicalize_rootfs(&bundle)
-        .map_err(|err| Error::Others(format!("could not canonicalize rootfs: {err}")))?;
+pub fn prepare_module(mut vm: Vm, spec: &oci::Spec, stdin_path: String, stdout_path: String, stderr_path: String, ) -> Result<Vm, WasmRuntimeError> {
+    info!("opening rootfs");
+    let rootfs_path = oci::get_root(spec).to_str().unwrap();
+    let root = format!("/:{}", rootfs_path);
+    let mut preopens = vec![root.as_str()];
 
-    let working_dir = oci::get_root(&spec);
+    info!("opening mounts");
+    let mut mounts = oci_utils::get_wasm_mounts(spec);
+    preopens.append(&mut mounts);
 
-    // change the working directory to the rootfs
-    std::os::unix::fs::chroot(working_dir).unwrap();
-    std::env::set_current_dir("/").unwrap();
+    let args = oci::get_args(spec);
+    let envs = oci_utils::env_to_wasi(spec);
 
-    // add env to current proc
-    let env = spec.process().as_ref().unwrap().env().as_ref().unwrap();
-    for v in env {
-        match v.split_once('=') {
-            None => {}
-            Some(t) => std::env::set_var(t.0, t.1),
-        };
+    info!("setting up wasi");
+    let mut wasi_instance = vm.wasi_module()?;
+    wasi_instance.initialize(
+        Some(args.iter().map(|s| s as &str).collect()),
+        Some(envs.iter().map(|s| s as &str).collect()),
+        Some(preopens),
+    );
+
+    info!("opening stdin");
+    let stdin = maybe_open_stdio(&stdin_path).context("could not open stdin")?;
+    if stdin.is_some() {
+        unsafe {
+            STDIN_FD = Some(dup(STDIN_FILENO));
+            dup2(stdin.unwrap(), STDIN_FILENO);
+        }
     }
 
-    let mod_path = PathBuf::from("slightfile.toml");
-    let wasm_path = PathBuf::from("app.wasm");
-    Ok((wasm_path, mod_path))
+    info!("opening stdout");
+    let stdout = maybe_open_stdio(&stdout_path).context("could not open stdout")?;
+    if stdout.is_some() {
+        unsafe {
+            STDOUT_FD = Some(dup(STDOUT_FILENO));
+            dup2(stdout.unwrap(), STDOUT_FILENO);
+        }
+    }
+
+    info!("opening stderr");
+    let stderr = maybe_open_stdio(&stderr_path).context("could not open stderr")?;
+    if stderr.is_some() {
+        unsafe {
+            STDERR_FD = Some(dup(STDERR_FILENO));
+            dup2(stderr.unwrap(), STDERR_FILENO);
+        }
+    }
+
+    let mut cmd = args[0].clone();
+    let stripped = args[0].strip_prefix(std::path::MAIN_SEPARATOR);
+    if let Some(strpd) = stripped {
+        cmd = strpd.to_string();
+    }
+
+    let mod_path = oci::get_root(spec).join(cmd);
+
+    info!("register module from file");
+    let vm = vm.register_module_from_file("main", mod_path)?;
+
+    Ok(vm)
 }
 
 impl Instance for Wasi {
@@ -74,103 +111,90 @@ impl Instance for Wasi {
 
     fn start(&self) -> Result<u32, Error> {
         info!(">>> shim starts");
-        let exit_code = self.exit_code.clone();
-        let shutdown_signal = self.shutdown_signal.clone();
-        let (tx, rx) = channel::<Result<(), Error>>();
-        let bundle = self.bundle.clone();
+        info!(" >>> loading module: {}", mod_path.display());
+        log::info!(" >>> server shut down: exiting");
+        let engine = self.engine.clone();
+        let stdin = self.stdin.clone();
+        let stdout = self.stdout.clone();
+        let stderr = self.stderr.clone();
 
-        // FIXME: redirect slight stdio to pod stdio
-        let _pod_stdin = self.stdin.clone();
-        let _pod_stdout = self.stdout.clone();
-        let _pod_stderr = self.stderr.clone();
+        info!(" >>> loading module: {}", mod_path.display());
+        let spec = load_spec(self.bundle.clone())?;
+        info!(" >>> loading module: {}", &spec);
+        let vm = prepare_module(engine, &spec, stdin, stdout, stderr)
+            .map_err(|e| Error::Others(format!("error setting up module: {}", e)))?;
 
-        thread::Builder::new()
-            .name(self.id.clone())
-            .spawn(move || {
-                let (wasm_path, mod_path) = match prepare_module(bundle) {
-                    Ok(f) => f,
-                    Err(err) => {
-                        tx.send(Err(err)).unwrap();
-                        return;
-                    }
-                };
+        let cg = oci::get_cgroup(&spec)?;
 
-                info!(" >>> loading module: {}", mod_path.display());
-                info!(" >>> wasm path: {}", wasm_path.display());
-                info!(" >>> starting slight");
+        oci::setup_cgroup(cg.as_ref(), &spec)
+            .map_err(|e| Error::Others(format!("error setting up cgroups: {}", e)))?;
+        let res = unsafe { exec::fork(Some(cg.as_ref())) }?;
+        match res {
+            exec::Context::Parent(tid, pidfd) => {
+                let mut lr = self.pidfd.lock().unwrap();
+                *lr = Some(pidfd.clone());
 
-                let rt = Runtime::new().unwrap();
-                rt.block_on(async {
-                    let toml_file_path = mod_path;
+                info!("started wasi instance with tid {}", tid);
 
-                    let rx_future = tokio::task::spawn_blocking(move || {
-                        let (lock, cvar) = &*shutdown_signal;
-                        let mut shutdown = lock.lock().unwrap();
-                        while !*shutdown {
-                            shutdown = cvar.wait(shutdown).unwrap();
-                        }
-                    });
-
-                    let f = handle_run(wasm_path, &toml_file_path);
-
-                    info!(" >>> notifying main thread we are about to start");
-                    tx.send(Ok(())).unwrap();
-                    tokio::select! {
-                        res = f => {
-                            log::info!(" >>> server shut down: exiting");
-                            if res.is_err() {
-                                log::error!(" >>> error: {:?}", res);
-                            }
-                            let (lock, cvar) = &*exit_code;
-                            let mut ec = lock.lock().unwrap();
-                            *ec = Some((137, Utc::now()));
-                            cvar.notify_all();
-                        },
-                        _ = rx_future => {
-                            log::info!(" >>> user requested shutdown: exiting");
-                            let (lock, cvar) = &*exit_code;
-                            let mut ec = lock.lock().unwrap();
-                            *ec = Some((0, Utc::now()));
-                            cvar.notify_all();
-                        },
-                    };
-                })
-            })?;
-
-        info!(" >>> waiting for start notification");
-        match rx.recv().unwrap() {
-            Ok(_) => (),
-            Err(err) => {
-                info!(" >>> error starting instance: {}", err);
                 let code = self.exit_code.clone();
 
-                let (lock, cvar) = &*code;
-                let mut ec = lock.lock().unwrap();
-                *ec = Some((139, Utc::now()));
-                cvar.notify_all();
-                return Err(err);
+                let _ = thread::spawn(move || {
+                    let (lock, cvar) = &*code;
+                    let status = match pidfd.wait() {
+                        Ok(status) => status,
+                        Err(e) => {
+                            error!("error waiting for pid {}: {}", tid, e);
+                            cvar.notify_all();
+                            return;
+                        }
+                    };
+
+                    info!("wasi instance exited with status {}", status.status);
+                    let mut ec = lock.lock().unwrap();
+                    *ec = Some((status.status, Utc::now()));
+                    drop(ec);
+                    cvar.notify_all();
+                });
+                Ok(tid)
+            }
+            exec::Context::Child => {
+                // child process
+
+                // TODO: How to get exit code?
+                // This was relatively straight forward in go, but wasi and wasmtime are totally separate things in rust.
+                let _ret = match vm.run_func(Some("main"), "_start", params!()) {
+                    Ok(_) => std::process::exit(0),
+                    Err(_) => std::process::exit(137),
+                };
             }
         }
-
-        Ok(1) // TODO: PID: I wanted to use a thread ID here, but threads use a u64, the API wants a u32
     }
 
     fn kill(&self, signal: u32) -> Result<(), Error> {
-        if signal != 9 && signal != 2 {
+        if signal as i32 != SIGKILL && signal as i32 != SIGINT {
+            println!("{:?}", signal);
             return Err(Error::InvalidArgument(
                 "only SIGKILL and SIGINT are supported".to_string(),
             ));
         }
 
-        let (lock, cvar) = &*self.shutdown_signal;
-        let mut shutdown = lock.lock().unwrap();
-        *shutdown = true;
-        cvar.notify_all();
-
-        Ok(())
+        let lr = self.pidfd.lock().unwrap();
+        let fd = lr
+            .as_ref()
+            .ok_or_else(|| Error::FailedPrecondition("module is not running".to_string()))?;
+        fd.kill(SIGKILL as i32)
     }
 
     fn delete(&self) -> Result<(), Error> {
+        let spec = match load_spec(self.bundle.clone()) {
+            Ok(spec) => spec,
+            Err(err) => {
+                error!("Could not load spec, skipping cgroup cleanup: {}", err);
+                return Ok(());
+            }
+        };
+        let cg = oci::get_cgroup(&spec)?;
+        cg.delete()?;
         Ok(())
     }
 
@@ -191,9 +215,21 @@ impl Instance for Wasi {
 }
 
 impl EngineGetter for Wasi {
-    type E = ();
-    fn new_engine() -> Result<Self::E, Error> {
-        Ok(())
+    type E = Vm;
+    fn new_engine() -> Result<Vm, Error> {
+        PluginManager::load_from_default_paths();
+        let mut host_options = HostRegistrationConfigOptions::default();
+        host_options = host_options.wasi(true);
+        #[cfg(all(target_os = "linux", feature = "wasi_nn", target_arch = "x86_64"))]
+        {
+            host_options = host_options.wasi_nn(true);
+        }
+        let config = ConfigBuilder::new(CommonConfigOptions::default())
+            .with_host_registration_config(host_options)
+            .build()
+            .map_err(anyhow::Error::msg)?;
+        let vm = Vm::new(Some(config)).map_err(anyhow::Error::msg)?;
+        Ok(vm)
     }
 }
 
