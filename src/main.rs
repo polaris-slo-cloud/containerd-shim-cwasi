@@ -1,23 +1,24 @@
-use std::path::Path;
-use std::path::PathBuf;
-use std::sync::mpsc::channel;
-use std::sync::mpsc::Sender;
-use libc::{dup, dup2, SIGINT, SIGKILL, STDERR_FILENO, STDIN_FILENO, STDOUT_FILENO};
-use std::sync::Arc;
-use std::sync::{Condvar, Mutex};
-use std::thread;
-
+use anyhow::Context;
 use chrono::{DateTime, Utc};
-use containerd_shim as shim;
 use containerd_shim_wasm::sandbox::error::Error;
-use containerd_shim_wasm::sandbox::instance::EngineGetter;
-use containerd_shim_wasm::sandbox::{exec, oci};
-use containerd_shim_wasm::sandbox::Instance;
-use containerd_shim_wasm::sandbox::{instance::InstanceConfig, ShimCli};
-use log::{error, info};
-use openssl_sys::{dup, dup2, SIGINT, SIGKILL, STDERR_FILENO, STDIN_FILENO, STDOUT_FILENO};
-
-use tokio::runtime::Runtime;
+use containerd_shim_wasm::sandbox::exec;
+use containerd_shim_wasm::sandbox::oci;
+use containerd_shim_wasm::sandbox::{EngineGetter, Instance, InstanceConfig};
+use libc::{dup, dup2, SIGINT, SIGKILL, STDERR_FILENO, STDIN_FILENO, STDOUT_FILENO};
+use log::{debug, error};
+use std::fs::OpenOptions;
+use std::io::ErrorKind;
+use std::os::unix::io::{IntoRawFd, RawFd};
+use std::path::Path;
+use std::sync::{
+    mpsc::Sender,
+    {Arc, Condvar, Mutex},
+};
+use std::thread;
+use wasmedge_sdk::{
+    config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions},
+    params, PluginManager, Vm,
+};
 
 type ExitCode = Arc<(Mutex<Option<(u32, DateTime<Utc>)>>, Condvar)>;
 pub struct Wasi {
@@ -30,6 +31,27 @@ pub struct Wasi {
     shutdown_signal: Arc<(Mutex<bool>, Condvar)>,
 }
 
+
+fn load_spec(bundle: String) -> Result<oci::Spec, Error> {
+    let mut spec = oci::load(Path::new(&bundle).join("config.json").to_str().unwrap())?;
+    spec.canonicalize_rootfs(&bundle)
+        .map_err(|e| Error::Others(format!("error canonicalizing rootfs in spec: {}", e)))?;
+    Ok(spec)
+}
+
+pub fn reset_stdio() {
+    unsafe {
+        if STDIN_FD.is_some() {
+            dup2(STDIN_FD.unwrap(), STDIN_FILENO);
+        }
+        if STDOUT_FD.is_some() {
+            dup2(STDOUT_FD.unwrap(), STDOUT_FILENO);
+        }
+        if STDERR_FD.is_some() {
+            dup2(STDERR_FD.unwrap(), STDERR_FILENO);
+        }
+    }
+}
 
 pub fn prepare_module(mut vm: Vm, spec: &oci::Spec, stdin_path: String, stdout_path: String, stderr_path: String, ) -> Result<Vm, WasmRuntimeError> {
     info!("opening rootfs");
