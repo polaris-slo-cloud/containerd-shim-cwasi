@@ -1,11 +1,11 @@
 use anyhow::Context;
 use chrono::{DateTime, Utc};
 use containerd_shim_wasm::sandbox::error::Error;
-use containerd_shim_wasm::sandbox::exec;
+use containerd_shim_wasm::sandbox::{exec, shim, ShimCli};
 use containerd_shim_wasm::sandbox::oci;
 use containerd_shim_wasm::sandbox::{EngineGetter, Instance, InstanceConfig};
 use libc::{dup, dup2, SIGINT, SIGKILL, STDERR_FILENO, STDIN_FILENO, STDOUT_FILENO};
-use log::{debug, error};
+use log::{debug, error, info};
 use std::fs::OpenOptions;
 use std::io::ErrorKind;
 use std::os::unix::io::{IntoRawFd, RawFd};
@@ -15,6 +15,7 @@ use std::sync::{
     {Arc, Condvar, Mutex},
 };
 use std::thread;
+//use openssl_sys::{dup2, STDERR_FILENO, STDIN_FILENO, STDOUT_FILENO};
 use wasmedge_sdk::{
     config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions},
     params, PluginManager, Vm,
@@ -142,7 +143,7 @@ impl Instance for Wasi {
 
         info!(" >>> loading module: {}", mod_path.display());
         let spec = load_spec(self.bundle.clone())?;
-        info!(" >>> loading module: {}", &spec);
+        //info!(" >>> loading module: {}", spec);
         let vm = prepare_module(engine, &spec, stdin, stdout, stderr)
             .map_err(|e| Error::Others(format!("error setting up module: {}", e)))?;
 
