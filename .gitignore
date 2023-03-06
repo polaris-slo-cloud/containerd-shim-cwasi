@@ -1,0 +1,10 @@
+bin/
+test/out/img.tar
+**/target/
+!crates/wasmedge/src/bin/
+!crates/wasmtime/src/bin/
+test/k8s/_out
+release/
+.idea/
+.DS_Store
+Cargo.lock
