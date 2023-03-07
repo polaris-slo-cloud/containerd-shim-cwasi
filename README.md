@@ -1,5 +1,8 @@
 # "CWASI" Containerd shim
 
+WIP: Should be able to span containers and wasm modules
+
+Based: https://github.com/keniack/runwasi/tree/main/crates/containerd-shim-wasmedge
 
 Build
 ```
