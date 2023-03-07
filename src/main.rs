@@ -1,11 +1,11 @@
 use anyhow::Context;
 use chrono::{DateTime, Utc};
 use containerd_shim_wasm::sandbox::error::Error;
-use containerd_shim_wasm::sandbox::{exec, shim, ShimCli};
+use containerd_shim_wasm::sandbox::{exec, ShimCli};
 use containerd_shim_wasm::sandbox::oci;
 use containerd_shim_wasm::sandbox::{EngineGetter, Instance, InstanceConfig};
 use libc::{dup, dup2, SIGINT, SIGKILL, STDERR_FILENO, STDIN_FILENO, STDOUT_FILENO};
-use log::{debug, error, info};
+use log::{error, info};
 use std::fs::OpenOptions;
 use std::io::ErrorKind;
 use std::os::unix::io::{IntoRawFd, RawFd};
@@ -15,21 +15,29 @@ use std::sync::{
     {Arc, Condvar, Mutex},
 };
 use std::thread;
-//use openssl_sys::{dup2, STDERR_FILENO, STDIN_FILENO, STDOUT_FILENO};
 use wasmedge_sdk::{
     config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions},
     params, PluginManager, Vm,
 };
+use containerd_shim_cwasi::error::WasmRuntimeError;
 
-type ExitCode = Arc<(Mutex<Option<(u32, DateTime<Utc>)>>, Condvar)>;
+use containerd_shim_cwasi::oci_utils;
+
+static mut STDIN_FD: Option<RawFd> = None;
+static mut STDOUT_FD: Option<RawFd> = None;
+static mut STDERR_FD: Option<RawFd> = None;
+
+type ExitCode = (Mutex<Option<(u32, DateTime<Utc>)>>, Condvar);
 pub struct Wasi {
-    exit_code: ExitCode,
-    id: String,
+    exit_code: Arc<ExitCode>,
+    engine: Vm,
+
     stdin: String,
     stdout: String,
     stderr: String,
     bundle: String,
-    shutdown_signal: Arc<(Mutex<bool>, Condvar)>,
+
+    pidfd: Arc<Mutex<Option<exec::PidFD>>>,
 }
 
 
@@ -53,6 +61,20 @@ pub fn reset_stdio() {
         }
     }
 }
+
+pub fn maybe_open_stdio(path: &str) -> Result<Option<RawFd>, Error> {
+    if path.is_empty() {
+        return Ok(None);
+    }
+    match OpenOptions::new().read(true).write(true).open(path) {
+        Ok(f) => Ok(Some(f.into_raw_fd())),
+        Err(err) => match err.kind() {
+            ErrorKind::NotFound => Ok(None),
+            _ => Err(err.into()),
+        },
+    }
+}
+
 
 pub fn prepare_module(mut vm: Vm, spec: &oci::Spec, stdin_path: String, stdout_path: String, stderr_path: String, ) -> Result<Vm, WasmRuntimeError> {
     info!("opening rootfs");
@@ -117,31 +139,29 @@ pub fn prepare_module(mut vm: Vm, spec: &oci::Spec, stdin_path: String, stdout_p
 }
 
 impl Instance for Wasi {
-    type E = ();
-    fn new(id: String, cfg: Option<&InstanceConfig<Self::E>>) -> Self {
+    type E = Vm;
+    fn new(_id: String, cfg: Option<&InstanceConfig<Self::E>>) -> Self {
         info!(">>> new instance");
         let cfg = cfg.unwrap();
         Wasi {
             exit_code: Arc::new((Mutex::new(None), Condvar::new())),
-            id,
+            engine: cfg.get_engine(),
             stdin: cfg.get_stdin().unwrap_or_default(),
             stdout: cfg.get_stdout().unwrap_or_default(),
             stderr: cfg.get_stderr().unwrap_or_default(),
             bundle: cfg.get_bundle().unwrap_or_default(),
-            shutdown_signal: Arc::new((Mutex::new(false), Condvar::new())),
+            pidfd: Arc::new(Mutex::new(None)),
         }
     }
 
     fn start(&self) -> Result<u32, Error> {
         info!(">>> shim starts");
-        info!(" >>> loading module: {}", mod_path.display());
         log::info!(" >>> server shut down: exiting");
         let engine = self.engine.clone();
         let stdin = self.stdin.clone();
         let stdout = self.stdout.clone();
         let stderr = self.stderr.clone();
 
-        info!(" >>> loading module: {}", mod_path.display());
         let spec = load_spec(self.bundle.clone())?;
         //info!(" >>> loading module: {}", spec);
         let vm = prepare_module(engine, &spec, stdin, stdout, stderr)
@@ -257,5 +277,7 @@ impl EngineGetter for Wasi {
 }
 
 fn main() {
-    shim::run::<ShimCli<Wasi, _>>("io.containerd.cwasi.v1", None);
+    containerd_shim::run::<ShimCli<Wasi, wasmedge_sdk::Vm>>("io.containerd.cwasi.v1", None);
+    //containerd_shim::run::<ShimCli<Wasi, _>>("io.containerd.cwasi.v1", None);
+    //shim::run::<ShimCli<WasiInstance, wasmedge_sdk::Vm>>("io.containerd.wasmedge.v1", None);
 }

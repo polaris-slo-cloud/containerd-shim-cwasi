@@ -6,19 +6,17 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-chrono = "~0.4"
-clap = { version = "3.1.15", features = ["derive", "env"] }
-containerd-shim = "~0.3"
-containerd-shim-wasm = { git = "https://github.com/containerd/runwasi", branch = "main" }
-log = "~0.4"
-tokio = { version = "1", features = [ "full" ] }
-tokio-util = { version = "0.6.10", features = [ "codec" ]}
-#wasmtime = "0.39"
-toml = "0.5"
-tracing-subscriber = { version = "0.3", features = ["env-filter"] }
-tracing = { version = "0.1", features = ["log"] }
-openssl = { version = "0.10", features = ["vendored"] }
-libc = "0.2"
+containerd-shim = "0.3.0"
+containerd-shim-wasm = "0.1.1"
+log = "0.4.17"
+ttrpc = "0.7.1"
+chrono = "0.4.23"
+anyhow = "1.0.69"
+cap-std = "1.0.5"
+oci-spec = { version = "0.6.0", features = ["runtime"] }
+thiserror = "1.0.39"
+serde_json = "1.0.94"
+libc = "0.2.138"
 wasmedge-sdk = { version = "0.7.1", features = ["async"] }
 
 [dependencies.openssl-sys]
