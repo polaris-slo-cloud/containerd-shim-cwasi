@@ -229,6 +229,7 @@ impl Instance for Wasi {
     }
 
     fn delete(&self) -> Result<(), Error> {
+        info!("delete");
         let spec = match load_spec(self.bundle.clone()) {
             Ok(spec) => spec,
             Err(err) => {
@@ -242,6 +243,7 @@ impl Instance for Wasi {
     }
 
     fn wait(&self, channel: Sender<(u32, DateTime<Utc>)>) -> Result<(), Error> {
+        info!("wait");
         let code = self.exit_code.clone();
         thread::spawn(move || {
             let (lock, cvar) = &*code;
@@ -260,6 +262,7 @@ impl Instance for Wasi {
 impl EngineGetter for Wasi {
     type E = Vm;
     fn new_engine() -> Result<Vm, Error> {
+        info!("new engine");
         PluginManager::load_from_default_paths();
         let mut host_options = HostRegistrationConfigOptions::default();
         host_options = host_options.wasi(true);
@@ -278,6 +281,4 @@ impl EngineGetter for Wasi {
 
 fn main() {
     containerd_shim::run::<ShimCli<Wasi, wasmedge_sdk::Vm>>("io.containerd.cwasi.v1", None);
-    //containerd_shim::run::<ShimCli<Wasi, _>>("io.containerd.cwasi.v1", None);
-    //shim::run::<ShimCli<WasiInstance, wasmedge_sdk::Vm>>("io.containerd.wasmedge.v1", None);
 }
