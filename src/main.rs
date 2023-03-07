@@ -132,7 +132,7 @@ pub fn prepare_module(mut vm: Vm, spec: &oci::Spec, stdin_path: String, stdout_p
 
     let mod_path = oci::get_root(spec).join(cmd);
 
-    info!("register module from file");
+    info!("register module from file {:?}",mod_path);
     let vm = vm.register_module_from_file("main", mod_path)?;
 
     Ok(vm)
@@ -156,17 +156,17 @@ impl Instance for Wasi {
 
     fn start(&self) -> Result<u32, Error> {
         info!(">>> shim starts");
-        log::info!(" >>> server shut down: exiting");
         let engine = self.engine.clone();
         let stdin = self.stdin.clone();
         let stdout = self.stdout.clone();
         let stderr = self.stderr.clone();
 
         let spec = load_spec(self.bundle.clone())?;
-        //info!(" >>> loading module: {}", spec);
+        info!("bundle path {:?}", self.bundle.as_str());
+        info!("loading specs {:?}", spec);
         let vm = prepare_module(engine, &spec, stdin, stdout, stderr)
             .map_err(|e| Error::Others(format!("error setting up module: {}", e)))?;
-
+        info!("vm created");
         let cg = oci::get_cgroup(&spec)?;
 
         oci::setup_cgroup(cg.as_ref(), &spec)

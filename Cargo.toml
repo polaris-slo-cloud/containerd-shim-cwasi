@@ -18,3 +18,7 @@ thiserror = "1.0.39"
 serde_json = "1.0.94"
 libc = "0.2.138"
 wasmedge-sdk = { version = "0.7.1", features = ["async"] }
+
+[[bin]]
+name = "containerd-shim-cwasi-v1"
+path = "src/main.rs"
