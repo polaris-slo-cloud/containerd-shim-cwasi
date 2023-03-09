@@ -12,16 +12,12 @@ pub mod my_math_lib {
 
 fn main() {
     println!("Greetings from  alice wasm-app!");
-    //let args: Vec<String> = std::env::args().collect();
-    //println!("args: {:?}", args);
+    let args: Vec<String> = std::env::args().collect();
+    println!("args: {:?}", args);
 
-    //let num1: i32 = args[1].parse().unwrap();
-    //let num2: i32 = args[2].parse().unwrap();
+    let num1: i32 = args[1].parse().unwrap();
+    let num2: i32 = args[2].parse().unwrap();
 
-    let num1: i32 = 5;
-    let num2: i32 = 7;
-
-    println!("before calling my_math_lib");
     let result = add(num1,num2);
-    println!("after calling my_math_lib {}",result);
+    println!("Result {}",result);
 }
