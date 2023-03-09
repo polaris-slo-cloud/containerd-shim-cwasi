@@ -1,0 +1,2 @@
+[workspace]
+members = ["alice-wasm-app", "bob-wasm-lib", "host-app"]

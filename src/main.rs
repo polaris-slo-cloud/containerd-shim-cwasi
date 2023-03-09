@@ -14,14 +14,13 @@ use std::sync::{
     mpsc::Sender,
     {Arc, Condvar, Mutex},
 };
-use std::thread;
-use wasmedge_sdk::{
-    config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions},
-    params, PluginManager, Vm,
-};
+use std::{thread};
+use wasmedge_sdk::{config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions}, params, PluginManager, Vm};
 use containerd_shim_cwasi::error::WasmRuntimeError;
-
+use regex::Regex;
 use containerd_shim_cwasi::oci_utils;
+use itertools::Itertools;
+use walkdir::WalkDir;
 
 static mut STDIN_FD: Option<RawFd> = None;
 static mut STDOUT_FD: Option<RawFd> = None;
@@ -43,6 +42,10 @@ pub struct Wasi {
 
 fn load_spec(bundle: String) -> Result<oci::Spec, Error> {
     let mut spec = oci::load(Path::new(&bundle).join("config.json").to_str().unwrap())?;
+    let binding = Path::new(&bundle).join("config.json");
+    let path = binding.as_path();
+    let spec_string = std::fs::read_to_string(&path).unwrap();
+    info!("full specs {:?}",spec_string);
     spec.canonicalize_rootfs(&bundle)
         .map_err(|e| Error::Others(format!("error canonicalizing rootfs in spec: {}", e)))?;
     Ok(spec)
@@ -87,15 +90,9 @@ pub fn prepare_module(mut vm: Vm, spec: &oci::Spec, stdin_path: String, stdout_p
     preopens.append(&mut mounts);
 
     let args = oci::get_args(spec);
+    info!("args {:?}", args);
     let envs = oci_utils::env_to_wasi(spec);
-
-    info!("setting up wasi");
-    let mut wasi_instance = vm.wasi_module()?;
-    wasi_instance.initialize(
-        Some(args.iter().map(|s| s as &str).collect()),
-        Some(envs.iter().map(|s| s as &str).collect()),
-        Some(preopens),
-    );
+    info!("envs {:?}", envs);
 
     info!("opening stdin");
     let stdin = maybe_open_stdio(&stdin_path).context("could not open stdin")?;
@@ -131,11 +128,50 @@ pub fn prepare_module(mut vm: Vm, spec: &oci::Spec, stdin_path: String, stdout_p
     }
 
     let mod_path = oci::get_root(spec).join(cmd);
+    info!("register orig module from file {:?}",mod_path);
+    let mod_path_print = mod_path.clone();
+    let additional_modules = extract_modules_from_wat(mod_path_print.as_path());
+    for module_path in additional_modules {
+        let additional_module = Path::new(module_path.as_str());
+        let module_name = additional_module.file_name().unwrap().to_str().unwrap().replace(".wasm","");
+        info!("additional module name {:?} {:?}",module_name, module_path);
+        vm = vm.clone().register_module_from_file(module_name,additional_module)?;
+    }
 
-    info!("register module from file {:?}",mod_path);
-    let vm = vm.register_module_from_file("main", mod_path)?;
+    info!("setting up wasi");
+    let mut wasi_instance = vm.wasi_module()?;
+    wasi_instance.initialize(
+        Some(args.iter().map(|s| s as &str).collect()),
+        Some(envs.iter().map(|s| s as &str).collect()),
+        Some(preopens),
+    );
 
+    let vm= vm.register_module_from_file("main", mod_path)?;
+    info!("module registered");
     Ok(vm)
+}
+
+pub fn extract_modules_from_wat(path: &Path) -> Vec<String>{
+    let mod_wat = wasmprinter::print_file(path).unwrap();
+    //info!("module wat {:?}",mod_wat);
+    let re = Regex::new(r#"\bimport\s+\S+"#).unwrap();
+    let matches = re.find_iter(mod_wat.as_str()).map(|s| s.as_str()).unique().collect_vec();
+    let mut modules: Vec<String> = vec![];
+    for cap in matches {
+        let module = cap.replace("import ","").replace("\"","") + ".wasm";
+        modules.push(module.to_string());
+    }
+    info!("extracted import modules from wat {:#?}", modules);
+    let mut modules_path: Vec<String> = vec![];
+    for file in WalkDir::new("/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots").into_iter().filter_map(|file| file.ok()) {
+        let file_name = file.file_name().to_str().unwrap();
+        if file.metadata().unwrap().is_file() && modules.contains(&file_name.to_string()){
+            modules_path.push(file.path().display().to_string());
+            info!("Secondary module found: {}", file.path().display());
+        }
+    }
+    info!("Modules path: {:#?}",modules_path);
+    return modules_path;
 }
 
 impl Instance for Wasi {
@@ -205,6 +241,7 @@ impl Instance for Wasi {
 
                 // TODO: How to get exit code?
                 // This was relatively straight forward in go, but wasi and wasmtime are totally separate things in rust.
+
                 let _ret = match vm.run_func(Some("main"), "_start", params!()) {
                     Ok(_) => std::process::exit(0),
                     Err(_) => std::process::exit(137),

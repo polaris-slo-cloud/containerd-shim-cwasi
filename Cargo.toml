@@ -18,6 +18,10 @@ thiserror = "1.0.39"
 serde_json = "1.0.94"
 libc = "0.2.138"
 wasmedge-sdk = { version = "0.7.1", features = ["async"] }
+wasmprinter = "0.2.53"
+regex = "1.7.1"
+itertools = "0.10.5"
+walkdir = "2"
 
 [[bin]]
 name = "containerd-shim-cwasi-v1"
