@@ -6,5 +6,6 @@ test/out/img.tar
 test/k8s/_out
 release/
 .idea/
+**/idea/
 .DS_Store
-Cargo.lock
+**Cargo.lock
