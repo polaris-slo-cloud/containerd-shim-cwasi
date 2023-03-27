@@ -9,3 +9,8 @@ edition = "2021"
 wasmedge-sdk = "0.7.1"
 anyhow = "1.0.70"
 regex = "1.7.1"
+redis =  "0.19.0"
+hostname = "0.3.1"
+serde_json = "*"
+serde = {version = "*", features = ["derive"]}
+uuid = {version = "0.8.2", features = ["v4"]}

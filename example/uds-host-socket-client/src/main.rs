@@ -1,3 +1,7 @@
+mod redis_utils;
+mod message;
+
+use uuid::Uuid;
 use std::io::{Read, Write};
 use regex::Regex;
 use std::os::unix::net::{UnixStream};
@@ -7,20 +11,43 @@ use wasmedge_sdk::config::{CommonConfigOptions, ConfigBuilder, HostRegistrationC
 
 #[host_function]
 fn my_add_host(_caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmValue>, HostFuncError> {
-    let a = input[0].to_i32();
-    let b = input[1].to_i32();
+    let fn_id = input[0].to_i32();
+    let fn_input = input[1].to_i32();
+    let ext_fn_result:i32;
+    let hostname = hostname::get().unwrap().to_str().unwrap();
+    //check if the function is running locally
+    if redis_utils::read(fn_id.to_string()).eq_ignore_ascii_case(hostname) {
+        println!("Called from module fnA with input {} and {}",fn_id, fn_input);
+        ext_fn_result = connect_unix_socket(fn_id+fn_input).unwrap();
+    } else {
+        ext_fn_result = connect_to_queue(fn_id, fn_input);
+    }
 
-    println!("Called from module fnA with input {} and {}",a, b);
-    let c = connect_unix_socket(a+b).unwrap();
-    let result = a + b + c;
+    let result = fn_id + fn_input + ext_fn_result;
 
-    println!("Resume function A with result {} + {} + {} = {}",a,b,c,result);
+    println!("Resume function A with result {} + {} + {} = {}",fn_id,fn_input,ext_fn_result,result);
     Ok(vec![WasmValue::from_i32(result)])
 }
 
+fn connect_to_queue(fn_id :i32, fn_input:i32) -> i32{
+    let result:i32 =0;
+    let fn_source_id = Uuid::new_v4().to_simple().to_string();
+
+    redis_utils::publish_message(
+        message::Message::new(fn_source_id,
+                              fn_id.to_string(),fn_input));
+
+    redis_utils::subscribe(fn_source_id);
+
+
+    return result;
+}
+
 fn connect_unix_socket(input_fn_a:i32)-> Result<i32, Error> {
+    //connect to socket
     let mut stream = UnixStream::connect("../uds-host-socket-server/my_socket.sock").unwrap();
     let input_fn_b = format!("Data input from fn A {} \n", input_fn_a);
+    //write request in the socket
     stream.write_all(input_fn_b.as_bytes()).unwrap();
     let mut response = String::new();
     stream.read_to_string(&mut response)?;
