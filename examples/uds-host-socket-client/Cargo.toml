@@ -11,6 +11,7 @@ anyhow = "1.0.70"
 regex = "1.7.1"
 redis =  "0.19.0"
 hostname = "0.3.1"
-serde_json = "*"
-serde = {version = "*", features = ["derive"]}
+serde = { version= "1.0.159", features = ["derive"]}
+serde_json = "1.0.95"
+serde_derive = "1.0.159"
 uuid = {version = "0.8.2", features = ["v4"]}

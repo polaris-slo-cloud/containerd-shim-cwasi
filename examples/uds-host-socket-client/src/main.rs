@@ -14,9 +14,10 @@ fn my_add_host(_caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmValue>,
     let fn_id = input[0].to_i32();
     let fn_input = input[1].to_i32();
     let ext_fn_result:i32;
-    let hostname = hostname::get().unwrap().to_str().unwrap();
+    let hostname = hostname::get().unwrap();
+    let hostname_str = hostname.to_str().unwrap();
     //check if the function is running locally
-    if redis_utils::read(fn_id.to_string()).eq_ignore_ascii_case(hostname) {
+    if redis_utils::read(&fn_id.to_string()).eq_ignore_ascii_case(hostname_str) {
         println!("Called from module fnA with input {} and {}",fn_id, fn_input);
         ext_fn_result = connect_unix_socket(fn_id+fn_input).unwrap();
     } else {
@@ -33,11 +34,11 @@ fn connect_to_queue(fn_id :i32, fn_input:i32) -> i32{
     let result:i32 =0;
     let fn_source_id = Uuid::new_v4().to_simple().to_string();
 
-    redis_utils::publish_message(
-        message::Message::new(fn_source_id,
+    let _ = redis_utils::publish_message(
+        message::Message::new(fn_source_id.to_string(),
                               fn_id.to_string(),fn_input));
 
-    redis_utils::subscribe(fn_source_id);
+    redis_utils::subscribe(&fn_source_id);
 
 
     return result;

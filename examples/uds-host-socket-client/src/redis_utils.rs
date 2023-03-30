@@ -1,5 +1,6 @@
 extern crate redis;
 
+
 use std::error::Error;
 use redis::Commands;
 use crate::message::Message;
@@ -19,7 +20,7 @@ fn connect() -> redis::Connection {
         .expect("failed to connect to Redis")
 }
 
-pub fn read(key: String) -> String {
+pub fn read(key: &String) -> String {
     let mut conn = connect();
 
     let value: String = redis::cmd("GET")
@@ -30,7 +31,7 @@ pub fn read(key: String) -> String {
     return value;
 }
 
-pub fn set(key: String, value: String) {
+pub fn set(key: &str, value: &str) {
     let mut conn = connect();
 
     let _: () = redis::cmd("SET")
@@ -43,7 +44,7 @@ pub fn set(key: String, value: String) {
 
 pub fn publish_message(message: Message) -> Result<(), Box<dyn Error>> {
     let mut con = connect();
-    let json = serde_json::to_string(&message);
+    let json = serde_json::to_string(&message).unwrap();
 
     con.publish(message.channel, json)?;
     println!("Published message: {}",message.payload);
@@ -51,14 +52,15 @@ pub fn publish_message(message: Message) -> Result<(), Box<dyn Error>> {
 }
 
 
-pub fn subscribe(channel: String) -> i32 {
-    let mut pubsub = connect().as_pubsub();
+pub fn subscribe(channel: &str) -> i32 {
+    let mut connection = connect();
+    let mut pubsub = connection.as_pubsub();
     pubsub.subscribe(channel).unwrap();
     println!("Subscribed to channel: {}", channel);
     let msg = pubsub.get_message().unwrap();
     let payload: String = msg.get_payload().unwrap();
     println!("Received message: {}", payload);
-    //let message_obj = serde_json::from_str::<Message>(&payload).unwrap();
-    let message_obj: Message = serde_json::from_str(&payload).unwrap();
+    let message_obj = serde_json::from_str::<Message>(&payload).unwrap();
+    //let message_obj: Message = serde_json::from_str(&payload).unwrap();
     return message_obj.payload;
 }
