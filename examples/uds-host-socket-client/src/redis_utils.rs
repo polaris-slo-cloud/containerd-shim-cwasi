@@ -11,7 +11,7 @@ fn connect() -> redis::Connection {
         env::var("REDIS_HOSTNAME").expect("missing environment variable REDIS_HOSTNAME");
      */
 
-    let redis_conn_url = format!("http://127.0.0.1");
+    let redis_conn_url = format!("redis://127.0.0.1");
     //println!("{}", redis_conn_url);
 
     redis::Client::open(redis_conn_url)
@@ -20,14 +20,18 @@ fn connect() -> redis::Connection {
         .expect("failed to connect to Redis")
 }
 
-pub fn read(key: &String) -> String {
+pub fn read(key: &str) -> String {
     let mut conn = connect();
+    let key_str= key.clone();
 
-    let value: String = redis::cmd("GET")
-        .arg(key)
-        .query(&mut conn)
-        .expect(format!("failed to execute GET for '{}'", key).as_str());
-    println!("value for '{}' = {}", key,value);
+    let result = match conn.get(key_str) {
+        Ok(val) => val,
+        Ok(None) => Some(String::new()),
+        Err(e) => panic!("Error getting value: {}", e),
+    };
+    let value = result.unwrap_or("".to_owned());
+
+    println!("KVS value for '{}' = {}", key_str,value);
     return value;
 }
 
@@ -45,9 +49,10 @@ pub fn set(key: &str, value: &str) {
 pub fn publish_message(message: Message) -> Result<(), Box<dyn Error>> {
     let mut con = connect();
     let json = serde_json::to_string(&message).unwrap();
+    let payload = json.as_str();
 
-    con.publish(message.channel, json)?;
-    println!("Published message: {}",message.payload);
+    con.publish(message.channel, payload)?;
+    println!("Published message: {}",payload);
     Ok(())
 }
 
@@ -55,12 +60,17 @@ pub fn publish_message(message: Message) -> Result<(), Box<dyn Error>> {
 pub fn subscribe(channel: &str) -> i32 {
     let mut connection = connect();
     let mut pubsub = connection.as_pubsub();
+
     pubsub.subscribe(channel).unwrap();
     println!("Subscribed to channel: {}", channel);
+    // set timeouts in seconds
+    pubsub.set_read_timeout(Some(std::time::Duration::new(60, 0))).unwrap();
+
     let msg = pubsub.get_message().unwrap();
     let payload: String = msg.get_payload().unwrap();
     println!("Received message: {}", payload);
-    let message_obj = serde_json::from_str::<Message>(&payload).unwrap();
-    //let message_obj: Message = serde_json::from_str(&payload).unwrap();
+
+    let message_obj: Message = serde_json::from_str(&payload).unwrap();
+
     return message_obj.payload;
 }

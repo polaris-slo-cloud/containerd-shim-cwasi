@@ -12,12 +12,14 @@ use wasmedge_sdk::config::{CommonConfigOptions, ConfigBuilder, HostRegistrationC
 #[host_function]
 fn my_add_host(_caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmValue>, HostFuncError> {
     let fn_id = input[0].to_i32();
+    let fn_id_str = fn_id.to_string();
+
     let fn_input = input[1].to_i32();
     let ext_fn_result:i32;
     let hostname = hostname::get().unwrap();
     let hostname_str = hostname.to_str().unwrap();
     //check if the function is running locally
-    if redis_utils::read(&fn_id.to_string()).eq_ignore_ascii_case(hostname_str) {
+    if redis_utils::read(fn_id_str.as_str()).eq_ignore_ascii_case(hostname_str) {
         println!("Called from module fnA with input {} and {}",fn_id, fn_input);
         ext_fn_result = connect_unix_socket(fn_id+fn_input).unwrap();
     } else {
@@ -30,16 +32,17 @@ fn my_add_host(_caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmValue>,
     Ok(vec![WasmValue::from_i32(result)])
 }
 
-fn connect_to_queue(fn_id :i32, fn_input:i32) -> i32{
+fn connect_to_queue(fn_id :i32, fn_target_input:i32) -> i32{
     let result:i32 =0;
+    let fn_target_id_str = fn_id.to_string();
     let fn_source_id = Uuid::new_v4().to_simple().to_string();
+    let fn_source_id_copy = fn_source_id.clone();
 
     let _ = redis_utils::publish_message(
-        message::Message::new(fn_source_id.to_string(),
-                              fn_id.to_string(),fn_input));
+        message::Message::new(fn_source_id,
+                              fn_target_id_str, fn_target_input));
 
-    redis_utils::subscribe(&fn_source_id);
-
+    redis_utils::subscribe(fn_source_id_copy.as_str());
 
     return result;
 }
