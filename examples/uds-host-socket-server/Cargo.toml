@@ -9,3 +9,7 @@ edition = "2021"
 wasmedge-sdk = "0.7.1"
 anyhow = "1.0.70"
 regex = "1.7.1"
+redis =  "0.19.0"
+serde = { version= "1.0.159", features = ["derive"]}
+serde_json = "1.0.95"
+serde_derive = "1.0.159"

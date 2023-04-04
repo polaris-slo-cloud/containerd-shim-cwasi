@@ -33,7 +33,6 @@ fn my_add_host(_caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmValue>,
 }
 
 fn connect_to_queue(fn_id :i32, fn_target_input:i32) -> i32{
-    let result:i32 =0;
     let fn_target_id_str = fn_id.to_string();
     let fn_source_id = Uuid::new_v4().to_simple().to_string();
     let fn_source_id_copy = fn_source_id.clone();
@@ -42,7 +41,7 @@ fn connect_to_queue(fn_id :i32, fn_target_input:i32) -> i32{
         message::Message::new(fn_source_id,
                               fn_target_id_str, fn_target_input));
 
-    redis_utils::subscribe(fn_source_id_copy.as_str());
+    let result = redis_utils::subscribe(fn_source_id_copy.as_str());
 
     return result;
 }

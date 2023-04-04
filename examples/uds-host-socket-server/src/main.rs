@@ -1,3 +1,5 @@
+mod message;
+mod redis_utils;
 use std::io::{BufRead, BufReader, Write};
 use std::os::unix::net::{UnixListener};
 use std::path::Path;
@@ -29,8 +31,21 @@ fn create_vm_and_load_module(input: &str) -> Result<i32, Box<dyn std::error::Err
     Ok(result)
 }
 
-fn main() -> Result<(), Box<dyn std::error::Error>> {
 
+fn create_server_socket()-> Result<(), Box<dyn std::error::Error>>{
+    //this is the fn id
+    let my_channel = "8";
+    let msg = redis_utils::subscribe(my_channel);
+    let input = msg.payload.to_string();
+    let result = create_vm_and_load_module(input.as_str()).unwrap();
+
+    let _ = redis_utils::publish_message(message::Message::new(my_channel.to_string(),
+                              msg.source_channel, result));
+
+    Ok(())
+}
+
+fn subscribe()-> Result<(), Box<dyn std::error::Error>>{
     let socket_path = Path::new("my_socket.sock");
     if socket_path.exists() {
         std::fs::remove_file(&socket_path).unwrap();
@@ -64,5 +79,11 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         Err(e) => println!("accept function failed: {:?}", e),
     }
 
+    Ok(())
+}
+
+
+fn main() -> Result<(), Box<dyn std::error::Error>> {
+    create_server_socket();
     Ok(())
 }

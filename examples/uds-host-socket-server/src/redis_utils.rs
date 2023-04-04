@@ -57,7 +57,7 @@ pub fn publish_message(message: Message) -> Result<(), Box<dyn Error>> {
 }
 
 
-pub fn subscribe(channel: &str) -> i32 {
+pub fn subscribe(channel: &str) -> Message {
     let mut connection = connect();
     let mut pubsub = connection.as_pubsub();
 
@@ -72,5 +72,5 @@ pub fn subscribe(channel: &str) -> i32 {
 
     let message_obj: Message = serde_json::from_str(&payload).unwrap();
 
-    return message_obj.payload;
+    return message_obj;
 }
