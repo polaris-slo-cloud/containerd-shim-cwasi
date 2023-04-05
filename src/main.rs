@@ -15,10 +15,10 @@ use std::sync::{
     {Arc, Condvar, Mutex},
 };
 use std::{thread};
-use wasmedge_sdk::{config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions}, params, PluginManager, Vm};
+use wasmedge_sdk::{config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions}, ImportObjectBuilder, params, PluginManager, Vm};
 use containerd_shim_cwasi::error::WasmRuntimeError;
 use regex::Regex;
-use containerd_shim_cwasi::oci_utils;
+use containerd_shim_cwasi::{host_func_connect, oci_utils};
 use itertools::Itertools;
 use walkdir::WalkDir;
 
@@ -146,7 +146,11 @@ pub fn prepare_module(mut vm: Vm, spec: &oci::Spec, stdin_path: String, stdout_p
         Some(preopens),
     );
 
-    let vm= vm.register_module_from_file("main", mod_path)?;
+    let import = ImportObjectBuilder::new()
+        .with_func::<(i32, i32), i32>("real_add", host_func_connect::func_connect)?
+        .build("my_math_lib")?;
+
+    let vm= vm.register_import_module(import)?.register_module_from_file("main", mod_path)?;
     info!("module registered");
     Ok(vm)
 }
