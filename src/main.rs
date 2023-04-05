@@ -246,6 +246,9 @@ impl Instance for Wasi {
                 // TODO: How to get exit code?
                 // This was relatively straight forward in go, but wasi and wasmtime are totally separate things in rust.
 
+                //TODO check for annotation to create server socket
+                //TODO create queue with functionId
+                spec.
                 let _ret = match vm.run_func(Some("main"), "_start", params!()) {
                     Ok(_) => std::process::exit(0),
                     Err(_) => std::process::exit(137),
