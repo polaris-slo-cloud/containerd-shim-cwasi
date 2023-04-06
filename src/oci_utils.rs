@@ -33,24 +33,10 @@ pub fn get_wasm_mounts(spec: &Spec) -> Vec<&str> {
 }
 
 pub fn get_wasm_annotations(spec: &Spec,annotation_key: &str) -> String {
-    //let value: &str;
-    /*let value = match spec.annotations().entry(annotation_key) {
-        Entry::Occupied(o) => o.into_mut(),
-        Entry::Vacant(v) => v.insert(String::new()),
-    };
-
-     */
     let annotations = &spec.annotations();
     let map = &spec.annotations().as_ref().unwrap();
     let myentry = map.get(annotation_key);
     let value: String = myentry.map_or_else(String::default, |s| s.to_owned());
-    /*if let Some(map) = &spec.annotations() {
-        let entry = map.get(annotation_key);
-        let empty = String::new();
-        value = entry.get_or_insert(empty);
-    }
-
-     */
     return value;
 }
 
