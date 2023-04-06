@@ -3,7 +3,7 @@ use regex::Regex;
 use std::os::unix::net::{UnixListener, UnixStream};
 use std::path::Path;
 use anyhow::Error;
-use wasmedge_sdk::{Vm};
+use wasmedge_sdk::{params, Vm};
 
 pub fn connect_unix_socket(input_fn_a:i32)-> Result<i32, Error> {
     //connect to socket
@@ -44,7 +44,7 @@ pub fn create_server_socket(mut vm: Vm)-> Result<(), Box<dyn std::error::Error>>
                     // Send a response back to the client
                     reader.into_inner();
                     // Call function Code here
-                    let result = call_vm_with_input(client_input).unwrap();
+                    let result = call_vm_with_input(vm,client_input).unwrap();
                     let client_response = format!("hello world from from fnB socket server. Result from Module B : {}",result);
                     socket.write_all(client_response.as_bytes())?;
 
@@ -58,12 +58,13 @@ pub fn create_server_socket(mut vm: Vm)-> Result<(), Box<dyn std::error::Error>>
     Ok(())
 }
 
-fn call_vm_with_input(mut vm: Vm,input: &str) -> Result<i32, Box<dyn std::error::Error>>{
+fn call_vm_with_input(vm: Vm,input: &str) -> Result<i32, Box<dyn std::error::Error>>{
     // create a new Vm with default config
     let re = Regex::new(r"\D+").unwrap();
     let num1: i32 = re.replace(&*input,"").to_string().parse().unwrap();
     let num2: i32 = 15;
-    let res = vm.run_func(Some("main"), "real_add", params!(num1,num2))?;
+    //let res = vm.run_func(Some("main"), "real_add", params!(num1,num2))?;
+    let res = vm.run_func(Some("main"), "real_add", params!())?;
     let result = res[0].to_i32();
     println!("FnB Shim Finished. Result from moduleB: {}",result);
 

@@ -18,7 +18,7 @@ use std::{thread};
 use wasmedge_sdk::{config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions}, ImportObjectBuilder, params, PluginManager, Vm};
 use containerd_shim_cwasi::error::WasmRuntimeError;
 use regex::Regex;
-use containerd_shim_cwasi::{host_func_connect, oci_utils};
+use containerd_shim_cwasi::{host_func_connect, oci_utils, socket_utils};
 use itertools::Itertools;
 use walkdir::WalkDir;
 
@@ -79,7 +79,7 @@ pub fn maybe_open_stdio(path: &str) -> Result<Option<RawFd>, Error> {
 }
 
 
-pub fn prepare_module(mut vm: Vm, spec: &oci::Spec, stdin_path: String, stdout_path: String, stderr_path: String, ) -> Result<Vm, WasmRuntimeError> {
+pub fn prepare_module(mut vm: Vm, spec: &oci::Spec, stdin_path: String, stdout_path: String, stderr_path: String ) -> Result<Vm, WasmRuntimeError> {
     info!("opening rootfs");
     let rootfs_path = oci::get_root(spec).to_str().unwrap();
     let root = format!("/:{}", rootfs_path);
@@ -248,11 +248,19 @@ impl Instance for Wasi {
 
                 //TODO check for annotation to create server socket
                 //TODO create queue with functionId
-                spec.
-                let _ret = match vm.run_func(Some("main"), "_start", params!()) {
-                    Ok(_) => std::process::exit(0),
-                    Err(_) => std::process::exit(137),
-                };
+                let primary_function = oci_utils::get_wasm_annotations(&spec,"cwasi.function.primary");
+
+                if primary_function == "true" {
+                    let _ret = match vm.run_func(Some("main"), "_start", params!()) {
+                        Ok(_) => std::process::exit(0),
+                        Err(_) => std::process::exit(137),
+                    };
+                }else {
+                    let _ret = socket_utils::create_server_socket(vm);
+                    //TODO process error handling
+                    Ok(0)
+                }
+
             }
         }
     }

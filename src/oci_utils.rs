@@ -1,4 +1,6 @@
+use std::collections::hash_map::Entry;
 use oci_spec::runtime::Spec;
+
 
 pub fn env_to_wasi(spec: &Spec) -> Vec<String> {
     let default = vec![];
@@ -12,26 +14,44 @@ pub fn env_to_wasi(spec: &Spec) -> Vec<String> {
     env.to_vec()
 }
 
-pub fn get_wasm_mounts(spec: &Spec,annotation_key: &str) -> Vec<&str> {
-    let annotations: Vec<&str> = match spec.mounts() {
-        Some(annotations) => annotations
+pub fn get_wasm_mounts(spec: &Spec) -> Vec<&str> {
+    let mounts: Vec<&str> = match spec.mounts() {
+        Some(mounts) => mounts
             .iter()
-            .filter_map(|annotation| {
-
-                if let Some(typ) = annotation.typ() {
-                    if annotation == "bind" || typ == "tmpfs" {
-                        return annotation.destination().to_str();
+            .filter_map(|mount| {
+                if let Some(typ) = mount.typ() {
+                    if typ == "bind" || typ == "tmpfs" {
+                        return mount.destination().to_str();
                     }
                 }
-
                 None
             })
             .collect(),
         _ => vec![],
     };
-    annotations
+    mounts
 }
 
-pub fn get_wasm_mounts(spec: &Spec) -> Vec<&str> {
+pub fn get_wasm_annotations(spec: &Spec,annotation_key: &str) -> String {
+    //let value: &str;
+    /*let value = match spec.annotations().entry(annotation_key) {
+        Entry::Occupied(o) => o.into_mut(),
+        Entry::Vacant(v) => v.insert(String::new()),
+    };
 
+     */
+    let annotations = &spec.annotations();
+    let map = &spec.annotations().as_ref().unwrap();
+    let myentry = map.get(annotation_key);
+    let value: String = myentry.map_or_else(String::default, |s| s.to_owned());
+    /*if let Some(map) = &spec.annotations() {
+        let entry = map.get(annotation_key);
+        let empty = String::new();
+        value = entry.get_or_insert(empty);
+    }
+
+     */
+    return value;
 }
+
+
