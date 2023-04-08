@@ -16,6 +16,7 @@ fn my_add_host(_caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmValue>,
 
     let fn_input = input[1].to_i32();
     let ext_fn_result:i32;
+    println!("Host func. From main app args {} {}",fn_id,fn_input);
     let hostname = hostname::get().unwrap();
     let hostname_str = hostname.to_str().unwrap();
     //check if the function is running locally
@@ -70,22 +71,23 @@ fn main() -> Result<(), Box<dyn std::error::Error>>{
     // create an import module
     let import = ImportObjectBuilder::new()
         .with_func::<(i32, i32), i32>("real_add", my_add_host)?
-        .build("my_math_lib")?;
+        .build("shim_host_func")?;
 
     // create a new Vm with default config
     let config = ConfigBuilder::new(CommonConfigOptions::default())
         .with_host_registration_config(HostRegistrationConfigOptions::default().wasi(true))
         .build()?;
 
-    let num1: i32 = 8;
-    let num2: i32 = 13;
+    let args: Vec<String> = std::env::args().collect();
+    let args_slice: Vec<&str> = args.iter().map(|s| s.as_str()).collect();
+
     let mut vm = Vm::new(Some(config))?;
 
-    vm.wasi_module()?.initialize(None, None, None);
+    vm.wasi_module()?.initialize(Some(args_slice), None, None);
 
     let res = vm.register_import_module(import)?
-    .register_module_from_file("extern", "app-fnA.wasm")?
-    .run_func(Some("extern"), "add", params!(num1, num2))?;
+    .register_module_from_file("main-app", "wasm-app/target/wasm32-wasi/release/wasm-app.wasm")?
+        .run_func(Some("main-app"), "_start", params!())?;
 
     println!("Result = {}", res[0].to_i32());
     Ok(())
