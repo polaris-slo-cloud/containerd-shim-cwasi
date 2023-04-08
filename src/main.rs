@@ -248,17 +248,20 @@ impl Instance for Wasi {
 
                 //TODO check for annotation to create server socket
                 //TODO create queue with functionId
-                let primary_function = oci_utils::get_wasm_annotations(&spec,"cwasi.function.primary");
+                let secondary_function = oci_utils::get_wasm_annotations(&spec, "cwasi.function.secondary");
 
-                if primary_function == "true" {
+                if secondary_function == "true" {
+                    let _ret = match socket_utils::create_server_socket(vm){
+                        Ok(_) => std::process::exit(0),
+                        Err(_) => std::process::exit(137),
+                    };
+                    //TODO process error handling
+                }else {
                     let _ret = match vm.run_func(Some("main"), "_start", params!()) {
                         Ok(_) => std::process::exit(0),
                         Err(_) => std::process::exit(137),
                     };
-                }else {
-                    let _ret = socket_utils::create_server_socket(vm);
-                    //TODO process error handling
-                    Ok(0)
+
                 }
 
             }

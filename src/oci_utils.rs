@@ -1,4 +1,3 @@
-use std::collections::hash_map::Entry;
 use oci_spec::runtime::Spec;
 
 
@@ -33,11 +32,14 @@ pub fn get_wasm_mounts(spec: &Spec) -> Vec<&str> {
 }
 
 pub fn get_wasm_annotations(spec: &Spec,annotation_key: &str) -> String {
-    let annotations = &spec.annotations();
-    let map = &spec.annotations().as_ref().unwrap();
-    let myentry = map.get(annotation_key);
-    let value: String = myentry.map_or_else(String::default, |s| s.to_owned());
-    return value;
+    if let Some(map) = &spec.annotations() {
+        if !map.is_empty() {
+            let my_entry = map.get(annotation_key);
+            let value: String = my_entry.map_or_else(String::default, |s| s.to_owned());
+            return value;
+        }
+    }
+    return String::new();
 }
 
 

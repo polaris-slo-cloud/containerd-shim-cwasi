@@ -23,7 +23,7 @@ pub fn connect_unix_socket(input_fn_a:i32)-> Result<i32, Error> {
 
 }
 
-pub fn create_server_socket(mut vm: Vm)-> Result<(), Box<dyn std::error::Error>>{
+pub fn create_server_socket(vm: Vm)-> Result<(), Box<dyn std::error::Error>>{
     let socket_path = Path::new("my_socket.sock");
     if socket_path.exists() {
         std::fs::remove_file(&socket_path).unwrap();
@@ -58,12 +58,24 @@ pub fn create_server_socket(mut vm: Vm)-> Result<(), Box<dyn std::error::Error>>
     Ok(())
 }
 
-fn call_vm_with_input(vm: Vm,input: &str) -> Result<i32, Box<dyn std::error::Error>>{
+fn call_vm_with_input(mut vm: Vm, input: &str) -> Result<i32, Box<dyn std::error::Error>>{
     // create a new Vm with default config
     let re = Regex::new(r"\D+").unwrap();
     let num1: i32 = re.replace(&*input,"").to_string().parse().unwrap();
     let num2: i32 = 15;
     //let res = vm.run_func(Some("main"), "real_add", params!(num1,num2))?;
+
+    println!("setting up wasi");
+    let my_strings: [&str; 2] = [&num1.to_string(), &num2.to_string()];
+    let my_vector: Vec<&str> = my_strings.to_vec();
+
+    // Set new arguments on the wasi instance
+    let mut wasi_instance = vm.wasi_module()?;
+    wasi_instance.initialize(
+        Some(my_vector),
+        Some(vec![]),
+        Some(vec![]),
+    );
     let res = vm.run_func(Some("main"), "real_add", params!())?;
     let result = res[0].to_i32();
     println!("FnB Shim Finished. Result from moduleB: {}",result);
