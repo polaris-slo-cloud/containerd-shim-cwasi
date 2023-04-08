@@ -128,7 +128,7 @@ pub fn prepare_module(mut vm: Vm, spec: &oci::Spec, stdin_path: String, stdout_p
     }
 
     let mod_path = oci::get_root(spec).join(cmd);
-    info!("register orig module from file {:?}",mod_path);
+    info!("register wasm app from file {:?}",mod_path);
     let mod_path_print = mod_path.clone();
     let additional_modules = extract_modules_from_wat(mod_path_print.as_path());
     for module_path in additional_modules {
