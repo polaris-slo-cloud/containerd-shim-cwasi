@@ -18,7 +18,6 @@ pub fn func_connect(_caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVa
     let socket_path: String;
 
     unsafe {
-        //println!("host func specs {:?}", &spec);
         external_fn_name = oci_utils::get_wasm_annotations(&OCI_SPEC.clone().unwrap(), ext_fn_id_str);
         //get string until 2nd last / occurrence
         let bundle_path = BUNDLE_PATH.clone().unwrap().rsplitn(3, '/').nth(2).unwrap().to_string()+"/";
