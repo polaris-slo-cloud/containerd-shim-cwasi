@@ -1,9 +1,11 @@
 use log::info;
 use oci_spec::runtime::Spec;
+use uuid::Uuid;
 use walkdir::WalkDir;
 use wasmedge_sdk::{Caller, WasmValue, host_function};
 use wasmedge_sdk::error::HostFuncError;
-use crate::{oci_utils, snapshot_utils, unix_socket};
+use crate::{oci_utils, redis_utils, snapshot_utils, unix_socket};
+use crate::message::Message;
 
 pub static mut OCI_SPEC:Option<Spec> = None;
 pub static mut BUNDLE_PATH:Option<String> = None;
@@ -25,8 +27,8 @@ pub fn func_connect(_caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVa
     }
     println!("Connect to fn Id {} Name {}",ext_fn_id_str,external_fn_name);
     //check if the function is running locally
-    let local_images_with_ext_fn_name = snapshot_utils::get_existing_image(vec![external_fn_name]);
-    if local_images_with_ext_fn_name.is_empty(){
+    //let local_images_with_ext_fn_name = snapshot_utils::get_existing_image(vec![external_fn_name]);
+    if socket_path.is_empty() {
         println!("No local fn found. Connect to queue");
         //ext_fn_result = connect_to_queue(fn_id, fn_input);
     }else {
@@ -38,6 +40,21 @@ pub fn func_connect(_caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVa
 
     println!("Resume function with result {} + {} + {} = {}",ext_fn_id,fn_input,ext_fn_result,result);
     Ok(vec![WasmValue::from_i32(result)])
+}
+
+
+fn connect_to_queue(fn_id :i32, fn_target_input:i32) -> i32{
+    let fn_target_id_str = fn_id.to_string();
+    let fn_source_id = Uuid::new_v4().to_simple().to_string();
+    let fn_source_id_copy = fn_source_id.clone();
+
+    let _ = redis_utils::publish_message(
+        Message::new(fn_source_id,
+                              fn_target_id_str, fn_target_input));
+
+    let result = redis_utils::subscribe(fn_source_id_copy.as_str());
+
+    return result;
 }
 
 
