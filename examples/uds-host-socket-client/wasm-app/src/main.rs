@@ -10,7 +10,8 @@ pub mod shim_host_func {
     }
 }
 
-fn main() {
+
+pub fn test() -> i32 {
     println!("Greetings from wasm-app!");
     let args: Vec<String> = std::env::args().collect();
     println!("args: {:?}", args);
@@ -20,4 +21,9 @@ fn main() {
 
     let result = add(num1,num2);
     println!("Result {}",result);
+    return result;
+}
+
+fn main(){
+    println!("main end {}",test());
 }

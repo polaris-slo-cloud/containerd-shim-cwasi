@@ -18,7 +18,7 @@ use std::{thread};
 use wasmedge_sdk::{config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions}, ImportObjectBuilder, params, PluginManager, Vm};
 use containerd_shim_cwasi::error::WasmRuntimeError;
 use regex::Regex;
-use containerd_shim_cwasi::{host_func_connect, oci_utils, socket_utils};
+use containerd_shim_cwasi::{host_func_connect, oci_utils, snapshot_utils, unix_socket};
 use itertools::Itertools;
 use walkdir::WalkDir;
 
@@ -35,21 +35,10 @@ pub struct Wasi {
     stdout: String,
     stderr: String,
     bundle: String,
-
     pidfd: Arc<Mutex<Option<exec::PidFD>>>,
 }
 
 
-fn load_spec(bundle: String) -> Result<oci::Spec, Error> {
-    let mut spec = oci::load(Path::new(&bundle).join("config.json").to_str().unwrap())?;
-    let binding = Path::new(&bundle).join("config.json");
-    let path = binding.as_path();
-    let spec_string = std::fs::read_to_string(&path).unwrap();
-    info!("full specs {:?}",spec_string);
-    spec.canonicalize_rootfs(&bundle)
-        .map_err(|e| Error::Others(format!("error canonicalizing rootfs in spec: {}", e)))?;
-    Ok(spec)
-}
 
 pub fn reset_stdio() {
     unsafe {
@@ -148,7 +137,7 @@ pub fn prepare_module(mut vm: Vm, spec: &oci::Spec, stdin_path: String, stdout_p
 
     let import = ImportObjectBuilder::new()
         .with_func::<(i32, i32), i32>("real_add", host_func_connect::func_connect)?
-        .build("my_math_lib")?;
+        .build("shim_host_func")?;
 
     let vm= vm.register_import_module(import)?.register_module_from_file("main", mod_path)?;
     info!("module registered");
@@ -166,14 +155,7 @@ pub fn extract_modules_from_wat(path: &Path) -> Vec<String>{
         modules.push(module.to_string());
     }
     info!("extracted import modules from wat {:#?}", modules);
-    let mut modules_path: Vec<String> = vec![];
-    for file in WalkDir::new("/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots").into_iter().filter_map(|file| file.ok()) {
-        let file_name = file.file_name().to_str().unwrap();
-        if file.metadata().unwrap().is_file() && modules.contains(&file_name.to_string()){
-            modules_path.push(file.path().display().to_string());
-            info!("Secondary module found: {}", file.path().display());
-        }
-    }
+    let mut modules_path: Vec<String> = snapshot_utils::get_existing_image(modules);
     info!("Modules path: {:#?}",modules_path);
     return modules_path;
 }
@@ -201,9 +183,14 @@ impl Instance for Wasi {
         let stdout = self.stdout.clone();
         let stderr = self.stderr.clone();
 
-        let spec = load_spec(self.bundle.clone())?;
-        info!("bundle path {:?}", self.bundle.as_str());
+        let spec = oci_utils::load_spec(self.bundle.clone())?;
+        let bundle_path = self.bundle.as_str();
+        info!("bundle path {:?}", bundle_path);
         info!("loading specs {:?}", spec);
+        unsafe {
+            crate::host_func_connect::OCI_SPEC=Some(spec.clone());
+            crate::host_func_connect::BUNDLE_PATH=Some(bundle_path.to_string());
+        }
         let vm = prepare_module(engine, &spec, stdin, stdout, stderr)
             .map_err(|e| Error::Others(format!("error setting up module: {}", e)))?;
         info!("vm created");
@@ -248,10 +235,12 @@ impl Instance for Wasi {
 
                 //TODO check for annotation to create server socket
                 //TODO create queue with functionId
-                let secondary_function = oci_utils::get_wasm_annotations(&spec, "cwasi.function.secondary");
-
+                let secondary_function = oci_utils::get_wasm_annotations(&spec, "cwasi.secondary.function");
+                println!("Secondary function {}",secondary_function);
                 if secondary_function == "true" {
-                    let _ret = match socket_utils::create_server_socket(vm){
+                    //let _ret = match socket_utils::create_server_socket(vm,bundle_path){
+                    let mut unix_socket = unix_socket::ShimSocket::new(bundle_path.to_string(), spec, vm);
+                    let _ret = match unix_socket.create_server_socket(){
                         Ok(_) => std::process::exit(0),
                         Err(_) => std::process::exit(137),
                     };
@@ -261,9 +250,7 @@ impl Instance for Wasi {
                         Ok(_) => std::process::exit(0),
                         Err(_) => std::process::exit(137),
                     };
-
                 }
-
             }
         }
     }
@@ -285,7 +272,7 @@ impl Instance for Wasi {
 
     fn delete(&self) -> Result<(), Error> {
         info!("delete");
-        let spec = match load_spec(self.bundle.clone()) {
+        let spec = match oci_utils::load_spec(self.bundle.clone()){
             Ok(spec) => spec,
             Err(err) => {
                 error!("Could not load spec, skipping cgroup cleanup: {}", err);
