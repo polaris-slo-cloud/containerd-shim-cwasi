@@ -20,7 +20,6 @@ use containerd_shim_cwasi::error::WasmRuntimeError;
 use regex::Regex;
 use containerd_shim_cwasi::{host_func_connect, oci_utils, snapshot_utils, unix_socket};
 use itertools::Itertools;
-use walkdir::WalkDir;
 
 static mut STDIN_FD: Option<RawFd> = None;
 static mut STDOUT_FD: Option<RawFd> = None;
@@ -155,7 +154,7 @@ pub fn extract_modules_from_wat(path: &Path) -> Vec<String>{
         modules.push(module.to_string());
     }
     info!("extracted import modules from wat {:#?}", modules);
-    let mut modules_path: Vec<String> = snapshot_utils::get_existing_image(modules);
+    let modules_path: Vec<String> = snapshot_utils::get_existing_image(modules);
     info!("Modules path: {:#?}",modules_path);
     return modules_path;
 }
@@ -233,7 +232,6 @@ impl Instance for Wasi {
                 // TODO: How to get exit code?
                 // This was relatively straight forward in go, but wasi and wasmtime are totally separate things in rust.
 
-                //TODO check for annotation to create server socket
                 //TODO create queue with functionId
                 let secondary_function = oci_utils::get_wasm_annotations(&spec, "cwasi.secondary.function");
                 println!("Secondary function {}",secondary_function);

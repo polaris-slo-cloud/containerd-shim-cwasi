@@ -15,7 +15,7 @@ pub struct ShimSocket {
 }
 
 impl ShimSocket {
-    pub fn new(bundle_path: String, oci_spec: Spec, mut vm:Vm) -> ShimSocket {
+    pub fn new(bundle_path: String, oci_spec: Spec, vm:Vm) -> ShimSocket {
         let my_mut_vm = Some(vm);
         ShimSocket {
             bundle_path,
@@ -56,7 +56,6 @@ impl ShimSocket {
             },
             Err(e) => println!("accept function failed: {:?}", e),
         }
-
         Ok(())
     }
 
@@ -72,14 +71,14 @@ impl ShimSocket {
         let my_vector: Vec<&str> = my_strings.to_vec();
 
         // Set new arguments on the wasi instance
-        let mut vm = self.vm.as_mut().unwrap();
+        let vm = self.vm.as_mut().unwrap();
         let mut wasi_instance = vm.wasi_module()?;
         wasi_instance.initialize(
             Some(my_vector),
             Some(vec![]),
             Some(vec![]),
         );
-        let res = vm.run_func(Some("main"), "add", params!())?;
+        let res = vm.run_func(Some("main"), "cwasi_function", params!())?;
         println!("Run func finished: {:?}",res);
         let result = res[0].to_i32();
         println!("FnB Shim Finished. Result from moduleB: {}",result);
@@ -106,66 +105,3 @@ pub fn connect_unix_socket(input_fn_a:i32, socket_path: String)-> Result<i32, Er
     Ok(i)
 
 }
-
-/*pub fn create_server_socket(vm: Vm, bundle_path: &str)-> Result<(), Box<dyn std::error::Error>>{
-    let binding = bundle_path.to_owned()+".sock";
-    let socket_path = Path::new(&binding);
-    if socket_path.exists() {
-        std::fs::remove_file(&socket_path).unwrap();
-    }
-
-    let listener = UnixListener::bind(&socket_path)?;
-    println!("Socket created successfully at {:?}", &socket_path);
-
-    match listener.accept() {
-        Ok((mut socket, _addr)) => {
-            // Read data from the socket stream
-            let mut reader = BufReader::new(socket.try_clone()?);
-            let mut line = String::new();
-            match reader.read_line(&mut line) {
-                Ok(_) => {
-                    let client_input = line.trim();
-                    println!("Received from client: {}", client_input);
-                    // Send a response back to the client
-                    reader.into_inner();
-                    // Call function Code here
-                    let result = call_vm_with_input(vm,client_input).unwrap();
-                    let client_response = format!("hello world from from fnB socket server. Result from Module B : {}",result);
-                    socket.write_all(client_response.as_bytes())?;
-                }
-                Err(err) => eprintln!("Error reading line: {}", err),
-            }
-        },
-        Err(e) => println!("accept function failed: {:?}", e),
-    }
-
-    Ok(())
-}
-
-
-fn call_vm_with_input(mut vm: Vm, input: &str) -> Result<i32, Box<dyn std::error::Error>>{
-    // create a new Vm with default config
-    let re = Regex::new(r"\D+").unwrap();
-    let num1: i32 = re.replace(&*input,"").to_string().parse().unwrap();
-    let num2: i32 = 15;
-    //let res = vm.run_func(Some("main"), "real_add", params!(num1,num2))?;
-
-    println!("setting up wasi");
-    let my_strings: [&str; 2] = [&num1.to_string(), &num2.to_string()];
-    let my_vector: Vec<&str> = my_strings.to_vec();
-
-    // Set new arguments on the wasi instance
-    let mut wasi_instance = vm.wasi_module()?;
-    wasi_instance.initialize(
-        Some(my_vector),
-        Some(vec![]),
-        Some(vec![]),
-    );
-    let res = vm.run_func(Some("main"), "real_add", params!())?;
-    let result = res[0].to_i32();
-    println!("FnB Shim Finished. Result from moduleB: {}",result);
-
-    Ok(result)
-}
-
-*/

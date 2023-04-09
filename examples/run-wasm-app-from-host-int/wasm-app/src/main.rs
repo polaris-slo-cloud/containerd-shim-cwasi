@@ -1,3 +1,12 @@
+#[allow(unused_imports)]
+use wasmedge_bindgen::*;
+use wasmedge_bindgen_macro::*;
+
+#[wasmedge_bindgen]
+pub fn say_hello(){
+    println!("Say hello");
+}
+
 pub fn add(left: i32, right: i32) -> i32 {
     println!("before real_add in wasm app");
     unsafe { shim_host_func::real_add(left, right) }

@@ -10,8 +10,8 @@ pub mod shim_host_func {
     }
 }
 
-
-pub fn test() -> i32 {
+#[no_mangle]
+pub fn cwasi_function() -> i32 {
     println!("Greetings from wasm-app!");
     let args: Vec<String> = std::env::args().collect();
     println!("args: {:?}", args);
@@ -20,10 +20,10 @@ pub fn test() -> i32 {
     let num2: i32 = args[2].parse().unwrap();
 
     let result = add(num1,num2);
-    println!("Result {}",result);
+    println!("Result inside wasm app{}",result);
     return result;
 }
 
 fn main(){
-    println!("main end {}",test());
+    println!("main end {}",cwasi_function());
 }

@@ -1,11 +1,9 @@
-use std::ptr::null;
 use log::info;
 use oci_spec::runtime::Spec;
 use walkdir::WalkDir;
 use wasmedge_sdk::{Caller, WasmValue, host_function};
 use wasmedge_sdk::error::HostFuncError;
 use crate::{oci_utils, snapshot_utils, unix_socket};
-use crate::unix_socket::ShimSocket;
 
 pub static mut OCI_SPEC:Option<Spec> = None;
 pub static mut BUNDLE_PATH:Option<String> = None;
@@ -39,7 +37,7 @@ pub fn func_connect(_caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVa
 
     let result = ext_fn_id + fn_input + ext_fn_result;
 
-    println!("Resume function A with result {} + {} + {} = {}",ext_fn_id,fn_input,ext_fn_result,result);
+    println!("Resume function with result {} + {} + {} = {}",ext_fn_id,fn_input,ext_fn_result,result);
     Ok(vec![WasmValue::from_i32(result)])
 }
 
