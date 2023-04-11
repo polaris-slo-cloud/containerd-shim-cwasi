@@ -12,7 +12,7 @@ pub fn connect() -> redis::Connection {
         env::var("REDIS_HOSTNAME").expect("missing environment variable REDIS_HOSTNAME");
      */
 
-    let redis_conn_url = format!("redis://128.130.238.100");
+    let redis_conn_url = format!("redis://127.0.0.1");
     //println!("{}", redis_conn_url);
 
     let client =match redis::Client::open(redis_conn_url){

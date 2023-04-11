@@ -15,11 +15,10 @@ use std::sync::{
     {Arc, Condvar, Mutex},
 };
 use std::{thread};
-use std::process::Command;
 use wasmedge_sdk::{config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions}, ImportObjectBuilder, params, PluginManager, Vm};
 use containerd_shim_cwasi::error::WasmRuntimeError;
 use regex::Regex;
-use containerd_shim_cwasi::{host_function_utils, oci_utils, snapshot_utils, shim_listener, redis_utils};
+use containerd_shim_cwasi::{host_function_utils, oci_utils, snapshot_utils, shim_listener};
 use itertools::Itertools;
 
 static mut STDIN_FD: Option<RawFd> = None;

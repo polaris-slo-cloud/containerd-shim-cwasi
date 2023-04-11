@@ -1,12 +1,11 @@
 use std::io::{BufRead, BufReader, Read, Write};
 use regex::Regex;
 use std::os::unix::net::{UnixListener, UnixStream};
-use std::sync::atomic::{AtomicBool, Ordering};
 use std::path::Path;
 use anyhow::Error;
 use oci_spec::runtime::Spec;
-use redis::{Client, ControlFlow, PubSubCommands, RedisResult};
-use wasmedge_sdk::{params, Vm, WasmEdgeResult};
+use redis::RedisResult;
+use wasmedge_sdk::{params, Vm};
 use crate::{oci_utils, redis_utils};
 use crate::message::Message;
 
@@ -125,8 +124,7 @@ pub fn connect_unix_socket(input_fn_a:i32, socket_path: String)-> Result<i32, Er
 #[tokio::main]
 pub async fn init_listener(bundle_path: String, oci_spec: Spec, vm: Vm) -> Result<(), Box<dyn std::error::Error>>{
     println!("before init");
-    redis_utils::publish_string("test".to_string());
-    let mut listener = ShimListener::new(bundle_path.clone(), oci_spec.clone(), vm.clone());
+    let listener = ShimListener::new(bundle_path.clone(), oci_spec.clone(), vm.clone());
     let channel = oci_utils::arg_to_wasi(&oci_spec).first().unwrap().replace("/","").replace(".wasm","");
     listener.subscribe(&channel);
     println!("channel created {}",channel);
