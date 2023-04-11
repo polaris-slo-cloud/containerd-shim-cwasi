@@ -32,7 +32,7 @@ fn create_vm_and_load_module(input: &str) -> Result<i32, Box<dyn std::error::Err
 }
 
 
-fn create_server_socket()-> Result<(), Box<dyn std::error::Error>>{
+fn subscribe()-> Result<(), Box<dyn std::error::Error>>{
     //this is the fn id
     let my_channel = "8";
     let msg = redis_utils::subscribe(my_channel);
@@ -45,7 +45,7 @@ fn create_server_socket()-> Result<(), Box<dyn std::error::Error>>{
     Ok(())
 }
 
-fn subscribe()-> Result<(), Box<dyn std::error::Error>>{
+fn create_server_socket()-> Result<(), Box<dyn std::error::Error>>{
     let socket_path = Path::new("my_socket.sock");
     if socket_path.exists() {
         std::fs::remove_file(&socket_path).unwrap();
@@ -74,7 +74,6 @@ fn subscribe()-> Result<(), Box<dyn std::error::Error>>{
                 Err(err) => eprintln!("Error reading line: {}", err),
             }
 
-
         },
         Err(e) => println!("accept function failed: {:?}", e),
     }
@@ -82,8 +81,21 @@ fn subscribe()-> Result<(), Box<dyn std::error::Error>>{
     Ok(())
 }
 
+use reqwest::Error;
+
+fn make_request() -> Result<(), Error> {
+    let response = reqwest::get("https://www.example.com");
+    //println!("Status: {}", response.status());
+
+    //let body = response.text();
+    //println!("Body:\n\n{}", body);
+
+    Ok(())
+}
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    create_server_socket();
+    //create_server_socket();
+    make_request();
+    //subscribe();
     Ok(())
 }

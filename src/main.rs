@@ -15,10 +15,11 @@ use std::sync::{
     {Arc, Condvar, Mutex},
 };
 use std::{thread};
+use std::process::Command;
 use wasmedge_sdk::{config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions}, ImportObjectBuilder, params, PluginManager, Vm};
 use containerd_shim_cwasi::error::WasmRuntimeError;
 use regex::Regex;
-use containerd_shim_cwasi::{host_function_utils, oci_utils, snapshot_utils, unix_socket};
+use containerd_shim_cwasi::{host_function_utils, oci_utils, snapshot_utils, shim_listener, redis_utils};
 use itertools::Itertools;
 
 static mut STDIN_FD: Option<RawFd> = None;
@@ -176,6 +177,7 @@ impl Instance for Wasi {
     }
 
     fn start(&self) -> Result<u32, Error> {
+
         info!(">>> shim starts");
         let engine = self.engine.clone();
         let stdin = self.stdin.clone();
@@ -236,13 +238,13 @@ impl Instance for Wasi {
                 let secondary_function = oci_utils::get_wasm_annotations(&spec, "cwasi.secondary.function");
                 println!("Secondary function {}",secondary_function);
                 if secondary_function == "true" {
-                    //let _ret = match socket_utils::create_server_socket(vm,bundle_path){
-                    let mut unix_socket = unix_socket::ShimSocket::new(bundle_path.to_string(), spec, vm);
-                    let _ret = match unix_socket.create_server_socket(){
-                        Ok(_) => std::process::exit(0),
+                    //let _ret = match socket_utils::create_server_socket(vm,bundle_path){                    
+                    //let mut unix_socket = shim_listener::ShimListener::new(bundle_path.to_string(), spec, vm);
+                    let _ret = match shim_listener::init_listener(bundle_path.to_string(), spec, vm) {
+                         Ok(_) => std::process::exit(0),
                         Err(_) => std::process::exit(137),
                     };
-                    //TODO process error handling
+
                 }else {
                     let _ret = match vm.run_func(Some("main"), "_start", params!()) {
                         Ok(_) => std::process::exit(0),
@@ -318,6 +320,7 @@ impl EngineGetter for Wasi {
         Ok(vm)
     }
 }
+
 
 fn main() {
     containerd_shim::run::<ShimCli<Wasi, wasmedge_sdk::Vm>>("io.containerd.cwasi.v1", None);

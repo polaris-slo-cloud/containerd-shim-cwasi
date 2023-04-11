@@ -27,6 +27,8 @@ serde_json = "1.0.95"
 serde_derive = "1.0.159"
 redis =  "0.19.0"
 uuid = {version = "0.8.2", features = ["v4"]}
+tokio = { version = "*", features = ["full"]}
+
 
 [[bin]]
 name = "containerd-shim-cwasi-v1"

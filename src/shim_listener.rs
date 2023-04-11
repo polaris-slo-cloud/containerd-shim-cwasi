@@ -1,27 +1,43 @@
 use std::io::{BufRead, BufReader, Read, Write};
 use regex::Regex;
 use std::os::unix::net::{UnixListener, UnixStream};
+use std::sync::atomic::{AtomicBool, Ordering};
 use std::path::Path;
 use anyhow::Error;
 use oci_spec::runtime::Spec;
-use wasmedge_sdk::{params, Vm};
-use crate::oci_utils;
+use redis::{Client, ControlFlow, PubSubCommands, RedisResult};
+use wasmedge_sdk::{params, Vm, WasmEdgeResult};
+use crate::{oci_utils, redis_utils};
+use crate::message::Message;
 
-
-pub struct ShimSocket {
+#[derive(Clone)]
+pub struct ShimListener {
     pub bundle_path: String,
     pub oci_spec: Spec,
     pub vm: Option<Vm>
 }
 
-impl ShimSocket {
-    pub fn new(bundle_path: String, oci_spec: Spec, vm:Vm) -> ShimSocket {
-        let my_mut_vm = Some(vm);
-        ShimSocket {
+impl ShimListener {
+    pub fn new(bundle_path: String, oci_spec: Spec, wasm_vm: Vm) -> ShimListener {
+        ShimListener {
             bundle_path,
             oci_spec,
-            vm: my_mut_vm
+            vm :Some(wasm_vm)
         }
+    }
+
+    pub async fn subscribe(&self, channel:&str) -> RedisResult<()> {
+        let mut con = redis::Client::open("redis://127.0.0.1")?.get_connection()?;
+        let mut pubsub = con.as_pubsub();
+        pubsub.subscribe(channel)?;
+        match pubsub.get_message() {
+            Ok(msg) => {
+                let payload: String = msg.get_payload()?;
+                println!("Received message: {}", payload);
+            }
+            Err(_) => {}
+        }
+        Ok(())
     }
 
     pub fn create_server_socket(&mut self) -> Result<(), Box<dyn std::error::Error>> {
@@ -104,4 +120,18 @@ pub fn connect_unix_socket(input_fn_a:i32, socket_path: String)-> Result<i32, Er
     let i: i32 = result.parse().unwrap();
     Ok(i)
 
+}
+
+#[tokio::main]
+pub async fn init_listener(bundle_path: String, oci_spec: Spec, vm: Vm) -> Result<(), Box<dyn std::error::Error>>{
+    println!("before init");
+    redis_utils::publish_string("test".to_string());
+    let mut listener = ShimListener::new(bundle_path.clone(), oci_spec.clone(), vm.clone());
+    let channel = oci_utils::arg_to_wasi(&oci_spec).first().unwrap().replace("/","").replace(".wasm","");
+    listener.subscribe(&channel);
+    println!("channel created {}",channel);
+    let mut listener2 = ShimListener::new(bundle_path, oci_spec.clone(), vm);
+    listener2.create_server_socket();
+    println!("finished init listener");
+    Ok(())
 }
