@@ -1,12 +1,29 @@
-pub fn add(left: i32, right: i32) -> i32 {
+pub fn add(arg1: String, arg2: String) {
     println!("before real_add in wasm app");
-    unsafe { shim_host_func::real_add(left, right) }
+    let arg1_input_bytes = arg1.as_bytes();
+    let arg1_len = arg1_input_bytes.len() as i32;
+    let arg1_ptr = arg1_input_bytes.as_ptr() ;
+    let arg1_ptr_i32 = arg1_ptr as i32;
+
+    let arg2_input_bytes = arg2.as_bytes();
+    let arg2_len = arg2_input_bytes.len() as i32;
+    let arg2_ptr = arg2_input_bytes.as_ptr();
+    let arg2_ptr_i32 = arg2_ptr as i32;
+    //let response:String;
+    unsafe {
+        let response_length =shim_host_func::real_add(arg1_ptr_i32,arg1_len);
+        println!("res len {:?} ",response_length);
+        let bytes = std::slice::from_raw_parts(arg1_ptr, response_length as usize);
+        let response = String::from_utf8_lossy(bytes).to_string();
+        println!("response string {:?} ",response);
+    }
+    //return response;
 }
 
 pub mod shim_host_func {
     #[link(wasm_import_module = "shim_host_func")]
     extern "C" {
-        pub fn real_add(x: i32, y: i32) -> i32;
+        pub fn real_add(arg1_ptr: i32, arg1_len: i32) -> i32;
     }
 }
 
@@ -16,14 +33,17 @@ pub fn cwasi_function() -> i32 {
     let args: Vec<String> = std::env::args().collect();
     println!("args: {:?}", args);
 
-    let num1: i32 = args[1].parse().unwrap();
-    let num2: i32 = args[2].parse().unwrap();
+    add(args[1].clone(),args[2].clone());
+    //println!("Result inside wasm app");
 
-    let result = add(num1,num2);
-    println!("Result inside wasm app{}",result);
-    return result;
+    let num:i32 = 5;
+    return num;
 }
 
+
 fn main(){
-    println!("main end {}",cwasi_function());
+    let result = cwasi_function();
+    //println!("main result {}",result);
+   // println!("Wasm app finished");
+
 }

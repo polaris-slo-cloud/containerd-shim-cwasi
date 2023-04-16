@@ -88,7 +88,7 @@ pub fn publish_string(message: String) -> Result<(), Box<dyn Error>> {
 }
  */
 
-pub fn _subscribe(channel: &str) -> i32 {
+pub fn _subscribe(channel: &str) -> String {
     info!("Subscribe to channel: {}", channel);
     let mut connection = connect();
     info!("redis connection created");

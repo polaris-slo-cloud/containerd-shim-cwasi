@@ -2,7 +2,7 @@ use log::info;
 use oci_spec::runtime::Spec;
 use uuid::Uuid;
 use walkdir::WalkDir;
-use wasmedge_sdk::{Caller, WasmValue, host_function};
+use wasmedge_sdk::{Caller, WasmValue, host_function, params};
 use wasmedge_sdk::error::HostFuncError;
 use crate::{oci_utils, redis_utils, shim_listener};
 use crate::message::Message;
@@ -11,39 +11,53 @@ pub static mut OCI_SPEC:Option<Spec> = None;
 pub static mut BUNDLE_PATH:Option<String> = None;
 
 #[host_function]
-pub fn func_connect(_caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmValue>, HostFuncError> {
-    let ext_fn_id = input[0].to_i32();
-    let ext_fn_id_str = &ext_fn_id.to_string();
-    let fn_input = input[1].to_i32();
-    let mut ext_fn_result:i32 = 0;
-    let external_fn_name: String;
+pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmValue>, HostFuncError> {
+    println!("Host function");
+    let mut mem = caller.memory(0).unwrap();
+    let arg1_ptr = input[0].to_i32() as u32;
+    let arg1_len = input[1].to_i32() as u32;
+    let external_function_type = mem.read_string(arg1_ptr, arg1_len).expect("fail to get string");
+    println!("External function type {}",external_function_type);
+
+    let arg2_ptr = input[0].to_i32() as u32;
+    let arg2_len = input[1].to_i32() as u32;
+    let payload = mem.read_string(arg2_ptr, arg2_len).expect("fail to get string");
+    println!("Payload {}",payload);
+
     let socket_path: String;
+    let ext_func_result:String;
 
     unsafe {
-        external_fn_name = oci_utils::get_wasm_annotations(&OCI_SPEC.clone().unwrap(), ext_fn_id_str);
+        //external_fn_name = oci_utils::get_wasm_annotations(&OCI_SPEC.clone().unwrap(), ext_fn_id_str);
         //get string until 2nd last / occurrence
         let bundle_path = BUNDLE_PATH.clone().unwrap().rsplitn(3, '/').nth(2).unwrap().to_string()+"/";
-        socket_path= find_container_path(bundle_path.clone(), external_fn_name.clone());
+        socket_path= find_container_path(bundle_path.clone(), external_function_type.clone());
     }
-    println!("Connect to fn Id {} Name {}",ext_fn_id_str,external_fn_name);
     //check if the function is running locally
     //let local_images_with_ext_fn_name = snapshot_utils::get_existing_image(vec![external_fn_name]);
+
+
     if socket_path.is_empty() {
         println!("No local fn found. Connect to queue");
-        ext_fn_result = connect_to_queue(external_fn_name.replace(".wasm",""), fn_input);
+        ext_func_result = connect_to_queue(external_function_type.replace(".wasm",""), payload);
     }else {
-        println!("Connecting to {} with input {}",socket_path, fn_input);
-        ext_fn_result = shim_listener::connect_unix_socket(fn_input, socket_path).unwrap();
+        println!("Connecting to {} with input {}",socket_path, payload);
+        ext_func_result = shim_listener::connect_unix_socket(payload, socket_path).unwrap();
     }
 
-    let result = ext_fn_id + fn_input + ext_fn_result;
-    println!("Resume function with result {} + {} + {} = {}",ext_fn_id,fn_input,ext_fn_result,result);
-    Ok(vec![WasmValue::from_i32(result)])
+    let input = String::from("this is a string create to be written on the memory");
+    let bytes = input.as_bytes();
+    let len = bytes.len();
+    mem.write(bytes, arg1_ptr);
+
+
+    println!("Resume function with result from ext func  {}",ext_func_result);
+    Ok(vec![WasmValue::from_i32(len as i32)])
 }
 
 
-fn connect_to_queue(channel :String, fn_target_input:i32) -> i32{
-    println!("Connecting to {} with input {}",channel, fn_target_input);
+fn connect_to_queue(channel :String, fn_target_input:String) -> String{
+    println!("Connecting to queue {} with input {}",channel, fn_target_input);
     let fn_source_id = Uuid::new_v4().to_simple().to_string();
     let fn_source_id_copy = fn_source_id.clone();
 

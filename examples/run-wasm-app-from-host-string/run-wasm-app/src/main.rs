@@ -1,23 +1,29 @@
 use wasmedge_sdk::{
     config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions},
-    params, Vm, ImportObjectBuilder, WasmValue, Caller,
+    Vm, ImportObjectBuilder, WasmValue, Caller, params,
     error::HostFuncError, host_function
 };
 
 #[host_function]
 fn my_add(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmValue>, HostFuncError> {
+    println!("Greetings from host func!");
     let mut mem = caller.memory(0).unwrap();
+
     // parse the first argument of WasmValue type
     println!("Inside host function");
     let addr = input[0].to_i32() as u32;
     let size = input[1].to_i32() as u32;
-    println!("addr: {:?}", addr);
-    println!("size: {:?}", size);
-    let data = mem.read(addr, size).expect("fail to get string");
+    //println!("addr: {:?}", addr);
+    //println!("size: {:?}", size);
+    let data = mem.read_string(addr, size).expect("fail to get string");
     println!("data: {:?}", data);
-    let mut s = String::from_utf8_lossy(&data).to_string();
-    println!("s: {:?}", s);
-    Ok(vec![])
+
+    let s = String::from("this is a string create to be written on the memory");
+    let bytes = s.as_bytes();
+    let len = bytes.len();
+    mem.write(bytes, addr);
+
+    Ok(vec![WasmValue::from_i32(len as i32)])
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
@@ -30,7 +36,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         .build()?;
     // create an import module
     let import = ImportObjectBuilder::new()
-        .with_func::<(i32, i32),()>("real_add", my_add)?
+        .with_func::<(i32, i32), i32>("real_add", my_add)?
         .build("my_math_lib")?;
 
     assert!(config.wasi_enabled());

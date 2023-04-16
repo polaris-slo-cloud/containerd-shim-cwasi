@@ -5,11 +5,11 @@ use serde::{Serialize,Deserialize};
 pub struct Message{
     pub source_channel: String,
     pub target_channel: String,
-    pub payload: i32
+    pub payload: String
 }
 
 impl Message {
-    pub fn new(source_channel: String, target_channel: String,  payload: i32) -> Message {
+    pub fn new(source_channel: String, target_channel: String,  payload: String) -> Message {
         Message {
             source_channel,
             target_channel,

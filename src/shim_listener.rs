@@ -49,7 +49,6 @@ impl ShimListener {
 
         let listener = UnixListener::bind(&socket_path)?;
         println!("Socket created successfully at {:?}", &socket_path);
-
         match listener.accept() {
             Ok((mut socket, _addr)) => {
                 // Read data from the socket stream
@@ -77,12 +76,12 @@ impl ShimListener {
 
     fn call_vm_with_input(&mut self, input: &str) -> Result<i32, Box<dyn std::error::Error>>{
         // create a new Vm with default config
-        let re = Regex::new(r"\D+").unwrap();
-        let num1: i32 = re.replace(&*input,"").to_string().parse().unwrap();
+        //let re = Regex::new(r"\D+").unwrap();
+        //let num1: i32 = re.replace(&*input,"").to_string().parse().unwrap();
         let num2: i32 = 15;
         let args = oci_utils::arg_to_wasi(&self.oci_spec);
         println!("setting up wasi");
-        let my_strings: [&str; 3] = [&args.first().unwrap(), &num1.to_string(), &num2.to_string()];
+        let my_strings: [&str; 3] = [&args.first().unwrap(), input, &num2.to_string()];
         let my_vector: Vec<&str> = my_strings.to_vec();
 
         // Set new arguments on the wasi instance
@@ -103,21 +102,20 @@ impl ShimListener {
 }
 
 
-pub fn connect_unix_socket(input_fn_a:i32, socket_path: String)-> Result<i32, Error> {
+pub fn connect_unix_socket(input_fn_a:String, socket_path: String)-> Result<String, Error> {
     //connect to socket
     let mut stream = UnixStream::connect(socket_path+".sock").unwrap();
-    let input_fn_b = format!("Data input from fn A {} \n", input_fn_a);
+    let input_fn_b = format!("Data input from source fn {} \n", input_fn_a);
     //write request in the socket
     stream.write_all(input_fn_b.as_bytes()).unwrap();
     let mut response = String::new();
     stream.read_to_string(&mut response)?;
-    println!("{}", response);
+    println!("Closing socket function A with B result {}", response);
     // This is only for logging
-    let re = Regex::new(r"\D+").unwrap();
-    let result = re.replace(&*response,"").to_string();
-    println!("Closing socket function A with B result {}",result);
-    let i: i32 = result.parse().unwrap();
-    Ok(i)
+    //let re = Regex::new(r"\D+").unwrap();
+    //let result = re.replace(&*response,"").to_string();
+    //println!("Closing socket function A with B result {}",result);
+    Ok(response)
 
 }
 
