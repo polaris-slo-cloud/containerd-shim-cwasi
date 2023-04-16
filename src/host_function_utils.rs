@@ -19,6 +19,7 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
     let external_function_type = mem.read_string(arg1_ptr, arg1_len).expect("fail to get string");
     println!("External function type {}",external_function_type);
 
+
     let arg2_ptr = input[0].to_i32() as u32;
     let arg2_len = input[1].to_i32() as u32;
     let payload = mem.read_string(arg2_ptr, arg2_len).expect("fail to get string");
@@ -51,7 +52,7 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
     mem.write(bytes, arg1_ptr);
 
 
-    println!("Resume function with result from ext func  {}",ext_func_result);
+    println!("Resume function with result from ext func  {}",len);
     Ok(vec![WasmValue::from_i32(len as i32)])
 }
 

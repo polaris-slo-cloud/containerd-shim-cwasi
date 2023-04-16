@@ -17,6 +17,10 @@ fn my_add(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmValue>, HostF
     //println!("size: {:?}", size);
     let data = mem.read_string(addr, size).expect("fail to get string");
     println!("data: {:?}", data);
+    let mem_size = mem.size();
+    println!("mem size: {:?}", mem_size);
+    //let result = memory.grow(1);
+
 
     let s = String::from("this is a string create to be written on the memory");
     let bytes = s.as_bytes();
@@ -44,10 +48,20 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     // create a VM with the config
     let mut vm = Vm::new(Some(config))?.register_import_module(import)?;
 
-    vm.wasi_module()?.initialize(None, None, None);
+    let args: Vec<String> = std::env::args().collect();
+    let args_slice: Vec<&str> = args.iter().map(|s| s.as_str()).collect();
 
-    vm.register_module_from_file("wasm-app", &wasm_app_file)?
-        .run_func(Some("wasm-app"), "_start", params!())?;
+    vm.wasi_module()?.initialize(Some(args_slice), None, None);
+
+    let vm=vm.register_module_from_file("wasm-app", &wasm_app_file)?
+        ;
+    //.run_func(Some("wasm-app"), "_start", params!())?
+    let ret = match vm.run_func(Some("wasm-app"), "_start", params!()) {
+        Ok(ok) => std::process::exit(0),
+        Err(_) => std::process::exit(137),
+    };
+
+    println!("result {:?}",ret);
 
     Ok(())
 }
