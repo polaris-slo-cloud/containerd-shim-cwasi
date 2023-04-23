@@ -7,6 +7,12 @@ Based: https://github.com/keniack/runwasi/tree/main/crates/containerd-shim-wasme
 
 CWASI containerd shim is a lightweight and portable way to run containers using WebAssembly modules. It provides a secure and sandboxed environment for running untrusted code, making it ideal for use cases such as running untrusted code in a serverless environment.
 
+## Features
+
+* Wasm dependencies automatic loading
+* Local function communication optmization via unix socket / pipes
+* Remote function communication via message broker
+
 ## Prerequisites
 
 * Rust 
