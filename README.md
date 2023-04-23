@@ -1,4 +1,4 @@
-# "CWASI" Containerd shim
+# CWASI Containerd shim
 
 WIP: Should be able to spawn containers and wasm modules
 
