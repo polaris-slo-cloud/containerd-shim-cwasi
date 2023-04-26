@@ -5,7 +5,7 @@ WIP: Should be able to spawn containers and wasm modules
 Based: https://github.com/keniack/runwasi/tree/main/crates/containerd-shim-wasmedge
 
 
-CWASI containerd shim is a lightweight and portable way to run containers using WebAssembly modules. It provides a secure and sandboxed environment for running untrusted code, making it ideal for use cases such as running untrusted code in a serverless environment.
+CWASI containerd shim is a lightweight and portable way to run stateful cloud wasm applications. It leverages webassembly features providing a secure and sandboxed environment.
 
 ## Features
 
