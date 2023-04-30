@@ -1,6 +1,6 @@
 # CWASI Containerd shim
 
-WIP: Should be able to spawn containers and wasm modules
+:warning: Should be able to spawn containers and wasm modules. Cwasi Shim is a work in progress and not suited for production usage yet
 
 Based: https://github.com/keniack/runwasi/tree/main/crates/containerd-shim-wasmedge
 
@@ -47,7 +47,7 @@ sudo ctr -n k8s.io run --rm --runtime=io.containerd.cwasi.v1 --annotation cwasi.
 
 ## Contributing
 
-Contributions are welcome! Please fork this repository and open a pull request with your changes.
+Contributions are welcome! We would like to hear it from you. For any questions or suggestions open an issue or start a discussion. For contributions please fork this repository and open a pull request with your changes.
 
 ## License
 
