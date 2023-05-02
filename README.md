@@ -4,7 +4,7 @@
 
 CWASI containerd shim is a lightweight and portable way to run stateful cloud wasm applications. It leverages Wasmedge runtime to execute webassembly in a secure and sandboxed environment. We got inspired by [RunWasi Wasmedge](https://github.com/keniack/runwasi/tree/main/crates/containerd-shim-wasmedge).
 
-<img src="images/cwasi_architecture.png" width="70%" height="60%">
+<img src="images/cwasi_architecture.png" width="80%" height="70%">
 
 ## Features
 
