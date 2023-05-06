@@ -10,8 +10,6 @@ CWASI containerd shim is a lightweight and portable way to run stateful cloud wa
 * Local function communication optmization via unix socket
 * Remote function communication via message broker
 
-:warning: Should be able to spawn containers and wasm modules. Cwasi Shim is a work in progress do not use in production!
-
 ## Prerequisites
 
 * Rust 
