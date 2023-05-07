@@ -6,6 +6,7 @@ use wasmedge_sdk::{Caller, WasmValue, host_function, params};
 use wasmedge_sdk::error::HostFuncError;
 use crate::{oci_utils, redis_utils, shim_listener};
 use crate::message::Message;
+use chrono::{DateTime, Utc};
 
 pub static mut OCI_SPEC:Option<Spec> = None;
 pub static mut BUNDLE_PATH:Option<String> = None;
@@ -16,14 +17,16 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
     let mut mem = caller.memory(0).unwrap();
     let arg1_ptr = input[0].to_i32() as u32;
     let arg1_len = input[1].to_i32() as u32;
-    let external_function_type = mem.read_string(arg1_ptr, arg1_len).expect("fail to get string");
-    println!("External function type {}",external_function_type);
-
+    println!("External function input length {}",arg1_len);
+    let mut external_function_type = mem.read_string(arg1_ptr, arg1_len).expect("fail to get string");
+    let message_obj: Message = serde_json::from_str(&external_function_type).unwrap();
+    //println!("message obj {:?}",message_obj);
+    external_function_type = message_obj.target_channel;
 
     let arg2_ptr = input[0].to_i32() as u32;
     let arg2_len = input[1].to_i32() as u32;
     let payload = mem.read_string(arg2_ptr, arg2_len).expect("fail to get string");
-    println!("Payload {}",payload);
+    //println!("Payload {}",payload);
 
     let socket_path: String;
     let ext_func_result:String;
@@ -42,8 +45,11 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
         println!("No local fn found. Connect to queue");
         ext_func_result = connect_to_queue(external_function_type.replace(".wasm",""), payload);
     }else {
-        println!("Connecting to {} with input {}",socket_path, payload);
+        let start: DateTime<Utc> = chrono::offset::Utc::now();
+        println!("Connecting to {:?} at {:?}",socket_path, start);
         ext_func_result = shim_listener::connect_unix_socket(payload, socket_path).unwrap();
+        let end: DateTime<Utc> = chrono::offset::Utc::now();
+        println!("Response received at {:?} total {:?}",end, end - start);
     }
 
     let input = String::from("this is a string create to be written on the memory");

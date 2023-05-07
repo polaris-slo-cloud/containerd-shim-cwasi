@@ -8,6 +8,7 @@ use redis::RedisResult;
 use wasmedge_sdk::{params, Vm};
 use crate::{oci_utils, redis_utils};
 use crate::message::Message;
+use chrono;
 
 #[derive(Clone)]
 pub struct ShimListener {
@@ -57,7 +58,7 @@ impl ShimListener {
                 match reader.read_line(&mut line) {
                     Ok(_) => {
                         let client_input = line.trim();
-                        println!("Received from client: {}", client_input);
+                        println!("Received from client at : {}", chrono::offset::Utc::now());
                         // Send a response back to the client
                         reader.into_inner();
                         // Call function Code here
@@ -80,7 +81,7 @@ impl ShimListener {
         //let num1: i32 = re.replace(&*input,"").to_string().parse().unwrap();
         let num2: i32 = 15;
         let args = oci_utils::arg_to_wasi(&self.oci_spec);
-        println!("setting up wasi");
+        println!("setting up wasi at at : {}", chrono::offset::Utc::now());
         let my_strings: [&str; 3] = [&args.first().unwrap(), input, &num2.to_string()];
         let my_vector: Vec<&str> = my_strings.to_vec();
 
@@ -92,8 +93,9 @@ impl ShimListener {
             Some(vec![]),
             Some(vec![]),
         );
+        println!("Run wasm func at {:?}",chrono::offset::Utc::now());
         let res = vm.run_func(Some("main"), "cwasi_function", params!())?;
-        println!("Run func finished: {:?}",res);
+        println!("Run func finished: {:?} at {:?}",res,chrono::offset::Utc::now());
         let result = res[0].to_i32();
         println!("FnB Shim Finished. Result from moduleB: {}",result);
 

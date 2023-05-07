@@ -135,8 +135,8 @@ pub fn prepare_module(mut vm: Vm, spec: &oci::Spec, stdin_path: String, stdout_p
     );
 
     let import = ImportObjectBuilder::new()
-        .with_func::<(i32, i32), i32>("real_add", host_function_utils::func_connect)?
-        .build("shim_host_func")?;
+        .with_func::<(i32, i32), i32>("func_connect", host_function_utils::func_connect)?
+        .build("cwasi_export")?;
 
     let vm= vm.register_import_module(import)?.register_module_from_file("main", mod_path)?;
     info!("module registered");

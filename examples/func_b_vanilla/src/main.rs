@@ -1,47 +1,46 @@
-fn main() {
-    println!("Greetings from func_b!");
-    cwasi_function();
-}
+use std::net::SocketAddr;
+
+use hyper::server::conn::Http;
+use hyper::service::service_fn;
+use hyper::{Body, Method, Request, Response};
+use tokio::net::TcpListener;
+
+async fn echo(req: Request<Body>) -> Result<Response<Body>, hyper::Error> {
+    match (req.method(), req.uri().path()) {
+
+        (&Method::GET, "/") => Ok(Response::new(Body::from(
+            "👋 Hello World 🌍",
+        ))),
 
 
-#[no_mangle]
-pub fn cwasi_function() -> i32 {
+        (&Method::POST, "/hello") => {
+            let name = hyper::body::to_bytes(req.into_body()).await?;
+            let name_string = String::from_utf8(name.to_vec()).unwrap();
 
-    let args: Vec<String> = std::env::args().collect();
-    println!("args: {:?}", args);
+            let answer = format!("{}{}", "Hello ".to_owned(), name_string);
 
-    println!("do something file");
-    let input:String = args[2].parse().unwrap();
+            Ok(Response::new(Body::from(answer)))
+        }
 
-    //process_response(response_string);
-    println!("input {:?}",input);
-    let result:i32 = 5;
-    return result;
-}
-
-pub fn process_response(input_string: &str){
-    println!("Process response ");
-    let full_payload = "{\"source_channel\":\"func_a.wasm\",\"target_channel\":\"func_b.wasm\",\"payload\":\"".to_owned() +input_string+"\"}";
-    let input_bytes = full_payload.as_bytes();
-    let len = input_bytes.len() as i32;
-    let ptr = input_bytes.as_ptr();
-    let ptr_i32 = input_bytes.as_ptr() as i32;
-    println!("input pointer {:?} ",ptr);
-    println!("input length {:?} ",len);
-
-    unsafe {
-        let response_length =cwasi_export::func_connect(ptr_i32,len);
-        println!("res len {:?} ",response_length);
-        let bytes = std::slice::from_raw_parts(ptr, response_length as usize);
-        let response = String::from_utf8_lossy(bytes).to_string();
-        println!("response string {:?} ",response);
+        _ => {
+            Ok(Response::new(Body::from("😡 try again")))
+        }
     }
-
 }
 
-pub mod cwasi_export {
-    #[link(wasm_import_module = "cwasi_export")]
-    extern "C" {
-        pub fn func_connect(ptr: i32, len: i32) -> i32;
+#[tokio::main(flavor = "current_thread")]
+async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
+    let addr = SocketAddr::from(([0, 0, 0, 0], 1234));
+
+    let listener = TcpListener::bind(addr).await?;
+    println!("Listening on http://{}", addr);
+    loop {
+        let (stream, _) = listener.accept().await?;
+
+        tokio::task::spawn(async move {
+            if let Err(err) = Http::new().serve_connection(stream, service_fn(echo)).await {
+                println!("Error serving connection: {:?}", err);
+            }
+        });
     }
 }
