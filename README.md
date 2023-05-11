@@ -6,6 +6,11 @@ CWASI containerd shim is a lightweight and portable way to run cloud wasm applic
   <img src="images/cwasi_architecture.png" width="35%" height="35%">
 </p>
 
+
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+<img src="https://github.com/polaris-slo-cloud/containerd-shim-cwasi/actions/workflows/rust.yml/badge.svg" width="14%" height="14%">
+![WEBASSEMBLY](https://img.shields.io/badge/_-WASM-04133B.svg?style=for-the-badge)
+
 ## Features
 
 * Wasm dependencies automatic loading
