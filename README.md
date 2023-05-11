@@ -49,8 +49,3 @@ sudo ctr -n k8s.io run --rm --runtime=io.containerd.cwasi.v1 --annotation cwasi.
 ## Contributing
 
 Contributions are welcome! We would like to hear it from you. For any questions or suggestions open an issue or start a discussion. For contributions please fork this repository and open a pull request with your changes.
-
-## License
-
-The Cwasi Shim is licensed under the Apache License, Version 2.0. See link for the full license text.
-
