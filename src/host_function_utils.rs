@@ -40,7 +40,9 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
     //check if the function is running locally
     //let local_images_with_ext_fn_name = snapshot_utils::get_existing_image(vec![external_fn_name]);
 
-
+    //ext_func_result = connect_to_queue(external_function_type.replace(".wasm",""), payload);
+    println!("External func {:?}",chrono::offset::Utc::now());
+    //ext_func_result = connect_to_queue(external_function_type.replace(".wasm",""), payload);
     if socket_path.is_empty() {
         println!("No local fn found. Connect to queue");
         ext_func_result = connect_to_queue(external_function_type.replace(".wasm",""), payload);
@@ -51,6 +53,7 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
         let end: DateTime<Utc> = chrono::offset::Utc::now();
         println!("Response received at {:?} total {:?}",end, end - start);
     }
+
 
     let input = String::from("this is a string create to be written on the memory");
     let bytes = input.as_bytes();
@@ -64,14 +67,14 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
 
 
 fn connect_to_queue(channel :String, fn_target_input:String) -> String{
-    println!("Connecting to queue {} with input {}",channel, fn_target_input);
+    println!("Connecting to queue {} ",channel);
     let fn_source_id = Uuid::new_v4().to_simple().to_string();
     let fn_source_id_copy = fn_source_id.clone();
 
     let _ = redis_utils::publish_message(Message::new(fn_source_id,
                                                       channel, fn_target_input));
     let result = redis_utils::_subscribe(fn_source_id_copy.as_str());
-    return result;
+    return result.payload;
 }
 
 

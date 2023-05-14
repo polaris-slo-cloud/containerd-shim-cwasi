@@ -11,11 +11,13 @@ pub fn cwasi_function() -> i32 {
 
     let args: Vec<String> = std::env::args().collect();
     println!("args: {:?}", args);
+    let storage_ip = std::env::var("STORAGE_IP").expect("Error: STORAGE_URL not found");
+    println!("Value of STORAGE_IP: {}", storage_ip);
 
     println!("Downloading file");
     let file:String = args[2].parse().unwrap();
     let mut writer = Vec::new(); //container for body of a response
-    let res = request::get("http://127.0.0.1:8080/files/".to_owned()+&file, &mut writer).unwrap();
+    let res = request::get("http://".to_owned()+&storage_ip+ &":8080/files/".to_owned()+&file, &mut writer).unwrap();
     let response_string = &String::from_utf8_lossy(&writer);
     println!("GET");
     println!("Status: {} {}", res.status_code(), res.reason());

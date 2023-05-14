@@ -26,8 +26,30 @@ impl ShimListener {
         }
     }
 
-    pub async fn subscribe(&self, channel:&str) -> RedisResult<()> {
-        let mut con = redis::Client::open("redis://127.0.0.1")?.get_connection()?;
+    pub async fn subscribe(&mut self, channel:&str) -> RedisResult<()> {
+        let message=redis_utils::_subscribe(channel);
+        let _result = self.call_vm_with_input(&message.payload).unwrap();
+        let _ = redis_utils::publish_message(Message::new(channel.to_string(),
+                                                          message.source_channel, String::from("result")));
+        /*let _ = tokio::spawn(async move {
+            let mut con = redis_utils::connect();
+            let _: () = con.subscribe(&[channel], |msg| {
+                let received: String = msg.get_payload().unwrap();
+                let message = serde_json::from_str::<Message>(&received).unwrap();
+
+                let _result = self.call_vm_with_input(&message.payload).unwrap();
+                let _ = redis_utils::publish_message(Message::new(channel.to_string(),
+                                                                  message.source_channel, String::from("result")));
+
+                return ControlFlow::Continue;
+            }).unwrap();
+        });
+
+         */
+
+
+        /*
+        let mut con = redis_utils::connect();
         let mut pubsub = con.as_pubsub();
         pubsub.subscribe(channel)?;
         match pubsub.get_message() {
@@ -37,6 +59,7 @@ impl ShimListener {
             }
             Err(_) => {}
         }
+         */
         Ok(())
     }
 
@@ -93,9 +116,11 @@ impl ShimListener {
             Some(vec![]),
             Some(vec![]),
         );
+        let start = chrono::offset::Utc::now();
         println!("Run wasm func at {:?}",chrono::offset::Utc::now());
         let res = vm.run_func(Some("main"), "cwasi_function", params!())?;
-        println!("Run func finished: {:?} at {:?}",res,chrono::offset::Utc::now());
+        let end= chrono::offset::Utc::now();
+        println!("Run func finished at {:?} Duration {}",end,end-start);
         let result = res[0].to_i32();
         println!("FnB Shim Finished. Result from moduleB: {}",result);
 
@@ -124,9 +149,9 @@ pub fn connect_unix_socket(input_fn_a:String, socket_path: String)-> Result<Stri
 #[tokio::main]
 pub async fn init_listener(bundle_path: String, oci_spec: Spec, vm: Vm) -> Result<(), Box<dyn std::error::Error>>{
     println!("before init");
-    let listener = ShimListener::new(bundle_path.clone(), oci_spec.clone(), vm.clone());
+    let mut listener = ShimListener::new(bundle_path.clone(), oci_spec.clone(), vm.clone());
     let channel = oci_utils::arg_to_wasi(&oci_spec).first().unwrap().replace("/","").replace(".wasm","");
-    listener.subscribe(&channel);
+    listener.subscribe(&channel).await;
     println!("channel created {}",channel);
     let mut listener2 = ShimListener::new(bundle_path, oci_spec.clone(), vm);
     listener2.create_server_socket();

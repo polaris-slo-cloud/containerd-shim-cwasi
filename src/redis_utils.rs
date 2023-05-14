@@ -7,15 +7,10 @@ use redis::{Commands, ControlFlow, PubSubCommands, RedisResult};
 use crate::message::Message;
 
 pub fn connect() -> redis::Connection {
-    //format - host:port
-    /*let redis_host_name =
-        env::var("REDIS_HOSTNAME").expect("missing environment variable REDIS_HOSTNAME");
-     */
+    let redis_ip = std::env::var("REDIS_IP").unwrap_or("192.168.0.207".to_string());
+    println!("Value of REDIS_IP: {}", redis_ip);
 
-    let redis_conn_url = format!("redis://127.0.0.1");
-    //println!("{}", redis_conn_url);
-
-    let client =match redis::Client::open(redis_conn_url){
+    let client =match redis::Client::open("redis://".to_owned()+&redis_ip){
         Ok(client) => client,
         Err(err) => {
             eprintln!("Error subscribing to channel: {}", err);
@@ -25,40 +20,13 @@ pub fn connect() -> redis::Connection {
     return client.get_connection().unwrap();
 }
 
-/*pub fn read(key: &str) -> String {
-    let mut conn = connect();
-    let key_str= key.clone();
-
-    let result = match conn.get(key_str) {
-        Ok(val) => val,
-        Ok(None) => Some(String::new()),
-        Err(e) => panic!("Error getting value: {}", e),
-    };
-    let value = result.unwrap_or("".to_owned());
-
-    println!("KVS value for '{}' = {}", key_str,value);
-    return value;
-}
-
-pub fn set(key: &str, value: &str) {
-    let mut conn = connect();
-
-    let _: () = redis::cmd("SET")
-        .arg(key)
-        .arg(value)
-        .query(&mut conn)
-        .expect(format!("failed to execute SET for '{}'",key).as_str());
-    println!("value stored for '{}' = {}", key,value);
-}
- */
-
 pub fn publish_message(message: Message) -> Result<(), Box<dyn Error>> {
     let mut con = connect();
     let json = serde_json::to_string(&message).unwrap();
     let payload = json.as_str();
 
-    con.publish(message.target_channel, payload)?;
-    println!("Published message: {}",payload);
+    con.publish(message.target_channel.clone(), payload)?;
+    println!("Published message to channel: {}",message.target_channel);
     Ok(())
 }
 
@@ -88,23 +56,21 @@ pub fn publish_string(message: String) -> Result<(), Box<dyn Error>> {
 }
  */
 
-pub fn _subscribe(channel: &str) -> String {
-    info!("Subscribe to channel: {}", channel);
+pub fn _subscribe(channel: &str) -> Message {
+    println!("Subscribe to channel: {}", channel);
     let mut connection = connect();
-    info!("redis connection created");
+    println!("redis connection created");
     let mut pubsub = connection.as_pubsub();
-    info!("redis connection created");
     pubsub.subscribe(channel).unwrap();
     println!("Subscribed to channel: {}", channel);
-    info!("Subscribed to channel: {}", channel);
     // set timeouts in seconds
     //pubsub.set_read_timeout(Some(std::time::Duration::new(60, 0))).unwrap();
 
     let msg = pubsub.get_message().unwrap();
     let payload: String = msg.get_payload().unwrap();
-    println!("Received message: {}", payload);
 
     let message_obj: Message = serde_json::from_str(&payload).unwrap();
+    println!("Received message source: {} target: {}", message_obj.source_channel,message_obj.target_channel);
 
-    return message_obj.payload;
+    return message_obj;
 }

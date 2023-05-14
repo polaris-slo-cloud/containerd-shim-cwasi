@@ -20,7 +20,7 @@ CWASI containerd shim is a lightweight and portable way to run cloud wasm applic
 
 * Rust 
 * Containerd
-* Wasmedge
+* Wasmedge -v 0.11.2
 
 ## Installation
 ```
