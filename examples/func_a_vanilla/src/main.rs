@@ -1,4 +1,5 @@
 use wasmedge_http_req::request;
+use chrono;
 
 fn main() {
     println!("Greetings from func_a!");
@@ -11,11 +12,15 @@ pub fn cwasi_function() -> String {
 
     let args: Vec<String> = std::env::args().collect();
     println!("args: {:?}", args);
+    let storage_ip = std::env::var("STORAGE_IP").expect("Error: STORAGE_URL not found");
+    println!("Value of STORAGE_IP: {}", storage_ip);
 
     println!("Downloading file");
+
     let file:String = args[2].parse().unwrap();
     let mut writer = Vec::new(); //container for body of a response
-    let res = request::get("http://127.0.0.1:8080/files/".to_owned()+&file, &mut writer).unwrap();
+    let res = request::get("http://".to_owned()+&storage_ip+ &":8080/files/".to_owned()+&file, &mut writer).unwrap();
+
     let response_string = &String::from_utf8_lossy(&writer);
     println!("GET");
     println!("Status: {} {}", res.status_code(), res.reason());
@@ -40,11 +45,17 @@ pub fn process_response(input_string: &str){
 }
 
 pub fn http_client(request_body:&str){
+
+    let funcb_ip = std::env::var("FUNCB_IP").expect("Error: FUNCB_IP not found");
+    println!("Value of FUNCB_IP: {}", funcb_ip);
+
     let mut writer = Vec::new(); //container for body of a response
     //const BODY: &[u8; 27] = b"field1=value1&field2=value2";
     // let res = request::post("https://httpbin.org/post", BODY, &mut writer).unwrap();
     // no https , no dns
-    let res = request::post("http://127.0.0.1:1234/hello", request_body.as_bytes(), &mut writer).unwrap();
+    let start = chrono::offset::Utc::now();
+    println!("Connecting at {:?}",start);
+    let res = request::post("http://".to_owned() + &funcb_ip+":1234/hello", request_body.as_bytes(), &mut writer).unwrap();
     let res_body=String::from_utf8_lossy(&writer);
 
     println!("POST");

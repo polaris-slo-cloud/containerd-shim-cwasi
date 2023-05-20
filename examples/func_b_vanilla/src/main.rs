@@ -4,6 +4,7 @@ use hyper::server::conn::Http;
 use hyper::service::service_fn;
 use hyper::{Body, Method, Request, Response};
 use tokio::net::TcpListener;
+use chrono;
 
 async fn echo(req: Request<Body>) -> Result<Response<Body>, hyper::Error> {
     match (req.method(), req.uri().path()) {
@@ -14,6 +15,8 @@ async fn echo(req: Request<Body>) -> Result<Response<Body>, hyper::Error> {
 
 
         (&Method::POST, "/hello") => {
+            let start = chrono::offset::Utc::now();
+            println!("Received at {:?}",start);
             let name = hyper::body::to_bytes(req.into_body()).await?;
             let name_string = String::from_utf8(name.to_vec()).unwrap();
 

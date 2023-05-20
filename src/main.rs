@@ -255,6 +255,7 @@ impl Instance for Wasi {
     }
 
     fn kill(&self, signal: u32) -> Result<(), Error> {
+        info!("killcw");
         if signal as i32 != SIGKILL && signal as i32 != SIGINT {
             println!("{:?}", signal);
             return Err(Error::InvalidArgument(
@@ -270,7 +271,7 @@ impl Instance for Wasi {
     }
 
     fn delete(&self) -> Result<(), Error> {
-        info!("delete");
+        info!("deletecw");
         let spec = match oci_utils::load_spec(self.bundle.clone()){
             Ok(spec) => spec,
             Err(err) => {
@@ -280,6 +281,13 @@ impl Instance for Wasi {
         };
         let cg = oci::get_cgroup(&spec)?;
         cg.delete()?;
+
+        let binding = self.bundle.as_str().to_owned() + ".sock";
+        let socket_path = Path::new(&binding);
+        if socket_path.exists() {
+            std::fs::remove_file(&socket_path).unwrap();
+            info!("Socket {:?} deleted",self.bundle.as_str());
+        }
         Ok(())
     }
 

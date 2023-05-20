@@ -9,6 +9,7 @@ use wasmedge_sdk::{params, Vm};
 use crate::{oci_utils, redis_utils};
 use crate::message::Message;
 use chrono;
+use chrono::{DateTime, Utc};
 
 #[derive(Clone)]
 pub struct ShimListener {
@@ -81,7 +82,8 @@ impl ShimListener {
                 match reader.read_line(&mut line) {
                     Ok(_) => {
                         let client_input = line.trim();
-                        println!("Received from client at : {}", chrono::offset::Utc::now());
+                        let start: DateTime<Utc> = chrono::offset::Utc::now();
+                        println!("Received from client at : {}", start);
                         // Send a response back to the client
                         reader.into_inner();
                         // Call function Code here
@@ -149,10 +151,10 @@ pub fn connect_unix_socket(input_fn_a:String, socket_path: String)-> Result<Stri
 #[tokio::main]
 pub async fn init_listener(bundle_path: String, oci_spec: Spec, vm: Vm) -> Result<(), Box<dyn std::error::Error>>{
     println!("before init");
-    let mut listener = ShimListener::new(bundle_path.clone(), oci_spec.clone(), vm.clone());
-    let channel = oci_utils::arg_to_wasi(&oci_spec).first().unwrap().replace("/","").replace(".wasm","");
-    listener.subscribe(&channel).await;
-    println!("channel created {}",channel);
+    //let mut listener = ShimListener::new(bundle_path.clone(), oci_spec.clone(), vm.clone());
+    //let channel = oci_utils::arg_to_wasi(&oci_spec).first().unwrap().replace("/","").replace(".wasm","");
+    //listener.subscribe(&channel).await;
+    //println!("channel created {}",channel);
     let mut listener2 = ShimListener::new(bundle_path, oci_spec.clone(), vm);
     listener2.create_server_socket();
     println!("finished init listener");

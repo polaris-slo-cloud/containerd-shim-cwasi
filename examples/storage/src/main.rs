@@ -9,8 +9,8 @@ async fn main() {
     let download_route = warp::path("files").and(warp::fs::dir("./files/"));
 
     let router = download_route.recover(handle_rejection);
-    println!("Server started at localhost:8080");
-    warp::serve(router).run(([0, 0, 0, 0], 8080)).await;
+    println!("Server started at localhost:8888");
+    warp::serve(router).run(([0, 0, 0, 0], 8888)).await;
 }
 
 async fn handle_rejection(err: Rejection) -> std::result::Result<impl Reply, Infallible> {
