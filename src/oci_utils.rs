@@ -87,7 +87,7 @@ pub fn delete(bundle_path:String) -> Result<(), Error> {
     let socket_path = Path::new(&binding);
     if socket_path.exists() {
         std::fs::remove_file(&socket_path).unwrap();
-        info!("Socket {:?} deleted",self.bundle.as_str());
+        info!("Socket {:?} deleted",socket_path);
     }
     Ok(())
 }
