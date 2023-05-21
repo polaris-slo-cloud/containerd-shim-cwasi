@@ -214,6 +214,7 @@ impl Instance for Wasi {
                         Ok(status) => status,
                         Err(e) => {
                             error!("error waiting for pid {}: {}", tid, e);
+                            self.delete().expect("Delete error pid");
                             cvar.notify_all();
                             return;
                         }
