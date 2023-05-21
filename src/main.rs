@@ -255,7 +255,7 @@ impl Instance for Wasi {
     }
 
     fn kill(&self, signal: u32) -> Result<(), Error> {
-        info!("killcw");
+        info!("killcw {}",self.bundle.as_str());
         if signal as i32 != SIGKILL && signal as i32 != SIGINT {
             println!("{:?}", signal);
             return Err(Error::InvalidArgument(
@@ -271,7 +271,7 @@ impl Instance for Wasi {
     }
 
     fn delete(&self) -> Result<(), Error> {
-        info!("deletecw");
+        info!("deletecw {}",self.bundle.as_str());
         let spec = match oci_utils::load_spec(self.bundle.clone()){
             Ok(spec) => spec,
             Err(err) => {
