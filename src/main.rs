@@ -267,7 +267,8 @@ impl Instance for Wasi {
         let fd = lr
             .as_ref()
             .ok_or_else(|| Error::FailedPrecondition("module is not running".to_string()))?;
-        fd.kill(SIGKILL as i32)
+        fd.kill(SIGKILL as i32);
+        self.delete()
     }
 
     fn delete(&self) -> Result<(), Error> {
