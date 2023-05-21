@@ -214,13 +214,9 @@ impl Instance for Wasi {
                         Ok(status) => status,
                         Err(e) => {
                             error!("error waiting for pid {}: {}", tid, e);
-                            oci_utils::delete(bundle_path).expect("TODO: static delete");
+                            oci_utils::delete(bundle_path).expect("static delete");
                             cvar.notify_all();
-                            let lr = pidfd.lock().unwrap();
-                            let fd = lr
-                                .as_ref()
-                                .ok_or_else(|| Error::FailedPrecondition("module is not running".to_string()))?;
-                            fd.kill(SIGKILL as i32);
+                            pidfd.kill(SIGKILL as i32).expect("force kill");
                             return;
                         }
                     };
