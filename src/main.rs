@@ -204,7 +204,7 @@ impl Instance for Wasi {
                 let mut lr = self.pidfd.lock().unwrap();
                 *lr = Some(pidfd.clone());
 
-                info!("started wasi instance with tid {}", tid);
+                info!("started wasi instance with tid {} at {}", tid,self.bundle.as_str());
 
                 let code = self.exit_code.clone();
 
