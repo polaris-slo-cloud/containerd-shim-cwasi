@@ -71,7 +71,7 @@ pub fn get_wasm_annotations(spec: &Spec,annotation_key: &str) -> String {
 }
 
 
-fn delete(bundle_path:String) -> Result<(), Error> {
+pub fn delete(bundle_path:String) -> Result<(), Error> {
     info!("static deletecw {}",self.bundle.as_str());
     let spec = match load_spec(bundle_path.clone()){
         Ok(spec) => spec,

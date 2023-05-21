@@ -214,7 +214,7 @@ impl Instance for Wasi {
                         Ok(status) => status,
                         Err(e) => {
                             error!("error waiting for pid {}: {}", tid, e);
-                            oci_utils::load_spec(bundle_path).expect("TODO: static ");
+                            oci_utils::delete(bundle_path).expect("TODO: static delete");
                             cvar.notify_all();
                             return;
                         }
