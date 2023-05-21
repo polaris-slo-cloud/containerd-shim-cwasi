@@ -216,7 +216,7 @@ impl Instance for Wasi {
                             error!("error waiting for pid {}: {}", tid, e);
                             oci_utils::delete(bundle_path).expect("static delete");
                             cvar.notify_all();
-                            pidfd.kill(SIGKILL as i32).expect("force kill");
+                            //pidfd.kill(SIGKILL as i32).expect("force kill");
                             return;
                         }
                     };
