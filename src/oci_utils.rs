@@ -1,7 +1,9 @@
 use std::path::Path;
 
 use containerd_shim_wasm::sandbox::{Error, oci};
+use log::{error, info};
 use oci_spec::runtime::Spec;
+use crate::oci_utils;
 
 
 pub fn load_spec(bundle: String) -> Result<oci::Spec, Error> {
@@ -66,4 +68,26 @@ pub fn get_wasm_annotations(spec: &Spec,annotation_key: &str) -> String {
         }
     }
     return String::new();
+}
+
+
+fn delete(bundle_path:String) -> Result<(), Error> {
+    info!("static deletecw {}",self.bundle.as_str());
+    let spec = match load_spec(bundle_path.clone()){
+        Ok(spec) => spec,
+        Err(err) => {
+            error!("Could not load spec, skipping cgroup cleanup: {}", err);
+            return Ok(());
+        }
+    };
+    let cg = oci::get_cgroup(&spec)?;
+    cg.delete()?;
+
+    let binding = bundle_path + ".sock";
+    let socket_path = Path::new(&binding);
+    if socket_path.exists() {
+        std::fs::remove_file(&socket_path).unwrap();
+        info!("Socket {:?} deleted",self.bundle.as_str());
+    }
+    Ok(())
 }

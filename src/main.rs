@@ -207,14 +207,14 @@ impl Instance for Wasi {
                 info!("started wasi instance with tid {} at {}", tid,self.bundle.as_str());
 
                 let code = self.exit_code.clone();
-
+                let bundle_path = self.bundle.clone();
                 let _ = thread::spawn(move || {
                     let (lock, cvar) = &*code;
                     let status = match pidfd.wait() {
                         Ok(status) => status,
                         Err(e) => {
                             error!("error waiting for pid {}: {}", tid, e);
-                            self.delete().expect("Delete error pid");
+                            oci_utils::load_spec(bundle_path).expect("TODO: static ");
                             cvar.notify_all();
                             return;
                         }
