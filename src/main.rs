@@ -256,6 +256,12 @@ impl Instance for Wasi {
 
     fn kill(&self, signal: u32) -> Result<(), Error> {
         info!("killcw {}",self.bundle.as_str());
+        let binding = self.bundle.as_str().to_owned() + ".sock";
+        let socket_path = Path::new(&binding);
+        if socket_path.exists() {
+            std::fs::remove_file(&socket_path).unwrap();
+            info!("Socket {:?} deleted",self.bundle.as_str());
+        }
         if signal as i32 != SIGKILL && signal as i32 != SIGINT {
             println!("{:?}", signal);
             return Err(Error::InvalidArgument(
@@ -267,8 +273,8 @@ impl Instance for Wasi {
         let fd = lr
             .as_ref()
             .ok_or_else(|| Error::FailedPrecondition("module is not running".to_string()))?;
-        fd.kill(SIGKILL as i32);
-        self.delete()
+        fd.kill(SIGKILL as i32)
+
     }
 
     fn delete(&self) -> Result<(), Error> {
