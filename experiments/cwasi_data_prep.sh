@@ -1,6 +1,6 @@
 #!/bin/bash
 
-timestamp_array=( $(cat May20_nuc/openfaas_4M.log | grep -o -P "2023.{0,35}" | sort -r | grep -oE '.{0,3}.{,9}Z' | tr -d 'Z') )
+timestamp_array=( $(cat May18_nuc/cwasi_20M.log | grep -o -P "2023.{0,35}" | sort -r | grep -oE '.{0,3}.{,9}Z' | tr -d 'Z') )
 my_array_length=${#timestamp_array[@]}
 
 for (( j=0; j<${my_array_length}; j++ ));

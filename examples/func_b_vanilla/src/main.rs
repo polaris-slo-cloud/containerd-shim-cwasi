@@ -16,13 +16,13 @@ async fn echo(req: Request<Body>) -> Result<Response<Body>, hyper::Error> {
 
         (&Method::POST, "/hello") => {
             let start = chrono::offset::Utc::now();
-            println!("Received at {:?}",start);
+            let received = format!("Received at {:?}",start);
             let name = hyper::body::to_bytes(req.into_body()).await?;
             let name_string = String::from_utf8(name.to_vec()).unwrap();
 
             let answer = format!("{}{}", "Hello ".to_owned(), name_string);
 
-            Ok(Response::new(Body::from(answer)))
+            Ok(Response::new(Body::from(received)))
         }
 
         _ => {

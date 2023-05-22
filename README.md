@@ -3,6 +3,7 @@
 ![Build](https://github.com/polaris-slo-cloud/containerd-shim-cwasi/actions/workflows/rust.yml/badge.svg)
 ![Repo Updated Badge](https://badges.strrl.dev/updated/polaris-slo-cloud/containerd-shim-cwasi)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/polaris-slo-cloud/containerd-shim-cwasi/blob/main/LICENSE)
+[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 
 CWASI containerd shim is a lightweight and portable way to run cloud wasm applications. It leverages Wasmedge runtime to execute webassembly in a secure and sandboxed environment. We got inspired by [RunWasi Wasmedge](https://github.com/containerd/runwasi).
 

@@ -19,7 +19,7 @@ pub fn cwasi_function() -> String {
 
     let file:String = args[2].parse().unwrap();
     let mut writer = Vec::new(); //container for body of a response
-    let res = request::get("http://".to_owned()+&storage_ip+ &":8080/files/".to_owned()+&file, &mut writer).unwrap();
+    let res = request::get("http://".to_owned()+&storage_ip+ &"/files/".to_owned()+&file, &mut writer).unwrap();
 
     let response_string = &String::from_utf8_lossy(&writer);
     println!("GET");
@@ -62,4 +62,5 @@ pub fn http_client(request_body:&str){
     println!("Status: {} {}", res.status_code(), res.reason());
     println!("Headers {}", res.headers());
     println!("length {}",res_body.len());
+    println!("{}",res_body);
 }
