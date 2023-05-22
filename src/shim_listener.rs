@@ -73,7 +73,7 @@ impl ShimListener {
         }
 
         let listener = UnixListener::bind(&socket_path)?;
-        println!("Socket created successfully at {:?}", &socket_path);
+        println!("Socket created successfully at {:?} {}", &socket_path, chrono::offset::Utc::now());
         match listener.accept() {
             Ok((mut socket, _addr)) => {
                 // Read data from the socket stream

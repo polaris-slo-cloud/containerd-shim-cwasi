@@ -13,7 +13,7 @@ pub static mut BUNDLE_PATH:Option<String> = None;
 
 #[host_function]
 pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmValue>, HostFuncError> {
-    println!("Host function");
+    println!("Host function invoked at {}",chrono::offset::Utc::now());
     let mut mem = caller.memory(0).unwrap();
     let arg1_ptr = input[0].to_i32() as u32;
     let arg1_len = input[1].to_i32() as u32;
@@ -54,7 +54,7 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
         println!("Response received at {:?} total {:?}",end, end - start);
     }
 
-
+    //here i dont care which data is returned (yet)
     let input = String::from("this is a string create to be written on the memory");
     let bytes = input.as_bytes();
     let len = bytes.len();

@@ -10,16 +10,16 @@ fn main() {
 
 #[no_mangle]
 pub fn cwasi_function() -> i32 {
-
+    println!("Wasm B started at {}",chrono::offset::Utc::now());
     let args: Vec<String> = std::env::args().collect();
-    //println!("args: {:?}", args);
 
-    println!("do something file");
+    println!("args read at {}", chrono::offset::Utc::now());
     let input:String = args[2].parse().unwrap();
 
     //process_response(response_string);
     println!("input {:?}",input);
     let result:i32 = 5;
+    println!("Wasm B finished at {}",chrono::offset::Utc::now());
     return result;
 }
 
