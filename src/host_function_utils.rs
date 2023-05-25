@@ -2,7 +2,7 @@ use log::info;
 use oci_spec::runtime::Spec;
 use uuid::Uuid;
 use walkdir::WalkDir;
-use wasmedge_sdk::{Caller, WasmValue, host_function, params};
+use wasmedge_sdk::{Caller, WasmValue, host_function};
 use wasmedge_sdk::error::HostFuncError;
 use crate::{oci_utils, redis_utils, shim_listener};
 use crate::message::Message;

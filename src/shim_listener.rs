@@ -1,5 +1,4 @@
 use std::io::{BufRead, BufReader, Read, Write};
-use regex::Regex;
 use std::os::unix::net::{UnixListener, UnixStream};
 use std::path::Path;
 use anyhow::Error;
@@ -98,7 +97,6 @@ impl ShimListener {
         }
         Ok(())
     }
-
 
     fn call_vm_with_input(&mut self, input: &str) -> Result<i32, Box<dyn std::error::Error>>{
         // create a new Vm with default config

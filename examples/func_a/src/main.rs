@@ -8,27 +8,30 @@ fn main() {
 
 #[no_mangle]
 pub fn cwasi_function() -> i32 {
+    unsafe {
+        let args: Vec<String> = std::env::args().collect();
+        println!("args: {:?} read at {}", args,chrono::offset::Utc::now());
+        let storage_ip = std::env::var("STORAGE_IP").expect("Error: STORAGE_URL not found");
+        println!("Value of STORAGE_IP: {}", storage_ip);
 
-    let args: Vec<String> = std::env::args().collect();
-    println!("args: {:?} read at {}", args,chrono::offset::Utc::now());
-    let storage_ip = std::env::var("STORAGE_IP").expect("Error: STORAGE_URL not found");
-    println!("Value of STORAGE_IP: {}", storage_ip);
+        println!("Downloading file started at {}",chrono::offset::Utc::now());
+        let file:String = args[2].parse().unwrap();
+        let mut writer = Vec::new(); //container for body of a response
+        let res = request::get("http://".to_owned()+&storage_ip+ &"/files/".to_owned()+&file, &mut writer).unwrap();
+        println!("Downloading finished at {}",chrono::offset::Utc::now());
 
-    println!("Downloading file started at {}",chrono::offset::Utc::now());
-    let file:String = args[2].parse().unwrap();
-    let mut writer = Vec::new(); //container for body of a response
-    let res = request::get("http://".to_owned()+&storage_ip+ &"/files/".to_owned()+&file, &mut writer).unwrap();
-    println!("Downloading finished at {}",chrono::offset::Utc::now());
-    let response_string = &String::from_utf8_lossy(&writer);
-    println!("Data copied to string at {}",chrono::offset::Utc::now());
-    //println!("GET");
-    println!("Response Status: {} {}", res.status_code(), res.reason());
-    //println!("Headers {}", res.headers());
+        let response_string = &std::str::from_utf8_unchecked(&writer);
 
-    process_response(response_string);
+        println!("Data copied to string at {}",chrono::offset::Utc::now());
+        //println!("GET");
+        println!("Response Status: {} {}", res.status_code(), res.reason());
+        //println!("Headers {}", res.headers());
 
-    let result:i32 = 5;
-    return result;
+        process_response(response_string);
+
+        let result:i32 = 5;
+        return result;
+    }
 }
 
 pub fn process_response(input_string: &str){

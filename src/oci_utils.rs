@@ -1,10 +1,23 @@
+use std::collections::HashMap;
 use std::path::Path;
 
 use containerd_shim_wasm::sandbox::{Error, oci};
 use log::{error, info};
 use oci_spec::runtime::Spec;
-use crate::oci_utils;
 
+pub fn parse_env(envs: &[String]) -> HashMap<String, String> {
+    // make NAME=VALUE to HashMap<NAME, VALUE>.
+    envs.iter()
+        .filter_map(|e| {
+            let mut split = e.split('=');
+
+            split.next().map(|key| {
+                let value = split.collect::<Vec<&str>>().join("=");
+                (key.into(), value)
+            })
+        })
+        .collect()
+}
 
 pub fn load_spec(bundle: String) -> Result<oci::Spec, Error> {
     let mut spec = oci::load(Path::new(&bundle).join("config.json").to_str().unwrap())?;

@@ -1,40 +1,51 @@
 use anyhow::Context;
 use chrono::{DateTime, Utc};
 use containerd_shim_wasm::sandbox::error::Error;
-use containerd_shim_wasm::sandbox::{exec, ShimCli};
+use containerd_shim_wasm::sandbox::{ShimCli};
 use containerd_shim_wasm::sandbox::oci;
 use containerd_shim_wasm::sandbox::{EngineGetter, Instance, InstanceConfig};
-use libc::{dup, dup2, SIGINT, SIGKILL, STDERR_FILENO, STDIN_FILENO, STDOUT_FILENO};
+use libc::{dup, dup2, STDERR_FILENO, STDIN_FILENO, STDOUT_FILENO};
 use log::{error, info};
 use std::fs::OpenOptions;
-use std::io::ErrorKind;
+use std::io::{ErrorKind, Write};
 use std::os::unix::io::{IntoRawFd, RawFd};
 use std::path::Path;
 use std::sync::{
     mpsc::Sender,
-    {Arc, Condvar, Mutex},
+    {Arc, Condvar, Mutex, RwLock},
 };
-use std::{thread};
-use wasmedge_sdk::{config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions}, ImportObjectBuilder, params, PluginManager, Vm};
+use wasmedge_sys::AsyncResult;
+use std::{process, thread};
+use std::collections::HashMap;
+use std::os::unix::process::CommandExt;
+use std::sync::mpsc::channel;
+use wasmedge_sdk::{ config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions}, ImportObjectBuilder, params, PluginManager, Vm};
 use containerd_shim_cwasi::error::WasmRuntimeError;
 use regex::Regex;
 use containerd_shim_cwasi::{host_function_utils, oci_utils, snapshot_utils, shim_listener};
 use itertools::Itertools;
+use lazy_static::lazy_static;
+use oci_spec::runtime::Spec;
+use nix::{sys::signal, unistd::Pid};
 
 static mut STDIN_FD: Option<RawFd> = None;
 static mut STDOUT_FD: Option<RawFd> = None;
 static mut STDERR_FD: Option<RawFd> = None;
 
+lazy_static! {
+    static ref JOB: Arc<RwLock<Option<AsyncResult>>> = Arc::new(RwLock::new(None));
+}
+
 type ExitCode = (Mutex<Option<(u32, DateTime<Utc>)>>, Condvar);
 pub struct Wasi {
-    exit_code: Arc<ExitCode>,
+    exit_code: Arc<(Mutex<Option<(u32, DateTime<Utc>)>>, Condvar)>,
     engine: Vm,
 
+    id: String,
     stdin: String,
     stdout: String,
     stderr: String,
     bundle: String,
-    pidfd: Arc<Mutex<Option<exec::PidFD>>>,
 }
 
 
@@ -159,6 +170,25 @@ pub fn extract_modules_from_wat(path: &Path) -> Vec<String>{
     return modules_path;
 }
 
+
+fn start_process(bundle_path: String, spec: Spec, vm: Vm) -> Result<(), Box<dyn std::error::Error>>{
+    let secondary_function = oci_utils::get_wasm_annotations(&spec, "cwasi.secondary.function");
+    println!("Secondary function {}",secondary_function);
+    if secondary_function == "true" {
+        //let _ret = match socket_utils::create_server_socket(vm,bundle_path){
+        //let mut unix_socket = shim_listener::ShimListener::new(bundle_path.to_string(), spec, vm);
+        match shim_listener::init_listener(bundle_path.to_string(), spec, vm) {
+            Ok(_) => std::process::exit(0),
+            Err(_) => std::process::exit(137),
+        };
+
+    }else {
+        match vm.run_func(Some("main"), "_start", params!()) {
+            Ok(_) => std::process::exit(0),
+            Err(_) => std::process::exit(137),
+        };
+    }
+}
 impl Instance for Wasi {
     type E = Vm;
     fn new(_id: String, cfg: Option<&InstanceConfig<Self::E>>) -> Self {
@@ -167,23 +197,158 @@ impl Instance for Wasi {
         Wasi {
             exit_code: Arc::new((Mutex::new(None), Condvar::new())),
             engine: cfg.get_engine(),
+            id,
             stdin: cfg.get_stdin().unwrap_or_default(),
             stdout: cfg.get_stdout().unwrap_or_default(),
             stderr: cfg.get_stderr().unwrap_or_default(),
             bundle: cfg.get_bundle().unwrap_or_default(),
-            pidfd: Arc::new(Mutex::new(None)),
         }
     }
 
     fn start(&self) -> Result<u32, Error> {
+        info!(">>> call prehook before start");
+        // Call prehook before the start
+        let bundle = self.bundle.clone();
+        let bundle_path = self.bundle.as_str();
+        info!("bundle path {:?}", bundle_path);
+        let spec = oci::load(Path::new(&bundle).join("config.json").to_str().unwrap())?;
+        match spec.hooks().as_ref() {
+            None => {
+                log::debug!("no hooks found")
+            }
+            Some(hooks) => {
+                let prestart_hooks = hooks.prestart().as_ref().unwrap();
+
+                for hook in prestart_hooks {
+                    let mut hook_command = process::Command::new(&hook.path());
+                    // Based on OCI spec, the first argument of the args vector is the
+                    // arg0, which can be different from the path.  For example, path
+                    // may be "/usr/bin/true" and arg0 is set to "true". However, rust
+                    // command differenciates arg0 from args, where rust command arg
+                    // doesn't include arg0. So we have to make the split arg0 from the
+                    // rest of args.
+                    if let Some((arg0, args)) = hook.args().as_ref().and_then(|a| a.split_first()) {
+                        log::debug!("run_hooks arg0: {:?}, args: {:?}", arg0, args);
+                        hook_command.arg0(arg0).args(args)
+                    } else {
+                        hook_command.arg0(&hook.path().display().to_string())
+                    };
+
+                    let envs: HashMap<String, String> = if let Some(env) = hook.env() {
+                        oci_utils::parse_env(env)
+                    } else {
+                        HashMap::new()
+                    };
+                    log::debug!("run_hooks envs: {:?}", envs);
+
+                    let mut hook_process = hook_command
+                        .env_clear()
+                        .envs(envs)
+                        .stdin(process::Stdio::piped())
+                        .spawn()
+                        .with_context(|| "Failed to execute hook")?;
+                    let hook_process_pid = Pid::from_raw(hook_process.id() as i32);
+
+                    if let Some(stdin) = &mut hook_process.stdin {
+                        // We want to ignore BrokenPipe here. A BrokenPipe indicates
+                        // either the hook is crashed/errored or it ran successfully.
+                        // Either way, this is an indication that the hook command
+                        // finished execution.  If the hook command was successful,
+                        // which we will check later in this function, we should not
+                        // fail this step here. We still want to check for all the other
+                        // error, in the case that the hook command is waiting for us to
+                        // write to stdin.
+                        let state = format!("{{ \"pid\": {} }}", std::process::id());
+                        if let Err(e) = stdin.write_all(state.as_bytes()) {
+                            if e.kind() != ErrorKind::BrokenPipe {
+                                // Not a broken pipe. The hook command may be waiting
+                                // for us.
+                                let _ = signal::kill(hook_process_pid, signal::Signal::SIGKILL);
+                            }
+                        }
+                    }
+
+                    hook_process.wait()?;
+                }
+            }
+        }
 
         info!(">>> shim starts");
         let engine = self.engine.clone();
+
+        let exit_code = self.exit_code.clone();
+        let (tx, rx) = channel::<Result<(), Error>>();
         let stdin = self.stdin.clone();
         let stdout = self.stdout.clone();
         let stderr = self.stderr.clone();
 
-        let spec = oci_utils::load_spec(self.bundle.clone())?;
+        let _ = thread::Builder::new()
+            .name(self.id.clone())
+            .spawn(move || {
+                info!("starting instance");
+
+                info!("preparing module");
+                let vm = match prepare_module(engine, &spec, stdin, stdout, stderr) {
+                    Ok(vm) => vm,
+                    Err(err) => {
+                        tx.send(Err(Error::Others(err.to_string()))).unwrap();
+                        return;
+                    }
+                };
+
+                info!("notifying main thread we are about to start");
+                tx.send(Ok(())).unwrap();
+
+                info!("starting wasi instance");
+
+                // TODO: How to get exit code?
+                // This was relatively straight forward in go, but wasi and wasmtime are totally separate things in rust.
+                let (lock, cvar) = &*exit_code;
+
+                let mut job = JOB.write().unwrap();
+
+                *job = Some(start_process(bundle,spec,vm).unwrap());
+
+                    //vm.run_func_async(Some("main"), "_start", params!())
+                    //    .unwrap(),
+
+                drop(job);
+
+                let _ret = match (&*JOB.read().unwrap()).as_ref().unwrap().get_async() {
+                    Ok(_) => {
+                        info!("exit code: {}", 0);
+                        let mut ec = lock.lock().unwrap();
+                        *ec = Some((0, Utc::now()));
+                    }
+                    Err(_) => {
+                        error!("exit code: {}", 137);
+                        let mut ec = lock.lock().unwrap();
+                        *ec = Some((137, Utc::now()));
+                    }
+                };
+
+                cvar.notify_all();
+            })?;
+
+        info!("Waiting for start notification");
+        match rx.recv().unwrap() {
+            Ok(_) => (),
+            Err(err) => {
+                info!("error starting instance: {:?}", err);
+                let code = self.exit_code.clone();
+
+                let (lock, cvar) = &*code;
+                let mut ec = lock.lock().unwrap();
+                *ec = Some((139, Utc::now()));
+                cvar.notify_all();
+                return Err(err);
+            }
+        }
+
+        Ok(std::process::id())
+
+
+        /*let spec = oci_utils::load_spec(self.bundle.clone())?;
         let bundle_path = self.bundle.as_str();
         info!("bundle path {:?}", bundle_path);
         info!("loading specs {:?}", spec);
@@ -192,12 +357,12 @@ impl Instance for Wasi {
             crate::host_function_utils::BUNDLE_PATH=Some(bundle_path.to_string());
         }
         let vm = prepare_module(engine, &spec, stdin, stdout, stderr)
-            .map_err(|e| Error::Others(format!("error setting up module: {}", e)))?;
+            .map_err(|e| Error::Others(format!("error setting up module: {:?}", e)))?;
         info!("vm created");
         let cg = oci::get_cgroup(&spec)?;
 
         oci::setup_cgroup(cg.as_ref(), &spec)
-            .map_err(|e| Error::Others(format!("error setting up cgroups: {}", e)))?;
+            .map_err(|e| Error::Others(format!("error setting up cgroups: {:?}", e)))?;
         let res = unsafe { exec::fork(Some(cg.as_ref())) }?;
         match res {
             exec::Context::Parent(tid, pidfd) => {
@@ -213,7 +378,7 @@ impl Instance for Wasi {
                     let status = match pidfd.wait() {
                         Ok(status) => status,
                         Err(e) => {
-                            error!("error waiting for pid {}: {}", tid, e);
+                            error!("error waiting for pid {}: {:?}", tid, e);
                             oci_utils::delete(bundle_path).expect("static delete");
                             cvar.notify_all();
                             //pidfd.kill(SIGKILL as i32).expect("force kill");
@@ -253,7 +418,11 @@ impl Instance for Wasi {
                     };
                 }
             }
+
+
         }
+
+         */
     }
 
     fn kill(&self, signal: u32) -> Result<(), Error> {
@@ -263,19 +432,20 @@ impl Instance for Wasi {
         if socket_path.exists() {
             std::fs::remove_file(&socket_path).unwrap();
             info!("Socket {:?} deleted",self.bundle.as_str());
-        }
-        if signal as i32 != SIGKILL && signal as i32 != SIGINT {
-            println!("{:?}", signal);
-            return Err(Error::InvalidArgument(
-                "only SIGKILL and SIGINT are supported".to_string(),
-            ));
-        }
-
-        let lr = self.pidfd.lock().unwrap();
-        let fd = lr
-            .as_ref()
-            .ok_or_else(|| Error::FailedPrecondition("module is not running".to_string()))?;
-        fd.kill(SIGKILL as i32)
+        }match &*JOB.read().unwrap() {
+            Some(job) => {
+                job.cancel();
+                let code = self.exit_code.clone();
+                let (lock, cvar) = &*code;
+                let mut ec = lock.lock().unwrap();
+                *ec = Some((137, Utc::now()));
+                cvar.notify_one();
+            }
+            None => {
+                // no running wasm task
+            }
+        };
+        Ok(())
 
     }
 
@@ -284,7 +454,7 @@ impl Instance for Wasi {
         let spec = match oci_utils::load_spec(self.bundle.clone()){
             Ok(spec) => spec,
             Err(err) => {
-                error!("Could not load spec, skipping cgroup cleanup: {}", err);
+                error!("Could not load spec, skipping cgroup cleanup: {:?}", err);
                 return Ok(());
             }
         };
@@ -310,7 +480,12 @@ impl Instance for Wasi {
                 exit = cvar.wait(exit).unwrap();
             }
             let ec = (*exit).unwrap();
-            channel.send(ec).unwrap();
+            match channel.send(ec) {
+                Ok(_) => {}
+                Err(error) => {
+                    error!("channel disconnect: {}", error);
+                }
+            }
         });
 
         Ok(())

@@ -2,8 +2,7 @@ extern crate redis;
 
 
 use std::error::Error;
-use log::info;
-use redis::{Commands, ControlFlow, PubSubCommands, RedisResult};
+use redis::{Commands};
 use crate::message::Message;
 
 pub fn connect() -> redis::Connection {

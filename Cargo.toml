@@ -16,7 +16,8 @@ cap-std = "1.0.5"
 oci-spec = { version = "0.6.0", features = ["runtime"] }
 thiserror = "1.0.39"
 libc = "0.2.138"
-wasmedge-sdk = { version = "0.7.1", features = ["async"] }
+wasmedge-sdk = { version = "0.7.1", features = ["async"], optional= true }
+wasmedge-sys = { version = "0.12.2", optional = true }
 wasmprinter = "0.2.53"
 regex = "1.7.1"
 itertools = "0.10.5"
@@ -28,7 +29,12 @@ serde_derive = "1.0.159"
 redis =  "0.19.0"
 uuid = {version = "0.8.2", features = ["v4"]}
 tokio = { version = "*", features = ["full"]}
+lazy_static = "1.4.0"
+nix = "0.23"
 
+
+[features]
+wasmedge = ["wasmedge-sys", "wasmedge-sdk"]
 
 [[bin]]
 name = "containerd-shim-cwasi-v1"
