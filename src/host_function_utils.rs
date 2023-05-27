@@ -56,7 +56,7 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
 
     //here i dont care which data is returned (yet)
     let input = String::from("this is a string create to be written on the memory");
-    let bytes = input.as_bytes();
+    let bytes = ext_func_result.as_bytes();
     let len = bytes.len();
     mem.write(bytes, arg1_ptr);
 

@@ -5,7 +5,7 @@ sudo ctr -n k8s.io run --rm --runtime=io.containerd.cwasi.v1 --annotation cwasi.
 
 start=`date +%s.%N`
 
-sudo ctr -n k8s.io run --rm --runtime=io.containerd.cwasi.v1 --net-host=true --env STORAGE_IP=192.168.0.38 docker.io/keniack/func_a:latest $(echo $RANDOM) /func_a.wasm func_b.wasm file_4M.txt
+sudo ctr -n k8s.io run --rm --runtime=io.containerd.cwasi.v1 --net-host=true --env STORAGE_IP=192.168.0.38 docker.io/keniack/func_a:latest $(echo $RANDOM) /func_a.wasm func_b.wasm file_40M.txt
 
 end=`date +%s.%N`
 runtime=$( echo "$end - $start" | bc -l )
