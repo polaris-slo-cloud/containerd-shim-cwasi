@@ -5,7 +5,7 @@
 
 start=`date +%s.%N`
 
-sudo ctr -n k8s.io run --rm --runtime=io.containerd.wasmedge.v1 --net-host=true --env STORAGE_IP=192.168.0.38 --env FUNCB_IP=192.168.0.40 docker.io/keniack/func_a_vanilla:latest $(echo $RANDOM) /func_a_vanilla.wasm func_b_vanilla.wasm file_2M.txt
+sudo ctr -n k8s.io run --rm --runtime=io.containerd.wasmedge.v1 --net-host=true --env STORAGE_IP=192.168.0.213:8888 --env FUNCB_IP=192.168.0.241 --env FUNCTIONS_NUM=100  docker.io/keniack/func_a_vanilla:latest $(echo $RANDOM) /func_a_vanilla.wasm func_b_vanilla.wasm file_100M.txt
 
 end=`date +%s.%N`
 runtime=$( echo "$end - $start" | bc -l )

@@ -144,7 +144,7 @@ pub fn connect_unix_socket(input_fn_a:String, socket_path: String)-> Result<Stri
     //let re = Regex::new(r"\D+").unwrap();
     //let result = re.replace(&*response,"").to_string();
     //println!("Closing socket function A with B result {}",result);
-    Ok(response.replace("Received at ", "").replace("\n",""))
+    Ok(response.replace("Received from client at : ", "").replace("\n",""))
 
 }
 
