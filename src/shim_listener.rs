@@ -9,7 +9,7 @@ use wasmedge_sdk::{params, Vm};
 use crate::{oci_utils, redis_utils};
 use crate::message::Message;
 use chrono;
-use chrono::{DateTime, Utc};
+use chrono::{DateTime, SecondsFormat, Utc};
 
 #[derive(Clone)]
 pub struct ShimListener {
@@ -82,7 +82,7 @@ impl ShimListener {
                 match reader.read_line(&mut line) {
                     Ok(_) => {
                         let client_input = line.trim();
-                        let start: DateTime<Utc> = chrono::offset::Utc::now();
+                        let start: DateTime<Utc> = chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Micros, true);
                         let res_time=format!("Received from client at : {}", start);
                         // Send a response back to the client
                         reader.into_inner();

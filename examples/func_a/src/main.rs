@@ -33,7 +33,7 @@ pub fn cwasi_function() -> i32 {
         let mut duration:Duration = Duration::seconds(0);
         let start = chrono::offset::Utc::now();
         for _ in 1..index {
-            let response_b=process_response(response_string.clone()).replace("Received at ", "").replace("\n","");
+            let response_b=process_response(response_string.clone()).replace("Received from client at : ", "").replace("\n","");
             let datetime = DateTime::parse_from_rfc3339(&response_b)
                 .unwrap_or_else(|err| panic!("Failed to parse date string: {}", err));
 
