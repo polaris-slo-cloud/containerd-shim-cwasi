@@ -1,3 +1,4 @@
+use std::path::Path;
 use log::info;
 use oci_spec::runtime::Spec;
 use uuid::Uuid;
@@ -86,7 +87,8 @@ fn find_container_path(path:String, function_name:String) -> String {
             let c_path = file.path().display().to_string().replace("/config.json","");
             let spec = oci_utils::load_spec(c_path.clone()).unwrap();
             let args = oci_utils::arg_to_wasi(&spec);
-            if args.first().unwrap().to_string().replace("/","")==function_name{
+            let c_path_formatted=args.first().unwrap().to_string().replace("/","");
+            if c_path_formatted==function_name && Path::new(&c_path+".sock").exists(){
                 return c_path;
             }
         }
