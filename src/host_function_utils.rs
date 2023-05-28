@@ -88,7 +88,7 @@ fn find_container_path(path:String, function_name:String) -> String {
             let spec = oci_utils::load_spec(c_path.clone()).unwrap();
             let args = oci_utils::arg_to_wasi(&spec);
             let c_path_formatted=args.first().unwrap().to_string().replace("/","");
-            if c_path_formatted==function_name && Path::new(&c_path+".sock").exists(){
+            if c_path_formatted==function_name && Path::new(&(c_path.clone()+".sock")).exists(){
                 return c_path;
             }
         }
