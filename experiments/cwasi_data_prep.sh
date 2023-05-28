@@ -1,6 +1,7 @@
 #!/bin/bash
 
-timestamp_array=( $(cat sequential/openfaas/openfaas_10M.log | grep -o -P "2023.{0,35}" | sort -r | grep -oE '.{0,3}.{,9}Z' | tr -d 'Z') )
+file="$1"
+timestamp_array=( $(cat $file | grep -o -P "2023.{0,35}" | sort -r | grep -oE '.{0,3}.{,9}Z' | tr -d 'Z') )
 my_array_length=${#timestamp_array[@]}
 
 for (( j=0; j<${my_array_length}; j++ ));
