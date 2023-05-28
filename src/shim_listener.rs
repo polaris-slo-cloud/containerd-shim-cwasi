@@ -143,7 +143,7 @@ pub fn connect_unix_socket(input_fn_a:String, socket_path: String)-> Result<Stri
     // This is only for logging
     //let re = Regex::new(r"\D+").unwrap();
     //let result = re.replace(&*response,"").to_string();
-    println!("{}",result);
+    println!("{}",response);
     Ok(response.replace("Received from client at : ", "").replace("\n",""))
 
 }
