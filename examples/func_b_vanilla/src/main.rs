@@ -37,6 +37,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
 
     let listener = TcpListener::bind(addr).await?;
     println!("Listening on http://{}", addr);
+
     loop {
         let (stream, _) = listener.accept().await?;
 

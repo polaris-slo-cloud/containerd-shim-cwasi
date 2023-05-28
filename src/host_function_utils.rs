@@ -30,7 +30,7 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
     //println!("Payload {}",payload);
 
     let socket_path: String;
-    let ext_func_result:String;
+    let mut ext_func_result:String;
 
     unsafe {
         //external_fn_name = oci_utils::get_wasm_annotations(&OCI_SPEC.clone().unwrap(), ext_fn_id_str);
@@ -51,6 +51,17 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
         let start: DateTime<Utc> = chrono::offset::Utc::now();
         println!("Connecting to {:?} at {:?}",socket_path, start);
         ext_func_result = shim_listener::connect_unix_socket(payload, socket_path).unwrap();
+        //THIS IS JUST FOR THE FAN-IN FAN-OUT
+        let datetime = DateTime::parse_from_rfc3339(&ext_func_result)
+            .unwrap_or_else(|err| panic!("Failed to parse date string: {}", err));
+
+        // Convert the DateTime to the Utc timezone
+        let datetime_utc: DateTime<Utc> = datetime.into();
+
+        // Extract the date
+        let duration_b = datetime_utc - start ;
+        ext_func_result = duration_b.num_microseconds().unwrap().to_string();
+        //UNTIL HERE
         let end: DateTime<Utc> = chrono::offset::Utc::now();
         println!("Response received at {:?} total {:?}",end, end - start);
     }

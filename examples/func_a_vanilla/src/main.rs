@@ -1,5 +1,5 @@
 use wasmedge_http_req::request;
-use chrono;
+use chrono::{DateTime, Utc,Duration};
 
 fn main() {
     println!("Greetings from func_a!");
@@ -25,35 +25,47 @@ pub fn cwasi_function() -> String {
     println!("Status: {} {}", res.status_code(), res.reason());
     println!("Headers {}", res.headers());
 
-    process_response(writer);
-    //println!("{}",response_string);
-    //return response_string.to_string();
+    let index: i32 = std::env::var("FUNCTIONS_NUM").expect("Error: FUNCTIONS_NUM not found").parse().unwrap();
+    println!("Value of FUNCTIONS_NUM: {}", index);
+    let mut duration:Duration = Duration::seconds(0);
+
+    for i in 0..index {
+        let start = chrono::offset::Utc::now();
+        let response_b=process_response(writer.clone()).replace("Received at ", "").replace("\n","");
+        let datetime = DateTime::parse_from_rfc3339(&response_b)
+            .unwrap_or_else(|err| panic!("Failed to parse date string: {}", err));
+
+        // Convert the DateTime to the Utc timezone
+        let datetime_utc: DateTime<Utc> = datetime.into();
+
+        // Extract the date
+        let duration_b = datetime_utc - start ;
+        duration = duration+duration_b;
+        let seconds = duration.num_microseconds().unwrap() as f64/1000000 as f64;
+        let throughput = (i+1) as f64/ seconds as f64;
+        println!("throughput: {} index {}", throughput,i);
+    }
+    println!("Result  {} sent, Duration {} ms", index,duration.to_owned().num_milliseconds());
+    let seconds = duration.num_microseconds().unwrap() as f64/1000000 as f64;
+    let throughput = index as f64/ seconds as f64;
+    println!("throughput: {}", throughput);
+
     return String::from("Im finished");
 }
 
-pub fn process_response(input_string: Vec<u8>){
-    //println!("Process response ");
-    //let full_payload = "{\"source_channel\":\"func_a.wasm\",\"target_channel\":\"func_b.wasm\",\"payload\":\"".to_owned() +input_string+"\"}";
-    /*let input_bytes = full_payload.as_bytes();
-    let len = input_bytes.len() as i32;
-    let ptr = input_bytes.as_ptr();
-    let _ptr_i32 = input_bytes.as_ptr() as i32;
-    println!("input pointer {:?} ",ptr);
-    println!("input length {:?} ",len);
-     */
-    http_client(input_string);
+pub fn process_response(input_string: Vec<u8>)->String{
+
+    return http_client(input_string);
 
 }
 
-pub fn http_client(request_body: Vec<u8>){
+pub fn http_client(request_body: Vec<u8>)->String{
 
     let funcb_ip = std::env::var("FUNCB_IP").expect("Error: FUNCB_IP not found");
     println!("Value of FUNCB_IP: {}", funcb_ip);
 
     let mut writer = Vec::new(); //container for body of a response
-    //const BODY: &[u8; 27] = b"field1=value1&field2=value2";
-    // let res = request::post("https://httpbin.org/post", BODY, &mut writer).unwrap();
-    // no https , no dns
+
     let start = chrono::offset::Utc::now();
     println!("Connecting at {:?}",start);
     let res = request::post("http://".to_owned() + &funcb_ip+":1234/hello", &*request_body, &mut writer).unwrap();
@@ -64,5 +76,6 @@ pub fn http_client(request_body: Vec<u8>){
         println!("Headers {}", res.headers());
         println!("length {}",res_body.len());
         println!("{}",res_body);
+        return res_body.to_string();
     }
 }

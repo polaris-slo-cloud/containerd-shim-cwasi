@@ -1,0 +1,32 @@
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/8844" at 2023-05-28T08:17:17.655465669Z
+                                                                                                           response string "Received from client at : 2023-05-28T08:17:17.688906Z"
+                     throughput: 0.9681170027484841 index 0
+                                                           Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/17005" at 2023-05-28T08:17:18.470902912Z
+         response string "Received from client at : 2023-05-28T08:17:18.494117Z"
+                                                                                 throughput: 1.1032985316199844 index 1
+                                                                                                                       Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/21869" at 2023-05-28T08:17:19.269198750Z
+                                                                     response string "Received from client at : 2023-05-28T08:17:19.292734Z"
+                                                                                                                                             throughput: 1.1593777233299647 index 2
+                     Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/21237" at 2023-05-28T08:17:20.069629068Z
+                                                                                                                                 response string "Received from client at : 2023-05-28T08:17:20.093239Z"
+                                           throughput: 1.1889666274902162 index 3
+                                                                                 Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/14428" at 2023-05-28T08:17:20.873652545Z
+                               response string "Received from client at : 2023-05-28T08:17:20.898489Z"
+                                                                                                       throughput: 1.2062106338082024 index 4
+                                                                                                                                             Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/15668" at 2023-05-28T08:17:21.681009524Z
+                                                                                           response string "Received from client at : 2023-05-28T08:17:21.705036Z"
+     throughput: 1.2177766159286805 index 5
+                                           Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/25836" at 2023-05-28T08:17:22.492278007Z
+                                                                                                                                                       response string "Received from client at : 2023-05-28T08:17:22.515942Z"
+                                                                 throughput: 1.2250676849895956 index 6
+                                                                                                       Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/8948" at 2023-05-28T08:17:23.297515150Z
+                                                    response string "Received from client at : 2023-05-28T08:17:23.322846Z"
+                                                                                                                            throughput: 1.2313981910760574 index 7
+    Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/10695" at 2023-05-28T08:17:24.109312367Z
+                                                                                                                response string "Received from client at : 2023-05-28T08:17:24.134530Z"
+                          throughput: 1.2356817098100359 index 8
+                                                                Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/25519" at 2023-05-28T08:17:24.920143730Z
+              response string "Received from client at : 2023-05-28T08:17:24.945071Z"
+                                                                                      throughput: 1.239633256980189 index 9
+                                                                                                                           Result  10 sent, Duration 8066 ms
+                                                                                                                                                            throughput: 1.239633256980189

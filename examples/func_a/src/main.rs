@@ -31,18 +31,16 @@ pub fn cwasi_function() -> i32 {
         let index: i32 = std::env::var("FUNCTIONS_NUM").expect("Error: FUNCTIONS_NUM not found").parse().unwrap();
         println!("Value of FUNCTIONS_NUM: {}", index);
         let mut duration:Duration = Duration::seconds(0);
-        let start = chrono::offset::Utc::now();
-        for _ in 1..index {
-            let response_b=process_response(response_string.clone()).replace("Received from client at : ", "").replace("\n","");
-            let datetime = DateTime::parse_from_rfc3339(&response_b)
-                .unwrap_or_else(|err| panic!("Failed to parse date string: {}", err));
 
-            // Convert the DateTime to the Utc timezone
-            let datetime_utc: DateTime<Utc> = datetime.into();
+        for i in 0..index {
+            let start = chrono::offset::Utc::now();
+            let duration_func_microsec =process_response(response_string.clone()).replace("Received from client at : ", "").replace("\n", "");
+            let duration_b=chrono::Duration::microseconds(duration_func_microsec.parse::<i64>().unwrap());
 
-            // Extract the date
-            let duration_b= datetime_utc - start ;
             duration = duration+duration_b;
+            let seconds = duration.num_microseconds().unwrap() as f64/1000000 as f64;
+            let throughput = (i+1) as f64/ seconds as f64;
+            println!("throughput: {} index {}", throughput,i);
         }
         println!("Result  {} sent, Duration {} ms", index,duration.to_owned().num_milliseconds());
         let seconds = duration.num_microseconds().unwrap() as f64/1000000 as f64;
