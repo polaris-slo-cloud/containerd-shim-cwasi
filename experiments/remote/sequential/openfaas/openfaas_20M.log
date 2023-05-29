@@ -1,0 +1,55 @@
+Exp 0
+Connecting at 2023-05-29T17:44:09.939426420Z
+Received at 2023-05-29T17:44:10.028198697Z
+Result  1 sent, Duration 88 ms
+throughput: 11.264813229396657
+Exp 1
+Connecting at 2023-05-29T17:44:15.930176680Z
+Received at 2023-05-29T17:44:16.022609924Z
+Result  1 sent, Duration 92 ms
+throughput: 10.818647020003679
+Exp 2
+Connecting at 2023-05-29T17:44:22.015400719Z
+Received at 2023-05-29T17:44:22.108846637Z
+Result  1 sent, Duration 93 ms
+throughput: 10.701482155278507
+Exp 3
+Connecting at 2023-05-29T17:44:28.891648936Z
+Received at 2023-05-29T17:44:28.992055657Z
+Result  1 sent, Duration 100 ms
+throughput: 9.959564169471944
+Exp 4
+Connecting at 2023-05-29T17:44:35.043746364Z
+Received at 2023-05-29T17:44:35.138929282Z
+Result  1 sent, Duration 95 ms
+throughput: 10.506188144817298
+Exp 5
+Connecting at 2023-05-29T17:44:41.202069593Z
+Received at 2023-05-29T17:44:41.302184438Z
+Result  1 sent, Duration 100 ms
+throughput: 9.988612981201431
+Exp 6
+Connecting at 2023-05-29T17:44:47.258419958Z
+Received at 2023-05-29T17:44:47.351556794Z
+Result  1 sent, Duration 93 ms
+throughput: 10.736986772032298
+Exp 7
+Connecting at 2023-05-29T17:44:53.286512029Z
+Received at 2023-05-29T17:44:53.379610112Z
+Result  1 sent, Duration 93 ms
+throughput: 10.741369309759609
+Exp 8
+Connecting at 2023-05-29T17:44:59.602833854Z
+Received at 2023-05-29T17:44:59.699364062Z
+Result  1 sent, Duration 96 ms
+throughput: 10.359473738734073
+Exp 9
+Connecting at 2023-05-29T17:45:05.796283732Z
+Received at 2023-05-29T17:45:05.890410736Z
+Result  1 sent, Duration 94 ms
+throughput: 10.6239442455406
+Exp 10
+Connecting at 2023-05-29T17:45:12.037761394Z
+Received at 2023-05-29T17:45:12.129832394Z
+Result  1 sent, Duration 92 ms
+throughput: 10.861183217299693

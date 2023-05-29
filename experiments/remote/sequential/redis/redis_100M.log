@@ -1,0 +1,66 @@
+Exp 0
+Connecting at 2023-05-29T16:00:52.385063799Z
+                                            Received at 2023-05-29T16:01:38.977904721Z
+                                                                                      throughput: 0.020768157231232473 index 0
+                                                                                                                              Result  1 sent, Duration 48150 ms
+ throughput: 0.020768157231232473
+                                 Exp 1
+Connecting at 2023-05-29T16:02:12.768197931Z
+                                            Received at 2023-05-29T16:02:57.505126730Z
+                                                                                      throughput: 0.02162436943609029 index 0
+                                                                                                                             Result  1 sent, Duration 46244 ms
+                                                                                                                                                             throughput: 0.02162436943609029
+                              Exp 2
+Connecting at 2023-05-29T16:03:29.079283831Z
+                                            Received at 2023-05-29T16:04:13.133506302Z
+                                                                                      throughput: 0.02202068499832907 index 0
+                                                                                                                             Result  1 sent, Duration 45411 ms
+                                                                                                                                                             throughput: 0.02202068499832907
+                              Exp 3
+Connecting at 2023-05-29T16:04:47.469825682Z
+                                            Received at 2023-05-29T16:05:32.882376320Z
+                                                                                      throughput: 0.021379943205891268 index 0
+                                                                                                                              Result  1 sent, Duration 46772 ms
+ throughput: 0.021379943205891268
+                                 Exp 4
+Connecting at 2023-05-29T16:06:05.831640320Z
+                                            Received at 2023-05-29T16:06:47.801812586Z
+                                                                                      throughput: 0.023004597859960476 index 0
+                                                                                                                              Result  1 sent, Duration 43469 ms
+ throughput: 0.023004597859960476
+                                 Exp 5
+Connecting at 2023-05-29T16:07:22.444708757Z
+                                            Received at 2023-05-29T16:08:04.495084782Z
+                                                                                      throughput: 0.023036072323868378 index 0
+                                                                                                                              Result  1 sent, Duration 43410 ms
+ throughput: 0.023036072323868378
+                                 Exp 6
+Connecting at 2023-05-29T16:08:37.588196076Z
+                                            Received at 2023-05-29T16:09:21.441608521Z
+                                                                                      throughput: 0.022116447119276367 index 0
+                                                                                                                              Result  1 sent, Duration 45215 ms
+ throughput: 0.022116447119276367
+                                 Exp 7
+Connecting at 2023-05-29T16:09:54.801572065Z
+                                            Received at 2023-05-29T16:10:38.465286871Z
+                                                                                      throughput: 0.022135915272393617 index 0
+                                                                                                                              Result  1 sent, Duration 45175 ms
+ throughput: 0.022135915272393617
+                                 Exp 8
+Connecting at 2023-05-29T16:11:11.191330474Z
+                                            Received at 2023-05-29T16:11:56.061707092Z
+                                                                                      throughput: 0.021614256417705015 index 0
+                                                                                                                              Result  1 sent, Duration 46265 ms
+ throughput: 0.021614256417705015
+                                 Exp 9
+Connecting at 2023-05-29T16:12:31.166890747Z
+                                            Received at 2023-05-29T16:13:12.500806039Z
+                                                                                      throughput: 0.023335940891368537 index 0
+                                                                                                                              Result  1 sent, Duration 42852 ms
+ throughput: 0.023335940891368537
+                                 Exp 10
+Connecting at 2023-05-29T16:13:46.997671882Z
+                                            Received at 2023-05-29T16:14:33.105465863Z
+                                                                                      throughput: 0.021068274883934347 index 0
+                                                                                                                              Result  1 sent, Duration 47464 ms
+ throughput: 0.021068274883934347

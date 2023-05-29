@@ -239,8 +239,6 @@ impl Instance for Wasi {
                 let secondary_function = oci_utils::get_wasm_annotations(&spec, "cwasi.secondary.function");
                 println!("Secondary function {}",secondary_function);
                 if secondary_function == "true" {
-                    //let _ret = match socket_utils::create_server_socket(vm,bundle_path){                    
-                    //let mut unix_socket = shim_listener::ShimListener::new(bundle_path.to_string(), spec, vm);
                     let _ret = match shim_listener::init_listener(bundle_path.to_string(), spec, vm) {
                          Ok(_) => std::process::exit(0),
                         Err(_) => std::process::exit(137),

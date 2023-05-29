@@ -7,7 +7,7 @@ use wasmedge_sdk::{Caller, WasmValue, host_function, params};
 use wasmedge_sdk::error::HostFuncError;
 use crate::{oci_utils, redis_utils, shim_listener};
 use crate::message::Message;
-use chrono::{DateTime, Utc};
+use chrono::{DateTime, SecondsFormat, Utc};
 
 pub static mut OCI_SPEC:Option<Spec> = None;
 pub static mut BUNDLE_PATH:Option<String> = None;
@@ -44,27 +44,26 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
     //ext_func_result = connect_to_queue(external_function_type.replace(".wasm",""), payload);
     println!("External func {:?}",chrono::offset::Utc::now());
     //ext_func_result = connect_to_queue(external_function_type.replace(".wasm",""), payload);
+    let start: DateTime<Utc> = chrono::offset::Utc::now();
     if socket_path.is_empty() {
-        println!("No local fn found. Connect to queue");
+        println!("Connecting to queue {:?} at {:?}",socket_path, start);
         ext_func_result = connect_to_queue(external_function_type.replace(".wasm",""), payload);
     }else {
-        let start: DateTime<Utc> = chrono::offset::Utc::now();
         println!("Connecting to {:?} at {:?}",socket_path, start);
         ext_func_result = shim_listener::connect_unix_socket(payload, socket_path).unwrap();
-        //THIS IS JUST FOR THE FAN-IN FAN-OUT
-        let datetime = DateTime::parse_from_rfc3339(&ext_func_result)
-            .unwrap_or_else(|err| panic!("Failed to parse date string: {}", err));
 
-        // Convert the DateTime to the Utc timezone
-        let datetime_utc: DateTime<Utc> = datetime.into();
-
-        // Extract the date
-        let duration_b = datetime_utc - start ;
-        ext_func_result = duration_b.num_microseconds().unwrap().to_string();
-        //UNTIL HERE
-        let end: DateTime<Utc> = chrono::offset::Utc::now();
-        println!("Response received at {:?} total {:?}",end, end - start);
     }
+    //THIS IS JUST FOR THE FAN-IN FAN-OUT
+    let datetime = DateTime::parse_from_rfc3339(&ext_func_result)
+        .unwrap_or_else(|err| panic!("Failed to parse date string: {}", err));
+
+    // Convert the DateTime to the Utc timezone
+    let datetime_utc: DateTime<Utc> = datetime.into();
+
+    // Extract the date
+    let duration_b = datetime_utc - start ;
+    ext_func_result = duration_b.num_microseconds().unwrap().to_string();
+    //UNTIL HERE
 
     //here i dont care which data is returned (yet)
     let input = String::from("this is a string create to be written on the memory");
@@ -79,14 +78,18 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
 
 
 fn connect_to_queue(channel :String, fn_target_input:String) -> String{
-    println!("Connecting to queue {} ",channel);
+    //println!("Connecting to queue {} ",channel);
     let fn_source_id = Uuid::new_v4().to_simple().to_string();
     let fn_source_id_copy = fn_source_id.clone();
 
     let _ = redis_utils::publish_message(Message::new(fn_source_id,
                                                       channel, fn_target_input));
     let result = redis_utils::_subscribe(fn_source_id_copy.as_str());
-    return result.payload;
+
+    println!("{}",result.payload);
+
+    //return result.payload;
+    return result.payload.replace("Received from client at : ", "").replace("\n","");
 }
 
 

@@ -1,0 +1,32 @@
+Connecting at 2023-05-29T16:52:14.757990894Z
+                                            Received at 2023-05-29T16:52:20.502077409Z
+                                                                                      throughput: 0.16632879743614137 index 0
+                                                                                                                             Connecting at 2023-05-29T16:52:20.588470589Z
+           Received at 2023-05-29T16:52:23.102202443Z
+                                                     throughput: 0.23226540410289867 index 1
+                                                                                            Connecting at 2023-05-29T16:52:23.255781444Z
+                                                                                                                                        Received at 2023-05-29T16:52:25.839027245Z
+                    throughput: 0.26440397966768653 index 2
+                                                           Connecting at 2023-05-29T16:52:25.965125091Z
+                                                                                                       Received at 2023-05-29T16:52:28.374223768Z
+                                                                                                                                                 throughput: 0.2881896910656945 index 3
+                         Connecting at 2023-05-29T16:52:28.459854730Z
+                                                                     Received at 2023-05-29T16:52:31.835844788Z
+                                                                                                               throughput: 0.28835106673170324 index 4
+                                                                                                                                                      Connecting at 2023-05-29T16:52:31.961498714Z
+                                    Received at 2023-05-29T16:52:34.383339609Z
+                                                                              throughput: 0.30171939322017416 index 5
+                                                                                                                     Connecting at 2023-05-29T16:52:34.469873011Z
+   Received at 2023-05-29T16:52:36.823563884Z
+                                             throughput: 0.31355217752356757 index 6
+                                                                                    Connecting at 2023-05-29T16:52:36.978596386Z
+                                                                                                                                Received at 2023-05-29T16:52:40.974378789Z
+            throughput: 0.30218056898108153 index 7
+                                                   Connecting at 2023-05-29T16:52:41.060220334Z
+                                                                                               Received at 2023-05-29T16:52:43.558089277Z
+                                                                                                                                         throughput: 0.309740875601663 index 8
+                Connecting at 2023-05-29T16:52:43.647879314Z
+                                                            Received at 2023-05-29T16:52:47.069506469Z
+                                                                                                      throughput: 0.3070633946196045 index 9
+                                                                                                                                            Result  10 sent, Duration 32566 ms
+                throughput: 0.3070633946196045

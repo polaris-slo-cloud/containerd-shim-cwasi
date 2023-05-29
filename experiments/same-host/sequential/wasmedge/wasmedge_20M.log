@@ -1,0 +1,66 @@
+Exp 0
+Connecting at 2023-05-29T08:37:23.376164969Z
+Received at 2023-05-29T08:37:24.737171778Z
+throughput: 0.6133020303977018 index 0
+Result  1 sent, Duration 1630 ms
+throughput: 0.6133020303977018
+Exp 1
+Connecting at 2023-05-29T08:37:33.484929516Z
+Received at 2023-05-29T08:37:34.361143357Z
+throughput: 0.8756007715794 index 0
+Result  1 sent, Duration 1142 ms
+throughput: 0.8756007715794
+Exp 2
+Connecting at 2023-05-29T08:37:43.394821303Z
+Received at 2023-05-29T08:37:44.781177710Z
+throughput: 0.6044056335440292 index 0
+Result  1 sent, Duration 1654 ms
+throughput: 0.6044056335440292
+Exp 3
+Connecting at 2023-05-29T08:37:53.731464790Z
+Received at 2023-05-29T08:37:54.794856522Z
+throughput: 0.7526861486931486 index 0
+Result  1 sent, Duration 1328 ms
+throughput: 0.7526861486931486
+Exp 4
+Connecting at 2023-05-29T08:38:03.752028636Z
+Received at 2023-05-29T08:38:04.625514209Z
+throughput: 0.8790304645588102 index 0
+Result  1 sent, Duration 1137 ms
+throughput: 0.8790304645588102
+Exp 5
+Connecting at 2023-05-29T08:38:14.924112862Z
+Received at 2023-05-29T08:38:15.809877455Z
+throughput: 0.8649449073341274 index 0
+Result  1 sent, Duration 1156 ms
+throughput: 0.8649449073341274
+Exp 6
+Connecting at 2023-05-29T08:38:24.642850578Z
+Received at 2023-05-29T08:38:25.519798971Z
+throughput: 0.8769745081049983 index 0
+Result  1 sent, Duration 1140 ms
+throughput: 0.8769745081049983
+Exp 7
+Connecting at 2023-05-29T08:38:34.301242047Z
+Received at 2023-05-29T08:38:35.537714877Z
+throughput: 0.665156318386384 index 0
+Result  1 sent, Duration 1503 ms
+throughput: 0.665156318386384
+Exp 8
+Connecting at 2023-05-29T08:38:44.266098796Z
+Received at 2023-05-29T08:38:45.142892408Z
+throughput: 0.875493449995754 index 0
+Result  1 sent, Duration 1142 ms
+throughput: 0.875493449995754
+Exp 9
+Connecting at 2023-05-29T08:38:55.950007903Z
+Received at 2023-05-29T08:38:56.826463445Z
+throughput: 0.8744599116970381 index 0
+Result  1 sent, Duration 1143 ms
+throughput: 0.8744599116970381
+Exp 10
+Connecting at 2023-05-29T08:39:05.820524640Z
+Received at 2023-05-29T08:39:07.256216993Z
+throughput: 0.5870859869619944 index 0
+Result  1 sent, Duration 1703 ms
+throughput: 0.5870859869619944

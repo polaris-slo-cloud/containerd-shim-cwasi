@@ -1,0 +1,66 @@
+Exp 0
+Connecting at 2023-05-29T08:41:00.645902814Z
+Received at 2023-05-29T08:41:00.765690840Z
+throughput: 4.406761735206501 index 0
+Result  1 sent, Duration 226 ms
+throughput: 4.406761735206501
+Exp 1
+Connecting at 2023-05-29T08:41:04.597787617Z
+Received at 2023-05-29T08:41:04.717460102Z
+throughput: 4.411583052462546 index 0
+Result  1 sent, Duration 226 ms
+throughput: 4.411583052462546
+Exp 2
+Connecting at 2023-05-29T08:41:08.826412860Z
+Received at 2023-05-29T08:41:08.946870393Z
+throughput: 4.386638299738995 index 0
+Result  1 sent, Duration 227 ms
+throughput: 4.386638299738995
+Exp 3
+Connecting at 2023-05-29T08:41:12.818432994Z
+Received at 2023-05-29T08:41:12.938825834Z
+throughput: 4.386734514827163 index 0
+Result  1 sent, Duration 227 ms
+throughput: 4.386734514827163
+Exp 4
+Connecting at 2023-05-29T08:41:16.830925350Z
+Received at 2023-05-29T08:41:16.951558583Z
+throughput: 4.370724884722131 index 0
+Result  1 sent, Duration 228 ms
+throughput: 4.370724884722131
+Exp 5
+Connecting at 2023-05-29T08:41:20.773001830Z
+Received at 2023-05-29T08:41:20.892317687Z
+throughput: 4.412887396352307 index 0
+Result  1 sent, Duration 226 ms
+throughput: 4.412887396352307
+Exp 6
+Connecting at 2023-05-29T08:41:24.754116228Z
+Received at 2023-05-29T08:41:24.943681168Z
+throughput: 3.36387733957669 index 0
+Result  1 sent, Duration 297 ms
+throughput: 3.36387733957669
+Exp 7
+Connecting at 2023-05-29T08:41:28.835849950Z
+Received at 2023-05-29T08:41:29.024516640Z
+throughput: 3.382354930797018 index 0
+Result  1 sent, Duration 295 ms
+throughput: 3.382354930797018
+Exp 8
+Connecting at 2023-05-29T08:41:32.908967468Z
+Received at 2023-05-29T08:41:33.096703589Z
+throughput: 3.400493071495367 index 0
+Result  1 sent, Duration 294 ms
+throughput: 3.400493071495367
+Exp 9
+Connecting at 2023-05-29T08:41:37.116397620Z
+Received at 2023-05-29T08:41:37.236007257Z
+throughput: 4.42583626176166 index 0
+Result  1 sent, Duration 225 ms
+throughput: 4.42583626176166
+Exp 10
+Connecting at 2023-05-29T08:41:41.535960020Z
+Received at 2023-05-29T08:41:41.655434088Z
+throughput: 4.412089124200309 index 0
+Result  1 sent, Duration 226 ms
+throughput: 4.412089124200309

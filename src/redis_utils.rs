@@ -2,6 +2,7 @@ extern crate redis;
 
 
 use std::error::Error;
+use chrono::SecondsFormat;
 use log::info;
 use redis::{Commands, ControlFlow, PubSubCommands, RedisResult};
 use crate::message::Message;
@@ -68,9 +69,13 @@ pub fn _subscribe(channel: &str) -> Message {
 
     let msg = pubsub.get_message().unwrap();
     let payload: String = msg.get_payload().unwrap();
-
-    let message_obj: Message = serde_json::from_str(&payload).unwrap();
+    //THIS IS ONLY FOR THE FANOUT TEST
+    let start= chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
+    let res_time=format!("Received from client at : {}", start);
+    //UNTIL HERE
+    let mut message_obj: Message = serde_json::from_str(&payload).unwrap();
     println!("Received message source: {} target: {}", message_obj.source_channel,message_obj.target_channel);
+    message_obj.payload=res_time;
 
     return message_obj;
 }

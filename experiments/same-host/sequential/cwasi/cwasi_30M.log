@@ -1,0 +1,66 @@
+Exp 0
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/15081" at 2023-05-29T07:58:01.527824159Z
+Received from client at : 2023-05-29T07:58:01.591429Z
+throughput: 15.722281617508335 index 0
+Result  1 sent, Duration 63 ms
+throughput: 15.722281617508335
+Exp 1
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/18281" at 2023-05-29T07:58:13.465529816Z
+Received from client at : 2023-05-29T07:58:13.526141Z
+throughput: 16.498655359588195 index 0
+Result  1 sent, Duration 60 ms
+throughput: 16.498655359588195
+Exp 2
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/17299" at 2023-05-29T07:58:25.413808704Z
+Received from client at : 2023-05-29T07:58:25.477284Z
+throughput: 15.754233950374163 index 0
+Result  1 sent, Duration 63 ms
+throughput: 15.754233950374163
+Exp 3
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/12198" at 2023-05-29T07:58:37.198644889Z
+Received from client at : 2023-05-29T07:58:37.259198Z
+throughput: 16.5144584083365 index 0
+Result  1 sent, Duration 60 ms
+throughput: 16.5144584083365
+Exp 4
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/6968" at 2023-05-29T07:58:48.995346674Z
+Received from client at : 2023-05-29T07:58:49.056591Z
+throughput: 16.32813010254066 index 0
+Result  1 sent, Duration 61 ms
+throughput: 16.32813010254066
+Exp 5
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/12452" at 2023-05-29T07:59:01.122652847Z
+Received from client at : 2023-05-29T07:59:01.183079Z
+throughput: 16.549167576870882 index 0
+Result  1 sent, Duration 60 ms
+throughput: 16.549167576870882
+Exp 6
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/30906" at 2023-05-29T07:59:13.904737393Z
+Received from client at : 2023-05-29T07:59:13.965889Z
+throughput: 16.352962339127735 index 0
+Result  1 sent, Duration 61 ms
+throughput: 16.352962339127735
+Exp 7
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/6904" at 2023-05-29T07:59:26.099166354Z
+Received from client at : 2023-05-29T07:59:26.163114Z
+throughput: 15.637950177490733 index 0
+Result  1 sent, Duration 63 ms
+throughput: 15.637950177490733
+Exp 8
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/11633" at 2023-05-29T07:59:38.147951039Z
+Received from client at : 2023-05-29T07:59:38.211708Z
+throughput: 15.684798293493948 index 0
+Result  1 sent, Duration 63 ms
+throughput: 15.684798293493948
+Exp 9
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/11905" at 2023-05-29T07:59:50.084299286Z
+Received from client at : 2023-05-29T07:59:50.145731Z
+throughput: 16.278426201754815 index 0
+Result  1 sent, Duration 61 ms
+throughput: 16.278426201754815
+Exp 10
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/1801" at 2023-05-29T08:00:02.499731060Z
+Received from client at : 2023-05-29T08:00:02.561263Z
+throughput: 16.25197055142936 index 0
+Result  1 sent, Duration 61 ms
+throughput: 16.25197055142936

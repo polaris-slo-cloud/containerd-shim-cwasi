@@ -1,0 +1,63 @@
+Exp 0
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/4433" at 2023-05-29T08:11:06.406047986Z
+Received from client at : 2023-05-29T08:11:06.428724Z
+throughput: 44.09948844593402 index 0
+Result  1 sent, Duration 22 ms
+throughput: 44.09948844593402
+Exp 1
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/10151" at 2023-05-29T08:11:14.417128248Z
+Received from client at : 2023-05-29T08:11:14.439192Z
+throughput: 45.32475184698364 index 0
+Result  1 sent, Duration 22 ms
+throughput: 45.32475184698364
+Exp 2
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/2129" at 2023-05-29T08:11:20.230758345Z
+Received from client at : 2023-05-29T08:11:20.252924Z
+throughput: 45.116174148432215 index 0
+Result  1 sent, Duration 22 ms
+throughput: 45.116174148432215
+Exp 3
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/4024" at 2023-05-29T08:11:24.968623121Z
+Received from client at : 2023-05-29T08:11:24.991717Z
+throughput: 43.30316546139523 index 0
+Result  1 sent, Duration 23 ms
+throughput: 43.30316546139523
+Exp 4
+thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: Error { depth: 1, inner: Io { path: Some("/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/14244"), err: Os { code: 2, kind: NotFound, message: "No such file or directory" } } }', src/snapshot_utils.rs:10:28
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Exp 5
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/16189" at 2023-05-29T08:22:03.654833512Z
+Received from client at : 2023-05-29T08:22:03.677030Z
+throughput: 45.053162732023786 index 0
+Result  1 sent, Duration 22 ms
+throughput: 45.053162732023786
+Exp 6
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/11482" at 2023-05-29T08:22:08.333563656Z
+Received from client at : 2023-05-29T08:22:08.355867Z
+throughput: 44.837017441599784 index 0
+Result  1 sent, Duration 22 ms
+throughput: 44.837017441599784
+Exp 7
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/12685" at 2023-05-29T08:22:12.903498442Z
+Received from client at : 2023-05-29T08:22:12.926784Z
+throughput: 42.94610264118531 index 0
+Result  1 sent, Duration 23 ms
+throughput: 42.94610264118531
+Exp 8
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/20401" at 2023-05-29T08:22:17.535111913Z
+Received from client at : 2023-05-29T08:22:17.558064Z
+throughput: 43.5691878703381 index 0
+Result  1 sent, Duration 22 ms
+throughput: 43.5691878703381
+Exp 9
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/30580" at 2023-05-29T08:22:22.262004861Z
+Received from client at : 2023-05-29T08:22:22.284112Z
+throughput: 45.23454109558058 index 0
+Result  1 sent, Duration 22 ms
+throughput: 45.23454109558058
+Exp 10
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/25700" at 2023-05-29T08:22:26.975915797Z
+Received from client at : 2023-05-29T08:22:26.998064Z
+throughput: 45.15080368430558 index 0
+Result  1 sent, Duration 22 ms
+throughput: 45.15080368430558
