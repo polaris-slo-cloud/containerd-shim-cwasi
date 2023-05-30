@@ -10,6 +10,7 @@ use crate::{oci_utils, redis_utils};
 use crate::message::Message;
 use chrono;
 use chrono::{DateTime, SecondsFormat, Utc};
+use tokio_util::sync::CancellationToken;
 
 #[derive(Clone)]
 pub struct ShimListener {
@@ -27,41 +28,42 @@ impl ShimListener {
         }
     }
 
-    pub fn subscribe(&mut self, channel:&str) -> RedisResult<()> {
-        let message=redis_utils::_subscribe(channel);
-        let _result = self.call_vm_with_input(&message.payload).unwrap();
-        let _ = redis_utils::publish_message(Message::new(channel.to_string(),
-                                                          message.source_channel, String::from("result")));
-        /*let _ = tokio::spawn(async move {
+    pub async fn subscribe(&mut self, channel:&str) -> Result<std::thread::JoinHandle<()>, redis::RedisError>{
+        //let message=redis_utils::_subscribe(channel);
+        //let _result = self.call_vm_with_input(&message.payload).unwrap();
+        //let _ = redis_utils::publish_message(Message::new(channel.to_string(),
+        //                                                  message.source_channel, message.payload));
+        let owned_queue_name = channel.to_owned();
+        let mut listener = self.clone();
+        let token = CancellationToken::new();
+        Ok(std::thread::spawn(move || loop {
             let mut con = redis_utils::connect();
-            let _: () = con.subscribe(&[channel], |msg| {
-                let received: String = msg.get_payload().unwrap();
-                let message = serde_json::from_str::<Message>(&received).unwrap();
+            // this is now ok because using con here moves it into the closure
+            let mut pubsub = con.as_pubsub();
 
-                let _result = self.call_vm_with_input(&message.payload).unwrap();
-                let _ = redis_utils::publish_message(Message::new(channel.to_string(),
-                                                                  message.source_channel, String::from("result")));
+            pubsub.subscribe(format!("{}", owned_queue_name)).unwrap();
+            let payload: String = pubsub.get_message().unwrap().get_payload().unwrap();
+            let start= chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
+            println!("Got messsage channel {} at  {}",owned_queue_name, chrono::offset::Utc::now());
+            let res_time=format!("Received from client at : {}", start);
 
-                return ControlFlow::Continue;
-            }).unwrap();
-        });
+            //THIS IS ONLY FOR THE FANOUT TEST
 
-         */
+            //UNTIL HERE
+            let mut message: Message = serde_json::from_str(&payload).unwrap();
+            //println!("Received message source: {} target: {}", message_obj.source_channel,message_obj.target_channel);
+            //overwrite this for exp measurement
 
+            message.payload=res_time;
 
-        /*
-        let mut con = redis_utils::connect();
-        let mut pubsub = con.as_pubsub();
-        pubsub.subscribe(channel)?;
-        match pubsub.get_message() {
-            Ok(msg) => {
-                let payload: String = msg.get_payload()?;
-                println!("Received message: {}", payload);
-            }
-            Err(_) => {}
-        }
-         */
-        Ok(())
+            println!("returning message_obj {}  {}",owned_queue_name, message.payload);
+            let _ =listener.call_vm_with_input(&message.payload).unwrap();
+            let _=redis_utils::publish_message(Message::new(owned_queue_name.to_string(),
+                                                              message.source_channel, message.payload));
+            listener.stop_socket();
+            break;
+
+        }))
     }
 
     pub fn create_server_socket(&mut self) -> Result<(), Box<dyn std::error::Error>> {
@@ -81,15 +83,17 @@ impl ShimListener {
                 let mut line = String::new();
                 match reader.read_line(&mut line) {
                     Ok(_) => {
-                        let client_input = line.trim();
-                        let start= chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
-                        let res_time=format!("Received from client at : {}", start);
-                        // Send a response back to the client
-                        reader.into_inner();
-                        // Call function Code here
-                        let result = self.call_vm_with_input(client_input).unwrap();
-                        let client_response = format!("hello world from from fnB socket server. Result from Module B : {}", result);
-                        socket.write_all(res_time.as_bytes())?;
+                            if line != "exit"{
+                            let client_input = line.trim();
+                            let start= chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
+                            let res_time=format!("Received from client at : {}", start);
+                            // Send a response back to the client
+                            reader.into_inner();
+                            // Call function Code here
+                            let result = self.call_vm_with_input(client_input).unwrap();
+                            let client_response = format!("hello world from from fnB socket server. Result from Module B : {}", result);
+                            socket.write_all(res_time.as_bytes())?;
+                        }
                     }
                     Err(err) => eprintln!("Error reading line: {}", err),
                 }
@@ -98,7 +102,6 @@ impl ShimListener {
         }
         Ok(())
     }
-
 
     fn call_vm_with_input(&mut self, input: &str) -> Result<i32, Box<dyn std::error::Error>>{
         // create a new Vm with default config
@@ -128,6 +131,16 @@ impl ShimListener {
 
         Ok(result)
     }
+    pub fn stop_socket (&self) -> Result<(), Box<dyn std::error::Error>>{
+        let binding = self.bundle_path.as_str().to_owned() + ".sock";
+        connect_unix_socket(String::from("exit"),self.bundle_path.as_str().to_owned());
+        let socket_path = Path::new(&binding);
+        if socket_path.exists() {
+            std::fs::remove_file(&socket_path).unwrap();
+            println!("Socket {:?} deleted",self.bundle_path.as_str());
+        }
+        Ok(())
+    }
 }
 
 
@@ -148,15 +161,24 @@ pub fn connect_unix_socket(input_fn_a:String, socket_path: String)-> Result<Stri
 
 }
 
-#[tokio::main]
+#[tokio::main(flavor = "current_thread")]
 pub async fn init_listener(bundle_path: String, oci_spec: Spec, vm: Vm) -> Result<(), Box<dyn std::error::Error>>{
     println!("before init");
     let mut listener = ShimListener::new(bundle_path.clone(), oci_spec.clone(), vm.clone());
     let channel = oci_utils::arg_to_wasi(&oci_spec).first().unwrap().replace("/","").replace(".wasm","");
-    listener.subscribe(&channel);
+    //listener.subscribe(&channel);
+    match listener.subscribe(&channel).await {
+        Ok(result) => {
+            println!("set result: {:?}", result);
+        }
+        Err(_err) => {
+
+        }
+    }
+
     println!("channel created {}",channel);
-    //let mut listener2 = ShimListener::new(bundle_path, oci_spec.clone(), vm);
-    //listener2.create_server_socket();
+    let mut listener2 = ShimListener::new(bundle_path, oci_spec.clone(), vm);
+    listener2.create_server_socket();
     println!("finished init listener");
     Ok(())
 }

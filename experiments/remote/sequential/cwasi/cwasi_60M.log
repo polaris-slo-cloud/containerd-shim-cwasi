@@ -1,0 +1,70 @@
+Exp 0
+Connecting to queue "" at 2023-05-29T20:31:01.169358651Z
+                                                        Received from client at : 2023-05-29T20:31:30.903357843Z
+                                  throughput: 0.033631534056350776 index 0
+                                                                          Result  1 sent, Duration 29733 ms
+                             throughput: 0.033631534056350776
+                                                             Exp 1
+ERRO[0022] forward signal window changed                 error="only SIGKILL and SIGINT are supported: invalid argument"
+ERRO[0022] forward signal window changed                 error="only SIGKILL and SIGINT are supported: invalid argument"
+ERRO[0022] forward signal window changed                 error="only SIGKILL and SIGINT are supported: invalid argument"
+ERRO[0022] forward signal window changed                 error="only SIGKILL and SIGINT are supported: invalid argument"
+Connecting to queue "" at 2023-05-29T20:31:56.204091388Z
+                                                        Received from client at : 2023-05-29T20:32:23.997998981Z
+                                  throughput: 0.035979108658599164 index 0
+                                                                          Result  1 sent, Duration 27793 ms
+                             throughput: 0.035979108658599164
+                                                             Exp 2
+Connecting to queue "" at 2023-05-29T20:32:49.851455137Z
+                                                        Received from client at : 2023-05-29T20:33:19.345671750Z
+                                  throughput: 0.03390495275412644 index 0
+                                                                         Result  1 sent, Duration 29494 ms
+                            throughput: 0.03390495275412644
+                                                           Exp 3
+Connecting to queue "" at 2023-05-29T20:33:44.614927991Z
+                                                        Received from client at : 2023-05-29T20:34:11.975815426Z
+                                  throughput: 0.03654852271419417 index 0
+                                                                         Result  1 sent, Duration 27360 ms
+                            throughput: 0.03654852271419417
+                                                           Exp 4
+Connecting to queue "" at 2023-05-29T20:34:38.181788874Z
+                                                        Received from client at : 2023-05-29T20:35:08.081359784Z
+                                  throughput: 0.03344529703938886 index 0
+                                                                         Result  1 sent, Duration 29899 ms
+                            throughput: 0.03344529703938886
+                                                           Exp 5
+Connecting to queue "" at 2023-05-29T20:35:32.824162487Z
+                                                        Received from client at : 2023-05-29T20:36:02.056283852Z
+                                  throughput: 0.034208944332161186 index 0
+                                                                          Result  1 sent, Duration 29232 ms
+                             throughput: 0.034208944332161186
+                                                             Exp 6
+Connecting to queue "" at 2023-05-29T20:36:27.729654551Z
+                                                        Received from client at : 2023-05-29T20:36:55.975892030Z
+                                  throughput: 0.03540294588620778 index 0
+                                                                         Result  1 sent, Duration 28246 ms
+                            throughput: 0.03540294588620778
+                                                           Exp 7
+Connecting to queue "" at 2023-05-29T20:37:23.251174018Z
+                                                        Received from client at : 2023-05-29T20:37:51.881401217Z
+                                  throughput: 0.03492811985039448 index 0
+                                                                         Result  1 sent, Duration 28630 ms
+                            throughput: 0.03492811985039448
+                                                           Exp 8
+Connecting to queue "" at 2023-05-29T20:38:16.108198809Z
+                                                        Received from client at : 2023-05-29T20:38:42.844944453Z
+                                  throughput: 0.037401710642039634 index 0
+                                                                          Result  1 sent, Duration 26736 ms
+                             throughput: 0.037401710642039634
+                                                             Exp 9
+Connecting to queue "" at 2023-05-29T20:39:06.698769367Z
+                                                        Received from client at : 2023-05-29T20:39:36.616255041Z
+                                  throughput: 0.03342526953719539 index 0
+                                                                         Result  1 sent, Duration 29917 ms
+                            throughput: 0.03342526953719539
+                                                           Exp 10
+Connecting to queue "" at 2023-05-29T20:40:01.998447817Z
+                                                        Received from client at : 2023-05-29T20:40:31.113069649Z
+                                  throughput: 0.03434700386448444 index 0
+                                                                         Result  1 sent, Duration 29114 ms
+                            throughput: 0.03434700386448444

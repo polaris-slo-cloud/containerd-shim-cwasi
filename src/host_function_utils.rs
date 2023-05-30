@@ -41,38 +41,39 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
     //check if the function is running locally
     //let local_images_with_ext_fn_name = snapshot_utils::get_existing_image(vec![external_fn_name]);
 
-    //ext_func_result = connect_to_queue(external_function_type.replace(".wasm",""), payload);
-    println!("External func {:?}",chrono::offset::Utc::now());
+    ext_func_result = connect_to_queue(external_function_type.replace(".wasm",""), payload);
+    //println!("External func {:?}",chrono::offset::Utc::now());
     //ext_func_result = connect_to_queue(external_function_type.replace(".wasm",""), payload);
     let start: DateTime<Utc> = chrono::offset::Utc::now();
-    if socket_path.is_empty() {
-        println!("Connecting to queue {:?} at {:?}",socket_path, start);
+    /*if socket_path.is_empty() {
         ext_func_result = connect_to_queue(external_function_type.replace(".wasm",""), payload);
     }else {
         println!("Connecting to {:?} at {:?}",socket_path, start);
         ext_func_result = shim_listener::connect_unix_socket(payload, socket_path).unwrap();
+        //THIS IS JUST FOR THE FAN-IN FAN-OUT
+        let datetime = DateTime::parse_from_rfc3339(&ext_func_result)
+            .unwrap_or_else(|err| panic!("Failed to parse date string: {}", err));
 
+        // Convert the DateTime to the Utc timezone
+        let datetime_utc: DateTime<Utc> = datetime.into();
+
+        // Extract the date
+        let duration_b = datetime_utc - start ;
+        ext_func_result = duration_b.num_microseconds().unwrap().to_string();
+        //UNTIL HERE
     }
-    //THIS IS JUST FOR THE FAN-IN FAN-OUT
-    let datetime = DateTime::parse_from_rfc3339(&ext_func_result)
-        .unwrap_or_else(|err| panic!("Failed to parse date string: {}", err));
 
-    // Convert the DateTime to the Utc timezone
-    let datetime_utc: DateTime<Utc> = datetime.into();
+     */
 
-    // Extract the date
-    let duration_b = datetime_utc - start ;
-    ext_func_result = duration_b.num_microseconds().unwrap().to_string();
-    //UNTIL HERE
 
     //here i dont care which data is returned (yet)
-    let input = String::from("this is a string create to be written on the memory");
+    //let input = String::from("this is a string create to be written on the memory");
     let bytes = ext_func_result.as_bytes();
     let len = bytes.len();
     mem.write(bytes, arg1_ptr);
 
 
-    println!("Resume function with result from ext func  {}",len);
+   // println!("Resume function with result from ext func  {}",len);
     Ok(vec![WasmValue::from_i32(len as i32)])
 }
 
@@ -82,14 +83,25 @@ fn connect_to_queue(channel :String, fn_target_input:String) -> String{
     let fn_source_id = Uuid::new_v4().to_simple().to_string();
     let fn_source_id_copy = fn_source_id.clone();
 
-    let _ = redis_utils::publish_message(Message::new(fn_source_id,
-                                                      channel, fn_target_input));
+    let start_time_str = redis_utils::publish_message(Message::new(fn_source_id,
+                                                      channel, fn_target_input)).unwrap();
     let result = redis_utils::_subscribe(fn_source_id_copy.as_str());
-
     println!("{}",result.payload);
+    let start_time = DateTime::parse_from_rfc3339(&start_time_str.replace("\n",""))
+        .unwrap_or_else(|err| panic!("Failed to parse date string: {}", err));
+    // Convert the DateTime to the Utc timezone
+    let start_utc: DateTime<Utc> = start_time.into();
+
+    let end_time = DateTime::parse_from_rfc3339(&result.payload.replace("Received from client at : ", "").replace("\n",""))
+        .unwrap_or_else(|err| panic!("Failed to parse date string: {}", err));
+    // Convert the DateTime to the Utc timezone
+    let end_utc: DateTime<Utc> = end_time.into();
+
+    // Extract the date
+    let duration_b = end_utc - start_utc ;
 
     //return result.payload;
-    return result.payload.replace("Received from client at : ", "").replace("\n","");
+    return duration_b.num_microseconds().unwrap().to_string();
 }
 
 

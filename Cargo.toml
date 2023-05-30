@@ -28,6 +28,8 @@ serde_derive = "1.0.159"
 redis =  "0.19.0"
 uuid = {version = "0.8.2", features = ["v4"]}
 tokio = { version = "*", features = ["full"]}
+lazy_static = "1.4.0"
+tokio-util = "0.7.8"
 
 
 [[bin]]

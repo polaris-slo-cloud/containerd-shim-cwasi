@@ -2,80 +2,74 @@ extern crate redis;
 
 
 use std::error::Error;
-use chrono::SecondsFormat;
+use chrono::{DateTime, SecondsFormat};
 use log::info;
-use redis::{Commands, ControlFlow, PubSubCommands, RedisResult};
+use redis::{Client, Commands, Connection, ControlFlow, PubSubCommands, RedisResult};
 use crate::message::Message;
+use lazy_static::lazy_static;
+use std::sync::Mutex;
 
-pub fn connect() -> redis::Connection {
-    let redis_ip = std::env::var("REDIS_IP").unwrap_or("192.168.0.207".to_string());
-    println!("Value of REDIS_IP: {}", redis_ip);
 
-    let client =match redis::Client::open("redis://".to_owned()+&redis_ip){
-        Ok(client) => client,
-        Err(err) => {
-            eprintln!("Error subscribing to channel: {}", err);
-            std::process::exit(1);
-        }
-    };
-    return client.get_connection().unwrap();
+struct RedisConnection {
+    client: Client,
 }
 
-pub fn publish_message(message: Message) -> Result<(), Box<dyn Error>> {
+lazy_static! {
+    static ref REDIS_IP:String = std::env::var("REDIS_IP").unwrap_or("192.168.0.38".to_string());
+    static ref REDIS_CONNECTION: Mutex<RedisConnection> = {
+        let client = Client::open("redis://".to_owned()+&REDIS_IP).unwrap();
+        let connection = RedisConnection { client };
+        Mutex::new(connection)
+    };
+}
+
+
+pub fn connect() -> redis::Connection {
+    let redis_connection = REDIS_CONNECTION.lock().unwrap();
+    return redis_connection.client.get_connection().unwrap();
+
+}
+
+
+pub fn publish_message(message: Message) -> Result<String, Box<dyn Error>> {
+    //println!("Get connection: {}",chrono::offset::Utc::now());
     let mut con = connect();
     let json = serde_json::to_string(&message).unwrap();
     let payload = json.as_str();
-
+    let start= chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
+    println!("Connecting to queue {:?} at {:?}",message.target_channel,start );
     con.publish(message.target_channel.clone(), payload)?;
-    println!("Published message to channel: {}",message.target_channel);
-    Ok(())
+    println!("After publish at {:?}",chrono::offset::Utc::now());
+    //println!("Published message to channel: {}",message.target_channel);
+    Ok(start.to_string())
 }
 
-pub fn publish_string(message: String) -> Result<(), Box<dyn Error>> {
-    let mut con = connect();
-
-    con.publish(message.clone(), "My test message")?;
-    println!("Published message: {}",message);
-    Ok(())
-}
-
-/*pub fn subscribe(channel: &str) -> Result<(), Box<dyn Error>> {
-    let _ = tokio::spawn(async move {
-        let mut connection = connect();
-
-        let _: () = connection.subscribe(&[channel], |msg| {
-            let received: String = msg.get_payload().unwrap();
-            let message_obj = serde_json::from_str::<Message>(&received).unwrap();
-
-            message_handler::handler(message_obj);
-
-            return ControlFlow::Continue;
-        }).unwrap();
-    });
-
-    Ok(())
-}
- */
 
 pub fn _subscribe(channel: &str) -> Message {
-    println!("Subscribe to channel: {}", channel);
+    println!("before Subscribe to channel: {} {}", channel,chrono::offset::Utc::now());
     let mut connection = connect();
-    println!("redis connection created");
+    //println!("redis connection created");
     let mut pubsub = connection.as_pubsub();
     pubsub.subscribe(channel).unwrap();
-    println!("Subscribed to channel: {}", channel);
+    println!("After Subscribed to channel: {} at {}", channel,chrono::offset::Utc::now());
     // set timeouts in seconds
     //pubsub.set_read_timeout(Some(std::time::Duration::new(60, 0))).unwrap();
-
     let msg = pubsub.get_message().unwrap();
+    let start= chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
+    println!("Got messsage channel {} at  {}",channel, chrono::offset::Utc::now());
+
+    let res_time=format!("Received from client at : {}", start);
+
     let payload: String = msg.get_payload().unwrap();
     //THIS IS ONLY FOR THE FANOUT TEST
-    let start= chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
-    let res_time=format!("Received from client at : {}", start);
+
     //UNTIL HERE
     let mut message_obj: Message = serde_json::from_str(&payload).unwrap();
-    println!("Received message source: {} target: {}", message_obj.source_channel,message_obj.target_channel);
-    message_obj.payload=res_time;
-
+    //println!("Received message source: {} target: {}", message_obj.source_channel,message_obj.target_channel);
+    //overwrite this for exp measurement
+    if channel=="func_b"{
+        message_obj.payload=res_time;
+    }
+    println!("returning message_obj {}  {}",channel, message_obj.payload);
     return message_obj;
 }
