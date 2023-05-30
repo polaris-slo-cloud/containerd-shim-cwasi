@@ -46,10 +46,11 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
 
     //println!("External func {:?}",chrono::offset::Utc::now());
     //ext_func_result = connect_to_queue(external_function_type.replace(".wasm",""), payload);
-    let start: DateTime<Utc> = chrono::offset::Utc::now();
+
     if socket_path.is_empty() {
         ext_func_result = connect_to_queue(external_function_type.replace(".wasm",""), message_obj.payload);
     }else {
+        let start: DateTime<Utc> = chrono::offset::Utc::now();
         println!("Connecting to {:?} at {:?}",socket_path, start);
         ext_func_result = shim_listener::connect_unix_socket(message_obj.payload, socket_path).unwrap();
         //THIS IS JUST FOR THE FAN-IN FAN-OUT

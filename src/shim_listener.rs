@@ -133,12 +133,9 @@ pub fn connect_unix_socket(input_fn_a:String, socket_path: String)-> Result<Stri
     stream.write_all(input_fn_b.as_bytes()).unwrap();
     let mut response = String::new();
     stream.read_to_string(&mut response)?;
-    println!("Closing socket function A with B result {}", response);
-    // This is only for logging
-    //let re = Regex::new(r"\D+").unwrap();
-    //let result = re.replace(&*response,"").to_string();
+
     println!("{}",response);
-    Ok(response.replace("Received from client at : ", "").replace("\n",""))
+    Ok(response.replace("Received from client at ", "").replace("\n",""))
 
 }
 
