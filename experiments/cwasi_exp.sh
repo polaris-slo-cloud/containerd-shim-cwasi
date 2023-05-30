@@ -9,7 +9,7 @@ done
 
 start=`date +%s.%N`
 
-sudo ctr -n k8s.io run --rm --runtime=io.containerd.cwasi.v1 --net-host=true --env STORAGE_IP=192.168.0.213:8888 --env FUNCTIONS_NUM=1 docker.io/keniack/func_a:latest $(echo $RANDOM) /func_a.wasm func_b.wasm $file
+sudo ctr -n k8s.io run --rm --runtime=io.containerd.cwasi.v1 --net-host=true --env STORAGE_IP=192.168.0.40:8888 --env FUNCTIONS_NUM=1 docker.io/keniack/func_a:latest $(echo $RANDOM) /func_a.wasm func_b.wasm $file
 
 end=`date +%s.%N`
 runtime=$( echo "$end - $start" | bc -l )

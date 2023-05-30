@@ -3,7 +3,6 @@ use std::path::Path;
 use containerd_shim_wasm::sandbox::{Error, oci};
 use log::{error, info};
 use oci_spec::runtime::Spec;
-use crate::oci_utils;
 
 
 pub fn load_spec(bundle: String) -> Result<oci::Spec, Error> {
