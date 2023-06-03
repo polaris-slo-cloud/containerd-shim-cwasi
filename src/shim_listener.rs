@@ -133,12 +133,12 @@ pub fn connect_unix_socket(input_fn_a:String, socket_path: String)-> Result<Vec<
     //write request in the socket
     stream.write_all(input_fn_b.as_bytes()).unwrap();
     let mut response = String::new();
-    println!("start reading response {}",chrono::offset::Utc::now());
+    //println!("start reading response {}",chrono::offset::Utc::now());
     //stream.read_to_string(&mut response)?;
     let mut response_bytes = Vec::new();
     stream.read_to_end(&mut response_bytes);
 
-    println!("Response from socket server len {} at {}",response_bytes.len(),chrono::offset::Utc::now());
+    //println!("Response from socket server len {} at {}",response_bytes.len(),chrono::offset::Utc::now());
     Ok(response_bytes)
 
 }
