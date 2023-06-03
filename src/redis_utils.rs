@@ -10,7 +10,7 @@ struct RedisConnection {
 }
 
 lazy_static! {
-    static ref REDIS_IP:String = std::env::var("REDIS_IP").unwrap_or("192.168.0.38".to_string());
+    static ref REDIS_IP:String = std::env::var("REDIS_IP").unwrap_or("192.168.0.207".to_string());
     static ref REDIS_CONNECTION: Mutex<RedisConnection> = {
         let client = Client::open("redis://".to_owned()+&REDIS_IP).unwrap();
         let connection = RedisConnection { client };

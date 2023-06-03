@@ -1,0 +1,67 @@
+Exp 0
+Connecting to queue "" at 2023-05-29T20:19:20.168229616Z
+                                                        Received from client at : 2023-05-29T20:19:41.964604005Z
+                                  throughput: 0.045879190731449186 index 0
+                                                                          Result  1 sent, Duration 21796 ms
+                           throughput: 0.045879190731449186
+                                                           Exp 1
+Connecting to queue "" at 2023-05-29T20:20:00.158480251Z
+                                                        Received from client at : 2023-05-29T20:20:22.479120057Z
+                                  throughput: 0.04480158475749731 index 0
+                                                                         Result  1 sent, Duration 22320 ms
+                          throughput: 0.04480158475749731
+                                                         Exp 2
+Connecting to queue "" at 2023-05-29T20:20:39.735980091Z
+                                                        Received from client at : 2023-05-29T20:21:02.293656204Z
+                                  throughput: 0.04433080783676474 index 0
+                                                                         Result  1 sent, Duration 22557 ms
+                          throughput: 0.04433080783676474
+                                                         Exp 3
+Connecting to queue "" at 2023-05-29T20:21:23.621499436Z
+                                                        Received from client at : 2023-05-29T20:21:44.116747962Z
+                                  throughput: 0.04879179798165897 index 0
+                                                                         Result  1 sent, Duration 20495 ms
+                          throughput: 0.04879179798165897
+                                                         Exp 4
+                                                              ERRO[0004] forward signal window changed                 error="only SIGKILL and SIGINT are supported: invalid argument"
+                          ERRO[0004] forward signal window changed                 error="only SIGKILL and SIGINT are supported: invalid argument"
+                                                                    ERRO[0004] forward signal window changed                 error="only SIGKILL and SIGINT are supported: invalid argument"
+                                ERRO[0004] forward signal window changed                 error="only SIGKILL and SIGINT are supported: invalid argument"
+                                                                          Connecting to queue "" at 2023-05-29T20:22:34.779581861Z
+                                                    Received from client at : 2023-05-29T20:22:55.038316837Z
+                              throughput: 0.04936142603975154 index 0
+                                                                     Result  1 sent, Duration 20258 ms
+                        throughput: 0.04936142603975154
+                                                       Exp 5
+                                                            Connecting to queue "" at 2023-05-29T20:23:12.779953524Z
+                                      Received from client at : 2023-05-29T20:23:33.781665427Z
+                throughput: 0.047615168116540596 index 0
+                                                        Result  1 sent, Duration 21001 ms
+           throughput: 0.047615168116540596
+                                           Exp 6
+                                                thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: Error { depth: 1, inner: Io { path: Some("/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/14853"), err: Os { code: 2, kind: NotFound, message: "No such file or directory" } } }', src/snapshot_utils.rs:10:28
+                                        note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+                                       Exp 7
+                                            Connecting to queue "" at 2023-05-29T20:23:58.744775453Z
+                      Received from client at : 2023-05-29T20:24:20.961315377Z
+                                                                             throughput: 0.04501151146900064 index 0
+                                      Result  1 sent, Duration 22216 ms
+                                                                       throughput: 0.04501151146900064
+                        Exp 8
+                             Connecting to queue "" at 2023-05-29T20:24:38.961762718Z
+       Received from client at : 2023-05-29T20:25:00.016539281Z
+                                                               throughput: 0.04749516214278413 index 0
+                        Result  1 sent, Duration 21054 ms
+                                                         throughput: 0.04749516214278413
+          Exp 9
+               Connecting to queue "" at 2023-05-29T20:25:17.440328758Z
+                                                                       Received from client at : 2023-05-29T20:25:38.965301168Z
+                                                 throughput: 0.04645766786595587 index 0
+          Result  1 sent, Duration 21524 ms
+                                           throughput: 0.04645766786595587
+                                                                          Exp 10
+  Connecting to queue "" at 2023-05-29T20:25:58.067720243Z
+                                                          Received from client at : 2023-05-29T20:26:20.454156088Z
+                                    throughput: 0.04466990836191649 index 0
+                                                                           Result  1 sent, Duration 22386 ms
+                              throughput: 0.04466990836191649

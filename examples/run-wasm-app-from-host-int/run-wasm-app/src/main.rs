@@ -1,11 +1,11 @@
-use std::env;
 use wasmedge_sdk::{
+    async_host_function,
     config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions},
     params, Vm, ImportObjectBuilder, WasmValue, Caller,
     error::HostFuncError, host_function
 };
 
-#[host_function]
+#[async_host_function]
 fn my_add(_caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmValue>, HostFuncError> {
     // parse the first argument of WasmValue type
     println!("Inside host function");
@@ -17,7 +17,8 @@ fn my_add(_caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmValue>, Host
     Ok(vec![WasmValue::from_i32(result)])
 }
 
-fn main() -> Result<(), Box<dyn std::error::Error>> {
+#[tokio::main]
+async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let args: Vec<String> = std::env::args().collect();
     let args_slice: Vec<&str> = args.iter().map(|s| s.as_str()).collect();
 
@@ -30,19 +31,23 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         .build()?;
     // create an import module
     let import = ImportObjectBuilder::new()
-        .with_func::<(i32, i32),i32>("real_add", my_add)?
+        .with_func_async::<(i32, i32),i32>("real_add", my_add)?
         .build("shim_host_func")?;
 
     assert!(config.wasi_enabled());
 
+
+
     // create a VM with the config
-    let mut vm = Vm::new(Some(config))?.register_import_module(import)?;
+    let mut vm = Vm::new(Some(config))?.register_import_module(import)?.register_module_from_file("wasm-app", &wasm_app_file)?;
 
 
     vm.wasi_module()?.initialize(Some(args_slice), None, None);
 
-    vm.register_module_from_file("wasm-app", &wasm_app_file)?
-        .run_func(Some("wasm-app"), "_start", params!())?;
+    let (_, _) = tokio::join!(
+        vm.run_func(Some("wasm-app"), "_start", params!()),
+    );
+
 
     Ok(())
 }

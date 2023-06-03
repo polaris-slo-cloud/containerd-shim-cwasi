@@ -5,10 +5,14 @@ use uuid::Uuid;
 use walkdir::WalkDir;
 use wasmedge_sdk::{Caller, WasmValue, host_function};
 use wasmedge_sdk::error::HostFuncError;
-use crate::{oci_utils, redis_utils, shim_listener};
+use crate::{experiment_utils, oci_utils, redis_utils, shim_listener};
 use crate::message::Message;
-use chrono::{DateTime, Utc};
+use chrono::{DateTime, SecondsFormat, Utc};
 use regex::Regex;
+
+static mut TOTAL_DURATION_FANOUT: i64 = 0;
+static mut TOTAL_DURATION_FANIN: i64 = 0;
+static mut INDEX: i64 = 0;
 
 pub static mut OCI_SPEC:Option<Spec> = None;
 pub static mut BUNDLE_PATH:Option<String> = None;
@@ -24,7 +28,7 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
     let message_obj: Message = serde_json::from_str(&external_function_type).unwrap();
     //println!("message obj {:?}",message_obj);
     external_function_type = message_obj.target_channel;
-
+    println!("Function target");
     /*let arg2_ptr = input[0].to_i32() as u32;
     let arg2_len = input[1].to_i32() as u32;
     let payload = mem.read_string(arg2_ptr, arg2_len).expect("fail to get string");
@@ -50,22 +54,57 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
     if socket_path.is_empty() {
         ext_func_result = connect_to_queue(external_function_type.replace(".wasm",""), message_obj.payload);
     }else {
+
+        let mut payload:String = message_obj.payload;
+        if payload=="download"{
+            payload = experiment_utils::download("file_2M.txt".to_string());
+        }
         let start: DateTime<Utc> = chrono::offset::Utc::now();
         println!("Connecting to {:?} at {:?}",socket_path, start);
-        ext_func_result = shim_listener::connect_unix_socket(message_obj.payload, socket_path).unwrap();
+        ext_func_result = shim_listener::connect_unix_socket(payload, socket_path).unwrap();
         //THIS IS JUST FOR THE FAN-IN FAN-OUT
+        let received: DateTime<Utc> = chrono::offset::Utc::now();
+        println!("Received length {}",ext_func_result.len());
+        let mut first_line:String = "".to_string();
+        for line in ext_func_result.lines(){
+            first_line=line.to_string();
+            break;
+        }
+        println!("{}",first_line);
         let re = Regex::new(r"Z(.*)").unwrap();
-        let data_result = re.replace(&ext_func_result.replace("Received from client at ",""),"").to_string();
+        let data_result = re.replace(&first_line.replace("Received from client at ",""),"").replace("\n","").to_string();
         println!("Date result {}",data_result);
         let datetime = DateTime::parse_from_rfc3339(&*format!("{}{}",data_result,"Z"))
             .unwrap_or_else(|err| panic!("Failed to parse date string: {}", err));
 
         // Convert the DateTime to the Utc timezone
         let datetime_utc: DateTime<Utc> = datetime.into();
-
         // Extract the date
-        let duration_b = datetime_utc - start ;
+        let duration_b = datetime_utc - start;
+        // Extract the date
+        println!("FANOUT using end date: {} start date {}", datetime_utc,start);
+        println!("FANIN using end date: {} start date {}", received,datetime_utc);
+        let duration_fanout = datetime_utc - start ;
+        let duration_fanin = received - datetime_utc ;
+        unsafe {
+            INDEX = INDEX+1;
+            TOTAL_DURATION_FANOUT = TOTAL_DURATION_FANOUT + duration_fanout.num_microseconds().unwrap();
+            TOTAL_DURATION_FANIN = TOTAL_DURATION_FANIN + duration_fanin.num_microseconds().unwrap();
+            let seconds_fanin = TOTAL_DURATION_FANIN as f64/1000000 as f64;
+            let seconds_fanout = TOTAL_DURATION_FANOUT as f64/1000000 as f64;
+            println!("Index {}",INDEX);
+            println!("FANIN func duration {}", seconds_fanin);
+            println!("FANOUT func duration {}", seconds_fanout);
+
+            let throughput_fanin = INDEX as f64/ seconds_fanin as f64;
+            let throughput_fanout = INDEX as f64/ seconds_fanout as f64;
+            println!("throughput fan-out: {}", throughput_fanout);
+            println!("throughput fan-in: {}", throughput_fanin);
+
+        }
+
         ext_func_result = duration_b.num_microseconds().unwrap().to_string();
+
         //UNTIL HERE
     }
 
@@ -75,9 +114,13 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
     mem.write(bytes, arg1_ptr);
 
 
+    println!("duration {}",ext_func_result);
    // println!("Resume function with result from ext func  {}",len);
-    Ok(vec![WasmValue::from_i32(len as i32)])
+    //Ok(vec![WasmValue::from_i32(len as i32)])
+    Ok(vec![WasmValue::from_i32(ext_func_result.parse::<i32>().unwrap())])
 }
+
+
 
 
 fn connect_to_queue(channel :String, fn_target_input:String) -> String{

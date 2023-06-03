@@ -1,0 +1,66 @@
+Exp 0
+Connecting to queue "" at 2023-05-29T19:55:30.026785215Z
+Received from client at : 2023-05-29T19:55:40.539947123Z
+throughput: 0.09511887052809331 index 0
+Result  1 sent, Duration 10513 ms
+throughput: 0.09511887052809331
+Exp 1
+Connecting to queue "" at 2023-05-29T19:55:48.901713327Z
+Received from client at : 2023-05-29T19:55:59.627995294Z
+throughput: 0.09322895792120307 index 0
+Result  1 sent, Duration 10726 ms
+throughput: 0.09322895792120307
+Exp 2
+Connecting to queue "" at 2023-05-29T19:56:08.061379843Z
+Received from client at : 2023-05-29T19:56:20.471210350Z
+throughput: 0.08058128112955618 index 0
+Result  1 sent, Duration 12409 ms
+throughput: 0.08058128112955618
+Exp 3
+Connecting to queue "" at 2023-05-29T19:56:28.948565398Z
+Received from client at : 2023-05-29T19:56:39.126992211Z
+throughput: 0.09824701776089938 index 0
+Result  1 sent, Duration 10178 ms
+throughput: 0.09824701776089938
+Exp 4
+Connecting to queue "" at 2023-05-29T19:56:47.489240610Z
+Received from client at : 2023-05-29T19:56:58.187475966Z
+throughput: 0.09347336266215875 index 0
+Result  1 sent, Duration 10698 ms
+throughput: 0.09347336266215875
+Exp 5
+Connecting to queue "" at 2023-05-29T19:57:06.681883593Z
+Received from client at : 2023-05-29T19:57:17.754340554Z
+throughput: 0.09031419948744884 index 0
+Result  1 sent, Duration 11072 ms
+throughput: 0.09031419948744884
+Exp 6
+Connecting to queue "" at 2023-05-29T19:57:27.209589063Z
+Received from client at : 2023-05-29T19:57:38.912588796Z
+throughput: 0.08544818298284056 index 0
+Result  1 sent, Duration 11702 ms
+throughput: 0.08544818298284056
+Exp 7
+Connecting to queue "" at 2023-05-29T19:57:47.296605554Z
+Received from client at : 2023-05-29T19:57:58.043780226Z
+throughput: 0.09304771654390262 index 0
+Result  1 sent, Duration 10747 ms
+throughput: 0.09304771654390262
+Exp 8
+Connecting to queue "" at 2023-05-29T19:59:06.340868929Z
+Received from client at : 2023-05-29T19:59:16.698083427Z
+throughput: 0.09655106093202283 index 0
+Result  1 sent, Duration 10357 ms
+throughput: 0.09655106093202283
+Exp 9
+Connecting to queue "" at 2023-05-29T20:00:11.758097702Z
+Received from client at : 2023-05-29T20:00:22.445537165Z
+throughput: 0.09356778550969976 index 0
+Result  1 sent, Duration 10687 ms
+throughput: 0.09356778550969976
+Exp 10
+Connecting to queue "" at 2023-05-29T20:00:30.836958408Z
+Received from client at : 2023-05-29T20:00:41.287177514Z
+throughput: 0.09569177449774019 index 0
+Result  1 sent, Duration 10450 ms
+throughput: 0.09569177449774019

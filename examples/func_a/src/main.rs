@@ -1,15 +1,21 @@
 use wasmedge_http_req::request;
-use serde_json::{Result, Value};
-use chrono::{DateTime, Utc,Duration};
+use chrono::{Duration};
+use async_ffi::FfiFuture;
+use std::sync::{Arc, Mutex};
+use tokio::task;
+use tokio::runtime::Runtime;
 
-fn main() {
-   println!("Greetings from func_a {}",chrono::offset::Utc::now());
-   cwasi_function();
+
+#[tokio::main(flavor = "current_thread")]
+async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
+    println!("Greetings from func_a {}",chrono::offset::Utc::now());
+    cwasi_function();
+    Ok(())
 }
 
 
 #[no_mangle]
-pub fn cwasi_function() -> i32 {
+pub async fn cwasi_function() -> i32 {
     unsafe {
         let args: Vec<String> = std::env::args().collect();
         println!("args: {:?} read at {}", args,chrono::offset::Utc::now());
@@ -31,10 +37,11 @@ pub fn cwasi_function() -> i32 {
         let index: i32 = std::env::var("FUNCTIONS_NUM").expect("Error: FUNCTIONS_NUM not found").parse().unwrap();
         println!("Value of FUNCTIONS_NUM: {}", index);
         let mut duration:Duration = Duration::seconds(0);
-
+        let rt = Runtime::new().unwrap();
+        let _guard = rt.enter();
         for i in 0..index {
             let start = chrono::offset::Utc::now();
-            let duration_func_microsec =process_response(response_string.clone()).replace("Received from client at : ", "").replace("\n", "");
+            let duration_func_microsec =process_response(response_string.clone()).await.replace("Received from client at : ", "").replace("\n", "");
             let duration_b=chrono::Duration::microseconds(duration_func_microsec.parse::<i64>().unwrap());
 
             duration = duration+duration_b;
@@ -52,29 +59,59 @@ pub fn cwasi_function() -> i32 {
     }
 }
 
-pub fn process_response(input_string: &str)-> String{
+pub async fn process_response(input_string: &str)-> String{
     println!("Process response ");
     let full_payload = "{\"source_channel\":\"func_a.wasm\",\"target_channel\":\"func_b.wasm\",\"payload\":\"".to_owned() +input_string+"\"}";
-    let input_bytes = full_payload.as_bytes();
-    let len = input_bytes.len() as i32;
-    let ptr = input_bytes.as_ptr();
-    let ptr_i32 = input_bytes.as_ptr() as i32;
+    //let input_bytes = full_payload.as_bytes();
+    let input_bytes = Arc::new(Mutex::new(full_payload.into_bytes()));
+    let len = input_bytes.lock().unwrap().len() as i32;
+    //let len = input_bytes.len() as i32;
+    //let ptr = input_bytes.as_ptr();
+    //let ptr_i32 = input_bytes.as_ptr() as i32;
     //println!("input pointer {:?} ",ptr);
     //println!("input length {:?} ",len);
 
     unsafe {
+        let response:&str;
+        let response_length:i32;
+        let cloned_input_bytes = Arc::clone(&input_bytes).lock().unwrap().clone();
+
+        let input_bytes_ptr = cloned_input_bytes.as_ptr() as i32;
+        let cloned_input_bytes_len = cloned_input_bytes.len();
+        tokio::task::spawn(async move {
+            let cloned_input_bytes_ptr = cloned_input_bytes.as_ptr();
+            if let response_length = async_func_connect(input_bytes_ptr,len).await{
+                println!("Response length {}",response_length);
+                println!("response from ext call received len {:?} at {:?}",response_length,chrono::offset::Utc::now());
+                let bytes = std::slice::from_raw_parts(cloned_input_bytes_ptr, response_length as usize);
+                println!("After bytes slice {}",chrono::offset::Utc::now());
+                response = &std::str::from_utf8_unchecked(bytes);
+            }
+            println!("response string {:?} ",response);
+        });
+
+
+        /*
         println!("Call external func at {}",chrono::offset::Utc::now());
-        let response_length =cwasi_export::func_connect(ptr_i32,len);
-        println!("response from ext call received len {:?} at {}",response_length,chrono::offset::Utc::now());
+
+        let response_length =cwasi_export::func_connect(ptr_i32,len).await;
+        println!("response from ext call received len {:?} at {:?}",response_length,chrono::offset::Utc::now());
         let bytes = std::slice::from_raw_parts(ptr, response_length as usize);
         println!("After bytes slice {}",chrono::offset::Utc::now());
         let response = &std::str::from_utf8_unchecked(bytes);
         println!("response string {:?} ",response);
+
+         */
         return response.to_string();
+
+
     }
 
 }
-
+pub async fn async_func_connect(str_ptr: i32, str_len: i32) -> i32 {
+    // Call the external function
+    unsafe { cwasi_export::func_connect(str_ptr, str_len) }
+}
 pub mod cwasi_export {
     #[link(wasm_import_module = "cwasi_export")]
     extern "C" {
