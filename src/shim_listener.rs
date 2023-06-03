@@ -69,9 +69,9 @@ impl ShimListener {
                         if line != "exit"{
                             let start= chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
                             //let client_input = line.trim();
-                            let res_time=format!("Received from client at {} \n length {} \n {}", start,client_input.len(),client_input);
+                            let res_time=format!("Received from client at {} \n length {} \n {}", start,line.len(),line);
                             // Send a response back to the client
-                            println!("Received from client at {} \n length {}", start,client_input.len());
+                            println!("Received from client at {} \n length {}", start,line.len());
                             reader.into_inner();
                             // Call function Code here
                             //let result = self.call_vm_with_input(client_input).unwrap();
