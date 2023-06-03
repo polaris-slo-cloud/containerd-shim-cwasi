@@ -71,7 +71,7 @@ impl ShimListener {
                             //let client_input = line.trim();
                             let res_time=format!("Received from client at {} \n length {} \n {}", start,line.len(),line);
                             // Send a response back to the client
-                            println!("Received from client at {} \n length {}", start,line.len());
+                            println!("after formating string {} \n",chrono::offset::Utc::now());
                             reader.into_inner();
                             // Call function Code here
                             //let result = self.call_vm_with_input(client_input).unwrap();
