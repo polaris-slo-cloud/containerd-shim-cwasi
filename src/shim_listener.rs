@@ -126,7 +126,7 @@ impl ShimListener {
 }
 
 
-pub fn connect_unix_socket(input_fn_a:String, socket_path: String)-> Result<String, Error> {
+pub fn connect_unix_socket(input_fn_a:String, socket_path: String)-> Result<Vec<u8>, Error> {
     //connect to socket
     let mut stream = UnixStream::connect(socket_path+".sock").unwrap();
     let input_fn_b = format!("Data input from source fn {} \n", input_fn_a);
@@ -134,9 +134,11 @@ pub fn connect_unix_socket(input_fn_a:String, socket_path: String)-> Result<Stri
     stream.write_all(input_fn_b.as_bytes()).unwrap();
     let mut response = String::new();
     stream.read_to_string(&mut response)?;
+    let mut response_bytes = Vec::new();
+    stream.read(&mut response_bytes);
 
     //println!("{}",response);
-    Ok(response)
+    Ok(response_bytes)
 
 }
 

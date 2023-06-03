@@ -54,39 +54,40 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
     if socket_path.is_empty() {
         ext_func_result = connect_to_queue(external_function_type.replace(".wasm",""), message_obj.payload);
     }else {
-
-        let mut payload:String = message_obj.payload;
-        if payload=="download"{
-            payload = experiment_utils::download("file_2M.txt".to_string());
-        }
-        let start: DateTime<Utc> = chrono::offset::Utc::now();
-        println!("Connecting to {:?} at {:?}",socket_path, start);
-        ext_func_result = shim_listener::connect_unix_socket(payload, socket_path).unwrap();
-        //THIS IS JUST FOR THE FAN-IN FAN-OUT
-        let received: DateTime<Utc> = chrono::offset::Utc::now();
-        println!("Received length {}",ext_func_result.len());
-        let mut first_line:String = "".to_string();
-        for line in ext_func_result.lines(){
-            first_line=line.to_string();
-            break;
-        }
-        println!("{}",first_line);
-        let re = Regex::new(r"Z(.*)").unwrap();
-        let data_result = re.replace(&first_line.replace("Received from client at ",""),"").replace("\n","").to_string();
-        println!("Date result {}",data_result);
-        let datetime = DateTime::parse_from_rfc3339(&*format!("{}{}",data_result,"Z"))
-            .unwrap_or_else(|err| panic!("Failed to parse date string: {}", err));
-
-        // Convert the DateTime to the Utc timezone
-        let datetime_utc: DateTime<Utc> = datetime.into();
-        // Extract the date
-        let duration_b = datetime_utc - start;
-        // Extract the date
-        println!("FANOUT using end date: {} start date {}", datetime_utc,start);
-        println!("FANIN using end date: {} start date {}", received,datetime_utc);
-        let duration_fanout = datetime_utc - start ;
-        let duration_fanin = received - datetime_utc ;
         unsafe {
+            let mut payload:String = message_obj.payload;
+            if payload=="download"{
+                payload = experiment_utils::download("file_2M.txt".to_string());
+            }
+            let start: DateTime<Utc> = chrono::offset::Utc::now();
+            println!("Connecting to {:?} at {:?}",socket_path, start);
+            let ext_func_result_bytes = shim_listener::connect_unix_socket(payload, socket_path).unwrap();
+            //THIS IS JUST FOR THE FAN-IN FAN-OUT
+            let received: DateTime<Utc> = chrono::offset::Utc::now();
+            println!("Received length {}",ext_func_result_bytes.len());
+            ext_func_result = String::from_utf8_unchecked(ext_func_result_bytes);
+            let mut first_line:String = "".to_string();
+            for line in ext_func_result.lines(){
+                first_line=line.to_string();
+                break;
+            }
+            println!("{}",first_line);
+            let re = Regex::new(r"Z(.*)").unwrap();
+            let data_result = re.replace(&first_line.replace("Received from client at ",""),"").replace("\n","").to_string();
+            println!("Date result {}",data_result);
+            let datetime = DateTime::parse_from_rfc3339(&*format!("{}{}",data_result,"Z"))
+                .unwrap_or_else(|err| panic!("Failed to parse date string: {}", err));
+
+            // Convert the DateTime to the Utc timezone
+            let datetime_utc: DateTime<Utc> = datetime.into();
+            // Extract the date
+            let duration_b = datetime_utc - start;
+            // Extract the date
+            println!("FANOUT using end date: {} start date {}", datetime_utc,start);
+            println!("FANIN using end date: {} start date {}", received,datetime_utc);
+            let duration_fanout = datetime_utc - start ;
+            let duration_fanin = received - datetime_utc ;
+
             INDEX = INDEX+1;
             TOTAL_DURATION_FANOUT = TOTAL_DURATION_FANOUT + duration_fanout.num_microseconds().unwrap();
             TOTAL_DURATION_FANIN = TOTAL_DURATION_FANIN + duration_fanin.num_microseconds().unwrap();
@@ -101,9 +102,10 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
             println!("throughput fan-out: {}", throughput_fanout);
             println!("throughput fan-in: {}", throughput_fanin);
 
+            ext_func_result = duration_b.num_microseconds().unwrap().to_string();
         }
 
-        ext_func_result = duration_b.num_microseconds().unwrap().to_string();
+
 
         //UNTIL HERE
     }
