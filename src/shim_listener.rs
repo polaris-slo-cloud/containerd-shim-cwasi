@@ -75,7 +75,7 @@ impl ShimListener {
                             reader.into_inner();
                             // Call function Code here
                             //let result = self.call_vm_with_input(client_input).unwrap();
-
+                            println!("writing socket response  {} \n",chrono::offset::Utc::now());
                             socket.write_all(res_time.as_bytes())?;
                         }
                     }
@@ -157,6 +157,6 @@ pub async fn init_listener(bundle_path: String, oci_spec: Spec, vm: Vm) -> Resul
 
     let mut listener2 = ShimListener::new(bundle_path, oci_spec.clone(), vm);
     listener2.create_server_socket()?;
-    println!("finished init listener");
+    println!("finished init listener {}",chrono::offset::Utc::now());
     Ok(())
 }
