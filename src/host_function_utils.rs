@@ -12,8 +12,8 @@ use crate::message::Message;
 use chrono::{DateTime, SecondsFormat, Utc};
 use regex::Regex;
 
-static mut TOTAL_DURATION_FANOUT: i64 = 0;
-static mut TOTAL_DURATION_FANIN: i64 = 0;
+static mut TOTAL_DURATION_FANOUT: f64 = 0 as f64;
+static mut TOTAL_DURATION_FANIN: f64 = 0 as f64;
 static mut INDEX: i64 = 0;
 
 pub static mut OCI_SPEC:Option<Spec> = None;
@@ -22,7 +22,7 @@ pub static mut BUNDLE_PATH:Option<String> = None;
 #[host_function]
 pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmValue>, HostFuncError> {
     println!("Host function invoked at {}",chrono::offset::Utc::now());
-    thread::sleep(Duration::from_secs(3));
+    thread::sleep(Duration::from_secs(2));
     let mut mem = caller.memory(0).unwrap();
     let arg1_ptr = input[0].to_i32() as u32;
     let arg1_len = input[1].to_i32() as u32;
@@ -92,16 +92,17 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
             let duration_fanin = received - datetime_utc ;
 
             INDEX = INDEX+1;
-            TOTAL_DURATION_FANOUT = TOTAL_DURATION_FANOUT + duration_fanout.num_microseconds().unwrap();
-            TOTAL_DURATION_FANIN = TOTAL_DURATION_FANIN + duration_fanin.num_microseconds().unwrap();
-            let seconds_fanin = TOTAL_DURATION_FANIN as f64/1000000 as f64;
-            let seconds_fanout = TOTAL_DURATION_FANOUT as f64/1000000 as f64;
+            let seconds_fanin = duration_fanin.num_microseconds().unwrap() as f64/1000000 as f64;
+            let seconds_fanout = duration_fanout.num_microseconds().unwrap() as f64/1000000 as f64;
+            TOTAL_DURATION_FANOUT = TOTAL_DURATION_FANOUT + seconds_fanout;
+            TOTAL_DURATION_FANIN = TOTAL_DURATION_FANIN + seconds_fanin;
+
             println!("Index {}",INDEX);
             println!("FANIN func duration {}", seconds_fanin);
             println!("FANOUT func duration {}", seconds_fanout);
 
-            let throughput_fanin = INDEX as f64/ seconds_fanin as f64;
-            let throughput_fanout = INDEX as f64/ seconds_fanout as f64;
+            let throughput_fanin = INDEX as f64/ TOTAL_DURATION_FANIN as f64;
+            let throughput_fanout = INDEX as f64/ TOTAL_DURATION_FANOUT as f64;
             println!("throughput fan-out: {}", throughput_fanout);
             println!("throughput fan-in: {}", throughput_fanin);
 
