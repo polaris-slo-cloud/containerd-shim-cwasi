@@ -9,8 +9,6 @@ use crate::message::Message;
 use chrono;
 use chrono::{SecondsFormat};
 
-
-
 #[derive(Clone)]
 pub struct ShimListener {
     pub bundle_path: String,
@@ -71,11 +69,11 @@ impl ShimListener {
                             //let client_input = line.trim();
                             let res_time=format!("Received from client at {} \n length {} \n {}", start,line.len(),line);
                             // Send a response back to the client
-                            println!("after formating string {} \n",chrono::offset::Utc::now());
+                            //println!("after formating string {} \n",chrono::offset::Utc::now());
                             reader.into_inner();
                             // Call function Code here
                             //let result = self.call_vm_with_input(client_input).unwrap();
-                            println!("writing socket response  {} \n",chrono::offset::Utc::now());
+                            //println!("writing socket response  {} \n",chrono::offset::Utc::now());
                             socket.write_all(res_time.as_bytes())?;
                         }
                     }
@@ -157,6 +155,6 @@ pub async fn init_listener(bundle_path: String, oci_spec: Spec, vm: Vm) -> Resul
 
     let mut listener2 = ShimListener::new(bundle_path, oci_spec.clone(), vm);
     listener2.create_server_socket()?;
-    println!("finished init listener {}",chrono::offset::Utc::now());
+    //println!("finished init listener {}",chrono::offset::Utc::now());
     Ok(())
 }
