@@ -68,13 +68,13 @@ impl ShimListener {
                     Ok(_) => {
                         if line != "exit"{
                             let start= chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
-                            let client_input = line.trim();
+                            //let client_input = line.trim();
                             let res_time=format!("Received from client at {} \n length {} \n {}", start,client_input.len(),client_input);
                             // Send a response back to the client
                             println!("Received from client at {} \n length {}", start,client_input.len());
                             reader.into_inner();
                             // Call function Code here
-                            let result = self.call_vm_with_input(client_input).unwrap();
+                            //let result = self.call_vm_with_input(client_input).unwrap();
 
                             socket.write_all(res_time.as_bytes())?;
                         }
