@@ -90,16 +90,20 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
             println!("FANIN using end date: {} start date {}", received,datetime_utc);
             let duration_fanout = datetime_utc - start ;
             let duration_fanin = received - datetime_utc ;
+            println!("FANIN func duration {:?}", duration_fanin.num_microseconds());
+            println!("FANOUT func duration {:?}", duration_fanout.num_microseconds());
 
             INDEX = INDEX+1;
             let seconds_fanin = duration_fanin.num_microseconds().unwrap() as f64/1000000 as f64;
             let seconds_fanout = duration_fanout.num_microseconds().unwrap() as f64/1000000 as f64;
+            println!("FANIN func duration {:?}", seconds_fanin);
+            println!("FANOUT func duration {:?}", seconds_fanout);
             TOTAL_DURATION_FANOUT = TOTAL_DURATION_FANOUT + seconds_fanout;
             TOTAL_DURATION_FANIN = TOTAL_DURATION_FANIN + seconds_fanin;
 
             println!("Index {}",INDEX);
-            println!("FANIN func duration {}", seconds_fanin);
-            println!("FANOUT func duration {}", seconds_fanout);
+
+
 
             let throughput_fanin = INDEX as f64/ TOTAL_DURATION_FANIN as f64;
             let throughput_fanout = INDEX as f64/ TOTAL_DURATION_FANOUT as f64;
