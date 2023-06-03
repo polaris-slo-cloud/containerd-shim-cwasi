@@ -1,0 +1,1605 @@
+[2023-06-03 17:48:26.688] [error] Bind guest directory failed:54
+[2023-06-03 17:48:26.688] [error] Bind guest directory failed:54
+[2023-06-03 17:48:26.722] [error] Bind guest directory failed:54
+[2023-06-03 17:48:26.722] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/13212.sock" 2023-06-03 15:48:26.869992766 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/9449.sock" 2023-06-03 15:48:27.035844697 UTC
+[2023-06-03 17:48:27.856] [error] Bind guest directory failed:54
+[2023-06-03 17:48:27.856] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/15757.sock" 2023-06-03 15:48:28.013405450 UTC
+[2023-06-03 17:48:29.421] [error] Bind guest directory failed:54
+[2023-06-03 17:48:29.421] [error] Bind guest directory failed:54
+thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: Error { depth: 1, inner: Io { path: Some("/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/15421"), err: Os { code: 2, kind: NotFound, message: "No such file or directory" } } }', src/snapshot_utils.rs:10:28
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: Error { depth: 1, inner: Io { path: Some("/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/15446"), err: Os { code: 2, kind: NotFound, message: "No such file or directory" } } }', src/snapshot_utils.rs:10:28
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: Error { depth: 1, inner: Io { path: Some("/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/15426"), err: Os { code: 2, kind: NotFound, message: "No such file or directory" } } }', src/snapshot_utils.rs:10:28
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/13858.sock" 2023-06-03 15:48:29.853375015 UTC
+[2023-06-03 17:48:30.942] [error] Bind guest directory failed:54
+[2023-06-03 17:48:30.942] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/4550.sock" 2023-06-03 15:48:30.980189291 UTC
+[2023-06-03 17:48:31.235] [error] Bind guest directory failed:54
+[2023-06-03 17:48:31.235] [error] Bind guest directory failed:54
+[2023-06-03 17:48:31.247] [error] Bind guest directory failed:54
+[2023-06-03 17:48:31.247] [error] Bind guest directory failed:54
+[2023-06-03 17:48:31.313] [error] Bind guest directory failed:54
+[2023-06-03 17:48:31.313] [error] Bind guest directory failed:54
+[2023-06-03 17:48:31.310] [error] Bind guest directory failed:54
+[2023-06-03 17:48:31.310] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/14554.sock" 2023-06-03 15:48:31.344911313 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/10601.sock" 2023-06-03 15:48:31.528933335 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/28254.sock" 2023-06-03 15:48:31.615932081 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/9877.sock" 2023-06-03 15:48:31.618598361 UTC
+[2023-06-03 17:48:31.759] [error] Bind guest directory failed:54
+[2023-06-03 17:48:31.759] [error] Bind guest directory failed:54
+[2023-06-03 17:48:32.001] [error] Bind guest directory failed:54
+[2023-06-03 17:48:32.082] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/27543.sock" 2023-06-03 15:48:32.136995259 UTC
+[2023-06-03 17:48:32.139] [error] Bind guest directory failed:54
+[2023-06-03 17:48:32.139] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/712.sock" 2023-06-03 15:48:32.232493012 UTC
+[2023-06-03 17:48:32.254] [error] Bind guest directory failed:54
+[2023-06-03 17:48:32.254] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/2727.sock" 2023-06-03 15:48:32.305209296 UTC
+[2023-06-03 17:48:32.498] [error] Bind guest directory failed:54
+[2023-06-03 17:48:32.498] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/2581.sock" 2023-06-03 15:48:32.544994380 UTC
+[2023-06-03 17:48:32.845] [error] Bind guest directory failed:54
+[2023-06-03 17:48:32.845] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/22857.sock" 2023-06-03 15:48:32.877913084 UTC
+[2023-06-03 17:48:32.902] [error] Bind guest directory failed:54
+[2023-06-03 17:48:32.987] [error] Bind guest directory failed:54
+[2023-06-03 17:48:32.996] [error] Bind guest directory failed:54
+[2023-06-03 17:48:32.996] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/245.sock" 2023-06-03 15:48:33.053402431 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/3602.sock" 2023-06-03 15:48:33.057394182 UTC
+[2023-06-03 17:48:33.164] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.164] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.198] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.198] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.280] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.280] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/29116.sock" 2023-06-03 15:48:33.309618739 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/10090.sock" 2023-06-03 15:48:33.314633499 UTC
+[2023-06-03 17:48:33.338] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.338] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.369] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.369] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.371] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.371] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/11179.sock" 2023-06-03 15:48:33.390209399 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/6324.sock" 2023-06-03 15:48:33.448846462 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/31354.sock" 2023-06-03 15:48:33.455347503 UTC
+[2023-06-03 17:48:33.472] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.472] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/24713.sock" 2023-06-03 15:48:33.480402071 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/27677.sock" 2023-06-03 15:48:33.521092144 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/32109.sock" 2023-06-03 15:48:33.533181711 UTC
+[2023-06-03 17:48:33.618] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.619] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.648] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.648] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.664] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.670] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/17803.sock" 2023-06-03 15:48:33.750219011 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/32485.sock" 2023-06-03 15:48:33.757904582 UTC
+[2023-06-03 17:48:33.857] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.857] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/11918.sock" 2023-06-03 15:48:33.897113896 UTC
+[2023-06-03 17:48:33.894] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.894] [error] Bind guest directory failed:54
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/6209.sock" 2023-06-03 15:48:33.899983926 UTC
+[2023-06-03 17:48:33.934] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.934] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.939] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.939] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.989] [error] Bind guest directory failed:54
+[2023-06-03 17:48:33.989] [error] Bind guest directory failed:54
+[2023-06-03 17:48:34.091] [error] Bind guest directory failed:54
+[2023-06-03 17:48:34.091] [error] Bind guest directory failed:54
+[2023-06-03 17:48:34.114] [error] Bind guest directory failed:54
+[2023-06-03 17:48:34.115] [error] Bind guest directory failed:54
+Secondary function true
+Secondary function true
+before init
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/17796.sock" 2023-06-03 15:48:34.125844601 UTC
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/31951.sock" 2023-06-03 15:48:34.125736842 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/28824.sock" 2023-06-03 15:48:34.129112002 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/25654.sock" 2023-06-03 15:48:34.138136402 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/6842.sock" 2023-06-03 15:48:34.152762911 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/7819.sock" 2023-06-03 15:48:34.198984769 UTC
+[2023-06-03 17:48:34.382] [error] Bind guest directory failed:54
+[2023-06-03 17:48:34.382] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/31415.sock" 2023-06-03 15:48:34.429025949 UTC
+[2023-06-03 17:48:34.441] [error] Bind guest directory failed:54
+[2023-06-03 17:48:34.441] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/531.sock" 2023-06-03 15:48:34.534387517 UTC
+[2023-06-03 17:48:36.141] [error] Bind guest directory failed:54
+[2023-06-03 17:48:36.153] [error] Bind guest directory failed:54
+[2023-06-03 17:48:36.443] [error] Bind guest directory failed:54
+[2023-06-03 17:48:36.443] [error] Bind guest directory failed:54
+[2023-06-03 17:48:36.523] [error] Bind guest directory failed:54
+[2023-06-03 17:48:36.524] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/735.sock" 2023-06-03 15:48:36.825147795 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/26956.sock" 2023-06-03 15:48:36.877283125 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/4132.sock" 2023-06-03 15:48:36.880640461 UTC
+[2023-06-03 17:48:36.995] [error] Bind guest directory failed:54
+[2023-06-03 17:48:36.995] [error] Bind guest directory failed:54
+[2023-06-03 17:48:37.169] [error] Bind guest directory failed:54
+[2023-06-03 17:48:37.169] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/19640.sock" 2023-06-03 15:48:37.413260084 UTC
+[2023-06-03 17:48:37.422] [error] Bind guest directory failed:54
+[2023-06-03 17:48:37.426] [error] Bind guest directory failed:54
+[2023-06-03 17:48:37.557] [error] Bind guest directory failed:54
+[2023-06-03 17:48:37.557] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/5033.sock" 2023-06-03 15:48:37.568987364 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/19837.sock" 2023-06-03 15:48:37.574955811 UTC
+[2023-06-03 17:48:37.594] [error] Bind guest directory failed:54
+[2023-06-03 17:48:37.594] [error] Bind guest directory failed:54
+[2023-06-03 17:48:37.725] [error] Bind guest directory failed:54
+[2023-06-03 17:48:37.725] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/13439.sock" 2023-06-03 15:48:37.797360711 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/29791.sock" 2023-06-03 15:48:37.944987067 UTC
+[2023-06-03 17:48:38.011] [error] Bind guest directory failed:54
+[2023-06-03 17:48:38.014] [error] Bind guest directory failed:54
+[2023-06-03 17:48:38.024] [error] Bind guest directory failed:54
+[2023-06-03 17:48:38.024] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/11579.sock" 2023-06-03 15:48:38.089109816 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/28965.sock" 2023-06-03 15:48:38.264925311 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/23041.sock" 2023-06-03 15:48:38.345036824 UTC
+[2023-06-03 17:48:38.654] [error] Bind guest directory failed:54
+[2023-06-03 17:48:38.654] [error] Bind guest directory failed:54
+[2023-06-03 17:48:39.024] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/22965.sock" 2023-06-03 15:48:39.040866297 UTC
+[2023-06-03 17:48:39.093] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/29220.sock" 2023-06-03 15:48:39.556902588 UTC
+[2023-06-03 17:48:40.389] [error] Bind guest directory failed:54
+[2023-06-03 17:48:40.399] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/5738.sock" 2023-06-03 15:48:40.749062877 UTC
+[2023-06-03 17:48:41.279] [error] Bind guest directory failed:54
+[2023-06-03 17:48:41.279] [error] Bind guest directory failed:54
+[2023-06-03 17:48:41.338] [error] Bind guest directory failed:54
+[2023-06-03 17:48:41.341] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/27907.sock" 2023-06-03 15:48:41.600877446 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/17737.sock" 2023-06-03 15:48:41.800070454 UTC
+[2023-06-03 17:48:43.274] [error] Bind guest directory failed:54
+[2023-06-03 17:48:43.274] [error] Bind guest directory failed:54
+[2023-06-03 17:48:43.518] [error] Bind guest directory failed:54
+[2023-06-03 17:48:43.530] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/28519.sock" 2023-06-03 15:48:43.752882961 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/28213.sock" 2023-06-03 15:48:43.977988850 UTC
+[2023-06-03 17:48:44.323] [error] Bind guest directory failed:54
+[2023-06-03 17:48:44.323] [error] Bind guest directory failed:54
+[2023-06-03 17:48:44.686] [error] Bind guest directory failed:54
+[2023-06-03 17:48:44.694] [error] Bind guest directory failed:54
+[2023-06-03 17:48:44.710] [error] Bind guest directory failed:54
+[2023-06-03 17:48:44.721] [error] Bind guest directory failed:54
+[2023-06-03 17:48:44.722] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/215.sock" 2023-06-03 15:48:44.812993346 UTC
+[2023-06-03 17:48:44.901] [error] Bind guest directory failed:54
+[2023-06-03 17:48:45.038] [error] Bind guest directory failed:54
+[2023-06-03 17:48:45.045] [error] Bind guest directory failed:54
+[2023-06-03 17:48:45.209] [error] Bind guest directory failed:54
+[2023-06-03 17:48:45.339] [error] Bind guest directory failed:54
+[2023-06-03 17:48:45.352] [error] Bind guest directory failed:54
+[2023-06-03 17:48:45.356] [error] Bind guest directory failed:54
+[2023-06-03 17:48:45.386] [error] Bind guest directory failed:54
+[2023-06-03 17:48:45.398] [error] Bind guest directory failed:54
+[2023-06-03 17:48:45.398] [error] Bind guest directory failed:54
+[2023-06-03 17:48:45.418] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/16686.sock" 2023-06-03 15:48:45.458194966 UTC
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/15882.sock" 2023-06-03 15:48:45.458177375 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/15283.sock" 2023-06-03 15:48:45.476155334 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/28462.sock" 2023-06-03 15:48:45.476115245 UTC
+[2023-06-03 17:48:45.601] [error] Bind guest directory failed:54
+[2023-06-03 17:48:45.668] [error] Bind guest directory failed:54
+[2023-06-03 17:48:45.668] [error] Bind guest directory failed:54
+[2023-06-03 17:48:45.730] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/32445.sock" 2023-06-03 15:48:45.817239975 UTC
+[2023-06-03 17:48:45.823] [error] Bind guest directory failed:54
+[2023-06-03 17:48:45.823] [error] Bind guest directory failed:54
+[2023-06-03 17:48:45.844] [error] Bind guest directory failed:54
+[2023-06-03 17:48:45.845] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/10888.sock" 2023-06-03 15:48:46.032892589 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/17400.sock" 2023-06-03 15:48:46.035942355 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/19471.sock" 2023-06-03 15:48:46.039232505 UTC
+[2023-06-03 17:48:46.156] [error] Bind guest directory failed:54
+[2023-06-03 17:48:46.156] [error] Bind guest directory failed:54
+[2023-06-03 17:48:46.238] [error] Bind guest directory failed:54
+[2023-06-03 17:48:46.238] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/5715.sock" 2023-06-03 15:48:46.300906747 UTC
+[2023-06-03 17:48:46.314] [error] Bind guest directory failed:54
+[2023-06-03 17:48:46.314] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/18445.sock" 2023-06-03 15:48:46.370106968 UTC
+[2023-06-03 17:48:46.384] [error] Bind guest directory failed:54
+[2023-06-03 17:48:46.384] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/4245.sock" 2023-06-03 15:48:46.424220677 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/11195.sock" 2023-06-03 15:48:46.432127571 UTC
+[2023-06-03 17:48:46.481] [error] Bind guest directory failed:54
+[2023-06-03 17:48:46.481] [error] Bind guest directory failed:54
+[2023-06-03 17:48:46.496] [error] Bind guest directory failed:54
+[2023-06-03 17:48:46.614] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/3568.sock" 2023-06-03 15:48:46.653045100 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/21476.sock" 2023-06-03 15:48:46.674642034 UTC
+[2023-06-03 17:48:46.677] [error] Bind guest directory failed:54
+[2023-06-03 17:48:46.750] [error] Bind guest directory failed:54
+[2023-06-03 17:48:46.750] [error] Bind guest directory failed:54
+[2023-06-03 17:48:46.841] [error] Bind guest directory failed:54
+[2023-06-03 17:48:46.850] [error] Bind guest directory failed:54
+[2023-06-03 17:48:46.862] [error] Bind guest directory failed:54
+[2023-06-03 17:48:46.873] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/21079.sock" 2023-06-03 15:48:46.885180016 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/9256.sock" 2023-06-03 15:48:46.892720307 UTC
+[2023-06-03 17:48:46.925] [error] Bind guest directory failed:54
+[2023-06-03 17:48:46.925] [error] Bind guest directory failed:54
+[2023-06-03 17:48:46.985] [error] Bind guest directory failed:54
+[2023-06-03 17:48:47.038] [error] Bind guest directory failed:54
+[2023-06-03 17:48:47.039] [error] Bind guest directory failed:54
+[2023-06-03 17:48:47.061] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/24181.sock" 2023-06-03 15:48:47.177082714 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/7411.sock" 2023-06-03 15:48:47.178570869 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/26546.sock" 2023-06-03 15:48:47.197258927 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/25642.sock" 2023-06-03 15:48:47.206565924 UTC
+[2023-06-03 17:48:47.238] [error] Bind guest directory failed:54
+[2023-06-03 17:48:47.238] [error] Bind guest directory failed:54
+[2023-06-03 17:48:47.334] [error] Bind guest directory failed:54
+[2023-06-03 17:48:47.401] [error] Bind guest directory failed:54
+[2023-06-03 17:48:47.401] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/18522.sock" 2023-06-03 15:48:47.437836851 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/23623.sock" 2023-06-03 15:48:47.637008609 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/15453.sock" 2023-06-03 15:48:47.640005971 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/5174.sock" 2023-06-03 15:48:47.838037598 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/26173.sock" 2023-06-03 15:48:47.846207419 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/3984.sock" 2023-06-03 15:48:47.863973359 UTC
+[2023-06-03 17:48:47.950] [error] Bind guest directory failed:54
+[2023-06-03 17:48:47.951] [error] Bind guest directory failed:54
+[2023-06-03 17:48:48.074] [error] Bind guest directory failed:54
+[2023-06-03 17:48:48.074] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/17573.sock" 2023-06-03 15:48:48.201029061 UTC
+[2023-06-03 17:48:48.216] [error] Bind guest directory failed:54
+[2023-06-03 17:48:48.216] [error] Bind guest directory failed:54
+[2023-06-03 17:48:48.247] [error] Bind guest directory failed:54
+[2023-06-03 17:48:48.247] [error] Bind guest directory failed:54
+[2023-06-03 17:48:48.247] [error] Bind guest directory failed:54
+[2023-06-03 17:48:48.247] [error] Bind guest directory failed:54
+[2023-06-03 17:48:48.287] [error] Bind guest directory failed:54
+[2023-06-03 17:48:48.287] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/31440.sock" 2023-06-03 15:48:48.517002528 UTC
+[2023-06-03 17:48:48.638] [error] Bind guest directory failed:54
+[2023-06-03 17:48:48.646] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/14005.sock" 2023-06-03 15:48:48.776990438 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/23189.sock" 2023-06-03 15:48:48.781245901 UTC
+Secondary function true
+[2023-06-03 17:48:48.824] [error] Bind guest directory failed:54
+before init
+[2023-06-03 17:48:48.824] [error] Bind guest directory failed:54
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/19715.sock" 2023-06-03 15:48:48.825370539 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/22540.sock" 2023-06-03 15:48:48.858752931 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/24082.sock" 2023-06-03 15:48:48.949018234 UTC
+[2023-06-03 17:48:49.022] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.038] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.185] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.185] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.229] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.326] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.339] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.406] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/28970.sock" 2023-06-03 15:48:49.416113632 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/24997.sock" 2023-06-03 15:48:49.416960302 UTC
+[2023-06-03 17:48:49.479] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.479] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.495] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.531] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.531] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.538] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.542] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.575] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.576] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/3607.sock" 2023-06-03 15:48:49.576997494 UTC
+[2023-06-03 17:48:49.585] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.642] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.654] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.659] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.686] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.716] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.716] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.736] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.771] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.771] [error] Bind guest directory failed:54
+[2023-06-03 17:48:49.826] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/6496.sock" 2023-06-03 15:48:49.861031207 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/8193.sock" 2023-06-03 15:48:49.869589268 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/5045.sock" 2023-06-03 15:48:49.872478071 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/7521.sock" 2023-06-03 15:48:50.004921618 UTC
+[2023-06-03 17:48:50.027] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.027] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.095] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.095] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/28904.sock" 2023-06-03 15:48:50.117137588 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/24477.sock" 2023-06-03 15:48:50.130925779 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/9239.sock" 2023-06-03 15:48:50.139807132 UTC
+[2023-06-03 17:48:50.175] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.186] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.197] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.251] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.251] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.310] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.321] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/20622.sock" 2023-06-03 15:48:50.342445214 UTC
+[2023-06-03 17:48:50.343] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.343] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/11173.sock" 2023-06-03 15:48:50.345340254 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/29499.sock" 2023-06-03 15:48:50.346080106 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/14823.sock" 2023-06-03 15:48:50.351301615 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/29742.sock" 2023-06-03 15:48:50.357681366 UTC
+[2023-06-03 17:48:50.397] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/13782.sock" 2023-06-03 15:48:50.425121410 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/14480.sock" 2023-06-03 15:48:50.455975081 UTC
+[2023-06-03 17:48:50.605] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.605] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.605] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.605] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.608] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.635] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/17285.sock" 2023-06-03 15:48:50.637112388 UTC
+[2023-06-03 17:48:50.638] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.654] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.654] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.666] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.671] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.674] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.770] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.772] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/23016.sock" 2023-06-03 15:48:50.775347719 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/5495.sock" 2023-06-03 15:48:50.796254440 UTC
+[2023-06-03 17:48:50.855] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/10222.sock" 2023-06-03 15:48:50.865385320 UTC
+[2023-06-03 17:48:50.883] [error] Bind guest directory failed:54
+[2023-06-03 17:48:50.883] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/11506.sock" 2023-06-03 15:48:50.886324262 UTC
+[2023-06-03 17:48:50.922] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/7259.sock" 2023-06-03 15:48:50.953199453 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/3063.sock" 2023-06-03 15:48:50.969275961 UTC
+[2023-06-03 17:48:50.985] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/4166.sock" 2023-06-03 15:48:51.072915211 UTC
+[2023-06-03 17:48:51.078] [error] Bind guest directory failed:54
+[2023-06-03 17:48:51.126] [error] Bind guest directory failed:54
+[2023-06-03 17:48:51.126] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/13128.sock" 2023-06-03 15:48:51.178051315 UTC
+[2023-06-03 17:48:51.242] [error] Bind guest directory failed:54
+[2023-06-03 17:48:51.242] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/7557.sock" 2023-06-03 15:48:51.297158017 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/329.sock" 2023-06-03 15:48:51.306673065 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/2022.sock" 2023-06-03 15:48:51.307032077 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/19388.sock" 2023-06-03 15:48:51.324533428 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/8594.sock" 2023-06-03 15:48:51.326099738 UTC
+[2023-06-03 17:48:51.451] [error] Bind guest directory failed:54
+[2023-06-03 17:48:51.451] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/31713.sock" 2023-06-03 15:48:51.468917251 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/6819.sock" 2023-06-03 15:48:51.471880008 UTC
+[2023-06-03 17:48:51.478] [error] Bind guest directory failed:54
+[2023-06-03 17:48:51.478] [error] Bind guest directory failed:54
+[2023-06-03 17:48:51.514] [error] Bind guest directory failed:54
+[2023-06-03 17:48:51.518] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/5689.sock" 2023-06-03 15:48:51.616304271 UTC
+[2023-06-03 17:48:51.664] [error] Bind guest directory failed:54
+[2023-06-03 17:48:51.664] [error] Bind guest directory failed:54
+[2023-06-03 17:48:51.680] [error] Bind guest directory failed:54
+[2023-06-03 17:48:51.680] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/20710.sock" 2023-06-03 15:48:51.749183135 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/13450.sock" 2023-06-03 15:48:51.880985378 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/12120.sock" 2023-06-03 15:48:51.886232509 UTC
+[2023-06-03 17:48:51.891] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/26290.sock" 2023-06-03 15:48:51.902626449 UTC
+[2023-06-03 17:48:51.910] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/9448.sock" 2023-06-03 15:48:51.944903588 UTC
+[2023-06-03 17:48:51.975] [error] Bind guest directory failed:54
+[2023-06-03 17:48:51.975] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/24219.sock" 2023-06-03 15:48:52.028838454 UTC
+[2023-06-03 17:48:52.112] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.112] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.140] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.140] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.207] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.222] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/15267.sock" 2023-06-03 15:48:52.250210414 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/14976.sock" 2023-06-03 15:48:52.272231195 UTC
+[2023-06-03 17:48:52.277] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.277] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.342] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.343] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.388] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.388] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.388] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.396] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.423] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.423] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.430] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.434] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.534] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.539] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.543] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/4362.sock" 2023-06-03 15:48:52.557257612 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/2831.sock" 2023-06-03 15:48:52.560208758 UTC
+Secondary function true
+before init
+[2023-06-03 17:48:52.562] [error] Bind guest directory failed:54
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/28351.sock" 2023-06-03 15:48:52.562706294 UTC
+[2023-06-03 17:48:52.626] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.626] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.640] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.640] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/27409.sock" 2023-06-03 15:48:52.704864444 UTC
+[2023-06-03 17:48:52.719] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.719] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/7776.sock" 2023-06-03 15:48:52.730816615 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/6001.sock" 2023-06-03 15:48:52.732315069 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/1308.sock" 2023-06-03 15:48:52.738608791 UTC
+Secondary function true
+before init
+channel created func_b
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/16045.sock" 2023-06-03 15:48:52.752710639 UTC
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/26258.sock" 2023-06-03 15:48:52.752770165 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/16423.sock" 2023-06-03 15:48:52.849108440 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/18946.sock" 2023-06-03 15:48:52.860474326 UTC
+[2023-06-03 17:48:52.862] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.862] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/1411.sock" 2023-06-03 15:48:52.871916237 UTC
+[2023-06-03 17:48:52.894] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.895] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/11822.sock" 2023-06-03 15:48:52.941329730 UTC
+[2023-06-03 17:48:52.974] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.974] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.990] [error] Bind guest directory failed:54
+[2023-06-03 17:48:52.990] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/10875.sock" 2023-06-03 15:48:53.072983631 UTC
+[2023-06-03 17:48:53.096] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.096] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.122] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.122] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.134] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.134] [error] Bind guest directory failed:54
+Secondary function true
+[2023-06-03 17:48:53.200] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.200] [error] Bind guest directory failed:54
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/25044.sock" 2023-06-03 15:48:53.200929383 UTC
+[2023-06-03 17:48:53.245] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.248] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.248] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/31465.sock" 2023-06-03 15:48:53.264187084 UTC
+[2023-06-03 17:48:53.264] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.264] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.306] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.340] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.340] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/3100.sock" 2023-06-03 15:48:53.362061042 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/755.sock" 2023-06-03 15:48:53.365392405 UTC
+[2023-06-03 17:48:53.381] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.395] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.417] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/5311.sock" 2023-06-03 15:48:53.444210177 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/27480.sock" 2023-06-03 15:48:53.445731177 UTC
+[2023-06-03 17:48:53.454] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/24646.sock" 2023-06-03 15:48:53.484916361 UTC
+[2023-06-03 17:48:53.537] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.537] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/18726.sock" 2023-06-03 15:48:53.681141695 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/10035.sock" 2023-06-03 15:48:53.683971443 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/26484.sock" 2023-06-03 15:48:53.686067453 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/21516.sock" 2023-06-03 15:48:53.697519940 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/31828.sock" 2023-06-03 15:48:53.700520068 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/7468.sock" 2023-06-03 15:48:53.716854546 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/16057.sock" 2023-06-03 15:48:53.732322898 UTC
+[2023-06-03 17:48:53.752] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.760] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.770] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.798] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.810] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/200.sock" 2023-06-03 15:48:53.844569876 UTC
+[2023-06-03 17:48:53.874] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.905] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.907] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.911] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.917] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.947] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.991] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/16340.sock" 2023-06-03 15:48:53.992973573 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/13139.sock" 2023-06-03 15:48:53.996042537 UTC
+[2023-06-03 17:48:53.998] [error] Bind guest directory failed:54
+[2023-06-03 17:48:53.998] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.027] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.050] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.067] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.067] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.079] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.079] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.087] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.088] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/30064.sock" 2023-06-03 15:48:54.140890753 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/25822.sock" 2023-06-03 15:48:54.150367949 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/27442.sock" 2023-06-03 15:48:54.165316143 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/17404.sock" 2023-06-03 15:48:54.230370214 UTC
+[2023-06-03 17:48:54.290] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.290] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.324] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.324] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.364] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/24038.sock" 2023-06-03 15:48:54.368862809 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/27278.sock" 2023-06-03 15:48:54.371799416 UTC
+Secondary function true
+[2023-06-03 17:48:54.374] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+before init
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/11551.sock" 2023-06-03 15:48:54.375179163 UTC
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/12804.sock" 2023-06-03 15:48:54.375758379 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/31739.sock" 2023-06-03 15:48:54.394844400 UTC
+[2023-06-03 17:48:54.451] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.451] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.496] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.496] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/2143.sock" 2023-06-03 15:48:54.532923328 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/22628.sock" 2023-06-03 15:48:54.557140227 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/19187.sock" 2023-06-03 15:48:54.573041477 UTC
+[2023-06-03 17:48:54.582] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.583] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/24748.sock" 2023-06-03 15:48:54.649195833 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/16627.sock" 2023-06-03 15:48:54.756972778 UTC
+[2023-06-03 17:48:54.758] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.758] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.766] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.767] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/11390.sock" 2023-06-03 15:48:54.793033838 UTC
+[2023-06-03 17:48:54.819] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.819] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.868] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.884] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.967] [error] Bind guest directory failed:54
+[2023-06-03 17:48:54.990] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.057] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.067] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.067] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/10801.sock" 2023-06-03 15:48:55.091494438 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/26666.sock" 2023-06-03 15:48:55.091934582 UTC
+[2023-06-03 17:48:55.110] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.119] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.119] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/30009.sock" 2023-06-03 15:48:55.181324019 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/23439.sock" 2023-06-03 15:48:55.185432947 UTC
+[2023-06-03 17:48:55.189] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.201] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.201] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.214] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.214] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.217] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.235] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.235] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.254] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/19502.sock" 2023-06-03 15:48:55.265171169 UTC
+[2023-06-03 17:48:55.273] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.273] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/4476.sock" 2023-06-03 15:48:55.276266967 UTC
+[2023-06-03 17:48:55.286] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.304] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.304] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/10378.sock" 2023-06-03 15:48:55.308905074 UTC
+[2023-06-03 17:48:55.319] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.328] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/7219.sock" 2023-06-03 15:48:55.372052326 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/21797.sock" 2023-06-03 15:48:55.374698055 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/28864.sock" 2023-06-03 15:48:55.379344942 UTC
+[2023-06-03 17:48:55.385] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.385] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.410] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.410] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.446] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.446] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.466] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.474] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.487] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.487] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.493] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/28259.sock" 2023-06-03 15:48:55.528862731 UTC
+[2023-06-03 17:48:55.534] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.558] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.558] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/4935.sock" 2023-06-03 15:48:55.581555349 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/17667.sock" 2023-06-03 15:48:55.583819593 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/22541.sock" 2023-06-03 15:48:55.587981716 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/23402.sock" 2023-06-03 15:48:55.589317072 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/18396.sock" 2023-06-03 15:48:55.591452149 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/22763.sock" 2023-06-03 15:48:55.597543222 UTC
+[2023-06-03 17:48:55.617] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/20108.sock" 2023-06-03 15:48:55.628933203 UTC
+[2023-06-03 17:48:55.639] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/27437.sock" 2023-06-03 15:48:55.646722797 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/31179.sock" 2023-06-03 15:48:55.670068367 UTC
+[2023-06-03 17:48:55.710] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.710] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/24016.sock" 2023-06-03 15:48:55.717063810 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/12006.sock" 2023-06-03 15:48:55.746902396 UTC
+[2023-06-03 17:48:55.750] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.750] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.752] [error] Bind guest directory failed:54
+Secondary function true
+before init
+[2023-06-03 17:48:55.758] [error] Bind guest directory failed:54
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/20119.sock" 2023-06-03 15:48:55.759027043 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/4851.sock" 2023-06-03 15:48:55.760826803 UTC
+[2023-06-03 17:48:55.780] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/22621.sock" 2023-06-03 15:48:55.784854585 UTC
+[2023-06-03 17:48:55.788] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.788] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.790] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.802] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.826] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.834] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.834] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.870] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.870] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/23591.sock" 2023-06-03 15:48:55.897034236 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/29636.sock" 2023-06-03 15:48:55.915351881 UTC
+Secondary function true
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/17158.sock" 2023-06-03 15:48:55.929035049 UTC
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/20919.sock" 2023-06-03 15:48:55.929532469 UTC
+[2023-06-03 17:48:55.945] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.950] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.951] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.960] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.960] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.977] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.977] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.986] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.994] [error] Bind guest directory failed:54
+[2023-06-03 17:48:55.994] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/11031.sock" 2023-06-03 15:48:56.017183617 UTC
+Secondary function true
+before init
+channel created func_b
+[2023-06-03 17:48:56.041] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.041] [error] Bind guest directory failed:54
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/9681.sock" 2023-06-03 15:48:56.041702602 UTC
+[2023-06-03 17:48:56.056] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.056] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.062] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.073] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.076] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.076] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/31369.sock" 2023-06-03 15:48:56.097176631 UTC
+[2023-06-03 17:48:56.102] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.102] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.110] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.110] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/6710.sock" 2023-06-03 15:48:56.121863539 UTC
+[2023-06-03 17:48:56.147] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.148] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/7052.sock" 2023-06-03 15:48:56.151699681 UTC
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/24714.sock" 2023-06-03 15:48:56.150319567 UTC
+[2023-06-03 17:48:56.153] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/26991.sock" 2023-06-03 15:48:56.156687145 UTC
+[2023-06-03 17:48:56.162] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.180] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.180] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/8601.sock" 2023-06-03 15:48:56.200028824 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/23406.sock" 2023-06-03 15:48:56.204257307 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/19814.sock" 2023-06-03 15:48:56.208273018 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/796.sock" 2023-06-03 15:48:56.208375087 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/31186.sock" 2023-06-03 15:48:56.216251944 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/29068.sock" 2023-06-03 15:48:56.219891565 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/2499.sock" 2023-06-03 15:48:56.232875247 UTC
+[2023-06-03 17:48:56.239] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.240] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.240] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.245] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/20935.sock" 2023-06-03 15:48:56.247088665 UTC
+Secondary function true
+before init
+channel created func_b
+[2023-06-03 17:48:56.256] [error] Bind guest directory failed:54
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/3775.sock" 2023-06-03 15:48:56.258788498 UTC
+[2023-06-03 17:48:56.270] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.270] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/19451.sock" 2023-06-03 15:48:56.271316402 UTC
+[2023-06-03 17:48:56.278] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.295] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.295] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.297] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.302] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.303] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.318] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.335] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.338] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+[2023-06-03 17:48:56.348] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.348] [error] Bind guest directory failed:54
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/30383.sock" 2023-06-03 15:48:56.349174654 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/29113.sock" 2023-06-03 15:48:56.354293250 UTC
+[2023-06-03 17:48:56.358] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.358] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/25765.sock" 2023-06-03 15:48:56.358778915 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/27710.sock" 2023-06-03 15:48:56.366228780 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/2892.sock" 2023-06-03 15:48:56.369945778 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/23811.sock" 2023-06-03 15:48:56.376057940 UTC
+[2023-06-03 17:48:56.382] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.382] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.390] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/7308.sock" 2023-06-03 15:48:56.392553641 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/32230.sock" 2023-06-03 15:48:56.406340811 UTC
+[2023-06-03 17:48:56.410] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.423] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.423] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.439] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.439] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.448] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.449] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/6483.sock" 2023-06-03 15:48:56.461119808 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/19835.sock" 2023-06-03 15:48:56.466069386 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/20795.sock" 2023-06-03 15:48:56.467682566 UTC
+[2023-06-03 17:48:56.470] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/29542.sock" 2023-06-03 15:48:56.471142516 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/13526.sock" 2023-06-03 15:48:56.471792623 UTC
+[2023-06-03 17:48:56.473] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/26577.sock" 2023-06-03 15:48:56.481349499 UTC
+[2023-06-03 17:48:56.485] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.490] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.490] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.501] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.501] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/9279.sock" 2023-06-03 15:48:56.505295030 UTC
+[2023-06-03 17:48:56.510] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.512] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.512] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.512] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.518] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/11339.sock" 2023-06-03 15:48:56.520586369 UTC
+[2023-06-03 17:48:56.526] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.529] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/11275.sock" 2023-06-03 15:48:56.537063460 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/6073.sock" 2023-06-03 15:48:56.538672195 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/32056.sock" 2023-06-03 15:48:56.542755049 UTC
+[2023-06-03 17:48:56.543] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.543] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/18693.sock" 2023-06-03 15:48:56.554396273 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/11575.sock" 2023-06-03 15:48:56.559662309 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/8420.sock" 2023-06-03 15:48:56.563601799 UTC
+[2023-06-03 17:48:56.566] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.566] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/21472.sock" 2023-06-03 15:48:56.574703944 UTC
+[2023-06-03 17:48:56.577] [error] Bind guest directory failed:54
+[2023-06-03 17:48:56.577] [error] Bind guest directory failed:54
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/7792.sock" 2023-06-03 15:48:56.581990950 UTC
+Secondary function true
+before init
+channel created func_b
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/24793.sock" 2023-06-03 15:48:56.589945086 UTC
+[2023-06-03 17:49:00.450] [error] Bind guest directory failed:54
+[2023-06-03 17:49:00.450] [error] Bind guest directory failed:54
+Secondary function
+Greetings from func_a 2023-06-03 15:49:00.546601050 UTC
+Value of FUNCTIONS_NUM: 250
+Process response
+Value of STORAGE_IP: 192.168.0.213:8888
+
+POST and get result as string: http://192.168.0.213:8888
+with a POST body: hello wasmedge
+Fetch url and return string
+response SYNC fetch url strNot Found
+Before call ffi  ptr i32  1665952
+ASYNC START Enter thread ptr 1665952 at 2023-06-03 15:49:00.730998773 UTC
+Host function invoked at 2023-06-03 15:49:00.731351969 UTC
+External function input length 84
+Function target
+Downloading file file_2M.txt at 2023-06-03T15:49:00.737641709Z
+Download finished at 2023-06-03T15:49:00.836394135Z
+String copied at 2023-06-03T15:49:01.437700272Z
+Status: 200 OK
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/9279" at 2023-06-03T15:49:01.440358751Z
+Received length 2064486
+Received from client at 2023-06-03T15:49:01.445769681Z
+Date result 2023-06-03T15:49:01.445769681
+FANOUT using end date: 2023-06-03 15:49:01.445769681 UTC start date 2023-06-03 15:49:01.440358751 UTC
+FANIN using end date: 2023-06-03 15:49:01.556350715 UTC start date 2023-06-03 15:49:01.445769681 UTC
+Index 1
+FANIN func duration 0.110581
+FANOUT func duration 0.00541
+throughput fan-out: 184.84288354898337
+throughput fan-in: 9.043144844050968
+duration 5410
+Response length response 5410
+response from ext call received len 5410 at 2023-06-03T15:49:01.557593031Z
+Response length return 5410
+throughput: 184.84288354898337 index 0
+Process response
+Value of STORAGE_IP: 192.168.0.213:8888
+
+POST and get result as string: http://192.168.0.213:8888
+with a POST body: hello wasmedge
+Fetch url and return string
+response SYNC fetch url strNot Found
+Before call ffi  ptr i32  1665952
+ASYNC START Enter thread ptr 1665952 at 2023-06-03 15:49:01.577916763 UTC
+Host function invoked at 2023-06-03 15:49:01.578217122 UTC
+External function input length 84
+Function target
+Downloading file file_2M.txt at 2023-06-03T15:49:01.583321265Z
+Download finished at 2023-06-03T15:49:01.670601198Z
+String copied at 2023-06-03T15:49:02.321492396Z
+Status: 200 OK
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/29542" at 2023-06-03T15:49:02.325063607Z
+Received length 2064486
+Received from client at 2023-06-03T15:49:02.328700322Z
+Date result 2023-06-03T15:49:02.328700322
+FANOUT using end date: 2023-06-03 15:49:02.328700322 UTC start date 2023-06-03 15:49:02.325063607 UTC
+FANIN using end date: 2023-06-03 15:49:02.434978993 UTC start date 2023-06-03 15:49:02.328700322 UTC
+Index 2
+FANIN func duration 0.216859
+FANOUT func duration 0.009046
+throughput fan-out: 221.09219544550078
+throughput fan-in: 9.222582415302108
+duration 3636
+Response length response 3636
+response from ext call received len 3636 at 2023-06-03T15:49:02.436122618Z
+Response length return 3636
+throughput: 221.09219544550078 index 1
+Process response
+Value of STORAGE_IP: 192.168.0.213:8888
+
+POST and get result as string: http://192.168.0.213:8888
+with a POST body: hello wasmedge
+Fetch url and return string
+response SYNC fetch url strNot Found
+Before call ffi  ptr i32  1665952
+ASYNC START Enter thread ptr 1665952 at 2023-06-03 15:49:02.459469721 UTC
+Host function invoked at 2023-06-03 15:49:02.459705229 UTC
+External function input length 84
+Function target
+Downloading file file_2M.txt at 2023-06-03T15:49:02.463670350Z
+Download finished at 2023-06-03T15:49:02.551351811Z
+String copied at 2023-06-03T15:49:03.184926041Z
+Status: 200 OK
+Connecting to "/run/containerd/io.containerd.runtime.v2.task/k8s.io/11275" at 2023-06-03T15:49:03.188403802Z
+Received length 2064486
+Received from client at 2023-06-03T15:49:03.192544381Z
+Date result 2023-06-03T15:49:03.192544381
+FANOUT using end date: 2023-06-03 15:49:03.192544381 UTC start date 2023-06-03 15:49:03.188403802 UTC
+FANIN using end date: 2023-06-03 15:49:03.312710701 UTC start date 2023-06-03 15:49:03.192544381 UTC
+Index 3
+FANIN func duration 0.337025
+FANOUT func duration 0.013186
+throughput fan-out: 227.51403003185197
+throughput fan-in: 8.901416808842074
+duration 4140
+Response length response 4140
+response from ext call received len 4140 at 2023-06-03T15:49:03.313586363Z
+Response length return 4140
+throughput: 227.51403003185197 index 2
+Process response
+Value of STORAGE_IP: 192.168.0.213:8888
+
+POST and get result as string: http://192.168.0.213:8888
+with a POST body: hello wasmedge
+Fetch url and return string
+response SYNC fetch url strNot Found
+Before call ffi  ptr i32  1665952
+ASYNC START Enter thread ptr 1665952 at 2023-06-03 15:49:03.334200163 UTC
+Host function invoked at 2023-06-03 15:49:03.334527096 UTC
+External function input length 84
+Function target
+thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: Others("error canonicalizing rootfs in spec: io operation failed")', src/host_function_utils.rs:145:61
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+terminate called without an active exception
+Duration  35.452329162

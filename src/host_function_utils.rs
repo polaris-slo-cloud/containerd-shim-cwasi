@@ -1,4 +1,6 @@
 use std::path::Path;
+use std::thread;
+use std::time::Duration;
 use log::info;
 use oci_spec::runtime::Spec;
 use uuid::Uuid;
@@ -20,6 +22,7 @@ pub static mut BUNDLE_PATH:Option<String> = None;
 #[host_function]
 pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmValue>, HostFuncError> {
     println!("Host function invoked at {}",chrono::offset::Utc::now());
+    thread::sleep(Duration::from_secs(3));
     let mut mem = caller.memory(0).unwrap();
     let arg1_ptr = input[0].to_i32() as u32;
     let arg1_len = input[1].to_i32() as u32;
