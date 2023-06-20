@@ -57,30 +57,32 @@ impl ShimListener {
 
         let listener = UnixListener::bind(&socket_path)?;
         println!("Socket created successfully at {:?} {}", &socket_path, chrono::offset::Utc::now());
-        match listener.accept() {
-            Ok((mut socket, _addr)) => {
-                // Read data from the socket stream
-                let mut reader = BufReader::new(socket.try_clone()?);
-                let mut line = String::new();
-                match reader.read_line(&mut line) {
-                    Ok(_) => {
-                        if line != "exit"{
-                            let start= chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
-                            //let client_input = line.trim();
-                            let res_time=format!("Received from client at {} \n length {} \n {}", start,line.len(),line);
-                            // Send a response back to the client
-                            //println!("after formating string {} \n",chrono::offset::Utc::now());
-                            reader.into_inner();
-                            // Call function Code here
-                            //let result = self.call_vm_with_input(client_input).unwrap();
-                            //println!("writing socket response  {} \n",chrono::offset::Utc::now());
-                            socket.write_all(res_time.as_bytes())?;
+        loop {
+            match listener.accept() {
+                Ok((mut socket, _addr)) => {
+                    // Read data from the socket stream
+                    let mut reader = BufReader::new(socket.try_clone()?);
+                    let mut line = String::new();
+                    match reader.read_line(&mut line) {
+                        Ok(_) => {
+                            if line != "exit"{
+                                let start= chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
+                                //let client_input = line.trim();
+                                let res_time=format!("Received from client at {} \n length {} \n {}", start,line.len(),line);
+                                // Send a response back to the client
+                                //println!("after formating string {} \n",chrono::offset::Utc::now());
+                                reader.into_inner();
+                                // Call function Code here
+                                //let result = self.call_vm_with_input(client_input).unwrap();
+                                println!("writing socket response  {} \n",chrono::offset::Utc::now());
+                                socket.write_all(res_time.as_bytes())?;
+                            }
                         }
+                        Err(err) => eprintln!("Error reading line: {}", err),
                     }
-                    Err(err) => eprintln!("Error reading line: {}", err),
-                }
-            },
-            Err(e) => println!("accept function failed: {:?}", e),
+                },
+                Err(e) => println!("accept function failed: {:?}", e),
+            }
         }
         Ok(())
     }

@@ -31,7 +31,7 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
     let message_obj: Message = serde_json::from_str(&external_function_type).unwrap();
     //println!("message obj {:?}",message_obj);
     external_function_type = message_obj.target_channel;
-    println!("Function target");
+    println!("Function target {}",external_function_type);
     /*let arg2_ptr = input[0].to_i32() as u32;
     let arg2_len = input[1].to_i32() as u32;
     let payload = mem.read_string(arg2_ptr, arg2_len).expect("fail to get string");
@@ -90,8 +90,9 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
             println!("FANIN using end date: {} start date {}", received,datetime_utc);
             let duration_fanout = datetime_utc - start ;
             let duration_fanin = received - datetime_utc ;
-            println!("FANIN func duration {:?}", duration_fanin.num_microseconds());
             println!("FANOUT func duration {:?}", duration_fanout.num_microseconds());
+            println!("FANIN func duration {:?}", duration_fanin.num_microseconds());
+
 
             INDEX = INDEX+1;
             let seconds_fanin = duration_fanin.num_microseconds().unwrap() as f64/1000000 as f64;
