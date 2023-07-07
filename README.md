@@ -8,7 +8,7 @@
 CWASI is a WebAssembly OCI-compliant runtime shim that identifies and selects the best inter-function data exchange approach based on serverless functions location. We got inspired by [RunWasi Wasmedge](https://github.com/containerd/runwasi).
 
 <p align="center">
-  <img src="images/cwasi_architecture.png" width="35%" height="35%">
+  <img src="images/cwasi_architecture.svg" width="35%" height="35%">
 </p>
 
 ## Features
