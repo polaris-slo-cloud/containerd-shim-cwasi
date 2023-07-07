@@ -18,7 +18,7 @@ use std::{thread};
 use wasmedge_sdk::{config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions}, ImportObjectBuilder, params, PluginManager, Vm};
 use containerd_shim_cwasi::error::WasmRuntimeError;
 use regex::Regex;
-use containerd_shim_cwasi::{host_function_utils, oci_utils, snapshot_utils, shim_listener};
+use containerd_shim_cwasi::{dispatcher, oci_utils, snapshot_utils, shim_listener};
 use itertools::Itertools;
 
 static mut STDIN_FD: Option<RawFd> = None;
@@ -135,7 +135,7 @@ pub fn prepare_module(mut vm: Vm, spec: &oci::Spec, stdin_path: String, stdout_p
     );
 
     let import = ImportObjectBuilder::new()
-        .with_func::<(i32, i32), i32>("func_connect", host_function_utils::func_connect)?
+        .with_func::<(i32, i32), i32>("func_connect", dispatcher::func_connect)?
         .build("cwasi_export")?;
 
     let vm= vm.register_import_module(import)?.register_module_from_file("main", mod_path)?;
@@ -188,8 +188,8 @@ impl Instance for Wasi {
         info!("bundle path {:?}", bundle_path);
         info!("loading specs {:?}", spec);
         unsafe {
-            crate::host_function_utils::OCI_SPEC=Some(spec.clone());
-            crate::host_function_utils::BUNDLE_PATH=Some(bundle_path.to_string());
+            crate::dispatcher::OCI_SPEC=Some(spec.clone());
+            crate::dispatcher::BUNDLE_PATH=Some(bundle_path.to_string());
         }
         let vm = prepare_module(engine, &spec, stdin, stdout, stderr)
             .map_err(|e| Error::Others(format!("error setting up module: {}", e)))?;

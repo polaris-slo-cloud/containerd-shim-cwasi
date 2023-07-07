@@ -1,4 +1,3 @@
-use std::io;
 use std::io::{BufRead, BufReader, Read, Write};
 use std::os::unix::net::{UnixListener, UnixStream};
 use std::path::Path;
@@ -8,7 +7,6 @@ use wasmedge_sdk::{params, Vm};
 use crate::{oci_utils, redis_utils};
 use crate::message::Message;
 use chrono;
-use chrono::{SecondsFormat};
 
 #[derive(Clone)]
 pub struct ShimListener {
@@ -67,17 +65,12 @@ impl ShimListener {
                     match reader.read_line(&mut line) {
                         Ok(_) => {
                             if line != "exit"{
-                                let start= chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
-                                //let client_input = line.trim();
-                                let res_time=format!("Received from client at {} \n length {} \n {}", start,line.len(),line);
-                                // Send a response back to the client
-                                //println!("after formating string {} \n",chrono::offset::Utc::now());
+                                let client_input = line.trim();
                                 reader.into_inner();
-                                // Call function Code here
-                                //let result = self.call_vm_with_input(client_input).unwrap();
-                                println!("writing socket response  {} \n",chrono::offset::Utc::now());
-                                let res_bytes = res_time.as_bytes();
-                                socket.write(res_bytes)?;
+                                let result = self.call_vm_with_input(client_input).unwrap();
+                                //TODO add the string
+                                let client_response = format!("hello world from from fnB socket server. Result from Module B : {}", result);
+                                socket.write_all(client_response.as_bytes())?;
                                 socket.flush()?;
                             }
                         }
@@ -87,7 +80,6 @@ impl ShimListener {
                 Err(e) => println!("accept function failed: {:?}", e),
             }
         }
-        Ok(())
     }
 
     fn call_vm_with_input(&mut self, input: &str) -> Result<i32, Box<dyn std::error::Error>>{
@@ -129,22 +121,16 @@ impl ShimListener {
 }
 
 
-pub fn connect_unix_socket(input_fn_a:String, socket_path: String)-> Result<Vec<u8>, Error> {
+pub fn connect_unix_socket(input_fn_a:String, socket_path: String)-> Result<String, Error> {
     //connect to socket
     let mut stream = UnixStream::connect(socket_path+".sock").unwrap();
     let input_fn_b = format!("Data input from source fn {} \n", input_fn_a);
-    //write request in the socket
     stream.write_all(input_fn_b.as_bytes()).unwrap();
 
-    //let mut response = String::new();
+    let mut response = String::new();
     println!("start reading response {}",chrono::offset::Utc::now());
     stream.read_to_string(&mut response)?;
-    let mut buff = [0; 2004485];
-    stream.read_exact(&mut buff);
-    stream.read_to_end()
-    let response_bytes = buff.to_vec();
-    //println!("Response from socket server len {} at {}",response_bytes.len(),chrono::offset::Utc::now());
-    Ok(response_bytes)
+    Ok(response)
 
 }
 
@@ -159,9 +145,7 @@ pub async fn init_listener(bundle_path: String, oci_spec: Spec, vm: Vm) -> Resul
         }
         Err(_) => std::process::exit(137),
     }
-
     let mut listener2 = ShimListener::new(bundle_path, oci_spec.clone(), vm);
     listener2.create_server_socket()?;
-    //println!("finished init listener {}",chrono::offset::Utc::now());
     Ok(())
 }
