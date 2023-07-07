@@ -1,3 +1,4 @@
+use std::io;
 use std::io::{BufRead, BufReader, Read, Write};
 use std::os::unix::net::{UnixListener, UnixStream};
 use std::path::Path;
@@ -75,7 +76,9 @@ impl ShimListener {
                                 // Call function Code here
                                 //let result = self.call_vm_with_input(client_input).unwrap();
                                 println!("writing socket response  {} \n",chrono::offset::Utc::now());
-                                socket.write_all(res_time.as_bytes())?;
+                                let res_bytes = res_time.as_bytes();
+                                socket.write(res_bytes)?;
+                                socket.flush()?;
                             }
                         }
                         Err(err) => eprintln!("Error reading line: {}", err),
@@ -132,12 +135,14 @@ pub fn connect_unix_socket(input_fn_a:String, socket_path: String)-> Result<Vec<
     let input_fn_b = format!("Data input from source fn {} \n", input_fn_a);
     //write request in the socket
     stream.write_all(input_fn_b.as_bytes()).unwrap();
-    let mut response = String::new();
-    //println!("start reading response {}",chrono::offset::Utc::now());
-    //stream.read_to_string(&mut response)?;
-    let mut response_bytes = Vec::new();
-    stream.read_to_end(&mut response_bytes);
 
+    //let mut response = String::new();
+    println!("start reading response {}",chrono::offset::Utc::now());
+    stream.read_to_string(&mut response)?;
+    let mut buff = [0; 2004485];
+    stream.read_exact(&mut buff);
+    stream.read_to_end()
+    let response_bytes = buff.to_vec();
     //println!("Response from socket server len {} at {}",response_bytes.len(),chrono::offset::Utc::now());
     Ok(response_bytes)
 
