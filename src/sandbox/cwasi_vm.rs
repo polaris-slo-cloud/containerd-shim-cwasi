@@ -4,7 +4,6 @@ use wasmedge_sdk::error::WasmEdgeError;
 use wasmedge_sdk::{VmBuilder, WasmEdgeResult, WasmValue};
 use wasmedge_sdk::config::Config;
 use wasmedge_sdk::wasi::WasiInstance;
-use crate::utils::modules_utils::get_bundle_path;
 
 #[derive(Debug)]
 #[derive(Clone)]

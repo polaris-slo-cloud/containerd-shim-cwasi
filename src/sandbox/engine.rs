@@ -1,6 +1,5 @@
-use std::borrow::Cow;
 use anyhow::{Context, Result};
-use containerd_shim_wasm::container::{Engine, Entrypoint, Instance, RuntimeContext, Source, Stdio};
+use containerd_shim_wasm::container::{Engine, Entrypoint, Instance, RuntimeContext, Stdio};
 use wasmedge_sdk::config::{ConfigBuilder, HostRegistrationConfigOptions};
 use wasmedge_sdk::plugin::PluginManager;
 use crate::sandbox::cwasi_vm::{CwasiVm};
