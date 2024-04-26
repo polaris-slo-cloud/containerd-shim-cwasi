@@ -3,12 +3,17 @@ use std::fs;
 use std::fs::File;
 use std::io::{Write, Read};
 use std::env;
+use std::time::Duration;
+use std::thread;
 
 fn main() {
     println!("Random number: {}", get_random_i32());
     println!("Random bytes: {:?}", get_random_bytes());
     println!("{}", echo("This is from a main function"));
     print_env();
+    println!("Sleeping for 1 minute...");
+    thread::sleep(Duration::from_secs(60));
+    println!("Woke up!");
     //create_file("./tmp.txt", "This is in a file");
     //println!("File content is {}", read_file("tmp.txt"));
     //del_file("tmp.txt");
@@ -61,3 +66,4 @@ pub fn read_file(path: &str) -> String {
 pub fn del_file(path: &str) {
     fs::remove_file(path).expect("Unable to delete");
 }
+

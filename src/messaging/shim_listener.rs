@@ -1,12 +1,14 @@
 use std::io::{BufRead, BufReader, Read, Write};
 use std::os::unix::net::{UnixListener, UnixStream};
 use std::path::Path;
-use anyhow::Error;
+use anyhow::{Context, Error};
 use oci_spec::runtime::Spec;
 use wasmedge_sdk::{params, Vm};
-use crate::{oci_utils, redis_utils};
-use crate::message::Message;
+
 use chrono;
+use crate::remote::message::Message;
+use crate::remote::redis_utils;
+use crate::utils::oci_utils;
 
 #[derive(Clone)]
 pub struct ShimListener {
@@ -91,13 +93,15 @@ impl ShimListener {
         let my_vector: Vec<&str> = my_strings.to_vec();
 
         // Set new arguments on the wasi instance
-        let vm = self.vm.as_mut().unwrap();
-        let mut wasi_instance = vm.wasi_module()?;
-        wasi_instance.initialize(
-            Some(my_vector),
-            Some(vec![]),
-            Some(vec![]),
-        );
+        let mut vm = self.vm.clone().ok_or("error")?;
+        //let mut vm = self.vm.clone();
+        vm.wasi_module_mut()
+            .context("module not found")?
+            .initialize(
+                Some(my_vector),
+                Some(vec![]),
+                Some(vec!["/:/"]),
+            );
         let start = chrono::offset::Utc::now();
         println!("Run wasm func at {:?}",chrono::offset::Utc::now());
         let res = vm.run_func(Some("main"), "cwasi_function", params!())?;

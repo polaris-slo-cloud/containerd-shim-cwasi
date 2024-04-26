@@ -75,7 +75,7 @@ cargo new wasm-app --bin
 This command will create a directory called `wasm-app` with a boilerplate Rust app inside. Let's navigate into the  `wasm-app/src` directory, open `main.rs` and add the following code in the `main` function:
 
 ```rust
-// workspace/wasm-app/src/main.rs
+// workspace/wasm-app/src/main3
 
 fn main() {
   // add the following line

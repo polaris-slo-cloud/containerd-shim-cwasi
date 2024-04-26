@@ -1,7 +1,7 @@
 use log::info;
 use walkdir::WalkDir;
 
-const CONTAINERD_SNAPSHOT: &'static str ="/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots";
+const CONTAINERD_SNAPSHOT: &'static str ="/var/lib/container/io.container.snapshotter.v1.overlayfs/snapshots";
 
 pub fn get_existing_image(image_names: Vec<String>) -> Vec<String>{
     let mut images_path: Vec<String> = vec![];

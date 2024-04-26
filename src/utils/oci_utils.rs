@@ -1,12 +1,13 @@
 use std::path::Path;
 
-use containerd_shim_wasm::sandbox::{Error, oci};
+use containerd_shim_wasm::sandbox::{Error};
 use log::{error, info};
 use oci_spec::runtime::Spec;
 
 
-pub fn load_spec(bundle: String) -> Result<oci::Spec, Error> {
-    let mut spec = oci::load(Path::new(&bundle).join("config.json").to_str().unwrap())?;
+pub fn load_spec(bundle: String) -> Result<Spec, Error> {
+    let mut spec = Spec::load(Path::new(&bundle).join("config.json").to_str().unwrap())?;
+
     //let binding = Path::new(&bundle).join("config.json");
     //let path = binding.as_path();
     //let spec_string = std::fs::read_to_string(&path).unwrap();
@@ -72,15 +73,15 @@ pub fn get_wasm_annotations(spec: &Spec,annotation_key: &str) -> String {
 
 pub fn delete(bundle_path:String) -> Result<(), Error> {
     info!("static deletecw {}",bundle_path);
-    let spec = match load_spec(bundle_path.clone()){
+    let _spec = match load_spec(bundle_path.clone()){
         Ok(spec) => spec,
         Err(err) => {
             error!("Could not load spec, skipping cgroup cleanup: {}", err);
             return Ok(());
         }
     };
-    let cg = oci::get_cgroup(&spec)?;
-    cg.delete()?;
+    //let cg = Spec::get_cgroup(&spec)?;
+    //cg.delete()?;
 
     let binding = bundle_path + ".sock";
     let socket_path = Path::new(&binding);

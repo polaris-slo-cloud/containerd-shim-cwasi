@@ -1,8 +1,8 @@
 use std::error::Error;
 use redis::{Client, Commands};
-use crate::message::Message;
 use lazy_static::lazy_static;
 use std::sync::Mutex;
+use crate::remote::message::Message;
 
 
 struct RedisConnection {
