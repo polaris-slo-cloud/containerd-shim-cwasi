@@ -3,15 +3,16 @@ use anyhow::{Context, Result};
 use containerd_shim_wasm::container::{Engine, Entrypoint, Instance, RuntimeContext, Source, Stdio};
 use wasmedge_sdk::config::{ConfigBuilder, HostRegistrationConfigOptions};
 use wasmedge_sdk::plugin::PluginManager;
+use wasmedge_sdk::Vm;
+use crate::sandbox::cwasi_instance::CwasiInstance;
 use crate::sandbox::cwasi_vm::{CwasiVm};
 
-pub type WasmEdgeInstance = Instance<WasmEdgeEngine>;
+pub type WasmEdgeInstance = CwasiInstance<WasmEdgeEngine>;
 #[derive(Debug)]
 #[derive(Clone)]
 pub struct WasmEdgeEngine {
     vm: CwasiVm,
 }
-
 impl Default for WasmEdgeEngine {
     fn default() -> Self {
         let host_options = HostRegistrationConfigOptions::default();
@@ -29,26 +30,25 @@ impl Engine for WasmEdgeEngine {
     fn name() -> &'static str {
         "wasmedge"
     }
-
     fn run_wasi(&self, ctx: &impl RuntimeContext, stdio: Stdio) -> Result<i32> {
-        let spec = ctx.specs();
+        log::info!("run_wasi start");
         let args = ctx.args();
+        log::info!("arg {args:?}");
         let envs: Vec<_> = std::env::vars().map(|(k, v)| format!("{k}={v}")).collect();
+        log::info!("env {envs:?}");
         let Entrypoint {
             source,
             func,
             arg0: _,
             name,
         } = ctx.entrypoint();
-
-        //Source::Oci([module]) => Ok(Cow::Borrowed(&module.layer))
-        //log::info!("source {source:?}");
-        log::info!("spec {spec:?}");
         log::info!("name {name:?}");
-        log::info!("arg {args:?}");
-        log::info!("env {envs:?}");
-
         let mut vm = self.vm.clone();
+        vm.set_vm_properties(ctx.specs());
+        log::info!("vm {vm:?}");
+        log::info!("source {source:?}");
+
+        //let mut vm = self.vm.clone();
         vm.wasi_module_mut()
             .context("Not found wasi module")?
             .initialize(

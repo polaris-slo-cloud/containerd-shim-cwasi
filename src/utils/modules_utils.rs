@@ -2,7 +2,7 @@ use std::fs::File;
 use std::io::Read;
 use std::path::Path;
 use itertools::Itertools;
-use log::info;
+use log::{error, info};
 use regex::Regex;
 
 
@@ -19,8 +19,13 @@ static DEFAULT_STATE_FILE: &str = "state.json";
 static DEFAULT_ROOTFS_DIR: &str = "rootfs/";
 
 pub fn extract_modules_from_wat(path: &Path) -> Vec<String>{
-    let mod_wat = wasmprinter::print_file(path).unwrap();
-    //info!("module wat {:?}",mod_wat);
+    info!("path {:?}",path);
+    //let mod_wat = wasmprinter::print_file(path).unwrap();
+    let mod_wat = wasmprinter::print_file(path).unwrap_or_else(|e| {
+        error!("Error printing WAT from file: {:?}", e);
+        String::from("")
+    });
+    info!("module wat {:?}",mod_wat);
     let re = Regex::new(r#"\bimport\s+\S+"#).unwrap();
     let matches = re.find_iter(mod_wat.as_str()).map(|s| s.as_str()).unique().collect_vec();
     let mut modules: Vec<String> = vec![];
@@ -32,22 +37,4 @@ pub fn extract_modules_from_wat(path: &Path) -> Vec<String>{
     let modules_path: Vec<String> = snapshot_utils::get_existing_image(modules);
     info!("Modules path: {:#?}",modules_path);
     return modules_path;
-}
-
-
-pub fn get_bundle_path(f_name: &str) -> String {
-    let binding = Path::new(DEFAULT_CONTAINER_ROOT_DIR).join(f_name).join(DEFAULT_STATE_FILE);
-    let path = binding.as_path() ;
-    info!("path {:#?}", path);
-    let mut file = File::open(path).unwrap();
-
-    let mut contents = String::new();
-    file.read_to_string(&mut contents).unwrap();
-
-    // Deserialize the JSON data into the Config struct
-    let config: Bundle = serde_json::from_str(&contents).unwrap();
-
-    info!("bundle path {:#?}", config);
-    return config.bundle;
-
 }

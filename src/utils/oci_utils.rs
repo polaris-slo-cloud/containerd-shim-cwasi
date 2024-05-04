@@ -41,20 +41,23 @@ pub fn arg_to_wasi(spec: &Spec) -> Vec<String> {
     args.to_vec()
 }
 
-pub fn get_wasm_mounts(spec: &Spec) -> Vec<&str> {
-    let mounts: Vec<&str> = match spec.mounts() {
+pub fn get_wasm_mounts(spec: Spec) -> Vec<String> {
+    let mounts: Vec<String> = match spec.mounts() {
         Some(mounts) => mounts
             .iter()
             .filter_map(|mount| {
                 if let Some(typ) = mount.typ() {
                     if typ == "bind" || typ == "tmpfs" {
-                        return mount.destination().to_str();
+                        mount.destination().to_str().map(|s| s.to_string())
+                    } else {
+                        None
                     }
+                } else {
+                    None
                 }
-                None
             })
             .collect(),
-        _ => vec![],
+        None => vec![],
     };
     mounts
 }
