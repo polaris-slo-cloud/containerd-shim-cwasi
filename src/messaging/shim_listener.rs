@@ -4,9 +4,10 @@ use std::path::Path;
 use anyhow::Error;
 use oci_spec::runtime::Spec;
 use wasmedge_sdk::{params, Vm};
-use crate::{oci_utils, redis_utils};
-use crate::message::Message;
+use crate::messaging::message::Message;
 use chrono;
+use crate::messaging::redis_utils;
+use crate::utils::oci_utils;
 
 #[derive(Clone)]
 pub struct ShimListener {

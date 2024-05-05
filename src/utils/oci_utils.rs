@@ -72,15 +72,15 @@ pub fn get_wasm_annotations(spec: &Spec,annotation_key: &str) -> String {
 
 pub fn delete(bundle_path:String) -> Result<(), Error> {
     info!("static deletecw {}",bundle_path);
-    let spec = match load_spec(bundle_path.clone()){
+    let _spec = match load_spec(bundle_path.clone()){
         Ok(spec) => spec,
         Err(err) => {
             error!("Could not load spec, skipping cgroup cleanup: {}", err);
             return Ok(());
         }
     };
-    let cg = oci::get_cgroup(&spec)?;
-    cg.delete()?;
+    //let cg = oci::get_cgroup(&spec)?;
+    //cg.delete()?;
 
     let binding = bundle_path + ".sock";
     let socket_path = Path::new(&binding);

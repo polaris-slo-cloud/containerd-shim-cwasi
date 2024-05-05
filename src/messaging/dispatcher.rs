@@ -7,8 +7,9 @@ use uuid::Uuid;
 use walkdir::WalkDir;
 use wasmedge_sdk::{Caller, WasmValue, host_function};
 use wasmedge_sdk::error::HostFuncError;
-use crate::{oci_utils, redis_utils, shim_listener};
-use crate::message::Message;
+use crate::messaging::message::Message;
+use crate::messaging::{redis_utils, shim_listener};
+use crate::utils::oci_utils;
 
 pub static mut OCI_SPEC:Option<Spec> = None;
 pub static mut BUNDLE_PATH:Option<String> = None;
@@ -50,7 +51,7 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
 
 fn connect_to_queue(channel :String, fn_target_input:String) -> String{
 
-    let fn_source_id = Uuid::new_v4().to_simple().to_string();
+    let fn_source_id = Uuid::new_v4().simple().to_string();
     let fn_source_id_copy = fn_source_id.clone();
     let _ = redis_utils::publish_message(Message::new(fn_source_id,
                                                       channel, fn_target_input)).unwrap();

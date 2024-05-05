@@ -18,8 +18,9 @@ use std::{thread};
 use wasmedge_sdk::{config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions}, ImportObjectBuilder, params, PluginManager, Vm};
 use containerd_shim_cwasi::error::WasmRuntimeError;
 use regex::Regex;
-use containerd_shim_cwasi::{dispatcher, oci_utils, snapshot_utils, shim_listener};
 use itertools::Itertools;
+use containerd_shim_cwasi::messaging::{dispatcher, shim_listener};
+use containerd_shim_cwasi::utils::{oci_utils, snapshot_utils};
 
 static mut STDIN_FD: Option<RawFd> = None;
 static mut STDOUT_FD: Option<RawFd> = None;
@@ -188,8 +189,8 @@ impl Instance for Wasi {
         info!("bundle path {:?}", bundle_path);
         info!("loading specs {:?}", spec);
         unsafe {
-            crate::dispatcher::OCI_SPEC=Some(spec.clone());
-            crate::dispatcher::BUNDLE_PATH=Some(bundle_path.to_string());
+            dispatcher::OCI_SPEC=Some(spec.clone());
+            dispatcher::BUNDLE_PATH=Some(bundle_path.to_string());
         }
         let vm = prepare_module(engine, &spec, stdin, stdout, stderr)
             .map_err(|e| Error::Others(format!("error setting up module: {}", e)))?;
