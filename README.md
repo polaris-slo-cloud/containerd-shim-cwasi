@@ -22,7 +22,7 @@ CWASI is a WebAssembly OCI-compliant runtime shim that identifies and selects th
 
 * Rust 
 * Containerd 
-* Wasmedge -v 0.11.2
+* Wasmedge -v 0.13.3
 * Redis
 * Cri-tools for execution
 
