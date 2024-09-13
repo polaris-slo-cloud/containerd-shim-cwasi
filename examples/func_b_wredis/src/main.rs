@@ -38,7 +38,8 @@ async fn echo(req: Request<Body>) -> Result<Response<Body>, hyper::Error> {
 
             //let answer = format!("{}{}", "Hello ".to_owned(), name_string);
 
-            Ok(Response::new(Body::from(received)))
+            Ok(Response::new(Body::from(value)))
+            //Ok(Response::new(Body::from(received)))
         }
 
         _ => {

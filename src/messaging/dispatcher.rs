@@ -8,7 +8,8 @@ use walkdir::WalkDir;
 use wasmedge_sdk::{Caller, WasmValue, host_function};
 use wasmedge_sdk::error::HostFuncError;
 use crate::messaging::message::Message;
-use crate::messaging::{redis_utils, shim_listener};
+use crate::messaging::{redis_utils, shim_listener,remote_messenger};
+use crate::messaging::remote_messenger::listener;
 use crate::utils::oci_utils;
 
 pub static mut OCI_SPEC:Option<Spec> = None;
@@ -17,13 +18,14 @@ pub static mut BUNDLE_PATH:Option<String> = None;
 #[host_function]
 pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmValue>, HostFuncError> {
     println!("Host function invoked at {}",chrono::offset::Utc::now());
-    thread::sleep(Duration::from_secs(2));
+    //thread::sleep(Duration::from_secs(2));
     let mut mem = caller.memory(0).unwrap();
     let arg1_ptr = input[0].to_i32() as u32;
     let arg1_len = input[1].to_i32() as u32;
-    println!("External function input length {}",arg1_len);
+
+    /*println!("External function input length {}",arg1_len);
     let mut external_function_type = mem.read_string(arg1_ptr, arg1_len).expect("fail to get string");
-    let message_obj: Message = serde_json::from_str(&external_function_type).unwrap();
+    let mut message_obj: Message = serde_json::from_str(&external_function_type).unwrap();
     external_function_type = message_obj.target_channel;
     println!("Function target {}",external_function_type);
 
@@ -34,12 +36,18 @@ pub fn func_connect(caller: Caller, input: Vec<WasmValue>) -> Result<Vec<WasmVal
         socket_path= find_container_path(bundle_path.clone(), external_function_type.clone());
     }
     if socket_path.is_empty() {
-        ext_func_result = connect_to_queue(external_function_type.replace(".wasm",""), message_obj.payload);
+        //ext_func_result = connect_to_queue(external_function_type.replace(".wasm",""), message_obj.payload);
+        let payload = mem.read(arg1_ptr, arg1_len).unwrap();
+        listener("teset.wasm".replace(".wasm",""), payload).expect("TODO: panic message");
+        ext_func_result = "100".to_string();
     }else {
         ext_func_result = shim_listener::connect_unix_socket(message_obj.payload, socket_path).unwrap();
         //UNTIL HERE
     }
-    let bytes = ext_func_result.as_bytes();
+     */
+    let payload = mem.read(arg1_ptr, arg1_len).unwrap();
+    listener("test.wasm".to_string(), payload).expect("TODO: panic message");
+    let bytes = "100".as_bytes();
     let len = bytes.len();
     mem.write(bytes, arg1_ptr).unwrap();
     Ok(vec![WasmValue::from_i32(len as i32)])
@@ -54,7 +62,7 @@ fn connect_to_queue(channel :String, fn_target_input:String) -> String{
     let fn_source_id = Uuid::new_v4().simple().to_string();
     let fn_source_id_copy = fn_source_id.clone();
     let _ = redis_utils::publish_message(Message::new(fn_source_id,
-                                                      channel, fn_target_input)).unwrap();
+                                                      channel, fn_target_input,chrono::offset::Utc::now().to_string())).unwrap();
     let result = redis_utils::_subscribe(fn_source_id_copy.as_str());
     return result.payload;
 }

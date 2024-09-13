@@ -1,4 +1,5 @@
 use std::io::{BufRead, BufReader, Read, Write};
+use std::net::TcpStream;
 use std::os::unix::net::{UnixListener, UnixStream};
 use std::path::Path;
 use anyhow::Error;
@@ -6,8 +7,10 @@ use oci_spec::runtime::Spec;
 use wasmedge_sdk::{params, Vm};
 use crate::messaging::message::Message;
 use chrono;
+use chrono::{DateTime, Duration, SecondsFormat, Utc};
 use crate::messaging::redis_utils;
 use crate::utils::oci_utils;
+use crate::utils::time_utils::epoch_todate;
 
 #[derive(Clone)]
 pub struct ShimListener {
@@ -40,7 +43,7 @@ impl ShimListener {
             println!("returning message_obj from to {}  {}",owned_queue_name, message.source_channel);
             let _ =listener.call_vm_with_input(&message.payload).unwrap();
             let _=redis_utils::publish_message(Message::new(owned_queue_name.to_string(),
-                                                              message.source_channel, message.payload));
+                                                              message.source_channel, message.payload,message.start));
             listener.stop_socket().unwrap();
             break;
 
@@ -83,13 +86,14 @@ impl ShimListener {
         }
     }
 
-    fn call_vm_with_input(&mut self, input: &str) -> Result<i32, Box<dyn std::error::Error>>{
+    fn call_vm_with_input(&mut self, input: &str) -> Result<i64, Box<dyn std::error::Error>>{
 
         let num2: i32 = 15;
         let args = oci_utils::arg_to_wasi(&self.oci_spec);
-        println!("setting up wasi at at : {}", chrono::offset::Utc::now());
+        //println!("setting up wasi at at : {}", chrono::offset::Utc::now());
         let my_strings: [&str; 3] = [&args.first().unwrap(), input, &num2.to_string()];
         let my_vector: Vec<&str> = my_strings.to_vec();
+        //println!("args: {}", my_vector.join(", "));
 
         // Set new arguments on the wasi instance
         let vm = self.vm.as_mut().unwrap();
@@ -99,13 +103,21 @@ impl ShimListener {
             Some(vec![]),
             Some(vec![]),
         );
-        let start = chrono::offset::Utc::now();
-        println!("Run wasm func at {:?}",chrono::offset::Utc::now());
+        //let start = chrono::offset::Utc::now();
+        //println!("Run wasm func at {:?}",chrono::offset::Utc::now());
         let res = vm.run_func(Some("main"), "cwasi_function", params!())?;
-        let end= chrono::offset::Utc::now();
-        println!("Run func finished at {:?} Duration {}",end,end-start);
-        let result = res[0].to_i32();
+        //let end= chrono::offset::Utc::now();
+        //println!("Run func finished at {:?} Duration {}",end,end-start);
+        let result = res[0].to_i64();
+        let end_date = epoch_todate(result);
+        let message: Message = serde_json::from_str(&input).unwrap();
         println!("FnB Shim Finished. Result from moduleB: {}",result);
+        let start_date: DateTime<Utc> = message.start.parse::<DateTime<Utc>>().unwrap();
+        //println!("EndDate {} and StartDate: {:?}",end_date,start_date);
+        // Calculate the duration between the two dates
+        //let _: Duration = end_date.signed_duration_since(start_date);
+        //println!("Duration in milliseconds: {}", duration.num_milliseconds());
+
 
         Ok(result)
     }
@@ -129,7 +141,7 @@ pub fn connect_unix_socket(input_fn_a:String, socket_path: String)-> Result<Stri
     stream.write_all(input_fn_b.as_bytes()).unwrap();
 
     let mut response = String::new();
-    println!("start reading response {}",chrono::offset::Utc::now());
+    println!("start reading response {}",Utc::now());
     stream.read_to_string(&mut response)?;
     Ok(response)
 
@@ -139,7 +151,9 @@ pub fn connect_unix_socket(input_fn_a:String, socket_path: String)-> Result<Stri
 pub async fn init_listener(bundle_path: String, oci_spec: Spec, vm: Vm) -> Result<(), Box<dyn std::error::Error>>{
     println!("before init");
     let mut listener = ShimListener::new(bundle_path.clone(), oci_spec.clone(), vm.clone());
-    let channel = oci_utils::arg_to_wasi(&oci_spec).first().unwrap().replace("/","").replace(".wasm","");
+    let input = String::from_utf8_lossy(&*connect_to_source("127.0.0.1:8080".to_string())?).to_string();
+    listener.call_vm_with_input(input.as_str()).expect("TODO: panic message");
+    /*let channel = oci_utils::arg_to_wasi(&oci_spec).first().unwrap().replace("/","").replace(".wasm","");
     match listener.subscribe(&channel).await {
         Ok(_result) => {
             println!("channel created {}",channel);
@@ -148,5 +162,22 @@ pub async fn init_listener(bundle_path: String, oci_spec: Spec, vm: Vm) -> Resul
     }
     let mut listener2 = ShimListener::new(bundle_path, oci_spec.clone(), vm);
     listener2.create_server_socket()?;
+     */
     Ok(())
+}
+
+fn connect_to_source(address: String) -> Result<Vec<u8>, Box<dyn std::error::Error>>{
+    // Connect to the provided IP address and port
+    let mut stream = TcpStream::connect(address.clone())?;
+    println!("Connected to the server at {}", address);
+
+    let mut buffer = Vec::new();
+
+    // Read all the data from the server until the connection is closed
+    let bytes_read = stream.read_to_end(&mut buffer)?;
+
+    let end_time = chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
+    println!("Received {} bytes at {:?}", bytes_read, end_time);
+
+    Ok(buffer)
 }

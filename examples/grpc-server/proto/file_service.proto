@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package fileservice;
+
+// Define the file service
+service FileService {
+  // Send a request for a file, and receive the content of the file
+  rpc GetFile (FileRequest) returns (FileResponse);
+}
+
+// Message for file request, it contains the name of the file
+message FileRequest {
+  string filename = 1;
+}
+
+// Message for file response, it contains the content of the file
+message FileResponse {
+  bytes content = 1;
+}
