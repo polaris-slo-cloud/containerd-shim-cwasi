@@ -7,3 +7,5 @@ version = "0.1.0"
 
 [dependencies]
 wasmedge-sdk = "0.7.1"
+libc = "0.2.159"
+chrono = "0.4"

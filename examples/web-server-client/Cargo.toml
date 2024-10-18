@@ -1,0 +1,22 @@
+[package]
+name = "function"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+codegen-units = 1
+debug = 0
+incremental = true
+lto = true
+opt-level = "z"
+strip = "symbols"
+
+[dependencies]
+actix-rt = "2.8.0"
+actix-web = "4.3.1"
+env_logger = "0.10.0"
+log = "0.4.18"
+form_urlencoded = "1.2.1"
+url = "2.5.2"
+chrono = "0.4.38"
+http_req = "0.12.0"

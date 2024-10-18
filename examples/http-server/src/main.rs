@@ -1,7 +1,6 @@
 use tokio::net::TcpListener;
 use tokio::io::{AsyncReadExt, AsyncWriteExt};
 use std::env;
-use tokio::fs::File;
 use std::sync::Arc;
 use chrono::SecondsFormat;
 
@@ -15,63 +14,59 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
 
     let file_path = Arc::new(args[1].clone());
-
+    let file_content = tokio::fs::read_to_string(file_path.to_string()).await?;
     // Bind the TCP listener to a port
     let listener = TcpListener::bind("0.0.0.0:8080").await?;
     println!("Listening on :8080");
 
     loop {
         let (mut socket, _) = listener.accept().await?;
-        let file_path = file_path.clone();
+        let file_content = file_content.clone();
 
-        tokio::spawn(async move {
-            let mut buf = [0; 1024];
 
-            // Read the incoming data (simulate simple request)
-            match socket.read(&mut buf).await {
-                Ok(n) if n == 0 => return, // No data
-                Ok(_) => {
-                    // Respond with a file
-                    if let Err(e) = serve_file(&mut socket, &file_path).await {
-                        eprintln!("Error serving file: {:?}", e);
-                    }
-                }
-                Err(e) => {
-                    eprintln!("failed to read from socket; err = {:?}", e);
+        let mut buf = [0; 1024];
+
+        // Read the incoming data (simulate simple request)
+        match socket.read(&mut buf).await {
+            Ok(_) => {
+                // Respond with a file
+                if let Err(e) = serve_file(&mut socket, file_content).await {
+                    eprintln!("Error serving file: {:?}", e);
                 }
             }
-        });
+            Err(e) => {
+                eprintln!("failed to read from socket; err = {:?}", e);
+            }
+        }
+
+
+        // Break the loop after the first connection
+        println!("Shutting down the server after the first connection.");
+        break;
     }
+    Ok(())
 }
 
 // Function to serve the file to the client
-async fn serve_file(socket: &mut tokio::net::TcpStream, file_path: &str) -> Result<(), Box<dyn std::error::Error>> {
-    // Open the file asynchronously
-    let mut file = File::open(file_path).await?;
-
+async fn serve_file(socket: &mut tokio::net::TcpStream, file_buffer: String) -> Result<(), Box<dyn std::error::Error>> {
+    let start_time = chrono::offset::Utc::now();
+    println!("Start transfer at {:?}", start_time);
     // Prepare a simple HTTP response header
     let header = format!(
         "HTTP/1.1 200 OK\r\nContent-Type: application/octet-stream\r\n\r\n"
     );
 
+    // Write the header to the socket
     socket.write_all(header.as_bytes()).await?;
 
-    let mut total_sent = header.len(); // Start with the header length
-    let start_time = chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
+    let total_sent = header.len() + file_buffer.len(); // Total bytes to be sent
+    let start_time = chrono::offset::Utc::now();
 
-    // Read the file in chunks and send it to the client
-    let mut buf = [0; 1024];
-    loop {
-        let n = file.read(&mut buf).await?;
-        if n == 0 {
-            break;
-        }
-        socket.write_all(&buf[0..n]).await?;
-        total_sent += n; // Accumulate the size of each chunk sent
-    }
+    // Write the entire file buffer to the socket
+    socket.write_all(&file_buffer.as_bytes()).await?;
 
     println!(
-        "Overall sent {} bytes at {:?} ",
+        "Overall sent {} bytes at {:?}",
         total_sent, start_time
     );
 

@@ -1,6 +1,7 @@
 use anyhow::Context;
 use chrono::{DateTime, Utc};
 use containerd_shim_wasm::sandbox::error::Error;
+use wasmedge_sdk::{AsInstance, Caller,Mutability, Store, ValType, WasmValue};
 use containerd_shim_wasm::sandbox::{exec, ShimCli};
 use containerd_shim_wasm::sandbox::oci;
 use containerd_shim_wasm::sandbox::{EngineGetter, Instance, InstanceConfig};
@@ -19,6 +20,8 @@ use wasmedge_sdk::{config::{CommonConfigOptions, ConfigBuilder, HostRegistration
 use containerd_shim_cwasi::error::WasmRuntimeError;
 use regex::Regex;
 use itertools::Itertools;
+use wasmedge_sdk::error::HostFuncError;
+
 use containerd_shim_cwasi::messaging::{dispatcher, shim_listener};
 use containerd_shim_cwasi::utils::{oci_utils, snapshot_utils};
 
@@ -190,7 +193,7 @@ impl Instance for Wasi {
         info!("loading specs {:?}", spec);
         unsafe {
             dispatcher::OCI_SPEC=Some(spec.clone());
-            dispatcher::BUNDLE_PATH=Some(bundle_path.to_string());
+            dispatcher::BUNDLE_PATH=Some(bundle_path.rsplitn(3, '/').nth(2).unwrap().to_string()+"/");
         }
         let vm = prepare_module(engine, &spec, stdin, stdout, stderr)
             .map_err(|e| Error::Others(format!("error setting up module: {}", e)))?;

@@ -1,2 +1,2 @@
 [workspace]
-members = ["wasm-app", "run-wasm-app"]
+members = ["wasm-app", "run-wasm-app","alice-wasm-lib"]

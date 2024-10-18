@@ -4,17 +4,17 @@ use std::os::fd::AsRawFd;
 use chrono::SecondsFormat;
 use libc::{iovec, size_t, splice, vmsplice, SPLICE_F_MOVE};
 
-pub fn listener(target_func:String, payload: Vec<u8>) -> io::Result<()> {
+pub fn listener(payload: Vec<u8>) -> io::Result<()> {
 
     // Start the TCP listener
     let listener = TcpListener::bind("0.0.0.0:8080")?;
-    println!("Server is listening on port 8080...");
+    //println!("Server is listening on port 8080 at {}",chrono::offset::Utc::now());
 
     // Handle each incoming client
     for stream in listener.incoming().next() {
         match stream {
             Ok(stream) => {
-                println!("New client connected!");
+                //println!("New client connected at {}",chrono::offset::Utc::now());
                 if let Err(e) = handle_client(stream, &payload) {
                     eprintln!("Error handling client: {}", e);
                 }
@@ -30,7 +30,7 @@ pub fn listener(target_func:String, payload: Vec<u8>) -> io::Result<()> {
 
 fn handle_client(stream: TcpStream, payload: &[u8]) -> io::Result<()> {
     let data_len = payload.len();
-    println!("Data size {} bytes", data_len);
+    //println!("Data size {} bytes", data_len);
 
     // Create a pipe
     let mut pipefd: [libc::c_int; 2] = [0; 2];
@@ -44,8 +44,8 @@ fn handle_client(stream: TcpStream, payload: &[u8]) -> io::Result<()> {
     let mut total_sent = 0;
     let chunk_size = 65536; // Use 64 KB chunks for transfer
 
-    let start = chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
-    println!("start transfer at {:?}", start);
+    //let start = chrono::offset::Utc::now();
+    //println!("start transfer at {:?}", start);
     // Transfer the in-memory data using vmsplice and splice
     while total_sent < data_len {
         let bytes_left = data_len - total_sent;
@@ -93,8 +93,8 @@ fn handle_client(stream: TcpStream, payload: &[u8]) -> io::Result<()> {
         libc::close(pipefd[1]);
     }
 
-    let end_time = chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
-    println!("Overall sent {} bytes at {:?}", total_sent, end_time);
+    //et end_time = chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
+    //println!("Overall sent {} bytes at {:?}", total_sent, end_time);
 
     // Close the stream to signal the client that the transmission is complete
     stream.shutdown(std::net::Shutdown::Write)?;

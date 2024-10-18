@@ -4,9 +4,9 @@ use std::io::{BufRead, BufReader, Write};
 use std::os::unix::net::{UnixListener};
 use std::path::Path;
 use regex::Regex;
-use wasmedge_sdk::{Vm, params,WasmVal
-};
-use wasmedge_sdk::config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions};
+use wasmedge_sdk::Store;
+use wasmedge_sdk::{Vm, params,WasmVal,Store};
+use wasmedge_sdk::config::{CommonConfigOptions, ConfigBuilder, Executor,HostRegistrationConfigOptions};
 
 
 fn create_vm_and_load_module(input: &str) -> Result<i32, Box<dyn std::error::Error>>{

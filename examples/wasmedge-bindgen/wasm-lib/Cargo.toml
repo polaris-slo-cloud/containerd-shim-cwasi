@@ -1,0 +1,17 @@
+[package]
+edition = "2021"
+name = "wasm-lib"
+version = "0.4.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+num-integer = "0.1"
+serde = {version = "1.0", features = ["derive"]}
+serde_json = "1.0"
+sha3 = "0.10.6"
+wasmedge-bindgen = "0.4.1"
+wasmedge-bindgen-macro = "0.4.1"
+chrono = "0.4.38"
+wasmedge_http_req = "0.9.0"

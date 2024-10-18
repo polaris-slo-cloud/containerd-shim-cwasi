@@ -1,18 +1,12 @@
-#![deny(warnings)]
-#![warn(rust_2018_idioms)]
 use std::env;
-
+use std::io::Read;
 use bytes::Bytes;
-use chrono::SecondsFormat;
-use http_body_util::{BodyExt, Empty};
-use hyper::Request;
-use hyper_util::rt::TokioIo;
-use tokio::net::TcpStream;
+use reqwest::blocking::Client;
+use reqwest::header::{HeaderMap, HeaderValue};
 
 type Result<T> = std::result::Result<T, Box<dyn std::error::Error + Send + Sync>>;
 
-#[tokio::main]
-async fn main() -> Result<()> {
+fn main() -> Result<()> {
     pretty_env_logger::init();
 
     // Some simple CLI args requirements...
@@ -24,51 +18,43 @@ async fn main() -> Result<()> {
         }
     };
 
-    // HTTPS requires picking a TLS implementation, so give a better
-    // warning if the user tries to request an 'https' URL.
-    let url = url.parse::<hyper::Uri>().unwrap();
-    if url.scheme_str() != Some("http") {
+    // Parse the URL and make sure it's HTTP
+    let url = url.parse::<reqwest::Url>().unwrap();
+    if url.scheme() != "http" {
         println!("This example only works with 'http' URLs.");
         return Ok(());
     }
 
-    fetch_url(url).await
+    fetch_url(url)
 }
 
-async fn fetch_url(url: hyper::Uri) -> Result<()> {
-    let host = url.host().expect("uri has no host");
-    let port = url.port_u16().unwrap_or(80);
-    let addr = format!("{}:{}", host, port);
-    let stream = TcpStream::connect(addr).await?;
-    let io = TokioIo::new(stream);
+fn fetch_url(url: reqwest::Url) -> Result<()> {
+    // Create a synchronous HTTP client
+    let client = Client::new();
 
-    let (mut sender, conn) = hyper::client::conn::http1::handshake(io).await?;
-    tokio::task::spawn(async move {
-        if let Err(err) = conn.await {
-            println!("Connection failed: {:?}", err);
-        }
-    });
+    let mut headers = HeaderMap::new();
+    headers.insert("Host", HeaderValue::from_str("web-server.default.svc.cluster.local").unwrap());
+    // Make a GET request to the specified URL
+    let res = client.get(url).headers(headers).send()?;
 
-    let authority = url.authority().unwrap().clone();
+    // Check for success
+    if res.status().is_success() {
+        //println!("Request succeeded");
 
-    let path = url.path();
-    let req = Request::builder()
-        .uri(path)
-        .header(hyper::header::HOST, authority.as_str())
-        .body(Empty::<Bytes>::new())?;
+        // Accumulate response data in Bytes
+        let mut buffer = Bytes::new();
+        let body = res.bytes()?;
+        buffer = body;
 
-    let mut res = sender.send_request(req).await?;
+        // Print the size of the received data
+        let start_time = chrono::offset::Utc::now();
+        println!("Received chunk of size: {} at {:?}", buffer.len(), start_time);
 
-    let mut chunk_size = 0;
-    while let Some(next) = res.frame().await {
-        let frame = next?;
-        if let Some(chunk) = frame.data_ref() {
-            chunk_size += chunk.len();
-
-           // io::stdout().write_all(&chunk).await?;
-        }
+        let body_string = String::from_utf8(buffer.to_vec())?;
+        println!("After serialization at {:?}", chrono::offset::Utc::now());
+    } else {
+        println!("Request failed with status: {}", res.status());
     }
-    let start_time = chrono::offset::Utc::now().to_rfc3339_opts(SecondsFormat::Nanos, true);
-    println!("Received chunk of size: {} at {:?}", chunk_size,start_time);
+
     Ok(())
 }

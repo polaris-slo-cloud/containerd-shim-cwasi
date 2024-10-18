@@ -65,14 +65,15 @@ pub fn send_request(input_string: &str) -> String{
     //let len = input_bytes.lock().unwrap().len() as i32;
     let len = input_bytes.len() as i32;
     let ptr = input_bytes.as_ptr();
-    let ptr_i32 = input_bytes.as_ptr() as i32;
+    //let ptr_i32 = input_bytes.as_ptr() as i32;
+    let ptr_i32 = full_payload.as_ptr() as i32;
     //println!("input pointer {:?} ",ptr);
     //println!("input length {:?} ",len);
 
     unsafe {
 
     println!("Call external func at {}",chrono::offset::Utc::now());
-
+    println!("start transfer at {}",chrono::offset::Utc::now());
     let response_length =cwasi_export::func_connect(ptr_i32,len);
     println!("response from ext call received len {:?} at {:?}",response_length,chrono::offset::Utc::now());
     let bytes = std::slice::from_raw_parts(ptr, response_length as usize);
