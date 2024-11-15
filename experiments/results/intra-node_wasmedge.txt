@@ -1,0 +1,162 @@
+ROUND 1MB
+
+args: ["/func_b_vanilla.wasm", "func_b.wasm", "file_1M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 1048576 at 2024-10-02 15:37:50.984773116 UTC
+
+Received chunk of size: 1048576 at 2024-10-02T15:37:50.987275335Z
+After serialization at 2024-10-02T15:37:51.005244506Z
+
+ROUND 2MB
+
+Listening on http://0.0.0.0:8080
+args: ["/func_b_vanilla.wasm", "func_b.wasm", "file_2M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 2097152 at 2024-10-02 15:39:34.086954085 UTC
+
+Received chunk of size: 2097152 at 2024-10-02T15:39:34.092401788Z
+After serialization at 2024-10-02T15:39:34.127982192Z
+
+ROUND 4MB
+
+Listening on http://0.0.0.0:8080
+args: ["/func_b_vanilla.wasm", "func_b.wasm", "file_4M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 4194304 at 2024-10-02 15:40:40.124078183 UTC
+
+Received chunk of size: 4194304 at 2024-10-02T15:40:40.134171733Z
+After serialization at 2024-10-02T15:40:40.204923001Z
+
+ROUND 6MB
+
+args: ["/func_b_vanilla.wasm", "func_b.wasm", "file_6M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 6291456 at 2024-10-02 15:42:33.781974099 UTC
+
+Received chunk of size: 6291456 at 2024-10-02T15:42:33.795547390Z
+After serialization at 2024-10-02T15:42:33.906379125Z
+
+ROUND 8MB
+
+Start transfer of 8388608 at 2024-10-02 15:43:17.236095057 UTC
+
+Received chunk of size: 8388608 at 2024-10-02T15:43:17.253338754Z
+After serialization at 2024-10-02T15:43:17.395882030Z
+
+ROUND 10MB
+
+args: ["/func_b_vanilla.wasm", "func_b.wasm", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-02 15:44:02.190514491 UTC
+
+Received chunk of size: 10485760 at 2024-10-02T15:44:02.222470240Z
+After serialization at 2024-10-02T15:44:02.401962658Z
+
+ROUND 20MB
+
+Start transfer of 20971520 at 2024-10-02 15:44:40.172966629 UTC
+
+Received chunk of size: 20971520 at 2024-10-02T15:44:40.229501652Z
+After serialization at 2024-10-02T15:44:40.590221661Z
+
+ROUND 40MB
+
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 41943040 at 2024-10-02 15:45:10.763450929 UTC
+
+Received chunk of size: 41943040 at 2024-10-02T15:45:10.869923146Z
+After serialization at 2024-10-02T15:45:11.587103555Z
+
+ROUND 60MB
+
+Listening on http://0.0.0.0:8080
+args: ["/func_b_vanilla.wasm", "func_b.wasm", "file_60M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 62914560 at 2024-10-02 15:45:41.712804318 UTC
+
+Received chunk of size: 62914560 at 2024-10-02T15:45:41.857703753Z
+After serialization at 2024-10-02T15:45:42.946895200Z
+
+ROUND 100MB
+
+Listening on http://0.0.0.0:8080
+args: ["/func_b_vanilla.wasm", "func_b.wasm", "file_100M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 104857600 at 2024-10-02 15:46:23.589434507 UTC
+
+Received chunk of size: 104857600 at 2024-10-02T15:46:23.829668036Z
+After serialization at 2024-10-02T15:46:25.619395344Z
+
+ROUND 200MB
+
+Listening on http://0.0.0.0:8080
+args: ["/func_b_vanilla.wasm", "func_b.wasm", "file_200M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 209715200 at 2024-10-02 16:27:16.365391001 UTC
+
+Received chunk of size: 209715200 at 2024-10-02T16:27:16.818704906Z
+After serialization at 2024-10-02T16:27:20.361508007Z
+
+ROUND 300MB
+
+istening on http://0.0.0.0:8080
+args: ["/func_b_vanilla.wasm", "func_b.wasm", "file_300M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 314572800 at 2024-10-02 16:28:00.759178503 UTC
+
+Received chunk of size: 314572800 at 2024-10-02T16:28:01.370239254Z
+After serialization at 2024-10-02T16:28:06.716910373Z
+
+ROUND 400MB
+
+Listening on http://0.0.0.0:8080
+args: ["/func_b_vanilla.wasm", "func_b.wasm", "file_400M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 419430400 at 2024-10-02 16:28:33.351271779 UTC
+
+Received chunk of size: 419430400 at 2024-10-02T16:28:34.280679587Z
+After serialization at 2024-10-02T16:28:41.364765479Z
+
+ROUND 500MB
+
+args: ["/func_b_vanilla.wasm", "func_b.wasm", "file_500M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 524288000 at 2024-10-02 16:29:11.605358386 UTC
+
+Received chunk of size: 524288000 at 2024-10-02T16:29:12.658039255Z
+After serialization at 2024-10-02T16:29:21.393234349Z
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,423 @@
+ROUND file_1M.txt
+Starting func_b for file: file_1M.txt
+[2024-10-09 21:41:27.379] [error] Bind guest directory failed:54
+[2024-10-09 21:41:27.379] [error] Bind guest directory failed:54
+Secondary function true
+before init
+sh_name func_b
+Starting func_a for file: file_1M.txt
+[2024-10-09 21:41:28.384] [error] Bind guest directory failed:54
+[2024-10-09 21:41:28.384] [error] Bind guest directory failed:54
+Secondary function 
+Greetings from func_a 2024-10-09 21:41:28.394659432 UTC
+args: ["/func_a.wasm", "func_b.wasm", "file_1M.txt"] read at 2024-10-09 21:41:28.395604143 UTC
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file started at 2024-10-09 21:41:28.397647363 UTC
+Downloading finished at 2024-10-09 21:41:28.410215595 UTC
+Data copied to string at 2024-10-09 21:41:28.410488121 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-09 21:41:28.412840605 UTC
+start transfer at 2024-10-09 21:41:28.412985443 UTC
+printing final result finished
+Received 1048696 bytes at 2024-10-09 21:41:28.416867623 UTC
+After serialization at 2024-10-09T21:41:28.417216404Z
+FnB Shim Finished. Result from moduleB: 5
+Func_a finished processing file_1M.txt
+Func_b finished processing file_1M.txt
+Killing remaining processes if any
+
+ROUND file_2M.txt
+Starting func_b for file: file_2M.txt
+[2024-10-09 21:41:29.702] [error] Bind guest directory failed:54
+[2024-10-09 21:41:29.702] [error] Bind guest directory failed:54
+Secondary function true
+before init
+sh_name func_b
+Starting func_a for file: file_2M.txt
+[2024-10-09 21:41:30.713] [error] Bind guest directory failed:54
+[2024-10-09 21:41:30.714] [error] Bind guest directory failed:54
+Secondary function 
+Greetings from func_a 2024-10-09 21:41:30.723715404 UTC
+args: ["/func_a.wasm", "func_b.wasm", "file_2M.txt"] read at 2024-10-09 21:41:30.724804823 UTC
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file started at 2024-10-09 21:41:30.726368657 UTC
+Downloading finished at 2024-10-09 21:41:30.745622251 UTC
+Data copied to string at 2024-10-09 21:41:30.745778565 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-09 21:41:30.749588569 UTC
+start transfer at 2024-10-09 21:41:30.749733620 UTC
+printing final result finished
+Received 2097272 bytes at 2024-10-09 21:41:30.756543184 UTC
+After serialization at 2024-10-09T21:41:30.756816159Z
+FnB Shim Finished. Result from moduleB: 5
+Func_a finished processing file_2M.txt
+Func_b finished processing file_2M.txt
+Killing remaining processes if any
+
+ROUND file_4M.txt
+Starting func_b for file: file_4M.txt
+[2024-10-09 21:41:32.046] [error] Bind guest directory failed:54
+[2024-10-09 21:41:32.046] [error] Bind guest directory failed:54
+Secondary function true
+before init
+sh_name func_b
+Starting func_a for file: file_4M.txt
+[2024-10-09 21:41:33.059] [error] Bind guest directory failed:54
+[2024-10-09 21:41:33.059] [error] Bind guest directory failed:54
+Secondary function 
+Greetings from func_a 2024-10-09 21:41:33.069196480 UTC
+args: ["/func_a.wasm", "func_b.wasm", "file_4M.txt"] read at 2024-10-09 21:41:33.070351056 UTC
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file started at 2024-10-09 21:41:33.071501756 UTC
+Downloading finished at 2024-10-09 21:41:33.095533348 UTC
+Data copied to string at 2024-10-09 21:41:33.095697325 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-09 21:41:33.103178680 UTC
+start transfer at 2024-10-09 21:41:33.103326691 UTC
+printing final result finished
+Received 4194424 bytes at 2024-10-09 21:41:33.116565233 UTC
+After serialization at 2024-10-09T21:41:33.116956539Z
+FnB Shim Finished. Result from moduleB: 5
+Func_a finished processing file_4M.txt
+Func_b finished processing file_4M.txt
+Killing remaining processes if any
+
+ROUND file_6M.txt
+Starting func_b for file: file_6M.txt
+[2024-10-09 21:41:34.406] [error] Bind guest directory failed:54
+[2024-10-09 21:41:34.406] [error] Bind guest directory failed:54
+Secondary function true
+before init
+sh_name func_b
+Starting func_a for file: file_6M.txt
+[2024-10-09 21:41:35.407] [error] Bind guest directory failed:54
+[2024-10-09 21:41:35.407] [error] Bind guest directory failed:54
+Secondary function 
+Greetings from func_a 2024-10-09 21:41:35.417262133 UTC
+args: ["/func_a.wasm", "func_b.wasm", "file_6M.txt"] read at 2024-10-09 21:41:35.418142715 UTC
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file started at 2024-10-09 21:41:35.419141887 UTC
+Downloading finished at 2024-10-09 21:41:35.455932904 UTC
+Data copied to string at 2024-10-09 21:41:35.456123019 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-09 21:41:35.467263249 UTC
+start transfer at 2024-10-09 21:41:35.467420204 UTC
+printing final result finished
+Received 6291576 bytes at 2024-10-09 21:41:35.495105497 UTC
+After serialization at 2024-10-09T21:41:35.495397249Z
+FnB Shim Finished. Result from moduleB: 5
+Func_a finished processing file_6M.txt
+Func_b finished processing file_6M.txt
+Killing remaining processes if any
+
+ROUND file_8M.txt
+Starting func_b for file: file_8M.txt
+[2024-10-09 21:41:36.777] [error] Bind guest directory failed:54
+[2024-10-09 21:41:36.777] [error] Bind guest directory failed:54
+Secondary function true
+before init
+sh_name func_b
+Starting func_a for file: file_8M.txt
+[2024-10-09 21:41:37.776] [error] Bind guest directory failed:54
+[2024-10-09 21:41:37.776] [error] Bind guest directory failed:54
+Secondary function 
+Greetings from func_a 2024-10-09 21:41:37.785903925 UTC
+args: ["/func_a.wasm", "func_b.wasm", "file_8M.txt"] read at 2024-10-09 21:41:37.786808368 UTC
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file started at 2024-10-09 21:41:37.787932090 UTC
+Downloading finished at 2024-10-09 21:41:37.831889999 UTC
+Data copied to string at 2024-10-09 21:41:37.832050999 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-09 21:41:37.846417342 UTC
+start transfer at 2024-10-09 21:41:37.846585662 UTC
+printing final result finished
+Received 8388728 bytes at 2024-10-09 21:41:37.875545101 UTC
+After serialization at 2024-10-09T21:41:37.875784485Z
+FnB Shim Finished. Result from moduleB: 5
+Func_a finished processing file_8M.txt
+Func_b finished processing file_8M.txt
+Killing remaining processes if any
+
+ROUND file_10M.txt
+Starting func_b for file: file_10M.txt
+[2024-10-09 21:41:39.159] [error] Bind guest directory failed:54
+[2024-10-09 21:41:39.159] [error] Bind guest directory failed:54
+Secondary function true
+before init
+sh_name func_b
+Starting func_a for file: file_10M.txt
+[2024-10-09 21:41:40.168] [error] Bind guest directory failed:54
+[2024-10-09 21:41:40.168] [error] Bind guest directory failed:54
+Secondary function 
+Greetings from func_a 2024-10-09 21:41:40.178004688 UTC
+args: ["/func_a.wasm", "func_b.wasm", "file_10M.txt"] read at 2024-10-09 21:41:40.179023147 UTC
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file started at 2024-10-09 21:41:40.180008991 UTC
+Downloading finished at 2024-10-09 21:41:40.229444145 UTC
+Data copied to string at 2024-10-09 21:41:40.229610691 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-09 21:41:40.247033070 UTC
+start transfer at 2024-10-09 21:41:40.247211211 UTC
+printing final result finished
+Received 10485880 bytes at 2024-10-09 21:41:40.282223585 UTC
+After serialization at 2024-10-09T21:41:40.282473927Z
+FnB Shim Finished. Result from moduleB: 5
+Func_a finished processing file_10M.txt
+Func_b finished processing file_10M.txt
+Killing remaining processes if any
+
+ROUND file_20M.txt
+Starting func_b for file: file_20M.txt
+[2024-10-09 21:41:41.575] [error] Bind guest directory failed:54
+[2024-10-09 21:41:41.575] [error] Bind guest directory failed:54
+Secondary function true
+before init
+sh_name func_b
+Starting func_a for file: file_20M.txt
+[2024-10-09 21:41:42.588] [error] Bind guest directory failed:54
+[2024-10-09 21:41:42.588] [error] Bind guest directory failed:54
+Secondary function 
+Greetings from func_a 2024-10-09 21:41:42.598426261 UTC
+args: ["/func_a.wasm", "func_b.wasm", "file_20M.txt"] read at 2024-10-09 21:41:42.599101477 UTC
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file started at 2024-10-09 21:41:42.599407339 UTC
+Downloading finished at 2024-10-09 21:41:42.715645872 UTC
+Data copied to string at 2024-10-09 21:41:42.715828742 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-09 21:41:42.755604442 UTC
+start transfer at 2024-10-09 21:41:42.755763133 UTC
+printing final result finished
+Received 20971640 bytes at 2024-10-09 21:41:42.835645088 UTC
+After serialization at 2024-10-09T21:41:42.835889171Z
+FnB Shim Finished. Result from moduleB: 5
+Func_a finished processing file_20M.txt
+Func_b finished processing file_20M.txt
+Killing remaining processes if any
+
+ROUND file_40M.txt
+Starting func_b for file: file_40M.txt
+[2024-10-09 21:41:44.119] [error] Bind guest directory failed:54
+[2024-10-09 21:41:44.119] [error] Bind guest directory failed:54
+Secondary function true
+before init
+sh_name func_b
+Starting func_a for file: file_40M.txt
+[2024-10-09 21:41:45.128] [error] Bind guest directory failed:54
+[2024-10-09 21:41:45.128] [error] Bind guest directory failed:54
+Secondary function 
+Greetings from func_a 2024-10-09 21:41:45.138044851 UTC
+args: ["/func_a.wasm", "func_b.wasm", "file_40M.txt"] read at 2024-10-09 21:41:45.138964232 UTC
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file started at 2024-10-09 21:41:45.140344416 UTC
+Downloading finished at 2024-10-09 21:41:45.358136270 UTC
+Data copied to string at 2024-10-09 21:41:45.358315952 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-09 21:41:45.441526478 UTC
+start transfer at 2024-10-09 21:41:45.441693175 UTC
+printing final result finished
+Func_a finished processing file_40M.txt
+Received 41943160 bytes at 2024-10-09 21:41:45.590413016 UTC
+After serialization at 2024-10-09T21:41:45.590667249Z
+FnB Shim Finished. Result from moduleB: 5
+Func_b finished processing file_40M.txt
+Killing remaining processes if any
+
+ROUND file_60M.txt
+Starting func_b for file: file_60M.txt
+[2024-10-09 21:41:46.890] [error] Bind guest directory failed:54
+[2024-10-09 21:41:46.890] [error] Bind guest directory failed:54
+Secondary function true
+before init
+sh_name func_b
+Starting func_a for file: file_60M.txt
+[2024-10-09 21:41:47.899] [error] Bind guest directory failed:54
+[2024-10-09 21:41:47.899] [error] Bind guest directory failed:54
+Secondary function 
+Greetings from func_a 2024-10-09 21:41:47.909503035 UTC
+args: ["/func_a.wasm", "func_b.wasm", "file_60M.txt"] read at 2024-10-09 21:41:47.910956463 UTC
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file started at 2024-10-09 21:41:47.912245596 UTC
+Downloading finished at 2024-10-09 21:41:48.217638624 UTC
+Data copied to string at 2024-10-09 21:41:48.217815184 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-09 21:41:48.333963777 UTC
+start transfer at 2024-10-09 21:41:48.334149901 UTC
+printing final result finished
+Func_a finished processing file_60M.txt
+Received 62914680 bytes at 2024-10-09 21:41:48.544352409 UTC
+After serialization at 2024-10-09T21:41:48.544589210Z
+FnB Shim Finished. Result from moduleB: 5
+Func_b finished processing file_60M.txt
+Killing remaining processes if any
+
+ROUND file_100M.txt
+Starting func_b for file: file_100M.txt
+[2024-10-09 21:41:49.836] [error] Bind guest directory failed:54
+[2024-10-09 21:41:49.836] [error] Bind guest directory failed:54
+Secondary function true
+before init
+sh_name func_b
+Starting func_a for file: file_100M.txt
+[2024-10-09 21:41:50.849] [error] Bind guest directory failed:54
+[2024-10-09 21:41:50.849] [error] Bind guest directory failed:54
+Secondary function 
+Greetings from func_a 2024-10-09 21:41:50.859216284 UTC
+args: ["/func_a.wasm", "func_b.wasm", "file_100M.txt"] read at 2024-10-09 21:41:50.860468063 UTC
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file started at 2024-10-09 21:41:50.861613576 UTC
+Downloading finished at 2024-10-09 21:41:51.345032998 UTC
+Data copied to string at 2024-10-09 21:41:51.345230281 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-09 21:41:51.535925996 UTC
+start transfer at 2024-10-09 21:41:51.536103738 UTC
+printing final result finished
+Func_a finished processing file_100M.txt
+Received 104857720 bytes at 2024-10-09 21:41:51.858716584 UTC
+After serialization at 2024-10-09T21:41:51.858954232Z
+FnB Shim Finished. Result from moduleB: 5
+Func_b finished processing file_100M.txt
+Killing remaining processes if any
+
+ROUND file_200M.txt
+Starting func_b for file: file_200M.txt
+[2024-10-09 21:41:53.168] [error] Bind guest directory failed:54
+[2024-10-09 21:41:53.168] [error] Bind guest directory failed:54
+Secondary function true
+before init
+sh_name func_b
+Starting func_a for file: file_200M.txt
+[2024-10-09 21:41:54.170] [error] Bind guest directory failed:54
+[2024-10-09 21:41:54.170] [error] Bind guest directory failed:54
+Secondary function 
+Greetings from func_a 2024-10-09 21:41:54.179809040 UTC
+args: ["/func_a.wasm", "func_b.wasm", "file_200M.txt"] read at 2024-10-09 21:41:54.181980627 UTC
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file started at 2024-10-09 21:41:54.183036442 UTC
+Downloading finished at 2024-10-09 21:41:55.275827345 UTC
+Data copied to string at 2024-10-09 21:41:55.276035014 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-09 21:41:55.653374049 UTC
+start transfer at 2024-10-09 21:41:55.653543089 UTC
+printing final result finished
+Received 209715320 bytes at 2024-10-09 21:41:56.267220101 UTC
+After serialization at 2024-10-09T21:41:56.267551726Z
+FnB Shim Finished. Result from moduleB: 5
+ctr: rpc error: code = Unknown desc = ttrpc: closed: unknown
+Func_a finished processing file_200M.txt
+Func_b finished processing file_200M.txt
+Killing remaining processes if any
+
+ROUND file_300M.txt
+Starting func_b for file: file_300M.txt
+[2024-10-09 21:42:20.365] [error] Bind guest directory failed:54
+[2024-10-09 21:42:20.365] [error] Bind guest directory failed:54
+Secondary function true
+before init
+sh_name func_b
+Starting func_a for file: file_300M.txt
+[2024-10-09 21:42:21.382] [error] Bind guest directory failed:54
+[2024-10-09 21:42:21.382] [error] Bind guest directory failed:54
+Secondary function 
+Greetings from func_a 2024-10-09 21:42:21.392531173 UTC
+args: ["/func_a.wasm", "func_b.wasm", "file_300M.txt"] read at 2024-10-09 21:42:21.394399651 UTC
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file started at 2024-10-09 21:42:21.395543361 UTC
+Downloading finished at 2024-10-09 21:42:23.218102788 UTC
+Data copied to string at 2024-10-09 21:42:23.218287815 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-09 21:42:23.791580824 UTC
+start transfer at 2024-10-09 21:42:23.791754916 UTC
+printing final result finished
+Func_a finished processing file_300M.txt
+Received 314572920 bytes at 2024-10-09 21:42:24.725403676 UTC
+After serialization at 2024-10-09T21:42:24.725653255Z
+FnB Shim Finished. Result from moduleB: 5
+Func_b finished processing file_300M.txt
+Killing remaining processes if any
+
+ROUND file_400M.txt
+Starting func_b for file: file_400M.txt
+[2024-10-09 21:42:26.081] [error] Bind guest directory failed:54
+[2024-10-09 21:42:26.081] [error] Bind guest directory failed:54
+Secondary function true
+before init
+sh_name func_b
+Starting func_a for file: file_400M.txt
+[2024-10-09 21:42:27.089] [error] Bind guest directory failed:54
+[2024-10-09 21:42:27.089] [error] Bind guest directory failed:54
+Secondary function 
+Greetings from func_a 2024-10-09 21:42:27.099416086 UTC
+args: ["/func_a.wasm", "func_b.wasm", "file_400M.txt"] read at 2024-10-09 21:42:27.100329986 UTC
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file started at 2024-10-09 21:42:27.102096859 UTC
+Downloading finished at 2024-10-09 21:42:29.369109814 UTC
+Data copied to string at 2024-10-09 21:42:29.369349432 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-09 21:42:30.148598100 UTC
+start transfer at 2024-10-09 21:42:30.148767292 UTC
+printing final result finished
+Received 419430520 bytes at 2024-10-09 21:42:31.397861855 UTC
+After serialization at 2024-10-09T21:42:31.398202833Z
+FnB Shim Finished. Result from moduleB: 5
+ctr: rpc error: code = Unknown desc = ttrpc: closed: unknown
+Func_a finished processing file_400M.txt
+Func_b finished processing file_400M.txt
+Killing remaining processes if any
+
+ROUND file_500M.txt
+Starting func_b for file: file_500M.txt
+[2024-10-09 21:42:57.366] [error] Bind guest directory failed:54
+[2024-10-09 21:42:57.367] [error] Bind guest directory failed:54
+Secondary function true
+before init
+sh_name func_b
+Starting func_a for file: file_500M.txt
+[2024-10-09 21:42:58.387] [error] Bind guest directory failed:54
+[2024-10-09 21:42:58.388] [error] Bind guest directory failed:54
+Secondary function 
+Greetings from func_a 2024-10-09 21:42:58.397434986 UTC
+args: ["/func_a.wasm", "func_b.wasm", "file_500M.txt"] read at 2024-10-09 21:42:58.397859482 UTC
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file started at 2024-10-09 21:42:58.398242658 UTC
+Downloading finished at 2024-10-09 21:43:00.949560529 UTC
+Data copied to string at 2024-10-09 21:43:00.949757133 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-09 21:43:02.061103678 UTC
+start transfer at 2024-10-09 21:43:02.061286743 UTC
+printing final result finished
+Func_a finished processing file_500M.txt
+Received 524288120 bytes at 2024-10-09 21:43:03.634307498 UTC
+After serialization at 2024-10-09T21:43:03.634549253Z
+FnB Shim Finished. Result from moduleB: 5
+Func_b finished processing file_500M.txt
+Killing remaining processes if any
+
+All files have been processed.

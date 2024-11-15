@@ -1,0 +1,3100 @@
+ROUND 1
+
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:27:09.774073412 UTC for 1
+
+Received chunk of 10485760 at 2024-10-31T08:27:09.786685567Z for 1
+After serialization at 2024-10-31T08:27:09.886578623Z for 1
+
+ROUND 10
+
+Start transfer of 10485760 at 2024-10-31 08:29:00.750632430 UTC for 1
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:29:00.950485107 UTC for 2
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:29:01.137030666 UTC for 3
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:29:01.299024419 UTC for 4
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:29:01.465578564 UTC for 5
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:29:01.650894772 UTC for 6
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:29:01.841679894 UTC for 7
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:29:02.028264653 UTC for 8
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:29:02.215195317 UTC for 9
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:29:02.379005394 UTC for 10
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:29:00.761957068Z for 1
+After serialization at 2024-10-31T08:29:00.861096634Z for 1
+Finished task 1
+Starting task 2
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:29:00.960448171Z for 2
+After serialization at 2024-10-31T08:29:01.059380890Z for 2
+Finished task 2
+Starting task 3
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:29:01.140989619Z for 3
+After serialization at 2024-10-31T08:29:01.235870542Z for 3
+Finished task 3
+Starting task 4
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:29:01.305588760Z for 4
+After serialization at 2024-10-31T08:29:01.397638016Z for 4
+Finished task 4
+Starting task 5
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:29:01.471267394Z for 5
+After serialization at 2024-10-31T08:29:01.564089920Z for 5
+Finished task 5
+Starting task 6
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:29:01.654967611Z for 6
+After serialization at 2024-10-31T08:29:01.747757578Z for 6
+Finished task 6
+Starting task 7
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:29:01.845533755Z for 7
+After serialization at 2024-10-31T08:29:01.937691394Z for 7
+Finished task 7
+Starting task 8
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:29:02.032849891Z for 8
+After serialization at 2024-10-31T08:29:02.127813239Z for 8
+Finished task 8
+Starting task 9
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:29:02.219288651Z for 9
+After serialization at 2024-10-31T08:29:02.312731295Z for 9
+Finished task 9
+Starting task 10
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:29:02.383010622Z for 10
+After serialization at 2024-10-31T08:29:02.475402555Z for 10
+Finished task 10
+All tasks completed.
+
+ROUND 20
+
+Start transfer of 10485760 at 2024-10-31 08:30:10.040562022 UTC for 1
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:10.245688727 UTC for 2
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:10.432513867 UTC for 3
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:10.598217446 UTC for 4
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:10.787104864 UTC for 5
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:10.965128423 UTC for 6
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:11.144507955 UTC for 7
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:11.319866460 UTC for 8
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:11.489736285 UTC for 9
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:11.665782712 UTC for 10
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:11.852228297 UTC for 11
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:12.035796438 UTC for 12
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:12.217843408 UTC for 13
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:12.400479689 UTC for 14
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:12.587160547 UTC for 15
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:12.775735427 UTC for 16
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:12.938907440 UTC for 17
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:13.112779529 UTC for 18
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:13.296333382 UTC for 19
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:30:13.477295628 UTC for 20
+
+Received chunk of 10485760 at 2024-10-31T08:30:10.052913771Z for 1
+After serialization at 2024-10-31T08:30:10.152671866Z for 1
+Finished task 1
+Starting task 2
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:10.256621598Z for 2
+After serialization at 2024-10-31T08:30:10.354590523Z for 2
+Finished task 2
+Starting task 3
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:10.436309539Z for 3
+After serialization at 2024-10-31T08:30:10.530037Z for 3
+Finished task 3
+Starting task 4
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:10.604451843Z for 4
+After serialization at 2024-10-31T08:30:10.700713244Z for 4
+Finished task 4
+Starting task 5
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:10.790743928Z for 5
+After serialization at 2024-10-31T08:30:10.882821022Z for 5
+Finished task 5
+Starting task 6
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:10.969223272Z for 6
+After serialization at 2024-10-31T08:30:11.060823806Z for 6
+Finished task 6
+Starting task 7
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:11.148509614Z for 7
+After serialization at 2024-10-31T08:30:11.240174072Z for 7
+Finished task 7
+Starting task 8
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:11.326869964Z for 8
+After serialization at 2024-10-31T08:30:11.418562621Z for 8
+Finished task 8
+Starting task 9
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:11.493591426Z for 9
+After serialization at 2024-10-31T08:30:11.586052362Z for 9
+Finished task 9
+Starting task 10
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:11.670167364Z for 10
+After serialization at 2024-10-31T08:30:11.761762391Z for 10
+Finished task 10
+Starting task 11
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:11.856053192Z for 11
+After serialization at 2024-10-31T08:30:11.947621653Z for 11
+Finished task 11
+Starting task 12
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:12.039753209Z for 12
+After serialization at 2024-10-31T08:30:12.131269085Z for 12
+Finished task 12
+Starting task 13
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:12.222456310Z for 13
+After serialization at 2024-10-31T08:30:12.314151757Z for 13
+Finished task 13
+Starting task 14
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:12.404086975Z for 14
+After serialization at 2024-10-31T08:30:12.495823849Z for 14
+Finished task 14
+Starting task 15
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:12.591185709Z for 15
+After serialization at 2024-10-31T08:30:12.682855820Z for 15
+Finished task 15
+Starting task 16
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:12.779544867Z for 16
+After serialization at 2024-10-31T08:30:12.873584049Z for 16
+Finished task 16
+Starting task 17
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:12.943485968Z for 17
+After serialization at 2024-10-31T08:30:13.035694717Z for 17
+Finished task 17
+Starting task 18
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:13.116686787Z for 18
+After serialization at 2024-10-31T08:30:13.209605069Z for 18
+Finished task 18
+Starting task 19
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:13.299889403Z for 19
+After serialization at 2024-10-31T08:30:13.393289140Z for 19
+Finished task 19
+Starting task 20
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:30:13.481135148Z for 20
+After serialization at 2024-10-31T08:30:13.573052568Z for 20
+Finished task 20
+All tasks completed.
+
+ROUND 40
+
+Start transfer of 10485760 at 2024-10-31 08:31:04.593548294 UTC for 1
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:04.779695849 UTC for 2
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:04.975109102 UTC for 3
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:05.170103771 UTC for 4
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:05.373851304 UTC for 5
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:05.547824630 UTC for 6
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:05.736993810 UTC for 7
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:05.921288266 UTC for 8
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:06.116683453 UTC for 9
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:06.316684779 UTC for 10
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:06.513979361 UTC for 11
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:06.696106321 UTC for 12
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:06.862149160 UTC for 13
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:07.047261244 UTC for 14
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:07.225448387 UTC for 15
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:07.401650309 UTC for 16
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:07.569869278 UTC for 17
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:07.760642007 UTC for 18
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:07.964272110 UTC for 19
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:08.143664359 UTC for 20
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:08.356263546 UTC for 21
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:08.520628568 UTC for 22
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:08.705727084 UTC for 23
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:08.882638977 UTC for 24
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:09.066845824 UTC for 25
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:09.254092826 UTC for 26
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:09.437940939 UTC for 27
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:09.632955599 UTC for 28
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:09.816636854 UTC for 29
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:10.007968956 UTC for 30
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:10.178298987 UTC for 31
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:10.358973844 UTC for 32
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:10.533906118 UTC for 33
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:10.725845181 UTC for 34
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:10.912252109 UTC for 35
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:11.106103936 UTC for 36
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:11.294424885 UTC for 37
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:11.477048670 UTC for 38
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:11.657487297 UTC for 39
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:31:11.831753860 UTC for 40
+
+Received chunk of 10485760 at 2024-10-31T08:31:04.604100794Z for 1
+After serialization at 2024-10-31T08:31:04.703338679Z for 1
+Finished task 1
+Starting task 2
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:04.789619400Z for 2
+After serialization at 2024-10-31T08:31:04.887082802Z for 2
+Finished task 2
+Starting task 3
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:04.979111129Z for 3
+After serialization at 2024-10-31T08:31:05.075547848Z for 3
+Finished task 3
+Starting task 4
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:05.173939751Z for 4
+After serialization at 2024-10-31T08:31:05.272892341Z for 4
+Finished task 4
+Starting task 5
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:05.378180287Z for 5
+After serialization at 2024-10-31T08:31:05.470726918Z for 5
+Finished task 5
+Starting task 6
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:05.551662121Z for 6
+After serialization at 2024-10-31T08:31:05.643411352Z for 6
+Finished task 6
+Starting task 7
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:05.740657274Z for 7
+After serialization at 2024-10-31T08:31:05.834553418Z for 7
+Finished task 7
+Starting task 8
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:05.925832731Z for 8
+After serialization at 2024-10-31T08:31:06.020589022Z for 8
+Finished task 8
+Starting task 9
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:06.120281794Z for 9
+After serialization at 2024-10-31T08:31:06.218277818Z for 9
+Finished task 9
+Starting task 10
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:06.320481413Z for 10
+After serialization at 2024-10-31T08:31:06.413024492Z for 10
+Finished task 10
+Starting task 11
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:06.517674570Z for 11
+After serialization at 2024-10-31T08:31:06.609501601Z for 11
+Finished task 11
+Starting task 12
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:06.700539631Z for 12
+After serialization at 2024-10-31T08:31:06.793190137Z for 12
+Finished task 12
+Starting task 13
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:06.866052946Z for 13
+After serialization at 2024-10-31T08:31:06.958172073Z for 13
+Finished task 13
+Starting task 14
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:07.050902189Z for 14
+After serialization at 2024-10-31T08:31:07.142881407Z for 14
+Finished task 14
+Starting task 15
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:07.231317781Z for 15
+After serialization at 2024-10-31T08:31:07.323277303Z for 15
+Finished task 15
+Starting task 16
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:07.405417655Z for 16
+After serialization at 2024-10-31T08:31:07.499228665Z for 16
+Finished task 16
+Starting task 17
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:07.574361654Z for 17
+After serialization at 2024-10-31T08:31:07.670331877Z for 17
+Finished task 17
+Starting task 18
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:07.764552317Z for 18
+After serialization at 2024-10-31T08:31:07.863886578Z for 18
+Finished task 18
+Starting task 19
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:07.968036667Z for 19
+After serialization at 2024-10-31T08:31:08.061901440Z for 19
+Finished task 19
+Starting task 20
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:08.147456450Z for 20
+After serialization at 2024-10-31T08:31:08.241189258Z for 20
+Finished task 20
+Starting task 21
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:08.360139342Z for 21
+After serialization at 2024-10-31T08:31:08.453139948Z for 21
+Finished task 21
+Starting task 22
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:08.525605831Z for 22
+After serialization at 2024-10-31T08:31:08.617585789Z for 22
+Finished task 22
+Starting task 23
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:08.709451024Z for 23
+After serialization at 2024-10-31T08:31:08.801303671Z for 23
+Finished task 23
+Starting task 24
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:08.886581819Z for 24
+After serialization at 2024-10-31T08:31:08.978790217Z for 24
+Finished task 24
+Starting task 25
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:09.071410703Z for 25
+After serialization at 2024-10-31T08:31:09.165239503Z for 25
+Finished task 25
+Starting task 26
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:09.258549488Z for 26
+After serialization at 2024-10-31T08:31:09.351058647Z for 26
+Finished task 26
+Starting task 27
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:09.441497179Z for 27
+After serialization at 2024-10-31T08:31:09.533837116Z for 27
+Finished task 27
+Starting task 28
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:09.636874888Z for 28
+After serialization at 2024-10-31T08:31:09.730497111Z for 28
+Finished task 28
+Starting task 29
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:09.820214720Z for 29
+After serialization at 2024-10-31T08:31:09.917802494Z for 29
+Finished task 29
+Starting task 30
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:10.011932904Z for 30
+After serialization at 2024-10-31T08:31:10.103902466Z for 30
+Finished task 30
+Starting task 31
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:10.182043436Z for 31
+After serialization at 2024-10-31T08:31:10.276115106Z for 31
+Finished task 31
+Starting task 32
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:10.362611403Z for 32
+After serialization at 2024-10-31T08:31:10.454728685Z for 32
+Finished task 32
+Starting task 33
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:10.537633074Z for 33
+After serialization at 2024-10-31T08:31:10.631168296Z for 33
+Finished task 33
+Starting task 34
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:10.730311584Z for 34
+After serialization at 2024-10-31T08:31:10.825217973Z for 34
+Finished task 34
+Starting task 35
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:10.916290940Z for 35
+After serialization at 2024-10-31T08:31:11.011812646Z for 35
+Finished task 35
+Starting task 36
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:11.109902210Z for 36
+After serialization at 2024-10-31T08:31:11.211745178Z for 36
+Finished task 36
+Starting task 37
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:11.298088921Z for 37
+After serialization at 2024-10-31T08:31:11.396174286Z for 37
+Finished task 37
+Starting task 38
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:11.480832257Z for 38
+After serialization at 2024-10-31T08:31:11.572374675Z for 38
+Finished task 38
+Starting task 39
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:11.661203462Z for 39
+After serialization at 2024-10-31T08:31:11.752408089Z for 39
+Finished task 39
+Starting task 40
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:31:11.835689212Z for 40
+After serialization at 2024-10-31T08:31:11.930048209Z for 40
+Finished task 40
+
+
+ROUND 60
+
+Start transfer of 10485760 at 2024-10-31 08:32:07.013121303 UTC for 1
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:07.215573501 UTC for 2
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:07.418109349 UTC for 3
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:07.607416243 UTC for 4
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:07.793361234 UTC for 5
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:07.974376664 UTC for 6
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:08.144584238 UTC for 7
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:08.314740438 UTC for 8
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:08.484337788 UTC for 9
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:08.660343246 UTC for 10
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:08.832816753 UTC for 11
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:09.026291533 UTC for 12
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:09.184068654 UTC for 13
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:09.363431526 UTC for 14
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:09.544438080 UTC for 15
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:09.726056578 UTC for 16
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:09.911361437 UTC for 17
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:10.091014387 UTC for 18
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:10.278842822 UTC for 19
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:10.464564795 UTC for 20
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:10.653126894 UTC for 21
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:10.835225424 UTC for 22
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:11.030851991 UTC for 23
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:11.212915211 UTC for 24
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:11.392156393 UTC for 25
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:11.577615204 UTC for 26
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:11.767605302 UTC for 27
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:11.951638514 UTC for 28
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:12.141389200 UTC for 29
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:12.326151319 UTC for 30
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:12.505716326 UTC for 31
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:12.694247383 UTC for 32
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:12.879406176 UTC for 33
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:13.065251142 UTC for 34
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:13.253039894 UTC for 35
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:13.434218170 UTC for 36
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:13.616901108 UTC for 37
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:13.802708664 UTC for 38
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:13.981616077 UTC for 39
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:14.176358017 UTC for 40
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:14.356608437 UTC for 41
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:14.527507175 UTC for 42
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:14.709724337 UTC for 43
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:14.902169664 UTC for 44
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:15.078913793 UTC for 45
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:15.257812861 UTC for 46
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:15.444495481 UTC for 47
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:15.637735271 UTC for 48
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:15.823821072 UTC for 49
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:16.006136405 UTC for 50
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:16.170085590 UTC for 51
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:16.341530715 UTC for 52
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:16.524291896 UTC for 53
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:16.708661467 UTC for 54
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:16.900126746 UTC for 55
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:17.073830385 UTC for 56
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:17.258395136 UTC for 57
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:17.449710167 UTC for 58
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:17.635382364 UTC for 59
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:32:17.804508305 UTC for 60
+
+Received chunk of 10485760 at 2024-10-31T08:32:07.024836116Z for 1
+After serialization at 2024-10-31T08:32:07.122976770Z for 1
+Finished task 1
+Starting task 2
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:07.221850247Z for 2
+After serialization at 2024-10-31T08:32:07.320268800Z for 2
+Finished task 2
+Starting task 3
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:07.429113346Z for 3
+After serialization at 2024-10-31T08:32:07.521175773Z for 3
+Finished task 3
+Starting task 4
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:07.612034177Z for 4
+After serialization at 2024-10-31T08:32:07.706322372Z for 4
+Finished task 4
+Starting task 5
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:07.797198295Z for 5
+After serialization at 2024-10-31T08:32:07.890643332Z for 5
+Finished task 5
+Starting task 6
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:07.978128923Z for 6
+After serialization at 2024-10-31T08:32:08.070291128Z for 6
+Finished task 6
+Starting task 7
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:08.151820352Z for 7
+After serialization at 2024-10-31T08:32:08.243758208Z for 7
+Finished task 7
+Starting task 8
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:08.318629281Z for 8
+After serialization at 2024-10-31T08:32:08.413293626Z for 8
+Finished task 8
+Starting task 9
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:08.488381543Z for 9
+After serialization at 2024-10-31T08:32:08.581672083Z for 9
+Finished task 9
+Starting task 10
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:08.664367936Z for 10
+After serialization at 2024-10-31T08:32:08.758212717Z for 10
+Finished task 10
+Starting task 11
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:08.837034496Z for 11
+After serialization at 2024-10-31T08:32:08.929882279Z for 11
+Finished task 11
+Starting task 12
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:09.030417840Z for 12
+After serialization at 2024-10-31T08:32:09.123115796Z for 12
+Finished task 12
+Starting task 13
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:09.187970484Z for 13
+After serialization at 2024-10-31T08:32:09.280186983Z for 13
+Finished task 13
+Starting task 14
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:09.367628346Z for 14
+After serialization at 2024-10-31T08:32:09.459622196Z for 14
+Finished task 14
+Starting task 15
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:09.548107472Z for 15
+After serialization at 2024-10-31T08:32:09.640864562Z for 15
+Finished task 15
+Starting task 16
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:09.729934255Z for 16
+After serialization at 2024-10-31T08:32:09.822066232Z for 16
+Finished task 16
+Starting task 17
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:09.916145266Z for 17
+After serialization at 2024-10-31T08:32:10.008282564Z for 17
+Finished task 17
+Starting task 18
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:10.094649103Z for 18
+After serialization at 2024-10-31T08:32:10.187664326Z for 18
+Finished task 18
+Starting task 19
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:10.282730396Z for 19
+After serialization at 2024-10-31T08:32:10.375533393Z for 19
+Finished task 19
+Starting task 20
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:10.468450765Z for 20
+After serialization at 2024-10-31T08:32:10.561528105Z for 20
+Finished task 20
+Starting task 21
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:10.657265908Z for 21
+After serialization at 2024-10-31T08:32:10.749891201Z for 21
+Finished task 21
+Starting task 22
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:10.839328375Z for 22
+After serialization at 2024-10-31T08:32:10.931959033Z for 22
+Finished task 22
+Starting task 23
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:11.034968061Z for 23
+After serialization at 2024-10-31T08:32:11.127798858Z for 23
+Finished task 23
+Starting task 24
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:11.217385573Z for 24
+After serialization at 2024-10-31T08:32:11.310650700Z for 24
+Finished task 24
+Starting task 25
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:11.395938009Z for 25
+After serialization at 2024-10-31T08:32:11.488705026Z for 25
+Finished task 25
+Starting task 26
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:11.581771322Z for 26
+After serialization at 2024-10-31T08:32:11.673951590Z for 26
+Finished task 26
+Starting task 27
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:11.771655184Z for 27
+After serialization at 2024-10-31T08:32:11.864226613Z for 27
+Finished task 27
+Starting task 28
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:11.955599149Z for 28
+After serialization at 2024-10-31T08:32:12.047674504Z for 28
+Finished task 28
+Starting task 29
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:12.145301329Z for 29
+After serialization at 2024-10-31T08:32:12.237135321Z for 29
+Finished task 29
+Starting task 30
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:12.330051282Z for 30
+After serialization at 2024-10-31T08:32:12.423131692Z for 30
+Finished task 30
+Starting task 31
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:12.509472259Z for 31
+After serialization at 2024-10-31T08:32:12.601448140Z for 31
+Finished task 31
+Starting task 32
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:12.698187275Z for 32
+After serialization at 2024-10-31T08:32:12.790385099Z for 32
+Finished task 32
+Starting task 33
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:12.883605099Z for 33
+After serialization at 2024-10-31T08:32:12.977086595Z for 33
+Finished task 33
+Starting task 34
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:13.069653365Z for 34
+After serialization at 2024-10-31T08:32:13.162471266Z for 34
+Finished task 34
+Starting task 35
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:13.256789988Z for 35
+After serialization at 2024-10-31T08:32:13.350110430Z for 35
+Finished task 35
+Starting task 36
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:13.438058603Z for 36
+After serialization at 2024-10-31T08:32:13.530272533Z for 36
+Finished task 36
+Starting task 37
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:13.620547037Z for 37
+After serialization at 2024-10-31T08:32:13.715046452Z for 37
+Finished task 37
+Starting task 38
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:13.806555120Z for 38
+After serialization at 2024-10-31T08:32:13.898555256Z for 38
+Finished task 38
+Starting task 39
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:13.985681376Z for 39
+After serialization at 2024-10-31T08:32:14.079815920Z for 39
+Finished task 39
+Starting task 40
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:14.180249996Z for 40
+After serialization at 2024-10-31T08:32:14.273182225Z for 40
+Finished task 40
+Starting task 41
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:14.360633459Z for 41
+After serialization at 2024-10-31T08:32:14.453050303Z for 41
+Finished task 41
+Starting task 42
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:14.531329208Z for 42
+After serialization at 2024-10-31T08:32:14.626884130Z for 42
+Finished task 42
+Starting task 43
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:14.713599329Z for 43
+After serialization at 2024-10-31T08:32:14.806090703Z for 43
+Finished task 43
+Starting task 44
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:14.906022449Z for 44
+After serialization at 2024-10-31T08:32:14.998674206Z for 44
+Finished task 44
+Starting task 45
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:15.082665392Z for 45
+After serialization at 2024-10-31T08:32:15.176280821Z for 45
+Finished task 45
+Starting task 46
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:15.261835327Z for 46
+After serialization at 2024-10-31T08:32:15.355229678Z for 46
+Finished task 46
+Starting task 47
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:15.448284487Z for 47
+After serialization at 2024-10-31T08:32:15.540439347Z for 47
+Finished task 47
+Starting task 48
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:15.641688921Z for 48
+After serialization at 2024-10-31T08:32:15.734719700Z for 48
+Finished task 48
+Starting task 49
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:15.827683337Z for 49
+After serialization at 2024-10-31T08:32:15.921656221Z for 49
+Finished task 49
+Starting task 50
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:16.011920584Z for 50
+After serialization at 2024-10-31T08:32:16.105253564Z for 50
+Finished task 50
+Starting task 51
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:16.174027283Z for 51
+After serialization at 2024-10-31T08:32:16.268311374Z for 51
+Finished task 51
+Starting task 52
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:16.345594304Z for 52
+After serialization at 2024-10-31T08:32:16.437824581Z for 52
+Finished task 52
+Starting task 53
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:16.528091739Z for 53
+After serialization at 2024-10-31T08:32:16.620138358Z for 53
+Finished task 53
+Starting task 54
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:16.712600961Z for 54
+After serialization at 2024-10-31T08:32:16.805804540Z for 54
+Finished task 54
+Starting task 55
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:16.904109889Z for 55
+After serialization at 2024-10-31T08:32:16.996408034Z for 55
+Finished task 55
+Starting task 56
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:17.077521033Z for 56
+After serialization at 2024-10-31T08:32:17.169401233Z for 56
+Finished task 56
+Starting task 57
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:17.263648214Z for 57
+After serialization at 2024-10-31T08:32:17.355107591Z for 57
+Finished task 57
+Starting task 58
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:17.453906829Z for 58
+After serialization at 2024-10-31T08:32:17.547080350Z for 58
+Finished task 58
+Starting task 59
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:17.639380124Z for 59
+After serialization at 2024-10-31T08:32:17.731974752Z for 59
+Finished task 59
+Starting task 60
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:32:17.808247030Z for 60
+After serialization at 2024-10-31T08:32:17.900958130Z for 60
+Finished task 60
+All tasks completed.
+
+
+ROUND 80
+
+Start transfer of 10485760 at 2024-10-31 08:33:21.218326017 UTC for 1
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:21.407563569 UTC for 2
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:21.617351446 UTC for 3
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:21.816799383 UTC for 4
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:22.000818758 UTC for 5
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:22.180382978 UTC for 6
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:22.382785706 UTC for 7
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:22.577209750 UTC for 8
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:22.776502512 UTC for 9
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:22.965551517 UTC for 10
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:23.161758443 UTC for 11
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:23.339179035 UTC for 12
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:23.528444971 UTC for 13
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:23.713200214 UTC for 14
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:23.904362844 UTC for 15
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:24.081703913 UTC for 16
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:24.273065874 UTC for 17
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:24.453178262 UTC for 18
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:24.643368412 UTC for 19
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:24.857872883 UTC for 20
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:25.048309851 UTC for 21
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:25.237604786 UTC for 22
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:25.433072073 UTC for 23
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:25.623438693 UTC for 24
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:25.791191911 UTC for 25
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:25.975318359 UTC for 26
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:26.153505407 UTC for 27
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:26.338973202 UTC for 28
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:26.504837775 UTC for 29
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:26.679284727 UTC for 30
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:26.868860744 UTC for 31
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:27.051081100 UTC for 32
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:27.235607864 UTC for 33
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:27.412793852 UTC for 34
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:27.592523752 UTC for 35
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:27.776077829 UTC for 36
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:27.956951841 UTC for 37
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:28.149315568 UTC for 38
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:28.327243280 UTC for 39
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:28.512926233 UTC for 40
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:28.694969613 UTC for 41
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:28.872186023 UTC for 42
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:29.076868089 UTC for 43
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:29.267983368 UTC for 44
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:29.451583574 UTC for 45
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:29.644307887 UTC for 46
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:29.826087751 UTC for 47
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:30.009034559 UTC for 48
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:30.201347562 UTC for 49
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:30.370166250 UTC for 50
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:30.553415980 UTC for 51
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:30.734033828 UTC for 52
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:30.917212288 UTC for 53
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:31.105489668 UTC for 54
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:31.298605492 UTC for 55
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:31.482347777 UTC for 56
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:31.663034026 UTC for 57
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:31.855229083 UTC for 58
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:32.037883642 UTC for 59
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:32.218135442 UTC for 60
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:32.398102478 UTC for 61
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:32.584339266 UTC for 62
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:32.752044082 UTC for 63
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:32.928337018 UTC for 64
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:33.119936958 UTC for 65
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:33.311789502 UTC for 66
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:33.483195710 UTC for 67
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:33.676587999 UTC for 68
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:33.862274792 UTC for 69
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:34.038551824 UTC for 70
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:34.222015933 UTC for 71
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:34.422880102 UTC for 72
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:34.620908845 UTC for 73
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:34.802206801 UTC for 74
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:34.977871037 UTC for 75
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:35.156896419 UTC for 76
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:35.353810528 UTC for 77
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:35.545764712 UTC for 78
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:35.730510854 UTC for 79
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:33:35.907027353 UTC for 80
+
+Received chunk of 10485760 at 2024-10-31T08:33:21.229086255Z for 1
+After serialization at 2024-10-31T08:33:21.327695680Z for 1
+Finished task 1
+Starting task 2
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:21.412850717Z for 2
+After serialization at 2024-10-31T08:33:21.510245990Z for 2
+Finished task 2
+Starting task 3
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:21.628205119Z for 3
+After serialization at 2024-10-31T08:33:21.721628432Z for 3
+Finished task 3
+Starting task 4
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:21.820682304Z for 4
+After serialization at 2024-10-31T08:33:21.916391545Z for 4
+Finished task 4
+Starting task 5
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:22.004721591Z for 5
+After serialization at 2024-10-31T08:33:22.097914435Z for 5
+Finished task 5
+Starting task 6
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:22.184429918Z for 6
+After serialization at 2024-10-31T08:33:22.277049296Z for 6
+Finished task 6
+Starting task 7
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:22.386653068Z for 7
+After serialization at 2024-10-31T08:33:22.479062779Z for 7
+Finished task 7
+Starting task 8
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:22.581169525Z for 8
+After serialization at 2024-10-31T08:33:22.673330619Z for 8
+Finished task 8
+Starting task 9
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:22.780513156Z for 9
+After serialization at 2024-10-31T08:33:22.875112990Z for 9
+Finished task 9
+Starting task 10
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:22.969342209Z for 10
+After serialization at 2024-10-31T08:33:23.061530872Z for 10
+Finished task 10
+Starting task 11
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:23.165575904Z for 11
+After serialization at 2024-10-31T08:33:23.259663698Z for 11
+Finished task 11
+Starting task 12
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:23.342883233Z for 12
+After serialization at 2024-10-31T08:33:23.435611512Z for 12
+Finished task 12
+Starting task 13
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:23.532409471Z for 13
+After serialization at 2024-10-31T08:33:23.627066209Z for 13
+Finished task 13
+Starting task 14
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:23.717128356Z for 14
+After serialization at 2024-10-31T08:33:23.809085503Z for 14
+Finished task 14
+Starting task 15
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:23.908389058Z for 15
+After serialization at 2024-10-31T08:33:24.000302260Z for 15
+Finished task 15
+Starting task 16
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:24.085653769Z for 16
+After serialization at 2024-10-31T08:33:24.179325229Z for 16
+Finished task 16
+Starting task 17
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:24.277180114Z for 17
+After serialization at 2024-10-31T08:33:24.370421505Z for 17
+Finished task 17
+Starting task 18
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:24.457009006Z for 18
+After serialization at 2024-10-31T08:33:24.549076830Z for 18
+Finished task 18
+Starting task 19
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:24.652154366Z for 19
+After serialization at 2024-10-31T08:33:24.745818784Z for 19
+Finished task 19
+Starting task 20
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:24.863088161Z for 20
+After serialization at 2024-10-31T08:33:24.958312084Z for 20
+Finished task 20
+Starting task 21
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:25.052181700Z for 21
+After serialization at 2024-10-31T08:33:25.145398261Z for 21
+Finished task 21
+Starting task 22
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:25.241576076Z for 22
+After serialization at 2024-10-31T08:33:25.334574404Z for 22
+Finished task 22
+Starting task 23
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:25.436981889Z for 23
+After serialization at 2024-10-31T08:33:25.529815480Z for 23
+Finished task 23
+Starting task 24
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:25.629485173Z for 24
+After serialization at 2024-10-31T08:33:25.721022268Z for 24
+Finished task 24
+Starting task 25
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:25.794863262Z for 25
+After serialization at 2024-10-31T08:33:25.886683757Z for 25
+Finished task 25
+Starting task 26
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:25.979339278Z for 26
+After serialization at 2024-10-31T08:33:26.071279786Z for 26
+Finished task 26
+Starting task 27
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:26.157316150Z for 27
+After serialization at 2024-10-31T08:33:26.249355897Z for 27
+Finished task 27
+Starting task 28
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:26.344141161Z for 28
+After serialization at 2024-10-31T08:33:26.435431880Z for 28
+Finished task 28
+Starting task 29
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:26.510068513Z for 29
+After serialization at 2024-10-31T08:33:26.601912168Z for 29
+Finished task 29
+Starting task 30
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:26.682978262Z for 30
+After serialization at 2024-10-31T08:33:26.776639591Z for 30
+Finished task 30
+Starting task 31
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:26.872617555Z for 31
+After serialization at 2024-10-31T08:33:26.967229520Z for 31
+Finished task 31
+Starting task 32
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:27.054872515Z for 32
+After serialization at 2024-10-31T08:33:27.147593032Z for 32
+Finished task 32
+Starting task 33
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:27.239527250Z for 33
+After serialization at 2024-10-31T08:33:27.331781961Z for 33
+Finished task 33
+Starting task 34
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:27.416698147Z for 34
+After serialization at 2024-10-31T08:33:27.508641785Z for 34
+Finished task 34
+Starting task 35
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:27.597134715Z for 35
+After serialization at 2024-10-31T08:33:27.688858175Z for 35
+Finished task 35
+Starting task 36
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:27.780070006Z for 36
+After serialization at 2024-10-31T08:33:27.871909407Z for 36
+Finished task 36
+Starting task 37
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:27.960844462Z for 37
+After serialization at 2024-10-31T08:33:28.052435652Z for 37
+Finished task 37
+Starting task 38
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:28.153166995Z for 38
+After serialization at 2024-10-31T08:33:28.245194484Z for 38
+Finished task 38
+Starting task 39
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:28.331178595Z for 39
+After serialization at 2024-10-31T08:33:28.424661012Z for 39
+Finished task 39
+Starting task 40
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:28.516796051Z for 40
+After serialization at 2024-10-31T08:33:28.609298034Z for 40
+Finished task 40
+Starting task 41
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:28.698669117Z for 41
+After serialization at 2024-10-31T08:33:28.790955027Z for 41
+Finished task 41
+Starting task 42
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:28.875892942Z for 42
+After serialization at 2024-10-31T08:33:28.967791571Z for 42
+Finished task 42
+Starting task 43
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:29.081127496Z for 43
+After serialization at 2024-10-31T08:33:29.173008181Z for 43
+Finished task 43
+Starting task 44
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:29.271894298Z for 44
+After serialization at 2024-10-31T08:33:29.364225179Z for 44
+Finished task 44
+Starting task 45
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:29.455339571Z for 45
+After serialization at 2024-10-31T08:33:29.549012839Z for 45
+Finished task 45
+Starting task 46
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:29.648085291Z for 46
+After serialization at 2024-10-31T08:33:29.741016192Z for 46
+Finished task 46
+Starting task 47
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:29.830038444Z for 47
+After serialization at 2024-10-31T08:33:29.922183437Z for 47
+Finished task 47
+Starting task 48
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:30.012845677Z for 48
+After serialization at 2024-10-31T08:33:30.106619307Z for 48
+Finished task 48
+Starting task 49
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:30.205365834Z for 49
+After serialization at 2024-10-31T08:33:30.298211329Z for 49
+Finished task 49
+Starting task 50
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:30.373808453Z for 50
+After serialization at 2024-10-31T08:33:30.468255812Z for 50
+Finished task 50
+Starting task 51
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:30.557138603Z for 51
+After serialization at 2024-10-31T08:33:30.649472010Z for 51
+Finished task 51
+Starting task 52
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:30.737938823Z for 52
+After serialization at 2024-10-31T08:33:30.829818969Z for 52
+Finished task 52
+Starting task 53
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:30.920888893Z for 53
+After serialization at 2024-10-31T08:33:31.014520248Z for 53
+Finished task 53
+Starting task 54
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:31.109361974Z for 54
+After serialization at 2024-10-31T08:33:31.201517295Z for 54
+Finished task 54
+Starting task 55
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:31.302545655Z for 55
+After serialization at 2024-10-31T08:33:31.395093356Z for 55
+Finished task 55
+Starting task 56
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:31.486139112Z for 56
+After serialization at 2024-10-31T08:33:31.577919593Z for 56
+Finished task 56
+Starting task 57
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:31.666985160Z for 57
+After serialization at 2024-10-31T08:33:31.758593485Z for 57
+Finished task 57
+Starting task 58
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:31.859171225Z for 58
+After serialization at 2024-10-31T08:33:31.952709524Z for 58
+Finished task 58
+Starting task 59
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:32.042462589Z for 59
+After serialization at 2024-10-31T08:33:32.136020157Z for 59
+Finished task 59
+Starting task 60
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:32.221837671Z for 60
+After serialization at 2024-10-31T08:33:32.313950937Z for 60
+Finished task 60
+Starting task 61
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:32.402202053Z for 61
+After serialization at 2024-10-31T08:33:32.494349484Z for 61
+Finished task 61
+Starting task 62
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:32.589235073Z for 62
+After serialization at 2024-10-31T08:33:32.681159800Z for 62
+Finished task 62
+Starting task 63
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:32.755962765Z for 63
+After serialization at 2024-10-31T08:33:32.848260111Z for 63
+Finished task 63
+Starting task 64
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:32.932123028Z for 64
+After serialization at 2024-10-31T08:33:33.024666389Z for 64
+Finished task 64
+Starting task 65
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:33.123818456Z for 65
+After serialization at 2024-10-31T08:33:33.216131999Z for 65
+Finished task 65
+Starting task 66
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:33.315717678Z for 66
+After serialization at 2024-10-31T08:33:33.407584862Z for 66
+Finished task 66
+Starting task 67
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:33.486748463Z for 67
+After serialization at 2024-10-31T08:33:33.578504057Z for 67
+Finished task 67
+Starting task 68
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:33.680519770Z for 68
+After serialization at 2024-10-31T08:33:33.772449562Z for 68
+Finished task 68
+Starting task 69
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:33.866206930Z for 69
+After serialization at 2024-10-31T08:33:33.957849784Z for 69
+Finished task 69
+Starting task 70
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:34.042290341Z for 70
+After serialization at 2024-10-31T08:33:34.135975728Z for 70
+Finished task 70
+Starting task 71
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:34.226450698Z for 71
+After serialization at 2024-10-31T08:33:34.319908234Z for 71
+Finished task 71
+Starting task 72
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:34.427307218Z for 72
+After serialization at 2024-10-31T08:33:34.521722492Z for 72
+Finished task 72
+Starting task 73
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:34.625892550Z for 73
+After serialization at 2024-10-31T08:33:34.720816789Z for 73
+Finished task 73
+Starting task 74
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:34.806899139Z for 74
+After serialization at 2024-10-31T08:33:34.899554306Z for 74
+Finished task 74
+Starting task 75
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:34.981690436Z for 75
+After serialization at 2024-10-31T08:33:35.074793727Z for 75
+Finished task 75
+Starting task 76
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:35.160760164Z for 76
+After serialization at 2024-10-31T08:33:35.253155938Z for 76
+Finished task 76
+Starting task 77
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:35.357914112Z for 77
+After serialization at 2024-10-31T08:33:35.450196540Z for 77
+Finished task 77
+Starting task 78
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:35.549803008Z for 78
+After serialization at 2024-10-31T08:33:35.642029060Z for 78
+Finished task 78
+Starting task 79
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:35.734312736Z for 79
+After serialization at 2024-10-31T08:33:35.825957424Z for 79
+Finished task 79
+Starting task 80
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:33:35.910830701Z for 80
+After serialization at 2024-10-31T08:33:36.004154832Z for 80
+Finished task 80
+
+ROUND 100
+
+Start transfer of 10485760 at 2024-10-31 08:34:43.246356996 UTC for 1
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:43.442701215 UTC for 2
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:43.639010418 UTC for 3
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:43.825151621 UTC for 4
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:44.006255820 UTC for 5
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:44.193131507 UTC for 6
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:44.376757215 UTC for 7
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:44.557326322 UTC for 8
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:44.745686455 UTC for 9
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:44.932873299 UTC for 10
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:45.101151013 UTC for 11
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:45.269186204 UTC for 12
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:45.451817867 UTC for 13
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:45.638425409 UTC for 14
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:45.812624004 UTC for 15
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:46.003033142 UTC for 16
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:46.193137078 UTC for 17
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:46.380035003 UTC for 18
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:46.558974578 UTC for 19
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:46.742931840 UTC for 20
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:46.917887280 UTC for 21
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:47.112652554 UTC for 22
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:47.294486998 UTC for 23
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:47.473066984 UTC for 24
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:47.666057426 UTC for 25
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:47.858390993 UTC for 26
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:48.033969482 UTC for 27
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:48.211259628 UTC for 28
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:48.371835941 UTC for 29
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:48.551764111 UTC for 30
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:48.733919058 UTC for 31
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:48.924168769 UTC for 32
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:49.106155680 UTC for 33
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:49.291912066 UTC for 34
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:49.478858881 UTC for 35
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:49.657514845 UTC for 36
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:49.839433234 UTC for 37
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:50.019035910 UTC for 38
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:50.194602015 UTC for 39
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:50.370509950 UTC for 40
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:50.555171655 UTC for 41
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:50.735274513 UTC for 42
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:50.911800027 UTC for 43
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:51.102416759 UTC for 44
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:51.278991389 UTC for 45
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:51.466046028 UTC for 46
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:51.660458428 UTC for 47
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:51.845157336 UTC for 48
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:52.038565094 UTC for 49
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:52.214150840 UTC for 50
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:52.421154995 UTC for 51
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:52.641047428 UTC for 52
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:52.826268598 UTC for 53
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:53.009371019 UTC for 54
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:53.182999620 UTC for 55
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:53.357881145 UTC for 56
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:53.541946484 UTC for 57
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:53.724550925 UTC for 58
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:53.905262813 UTC for 59
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:54.089918220 UTC for 60
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:54.275865932 UTC for 61
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:54.435384769 UTC for 62
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:54.602075175 UTC for 63
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:54.792228155 UTC for 64
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:54.977755633 UTC for 65
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:55.154464771 UTC for 66
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:55.350325481 UTC for 67
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:55.532038693 UTC for 68
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:55.712701508 UTC for 69
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:55.894481430 UTC for 70
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:56.062815478 UTC for 71
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:56.226230572 UTC for 72
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:56.424681830 UTC for 73
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:56.600762041 UTC for 74
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:56.788436387 UTC for 75
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:56.983500616 UTC for 76
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:57.168613616 UTC for 77
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:57.342721624 UTC for 78
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:57.528628321 UTC for 79
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:57.722065889 UTC for 80
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:57.910780898 UTC for 81
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:58.098222737 UTC for 82
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:58.285631082 UTC for 83
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:58.471886590 UTC for 84
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:58.663682370 UTC for 85
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:58.854268902 UTC for 86
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:59.034301280 UTC for 87
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:59.224266218 UTC for 88
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:59.405419908 UTC for 89
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:59.582523197 UTC for 90
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:59.775994034 UTC for 91
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:34:59.956812420 UTC for 92
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:35:00.134040117 UTC for 93
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:35:00.328706490 UTC for 94
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:35:00.501686004 UTC for 95
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:35:00.672365888 UTC for 96
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:35:00.856954353 UTC for 97
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:35:01.045732928 UTC for 98
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:35:01.230933368 UTC for 99
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-31 08:35:01.418335339 UTC for 100
+
+Received chunk of 10485760 at 2024-10-31T08:34:43.257298346Z for 1
+After serialization at 2024-10-31T08:34:43.357317556Z for 1
+Finished task 1
+Starting task 2
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:43.448000469Z for 2
+After serialization at 2024-10-31T08:34:43.548239196Z for 2
+Finished task 2
+Starting task 3
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:43.650686593Z for 3
+After serialization at 2024-10-31T08:34:43.747606956Z for 3
+Finished task 3
+Starting task 4
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:43.829094583Z for 4
+After serialization at 2024-10-31T08:34:43.922391254Z for 4
+Finished task 4
+Starting task 5
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:44.010220193Z for 5
+After serialization at 2024-10-31T08:34:44.108078036Z for 5
+Finished task 5
+Starting task 6
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:44.197115817Z for 6
+After serialization at 2024-10-31T08:34:44.289399570Z for 6
+Finished task 6
+Starting task 7
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:44.380696570Z for 7
+After serialization at 2024-10-31T08:34:44.472362095Z for 7
+Finished task 7
+Starting task 8
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:44.561177518Z for 8
+After serialization at 2024-10-31T08:34:44.653232715Z for 8
+Finished task 8
+Starting task 9
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:44.749637959Z for 9
+After serialization at 2024-10-31T08:34:44.843765977Z for 9
+Finished task 9
+Starting task 10
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:44.937343007Z for 10
+After serialization at 2024-10-31T08:34:45.030083421Z for 10
+Finished task 10
+Starting task 11
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:45.105180279Z for 11
+After serialization at 2024-10-31T08:34:45.197337965Z for 11
+Finished task 11
+Starting task 12
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:45.273197001Z for 12
+After serialization at 2024-10-31T08:34:45.366004Z for 12
+Finished task 12
+Starting task 13
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:45.455797482Z for 13
+After serialization at 2024-10-31T08:34:45.549428447Z for 13
+Finished task 13
+Starting task 14
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:45.642407742Z for 14
+After serialization at 2024-10-31T08:34:45.735176615Z for 14
+Finished task 14
+Starting task 15
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:45.816413202Z for 15
+After serialization at 2024-10-31T08:34:45.909370492Z for 15
+Finished task 15
+Starting task 16
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:46.009321890Z for 16
+After serialization at 2024-10-31T08:34:46.101890609Z for 16
+Finished task 16
+Starting task 17
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:46.197472779Z for 17
+After serialization at 2024-10-31T08:34:46.290731739Z for 17
+Finished task 17
+Starting task 18
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:46.384249360Z for 18
+After serialization at 2024-10-31T08:34:46.475841678Z for 18
+Finished task 18
+Starting task 19
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:46.562833055Z for 19
+After serialization at 2024-10-31T08:34:46.654730474Z for 19
+Finished task 19
+Starting task 20
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:46.747066937Z for 20
+After serialization at 2024-10-31T08:34:46.839241888Z for 20
+Finished task 20
+Starting task 21
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:46.921823929Z for 21
+After serialization at 2024-10-31T08:34:47.017598765Z for 21
+Finished task 21
+Starting task 22
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:47.116802344Z for 22
+After serialization at 2024-10-31T08:34:47.208868137Z for 22
+Finished task 22
+Starting task 23
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:47.298848402Z for 23
+After serialization at 2024-10-31T08:34:47.390350958Z for 23
+Finished task 23
+Starting task 24
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:47.477060061Z for 24
+After serialization at 2024-10-31T08:34:47.572027049Z for 24
+Finished task 24
+Starting task 25
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:47.670138429Z for 25
+After serialization at 2024-10-31T08:34:47.762663578Z for 25
+Finished task 25
+Starting task 26
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:47.862475165Z for 26
+After serialization at 2024-10-31T08:34:47.955288440Z for 26
+Finished task 26
+Starting task 27
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:48.038021870Z for 27
+After serialization at 2024-10-31T08:34:48.131661663Z for 27
+Finished task 27
+Starting task 28
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:48.215166932Z for 28
+After serialization at 2024-10-31T08:34:48.307565515Z for 28
+Finished task 28
+Starting task 29
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:48.375838335Z for 29
+After serialization at 2024-10-31T08:34:48.467403917Z for 29
+Finished task 29
+Starting task 30
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:48.556799252Z for 30
+After serialization at 2024-10-31T08:34:48.650255873Z for 30
+Finished task 30
+Starting task 31
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:48.738258038Z for 31
+After serialization at 2024-10-31T08:34:48.831549117Z for 31
+Finished task 31
+Starting task 32
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:48.928534112Z for 32
+After serialization at 2024-10-31T08:34:49.021129689Z for 32
+Finished task 32
+Starting task 33
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:49.110022785Z for 33
+After serialization at 2024-10-31T08:34:49.203109211Z for 33
+Finished task 33
+Starting task 34
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:49.295783208Z for 34
+After serialization at 2024-10-31T08:34:49.387972520Z for 34
+Finished task 34
+Starting task 35
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:49.483302602Z for 35
+After serialization at 2024-10-31T08:34:49.575379181Z for 35
+Finished task 35
+Starting task 36
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:49.661436197Z for 36
+After serialization at 2024-10-31T08:34:49.753388391Z for 36
+Finished task 36
+Starting task 37
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:49.843518297Z for 37
+After serialization at 2024-10-31T08:34:49.935586559Z for 37
+Finished task 37
+Starting task 38
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:50.023475058Z for 38
+After serialization at 2024-10-31T08:34:50.116140077Z for 38
+Finished task 38
+Starting task 39
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:50.198563908Z for 39
+After serialization at 2024-10-31T08:34:50.291425493Z for 39
+Finished task 39
+Starting task 40
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:50.374335259Z for 40
+After serialization at 2024-10-31T08:34:50.467340037Z for 40
+Finished task 40
+Starting task 41
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:50.559448892Z for 41
+After serialization at 2024-10-31T08:34:50.652231106Z for 41
+Finished task 41
+Starting task 42
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:50.739333566Z for 42
+After serialization at 2024-10-31T08:34:50.831262748Z for 42
+Finished task 42
+Starting task 43
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:50.915729939Z for 43
+After serialization at 2024-10-31T08:34:51.011297416Z for 43
+Finished task 43
+Starting task 44
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:51.106394782Z for 44
+After serialization at 2024-10-31T08:34:51.199634520Z for 44
+Finished task 44
+Starting task 45
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:51.283147671Z for 45
+After serialization at 2024-10-31T08:34:51.374527319Z for 45
+Finished task 45
+Starting task 46
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:51.470176981Z for 46
+After serialization at 2024-10-31T08:34:51.563353823Z for 46
+Finished task 46
+Starting task 47
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:51.664573271Z for 47
+After serialization at 2024-10-31T08:34:51.756916139Z for 47
+Finished task 47
+Starting task 48
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:51.849053073Z for 48
+After serialization at 2024-10-31T08:34:51.940519083Z for 48
+Finished task 48
+Starting task 49
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:52.043237774Z for 49
+After serialization at 2024-10-31T08:34:52.136941200Z for 49
+Finished task 49
+Starting task 50
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:52.218058728Z for 50
+After serialization at 2024-10-31T08:34:52.309881791Z for 50
+Finished task 50
+Starting task 51
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:52.426446341Z for 51
+After serialization at 2024-10-31T08:34:52.519534131Z for 51
+Finished task 51
+Starting task 52
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:52.645295593Z for 52
+After serialization at 2024-10-31T08:34:52.739813386Z for 52
+Finished task 52
+Starting task 53
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:52.830162241Z for 53
+After serialization at 2024-10-31T08:34:52.923067083Z for 53
+Finished task 53
+Starting task 54
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:53.013561543Z for 54
+After serialization at 2024-10-31T08:34:53.106175536Z for 54
+Finished task 54
+Starting task 55
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:53.186923220Z for 55
+After serialization at 2024-10-31T08:34:53.281296470Z for 55
+Finished task 55
+Starting task 56
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:53.361653063Z for 56
+After serialization at 2024-10-31T08:34:53.454431488Z for 56
+Finished task 56
+Starting task 57
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:53.545890151Z for 57
+After serialization at 2024-10-31T08:34:53.637896232Z for 57
+Finished task 57
+Starting task 58
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:53.729254074Z for 58
+After serialization at 2024-10-31T08:34:53.820743023Z for 58
+Finished task 58
+Starting task 59
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:53.909370290Z for 59
+After serialization at 2024-10-31T08:34:54.002733923Z for 59
+Finished task 59
+Starting task 60
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:54.093945647Z for 60
+After serialization at 2024-10-31T08:34:54.186486347Z for 60
+Finished task 60
+Starting task 61
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:54.280111332Z for 61
+After serialization at 2024-10-31T08:34:54.372199773Z for 61
+Finished task 61
+Starting task 62
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:54.439606470Z for 62
+After serialization at 2024-10-31T08:34:54.532601686Z for 62
+Finished task 62
+Starting task 63
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:54.606461587Z for 63
+After serialization at 2024-10-31T08:34:54.703000979Z for 63
+Finished task 63
+Starting task 64
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:54.796332739Z for 64
+After serialization at 2024-10-31T08:34:54.891148922Z for 64
+Finished task 64
+Starting task 65
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:54.981868376Z for 65
+After serialization at 2024-10-31T08:34:55.074927676Z for 65
+Finished task 65
+Starting task 66
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:55.158354684Z for 66
+After serialization at 2024-10-31T08:34:55.254535841Z for 66
+Finished task 66
+Starting task 67
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:55.354512293Z for 67
+After serialization at 2024-10-31T08:34:55.447292681Z for 67
+Finished task 67
+Starting task 68
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:55.536508880Z for 68
+After serialization at 2024-10-31T08:34:55.630635076Z for 68
+Finished task 68
+Starting task 69
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:55.716824444Z for 69
+After serialization at 2024-10-31T08:34:55.811171805Z for 69
+Finished task 69
+Starting task 70
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:55.898407693Z for 70
+After serialization at 2024-10-31T08:34:55.991300581Z for 70
+Finished task 70
+Starting task 71
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:56.066860979Z for 71
+After serialization at 2024-10-31T08:34:56.159261920Z for 71
+Finished task 71
+Starting task 72
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:56.230120267Z for 72
+After serialization at 2024-10-31T08:34:56.323576178Z for 72
+Finished task 72
+Starting task 73
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:56.428934200Z for 73
+After serialization at 2024-10-31T08:34:56.520756014Z for 73
+Finished task 73
+Starting task 74
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:56.606181745Z for 74
+After serialization at 2024-10-31T08:34:56.699288836Z for 74
+Finished task 74
+Starting task 75
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:56.792966953Z for 75
+After serialization at 2024-10-31T08:34:56.886284567Z for 75
+Finished task 75
+Starting task 76
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:56.987898621Z for 76
+After serialization at 2024-10-31T08:34:57.081139507Z for 76
+Finished task 76
+Starting task 77
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:57.174046532Z for 77
+After serialization at 2024-10-31T08:34:57.269383413Z for 77
+Finished task 77
+Starting task 78
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:57.346815649Z for 78
+After serialization at 2024-10-31T08:34:57.440156035Z for 78
+Finished task 78
+Starting task 79
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:57.532553541Z for 79
+After serialization at 2024-10-31T08:34:57.625398870Z for 79
+Finished task 79
+Starting task 80
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:57.726185531Z for 80
+After serialization at 2024-10-31T08:34:57.818953096Z for 80
+Finished task 80
+Starting task 81
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:57.916098166Z for 81
+After serialization at 2024-10-31T08:34:58.009116108Z for 81
+Finished task 81
+Starting task 82
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:58.102268215Z for 82
+After serialization at 2024-10-31T08:34:58.193826846Z for 82
+Finished task 82
+Starting task 83
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:58.289998288Z for 83
+After serialization at 2024-10-31T08:34:58.381632118Z for 83
+Finished task 83
+Starting task 84
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:58.475786788Z for 84
+After serialization at 2024-10-31T08:34:58.569756733Z for 84
+Finished task 84
+Starting task 85
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:58.667719574Z for 85
+After serialization at 2024-10-31T08:34:58.760109619Z for 85
+Finished task 85
+Starting task 86
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:58.858462138Z for 86
+After serialization at 2024-10-31T08:34:58.950969222Z for 86
+Finished task 86
+Starting task 87
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:59.038428712Z for 87
+After serialization at 2024-10-31T08:34:59.132902619Z for 87
+Finished task 87
+Starting task 88
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:59.228244108Z for 88
+After serialization at 2024-10-31T08:34:59.321348996Z for 88
+Finished task 88
+Starting task 89
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:59.409539354Z for 89
+After serialization at 2024-10-31T08:34:59.502028224Z for 89
+Finished task 89
+Starting task 90
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:59.586502322Z for 90
+After serialization at 2024-10-31T08:34:59.678380220Z for 90
+Finished task 90
+Starting task 91
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:59.780119935Z for 91
+After serialization at 2024-10-31T08:34:59.872164889Z for 91
+Finished task 91
+Starting task 92
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:34:59.960850760Z for 92
+After serialization at 2024-10-31T08:35:00.052090819Z for 92
+Finished task 92
+Starting task 93
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:35:00.138022543Z for 93
+After serialization at 2024-10-31T08:35:00.232363806Z for 93
+Finished task 93
+Starting task 94
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:35:00.333492872Z for 94
+After serialization at 2024-10-31T08:35:00.427949302Z for 94
+Finished task 94
+Starting task 95
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:35:00.506061640Z for 95
+After serialization at 2024-10-31T08:35:00.598054129Z for 95
+Finished task 95
+Starting task 96
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:35:00.676190973Z for 96
+After serialization at 2024-10-31T08:35:00.770614174Z for 96
+Finished task 96
+Starting task 97
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:35:00.861259073Z for 97
+After serialization at 2024-10-31T08:35:00.954648913Z for 97
+Finished task 97
+Starting task 98
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:35:01.049683354Z for 98
+After serialization at 2024-10-31T08:35:01.142765484Z for 98
+Finished task 98
+Starting task 99
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:35:01.235143500Z for 99
+After serialization at 2024-10-31T08:35:01.327022902Z for 99
+Finished task 99
+Starting task 100
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-31T08:35:01.422500758Z for 100
+After serialization at 2024-10-31T08:35:01.515474273Z for 100
+Finished task 100

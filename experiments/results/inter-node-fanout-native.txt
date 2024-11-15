@@ -1,0 +1,2542 @@
+ROUND 1
+
+
+Start transfer of 10485760 at 2024-10-30 07:26:42.322948469 UTC for 1
+Received chunk of 10485760 at 2024-10-30T07:26:42.332775802Z for 1
+After serialization at 2024-10-30T07:26:42.432212929Z for 1
+Finished task 1
+All tasks completed.
+
+
+
+ROUND 10
+
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:19.211004441 UTC for 9
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:19.259593440 UTC for 8
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:19.304088731 UTC for 6
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:19.356939068 UTC for 4
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:19.411815394 UTC for 7
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:19.454835249 UTC for 1
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:19.497772206 UTC for 2
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:19.546492643 UTC for 10
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:19.601428088 UTC for 5
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:19.646837914 UTC for 3
+
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-30T07:27:19.221668091Z for 9
+Received chunk of 10485760 at 2024-10-30T07:27:19.263884456Z for 8
+Received chunk of 10485760 at 2024-10-30T07:27:19.313247051Z for 6
+Received chunk of 10485760 at 2024-10-30T07:27:19.365957366Z for 4
+Received chunk of 10485760 at 2024-10-30T07:27:19.413770998Z for 7
+Received chunk of 10485760 at 2024-10-30T07:27:19.457311685Z for 1
+Received chunk of 10485760 at 2024-10-30T07:27:19.506149625Z for 2
+Received chunk of 10485760 at 2024-10-30T07:27:19.555533105Z for 10
+Received chunk of 10485760 at 2024-10-30T07:27:19.603513694Z for 5
+Received chunk of 10485760 at 2024-10-30T07:27:19.655719499Z for 3
+After serialization at 2024-10-30T07:27:20.530478597Z for 8
+Finished task 8
+After serialization at 2024-10-30T07:27:20.534778511Z for 9
+Finished task 9
+After serialization at 2024-10-30T07:27:20.546037208Z for 4
+After serialization at 2024-10-30T07:27:20.547043019Z for 7
+Finished task 4
+After serialization at 2024-10-30T07:27:20.547810058Z for 2
+Finished task 7
+Finished task 2
+After serialization at 2024-10-30T07:27:20.553641419Z for 5
+After serialization at 2024-10-30T07:27:20.554499619Z for 1
+Finished task 5
+After serialization at 2024-10-30T07:27:20.555445225Z for 6
+Finished task 1
+Finished task 6
+After serialization at 2024-10-30T07:27:20.556567224Z for 10
+Finished task 10
+After serialization at 2024-10-30T07:27:20.561518380Z for 3
+Finished task 3
+All tasks completed.
+
+
+
+
+ROUND 20
+
+
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:48.895182607 UTC for 6
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:48.948753753 UTC for 1
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:49.009573749 UTC for 7
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:49.061493789 UTC for 11
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:49.119095453 UTC for 8
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:49.162483300 UTC for 2
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:49.218218836 UTC for 14
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:49.267328492 UTC for 12
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:49.324605862 UTC for 3
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:49.377332023 UTC for 9
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:49.426727516 UTC for 4
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:49.479622298 UTC for 13
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:49.533005573 UTC for 15
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:49.587108555 UTC for 10
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:49.631259290 UTC for 5
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:49.682853613 UTC for 16
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:49.740968398 UTC for 18
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:49.792038210 UTC for 19
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:49.850715121 UTC for 17
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:27:49.897579751 UTC for 20
+
+
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-30T07:27:48.905758699Z for 6
+Received chunk of 10485760 at 2024-10-30T07:27:48.953202007Z for 1
+Received chunk of 10485760 at 2024-10-30T07:27:49.014272231Z for 7
+Received chunk of 10485760 at 2024-10-30T07:27:49.070735203Z for 11
+Received chunk of 10485760 at 2024-10-30T07:27:49.121299003Z for 8
+Received chunk of 10485760 at 2024-10-30T07:27:49.171752830Z for 2
+Received chunk of 10485760 at 2024-10-30T07:27:49.228652578Z for 14
+Received chunk of 10485760 at 2024-10-30T07:27:49.276380273Z for 12
+Received chunk of 10485760 at 2024-10-30T07:27:49.333700179Z for 3
+Received chunk of 10485760 at 2024-10-30T07:27:49.385680172Z for 9
+Received chunk of 10485760 at 2024-10-30T07:27:49.435627382Z for 4
+Received chunk of 10485760 at 2024-10-30T07:27:49.488307313Z for 13
+Received chunk of 10485760 at 2024-10-30T07:27:49.543000601Z for 15
+Received chunk of 10485760 at 2024-10-30T07:27:49.596055426Z for 10
+Received chunk of 10485760 at 2024-10-30T07:27:49.640005536Z for 5
+Received chunk of 10485760 at 2024-10-30T07:27:49.692406510Z for 16
+Received chunk of 10485760 at 2024-10-30T07:27:49.749885389Z for 18
+Received chunk of 10485760 at 2024-10-30T07:27:49.801345244Z for 19
+Received chunk of 10485760 at 2024-10-30T07:27:49.860419380Z for 17
+Received chunk of 10485760 at 2024-10-30T07:27:49.907962717Z for 20
+After serialization at 2024-10-30T07:27:51.679272403Z for 6
+Finished task 6
+After serialization at 2024-10-30T07:27:51.687192709Z for 7
+Finished task 7
+After serialization at 2024-10-30T07:27:51.690387716Z for 15
+Finished task 15
+After serialization at 2024-10-30T07:27:51.692652196Z for 14
+Finished task 14
+After serialization at 2024-10-30T07:27:51.694790412Z for 1
+Finished task 1
+After serialization at 2024-10-30T07:27:51.700856245Z for 12
+Finished task 12
+After serialization at 2024-10-30T07:27:51.704780897Z for 13
+Finished task 13
+After serialization at 2024-10-30T07:27:51.705820148Z for 10
+Finished task 10
+After serialization at 2024-10-30T07:27:51.709937143Z for 19
+Finished task 19
+After serialization at 2024-10-30T07:27:51.710863769Z for 9
+After serialization at 2024-10-30T07:27:51.711748538Z for 4
+Finished task 9
+Finished task 4
+After serialization at 2024-10-30T07:27:51.714736030Z for 16
+Finished task 16
+After serialization at 2024-10-30T07:27:51.716862755Z for 2
+Finished task 2
+After serialization at 2024-10-30T07:27:51.718545024Z for 18
+After serialization at 2024-10-30T07:27:51.719827677Z for 17
+Finished task 18
+Finished task 17
+After serialization at 2024-10-30T07:27:51.723918921Z for 5
+Finished task 5
+After serialization at 2024-10-30T07:27:51.725163167Z for 3
+After serialization at 2024-10-30T07:27:51.726481867Z for 20
+Finished task 3
+After serialization at 2024-10-30T07:27:51.728983107Z for 8
+Finished task 8
+Finished task 20
+After serialization at 2024-10-30T07:27:51.732296740Z for 11
+Finished task 11
+All tasks completed.
+
+
+ROUND 40
+
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:33.557767307 UTC for 37
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:33.622482515 UTC for 9
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:33.677256692 UTC for 6
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:33.732665812 UTC for 2
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:33.772711844 UTC for 1
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:33.819222628 UTC for 10
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:33.856670083 UTC for 7
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:33.911387631 UTC for 18
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:33.956089466 UTC for 3
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.003463220 UTC for 11
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.047580208 UTC for 19
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.089809273 UTC for 4
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.135687590 UTC for 8
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.188769831 UTC for 12
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.251166658 UTC for 20
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.299135271 UTC for 13
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.362429700 UTC for 24
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.421356180 UTC for 5
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.476184034 UTC for 21
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.534899459 UTC for 14
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.594753713 UTC for 25
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.642029330 UTC for 29
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.689173975 UTC for 15
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.736606690 UTC for 26
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.794068117 UTC for 22
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.836847492 UTC for 30
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.887469665 UTC for 16
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.945182750 UTC for 27
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:34.998270473 UTC for 17
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:35.050200866 UTC for 23
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:35.105619973 UTC for 31
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:35.155775677 UTC for 28
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:35.212187323 UTC for 36
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:35.277849289 UTC for 32
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:35.328729893 UTC for 38
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:35.382799710 UTC for 33
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:35.437989779 UTC for 40
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:35.493152917 UTC for 39
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:35.560385180 UTC for 35
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:28:35.625758454 UTC for 34
+
+Starting task 35
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-30T07:28:33.572666957Z for 37
+Received chunk of 10485760 at 2024-10-30T07:28:33.631791014Z for 9
+Received chunk of 10485760 at 2024-10-30T07:28:33.686357800Z for 6
+Received chunk of 10485760 at 2024-10-30T07:28:33.742017415Z for 2
+Received chunk of 10485760 at 2024-10-30T07:28:33.782786088Z for 1
+Received chunk of 10485760 at 2024-10-30T07:28:33.821810229Z for 10
+Received chunk of 10485760 at 2024-10-30T07:28:33.868218314Z for 7
+Received chunk of 10485760 at 2024-10-30T07:28:33.913678558Z for 18
+Received chunk of 10485760 at 2024-10-30T07:28:33.965365054Z for 3
+Received chunk of 10485760 at 2024-10-30T07:28:34.005563765Z for 11
+Received chunk of 10485760 at 2024-10-30T07:28:34.057124308Z for 19
+Received chunk of 10485760 at 2024-10-30T07:28:34.099739549Z for 4
+Received chunk of 10485760 at 2024-10-30T07:28:34.145523998Z for 8
+Received chunk of 10485760 at 2024-10-30T07:28:34.197930158Z for 12
+Received chunk of 10485760 at 2024-10-30T07:28:34.260588257Z for 20
+Received chunk of 10485760 at 2024-10-30T07:28:34.308317639Z for 13
+Received chunk of 10485760 at 2024-10-30T07:28:34.372678989Z for 24
+Received chunk of 10485760 at 2024-10-30T07:28:34.430699871Z for 5
+Received chunk of 10485760 at 2024-10-30T07:28:34.485103857Z for 21
+Received chunk of 10485760 at 2024-10-30T07:28:34.547594541Z for 14
+Received chunk of 10485760 at 2024-10-30T07:28:34.603672066Z for 25
+Received chunk of 10485760 at 2024-10-30T07:28:34.651704611Z for 29
+Received chunk of 10485760 at 2024-10-30T07:28:34.699156643Z for 15
+Received chunk of 10485760 at 2024-10-30T07:28:34.744823809Z for 26
+Received chunk of 10485760 at 2024-10-30T07:28:34.803777571Z for 22
+Received chunk of 10485760 at 2024-10-30T07:28:34.850187181Z for 30
+Received chunk of 10485760 at 2024-10-30T07:28:34.897319521Z for 16
+Received chunk of 10485760 at 2024-10-30T07:28:34.955400408Z for 27
+Received chunk of 10485760 at 2024-10-30T07:28:35.007346732Z for 17
+Received chunk of 10485760 at 2024-10-30T07:28:35.059742240Z for 23
+Received chunk of 10485760 at 2024-10-30T07:28:35.115153276Z for 31
+Received chunk of 10485760 at 2024-10-30T07:28:35.165093125Z for 28
+Received chunk of 10485760 at 2024-10-30T07:28:35.221140426Z for 36
+Received chunk of 10485760 at 2024-10-30T07:28:35.288028017Z for 32
+Received chunk of 10485760 at 2024-10-30T07:28:35.337598235Z for 38
+Received chunk of 10485760 at 2024-10-30T07:28:35.391490726Z for 33
+Received chunk of 10485760 at 2024-10-30T07:28:35.447180095Z for 40
+Received chunk of 10485760 at 2024-10-30T07:28:35.502024067Z for 39
+Received chunk of 10485760 at 2024-10-30T07:28:35.576203289Z for 35
+Received chunk of 10485760 at 2024-10-30T07:28:35.635046939Z for 34
+After serialization at 2024-10-30T07:28:39.078590532Z for 6
+Finished task 6
+After serialization at 2024-10-30T07:28:39.081242245Z for 37
+Finished task 37
+After serialization at 2024-10-30T07:28:39.082196640Z for 9
+Finished task 9
+After serialization at 2024-10-30T07:28:39.088708041Z for 10
+Finished task 10
+After serialization at 2024-10-30T07:28:39.091769554Z for 2
+Finished task 2
+After serialization at 2024-10-30T07:28:39.097368721Z for 25
+After serialization at 2024-10-30T07:28:39.098309426Z for 23
+Finished task 25
+Finished task 23
+After serialization at 2024-10-30T07:28:39.100104588Z for 32
+Finished task 32
+After serialization at 2024-10-30T07:28:39.104048895Z for 8
+Finished task 8
+After serialization at 2024-10-30T07:28:39.105161507Z for 14
+Finished task 14
+After serialization at 2024-10-30T07:28:39.106221997Z for 5
+Finished task 5
+After serialization at 2024-10-30T07:28:39.110031995Z for 15
+Finished task 15
+After serialization at 2024-10-30T07:28:39.111015423Z for 29
+Finished task 29
+After serialization at 2024-10-30T07:28:39.112130083Z for 7
+After serialization at 2024-10-30T07:28:39.113164575Z for 21
+Finished task 7
+Finished task 21
+After serialization at 2024-10-30T07:28:39.117159081Z for 30
+After serialization at 2024-10-30T07:28:39.118408194Z for 22
+Finished task 22
+Finished task 30
+After serialization at 2024-10-30T07:28:39.119676552Z for 16
+Finished task 16
+After serialization at 2024-10-30T07:28:39.120659596Z for 31
+Finished task 31
+After serialization at 2024-10-30T07:28:39.124816114Z for 38
+Finished task 38
+After serialization at 2024-10-30T07:28:39.125900303Z for 33
+Finished task 33
+After serialization at 2024-10-30T07:28:39.128157466Z for 28
+Finished task 28
+After serialization at 2024-10-30T07:28:39.129531252Z for 13
+Finished task 13
+After serialization at 2024-10-30T07:28:39.131418636Z for 12
+Finished task 12
+After serialization at 2024-10-30T07:28:39.134806543Z for 1
+Finished task 1
+After serialization at 2024-10-30T07:28:39.136871576Z for 26
+After serialization at 2024-10-30T07:28:39.137668444Z for 3
+Finished task 26
+Finished task 3
+After serialization at 2024-10-30T07:28:39.140003181Z for 11
+Finished task 11
+After serialization at 2024-10-30T07:28:39.141875107Z for 24
+Finished task 24
+After serialization at 2024-10-30T07:28:39.145318827Z for 27
+Finished task 27
+After serialization at 2024-10-30T07:28:39.147088561Z for 19
+Finished task 19
+After serialization at 2024-10-30T07:28:39.148182923Z for 4
+Finished task 4
+After serialization at 2024-10-30T07:28:39.150649928Z for 17
+After serialization at 2024-10-30T07:28:39.152354127Z for 20
+Finished task 17
+Finished task 20
+After serialization at 2024-10-30T07:28:39.157113014Z for 36
+Finished task 36
+After serialization at 2024-10-30T07:28:39.159472746Z for 34
+Finished task 34
+After serialization at 2024-10-30T07:28:39.160878604Z for 40
+After serialization at 2024-10-30T07:28:39.161862526Z for 18
+Finished task 40
+Finished task 18
+After serialization at 2024-10-30T07:28:39.251156142Z for 35
+Finished task 35
+After serialization at 2024-10-30T07:28:39.254064783Z for 39
+Finished task 39
+All tasks completed.
+
+ROUND 60
+
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-30T07:29:07.925732373Z for 55
+Received chunk of 10485760 at 2024-10-30T07:29:07.995173408Z for 1
+Received chunk of 10485760 at 2024-10-30T07:29:08.047022622Z for 19
+Received chunk of 10485760 at 2024-10-30T07:29:08.095977530Z for 25
+Received chunk of 10485760 at 2024-10-30T07:29:08.141316599Z for 11
+Received chunk of 10485760 at 2024-10-30T07:29:08.179331490Z for 2
+Received chunk of 10485760 at 2024-10-30T07:29:08.228659764Z for 26
+Received chunk of 10485760 at 2024-10-30T07:29:08.272193163Z for 20
+Received chunk of 10485760 at 2024-10-30T07:29:08.325922659Z for 12
+Received chunk of 10485760 at 2024-10-30T07:29:08.374358758Z for 3
+Received chunk of 10485760 at 2024-10-30T07:29:08.419543025Z for 27
+Received chunk of 10485760 at 2024-10-30T07:29:08.475029702Z for 21
+Received chunk of 10485760 at 2024-10-30T07:29:08.534877211Z for 4
+Received chunk of 10485760 at 2024-10-30T07:29:08.583116338Z for 28
+Received chunk of 10485760 at 2024-10-30T07:29:08.638220043Z for 13
+Received chunk of 10485760 at 2024-10-30T07:29:08.688750718Z for 22
+Received chunk of 10485760 at 2024-10-30T07:29:08.741639049Z for 5
+Received chunk of 10485760 at 2024-10-30T07:29:08.786574361Z for 29
+Received chunk of 10485760 at 2024-10-30T07:29:08.826342444Z for 23
+Received chunk of 10485760 at 2024-10-30T07:29:08.872165292Z for 14
+Received chunk of 10485760 at 2024-10-30T07:29:08.939852972Z for 6
+Received chunk of 10485760 at 2024-10-30T07:29:08.999473095Z for 30
+Received chunk of 10485760 at 2024-10-30T07:29:09.064746718Z for 24
+Received chunk of 10485760 at 2024-10-30T07:29:09.108783276Z for 7
+Received chunk of 10485760 at 2024-10-30T07:29:09.161840262Z for 15
+Received chunk of 10485760 at 2024-10-30T07:29:09.214281260Z for 31
+Received chunk of 10485760 at 2024-10-30T07:29:09.267872270Z for 35
+Received chunk of 10485760 at 2024-10-30T07:29:09.321378825Z for 16
+Received chunk of 10485760 at 2024-10-30T07:29:09.370283463Z for 8
+Received chunk of 10485760 at 2024-10-30T07:29:09.429625771Z for 32
+Received chunk of 10485760 at 2024-10-30T07:29:09.488177574Z for 17
+Received chunk of 10485760 at 2024-10-30T07:29:09.534626590Z for 9
+Received chunk of 10485760 at 2024-10-30T07:29:09.582384948Z for 36
+Received chunk of 10485760 at 2024-10-30T07:29:09.630908283Z for 33
+Received chunk of 10485760 at 2024-10-30T07:29:09.676839310Z for 18
+Received chunk of 10485760 at 2024-10-30T07:29:09.729606590Z for 10
+Received chunk of 10485760 at 2024-10-30T07:29:09.789544487Z for 34
+Received chunk of 10485760 at 2024-10-30T07:29:09.842935029Z for 37
+Received chunk of 10485760 at 2024-10-30T07:29:09.903460222Z for 42
+Received chunk of 10485760 at 2024-10-30T07:29:09.962008208Z for 47
+Received chunk of 10485760 at 2024-10-30T07:29:10.015613928Z for 51
+Received chunk of 10485760 at 2024-10-30T07:29:10.059598140Z for 43
+Received chunk of 10485760 at 2024-10-30T07:29:10.113929718Z for 38
+Received chunk of 10485760 at 2024-10-30T07:29:10.173019614Z for 48
+Received chunk of 10485760 at 2024-10-30T07:29:10.231351479Z for 52
+Received chunk of 10485760 at 2024-10-30T07:29:10.286168043Z for 44
+Received chunk of 10485760 at 2024-10-30T07:29:10.347561226Z for 39
+Received chunk of 10485760 at 2024-10-30T07:29:10.407916461Z for 49
+Received chunk of 10485760 at 2024-10-30T07:29:10.466309758Z for 45
+Received chunk of 10485760 at 2024-10-30T07:29:10.515208068Z for 53
+Received chunk of 10485760 at 2024-10-30T07:29:10.559922326Z for 40
+Received chunk of 10485760 at 2024-10-30T07:29:10.604946948Z for 50
+Received chunk of 10485760 at 2024-10-30T07:29:10.650129533Z for 46
+Received chunk of 10485760 at 2024-10-30T07:29:10.709999580Z for 54
+Received chunk of 10485760 at 2024-10-30T07:29:10.766343492Z for 58
+Received chunk of 10485760 at 2024-10-30T07:29:10.815946256Z for 56
+Received chunk of 10485760 at 2024-10-30T07:29:10.861019009Z for 41
+Received chunk of 10485760 at 2024-10-30T07:29:10.914967282Z for 59
+Received chunk of 10485760 at 2024-10-30T07:29:10.971171546Z for 57
+Received chunk of 10485760 at 2024-10-30T07:29:11.043431816Z for 60
+After serialization at 2024-10-30T07:29:16.064842838Z for 19
+Finished task 19
+After serialization at 2024-10-30T07:29:16.067550860Z for 1
+Finished task 1
+After serialization at 2024-10-30T07:29:16.072614540Z for 55
+Finished task 55
+After serialization at 2024-10-30T07:29:16.079502500Z for 2
+Finished task 2
+After serialization at 2024-10-30T07:29:16.082287401Z for 25
+Finished task 25
+After serialization at 2024-10-30T07:29:16.085449863Z for 26
+Finished task 26
+After serialization at 2024-10-30T07:29:16.086449901Z for 22
+After serialization at 2024-10-30T07:29:16.088202445Z for 11
+Finished task 22
+Finished task 11
+After serialization at 2024-10-30T07:29:16.090342631Z for 50
+Finished task 50
+After serialization at 2024-10-30T07:29:16.094596526Z for 41
+After serialization at 2024-10-30T07:29:16.095538945Z for 52
+Finished task 41
+Finished task 52
+After serialization at 2024-10-30T07:29:16.096614124Z for 35
+After serialization at 2024-10-30T07:29:16.098581156Z for 17
+Finished task 35
+After serialization at 2024-10-30T07:29:16.100679028Z for 14
+Finished task 17
+Finished task 14
+After serialization at 2024-10-30T07:29:16.102014298Z for 38
+Finished task 38
+After serialization at 2024-10-30T07:29:16.105112576Z for 8
+Finished task 8
+After serialization at 2024-10-30T07:29:16.108050685Z for 31
+Finished task 31
+After serialization at 2024-10-30T07:29:16.109189310Z for 53
+Finished task 53
+After serialization at 2024-10-30T07:29:16.112690790Z for 27
+After serialization at 2024-10-30T07:29:16.113727637Z for 59
+Finished task 27
+Finished task 59
+After serialization at 2024-10-30T07:29:16.115046229Z for 16
+Finished task 16
+After serialization at 2024-10-30T07:29:16.116489842Z for 24
+Finished task 24
+After serialization at 2024-10-30T07:29:16.121188037Z for 34
+After serialization at 2024-10-30T07:29:16.122250145Z for 12
+Finished task 12
+Finished task 34
+After serialization at 2024-10-30T07:29:16.125848988Z for 7
+Finished task 7
+After serialization at 2024-10-30T07:29:16.127726880Z for 9
+Finished task 9
+After serialization at 2024-10-30T07:29:16.130106878Z for 45
+After serialization at 2024-10-30T07:29:16.131329423Z for 37
+Finished task 45
+Finished task 37
+After serialization at 2024-10-30T07:29:16.134839970Z for 36
+Finished task 36
+After serialization at 2024-10-30T07:29:16.136535268Z for 54
+Finished task 54
+After serialization at 2024-10-30T07:29:16.138917017Z for 43
+Finished task 43
+After serialization at 2024-10-30T07:29:16.139910452Z for 15
+Finished task 15
+After serialization at 2024-10-30T07:29:16.141480493Z for 44
+Finished task 44
+After serialization at 2024-10-30T07:29:16.144571499Z for 56
+After serialization at 2024-10-30T07:29:16.145745583Z for 18
+Finished task 56
+After serialization at 2024-10-30T07:29:16.147376275Z for 32
+Finished task 18
+Finished task 32
+After serialization at 2024-10-30T07:29:16.148792309Z for 5
+Finished task 5
+After serialization at 2024-10-30T07:29:16.154805106Z for 57
+Finished task 57
+After serialization at 2024-10-30T07:29:16.155954210Z for 3
+After serialization at 2024-10-30T07:29:16.157198746Z for 4
+Finished task 3
+After serialization at 2024-10-30T07:29:16.159384826Z for 58
+Finished task 4
+Finished task 58
+After serialization at 2024-10-30T07:29:16.164670689Z for 20
+After serialization at 2024-10-30T07:29:16.165628590Z for 42
+Finished task 20
+Finished task 42
+After serialization at 2024-10-30T07:29:16.168335122Z for 30
+Finished task 30
+After serialization at 2024-10-30T07:29:16.170624358Z for 49
+Finished task 49
+After serialization at 2024-10-30T07:29:16.172122184Z for 21
+After serialization at 2024-10-30T07:29:16.173206869Z for 47
+Finished task 21
+Finished task 47
+After serialization at 2024-10-30T07:29:16.175305980Z for 39
+Finished task 39
+After serialization at 2024-10-30T07:29:16.180833780Z for 33
+Finished task 33
+After serialization at 2024-10-30T07:29:16.183810702Z for 48
+Finished task 48
+After serialization at 2024-10-30T07:29:16.185296413Z for 6
+After serialization at 2024-10-30T07:29:16.186548913Z for 40
+Finished task 6
+After serialization at 2024-10-30T07:29:16.187877120Z for 60
+Finished task 60
+Finished task 40
+After serialization at 2024-10-30T07:29:16.303650141Z for 10
+Finished task 10
+After serialization at 2024-10-30T07:29:16.388735341Z for 13
+Finished task 13
+After serialization at 2024-10-30T07:29:16.415956521Z for 29
+Finished task 29
+After serialization at 2024-10-30T07:29:16.416992716Z for 28
+Finished task 28
+After serialization at 2024-10-30T07:29:16.444749706Z for 51
+After serialization at 2024-10-30T07:29:16.445880570Z for 46
+Finished task 51
+Finished task 46
+After serialization at 2024-10-30T07:29:16.452947651Z for 23
+Finished task 23
+All tasks completed.
+
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:07.915360738 UTC for 55
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:07.985864632 UTC for 1
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.037157571 UTC for 19
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.086979940 UTC for 25
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.131380363 UTC for 11
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.170036986 UTC for 2
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.219400112 UTC for 26
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.261699993 UTC for 20
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.316865288 UTC for 12
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.364391522 UTC for 3
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.407680410 UTC for 27
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.465857939 UTC for 21
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.525860584 UTC for 4
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.573568918 UTC for 28
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.628409801 UTC for 13
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.678556435 UTC for 22
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.732289698 UTC for 5
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.777876250 UTC for 29
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.817215072 UTC for 23
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.861881994 UTC for 14
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.930645124 UTC for 6
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:08.989920086 UTC for 30
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:09.056500996 UTC for 24
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:09.100209609 UTC for 7
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:09.152812813 UTC for 15
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:09.205378344 UTC for 31
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:09.258333648 UTC for 35
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:09.312694489 UTC for 16
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:09.360844202 UTC for 8
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:09.419596305 UTC for 32
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:09.479221339 UTC for 17
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:09.522089432 UTC for 9
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:09.572444460 UTC for 36
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:09.621655267 UTC for 33
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:09.667489573 UTC for 18
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:09.720346985 UTC for 10
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:09.780565017 UTC for 34
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:09.833968654 UTC for 37
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:09.894526539 UTC for 42
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:09.952608837 UTC for 47
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.007090122 UTC for 51
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.050291945 UTC for 43
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.105080067 UTC for 38
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.164594163 UTC for 48
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.221883950 UTC for 52
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.276756804 UTC for 44
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.338224606 UTC for 39
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.398488757 UTC for 49
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.457011 UTC for 45
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.505823295 UTC for 53
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.549380161 UTC for 40
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.594693164 UTC for 50
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.640952525 UTC for 46
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.700804070 UTC for 54
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.756954601 UTC for 58
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.805998413 UTC for 56
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.851671396 UTC for 41
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.905564699 UTC for 59
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:10.961803017 UTC for 57
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:11.029173487 UTC for 60
+
+
+
+
+ROUND 80
+
+Starting task 80
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-30T07:29:38.599736194Z for 77
+Received chunk of 10485760 at 2024-10-30T07:29:38.648700070Z for 4
+Received chunk of 10485760 at 2024-10-30T07:29:38.700329833Z for 1
+Received chunk of 10485760 at 2024-10-30T07:29:38.754774552Z for 6
+Received chunk of 10485760 at 2024-10-30T07:29:38.812871580Z for 11
+Received chunk of 10485760 at 2024-10-30T07:29:38.860436078Z for 2
+Received chunk of 10485760 at 2024-10-30T07:29:38.917605890Z for 5
+Received chunk of 10485760 at 2024-10-30T07:29:38.971451050Z for 7
+Received chunk of 10485760 at 2024-10-30T07:29:39.043638496Z for 12
+Received chunk of 10485760 at 2024-10-30T07:29:39.094994130Z for 3
+Received chunk of 10485760 at 2024-10-30T07:29:39.140981555Z for 8
+Received chunk of 10485760 at 2024-10-30T07:29:39.197793922Z for 24
+Received chunk of 10485760 at 2024-10-30T07:29:39.256996215Z for 39
+Received chunk of 10485760 at 2024-10-30T07:29:39.317979213Z for 9
+Received chunk of 10485760 at 2024-10-30T07:29:39.368381390Z for 13
+Received chunk of 10485760 at 2024-10-30T07:29:39.413170392Z for 25
+Received chunk of 10485760 at 2024-10-30T07:29:39.466500949Z for 10
+Received chunk of 10485760 at 2024-10-30T07:29:39.510363839Z for 40
+Received chunk of 10485760 at 2024-10-30T07:29:39.555271425Z for 50
+Received chunk of 10485760 at 2024-10-30T07:29:39.611631358Z for 14
+Received chunk of 10485760 at 2024-10-30T07:29:39.661116700Z for 26
+Received chunk of 10485760 at 2024-10-30T07:29:39.717332245Z for 41
+Received chunk of 10485760 at 2024-10-30T07:29:39.773745991Z for 51
+Received chunk of 10485760 at 2024-10-30T07:29:39.828792196Z for 15
+Received chunk of 10485760 at 2024-10-30T07:29:39.874195765Z for 42
+Received chunk of 10485760 at 2024-10-30T07:29:39.917499290Z for 27
+Received chunk of 10485760 at 2024-10-30T07:29:39.962198946Z for 43
+Received chunk of 10485760 at 2024-10-30T07:29:40.018612024Z for 52
+Received chunk of 10485760 at 2024-10-30T07:29:40.070467792Z for 16
+Received chunk of 10485760 at 2024-10-30T07:29:40.122257090Z for 28
+Received chunk of 10485760 at 2024-10-30T07:29:40.186403594Z for 44
+Received chunk of 10485760 at 2024-10-30T07:29:40.240298837Z for 17
+Received chunk of 10485760 at 2024-10-30T07:29:40.300054234Z for 53
+Received chunk of 10485760 at 2024-10-30T07:29:40.344925079Z for 29
+Received chunk of 10485760 at 2024-10-30T07:29:40.412394911Z for 45
+Received chunk of 10485760 at 2024-10-30T07:29:40.468478047Z for 54
+Received chunk of 10485760 at 2024-10-30T07:29:40.514650912Z for 18
+Received chunk of 10485760 at 2024-10-30T07:29:40.556737888Z for 30
+Received chunk of 10485760 at 2024-10-30T07:29:40.619871605Z for 46
+Received chunk of 10485760 at 2024-10-30T07:29:40.667928723Z for 55
+Received chunk of 10485760 at 2024-10-30T07:29:40.714800381Z for 19
+Received chunk of 10485760 at 2024-10-30T07:29:40.765490140Z for 47
+Received chunk of 10485760 at 2024-10-30T07:29:40.826540260Z for 56
+Received chunk of 10485760 at 2024-10-30T07:29:40.872038554Z for 31
+Received chunk of 10485760 at 2024-10-30T07:29:40.919867211Z for 20
+Received chunk of 10485760 at 2024-10-30T07:29:40.979557210Z for 57
+Received chunk of 10485760 at 2024-10-30T07:29:41.030021701Z for 48
+Received chunk of 10485760 at 2024-10-30T07:29:41.082742909Z for 58
+Received chunk of 10485760 at 2024-10-30T07:29:41.127536173Z for 32
+Received chunk of 10485760 at 2024-10-30T07:29:41.175386040Z for 21
+Received chunk of 10485760 at 2024-10-30T07:29:41.224308468Z for 49
+Received chunk of 10485760 at 2024-10-30T07:29:41.268285508Z for 59
+Received chunk of 10485760 at 2024-10-30T07:29:41.320988553Z for 33
+Received chunk of 10485760 at 2024-10-30T07:29:41.374334386Z for 22
+Received chunk of 10485760 at 2024-10-30T07:29:41.424312303Z for 64
+Received chunk of 10485760 at 2024-10-30T07:29:41.477952313Z for 60
+Received chunk of 10485760 at 2024-10-30T07:29:41.529385977Z for 34
+Received chunk of 10485760 at 2024-10-30T07:29:41.582633296Z for 65
+Received chunk of 10485760 at 2024-10-30T07:29:41.629727997Z for 23
+Received chunk of 10485760 at 2024-10-30T07:29:41.685680046Z for 35
+Received chunk of 10485760 at 2024-10-30T07:29:41.731512479Z for 61
+Received chunk of 10485760 at 2024-10-30T07:29:41.784499513Z for 36
+Received chunk of 10485760 at 2024-10-30T07:29:41.832457471Z for 69
+Received chunk of 10485760 at 2024-10-30T07:29:41.887057669Z for 62
+Received chunk of 10485760 at 2024-10-30T07:29:41.940454526Z for 66
+Received chunk of 10485760 at 2024-10-30T07:29:41.995921138Z for 37
+Received chunk of 10485760 at 2024-10-30T07:29:42.043149455Z for 70
+Received chunk of 10485760 at 2024-10-30T07:29:42.089750949Z for 63
+Received chunk of 10485760 at 2024-10-30T07:29:42.142050889Z for 38
+Received chunk of 10485760 at 2024-10-30T07:29:42.189515772Z for 67
+Received chunk of 10485760 at 2024-10-30T07:29:42.246830627Z for 73
+Received chunk of 10485760 at 2024-10-30T07:29:42.303169558Z for 71
+Received chunk of 10485760 at 2024-10-30T07:29:42.359633522Z for 76
+Received chunk of 10485760 at 2024-10-30T07:29:42.405503754Z for 74
+Received chunk of 10485760 at 2024-10-30T07:29:42.453703514Z for 68
+Received chunk of 10485760 at 2024-10-30T07:29:42.528197946Z for 72
+Received chunk of 10485760 at 2024-10-30T07:29:42.579694109Z for 75
+Received chunk of 10485760 at 2024-10-30T07:29:42.634898207Z for 79
+Received chunk of 10485760 at 2024-10-30T07:29:42.691301010Z for 78
+Received chunk of 10485760 at 2024-10-30T07:29:42.746394394Z for 80
+After serialization at 2024-10-30T07:29:49.701821029Z for 4
+Finished task 4
+After serialization at 2024-10-30T07:29:49.705517384Z for 77
+Finished task 77
+After serialization at 2024-10-30T07:29:49.718995443Z for 2
+Finished task 2
+After serialization at 2024-10-30T07:29:49.722614013Z for 5
+Finished task 5
+After serialization at 2024-10-30T07:29:49.724247944Z for 11
+After serialization at 2024-10-30T07:29:49.725388514Z for 6
+Finished task 11
+Finished task 6
+After serialization at 2024-10-30T07:29:49.729812365Z for 24
+After serialization at 2024-10-30T07:29:49.731672092Z for 16
+Finished task 24
+After serialization at 2024-10-30T07:29:49.733259060Z for 9
+Finished task 16
+Finished task 9
+After serialization at 2024-10-30T07:29:49.736662186Z for 13
+Finished task 13
+After serialization at 2024-10-30T07:29:49.738953798Z for 63
+After serialization at 2024-10-30T07:29:49.739922226Z for 39
+Finished task 39
+After serialization at 2024-10-30T07:29:49.741124402Z for 78
+Finished task 63
+Finished task 78
+After serialization at 2024-10-30T07:29:49.744780151Z for 18
+Finished task 18
+After serialization at 2024-10-30T07:29:49.746612360Z for 50
+After serialization at 2024-10-30T07:29:49.747683494Z for 10
+Finished task 50
+After serialization at 2024-10-30T07:29:49.749905661Z for 33
+Finished task 10
+After serialization at 2024-10-30T07:29:49.751373936Z for 74
+Finished task 33
+Finished task 74
+After serialization at 2024-10-30T07:29:49.756062878Z for 14
+Finished task 14
+After serialization at 2024-10-30T07:29:49.758048883Z for 42
+Finished task 42
+After serialization at 2024-10-30T07:29:49.759889289Z for 60
+Finished task 60
+After serialization at 2024-10-30T07:29:49.761366424Z for 31
+Finished task 31
+After serialization at 2024-10-30T07:29:49.764565889Z for 41
+Finished task 41
+After serialization at 2024-10-30T07:29:49.766009762Z for 56
+Finished task 56
+After serialization at 2024-10-30T07:29:49.767029638Z for 48
+Finished task 48
+After serialization at 2024-10-30T07:29:49.768635701Z for 47
+Finished task 47
+After serialization at 2024-10-30T07:29:49.771877703Z for 15
+After serialization at 2024-10-30T07:29:49.772844603Z for 20
+Finished task 15
+Finished task 20
+After serialization at 2024-10-30T07:29:49.775768239Z for 30
+Finished task 30
+After serialization at 2024-10-30T07:29:49.776770137Z for 8
+Finished task 8
+After serialization at 2024-10-30T07:29:49.781430415Z for 28
+Finished task 28
+After serialization at 2024-10-30T07:29:49.782845096Z for 64
+After serialization at 2024-10-30T07:29:49.783838649Z for 3
+Finished task 64
+Finished task 3
+After serialization at 2024-10-30T07:29:49.785165505Z for 36
+Finished task 36
+After serialization at 2024-10-30T07:29:49.787557844Z for 49
+Finished task 49
+After serialization at 2024-10-30T07:29:49.791660171Z for 51
+After serialization at 2024-10-30T07:29:49.792728905Z for 57
+Finished task 51
+After serialization at 2024-10-30T07:29:49.794081359Z for 17
+Finished task 57
+After serialization at 2024-10-30T07:29:49.795157063Z for 67
+Finished task 17
+Finished task 67
+After serialization at 2024-10-30T07:29:49.800284455Z for 37
+Finished task 37
+After serialization at 2024-10-30T07:29:49.801643431Z for 44
+After serialization at 2024-10-30T07:29:49.802660836Z for 69
+Finished task 44
+Finished task 69
+After serialization at 2024-10-30T07:29:49.803839128Z for 32
+Finished task 32
+After serialization at 2024-10-30T07:29:49.806208902Z for 21
+Finished task 21
+After serialization at 2024-10-30T07:29:49.809637435Z for 53
+Finished task 53
+After serialization at 2024-10-30T07:29:49.810898008Z for 25
+Finished task 25
+After serialization at 2024-10-30T07:29:49.812253345Z for 58
+Finished task 58
+After serialization at 2024-10-30T07:29:49.815974584Z for 52
+After serialization at 2024-10-30T07:29:49.817032840Z for 38
+Finished task 52
+Finished task 38
+After serialization at 2024-10-30T07:29:49.818274994Z for 23
+Finished task 23
+After serialization at 2024-10-30T07:29:49.821062441Z for 27
+Finished task 27
+After serialization at 2024-10-30T07:29:49.824910428Z for 65
+After serialization at 2024-10-30T07:29:49.826181863Z for 45
+Finished task 65
+After serialization at 2024-10-30T07:29:49.827712364Z for 61
+Finished task 45
+Finished task 61
+After serialization at 2024-10-30T07:29:49.829117017Z for 12
+Finished task 12
+After serialization at 2024-10-30T07:29:49.834377506Z for 79
+After serialization at 2024-10-30T07:29:49.835835461Z for 62
+Finished task 62
+Finished task 79
+After serialization at 2024-10-30T07:29:49.839799282Z for 46
+After serialization at 2024-10-30T07:29:49.840865123Z for 43
+Finished task 46
+Finished task 43
+After serialization at 2024-10-30T07:29:49.842186575Z for 66
+Finished task 66
+After serialization at 2024-10-30T07:29:49.846685403Z for 19
+Finished task 19
+After serialization at 2024-10-30T07:29:49.849016721Z for 68
+Finished task 68
+After serialization at 2024-10-30T07:29:49.850422788Z for 59
+Finished task 59
+After serialization at 2024-10-30T07:29:49.852314685Z for 70
+After serialization at 2024-10-30T07:29:49.853472356Z for 29
+Finished task 70
+Finished task 29
+After serialization at 2024-10-30T07:29:49.855963845Z for 73
+Finished task 73
+After serialization at 2024-10-30T07:29:49.857336321Z for 22
+Finished task 22
+After serialization at 2024-10-30T07:29:49.860212049Z for 75
+After serialization at 2024-10-30T07:29:49.861292903Z for 71
+Finished task 75
+Finished task 71
+After serialization at 2024-10-30T07:29:49.865308518Z for 54
+After serialization at 2024-10-30T07:29:49.866649217Z for 76
+Finished task 54
+Finished task 76
+After serialization at 2024-10-30T07:29:49.868494240Z for 72
+Finished task 72
+After serialization at 2024-10-30T07:29:49.870110445Z for 80
+Finished task 80
+After serialization at 2024-10-30T07:29:49.871808909Z for 34
+Finished task 34
+After serialization at 2024-10-30T07:29:49.874473258Z for 35
+After serialization at 2024-10-30T07:29:49.875440205Z for 55
+Finished task 35
+Finished task 55
+After serialization at 2024-10-30T07:29:49.926396662Z for 7
+Finished task 7
+After serialization at 2024-10-30T07:29:49.950491205Z for 26
+Finished task 26
+After serialization at 2024-10-30T07:29:49.963346962Z for 40
+Finished task 40
+After serialization at 2024-10-30T07:29:49.975419845Z for 1
+Finished task 1
+All tasks completed.
+
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:38.586265136 UTC for 77
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:38.638973964 UTC for 4
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:38.690731925 UTC for 1
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:38.744986811 UTC for 6
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:38.803293924 UTC for 11
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:38.850814803 UTC for 2
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:38.907577379 UTC for 5
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:38.961420918 UTC for 7
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.033533679 UTC for 12
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.085326164 UTC for 3
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.131842331 UTC for 8
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.188176178 UTC for 24
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.247720960 UTC for 39
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.308709516 UTC for 9
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.359301822 UTC for 13
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.402216593 UTC for 25
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.457686358 UTC for 10
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.500767974 UTC for 40
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.545987327 UTC for 50
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.602399581 UTC for 14
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.651936640 UTC for 26
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.707426876 UTC for 41
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.764723863 UTC for 51
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.819049158 UTC for 15
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.865261605 UTC for 42
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.908165038 UTC for 27
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:39.953162044 UTC for 43
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.009283048 UTC for 52
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.060607777 UTC for 16
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.113462311 UTC for 28
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.177292764 UTC for 44
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.231228320 UTC for 17
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.290281651 UTC for 53
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.335743648 UTC for 29
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.400883734 UTC for 45
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.457828542 UTC for 54
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.505376413 UTC for 18
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.548136928 UTC for 30
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.609556400 UTC for 46
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.659072086 UTC for 55
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.706163922 UTC for 19
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.752166304 UTC for 47
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.816590791 UTC for 56
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.862873045 UTC for 31
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.911470471 UTC for 20
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:40.970556955 UTC for 57
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.020569616 UTC for 48
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.074133013 UTC for 58
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.118467757 UTC for 32
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.166327404 UTC for 21
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.215199819 UTC for 49
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.259301119 UTC for 59
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.311891610 UTC for 33
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.365918610 UTC for 22
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.414690306 UTC for 64
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.466379084 UTC for 60
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.520519724 UTC for 34
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.572492772 UTC for 65
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.620676486 UTC for 23
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.676206783 UTC for 35
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.721954013 UTC for 61
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.775623327 UTC for 36
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.823035531 UTC for 69
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.877368830 UTC for 62
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.930092936 UTC for 66
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:41.986601327 UTC for 37
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:42.030570729 UTC for 70
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:42.080082801 UTC for 63
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:42.133206865 UTC for 38
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:42.179908204 UTC for 67
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:42.236299214 UTC for 73
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:42.292481504 UTC for 71
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:42.348455899 UTC for 76
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:42.395061138 UTC for 74
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:42.444303529 UTC for 68
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:42.518886430 UTC for 72
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:42.569537760 UTC for 75
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:42.625597936 UTC for 79
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:42.682324567 UTC for 78
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:29:42.736066837 UTC for 80
+
+
+
+
+ROUND 100
+
+
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:15.687081818 UTC for 97
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:15.739361276 UTC for 1
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:15.800263709 UTC for 41
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:15.850936747 UTC for 28
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:15.898534376 UTC for 14
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:15.949837223 UTC for 2
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.006860809 UTC for 42
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.051197282 UTC for 29
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.097353552 UTC for 43
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.149886958 UTC for 3
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.195729909 UTC for 15
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.246752229 UTC for 30
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.299029736 UTC for 4
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.344819692 UTC for 44
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.392128163 UTC for 31
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.449066205 UTC for 16
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.509095976 UTC for 5
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.561562476 UTC for 45
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.609095692 UTC for 32
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.648224172 UTC for 6
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.695400477 UTC for 46
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.741748353 UTC for 17
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.792611247 UTC for 33
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.854162766 UTC for 7
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.902959480 UTC for 47
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:16.955861565 UTC for 18
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.010045581 UTC for 8
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.057386551 UTC for 34
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.111468527 UTC for 48
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.159176226 UTC for 19
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.203673758 UTC for 9
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.244644130 UTC for 20
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.296481320 UTC for 49
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.343065360 UTC for 35
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.396330552 UTC for 10
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.458196853 UTC for 21
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.515896589 UTC for 50
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.571029299 UTC for 36
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.619202015 UTC for 11
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.666749909 UTC for 22
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.716638781 UTC for 51
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.764650344 UTC for 23
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.812689951 UTC for 37
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.860840012 UTC for 12
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.905895024 UTC for 52
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:17.958969960 UTC for 24
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.006729598 UTC for 38
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.057050728 UTC for 53
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.109915075 UTC for 13
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.162444420 UTC for 25
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.206871823 UTC for 39
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.250601266 UTC for 54
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.294738869 UTC for 57
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.338814700 UTC for 40
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.390708349 UTC for 26
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.449435063 UTC for 55
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.500152781 UTC for 69
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.549491461 UTC for 56
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.595023576 UTC for 27
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.640127928 UTC for 58
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.692248263 UTC for 70
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.745102799 UTC for 84
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.803297281 UTC for 78
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.850328841 UTC for 59
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.908967649 UTC for 71
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:18.963146703 UTC for 79
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:19.031194933 UTC for 85
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:19.090291006 UTC for 72
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:19.144900325 UTC for 60
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:19.214338 UTC for 80
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:19.276590327 UTC for 86
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:19.330520288 UTC for 73
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:19.392753616 UTC for 61
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:19.440749294 UTC for 81
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:19.493623799 UTC for 87
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:19.548261701 UTC for 74
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:19.601816766 UTC for 82
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:19.654714745 UTC for 62
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:19.717472538 UTC for 75
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:19.771513165 UTC for 83
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:19.823071041 UTC for 88
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:19.861576150 UTC for 63
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:19.906395176 UTC for 76
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:19.954977449 UTC for 89
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:20.011335513 UTC for 64
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:20.069799497 UTC for 93
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:20.119569105 UTC for 90
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:20.171822183 UTC for 77
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:20.227972255 UTC for 65
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:20.276521832 UTC for 94
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:20.325346915 UTC for 91
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:20.371809101 UTC for 66
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:20.425547195 UTC for 96
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:20.481196622 UTC for 95
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:20.532383431 UTC for 92
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:20.590993995 UTC for 67
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:20.644971236 UTC for 98
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:20.692390334 UTC for 68
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:20.743227349 UTC for 99
+args: ["/function", "arg", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-30 07:30:20.808173462 UTC for 100
+
+
+
+Connect to "http://128.131.57.188:8080/"
+Received chunk of 10485760 at 2024-10-30T07:30:15.698337364Z for 97
+Received chunk of 10485760 at 2024-10-30T07:30:15.748964455Z for 1
+Received chunk of 10485760 at 2024-10-30T07:30:15.802950165Z for 41
+Received chunk of 10485760 at 2024-10-30T07:30:15.860302778Z for 28
+Received chunk of 10485760 at 2024-10-30T07:30:15.907665292Z for 14
+Received chunk of 10485760 at 2024-10-30T07:30:15.960089433Z for 2
+Received chunk of 10485760 at 2024-10-30T07:30:16.016431045Z for 42
+Received chunk of 10485760 at 2024-10-30T07:30:16.060829072Z for 29
+Received chunk of 10485760 at 2024-10-30T07:30:16.107458350Z for 43
+Received chunk of 10485760 at 2024-10-30T07:30:16.159030081Z for 3
+Received chunk of 10485760 at 2024-10-30T07:30:16.205597841Z for 15
+Received chunk of 10485760 at 2024-10-30T07:30:16.257318095Z for 30
+Received chunk of 10485760 at 2024-10-30T07:30:16.308261915Z for 4
+Received chunk of 10485760 at 2024-10-30T07:30:16.353853730Z for 44
+Received chunk of 10485760 at 2024-10-30T07:30:16.401331311Z for 31
+Received chunk of 10485760 at 2024-10-30T07:30:16.459129529Z for 16
+Received chunk of 10485760 at 2024-10-30T07:30:16.518279841Z for 5
+Received chunk of 10485760 at 2024-10-30T07:30:16.571040658Z for 45
+Received chunk of 10485760 at 2024-10-30T07:30:16.618817857Z for 32
+Received chunk of 10485760 at 2024-10-30T07:30:16.657828471Z for 6
+Received chunk of 10485760 at 2024-10-30T07:30:16.704395436Z for 46
+Received chunk of 10485760 at 2024-10-30T07:30:16.750749804Z for 17
+Received chunk of 10485760 at 2024-10-30T07:30:16.801448770Z for 33
+Received chunk of 10485760 at 2024-10-30T07:30:16.863437430Z for 7
+Received chunk of 10485760 at 2024-10-30T07:30:16.911837021Z for 47
+Received chunk of 10485760 at 2024-10-30T07:30:16.966737621Z for 18
+Received chunk of 10485760 at 2024-10-30T07:30:17.019516058Z for 8
+Received chunk of 10485760 at 2024-10-30T07:30:17.069417727Z for 34
+Received chunk of 10485760 at 2024-10-30T07:30:17.120491026Z for 48
+Received chunk of 10485760 at 2024-10-30T07:30:17.169186990Z for 19
+Received chunk of 10485760 at 2024-10-30T07:30:17.212893936Z for 9
+Received chunk of 10485760 at 2024-10-30T07:30:17.253898581Z for 20
+Received chunk of 10485760 at 2024-10-30T07:30:17.306574789Z for 49
+Received chunk of 10485760 at 2024-10-30T07:30:17.352441896Z for 35
+Received chunk of 10485760 at 2024-10-30T07:30:17.405364342Z for 10
+Received chunk of 10485760 at 2024-10-30T07:30:17.468262288Z for 21
+Received chunk of 10485760 at 2024-10-30T07:30:17.524700671Z for 50
+Received chunk of 10485760 at 2024-10-30T07:30:17.580351600Z for 36
+Received chunk of 10485760 at 2024-10-30T07:30:17.628715844Z for 11
+Received chunk of 10485760 at 2024-10-30T07:30:17.677597231Z for 22
+Received chunk of 10485760 at 2024-10-30T07:30:17.726484038Z for 51
+Received chunk of 10485760 at 2024-10-30T07:30:17.773646686Z for 23
+Received chunk of 10485760 at 2024-10-30T07:30:17.822519204Z for 37
+Received chunk of 10485760 at 2024-10-30T07:30:17.869633881Z for 12
+Received chunk of 10485760 at 2024-10-30T07:30:17.915135641Z for 52
+Received chunk of 10485760 at 2024-10-30T07:30:17.969302298Z for 24
+Received chunk of 10485760 at 2024-10-30T07:30:18.015865034Z for 38
+Received chunk of 10485760 at 2024-10-30T07:30:18.066150450Z for 53
+Received chunk of 10485760 at 2024-10-30T07:30:18.118847380Z for 13
+Received chunk of 10485760 at 2024-10-30T07:30:18.171314943Z for 25
+Received chunk of 10485760 at 2024-10-30T07:30:18.216182223Z for 39
+Received chunk of 10485760 at 2024-10-30T07:30:18.259781260Z for 54
+Received chunk of 10485760 at 2024-10-30T07:30:18.303833169Z for 57
+Received chunk of 10485760 at 2024-10-30T07:30:18.349381712Z for 40
+Received chunk of 10485760 at 2024-10-30T07:30:18.399693832Z for 26
+Received chunk of 10485760 at 2024-10-30T07:30:18.462434195Z for 55
+Received chunk of 10485760 at 2024-10-30T07:30:18.509619989Z for 69
+Received chunk of 10485760 at 2024-10-30T07:30:18.558920113Z for 56
+Received chunk of 10485760 at 2024-10-30T07:30:18.605457930Z for 27
+Received chunk of 10485760 at 2024-10-30T07:30:18.649358164Z for 58
+Received chunk of 10485760 at 2024-10-30T07:30:18.701517904Z for 70
+Received chunk of 10485760 at 2024-10-30T07:30:18.754849545Z for 84
+Received chunk of 10485760 at 2024-10-30T07:30:18.812621683Z for 78
+Received chunk of 10485760 at 2024-10-30T07:30:18.859692201Z for 59
+Received chunk of 10485760 at 2024-10-30T07:30:18.918037497Z for 71
+Received chunk of 10485760 at 2024-10-30T07:30:18.973608480Z for 79
+Received chunk of 10485760 at 2024-10-30T07:30:19.041808673Z for 85
+Received chunk of 10485760 at 2024-10-30T07:30:19.099417529Z for 72
+Received chunk of 10485760 at 2024-10-30T07:30:19.153985293Z for 60
+Received chunk of 10485760 at 2024-10-30T07:30:19.223397513Z for 80
+Received chunk of 10485760 at 2024-10-30T07:30:19.285801514Z for 86
+Received chunk of 10485760 at 2024-10-30T07:30:19.340012804Z for 73
+Received chunk of 10485760 at 2024-10-30T07:30:19.401443770Z for 61
+Received chunk of 10485760 at 2024-10-30T07:30:19.451085826Z for 81
+Received chunk of 10485760 at 2024-10-30T07:30:19.503191768Z for 87
+Received chunk of 10485760 at 2024-10-30T07:30:19.558989114Z for 74
+Received chunk of 10485760 at 2024-10-30T07:30:19.611728007Z for 82
+Received chunk of 10485760 at 2024-10-30T07:30:19.663804934Z for 62
+Received chunk of 10485760 at 2024-10-30T07:30:19.726959226Z for 75
+Received chunk of 10485760 at 2024-10-30T07:30:19.780822425Z for 83
+Received chunk of 10485760 at 2024-10-30T07:30:19.832223198Z for 88
+Received chunk of 10485760 at 2024-10-30T07:30:19.871116545Z for 63
+Received chunk of 10485760 at 2024-10-30T07:30:19.914934248Z for 76
+Received chunk of 10485760 at 2024-10-30T07:30:19.965663911Z for 89
+Received chunk of 10485760 at 2024-10-30T07:30:20.020700105Z for 64
+Received chunk of 10485760 at 2024-10-30T07:30:20.078720363Z for 93
+Received chunk of 10485760 at 2024-10-30T07:30:20.128044368Z for 90
+Received chunk of 10485760 at 2024-10-30T07:30:20.181179470Z for 77
+Received chunk of 10485760 at 2024-10-30T07:30:20.237114624Z for 65
+Received chunk of 10485760 at 2024-10-30T07:30:20.285223621Z for 94
+Received chunk of 10485760 at 2024-10-30T07:30:20.334117373Z for 91
+Received chunk of 10485760 at 2024-10-30T07:30:20.381225638Z for 66
+Received chunk of 10485760 at 2024-10-30T07:30:20.434031298Z for 96
+Received chunk of 10485760 at 2024-10-30T07:30:20.490658508Z for 95
+Received chunk of 10485760 at 2024-10-30T07:30:20.542450094Z for 92
+Received chunk of 10485760 at 2024-10-30T07:30:20.601135668Z for 67
+Received chunk of 10485760 at 2024-10-30T07:30:20.654405420Z for 98
+Received chunk of 10485760 at 2024-10-30T07:30:20.701798558Z for 68
+Received chunk of 10485760 at 2024-10-30T07:30:20.752489518Z for 99
+Received chunk of 10485760 at 2024-10-30T07:30:20.819105521Z for 100
+After serialization at 2024-10-30T07:30:29.142649663Z for 1
+Finished task 1
+After serialization at 2024-10-30T07:30:29.155009650Z for 97
+Finished task 97
+After serialization at 2024-10-30T07:30:29.257645944Z for 28
+Finished task 28
+After serialization at 2024-10-30T07:30:29.268198713Z for 2
+Finished task 2
+After serialization at 2024-10-30T07:30:29.281089577Z for 42
+Finished task 42
+After serialization at 2024-10-30T07:30:29.282531840Z for 29
+Finished task 29
+After serialization at 2024-10-30T07:30:29.284484619Z for 3
+Finished task 3
+After serialization at 2024-10-30T07:30:29.287620990Z for 43
+Finished task 43
+After serialization at 2024-10-30T07:30:29.289673144Z for 5
+Finished task 5
+After serialization at 2024-10-30T07:30:29.292081159Z for 18
+Finished task 18
+After serialization at 2024-10-30T07:30:29.294896999Z for 30
+After serialization at 2024-10-30T07:30:29.296006801Z for 38
+After serialization at 2024-10-30T07:30:29.297092962Z for 4
+Finished task 30
+Finished task 38
+Finished task 4
+After serialization at 2024-10-30T07:30:29.302535612Z for 6
+Finished task 6
+After serialization at 2024-10-30T07:30:29.303972169Z for 47
+Finished task 47
+After serialization at 2024-10-30T07:30:29.305316060Z for 44
+Finished task 44
+After serialization at 2024-10-30T07:30:29.306951059Z for 45
+After serialization at 2024-10-30T07:30:29.309156674Z for 17
+Finished task 17
+Finished task 45
+After serialization at 2024-10-30T07:30:29.314021601Z for 46
+After serialization at 2024-10-30T07:30:29.315162757Z for 33
+Finished task 46
+Finished task 33
+After serialization at 2024-10-30T07:30:29.316590904Z for 70
+Finished task 70
+After serialization at 2024-10-30T07:30:29.320225041Z for 32
+After serialization at 2024-10-30T07:30:29.321525892Z for 31
+Finished task 32
+Finished task 31
+After serialization at 2024-10-30T07:30:29.323764210Z for 7
+Finished task 7
+After serialization at 2024-10-30T07:30:29.326019801Z for 16
+Finished task 16
+After serialization at 2024-10-30T07:30:29.328970093Z for 26
+Finished task 26
+After serialization at 2024-10-30T07:30:29.330806127Z for 61
+Finished task 61
+After serialization at 2024-10-30T07:30:29.332475103Z for 20
+After serialization at 2024-10-30T07:30:29.335822898Z for 67
+Finished task 67
+Finished task 20
+After serialization at 2024-10-30T07:30:29.339802128Z for 27
+Finished task 27
+After serialization at 2024-10-30T07:30:29.342606865Z for 58
+Finished task 58
+After serialization at 2024-10-30T07:30:29.344458772Z for 87
+Finished task 87
+After serialization at 2024-10-30T07:30:29.346279220Z for 86
+After serialization at 2024-10-30T07:30:29.347426105Z for 49
+Finished task 49
+Finished task 86
+After serialization at 2024-10-30T07:30:29.349811433Z for 84
+After serialization at 2024-10-30T07:30:29.351255841Z for 48
+Finished task 48
+After serialization at 2024-10-30T07:30:29.352974545Z for 35
+Finished task 84
+Finished task 35
+After serialization at 2024-10-30T07:30:29.356171773Z for 71
+Finished task 71
+After serialization at 2024-10-30T07:30:29.359628207Z for 75
+Finished task 75
+After serialization at 2024-10-30T07:30:29.360938382Z for 52
+Finished task 52
+After serialization at 2024-10-30T07:30:29.362514368Z for 62
+Finished task 62
+After serialization at 2024-10-30T07:30:29.364120279Z for 69
+Finished task 69
+After serialization at 2024-10-30T07:30:29.367148545Z for 13
+After serialization at 2024-10-30T07:30:29.368731415Z for 39
+Finished task 13
+After serialization at 2024-10-30T07:30:29.370996402Z for 40
+Finished task 39
+Finished task 40
+After serialization at 2024-10-30T07:30:29.373824696Z for 95
+Finished task 95
+After serialization at 2024-10-30T07:30:29.375302751Z for 50
+Finished task 50
+After serialization at 2024-10-30T07:30:29.377441611Z for 54
+Finished task 54
+After serialization at 2024-10-30T07:30:29.380076586Z for 65
+Finished task 65
+After serialization at 2024-10-30T07:30:29.383212096Z for 94
+After serialization at 2024-10-30T07:30:29.384432214Z for 60
+Finished task 94
+Finished task 60
+After serialization at 2024-10-30T07:30:29.386461491Z for 83
+Finished task 83
+After serialization at 2024-10-30T07:30:29.388115487Z for 66
+Finished task 66
+After serialization at 2024-10-30T07:30:29.391243202Z for 80
+After serialization at 2024-10-30T07:30:29.392403484Z for 98
+Finished task 80
+Finished task 98
+After serialization at 2024-10-30T07:30:29.394106857Z for 88
+Finished task 88
+After serialization at 2024-10-30T07:30:29.397504531Z for 23
+Finished task 23
+After serialization at 2024-10-30T07:30:29.399366621Z for 73
+Finished task 73
+After serialization at 2024-10-30T07:30:29.401303465Z for 9
+Finished task 9
+After serialization at 2024-10-30T07:30:29.403844270Z for 63
+Finished task 63
+After serialization at 2024-10-30T07:30:29.405252430Z for 10
+Finished task 10
+After serialization at 2024-10-30T07:30:29.406770761Z for 99
+Finished task 99
+After serialization at 2024-10-30T07:30:29.410740290Z for 51
+After serialization at 2024-10-30T07:30:29.412248520Z for 85
+Finished task 51
+Finished task 85
+After serialization at 2024-10-30T07:30:29.414096135Z for 76
+Finished task 76
+After serialization at 2024-10-30T07:30:29.416488106Z for 100
+Finished task 100
+After serialization at 2024-10-30T07:30:29.420479809Z for 21
+Finished task 21
+After serialization at 2024-10-30T07:30:29.422484960Z for 37
+After serialization at 2024-10-30T07:30:29.423961907Z for 74
+Finished task 37
+Finished task 74
+After serialization at 2024-10-30T07:30:29.425449800Z for 93
+Finished task 93
+After serialization at 2024-10-30T07:30:29.427034227Z for 81
+Finished task 81
+After serialization at 2024-10-30T07:30:29.431566675Z for 24
+Finished task 24
+After serialization at 2024-10-30T07:30:29.436406037Z for 82
+Finished task 82
+After serialization at 2024-10-30T07:30:29.439442540Z for 90
+Finished task 90
+After serialization at 2024-10-30T07:30:29.440661809Z for 68
+Finished task 68
+After serialization at 2024-10-30T07:30:29.442133482Z for 89
+Finished task 89
+After serialization at 2024-10-30T07:30:29.446720958Z for 91
+After serialization at 2024-10-30T07:30:29.447881494Z for 79
+Finished task 91
+Finished task 79
+After serialization at 2024-10-30T07:30:29.451146066Z for 64
+Finished task 64
+After serialization at 2024-10-30T07:30:29.453619131Z for 53
+Finished task 53
+After serialization at 2024-10-30T07:30:29.456014807Z for 78
+Finished task 78
+After serialization at 2024-10-30T07:30:29.457411909Z for 72
+Finished task 72
+After serialization at 2024-10-30T07:30:29.459080635Z for 57
+Finished task 57
+After serialization at 2024-10-30T07:30:29.463840872Z for 96
+Finished task 96
+After serialization at 2024-10-30T07:30:29.465541422Z for 19
+After serialization at 2024-10-30T07:30:29.466880739Z for 36
+Finished task 36
+Finished task 19
+After serialization at 2024-10-30T07:30:29.468775405Z for 59
+Finished task 59
+After serialization at 2024-10-30T07:30:29.473633747Z for 22
+Finished task 22
+After serialization at 2024-10-30T07:30:29.475468861Z for 11
+Finished task 11
+After serialization at 2024-10-30T07:30:29.477537854Z for 56
+After serialization at 2024-10-30T07:30:29.479708536Z for 12
+Finished task 56
+Finished task 12
+After serialization at 2024-10-30T07:30:29.504439767Z for 15
+Finished task 15
+After serialization at 2024-10-30T07:30:29.724784150Z for 41
+Finished task 41
+After serialization at 2024-10-30T07:30:29.765379647Z for 55
+Finished task 55
+After serialization at 2024-10-30T07:30:29.780298093Z for 34
+Finished task 34
+After serialization at 2024-10-30T07:30:29.819766007Z for 8
+Finished task 8
+After serialization at 2024-10-30T07:30:29.829950526Z for 14
+Finished task 14
+After serialization at 2024-10-30T07:30:29.836012275Z for 92
+After serialization at 2024-10-30T07:30:29.836576957Z for 77
+Finished task 92
+Finished task 77
+After serialization at 2024-10-30T07:30:29.838662639Z for 25
+Finished task 25
+All tasks completed.

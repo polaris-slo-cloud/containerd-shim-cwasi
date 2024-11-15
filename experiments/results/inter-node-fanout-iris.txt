@@ -1,0 +1,3765 @@
+ROUND 10
+
+Secondary function 
+downloading http://127.0.0.1:8888/files/file_10M.txt
+Starting task 1
+start transfer at 2024-10-29 22:55:11.076413057 UTC
+Server closed
+Finished task 1
+Starting task 2
+start transfer at 2024-10-29 22:55:11.164436191 UTC
+Server closed
+Finished task 2
+Starting task 3
+start transfer at 2024-10-29 22:55:11.417078616 UTC
+Server closed
+Finished task 3
+Starting task 4
+start transfer at 2024-10-29 22:55:11.648682055 UTC
+Server closed
+Finished task 4
+Starting task 5
+start transfer at 2024-10-29 22:55:11.875889988 UTC
+Server closed
+Finished task 5
+Starting task 6
+start transfer at 2024-10-29 22:55:12.079457016 UTC
+Server closed
+Finished task 6
+Starting task 7
+start transfer at 2024-10-29 22:55:12.286937956 UTC
+Server closed
+Finished task 7
+Starting task 8
+start transfer at 2024-10-29 22:55:12.503135695 UTC
+Server closed
+Finished task 8
+Starting task 9
+start transfer at 2024-10-29 22:55:12.723586310 UTC
+Server closed
+Finished task 9
+Starting task 10
+start transfer at 2024-10-29 22:55:12.939403460 UTC
+Server closed
+Finished task 10
+All tasks completed.
+
+before init
+Received chunk of size: 10941684 at 2024-10-29T22:55:11.176122439Z for 1
+After serialization at 2024-10-29T22:55:11.176148297Z for 1
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 2
+[2024-10-29 22:55:11.321] [error] Bind guest directory failed:54
+[2024-10-29 22:55:11.321] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T22:55:11.432838555Z for 2
+After serialization at 2024-10-29T22:55:11.432852410Z for 2
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 3
+[2024-10-29 22:55:11.549] [error] Bind guest directory failed:54
+[2024-10-29 22:55:11.549] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T22:55:11.660957221Z for 3
+After serialization at 2024-10-29T22:55:11.660971199Z for 3
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 4
+[2024-10-29 22:55:11.775] [error] Bind guest directory failed:54
+[2024-10-29 22:55:11.775] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T22:55:11.889730621Z for 4
+After serialization at 2024-10-29T22:55:11.889745381Z for 4
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 5
+[2024-10-29 22:55:11.976] [error] Bind guest directory failed:54
+[2024-10-29 22:55:11.976] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T22:55:12.089496557Z for 5
+After serialization at 2024-10-29T22:55:12.089508197Z for 5
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 6
+[2024-10-29 22:55:12.185] [error] Bind guest directory failed:54
+[2024-10-29 22:55:12.185] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T22:55:12.295792991Z for 6
+After serialization at 2024-10-29T22:55:12.295824039Z for 6
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 7
+[2024-10-29 22:55:12.401] [error] Bind guest directory failed:54
+[2024-10-29 22:55:12.401] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T22:55:12.517921441Z for 7
+After serialization at 2024-10-29T22:55:12.517935225Z for 7
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 8
+[2024-10-29 22:55:12.627] [error] Bind guest directory failed:54
+[2024-10-29 22:55:12.627] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T22:55:12.737338048Z for 8
+After serialization at 2024-10-29T22:55:12.737353172Z for 8
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 9
+[2024-10-29 22:55:12.840] [error] Bind guest directory failed:54
+[2024-10-29 22:55:12.840] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T22:55:12.951335132Z for 9
+After serialization at 2024-10-29T22:55:12.951349706Z for 9
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 10
+[2024-10-29 22:55:13.060] [error] Bind guest directory failed:54
+[2024-10-29 22:55:13.060] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T22:55:13.171319046Z for 10
+After serialization at 2024-10-29T22:55:13.171334133Z for 10
+FnB Shim Finished. Result from moduleB: 5
+Cleaning up all containers...
+All tasks have been processed and cleaned up.
+
+
+ROUND 20
+
+downloading http://127.0.0.1:8888/files/file_10M.txt
+Starting task 1
+start transfer at 2024-10-29 22:57:02.304565146 UTC
+Server closed
+Finished task 1
+Starting task 2
+start transfer at 2024-10-29 22:57:02.393163819 UTC
+Server closed
+Finished task 2
+Starting task 3
+start transfer at 2024-10-29 22:57:02.613079089 UTC
+Server closed
+Finished task 3
+Starting task 4
+start transfer at 2024-10-29 22:57:02.827474286 UTC
+Server closed
+Finished task 4
+Starting task 5
+start transfer at 2024-10-29 22:57:03.033076665 UTC
+Server closed
+Finished task 5
+Starting task 6
+start transfer at 2024-10-29 22:57:03.233105618 UTC
+Server closed
+Finished task 6
+Starting task 7
+start transfer at 2024-10-29 22:57:03.439757935 UTC
+Server closed
+Finished task 7
+Starting task 8
+start transfer at 2024-10-29 22:57:03.658801301 UTC
+Server closed
+Finished task 8
+Starting task 9
+start transfer at 2024-10-29 22:57:03.858546491 UTC
+Server closed
+Finished task 9
+Starting task 10
+start transfer at 2024-10-29 22:57:04.083311562 UTC
+Server closed
+Finished task 10
+Starting task 11
+start transfer at 2024-10-29 22:57:04.291565769 UTC
+Server closed
+Finished task 11
+Starting task 12
+start transfer at 2024-10-29 22:57:04.494282666 UTC
+Server closed
+Finished task 12
+Starting task 13
+start transfer at 2024-10-29 22:57:04.714093461 UTC
+Server closed
+Finished task 13
+Starting task 14
+start transfer at 2024-10-29 22:57:04.938092707 UTC
+Server closed
+Finished task 14
+Starting task 15
+start transfer at 2024-10-29 22:57:05.149202309 UTC
+Server closed
+Finished task 15
+Starting task 16
+start transfer at 2024-10-29 22:57:05.377667278 UTC
+Server closed
+Finished task 16
+Starting task 17
+start transfer at 2024-10-29 22:57:05.596724564 UTC
+Server closed
+Finished task 17
+Starting task 18
+start transfer at 2024-10-29 22:57:33.577783640 UTC
+Server closed
+Finished task 18
+Starting task 19
+start transfer at 2024-10-29 22:57:47.241534544 UTC
+Server closed
+Finished task 19
+Starting task 20
+start transfer at 2024-10-29 22:57:47.459474231 UTC
+Server closed
+Finished task 20
+All tasks completed.
+
+Starting func_b for task: 1
+[2024-10-29 22:56:47.797] [error] Bind guest directory failed:54
+[2024-10-29 22:56:47.797] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T22:57:02.405009892Z for 1
+After serialization at 2024-10-29T22:57:02.405021683Z for 1
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 2
+[2024-10-29 22:57:02.516] [error] Bind guest directory failed:54
+[2024-10-29 22:57:02.516] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T22:57:02.636179139Z for 2
+After serialization at 2024-10-29T22:57:02.636190491Z for 2
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 3
+[2024-10-29 22:57:02.732] [error] Bind guest directory failed:54
+[2024-10-29 22:57:02.732] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T22:57:02.842440568Z for 3
+After serialization at 2024-10-29T22:57:02.842453080Z for 3
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 4
+[2024-10-29 22:57:02.937] [error] Bind guest directory failed:54
+[2024-10-29 22:57:02.937] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T22:57:03.049306253Z for 4
+After serialization at 2024-10-29T22:57:03.049320209Z for 4
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 5
+[2024-10-29 22:57:03.140] [error] Bind guest directory failed:54
+[2024-10-29 22:57:03.140] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T22:57:03.249407995Z for 5
+After serialization at 2024-10-29T22:57:03.249420747Z for 5
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 6
+[2024-10-29 22:57:03.342] [error] Bind guest directory failed:54
+[2024-10-29 22:57:03.342] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T22:57:03.453443058Z for 6
+After serialization at 2024-10-29T22:57:03.453456569Z for 6
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 7
+[2024-10-29 22:57:03.559] [error] Bind guest directory failed:54
+[2024-10-29 22:57:03.559] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T22:57:03.669217117Z for 7
+After serialization at 2024-10-29T22:57:03.669228766Z for 7
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 8
+[2024-10-29 22:57:03.764] [error] Bind guest directory failed:54
+[2024-10-29 22:57:03.764] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T22:57:03.875841089Z for 8
+After serialization at 2024-10-29T22:57:03.875852432Z for 8
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 9
+[2024-10-29 22:57:03.984] [error] Bind guest directory failed:54
+[2024-10-29 22:57:03.985] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T22:57:04.094154618Z for 9
+After serialization at 2024-10-29T22:57:04.094166868Z for 9
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 10
+[2024-10-29 22:57:04.195] [error] Bind guest directory failed:54
+[2024-10-29 22:57:04.195] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T22:57:04.304969222Z for 10
+After serialization at 2024-10-29T22:57:04.304980436Z for 10
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 11
+[2024-10-29 22:57:04.401] [error] Bind guest directory failed:54
+[2024-10-29 22:57:04.401] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T22:57:04.509818207Z for 11
+After serialization at 2024-10-29T22:57:04.509828983Z for 11
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 12
+[2024-10-29 22:57:04.618] [error] Bind guest directory failed:54
+[2024-10-29 22:57:04.618] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T22:57:04.727121713Z for 12
+After serialization at 2024-10-29T22:57:04.727147032Z for 12
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 13
+[2024-10-29 22:57:04.838] [error] Bind guest directory failed:54
+[2024-10-29 22:57:04.838] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T22:57:04.947524010Z for 13
+After serialization at 2024-10-29T22:57:04.947534769Z for 13
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 14
+[2024-10-29 22:57:05.056] [error] Bind guest directory failed:54
+[2024-10-29 22:57:05.056] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T22:57:05.166653276Z for 14
+After serialization at 2024-10-29T22:57:05.166664982Z for 14
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 15
+[2024-10-29 22:57:05.277] [error] Bind guest directory failed:54
+[2024-10-29 22:57:05.277] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T22:57:05.392173934Z for 15
+After serialization at 2024-10-29T22:57:05.392188278Z for 15
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 16
+[2024-10-29 22:57:05.503] [error] Bind guest directory failed:54
+[2024-10-29 22:57:05.504] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T22:57:05.613827616Z for 16
+After serialization at 2024-10-29T22:57:05.613839196Z for 16
+FnB Shim Finished. Result from moduleB: 5
+ctr: rpc error: code = Unknown desc = ttrpc: closed: unknown
+Starting func_b for task: 17
+[2024-10-29 22:57:33.480] [error] Bind guest directory failed:54
+[2024-10-29 22:57:33.480] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T22:57:33.591882914Z for 17
+After serialization at 2024-10-29T22:57:33.591897448Z for 17
+FnB Shim Finished. Result from moduleB: 5
+ctr: rpc error: code = Unknown desc = ttrpc: closed: unknown
+Starting func_b for task: 18
+[2024-10-29 22:57:47.141] [error] Bind guest directory failed:54
+[2024-10-29 22:57:47.141] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T22:57:47.254224127Z for 18
+After serialization at 2024-10-29T22:57:47.254252045Z for 18
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 19
+[2024-10-29 22:57:47.362] [error] Bind guest directory failed:54
+[2024-10-29 22:57:47.363] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T22:57:47.475744014Z for 19
+After serialization at 2024-10-29T22:57:47.475757920Z for 19
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 20
+[2024-10-29 22:57:47.588] [error] Bind guest directory failed:54
+[2024-10-29 22:57:47.588] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T22:57:47.698951169Z for 20
+After serialization at 2024-10-29T22:57:47.698964353Z for 20
+FnB Shim Finished. Result from moduleB: 5
+Cleaning up all containers...
+All tasks have been processed and cleaned up.
+
+
+ROUND 40
+Starting task 1
+start transfer at 2024-10-29 23:02:00.141211855 UTC
+Server closed
+Finished task 1
+Starting task 2
+start transfer at 2024-10-29 23:02:00.228962455 UTC
+Server closed
+Finished task 2
+Starting task 3
+start transfer at 2024-10-29 23:02:00.423062667 UTC
+Server closed
+Finished task 3
+Starting task 4
+start transfer at 2024-10-29 23:02:00.641104957 UTC
+Server closed
+Finished task 4
+Starting task 5
+start transfer at 2024-10-29 23:02:00.856973518 UTC
+Server closed
+Finished task 5
+Starting task 6
+start transfer at 2024-10-29 23:02:01.051536416 UTC
+Server closed
+Finished task 6
+Starting task 7
+start transfer at 2024-10-29 23:02:01.260625761 UTC
+Server closed
+Finished task 7
+Starting task 8
+start transfer at 2024-10-29 23:02:01.463064884 UTC
+Server closed
+Finished task 8
+Starting task 9
+start transfer at 2024-10-29 23:02:01.686351945 UTC
+Server closed
+Finished task 9
+Starting task 10
+start transfer at 2024-10-29 23:02:01.911001177 UTC
+Server closed
+Finished task 10
+Starting task 11
+start transfer at 2024-10-29 23:02:02.116818725 UTC
+Server closed
+Finished task 11
+Starting task 12
+start transfer at 2024-10-29 23:02:02.303276194 UTC
+Server closed
+Finished task 12
+Starting task 13
+start transfer at 2024-10-29 23:02:02.505700455 UTC
+Server closed
+Finished task 13
+Starting task 14
+start transfer at 2024-10-29 23:02:02.698361814 UTC
+Server closed
+Finished task 14
+Starting task 15
+start transfer at 2024-10-29 23:02:02.897018031 UTC
+Server closed
+Finished task 15
+Starting task 16
+start transfer at 2024-10-29 23:02:03.101280691 UTC
+Server closed
+Finished task 16
+Starting task 17
+start transfer at 2024-10-29 23:02:03.299246945 UTC
+Server closed
+Finished task 17
+Starting task 18
+start transfer at 2024-10-29 23:02:03.496398459 UTC
+Server closed
+Finished task 18
+Starting task 19
+start transfer at 2024-10-29 23:02:03.695873150 UTC
+Server closed
+Finished task 19
+Starting task 20
+start transfer at 2024-10-29 23:02:03.882995213 UTC
+Server closed
+Finished task 20
+Starting task 21
+start transfer at 2024-10-29 23:02:04.082912761 UTC
+Server closed
+Finished task 21
+Starting task 22
+start transfer at 2024-10-29 23:02:04.274818948 UTC
+Server closed
+Finished task 22
+Starting task 23
+start transfer at 2024-10-29 23:02:04.473446138 UTC
+Server closed
+Finished task 23
+Starting task 24
+start transfer at 2024-10-29 23:02:04.671846327 UTC
+Server closed
+Finished task 24
+Starting task 25
+start transfer at 2024-10-29 23:02:04.863230544 UTC
+Server closed
+Finished task 25
+Starting task 26
+start transfer at 2024-10-29 23:02:19.145386106 UTC
+Server closed
+Finished task 26
+Starting task 27
+start transfer at 2024-10-29 23:02:19.374119205 UTC
+Server closed
+Finished task 27
+Starting task 28
+start transfer at 2024-10-29 23:02:19.576791503 UTC
+Server closed
+Finished task 28
+Starting task 29
+start transfer at 2024-10-29 23:02:19.801470949 UTC
+Server closed
+Finished task 29
+Starting task 30
+start transfer at 2024-10-29 23:02:20.002390668 UTC
+Server closed
+Finished task 30
+Starting task 31
+start transfer at 2024-10-29 23:02:20.234147515 UTC
+Server closed
+Finished task 31
+Starting task 32
+start transfer at 2024-10-29 23:02:20.441680835 UTC
+Server closed
+Finished task 32
+Starting task 33
+start transfer at 2024-10-29 23:02:20.652864237 UTC
+Server closed
+Finished task 33
+Starting task 34
+start transfer at 2024-10-29 23:02:20.865055196 UTC
+Server closed
+Finished task 34
+Starting task 35
+start transfer at 2024-10-29 23:02:21.094384038 UTC
+Server closed
+Finished task 35
+Starting task 36
+start transfer at 2024-10-29 23:02:21.370628686 UTC
+Server closed
+Finished task 36
+Starting task 37
+start transfer at 2024-10-29 23:02:21.584618556 UTC
+Server closed
+Finished task 37
+Starting task 38
+start transfer at 2024-10-29 23:02:21.801210492 UTC
+Server closed
+Finished task 38
+Starting task 39
+start transfer at 2024-10-29 23:02:22.005922093 UTC
+Server closed
+Finished task 39
+Starting task 40
+start transfer at 2024-10-29 23:02:22.229913989 UTC
+
+
+Starting func_b for task: 1
+[2024-10-29 23:01:52.673] [error] Bind guest directory failed:54
+[2024-10-29 23:01:52.673] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:02:00.242049668Z for 1
+After serialization at 2024-10-29T23:02:00.242070326Z for 1
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 2
+[2024-10-29 23:02:00.329] [error] Bind guest directory failed:54
+[2024-10-29 23:02:00.329] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:02:00.439059620Z for 2
+After serialization at 2024-10-29T23:02:00.439070741Z for 2
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 3
+[2024-10-29 23:02:00.545] [error] Bind guest directory failed:54
+[2024-10-29 23:02:00.545] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:02:00.657265108Z for 3
+After serialization at 2024-10-29T23:02:00.657283481Z for 3
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 4
+[2024-10-29 23:02:00.759] [error] Bind guest directory failed:54
+[2024-10-29 23:02:00.759] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:02:00.873486889Z for 4
+After serialization at 2024-10-29T23:02:00.873498283Z for 4
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 5
+[2024-10-29 23:02:00.953] [error] Bind guest directory failed:54
+[2024-10-29 23:02:00.953] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:02:01.062938232Z for 5
+After serialization at 2024-10-29T23:02:01.062950530Z for 5
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 6
+[2024-10-29 23:02:01.165] [error] Bind guest directory failed:54
+[2024-10-29 23:02:01.165] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:02:01.276898097Z for 6
+After serialization at 2024-10-29T23:02:01.276910021Z for 6
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 7
+[2024-10-29 23:02:01.368] [error] Bind guest directory failed:54
+[2024-10-29 23:02:01.368] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:02:01.479806561Z for 7
+After serialization at 2024-10-29T23:02:01.479819197Z for 7
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 8
+[2024-10-29 23:02:01.594] [error] Bind guest directory failed:54
+[2024-10-29 23:02:01.594] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:02:01.703526298Z for 8
+After serialization at 2024-10-29T23:02:01.703538082Z for 8
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 9
+[2024-10-29 23:02:01.817] [error] Bind guest directory failed:54
+[2024-10-29 23:02:01.817] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:02:01.927520125Z for 9
+After serialization at 2024-10-29T23:02:01.927531576Z for 9
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 10
+[2024-10-29 23:02:02.019] [error] Bind guest directory failed:54
+[2024-10-29 23:02:02.019] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:02.128399593Z for 10
+After serialization at 2024-10-29T23:02:02.128412555Z for 10
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 11
+[2024-10-29 23:02:02.210] [error] Bind guest directory failed:54
+[2024-10-29 23:02:02.210] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:02.321420394Z for 11
+After serialization at 2024-10-29T23:02:02.321432533Z for 11
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 12
+[2024-10-29 23:02:02.408] [error] Bind guest directory failed:54
+[2024-10-29 23:02:02.408] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:02.518045326Z for 12
+After serialization at 2024-10-29T23:02:02.518056725Z for 12
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 13
+[2024-10-29 23:02:02.605] [error] Bind guest directory failed:54
+[2024-10-29 23:02:02.605] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:02.715139696Z for 13
+After serialization at 2024-10-29T23:02:02.715151595Z for 13
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 14
+[2024-10-29 23:02:02.800] [error] Bind guest directory failed:54
+[2024-10-29 23:02:02.800] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:02.910228085Z for 14
+After serialization at 2024-10-29T23:02:02.910239667Z for 14
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 15
+[2024-10-29 23:02:03.003] [error] Bind guest directory failed:54
+[2024-10-29 23:02:03.004] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:03.114219428Z for 15
+After serialization at 2024-10-29T23:02:03.114243138Z for 15
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 16
+[2024-10-29 23:02:03.201] [error] Bind guest directory failed:54
+[2024-10-29 23:02:03.201] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:03.311785846Z for 16
+After serialization at 2024-10-29T23:02:03.311798210Z for 16
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 17
+[2024-10-29 23:02:03.403] [error] Bind guest directory failed:54
+[2024-10-29 23:02:03.403] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:03.514606046Z for 17
+After serialization at 2024-10-29T23:02:03.514618007Z for 17
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 18
+[2024-10-29 23:02:03.601] [error] Bind guest directory failed:54
+[2024-10-29 23:02:03.601] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:03.711830285Z for 18
+After serialization at 2024-10-29T23:02:03.711842542Z for 18
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 19
+[2024-10-29 23:02:03.791] [error] Bind guest directory failed:54
+[2024-10-29 23:02:03.791] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:03.904694966Z for 19
+After serialization at 2024-10-29T23:02:03.904708218Z for 19
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 20
+[2024-10-29 23:02:03.989] [error] Bind guest directory failed:54
+[2024-10-29 23:02:03.989] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:04.098785976Z for 20
+After serialization at 2024-10-29T23:02:04.098797324Z for 20
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 21
+[2024-10-29 23:02:04.181] [error] Bind guest directory failed:54
+[2024-10-29 23:02:04.181] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:04.291082312Z for 21
+After serialization at 2024-10-29T23:02:04.291098449Z for 21
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 22
+[2024-10-29 23:02:04.380] [error] Bind guest directory failed:54
+[2024-10-29 23:02:04.381] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:04.491294401Z for 22
+After serialization at 2024-10-29T23:02:04.491306094Z for 22
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 23
+[2024-10-29 23:02:04.577] [error] Bind guest directory failed:54
+[2024-10-29 23:02:04.577] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:04.687191005Z for 23
+After serialization at 2024-10-29T23:02:04.687202970Z for 23
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 24
+[2024-10-29 23:02:04.772] [error] Bind guest directory failed:54
+[2024-10-29 23:02:04.772] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:04.882297662Z for 24
+After serialization at 2024-10-29T23:02:04.882309610Z for 24
+FnB Shim Finished. Result from moduleB: 5
+ctr: rpc error: code = Unknown desc = ttrpc: closed: unknown
+Starting func_b for task: 25
+[2024-10-29 23:02:19.050] [error] Bind guest directory failed:54
+[2024-10-29 23:02:19.050] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:19.160541556Z for 25
+After serialization at 2024-10-29T23:02:19.160567006Z for 25
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 26
+[2024-10-29 23:02:19.279] [error] Bind guest directory failed:54
+[2024-10-29 23:02:19.280] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:19.390377060Z for 26
+After serialization at 2024-10-29T23:02:19.390388297Z for 26
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 27
+[2024-10-29 23:02:19.483] [error] Bind guest directory failed:54
+[2024-10-29 23:02:19.483] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:19.592159948Z for 27
+After serialization at 2024-10-29T23:02:19.592171737Z for 27
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 28
+[2024-10-29 23:02:19.703] [error] Bind guest directory failed:54
+[2024-10-29 23:02:19.703] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:19.813874609Z for 28
+After serialization at 2024-10-29T23:02:19.813885834Z for 28
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 29
+[2024-10-29 23:02:19.908] [error] Bind guest directory failed:54
+[2024-10-29 23:02:19.908] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:20.018026789Z for 29
+After serialization at 2024-10-29T23:02:20.018038816Z for 29
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 30
+[2024-10-29 23:02:20.137] [error] Bind guest directory failed:54
+[2024-10-29 23:02:20.137] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:20.249711650Z for 30
+After serialization at 2024-10-29T23:02:20.249725296Z for 30
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 31
+[2024-10-29 23:02:20.345] [error] Bind guest directory failed:54
+[2024-10-29 23:02:20.345] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:20.456611259Z for 31
+After serialization at 2024-10-29T23:02:20.456622999Z for 31
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 32
+[2024-10-29 23:02:20.556] [error] Bind guest directory failed:54
+[2024-10-29 23:02:20.557] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:20.669856448Z for 32
+After serialization at 2024-10-29T23:02:20.669869449Z for 32
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 33
+[2024-10-29 23:02:20.766] [error] Bind guest directory failed:54
+[2024-10-29 23:02:20.766] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:20.878916687Z for 33
+After serialization at 2024-10-29T23:02:20.878929074Z for 33
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 34
+[2024-10-29 23:02:20.998] [error] Bind guest directory failed:54
+[2024-10-29 23:02:20.998] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:21.110890115Z for 34
+After serialization at 2024-10-29T23:02:21.110902236Z for 34
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 35
+ctr: snapshot "is40-35": already exists
+Starting func_b for task: 36
+[2024-10-29 23:02:21.277] [error] Bind guest directory failed:54
+[2024-10-29 23:02:21.277] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:21.386870732Z for 35
+After serialization at 2024-10-29T23:02:21.386882910Z for 35
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 37
+[2024-10-29 23:02:21.491] [error] Bind guest directory failed:54
+[2024-10-29 23:02:21.491] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:21.601128771Z for 36
+After serialization at 2024-10-29T23:02:21.601143593Z for 36
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 38
+[2024-10-29 23:02:21.705] [error] Bind guest directory failed:54
+[2024-10-29 23:02:21.705] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:21.817029853Z for 37
+After serialization at 2024-10-29T23:02:21.817041028Z for 37
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 39
+[2024-10-29 23:02:21.913] [error] Bind guest directory failed:54
+[2024-10-29 23:02:21.913] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:22.025592926Z for 38
+After serialization at 2024-10-29T23:02:22.025604810Z for 38
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 40
+[2024-10-29 23:02:22.133] [error] Bind guest directory failed:54
+[2024-10-29 23:02:22.133] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:02:22.244941114Z for 39
+After serialization at 2024-10-29T23:02:22.244952887Z for 39
+FnB Shim Finished. Result from moduleB: 5
+
+
+ROUND 60
+
+Secondary function 
+downloading http://127.0.0.1:8888/files/file_10M.txt
+Starting task 1
+start transfer at 2024-10-29 23:04:44.622400896 UTC
+Server closed
+Finished task 1
+Starting task 2
+start transfer at 2024-10-29 23:04:44.708713208 UTC
+Server closed
+Finished task 2
+Starting task 3
+start transfer at 2024-10-29 23:04:44.935217870 UTC
+Server closed
+Finished task 3
+Starting task 4
+start transfer at 2024-10-29 23:04:45.157408195 UTC
+Server closed
+Finished task 4
+Starting task 5
+start transfer at 2024-10-29 23:04:45.358441648 UTC
+Server closed
+Finished task 5
+Starting task 6
+start transfer at 2024-10-29 23:04:45.599931590 UTC
+Server closed
+Finished task 6
+Starting task 7
+start transfer at 2024-10-29 23:04:45.812994591 UTC
+Server closed
+Finished task 7
+Starting task 8
+start transfer at 2024-10-29 23:04:46.023112475 UTC
+Server closed
+Finished task 8
+Starting task 9
+start transfer at 2024-10-29 23:04:46.257380002 UTC
+Server closed
+Finished task 9
+Starting task 10
+start transfer at 2024-10-29 23:04:46.474038998 UTC
+Server closed
+Finished task 10
+Starting task 11
+start transfer at 2024-10-29 23:04:46.695524888 UTC
+Server closed
+Finished task 11
+Starting task 12
+start transfer at 2024-10-29 23:04:46.903358711 UTC
+Server closed
+Finished task 12
+Starting task 13
+start transfer at 2024-10-29 23:04:47.123807657 UTC
+Server closed
+Finished task 13
+Starting task 14
+start transfer at 2024-10-29 23:04:47.345825519 UTC
+Server closed
+Finished task 14
+Starting task 15
+start transfer at 2024-10-29 23:04:47.553420071 UTC
+Server closed
+Finished task 15
+Starting task 16
+start transfer at 2024-10-29 23:04:47.766885425 UTC
+Server closed
+Finished task 16
+Starting task 17
+start transfer at 2024-10-29 23:04:48.004329763 UTC
+Server closed
+Finished task 17
+Starting task 18
+start transfer at 2024-10-29 23:04:48.210334 UTC
+Server closed
+Finished task 18
+Starting task 19
+start transfer at 2024-10-29 23:04:48.428786363 UTC
+Server closed
+Finished task 19
+Starting task 20
+start transfer at 2024-10-29 23:04:48.651072149 UTC
+Server closed
+Finished task 20
+Starting task 21
+start transfer at 2024-10-29 23:04:48.886136670 UTC
+Server closed
+Finished task 21
+Starting task 22
+start transfer at 2024-10-29 23:04:49.128532723 UTC
+Server closed
+Finished task 22
+Starting task 23
+start transfer at 2024-10-29 23:04:49.348309335 UTC
+Server closed
+Finished task 23
+Starting task 24
+start transfer at 2024-10-29 23:04:49.562450299 UTC
+Server closed
+Finished task 24
+Starting task 25
+start transfer at 2024-10-29 23:04:49.769671786 UTC
+Server closed
+Finished task 25
+Starting task 26
+start transfer at 2024-10-29 23:04:49.994527908 UTC
+Server closed
+Finished task 26
+Starting task 27
+start transfer at 2024-10-29 23:04:50.228560974 UTC
+Server closed
+Finished task 27
+Starting task 28
+start transfer at 2024-10-29 23:04:50.444718733 UTC
+Server closed
+Finished task 28
+Starting task 29
+start transfer at 2024-10-29 23:04:50.648551659 UTC
+Server closed
+Finished task 29
+Starting task 30
+start transfer at 2024-10-29 23:04:50.859134445 UTC
+Server closed
+Finished task 30
+Starting task 31
+start transfer at 2024-10-29 23:04:51.067283425 UTC
+Server closed
+Finished task 31
+Starting task 32
+start transfer at 2024-10-29 23:04:51.278418931 UTC
+Server closed
+Finished task 32
+Starting task 33
+start transfer at 2024-10-29 23:04:51.482483801 UTC
+Server closed
+Finished task 33
+Starting task 34
+start transfer at 2024-10-29 23:05:26.157654257 UTC
+Server closed
+Finished task 34
+Starting task 35
+start transfer at 2024-10-29 23:05:26.368595101 UTC
+Server closed
+Finished task 35
+Starting task 36
+start transfer at 2024-10-29 23:05:26.579626986 UTC
+Server closed
+Finished task 36
+Starting task 37
+start transfer at 2024-10-29 23:05:26.789213551 UTC
+Server closed
+Finished task 37
+Starting task 38
+start transfer at 2024-10-29 23:05:26.996304720 UTC
+Server closed
+Finished task 38
+Starting task 39
+start transfer at 2024-10-29 23:05:27.201535541 UTC
+Server closed
+Finished task 39
+Starting task 40
+start transfer at 2024-10-29 23:05:27.419888057 UTC
+Server closed
+Finished task 40
+Starting task 41
+start transfer at 2024-10-29 23:05:27.638277017 UTC
+Server closed
+Finished task 41
+Starting task 42
+start transfer at 2024-10-29 23:05:27.844865442 UTC
+Server closed
+Finished task 42
+Starting task 43
+start transfer at 2024-10-29 23:05:28.056528915 UTC
+Server closed
+Finished task 43
+Starting task 44
+start transfer at 2024-10-29 23:05:28.261502206 UTC
+Server closed
+Finished task 44
+Starting task 45
+start transfer at 2024-10-29 23:05:28.501688674 UTC
+Server closed
+Finished task 45
+Starting task 46
+start transfer at 2024-10-29 23:05:28.704536259 UTC
+Server closed
+Finished task 46
+Starting task 47
+start transfer at 2024-10-29 23:05:28.945863985 UTC
+Server closed
+Finished task 47
+Starting task 48
+start transfer at 2024-10-29 23:05:29.162264280 UTC
+Server closed
+Finished task 48
+Starting task 49
+start transfer at 2024-10-29 23:05:29.367803648 UTC
+Server closed
+Finished task 49
+Starting task 50
+start transfer at 2024-10-29 23:05:29.570957517 UTC
+Server closed
+Finished task 50
+Starting task 51
+start transfer at 2024-10-29 23:05:29.785544789 UTC
+Server closed
+Finished task 51
+Starting task 52
+start transfer at 2024-10-29 23:05:30.024786487 UTC
+Server closed
+Finished task 52
+Starting task 53
+start transfer at 2024-10-29 23:05:30.249745730 UTC
+Server closed
+Finished task 53
+Starting task 54
+start transfer at 2024-10-29 23:05:30.457499594 UTC
+Server closed
+Finished task 54
+Starting task 55
+start transfer at 2024-10-29 23:05:30.686642232 UTC
+Server closed
+Finished task 55
+Starting task 56
+start transfer at 2024-10-29 23:05:30.890091940 UTC
+Server closed
+Finished task 56
+Starting task 57
+start transfer at 2024-10-29 23:05:31.091142619 UTC
+Server closed
+Finished task 57
+Starting task 58
+start transfer at 2024-10-29 23:05:31.306347068 UTC
+Server closed
+Finished task 58
+Starting task 59
+start transfer at 2024-10-29 23:05:31.518648073 UTC
+Server closed
+Finished task 59
+Starting task 60
+start transfer at 2024-10-29 23:05:31.748712983 UTC
+Server closed
+Finished task 60
+All tasks completed.
+
+Received chunk of size: 10941684 at 2024-10-29T23:04:44.721828583Z for 1
+After serialization at 2024-10-29T23:04:44.721851039Z for 1
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 2
+[2024-10-29 23:04:44.833] [error] Bind guest directory failed:54
+[2024-10-29 23:04:44.833] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:04:44.947182587Z for 2
+After serialization at 2024-10-29T23:04:44.947194577Z for 2
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 3
+[2024-10-29 23:04:45.060] [error] Bind guest directory failed:54
+[2024-10-29 23:04:45.060] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:04:45.170414898Z for 3
+After serialization at 2024-10-29T23:04:45.170428186Z for 3
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 4
+[2024-10-29 23:04:45.261] [error] Bind guest directory failed:54
+[2024-10-29 23:04:45.261] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:04:45.371406942Z for 4
+After serialization at 2024-10-29T23:04:45.371419317Z for 4
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 5
+[2024-10-29 23:04:45.499] [error] Bind guest directory failed:54
+[2024-10-29 23:04:45.499] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:04:45.612764800Z for 5
+After serialization at 2024-10-29T23:04:45.612778334Z for 5
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 6
+[2024-10-29 23:04:45.717] [error] Bind guest directory failed:54
+[2024-10-29 23:04:45.717] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:04:45.828135741Z for 6
+After serialization at 2024-10-29T23:04:45.828147805Z for 6
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 7
+[2024-10-29 23:04:45.927] [error] Bind guest directory failed:54
+[2024-10-29 23:04:45.927] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:04:46.037890677Z for 7
+After serialization at 2024-10-29T23:04:46.037902803Z for 7
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 8
+[2024-10-29 23:04:46.161] [error] Bind guest directory failed:54
+[2024-10-29 23:04:46.161] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:04:46.271161214Z for 8
+After serialization at 2024-10-29T23:04:46.271174189Z for 8
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 9
+[2024-10-29 23:04:46.378] [error] Bind guest directory failed:54
+[2024-10-29 23:04:46.378] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:04:46.490450558Z for 9
+After serialization at 2024-10-29T23:04:46.490463692Z for 9
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 10
+[2024-10-29 23:04:46.598] [error] Bind guest directory failed:54
+[2024-10-29 23:04:46.598] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:46.709474002Z for 10
+After serialization at 2024-10-29T23:04:46.709487383Z for 10
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 11
+[2024-10-29 23:04:46.807] [error] Bind guest directory failed:54
+[2024-10-29 23:04:46.807] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:46.917520022Z for 11
+After serialization at 2024-10-29T23:04:46.917536482Z for 11
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 12
+[2024-10-29 23:04:47.026] [error] Bind guest directory failed:54
+[2024-10-29 23:04:47.026] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:47.137951776Z for 12
+After serialization at 2024-10-29T23:04:47.137965386Z for 12
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 13
+[2024-10-29 23:04:47.252] [error] Bind guest directory failed:54
+[2024-10-29 23:04:47.252] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:47.363097664Z for 13
+After serialization at 2024-10-29T23:04:47.363112493Z for 13
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 14
+[2024-10-29 23:04:47.459] [error] Bind guest directory failed:54
+[2024-10-29 23:04:47.459] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:47.568705534Z for 14
+After serialization at 2024-10-29T23:04:47.568718346Z for 14
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 15
+[2024-10-29 23:04:47.670] [error] Bind guest directory failed:54
+[2024-10-29 23:04:47.670] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:47.781093899Z for 15
+After serialization at 2024-10-29T23:04:47.781105640Z for 15
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 16
+[2024-10-29 23:04:47.906] [error] Bind guest directory failed:54
+[2024-10-29 23:04:47.906] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:48.020483804Z for 16
+After serialization at 2024-10-29T23:04:48.020495708Z for 16
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 17
+[2024-10-29 23:04:48.113] [error] Bind guest directory failed:54
+[2024-10-29 23:04:48.113] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:48.225574097Z for 17
+After serialization at 2024-10-29T23:04:48.225586879Z for 17
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 18
+[2024-10-29 23:04:48.330] [error] Bind guest directory failed:54
+[2024-10-29 23:04:48.330] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:48.439888336Z for 18
+After serialization at 2024-10-29T23:04:48.439900067Z for 18
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 19
+[2024-10-29 23:04:48.555] [error] Bind guest directory failed:54
+[2024-10-29 23:04:48.555] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:48.664781715Z for 19
+After serialization at 2024-10-29T23:04:48.664794542Z for 19
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 20
+[2024-10-29 23:04:48.789] [error] Bind guest directory failed:54
+[2024-10-29 23:04:48.789] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:48.900173930Z for 20
+After serialization at 2024-10-29T23:04:48.900186509Z for 20
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 21
+[2024-10-29 23:04:49.027] [error] Bind guest directory failed:54
+[2024-10-29 23:04:49.027] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:49.145059115Z for 21
+After serialization at 2024-10-29T23:04:49.145074199Z for 21
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 22
+[2024-10-29 23:04:49.250] [error] Bind guest directory failed:54
+[2024-10-29 23:04:49.250] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:49.361763866Z for 22
+After serialization at 2024-10-29T23:04:49.361776034Z for 22
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 23
+[2024-10-29 23:04:49.464] [error] Bind guest directory failed:54
+[2024-10-29 23:04:49.465] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:49.575491359Z for 23
+After serialization at 2024-10-29T23:04:49.575504540Z for 23
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 24
+[2024-10-29 23:04:49.676] [error] Bind guest directory failed:54
+[2024-10-29 23:04:49.676] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:49.785509905Z for 24
+After serialization at 2024-10-29T23:04:49.785522492Z for 24
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 25
+[2024-10-29 23:04:49.893] [error] Bind guest directory failed:54
+[2024-10-29 23:04:49.893] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:50.004029614Z for 25
+After serialization at 2024-10-29T23:04:50.004041682Z for 25
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 26
+[2024-10-29 23:04:50.130] [error] Bind guest directory failed:54
+[2024-10-29 23:04:50.130] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:50.242018616Z for 26
+After serialization at 2024-10-29T23:04:50.242031443Z for 26
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 27
+[2024-10-29 23:04:50.342] [error] Bind guest directory failed:54
+[2024-10-29 23:04:50.342] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:50.458747245Z for 27
+After serialization at 2024-10-29T23:04:50.458758813Z for 27
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 28
+[2024-10-29 23:04:50.550] [error] Bind guest directory failed:54
+[2024-10-29 23:04:50.550] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:50.660736091Z for 28
+After serialization at 2024-10-29T23:04:50.660749205Z for 28
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 29
+[2024-10-29 23:04:50.761] [error] Bind guest directory failed:54
+[2024-10-29 23:04:50.761] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:50.873207788Z for 29
+After serialization at 2024-10-29T23:04:50.873221086Z for 29
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 30
+[2024-10-29 23:04:50.971] [error] Bind guest directory failed:54
+[2024-10-29 23:04:50.971] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:51.083138650Z for 30
+After serialization at 2024-10-29T23:04:51.083152816Z for 30
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 31
+[2024-10-29 23:04:51.178] [error] Bind guest directory failed:54
+[2024-10-29 23:04:51.178] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:51.288211318Z for 31
+After serialization at 2024-10-29T23:04:51.288223507Z for 31
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 32
+[2024-10-29 23:04:51.386] [error] Bind guest directory failed:54
+[2024-10-29 23:04:51.386] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:04:51.495276527Z for 32
+After serialization at 2024-10-29T23:04:51.495290387Z for 32
+FnB Shim Finished. Result from moduleB: 5
+ctr: rpc error: code = Unknown desc = ttrpc: closed: unknown
+Starting func_b for task: 33
+[2024-10-29 23:05:26.058] [error] Bind guest directory failed:54
+[2024-10-29 23:05:26.058] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:26.176688476Z for 33
+After serialization at 2024-10-29T23:05:26.176701972Z for 33
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 34
+[2024-10-29 23:05:26.269] [error] Bind guest directory failed:54
+[2024-10-29 23:05:26.269] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:26.380536337Z for 34
+After serialization at 2024-10-29T23:05:26.380549497Z for 34
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 35
+[2024-10-29 23:05:26.482] [error] Bind guest directory failed:54
+[2024-10-29 23:05:26.483] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:26.593866763Z for 35
+After serialization at 2024-10-29T23:05:26.593879330Z for 35
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 36
+[2024-10-29 23:05:26.689] [error] Bind guest directory failed:54
+[2024-10-29 23:05:26.690] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:26.806337576Z for 36
+After serialization at 2024-10-29T23:05:26.806351196Z for 36
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 37
+[2024-10-29 23:05:26.901] [error] Bind guest directory failed:54
+[2024-10-29 23:05:26.901] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:27.010905105Z for 37
+After serialization at 2024-10-29T23:05:27.010917720Z for 37
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 38
+[2024-10-29 23:05:27.105] [error] Bind guest directory failed:54
+[2024-10-29 23:05:27.105] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:27.216662488Z for 38
+After serialization at 2024-10-29T23:05:27.216675503Z for 38
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 39
+[2024-10-29 23:05:27.325] [error] Bind guest directory failed:54
+[2024-10-29 23:05:27.325] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:27.435255242Z for 39
+After serialization at 2024-10-29T23:05:27.435267739Z for 39
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 40
+[2024-10-29 23:05:27.539] [error] Bind guest directory failed:54
+[2024-10-29 23:05:27.539] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:27.650826532Z for 40
+After serialization at 2024-10-29T23:05:27.650839741Z for 40
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 41
+[2024-10-29 23:05:27.748] [error] Bind guest directory failed:54
+[2024-10-29 23:05:27.748] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:27.864668607Z for 41
+After serialization at 2024-10-29T23:05:27.864680735Z for 41
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 42
+[2024-10-29 23:05:27.960] [error] Bind guest directory failed:54
+[2024-10-29 23:05:27.960] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:28.070091732Z for 42
+After serialization at 2024-10-29T23:05:28.070103540Z for 42
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 43
+[2024-10-29 23:05:28.166] [error] Bind guest directory failed:54
+[2024-10-29 23:05:28.166] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:28.276595935Z for 43
+After serialization at 2024-10-29T23:05:28.276608019Z for 43
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 44
+[2024-10-29 23:05:28.401] [error] Bind guest directory failed:54
+[2024-10-29 23:05:28.402] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:28.515291223Z for 44
+After serialization at 2024-10-29T23:05:28.515304290Z for 44
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 45
+[2024-10-29 23:05:28.606] [error] Bind guest directory failed:54
+[2024-10-29 23:05:28.606] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:28.717910502Z for 45
+After serialization at 2024-10-29T23:05:28.717923311Z for 45
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 46
+[2024-10-29 23:05:28.847] [error] Bind guest directory failed:54
+[2024-10-29 23:05:28.848] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:28.963950506Z for 46
+After serialization at 2024-10-29T23:05:28.963964562Z for 46
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 47
+[2024-10-29 23:05:29.064] [error] Bind guest directory failed:54
+[2024-10-29 23:05:29.065] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:29.175473244Z for 47
+After serialization at 2024-10-29T23:05:29.175485593Z for 47
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 48
+[2024-10-29 23:05:29.273] [error] Bind guest directory failed:54
+[2024-10-29 23:05:29.273] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:29.382823154Z for 48
+After serialization at 2024-10-29T23:05:29.382850002Z for 48
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 49
+[2024-10-29 23:05:29.475] [error] Bind guest directory failed:54
+[2024-10-29 23:05:29.475] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:29.595910017Z for 49
+After serialization at 2024-10-29T23:05:29.595927124Z for 49
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 50
+[2024-10-29 23:05:29.691] [error] Bind guest directory failed:54
+[2024-10-29 23:05:29.691] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:29.801806474Z for 50
+After serialization at 2024-10-29T23:05:29.801818891Z for 50
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 51
+[2024-10-29 23:05:29.924] [error] Bind guest directory failed:54
+[2024-10-29 23:05:29.924] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:30.045128831Z for 51
+After serialization at 2024-10-29T23:05:30.045140675Z for 51
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 52
+[2024-10-29 23:05:30.152] [error] Bind guest directory failed:54
+[2024-10-29 23:05:30.152] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:30.263508971Z for 52
+After serialization at 2024-10-29T23:05:30.263520209Z for 52
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 53
+[2024-10-29 23:05:30.360] [error] Bind guest directory failed:54
+[2024-10-29 23:05:30.360] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:30.471197165Z for 53
+After serialization at 2024-10-29T23:05:30.471210344Z for 53
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 54
+[2024-10-29 23:05:30.587] [error] Bind guest directory failed:54
+[2024-10-29 23:05:30.587] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:30.697354173Z for 54
+After serialization at 2024-10-29T23:05:30.697365841Z for 54
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 55
+[2024-10-29 23:05:30.791] [error] Bind guest directory failed:54
+[2024-10-29 23:05:30.791] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:30.903548811Z for 55
+After serialization at 2024-10-29T23:05:30.903566259Z for 55
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 56
+[2024-10-29 23:05:30.995] [error] Bind guest directory failed:54
+[2024-10-29 23:05:30.995] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:31.105617014Z for 56
+After serialization at 2024-10-29T23:05:31.105630146Z for 56
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 57
+[2024-10-29 23:05:31.210] [error] Bind guest directory failed:54
+[2024-10-29 23:05:31.210] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:31.321373690Z for 57
+After serialization at 2024-10-29T23:05:31.321385678Z for 57
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 58
+[2024-10-29 23:05:31.421] [error] Bind guest directory failed:54
+[2024-10-29 23:05:31.421] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:31.533270166Z for 58
+After serialization at 2024-10-29T23:05:31.533284952Z for 58
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 59
+[2024-10-29 23:05:31.648] [error] Bind guest directory failed:54
+[2024-10-29 23:05:31.648] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:31.758181357Z for 59
+After serialization at 2024-10-29T23:05:31.758194295Z for 59
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 60
+[2024-10-29 23:05:31.868] [error] Bind guest directory failed:54
+[2024-10-29 23:05:31.868] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:05:31.977971937Z for 60
+After serialization at 2024-10-29T23:05:31.977987111Z for 60
+FnB Shim Finished. Result from moduleB: 5
+Cleaning up all containers...
+All tasks have been processed and cleaned up.
+
+
+ROUND 80
+
+Secondary function 
+downloading http://127.0.0.1:8888/files/file_10M.txt
+Starting task 1
+start transfer at 2024-10-29 23:08:21.561076065 UTC
+Server closed
+Finished task 1
+Starting task 2
+start transfer at 2024-10-29 23:08:21.647776607 UTC
+Server closed
+Finished task 2
+Starting task 3
+start transfer at 2024-10-29 23:08:21.870010656 UTC
+Server closed
+Finished task 3
+Starting task 4
+start transfer at 2024-10-29 23:08:22.092496509 UTC
+Server closed
+Finished task 4
+Starting task 5
+start transfer at 2024-10-29 23:08:22.311122582 UTC
+Server closed
+Finished task 5
+Starting task 6
+start transfer at 2024-10-29 23:08:22.511952997 UTC
+Server closed
+Finished task 6
+Starting task 7
+start transfer at 2024-10-29 23:08:22.723429292 UTC
+Server closed
+Finished task 7
+Starting task 8
+start transfer at 2024-10-29 23:08:22.928708247 UTC
+Server closed
+Finished task 8
+Starting task 9
+start transfer at 2024-10-29 23:08:23.152931760 UTC
+Server closed
+Finished task 9
+Starting task 10
+start transfer at 2024-10-29 23:08:23.360854422 UTC
+Server closed
+Finished task 10
+Starting task 11
+start transfer at 2024-10-29 23:08:23.581616786 UTC
+Server closed
+Finished task 11
+Starting task 12
+start transfer at 2024-10-29 23:08:23.806256697 UTC
+Server closed
+Finished task 12
+Starting task 13
+start transfer at 2024-10-29 23:08:24.035134228 UTC
+Server closed
+Finished task 13
+Starting task 14
+start transfer at 2024-10-29 23:08:24.258985809 UTC
+Server closed
+Finished task 14
+Starting task 15
+start transfer at 2024-10-29 23:08:24.459555402 UTC
+Server closed
+Finished task 15
+Starting task 16
+start transfer at 2024-10-29 23:08:24.700707236 UTC
+Server closed
+Finished task 16
+Starting task 17
+start transfer at 2024-10-29 23:08:24.908178991 UTC
+Server closed
+Finished task 17
+Starting task 18
+start transfer at 2024-10-29 23:08:25.132319429 UTC
+Server closed
+Finished task 18
+Starting task 19
+start transfer at 2024-10-29 23:08:25.344831188 UTC
+Server closed
+Finished task 19
+Starting task 20
+start transfer at 2024-10-29 23:08:25.546368593 UTC
+Server closed
+Finished task 20
+Starting task 21
+start transfer at 2024-10-29 23:08:38.045414353 UTC
+Server closed
+Finished task 21
+Starting task 22
+start transfer at 2024-10-29 23:08:38.264111231 UTC
+Server closed
+Finished task 22
+Starting task 23
+start transfer at 2024-10-29 23:08:38.472695241 UTC
+Server closed
+Finished task 23
+Starting task 24
+start transfer at 2024-10-29 23:08:38.701987344 UTC
+Server closed
+Finished task 24
+Starting task 25
+start transfer at 2024-10-29 23:08:38.914302256 UTC
+Server closed
+Finished task 25
+Starting task 26
+start transfer at 2024-10-29 23:08:39.137253616 UTC
+Server closed
+Finished task 26
+Starting task 27
+start transfer at 2024-10-29 23:08:39.362292783 UTC
+Server closed
+Finished task 27
+Starting task 28
+start transfer at 2024-10-29 23:08:39.569229143 UTC
+Server closed
+Finished task 28
+Starting task 29
+start transfer at 2024-10-29 23:08:39.778505854 UTC
+Server closed
+Finished task 29
+Starting task 30
+start transfer at 2024-10-29 23:08:40.002889981 UTC
+Server closed
+Finished task 30
+Starting task 31
+start transfer at 2024-10-29 23:08:40.224235430 UTC
+Server closed
+Finished task 31
+Starting task 32
+start transfer at 2024-10-29 23:08:40.436763749 UTC
+Server closed
+Finished task 32
+Starting task 33
+start transfer at 2024-10-29 23:08:40.664706620 UTC
+Server closed
+Finished task 33
+Starting task 34
+start transfer at 2024-10-29 23:08:51.669424122 UTC
+Server closed
+Finished task 34
+Starting task 35
+start transfer at 2024-10-29 23:08:51.887929546 UTC
+Server closed
+Finished task 35
+Starting task 36
+start transfer at 2024-10-29 23:08:52.094404595 UTC
+Server closed
+Finished task 36
+Starting task 37
+start transfer at 2024-10-29 23:08:52.296060948 UTC
+Server closed
+Finished task 37
+Starting task 38
+start transfer at 2024-10-29 23:08:52.499076542 UTC
+Server closed
+Finished task 38
+Starting task 39
+start transfer at 2024-10-29 23:08:52.713770012 UTC
+Server closed
+Finished task 39
+Starting task 40
+start transfer at 2024-10-29 23:08:52.922169859 UTC
+Server closed
+Finished task 40
+Starting task 41
+start transfer at 2024-10-29 23:08:53.140293900 UTC
+Server closed
+Finished task 41
+Starting task 42
+start transfer at 2024-10-29 23:08:53.355367519 UTC
+Server closed
+Finished task 42
+Starting task 43
+start transfer at 2024-10-29 23:08:53.565470049 UTC
+Server closed
+Finished task 43
+Starting task 44
+start transfer at 2024-10-29 23:08:53.791473729 UTC
+Server closed
+Finished task 44
+Starting task 45
+start transfer at 2024-10-29 23:08:53.991835368 UTC
+Server closed
+Finished task 45
+Starting task 46
+start transfer at 2024-10-29 23:08:54.206954852 UTC
+Server closed
+Finished task 46
+Starting task 47
+start transfer at 2024-10-29 23:08:54.426820910 UTC
+Server closed
+Finished task 47
+Starting task 48
+start transfer at 2024-10-29 23:08:54.644736858 UTC
+Server closed
+Finished task 48
+Starting task 49
+start transfer at 2024-10-29 23:08:54.882576599 UTC
+Server closed
+Finished task 49
+Starting task 50
+start transfer at 2024-10-29 23:09:06.286849557 UTC
+Server closed
+Finished task 50
+Starting task 51
+start transfer at 2024-10-29 23:09:06.500180457 UTC
+Server closed
+Finished task 51
+Starting task 52
+start transfer at 2024-10-29 23:09:06.713637875 UTC
+Server closed
+Finished task 52
+Starting task 53
+start transfer at 2024-10-29 23:09:06.918052935 UTC
+Server closed
+Finished task 53
+Starting task 54
+start transfer at 2024-10-29 23:09:07.127382134 UTC
+Server closed
+Finished task 54
+Starting task 55
+start transfer at 2024-10-29 23:09:07.348790628 UTC
+Server closed
+Finished task 55
+Starting task 56
+start transfer at 2024-10-29 23:09:07.565744944 UTC
+Server closed
+Finished task 56
+Starting task 57
+start transfer at 2024-10-29 23:09:07.785481032 UTC
+Server closed
+Finished task 57
+Starting task 58
+start transfer at 2024-10-29 23:09:07.998918438 UTC
+Server closed
+Finished task 58
+Starting task 59
+start transfer at 2024-10-29 23:09:08.221175193 UTC
+Server closed
+Finished task 59
+Starting task 60
+start transfer at 2024-10-29 23:09:08.429139037 UTC
+Server closed
+Finished task 60
+Starting task 61
+start transfer at 2024-10-29 23:09:08.659600518 UTC
+Server closed
+Finished task 61
+Starting task 62
+start transfer at 2024-10-29 23:09:08.866823461 UTC
+Server closed
+Finished task 62
+Starting task 63
+start transfer at 2024-10-29 23:09:09.069607928 UTC
+Server closed
+Finished task 63
+Starting task 64
+start transfer at 2024-10-29 23:09:09.288716660 UTC
+Server closed
+Finished task 64
+Starting task 65
+start transfer at 2024-10-29 23:09:09.507150739 UTC
+Server closed
+Finished task 65
+Starting task 66
+start transfer at 2024-10-29 23:09:09.722002675 UTC
+Server closed
+Finished task 66
+Starting task 67
+start transfer at 2024-10-29 23:09:09.950012608 UTC
+Server closed
+Finished task 67
+Starting task 68
+start transfer at 2024-10-29 23:09:10.148784642 UTC
+Server closed
+Finished task 68
+Starting task 69
+start transfer at 2024-10-29 23:09:10.368525964 UTC
+Server closed
+Finished task 69
+Starting task 70
+start transfer at 2024-10-29 23:09:10.577275365 UTC
+Server closed
+Finished task 70
+Starting task 71
+start transfer at 2024-10-29 23:09:10.781208448 UTC
+Server closed
+Finished task 71
+Starting task 72
+start transfer at 2024-10-29 23:09:11.010044021 UTC
+Server closed
+Finished task 72
+Starting task 73
+start transfer at 2024-10-29 23:09:11.237018164 UTC
+Server closed
+Finished task 73
+Starting task 74
+start transfer at 2024-10-29 23:09:11.462348222 UTC
+Server closed
+Finished task 74
+Starting task 75
+start transfer at 2024-10-29 23:09:11.677677968 UTC
+Server closed
+Finished task 75
+Starting task 76
+start transfer at 2024-10-29 23:09:11.885775661 UTC
+Server closed
+Finished task 76
+Starting task 77
+start transfer at 2024-10-29 23:09:12.114632192 UTC
+Server closed
+Finished task 77
+Starting task 78
+start transfer at 2024-10-29 23:09:12.339807757 UTC
+Server closed
+Finished task 78
+Starting task 79
+start transfer at 2024-10-29 23:09:12.557739049 UTC
+Server closed
+Finished task 79
+Starting task 80
+start transfer at 2024-10-29 23:09:12.771216366 UTC
+Server closed
+Finished task 80
+All tasks completed.
+
+Starting func_b for task: 1
+[2024-10-29 23:08:13.915] [error] Bind guest directory failed:54
+[2024-10-29 23:08:13.915] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:08:21.659089113Z for 1
+After serialization at 2024-10-29T23:08:21.659101865Z for 1
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 2
+[2024-10-29 23:08:21.773] [error] Bind guest directory failed:54
+[2024-10-29 23:08:21.773] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:08:21.887097196Z for 2
+After serialization at 2024-10-29T23:08:21.887111546Z for 2
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 3
+[2024-10-29 23:08:21.990] [error] Bind guest directory failed:54
+[2024-10-29 23:08:21.990] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:08:22.100426406Z for 3
+After serialization at 2024-10-29T23:08:22.100441155Z for 3
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 4
+[2024-10-29 23:08:22.208] [error] Bind guest directory failed:54
+[2024-10-29 23:08:22.208] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:08:22.317894233Z for 4
+After serialization at 2024-10-29T23:08:22.317905688Z for 4
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 5
+[2024-10-29 23:08:22.411] [error] Bind guest directory failed:54
+[2024-10-29 23:08:22.411] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:08:22.522059649Z for 5
+After serialization at 2024-10-29T23:08:22.522072077Z for 5
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 6
+[2024-10-29 23:08:22.619] [error] Bind guest directory failed:54
+[2024-10-29 23:08:22.619] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:08:22.730583100Z for 6
+After serialization at 2024-10-29T23:08:22.730594972Z for 6
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 7
+[2024-10-29 23:08:22.829] [error] Bind guest directory failed:54
+[2024-10-29 23:08:22.829] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:08:22.938640730Z for 7
+After serialization at 2024-10-29T23:08:22.938655609Z for 7
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 8
+[2024-10-29 23:08:23.051] [error] Bind guest directory failed:54
+[2024-10-29 23:08:23.051] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:08:23.161896024Z for 8
+After serialization at 2024-10-29T23:08:23.161907981Z for 8
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 9
+[2024-10-29 23:08:23.262] [error] Bind guest directory failed:54
+[2024-10-29 23:08:23.262] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:08:23.375654021Z for 9
+After serialization at 2024-10-29T23:08:23.375668286Z for 9
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 10
+[2024-10-29 23:08:23.479] [error] Bind guest directory failed:54
+[2024-10-29 23:08:23.479] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:23.589660918Z for 10
+After serialization at 2024-10-29T23:08:23.589672373Z for 10
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 11
+[2024-10-29 23:08:23.709] [error] Bind guest directory failed:54
+[2024-10-29 23:08:23.709] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:23.818889571Z for 11
+After serialization at 2024-10-29T23:08:23.818901821Z for 11
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 12
+[2024-10-29 23:08:23.934] [error] Bind guest directory failed:54
+[2024-10-29 23:08:23.934] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:24.045683124Z for 12
+After serialization at 2024-10-29T23:08:24.045700454Z for 12
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 13
+[2024-10-29 23:08:24.157] [error] Bind guest directory failed:54
+[2024-10-29 23:08:24.157] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:24.266693864Z for 13
+After serialization at 2024-10-29T23:08:24.266706184Z for 13
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 14
+[2024-10-29 23:08:24.359] [error] Bind guest directory failed:54
+[2024-10-29 23:08:24.360] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:24.471815577Z for 14
+After serialization at 2024-10-29T23:08:24.471828331Z for 14
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 15
+[2024-10-29 23:08:24.593] [error] Bind guest directory failed:54
+[2024-10-29 23:08:24.593] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:24.709117287Z for 15
+After serialization at 2024-10-29T23:08:24.709133447Z for 15
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 16
+[2024-10-29 23:08:24.807] [error] Bind guest directory failed:54
+[2024-10-29 23:08:24.807] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:24.918254840Z for 16
+After serialization at 2024-10-29T23:08:24.918268706Z for 16
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 17
+[2024-10-29 23:08:25.033] [error] Bind guest directory failed:54
+[2024-10-29 23:08:25.033] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:25.146271594Z for 17
+After serialization at 2024-10-29T23:08:25.146284730Z for 17
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 18
+[2024-10-29 23:08:25.241] [error] Bind guest directory failed:54
+[2024-10-29 23:08:25.241] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:25.351948231Z for 18
+After serialization at 2024-10-29T23:08:25.351961716Z for 18
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 19
+[2024-10-29 23:08:25.446] [error] Bind guest directory failed:54
+[2024-10-29 23:08:25.446] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:25.558707216Z for 19
+After serialization at 2024-10-29T23:08:25.558720325Z for 19
+FnB Shim Finished. Result from moduleB: 5
+ctr: rpc error: code = Unknown desc = ttrpc: closed: unknown
+Starting func_b for task: 20
+[2024-10-29 23:08:37.941] [error] Bind guest directory failed:54
+[2024-10-29 23:08:37.941] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:38.054011043Z for 20
+After serialization at 2024-10-29T23:08:38.054024020Z for 20
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 21
+[2024-10-29 23:08:38.161] [error] Bind guest directory failed:54
+[2024-10-29 23:08:38.161] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:38.273642816Z for 21
+After serialization at 2024-10-29T23:08:38.273660866Z for 21
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 22
+[2024-10-29 23:08:38.369] [error] Bind guest directory failed:54
+[2024-10-29 23:08:38.370] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:38.481752588Z for 22
+After serialization at 2024-10-29T23:08:38.481773393Z for 22
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 23
+[2024-10-29 23:08:38.602] [error] Bind guest directory failed:54
+[2024-10-29 23:08:38.602] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:38.717277715Z for 23
+After serialization at 2024-10-29T23:08:38.717291276Z for 23
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 24
+[2024-10-29 23:08:38.813] [error] Bind guest directory failed:54
+[2024-10-29 23:08:38.814] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:38.925596168Z for 24
+After serialization at 2024-10-29T23:08:38.925607746Z for 24
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 25
+[2024-10-29 23:08:39.034] [error] Bind guest directory failed:54
+[2024-10-29 23:08:39.034] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:39.144904085Z for 25
+After serialization at 2024-10-29T23:08:39.144917268Z for 25
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 26
+[2024-10-29 23:08:39.258] [error] Bind guest directory failed:54
+[2024-10-29 23:08:39.258] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:39.370607072Z for 26
+After serialization at 2024-10-29T23:08:39.370620832Z for 26
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 27
+[2024-10-29 23:08:39.467] [error] Bind guest directory failed:54
+[2024-10-29 23:08:39.467] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:39.578748929Z for 27
+After serialization at 2024-10-29T23:08:39.578762692Z for 27
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 28
+[2024-10-29 23:08:39.676] [error] Bind guest directory failed:54
+[2024-10-29 23:08:39.676] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:39.789217891Z for 28
+After serialization at 2024-10-29T23:08:39.789240463Z for 28
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 29
+[2024-10-29 23:08:39.901] [error] Bind guest directory failed:54
+[2024-10-29 23:08:39.901] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:40.012649566Z for 29
+After serialization at 2024-10-29T23:08:40.012663495Z for 29
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 30
+[2024-10-29 23:08:40.123] [error] Bind guest directory failed:54
+[2024-10-29 23:08:40.123] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:40.234060963Z for 30
+After serialization at 2024-10-29T23:08:40.234073044Z for 30
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 31
+[2024-10-29 23:08:40.332] [error] Bind guest directory failed:54
+[2024-10-29 23:08:40.332] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:40.446299553Z for 31
+After serialization at 2024-10-29T23:08:40.446312656Z for 31
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 32
+[2024-10-29 23:08:40.561] [error] Bind guest directory failed:54
+[2024-10-29 23:08:40.561] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:40.675114256Z for 32
+After serialization at 2024-10-29T23:08:40.675127861Z for 32
+FnB Shim Finished. Result from moduleB: 5
+ctr: rpc error: code = Unknown desc = ttrpc: closed: unknown
+Starting func_b for task: 33
+[2024-10-29 23:08:51.560] [error] Bind guest directory failed:54
+[2024-10-29 23:08:51.561] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:51.675161453Z for 33
+After serialization at 2024-10-29T23:08:51.675180473Z for 33
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 34
+[2024-10-29 23:08:51.783] [error] Bind guest directory failed:54
+[2024-10-29 23:08:51.783] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:51.897216298Z for 34
+After serialization at 2024-10-29T23:08:51.897239573Z for 34
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 35
+[2024-10-29 23:08:51.990] [error] Bind guest directory failed:54
+[2024-10-29 23:08:51.990] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:52.102349036Z for 35
+After serialization at 2024-10-29T23:08:52.102360514Z for 35
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 36
+[2024-10-29 23:08:52.197] [error] Bind guest directory failed:54
+[2024-10-29 23:08:52.197] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:52.307597393Z for 36
+After serialization at 2024-10-29T23:08:52.307607884Z for 36
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 37
+[2024-10-29 23:08:52.397] [error] Bind guest directory failed:54
+[2024-10-29 23:08:52.397] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:52.508106253Z for 37
+After serialization at 2024-10-29T23:08:52.508118237Z for 37
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 38
+[2024-10-29 23:08:52.612] [error] Bind guest directory failed:54
+[2024-10-29 23:08:52.612] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:52.722798384Z for 38
+After serialization at 2024-10-29T23:08:52.722810079Z for 38
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 39
+[2024-10-29 23:08:52.821] [error] Bind guest directory failed:54
+[2024-10-29 23:08:52.821] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:52.934491785Z for 39
+After serialization at 2024-10-29T23:08:52.934505584Z for 39
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 40
+[2024-10-29 23:08:53.038] [error] Bind guest directory failed:54
+[2024-10-29 23:08:53.038] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:53.149012869Z for 40
+After serialization at 2024-10-29T23:08:53.149026216Z for 40
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 41
+[2024-10-29 23:08:53.254] [error] Bind guest directory failed:54
+[2024-10-29 23:08:53.254] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:53.363722067Z for 41
+After serialization at 2024-10-29T23:08:53.363745170Z for 41
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 42
+[2024-10-29 23:08:53.460] [error] Bind guest directory failed:54
+[2024-10-29 23:08:53.460] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:53.580783221Z for 42
+After serialization at 2024-10-29T23:08:53.580802804Z for 42
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 43
+[2024-10-29 23:08:53.687] [error] Bind guest directory failed:54
+[2024-10-29 23:08:53.687] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:53.798198554Z for 43
+After serialization at 2024-10-29T23:08:53.798209952Z for 43
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 44
+[2024-10-29 23:08:53.891] [error] Bind guest directory failed:54
+[2024-10-29 23:08:53.891] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:54.000913088Z for 44
+After serialization at 2024-10-29T23:08:54.000924581Z for 44
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 45
+[2024-10-29 23:08:54.106] [error] Bind guest directory failed:54
+[2024-10-29 23:08:54.106] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:54.219510536Z for 45
+After serialization at 2024-10-29T23:08:54.219525037Z for 45
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 46
+[2024-10-29 23:08:54.327] [error] Bind guest directory failed:54
+[2024-10-29 23:08:54.327] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:54.437959624Z for 46
+After serialization at 2024-10-29T23:08:54.437972203Z for 46
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 47
+[2024-10-29 23:08:54.539] [error] Bind guest directory failed:54
+[2024-10-29 23:08:54.539] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:54.652643425Z for 47
+After serialization at 2024-10-29T23:08:54.652658196Z for 47
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 48
+[2024-10-29 23:08:54.779] [error] Bind guest directory failed:54
+[2024-10-29 23:08:54.779] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:08:54.891036038Z for 48
+After serialization at 2024-10-29T23:08:54.891047203Z for 48
+FnB Shim Finished. Result from moduleB: 5
+ctr: rpc error: code = Unknown desc = ttrpc: closed: unknown
+Starting func_b for task: 49
+[2024-10-29 23:09:06.184] [error] Bind guest directory failed:54
+[2024-10-29 23:09:06.184] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:06.296201044Z for 49
+After serialization at 2024-10-29T23:09:06.296213177Z for 49
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 50
+[2024-10-29 23:09:06.395] [error] Bind guest directory failed:54
+[2024-10-29 23:09:06.395] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:06.510388372Z for 50
+After serialization at 2024-10-29T23:09:06.510402511Z for 50
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 51
+[2024-10-29 23:09:06.609] [error] Bind guest directory failed:54
+[2024-10-29 23:09:06.609] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:06.721309332Z for 51
+After serialization at 2024-10-29T23:09:06.721321360Z for 51
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 52
+[2024-10-29 23:09:06.814] [error] Bind guest directory failed:54
+[2024-10-29 23:09:06.814] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:06.925260412Z for 52
+After serialization at 2024-10-29T23:09:06.925272233Z for 52
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 53
+[2024-10-29 23:09:07.022] [error] Bind guest directory failed:54
+[2024-10-29 23:09:07.022] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:07.137207912Z for 53
+After serialization at 2024-10-29T23:09:07.137221303Z for 53
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 54
+[2024-10-29 23:09:07.249] [error] Bind guest directory failed:54
+[2024-10-29 23:09:07.249] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:07.359113247Z for 54
+After serialization at 2024-10-29T23:09:07.359124360Z for 54
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 55
+[2024-10-29 23:09:07.465] [error] Bind guest directory failed:54
+[2024-10-29 23:09:07.465] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:07.575613559Z for 55
+After serialization at 2024-10-29T23:09:07.575626033Z for 55
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 56
+[2024-10-29 23:09:07.684] [error] Bind guest directory failed:54
+[2024-10-29 23:09:07.684] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:07.798022740Z for 56
+After serialization at 2024-10-29T23:09:07.798037481Z for 56
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 57
+[2024-10-29 23:09:07.898] [error] Bind guest directory failed:54
+[2024-10-29 23:09:07.898] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:08.009179190Z for 57
+After serialization at 2024-10-29T23:09:08.009192368Z for 57
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 58
+[2024-10-29 23:09:08.117] [error] Bind guest directory failed:54
+[2024-10-29 23:09:08.117] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:08.226728304Z for 58
+After serialization at 2024-10-29T23:09:08.226740125Z for 58
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 59
+[2024-10-29 23:09:08.323] [error] Bind guest directory failed:54
+[2024-10-29 23:09:08.323] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:08.435685313Z for 59
+After serialization at 2024-10-29T23:09:08.435696408Z for 59
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 60
+[2024-10-29 23:09:08.555] [error] Bind guest directory failed:54
+[2024-10-29 23:09:08.555] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:08.665278373Z for 60
+After serialization at 2024-10-29T23:09:08.665292292Z for 60
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 61
+[2024-10-29 23:09:08.760] [error] Bind guest directory failed:54
+[2024-10-29 23:09:08.760] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:08.870254401Z for 61
+After serialization at 2024-10-29T23:09:08.870266436Z for 61
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 62
+[2024-10-29 23:09:08.968] [error] Bind guest directory failed:54
+[2024-10-29 23:09:08.968] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:09.078296350Z for 62
+After serialization at 2024-10-29T23:09:09.078308662Z for 62
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 63
+[2024-10-29 23:09:09.182] [error] Bind guest directory failed:54
+[2024-10-29 23:09:09.182] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:09.295862873Z for 63
+After serialization at 2024-10-29T23:09:09.295894248Z for 63
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 64
+[2024-10-29 23:09:09.406] [error] Bind guest directory failed:54
+[2024-10-29 23:09:09.406] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:09.516607022Z for 64
+After serialization at 2024-10-29T23:09:09.516619011Z for 64
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 65
+[2024-10-29 23:09:09.616] [error] Bind guest directory failed:54
+[2024-10-29 23:09:09.616] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:09.725511427Z for 65
+After serialization at 2024-10-29T23:09:09.725522893Z for 65
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 66
+[2024-10-29 23:09:09.845] [error] Bind guest directory failed:54
+[2024-10-29 23:09:09.845] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:09.955923489Z for 66
+After serialization at 2024-10-29T23:09:09.955935395Z for 66
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 67
+[2024-10-29 23:09:10.048] [error] Bind guest directory failed:54
+[2024-10-29 23:09:10.048] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:10.158490996Z for 67
+After serialization at 2024-10-29T23:09:10.158503780Z for 67
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 68
+[2024-10-29 23:09:10.265] [error] Bind guest directory failed:54
+[2024-10-29 23:09:10.265] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:10.378814888Z for 68
+After serialization at 2024-10-29T23:09:10.378829015Z for 68
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 69
+[2024-10-29 23:09:10.473] [error] Bind guest directory failed:54
+[2024-10-29 23:09:10.474] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:10.583357539Z for 69
+After serialization at 2024-10-29T23:09:10.583369342Z for 69
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 70
+[2024-10-29 23:09:10.679] [error] Bind guest directory failed:54
+[2024-10-29 23:09:10.679] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:10.788814695Z for 70
+After serialization at 2024-10-29T23:09:10.788827337Z for 70
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 71
+[2024-10-29 23:09:10.904] [error] Bind guest directory failed:54
+[2024-10-29 23:09:10.904] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:11.016862592Z for 71
+After serialization at 2024-10-29T23:09:11.016876287Z for 71
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 72
+[2024-10-29 23:09:11.131] [error] Bind guest directory failed:54
+[2024-10-29 23:09:11.131] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:11.246655381Z for 72
+After serialization at 2024-10-29T23:09:11.246699237Z for 72
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 73
+[2024-10-29 23:09:11.359] [error] Bind guest directory failed:54
+[2024-10-29 23:09:11.359] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:11.471485980Z for 73
+After serialization at 2024-10-29T23:09:11.471499683Z for 73
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 74
+[2024-10-29 23:09:11.571] [error] Bind guest directory failed:54
+[2024-10-29 23:09:11.571] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:11.683640182Z for 74
+After serialization at 2024-10-29T23:09:11.683654872Z for 74
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 75
+[2024-10-29 23:09:11.781] [error] Bind guest directory failed:54
+[2024-10-29 23:09:11.781] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:11.897953871Z for 75
+After serialization at 2024-10-29T23:09:11.897968331Z for 75
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 76
+[2024-10-29 23:09:12.012] [error] Bind guest directory failed:54
+[2024-10-29 23:09:12.012] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:12.126322048Z for 76
+After serialization at 2024-10-29T23:09:12.126336311Z for 76
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 77
+[2024-10-29 23:09:12.236] [error] Bind guest directory failed:54
+[2024-10-29 23:09:12.236] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:12.346711582Z for 77
+After serialization at 2024-10-29T23:09:12.346723311Z for 77
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 78
+[2024-10-29 23:09:12.453] [error] Bind guest directory failed:54
+[2024-10-29 23:09:12.453] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:12.563248790Z for 78
+After serialization at 2024-10-29T23:09:12.563260607Z for 78
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 79
+[2024-10-29 23:09:12.669] [error] Bind guest directory failed:54
+[2024-10-29 23:09:12.669] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:12.779861733Z for 79
+After serialization at 2024-10-29T23:09:12.779874832Z for 79
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 80
+[2024-10-29 23:09:12.867] [error] Bind guest directory failed:54
+[2024-10-29 23:09:12.867] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:09:12.979655299Z for 80
+After serialization at 2024-10-29T23:09:12.979667471Z for 80
+FnB Shim Finished. Result from moduleB: 5
+Cleaning up all containers...
+All tasks have been processed and cleaned up.
+
+
+ROUND 100
+
+downloading http://127.0.0.1:8888/files/file_10M.txt
+Starting task 1
+start transfer at 2024-10-29 23:10:53.704345060 UTC
+Server closed
+Finished task 1
+Starting task 2
+start transfer at 2024-10-29 23:10:53.788993165 UTC
+Server closed
+Finished task 2
+Starting task 3
+start transfer at 2024-10-29 23:10:54.008552884 UTC
+Server closed
+Finished task 3
+Starting task 4
+start transfer at 2024-10-29 23:10:54.213751081 UTC
+Server closed
+Finished task 4
+Starting task 5
+start transfer at 2024-10-29 23:10:54.424306565 UTC
+Server closed
+Finished task 5
+Starting task 6
+start transfer at 2024-10-29 23:10:54.622920411 UTC
+Server closed
+Finished task 6
+Starting task 7
+start transfer at 2024-10-29 23:10:54.826513038 UTC
+Server closed
+Finished task 7
+Starting task 8
+start transfer at 2024-10-29 23:10:55.033316313 UTC
+Server closed
+Finished task 8
+Starting task 9
+start transfer at 2024-10-29 23:10:55.246094265 UTC
+Server closed
+Finished task 9
+Starting task 10
+start transfer at 2024-10-29 23:10:55.453094819 UTC
+Server closed
+Finished task 10
+Starting task 11
+start transfer at 2024-10-29 23:10:55.659328408 UTC
+Server closed
+Finished task 11
+Starting task 12
+start transfer at 2024-10-29 23:10:55.868841379 UTC
+Server closed
+Finished task 12
+Starting task 13
+start transfer at 2024-10-29 23:10:56.064800128 UTC
+Server closed
+Finished task 13
+Starting task 14
+start transfer at 2024-10-29 23:10:56.282498286 UTC
+Server closed
+Finished task 14
+Starting task 15
+start transfer at 2024-10-29 23:10:56.470889548 UTC
+Server closed
+Finished task 15
+Starting task 16
+start transfer at 2024-10-29 23:10:56.670705915 UTC
+Server closed
+Finished task 16
+Starting task 17
+start transfer at 2024-10-29 23:11:15.143438701 UTC
+Server closed
+Finished task 17
+Starting task 18
+start transfer at 2024-10-29 23:11:15.345202533 UTC
+Server closed
+Finished task 18
+Starting task 19
+start transfer at 2024-10-29 23:11:15.542585199 UTC
+Server closed
+Finished task 19
+Starting task 20
+start transfer at 2024-10-29 23:11:15.754873941 UTC
+Server closed
+Finished task 20
+Starting task 21
+start transfer at 2024-10-29 23:11:15.945491049 UTC
+Server closed
+Finished task 21
+Starting task 22
+start transfer at 2024-10-29 23:11:16.150264590 UTC
+Server closed
+Finished task 22
+Starting task 23
+start transfer at 2024-10-29 23:11:16.374327866 UTC
+Server closed
+Finished task 23
+Starting task 24
+start transfer at 2024-10-29 23:11:16.572439216 UTC
+Server closed
+Finished task 24
+Starting task 25
+start transfer at 2024-10-29 23:11:16.768369943 UTC
+Server closed
+Finished task 25
+Starting task 26
+start transfer at 2024-10-29 23:11:16.963626385 UTC
+Server closed
+Finished task 26
+Starting task 27
+start transfer at 2024-10-29 23:11:17.157903527 UTC
+Server closed
+Finished task 27
+Starting task 28
+start transfer at 2024-10-29 23:11:17.355783755 UTC
+Server closed
+Finished task 28
+Starting task 29
+start transfer at 2024-10-29 23:11:17.567984698 UTC
+Server closed
+Finished task 29
+Starting task 30
+start transfer at 2024-10-29 23:11:17.764164078 UTC
+Server closed
+Finished task 30
+Starting task 31
+start transfer at 2024-10-29 23:11:17.964347526 UTC
+Server closed
+Finished task 31
+Starting task 32
+start transfer at 2024-10-29 23:11:18.159934063 UTC
+Server closed
+Finished task 32
+Starting task 33
+start transfer at 2024-10-29 23:11:18.361497503 UTC
+Server closed
+Finished task 33
+Starting task 34
+start transfer at 2024-10-29 23:11:18.551576568 UTC
+Server closed
+Finished task 34
+Starting task 35
+start transfer at 2024-10-29 23:11:18.766607778 UTC
+Server closed
+Finished task 35
+Starting task 36
+start transfer at 2024-10-29 23:11:18.982150283 UTC
+Server closed
+Finished task 36
+Starting task 37
+start transfer at 2024-10-29 23:11:19.180306569 UTC
+Server closed
+Finished task 37
+Starting task 38
+start transfer at 2024-10-29 23:11:19.369952436 UTC
+Server closed
+Finished task 38
+Starting task 39
+start transfer at 2024-10-29 23:11:19.562753460 UTC
+Server closed
+Finished task 39
+Starting task 40
+start transfer at 2024-10-29 23:11:19.761525324 UTC
+Server closed
+Finished task 40
+Starting task 41
+start transfer at 2024-10-29 23:11:19.979687376 UTC
+Server closed
+Finished task 41
+Starting task 42
+start transfer at 2024-10-29 23:11:20.183469262 UTC
+Server closed
+Finished task 42
+Starting task 43
+start transfer at 2024-10-29 23:11:20.413507251 UTC
+Server closed
+Finished task 43
+Starting task 44
+start transfer at 2024-10-29 23:11:20.615378407 UTC
+Server closed
+Finished task 44
+Starting task 45
+start transfer at 2024-10-29 23:11:20.845738442 UTC
+Server closed
+Finished task 45
+Starting task 46
+start transfer at 2024-10-29 23:11:21.039530100 UTC
+Server closed
+Finished task 46
+Starting task 47
+start transfer at 2024-10-29 23:11:21.263989767 UTC
+Server closed
+Finished task 47
+Starting task 48
+start transfer at 2024-10-29 23:11:21.486868569 UTC
+Server closed
+Finished task 48
+Starting task 49
+start transfer at 2024-10-29 23:11:21.705463446 UTC
+Server closed
+Finished task 49
+Starting task 50
+start transfer at 2024-10-29 23:11:21.916066139 UTC
+Server closed
+Finished task 50
+Starting task 51
+start transfer at 2024-10-29 23:11:22.136411176 UTC
+Server closed
+Finished task 51
+Starting task 52
+start transfer at 2024-10-29 23:11:22.340834128 UTC
+Server closed
+Finished task 52
+Starting task 53
+start transfer at 2024-10-29 23:11:22.550140088 UTC
+Server closed
+Finished task 53
+Starting task 54
+start transfer at 2024-10-29 23:11:22.772593146 UTC
+Server closed
+Finished task 54
+Starting task 55
+start transfer at 2024-10-29 23:11:22.975230474 UTC
+Server closed
+Finished task 55
+Starting task 56
+start transfer at 2024-10-29 23:11:23.181573442 UTC
+Server closed
+Finished task 56
+Starting task 57
+start transfer at 2024-10-29 23:11:23.397637411 UTC
+Server closed
+Finished task 57
+Starting task 58
+start transfer at 2024-10-29 23:11:23.594011504 UTC
+Server closed
+Finished task 58
+Starting task 59
+start transfer at 2024-10-29 23:11:23.802380534 UTC
+Server closed
+Finished task 59
+Starting task 60
+start transfer at 2024-10-29 23:11:24.013473404 UTC
+Server closed
+Finished task 60
+Starting task 61
+start transfer at 2024-10-29 23:11:24.244949786 UTC
+Server closed
+Finished task 61
+Starting task 62
+start transfer at 2024-10-29 23:11:24.458249156 UTC
+Server closed
+Finished task 62
+Starting task 63
+start transfer at 2024-10-29 23:11:24.677710037 UTC
+Server closed
+Finished task 63
+Starting task 64
+start transfer at 2024-10-29 23:11:24.899289211 UTC
+Server closed
+Finished task 64
+Starting task 65
+start transfer at 2024-10-29 23:11:25.104714378 UTC
+Server closed
+Finished task 65
+Starting task 66
+start transfer at 2024-10-29 23:11:25.302388498 UTC
+Server closed
+Finished task 66
+Starting task 67
+start transfer at 2024-10-29 23:11:25.521266272 UTC
+Server closed
+Finished task 67
+Starting task 68
+start transfer at 2024-10-29 23:11:25.730355816 UTC
+Server closed
+Finished task 68
+Starting task 69
+start transfer at 2024-10-29 23:11:25.935159044 UTC
+Server closed
+Finished task 69
+Starting task 70
+start transfer at 2024-10-29 23:11:26.139481861 UTC
+Server closed
+Finished task 70
+Starting task 71
+start transfer at 2024-10-29 23:11:26.359006643 UTC
+Server closed
+Finished task 71
+Starting task 72
+start transfer at 2024-10-29 23:11:38.276440404 UTC
+Server closed
+Finished task 72
+Starting task 73
+start transfer at 2024-10-29 23:11:38.483695962 UTC
+Server closed
+Finished task 73
+Starting task 74
+start transfer at 2024-10-29 23:11:38.703283104 UTC
+Server closed
+Finished task 74
+Starting task 75
+start transfer at 2024-10-29 23:11:38.930051258 UTC
+Server closed
+Finished task 75
+Starting task 76
+start transfer at 2024-10-29 23:11:39.142644807 UTC
+Server closed
+Finished task 76
+Starting task 77
+start transfer at 2024-10-29 23:11:39.354962663 UTC
+Server closed
+Finished task 77
+Starting task 78
+start transfer at 2024-10-29 23:11:39.551553855 UTC
+Server closed
+Finished task 78
+Starting task 79
+start transfer at 2024-10-29 23:11:39.771925137 UTC
+Server closed
+Finished task 79
+Starting task 80
+start transfer at 2024-10-29 23:11:39.979374492 UTC
+Server closed
+Finished task 80
+Starting task 81
+start transfer at 2024-10-29 23:11:40.207240814 UTC
+Server closed
+Finished task 81
+Starting task 82
+start transfer at 2024-10-29 23:11:40.425050697 UTC
+Server closed
+Finished task 82
+Starting task 83
+start transfer at 2024-10-29 23:11:40.625641500 UTC
+Server closed
+Finished task 83
+Starting task 84
+start transfer at 2024-10-29 23:11:40.842688528 UTC
+Server closed
+Finished task 84
+Starting task 85
+start transfer at 2024-10-29 23:11:41.062217309 UTC
+Server closed
+Finished task 85
+Starting task 86
+start transfer at 2024-10-29 23:11:51.161017035 UTC
+Server closed
+Finished task 86
+Starting task 87
+start transfer at 2024-10-29 23:11:51.377293448 UTC
+Server closed
+Finished task 87
+Starting task 88
+start transfer at 2024-10-29 23:11:51.586823423 UTC
+Server closed
+Finished task 88
+Starting task 89
+start transfer at 2024-10-29 23:11:51.797514792 UTC
+Server closed
+Finished task 89
+Starting task 90
+start transfer at 2024-10-29 23:11:52.012695748 UTC
+Server closed
+Finished task 90
+Starting task 91
+start transfer at 2024-10-29 23:11:52.214965970 UTC
+Server closed
+Finished task 91
+Starting task 92
+start transfer at 2024-10-29 23:11:52.448028274 UTC
+Server closed
+Finished task 92
+Starting task 93
+start transfer at 2024-10-29 23:11:52.683535081 UTC
+Server closed
+Finished task 93
+Starting task 94
+start transfer at 2024-10-29 23:12:07.235641388 UTC
+Server closed
+Finished task 94
+Starting task 95
+start transfer at 2024-10-29 23:12:07.447394563 UTC
+Server closed
+Finished task 95
+Starting task 96
+start transfer at 2024-10-29 23:12:07.651505688 UTC
+Server closed
+Finished task 96
+Starting task 97
+start transfer at 2024-10-29 23:12:07.863979252 UTC
+Server closed
+Finished task 97
+Starting task 98
+start transfer at 2024-10-29 23:12:08.074235974 UTC
+Server closed
+Finished task 98
+Starting task 99
+start transfer at 2024-10-29 23:12:08.285967256 UTC
+Server closed
+Finished task 99
+Starting task 100
+start transfer at 2024-10-29 23:12:08.487765587 UTC
+Server closed
+Finished task 100
+All tasks completed.
+
+Starting func_b for task: 1
+[2024-10-29 23:10:45.541] [error] Bind guest directory failed:54
+[2024-10-29 23:10:45.541] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:10:53.794662667Z for 1
+After serialization at 2024-10-29T23:10:53.794685286Z for 1
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 2
+[2024-10-29 23:10:53.900] [error] Bind guest directory failed:54
+[2024-10-29 23:10:53.900] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:10:54.011883876Z for 2
+After serialization at 2024-10-29T23:10:54.011895336Z for 2
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 3
+[2024-10-29 23:10:54.110] [error] Bind guest directory failed:54
+[2024-10-29 23:10:54.110] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:10:54.220108268Z for 3
+After serialization at 2024-10-29T23:10:54.220120322Z for 3
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 4
+[2024-10-29 23:10:54.312] [error] Bind guest directory failed:54
+[2024-10-29 23:10:54.312] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:10:54.426782669Z for 4
+After serialization at 2024-10-29T23:10:54.426794444Z for 4
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 5
+[2024-10-29 23:10:54.521] [error] Bind guest directory failed:54
+[2024-10-29 23:10:54.521] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:10:54.631992534Z for 5
+After serialization at 2024-10-29T23:10:54.632007037Z for 5
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 6
+[2024-10-29 23:10:54.724] [error] Bind guest directory failed:54
+[2024-10-29 23:10:54.724] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:10:54.840561514Z for 6
+After serialization at 2024-10-29T23:10:54.840573231Z for 6
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 7
+[2024-10-29 23:10:54.930] [error] Bind guest directory failed:54
+[2024-10-29 23:10:54.930] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:10:55.039551325Z for 7
+After serialization at 2024-10-29T23:10:55.039576858Z for 7
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 8
+[2024-10-29 23:10:55.141] [error] Bind guest directory failed:54
+[2024-10-29 23:10:55.141] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:10:55.250467103Z for 8
+After serialization at 2024-10-29T23:10:55.250479393Z for 8
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 9
+[2024-10-29 23:10:55.344] [error] Bind guest directory failed:54
+[2024-10-29 23:10:55.344] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941684 at 2024-10-29T23:10:55.454651615Z for 9
+After serialization at 2024-10-29T23:10:55.454663031Z for 9
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 10
+[2024-10-29 23:10:55.558] [error] Bind guest directory failed:54
+[2024-10-29 23:10:55.558] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:10:55.674346354Z for 10
+After serialization at 2024-10-29T23:10:55.674360778Z for 10
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 11
+[2024-10-29 23:10:55.767] [error] Bind guest directory failed:54
+[2024-10-29 23:10:55.767] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:10:55.877072020Z for 11
+After serialization at 2024-10-29T23:10:55.877084019Z for 11
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 12
+[2024-10-29 23:10:55.960] [error] Bind guest directory failed:54
+[2024-10-29 23:10:55.960] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:10:56.069986302Z for 12
+After serialization at 2024-10-29T23:10:56.069997166Z for 12
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 13
+[2024-10-29 23:10:56.178] [error] Bind guest directory failed:54
+[2024-10-29 23:10:56.179] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:10:56.288200346Z for 13
+After serialization at 2024-10-29T23:10:56.288212191Z for 13
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 14
+[2024-10-29 23:10:56.370] [error] Bind guest directory failed:54
+[2024-10-29 23:10:56.370] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:10:56.479747230Z for 14
+After serialization at 2024-10-29T23:10:56.479758873Z for 14
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 15
+[2024-10-29 23:10:56.566] [error] Bind guest directory failed:54
+[2024-10-29 23:10:56.567] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:10:56.676095212Z for 15
+After serialization at 2024-10-29T23:10:56.676106695Z for 15
+FnB Shim Finished. Result from moduleB: 5
+ctr: rpc error: code = Unknown desc = ttrpc: closed: unknown
+Starting func_b for task: 16
+[2024-10-29 23:11:15.037] [error] Bind guest directory failed:54
+[2024-10-29 23:11:15.037] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:15.148201081Z for 16
+After serialization at 2024-10-29T23:11:15.148213520Z for 16
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 17
+[2024-10-29 23:11:15.237] [error] Bind guest directory failed:54
+[2024-10-29 23:11:15.237] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:15.346636119Z for 17
+After serialization at 2024-10-29T23:11:15.346649531Z for 17
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 18
+[2024-10-29 23:11:15.440] [error] Bind guest directory failed:54
+[2024-10-29 23:11:15.440] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:15.549293560Z for 18
+After serialization at 2024-10-29T23:11:15.549304651Z for 18
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 19
+[2024-10-29 23:11:15.649] [error] Bind guest directory failed:54
+[2024-10-29 23:11:15.649] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:15.758507255Z for 19
+After serialization at 2024-10-29T23:11:15.758518443Z for 19
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 20
+[2024-10-29 23:11:15.844] [error] Bind guest directory failed:54
+[2024-10-29 23:11:15.844] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:15.953576660Z for 20
+After serialization at 2024-10-29T23:11:15.953587572Z for 20
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 21
+[2024-10-29 23:11:16.045] [error] Bind guest directory failed:54
+[2024-10-29 23:11:16.045] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:16.156573858Z for 21
+After serialization at 2024-10-29T23:11:16.156585949Z for 21
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 22
+[2024-10-29 23:11:16.269] [error] Bind guest directory failed:54
+[2024-10-29 23:11:16.269] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:16.379094018Z for 22
+After serialization at 2024-10-29T23:11:16.379106780Z for 22
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 23
+[2024-10-29 23:11:16.470] [error] Bind guest directory failed:54
+[2024-10-29 23:11:16.470] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:16.579276618Z for 23
+After serialization at 2024-10-29T23:11:16.579289603Z for 23
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 24
+[2024-10-29 23:11:16.663] [error] Bind guest directory failed:54
+[2024-10-29 23:11:16.663] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:16.771953751Z for 24
+After serialization at 2024-10-29T23:11:16.771964916Z for 24
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 25
+[2024-10-29 23:11:16.860] [error] Bind guest directory failed:54
+[2024-10-29 23:11:16.860] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:16.970850809Z for 25
+After serialization at 2024-10-29T23:11:16.970861856Z for 25
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 26
+[2024-10-29 23:11:17.055] [error] Bind guest directory failed:54
+[2024-10-29 23:11:17.055] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:17.167190576Z for 26
+After serialization at 2024-10-29T23:11:17.167202939Z for 26
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 27
+[2024-10-29 23:11:17.254] [error] Bind guest directory failed:54
+[2024-10-29 23:11:17.254] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:17.363670576Z for 27
+After serialization at 2024-10-29T23:11:17.363681895Z for 27
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 28
+[2024-10-29 23:11:17.462] [error] Bind guest directory failed:54
+[2024-10-29 23:11:17.462] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:17.571968282Z for 28
+After serialization at 2024-10-29T23:11:17.571980318Z for 28
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 29
+[2024-10-29 23:11:17.661] [error] Bind guest directory failed:54
+[2024-10-29 23:11:17.661] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:17.770655981Z for 29
+After serialization at 2024-10-29T23:11:17.770667238Z for 29
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 30
+[2024-10-29 23:11:17.858] [error] Bind guest directory failed:54
+[2024-10-29 23:11:17.858] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:17.968342132Z for 30
+After serialization at 2024-10-29T23:11:17.968353817Z for 30
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 31
+[2024-10-29 23:11:18.054] [error] Bind guest directory failed:54
+[2024-10-29 23:11:18.054] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:18.166890244Z for 31
+After serialization at 2024-10-29T23:11:18.166903201Z for 31
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 32
+[2024-10-29 23:11:18.253] [error] Bind guest directory failed:54
+[2024-10-29 23:11:18.253] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:18.363401469Z for 32
+After serialization at 2024-10-29T23:11:18.363413067Z for 32
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 33
+[2024-10-29 23:11:18.449] [error] Bind guest directory failed:54
+[2024-10-29 23:11:18.449] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:18.558396943Z for 33
+After serialization at 2024-10-29T23:11:18.558408011Z for 33
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 34
+[2024-10-29 23:11:18.658] [error] Bind guest directory failed:54
+[2024-10-29 23:11:18.658] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:18.768333822Z for 34
+After serialization at 2024-10-29T23:11:18.768345517Z for 34
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 35
+[2024-10-29 23:11:18.878] [error] Bind guest directory failed:54
+[2024-10-29 23:11:18.878] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:18.987674668Z for 35
+After serialization at 2024-10-29T23:11:18.987685910Z for 35
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 36
+[2024-10-29 23:11:19.074] [error] Bind guest directory failed:54
+[2024-10-29 23:11:19.074] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:19.183344201Z for 36
+After serialization at 2024-10-29T23:11:19.183355859Z for 36
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 37
+[2024-10-29 23:11:19.266] [error] Bind guest directory failed:54
+[2024-10-29 23:11:19.266] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:19.375963589Z for 37
+After serialization at 2024-10-29T23:11:19.375974802Z for 37
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 38
+[2024-10-29 23:11:19.458] [error] Bind guest directory failed:54
+[2024-10-29 23:11:19.458] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:19.567510202Z for 38
+After serialization at 2024-10-29T23:11:19.567521520Z for 38
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 39
+[2024-10-29 23:11:19.657] [error] Bind guest directory failed:54
+[2024-10-29 23:11:19.658] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:19.766944124Z for 39
+After serialization at 2024-10-29T23:11:19.766955435Z for 39
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 40
+[2024-10-29 23:11:19.873] [error] Bind guest directory failed:54
+[2024-10-29 23:11:19.873] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:19.982429965Z for 40
+After serialization at 2024-10-29T23:11:19.982442290Z for 40
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 41
+[2024-10-29 23:11:20.079] [error] Bind guest directory failed:54
+[2024-10-29 23:11:20.079] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:20.189270248Z for 41
+After serialization at 2024-10-29T23:11:20.189282769Z for 41
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 42
+[2024-10-29 23:11:20.307] [error] Bind guest directory failed:54
+[2024-10-29 23:11:20.307] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:20.417743090Z for 42
+After serialization at 2024-10-29T23:11:20.417754320Z for 42
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 43
+[2024-10-29 23:11:20.509] [error] Bind guest directory failed:54
+[2024-10-29 23:11:20.509] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:20.618953661Z for 43
+After serialization at 2024-10-29T23:11:20.618965118Z for 43
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 44
+[2024-10-29 23:11:20.741] [error] Bind guest directory failed:54
+[2024-10-29 23:11:20.741] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:20.851088287Z for 44
+After serialization at 2024-10-29T23:11:20.851100272Z for 44
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 45
+[2024-10-29 23:11:20.937] [error] Bind guest directory failed:54
+[2024-10-29 23:11:20.937] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:21.046402370Z for 45
+After serialization at 2024-10-29T23:11:21.046423599Z for 45
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 46
+[2024-10-29 23:11:21.157] [error] Bind guest directory failed:54
+[2024-10-29 23:11:21.157] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:21.268940948Z for 46
+After serialization at 2024-10-29T23:11:21.268952488Z for 46
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 47
+[2024-10-29 23:11:21.382] [error] Bind guest directory failed:54
+[2024-10-29 23:11:21.382] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:21.492714122Z for 47
+After serialization at 2024-10-29T23:11:21.492725231Z for 47
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 48
+[2024-10-29 23:11:21.600] [error] Bind guest directory failed:54
+[2024-10-29 23:11:21.601] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:21.712810379Z for 48
+After serialization at 2024-10-29T23:11:21.712823335Z for 48
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 49
+[2024-10-29 23:11:21.812] [error] Bind guest directory failed:54
+[2024-10-29 23:11:21.812] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:21.924110022Z for 49
+After serialization at 2024-10-29T23:11:21.924123741Z for 49
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 50
+[2024-10-29 23:11:22.026] [error] Bind guest directory failed:54
+[2024-10-29 23:11:22.026] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:22.138880289Z for 50
+After serialization at 2024-10-29T23:11:22.138894491Z for 50
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 51
+[2024-10-29 23:11:22.234] [error] Bind guest directory failed:54
+[2024-10-29 23:11:22.234] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:22.345069928Z for 51
+After serialization at 2024-10-29T23:11:22.345082661Z for 51
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 52
+[2024-10-29 23:11:22.445] [error] Bind guest directory failed:54
+[2024-10-29 23:11:22.445] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:22.557313544Z for 52
+After serialization at 2024-10-29T23:11:22.557326705Z for 52
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 53
+[2024-10-29 23:11:22.664] [error] Bind guest directory failed:54
+[2024-10-29 23:11:22.664] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:22.775717794Z for 53
+After serialization at 2024-10-29T23:11:22.775729671Z for 53
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 54
+[2024-10-29 23:11:22.871] [error] Bind guest directory failed:54
+[2024-10-29 23:11:22.871] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:22.982617400Z for 54
+After serialization at 2024-10-29T23:11:22.982631099Z for 54
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 55
+[2024-10-29 23:11:23.077] [error] Bind guest directory failed:54
+[2024-10-29 23:11:23.077] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:23.188076844Z for 55
+After serialization at 2024-10-29T23:11:23.188088975Z for 55
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 56
+[2024-10-29 23:11:23.289] [error] Bind guest directory failed:54
+[2024-10-29 23:11:23.289] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:23.400691574Z for 56
+After serialization at 2024-10-29T23:11:23.400703334Z for 56
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 57
+[2024-10-29 23:11:23.490] [error] Bind guest directory failed:54
+[2024-10-29 23:11:23.490] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:23.601090124Z for 57
+After serialization at 2024-10-29T23:11:23.601101647Z for 57
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 58
+[2024-10-29 23:11:23.698] [error] Bind guest directory failed:54
+[2024-10-29 23:11:23.698] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:23.810623693Z for 58
+After serialization at 2024-10-29T23:11:23.810635600Z for 58
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 59
+[2024-10-29 23:11:23.909] [error] Bind guest directory failed:54
+[2024-10-29 23:11:23.909] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:24.020816758Z for 59
+After serialization at 2024-10-29T23:11:24.020828954Z for 59
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 60
+[2024-10-29 23:11:24.137] [error] Bind guest directory failed:54
+[2024-10-29 23:11:24.137] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:24.250010474Z for 60
+After serialization at 2024-10-29T23:11:24.250024869Z for 60
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 61
+[2024-10-29 23:11:24.345] [error] Bind guest directory failed:54
+[2024-10-29 23:11:24.345] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:24.458264440Z for 61
+After serialization at 2024-10-29T23:11:24.458278471Z for 61
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 62
+[2024-10-29 23:11:24.575] [error] Bind guest directory failed:54
+[2024-10-29 23:11:24.575] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:24.686665937Z for 62
+After serialization at 2024-10-29T23:11:24.686678190Z for 62
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 63
+[2024-10-29 23:11:24.791] [error] Bind guest directory failed:54
+[2024-10-29 23:11:24.791] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:24.903707608Z for 63
+After serialization at 2024-10-29T23:11:24.903721175Z for 63
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 64
+[2024-10-29 23:11:24.999] [error] Bind guest directory failed:54
+[2024-10-29 23:11:24.999] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:25.109727441Z for 64
+After serialization at 2024-10-29T23:11:25.109739298Z for 64
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 65
+[2024-10-29 23:11:25.200] [error] Bind guest directory failed:54
+[2024-10-29 23:11:25.200] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:25.309672155Z for 65
+After serialization at 2024-10-29T23:11:25.309683853Z for 65
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 66
+[2024-10-29 23:11:25.412] [error] Bind guest directory failed:54
+[2024-10-29 23:11:25.412] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:25.525685924Z for 66
+After serialization at 2024-10-29T23:11:25.525700644Z for 66
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 67
+[2024-10-29 23:11:25.624] [error] Bind guest directory failed:54
+[2024-10-29 23:11:25.624] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:25.734246586Z for 67
+After serialization at 2024-10-29T23:11:25.734260098Z for 67
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 68
+[2024-10-29 23:11:25.831] [error] Bind guest directory failed:54
+[2024-10-29 23:11:25.832] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:25.942581192Z for 68
+After serialization at 2024-10-29T23:11:25.942593509Z for 68
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 69
+[2024-10-29 23:11:26.036] [error] Bind guest directory failed:54
+[2024-10-29 23:11:26.036] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:26.145790029Z for 69
+After serialization at 2024-10-29T23:11:26.145801095Z for 69
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 70
+[2024-10-29 23:11:26.251] [error] Bind guest directory failed:54
+[2024-10-29 23:11:26.251] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:26.361182033Z for 70
+After serialization at 2024-10-29T23:11:26.361193872Z for 70
+FnB Shim Finished. Result from moduleB: 5
+ctr: rpc error: code = Unknown desc = ttrpc: closed: unknown
+Starting func_b for task: 71
+[2024-10-29 23:11:38.169] [error] Bind guest directory failed:54
+[2024-10-29 23:11:38.170] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:38.279765321Z for 71
+After serialization at 2024-10-29T23:11:38.279776176Z for 71
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 72
+[2024-10-29 23:11:38.376] [error] Bind guest directory failed:54
+[2024-10-29 23:11:38.376] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:38.485143750Z for 72
+After serialization at 2024-10-29T23:11:38.485155178Z for 72
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 73
+[2024-10-29 23:11:38.600] [error] Bind guest directory failed:54
+[2024-10-29 23:11:38.600] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:38.710651447Z for 73
+After serialization at 2024-10-29T23:11:38.710662938Z for 73
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 74
+[2024-10-29 23:11:38.821] [error] Bind guest directory failed:54
+[2024-10-29 23:11:38.821] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:38.931623203Z for 74
+After serialization at 2024-10-29T23:11:38.931634179Z for 74
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 75
+[2024-10-29 23:11:39.037] [error] Bind guest directory failed:54
+[2024-10-29 23:11:39.037] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:39.146684541Z for 75
+After serialization at 2024-10-29T23:11:39.146696323Z for 75
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 76
+[2024-10-29 23:11:39.246] [error] Bind guest directory failed:54
+[2024-10-29 23:11:39.246] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:39.356898133Z for 76
+After serialization at 2024-10-29T23:11:39.356909808Z for 76
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 77
+[2024-10-29 23:11:39.441] [error] Bind guest directory failed:54
+[2024-10-29 23:11:39.441] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:39.553129646Z for 77
+After serialization at 2024-10-29T23:11:39.553144599Z for 77
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 78
+[2024-10-29 23:11:39.663] [error] Bind guest directory failed:54
+[2024-10-29 23:11:39.663] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:39.777290447Z for 78
+After serialization at 2024-10-29T23:11:39.777302349Z for 78
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 79
+[2024-10-29 23:11:39.873] [error] Bind guest directory failed:54
+[2024-10-29 23:11:39.873] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:39.984270454Z for 79
+After serialization at 2024-10-29T23:11:39.984292586Z for 79
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 80
+[2024-10-29 23:11:40.092] [error] Bind guest directory failed:54
+[2024-10-29 23:11:40.092] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:40.211639004Z for 80
+After serialization at 2024-10-29T23:11:40.211653856Z for 80
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 81
+[2024-10-29 23:11:40.320] [error] Bind guest directory failed:54
+[2024-10-29 23:11:40.320] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:40.429583175Z for 81
+After serialization at 2024-10-29T23:11:40.429594452Z for 81
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 82
+[2024-10-29 23:11:40.522] [error] Bind guest directory failed:54
+[2024-10-29 23:11:40.522] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:40.634443386Z for 82
+After serialization at 2024-10-29T23:11:40.634457962Z for 82
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 83
+[2024-10-29 23:11:40.735] [error] Bind guest directory failed:54
+[2024-10-29 23:11:40.735] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:40.847789231Z for 83
+After serialization at 2024-10-29T23:11:40.847800608Z for 83
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 84
+[2024-10-29 23:11:40.959] [error] Bind guest directory failed:54
+[2024-10-29 23:11:40.959] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:41.069747379Z for 84
+After serialization at 2024-10-29T23:11:41.069758024Z for 84
+FnB Shim Finished. Result from moduleB: 5
+ctr: rpc error: code = Unknown desc = ttrpc: closed: unknown
+Starting func_b for task: 85
+[2024-10-29 23:11:51.053] [error] Bind guest directory failed:54
+[2024-10-29 23:11:51.053] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:51.167833392Z for 85
+After serialization at 2024-10-29T23:11:51.167847721Z for 85
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 86
+[2024-10-29 23:11:51.269] [error] Bind guest directory failed:54
+[2024-10-29 23:11:51.269] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:51.380008017Z for 86
+After serialization at 2024-10-29T23:11:51.380019836Z for 86
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 87
+[2024-10-29 23:11:51.481] [error] Bind guest directory failed:54
+[2024-10-29 23:11:51.481] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:51.590856081Z for 87
+After serialization at 2024-10-29T23:11:51.590867833Z for 87
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 88
+[2024-10-29 23:11:51.691] [error] Bind guest directory failed:54
+[2024-10-29 23:11:51.691] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:51.803545030Z for 88
+After serialization at 2024-10-29T23:11:51.803558882Z for 88
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 89
+[2024-10-29 23:11:51.903] [error] Bind guest directory failed:54
+[2024-10-29 23:11:51.903] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:52.016441545Z for 89
+After serialization at 2024-10-29T23:11:52.016457347Z for 89
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 90
+[2024-10-29 23:11:52.108] [error] Bind guest directory failed:54
+[2024-10-29 23:11:52.108] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:52.219933562Z for 90
+After serialization at 2024-10-29T23:11:52.219965603Z for 90
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 91
+[2024-10-29 23:11:52.344] [error] Bind guest directory failed:54
+[2024-10-29 23:11:52.344] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:52.455601671Z for 91
+After serialization at 2024-10-29T23:11:52.455613301Z for 91
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 92
+[2024-10-29 23:11:52.575] [error] Bind guest directory failed:54
+[2024-10-29 23:11:52.575] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:11:52.686925571Z for 92
+After serialization at 2024-10-29T23:11:52.686939417Z for 92
+FnB Shim Finished. Result from moduleB: 5
+ctr: rpc error: code = Unknown desc = ttrpc: closed: unknown
+Starting func_b for task: 93
+[2024-10-29 23:12:07.124] [error] Bind guest directory failed:54
+[2024-10-29 23:12:07.124] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:12:07.238025771Z for 93
+After serialization at 2024-10-29T23:12:07.238037153Z for 93
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 94
+[2024-10-29 23:12:07.339] [error] Bind guest directory failed:54
+[2024-10-29 23:12:07.339] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:12:07.448890624Z for 94
+After serialization at 2024-10-29T23:12:07.448902189Z for 94
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 95
+[2024-10-29 23:12:07.545] [error] Bind guest directory failed:54
+[2024-10-29 23:12:07.546] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:12:07.654509227Z for 95
+After serialization at 2024-10-29T23:12:07.654520662Z for 95
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 96
+[2024-10-29 23:12:07.759] [error] Bind guest directory failed:54
+[2024-10-29 23:12:07.759] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:12:07.867936923Z for 96
+After serialization at 2024-10-29T23:12:07.867948174Z for 96
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 97
+[2024-10-29 23:12:07.965] [error] Bind guest directory failed:54
+[2024-10-29 23:12:07.965] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:12:08.077144021Z for 97
+After serialization at 2024-10-29T23:12:08.077156114Z for 97
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 98
+[2024-10-29 23:12:08.180] [error] Bind guest directory failed:54
+[2024-10-29 23:12:08.180] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:12:08.291587067Z for 98
+After serialization at 2024-10-29T23:12:08.291599408Z for 98
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 99
+[2024-10-29 23:12:08.382] [error] Bind guest directory failed:54
+[2024-10-29 23:12:08.382] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941685 at 2024-10-29T23:12:08.491835199Z for 99
+After serialization at 2024-10-29T23:12:08.491848373Z for 99
+FnB Shim Finished. Result from moduleB: 5
+Starting func_b for task: 100
+[2024-10-29 23:12:08.590] [error] Bind guest directory failed:54
+[2024-10-29 23:12:08.590] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received chunk of size: 10941686 at 2024-10-29T23:12:08.702193497Z for 100
+After serialization at 2024-10-29T23:12:08.702204834Z for 100
+FnB Shim Finished. Result from moduleB: 5
+Cleaning up all containers...
+All tasks have been processed and cleaned up.

@@ -1,0 +1,66 @@
+ROUND 1
+
+start transfer of 104857600 at 2024-09-13 18:25:36.758476594 UTC
+
+Received chunk of size: 104857602 at 2024-09-13T18:25:37.835750718Z
+After serialization at 2024-09-13T18:25:37.932041069Z
+
+ROUND 2
+
+start transfer of 104857600 at 2024-09-13 18:27:00.536645726 UTC
+
+Received chunk of size: 104857602 at 2024-09-13T18:27:01.621174252Z
+After serialization at 2024-09-13T18:27:01.715372163Z
+
+ROUND 3
+
+start transfer of 104857600 at 2024-09-13 18:27:34.303224330 UTC
+
+Received chunk of size: 104857602 at 2024-09-13T18:27:35.388493093Z
+After serialization at 2024-09-13T18:27:35.515579900Z
+
+ROUND 4
+
+start transfer of 104857600 at 2024-09-13 18:28:38.899225670 UTC
+
+Received chunk of size: 104857602 at 2024-09-13T18:28:39.978658082Z
+After serialization at 2024-09-13T18:28:40.076620050Z
+
+ROUND 5
+
+start transfer of 104857600 at 2024-09-13 18:29:04.442669939 UTC
+
+Received chunk of size: 104857602 at 2024-09-13T18:29:05.526283922Z
+After serialization at 2024-09-13T18:29:05.666657044Z
+
+ROUND 6
+
+start transfer of 104857600 at 2024-09-13 18:29:57.249702808 UTC
+
+Received chunk of size: 104857602 at 2024-09-13T18:29:58.329360111Z
+After serialization at 2024-09-13T18:29:58.426581203Z
+
+ROUND 7
+
+start transfer of 104857600 at 2024-09-13 18:30:25.132249103 UTC
+
+Received chunk of size: 104857602 at 2024-09-13T18:30:26.213340834Z
+After serialization at 2024-09-13T18:30:26.308874984Z
+
+ROUND 8
+start transfer of 104857600 at 2024-09-13 18:30:49.709010733 UTC
+
+Received chunk of size: 104857602 at 2024-09-13T18:30:50.844674383Z
+After serialization at 2024-09-13T18:30:50.943776819Z
+
+ROUND 9
+start transfer of 104857600 at 2024-09-13 18:31:20.720378655 UTC
+
+Received chunk of size: 104857602 at 2024-09-13T18:31:21.799930492Z
+After serialization at 2024-09-13T18:31:21.895198736Z
+
+ROUND 10
+start transfer of 104857600 at 2024-09-13 18:31:45.422102611 UTC
+
+Received chunk of size: 104857602 at 2024-09-13T18:31:46.519479393Z
+After serialization at 2024-09-13T18:31:46.628899243Z

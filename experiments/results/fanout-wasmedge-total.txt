@@ -1,0 +1,3046 @@
+ROUND 10
+Extracted Start transfer at: 2024-10-30 07:49:36.104620443
+Extracted Received chunk at: 2024-10-30T07:49:36.544380246
+Extracted After serialization at: 2024-10-30T07:49:36.709376015
+Start transfer time (epoch): 1730270976.104620443
+Received chunk time (epoch): 1730270976.544380246
+After serialization time (epoch): 1730270976.709376015
+Transfer duration: .439759803 seconds
+Serialization duration: .164995769 seconds
+Total Transfer duration: .604755572 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:49:36.448380837
+Extracted Received chunk at: 2024-10-30T07:49:36.868469568
+Extracted After serialization at: 2024-10-30T07:49:37.051411113
+Start transfer time (epoch): 1730270976.448380837
+Received chunk time (epoch): 1730270976.868469568
+After serialization time (epoch): 1730270977.051411113
+Transfer duration: .420088731 seconds
+Serialization duration: .182941545 seconds
+Total Transfer duration: .603030276 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:49:36.774377085
+Extracted Received chunk at: 2024-10-30T07:49:37.195027126
+Extracted After serialization at: 2024-10-30T07:49:37.377383384
+Start transfer time (epoch): 1730270976.774377085
+Received chunk time (epoch): 1730270977.195027126
+After serialization time (epoch): 1730270977.377383384
+Transfer duration: .420650041 seconds
+Serialization duration: .182356258 seconds
+Total Transfer duration: .603006299 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:49:37.101439040
+Extracted Received chunk at: 2024-10-30T07:49:37.525076738
+Extracted After serialization at: 2024-10-30T07:49:37.707846040
+Start transfer time (epoch): 1730270977.101439040
+Received chunk time (epoch): 1730270977.525076738
+After serialization time (epoch): 1730270977.707846040
+Transfer duration: .423637698 seconds
+Serialization duration: .182769302 seconds
+Total Transfer duration: .606407000 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:49:37.431458287
+Extracted Received chunk at: 2024-10-30T07:49:37.862380281
+Extracted After serialization at: 2024-10-30T07:49:38.030779321
+Start transfer time (epoch): 1730270977.431458287
+Received chunk time (epoch): 1730270977.862380281
+After serialization time (epoch): 1730270978.030779321
+Transfer duration: .430921994 seconds
+Serialization duration: .168399040 seconds
+Total Transfer duration: .599321034 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:49:37.766593071
+Extracted Received chunk at: 2024-10-30T07:49:38.183200449
+Extracted After serialization at: 2024-10-30T07:49:38.349759649
+Start transfer time (epoch): 1730270977.766593071
+Received chunk time (epoch): 1730270978.183200449
+After serialization time (epoch): 1730270978.349759649
+Transfer duration: .416607378 seconds
+Serialization duration: .166559200 seconds
+Total Transfer duration: .583166578 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:49:38.089798737
+Extracted Received chunk at: 2024-10-30T07:49:38.509788416
+Extracted After serialization at: 2024-10-30T07:49:38.691031773
+Start transfer time (epoch): 1730270978.089798737
+Received chunk time (epoch): 1730270978.509788416
+After serialization time (epoch): 1730270978.691031773
+Transfer duration: .419989679 seconds
+Serialization duration: .181243357 seconds
+Total Transfer duration: .601233036 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:49:38.415275684
+Extracted Received chunk at: 2024-10-30T07:49:38.840488043
+Extracted After serialization at: 2024-10-30T07:49:39.019374093
+Start transfer time (epoch): 1730270978.415275684
+Received chunk time (epoch): 1730270978.840488043
+After serialization time (epoch): 1730270979.019374093
+Transfer duration: .425212359 seconds
+Serialization duration: .178886050 seconds
+Total Transfer duration: .604098409 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:49:38.745723864
+Extracted Received chunk at: 2024-10-30T07:49:39.167722341
+Extracted After serialization at: 2024-10-30T07:49:39.350011854
+Start transfer time (epoch): 1730270978.745723864
+Received chunk time (epoch): 1730270979.167722341
+After serialization time (epoch): 1730270979.350011854
+Transfer duration: .421998477 seconds
+Serialization duration: .182289513 seconds
+Total Transfer duration: .604287990 seconds
+----------
+ROUND 20
+Extracted Start transfer at: 2024-10-30 07:50:29.500924097
+Extracted Received chunk at: 2024-10-30T07:50:29.930208785
+Extracted After serialization at: 2024-10-30T07:50:30.096930280
+Start transfer time (epoch): 1730271029.500924097
+Received chunk time (epoch): 1730271029.930208785
+After serialization time (epoch): 1730271030.096930280
+Transfer duration: .429284688 seconds
+Serialization duration: .166721495 seconds
+Total Transfer duration: .596006183 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:50:29.835464525
+Extracted Received chunk at: 2024-10-30T07:50:30.253688022
+Extracted After serialization at: 2024-10-30T07:50:30.437020734
+Start transfer time (epoch): 1730271029.835464525
+Received chunk time (epoch): 1730271030.253688022
+After serialization time (epoch): 1730271030.437020734
+Transfer duration: .418223497 seconds
+Serialization duration: .183332712 seconds
+Total Transfer duration: .601556209 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:50:30.157152414
+Extracted Received chunk at: 2024-10-30T07:50:30.601667511
+Extracted After serialization at: 2024-10-30T07:50:30.770763274
+Start transfer time (epoch): 1730271030.157152414
+Received chunk time (epoch): 1730271030.601667511
+After serialization time (epoch): 1730271030.770763274
+Transfer duration: .444515097 seconds
+Serialization duration: .169095763 seconds
+Total Transfer duration: .613610860 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:50:30.506621228
+Extracted Received chunk at: 2024-10-30T07:50:30.923132569
+Extracted After serialization at: 2024-10-30T07:50:31.101532407
+Start transfer time (epoch): 1730271030.506621228
+Received chunk time (epoch): 1730271030.923132569
+After serialization time (epoch): 1730271031.101532407
+Transfer duration: .416511341 seconds
+Serialization duration: .178399838 seconds
+Total Transfer duration: .594911179 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:50:30.829290850
+Extracted Received chunk at: 2024-10-30T07:50:31.263551920
+Extracted After serialization at: 2024-10-30T07:50:31.431458696
+Start transfer time (epoch): 1730271030.829290850
+Received chunk time (epoch): 1730271031.263551920
+After serialization time (epoch): 1730271031.431458696
+Transfer duration: .434261070 seconds
+Serialization duration: .167906776 seconds
+Total Transfer duration: .602167846 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:50:31.169210787
+Extracted Received chunk at: 2024-10-30T07:50:31.583382541
+Extracted After serialization at: 2024-10-30T07:50:31.749256624
+Start transfer time (epoch): 1730271031.169210787
+Received chunk time (epoch): 1730271031.583382541
+After serialization time (epoch): 1730271031.749256624
+Transfer duration: .414171754 seconds
+Serialization duration: .165874083 seconds
+Total Transfer duration: .580045837 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:50:31.489180151
+Extracted Received chunk at: 2024-10-30T07:50:31.898727600
+Extracted After serialization at: 2024-10-30T07:50:32.066695631
+Start transfer time (epoch): 1730271031.489180151
+Received chunk time (epoch): 1730271031.898727600
+After serialization time (epoch): 1730271032.066695631
+Transfer duration: .409547449 seconds
+Serialization duration: .167968031 seconds
+Total Transfer duration: .577515480 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:50:31.805095518
+Extracted Received chunk at: 2024-10-30T07:50:32.216129790
+Extracted After serialization at: 2024-10-30T07:50:32.381496314
+Start transfer time (epoch): 1730271031.805095518
+Received chunk time (epoch): 1730271032.216129790
+After serialization time (epoch): 1730271032.381496314
+Transfer duration: .411034272 seconds
+Serialization duration: .165366524 seconds
+Total Transfer duration: .576400796 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:50:32.123732922
+Extracted Received chunk at: 2024-10-30T07:50:32.524535998
+Extracted After serialization at: 2024-10-30T07:50:32.690105842
+Start transfer time (epoch): 1730271032.123732922
+Received chunk time (epoch): 1730271032.524535998
+After serialization time (epoch): 1730271032.690105842
+Transfer duration: .400803076 seconds
+Serialization duration: .165569844 seconds
+Total Transfer duration: .566372920 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:50:32.431013306
+Extracted Received chunk at: 2024-10-30T07:50:32.858341674
+Extracted After serialization at: 2024-10-30T07:50:33.039582786
+Start transfer time (epoch): 1730271032.431013306
+Received chunk time (epoch): 1730271032.858341674
+After serialization time (epoch): 1730271033.039582786
+Transfer duration: .427328368 seconds
+Serialization duration: .181241112 seconds
+Total Transfer duration: .608569480 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:50:32.763641713
+Extracted Received chunk at: 2024-10-30T07:50:33.191289695
+Extracted After serialization at: 2024-10-30T07:50:33.374414815
+Start transfer time (epoch): 1730271032.763641713
+Received chunk time (epoch): 1730271033.191289695
+After serialization time (epoch): 1730271033.374414815
+Transfer duration: .427647982 seconds
+Serialization duration: .183125120 seconds
+Total Transfer duration: .610773102 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:50:33.096208255
+Extracted Received chunk at: 2024-10-30T07:50:33.524435611
+Extracted After serialization at: 2024-10-30T07:50:33.707228226
+Start transfer time (epoch): 1730271033.096208255
+Received chunk time (epoch): 1730271033.524435611
+After serialization time (epoch): 1730271033.707228226
+Transfer duration: .428227356 seconds
+Serialization duration: .182792615 seconds
+Total Transfer duration: .611019971 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:50:33.431819797
+Extracted Received chunk at: 2024-10-30T07:50:33.853267098
+Extracted After serialization at: 2024-10-30T07:50:34.036291952
+Start transfer time (epoch): 1730271033.431819797
+Received chunk time (epoch): 1730271033.853267098
+After serialization time (epoch): 1730271034.036291952
+Transfer duration: .421447301 seconds
+Serialization duration: .183024854 seconds
+Total Transfer duration: .604472155 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:50:33.759803231
+Extracted Received chunk at: 2024-10-30T07:50:34.180282143
+Extracted After serialization at: 2024-10-30T07:50:34.364158745
+Start transfer time (epoch): 1730271033.759803231
+Received chunk time (epoch): 1730271034.180282143
+After serialization time (epoch): 1730271034.364158745
+Transfer duration: .420478912 seconds
+Serialization duration: .183876602 seconds
+Total Transfer duration: .604355514 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:50:34.087720358
+Extracted Received chunk at: 2024-10-30T07:50:34.517820377
+Extracted After serialization at: 2024-10-30T07:50:34.700656386
+Start transfer time (epoch): 1730271034.087720358
+Received chunk time (epoch): 1730271034.517820377
+After serialization time (epoch): 1730271034.700656386
+Transfer duration: .430100019 seconds
+Serialization duration: .182836009 seconds
+Total Transfer duration: .612936028 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:50:34.423045743
+Extracted Received chunk at: 2024-10-30T07:50:34.857123238
+Extracted After serialization at: 2024-10-30T07:50:35.028636426
+Start transfer time (epoch): 1730271034.423045743
+Received chunk time (epoch): 1730271034.857123238
+After serialization time (epoch): 1730271035.028636426
+Transfer duration: .434077495 seconds
+Serialization duration: .171513188 seconds
+Total Transfer duration: .605590683 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:50:34.762187138
+Extracted Received chunk at: 2024-10-30T07:50:35.185736184
+Extracted After serialization at: 2024-10-30T07:50:35.353647554
+Start transfer time (epoch): 1730271034.762187138
+Received chunk time (epoch): 1730271035.185736184
+After serialization time (epoch): 1730271035.353647554
+Transfer duration: .423549046 seconds
+Serialization duration: .167911370 seconds
+Total Transfer duration: .591460416 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:50:35.092035604
+Extracted Received chunk at: 2024-10-30T07:50:35.512508612
+Extracted After serialization at: 2024-10-30T07:50:35.679492220
+Start transfer time (epoch): 1730271035.092035604
+Received chunk time (epoch): 1730271035.512508612
+After serialization time (epoch): 1730271035.679492220
+Transfer duration: .420473008 seconds
+Serialization duration: .166983608 seconds
+Total Transfer duration: .587456616 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:50:35.418646639
+Extracted Received chunk at: 2024-10-30T07:50:35.837054695
+Extracted After serialization at: 2024-10-30T07:50:36.016530106
+Start transfer time (epoch): 1730271035.418646639
+Received chunk time (epoch): 1730271035.837054695
+After serialization time (epoch): 1730271036.016530106
+Transfer duration: .418408056 seconds
+Serialization duration: .179475411 seconds
+Total Transfer duration: .597883467 seconds
+----------
+ROUND 40
+Extracted Start transfer at: 2024-10-30 07:51:32.824537810
+Extracted Received chunk at: 2024-10-30T07:51:33.282595247
+Extracted After serialization at: 2024-10-30T07:51:33.461502716
+Start transfer time (epoch): 1730271092.824537810
+Received chunk time (epoch): 1730271093.282595247
+After serialization time (epoch): 1730271093.461502716
+Transfer duration: .458057437 seconds
+Serialization duration: .178907469 seconds
+Total Transfer duration: .636964906 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:33.187809918
+Extracted Received chunk at: 2024-10-30T07:51:33.607757173
+Extracted After serialization at: 2024-10-30T07:51:33.774797493
+Start transfer time (epoch): 1730271093.187809918
+Received chunk time (epoch): 1730271093.607757173
+After serialization time (epoch): 1730271093.774797493
+Transfer duration: .419947255 seconds
+Serialization duration: .167040320 seconds
+Total Transfer duration: .586987575 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:33.513038881
+Extracted Received chunk at: 2024-10-30T07:51:33.933886200
+Extracted After serialization at: 2024-10-30T07:51:34.099712204
+Start transfer time (epoch): 1730271093.513038881
+Received chunk time (epoch): 1730271093.933886200
+After serialization time (epoch): 1730271094.099712204
+Transfer duration: .420847319 seconds
+Serialization duration: .165826004 seconds
+Total Transfer duration: .586673323 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:33.840978965
+Extracted Received chunk at: 2024-10-30T07:51:34.264432811
+Extracted After serialization at: 2024-10-30T07:51:34.446005245
+Start transfer time (epoch): 1730271093.840978965
+Received chunk time (epoch): 1730271094.264432811
+After serialization time (epoch): 1730271094.446005245
+Transfer duration: .423453846 seconds
+Serialization duration: .181572434 seconds
+Total Transfer duration: .605026280 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:34.170958516
+Extracted Received chunk at: 2024-10-30T07:51:34.609051262
+Extracted After serialization at: 2024-10-30T07:51:34.777692558
+Start transfer time (epoch): 1730271094.170958516
+Received chunk time (epoch): 1730271094.609051262
+After serialization time (epoch): 1730271094.777692558
+Transfer duration: .438092746 seconds
+Serialization duration: .168641296 seconds
+Total Transfer duration: .606734042 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:34.513600518
+Extracted Received chunk at: 2024-10-30T07:51:34.942203250
+Extracted After serialization at: 2024-10-30T07:51:35.379724524
+Start transfer time (epoch): 1730271094.513600518
+Received chunk time (epoch): 1730271094.942203250
+After serialization time (epoch): 1730271095.379724524
+Transfer duration: .428602732 seconds
+Serialization duration: .437521274 seconds
+Total Transfer duration: .866124006 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:34.847457881
+Extracted Received chunk at: 2024-10-30T07:51:35.538747528
+Extracted After serialization at: 2024-10-30T07:51:35.940416550
+Start transfer time (epoch): 1730271094.847457881
+Received chunk time (epoch): 1730271095.538747528
+After serialization time (epoch): 1730271095.940416550
+Transfer duration: .691289647 seconds
+Serialization duration: .401669022 seconds
+Total Transfer duration: 1.092958669 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:35.442551699
+Extracted Received chunk at: 2024-10-30T07:51:36.088689135
+Extracted After serialization at: 2024-10-30T07:51:36.270853548
+Start transfer time (epoch): 1730271095.442551699
+Received chunk time (epoch): 1730271096.088689135
+After serialization time (epoch): 1730271096.270853548
+Transfer duration: .646137436 seconds
+Serialization duration: .182164413 seconds
+Total Transfer duration: .828301849 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:35.994816791
+Extracted Received chunk at: 2024-10-30T07:51:36.422957140
+Extracted After serialization at: 2024-10-30T07:51:36.589859479
+Start transfer time (epoch): 1730271095.994816791
+Received chunk time (epoch): 1730271096.422957140
+After serialization time (epoch): 1730271096.589859479
+Transfer duration: .428140349 seconds
+Serialization duration: .166902339 seconds
+Total Transfer duration: .595042688 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:36.329630965
+Extracted Received chunk at: 2024-10-30T07:51:36.745659881
+Extracted After serialization at: 2024-10-30T07:51:36.911463806
+Start transfer time (epoch): 1730271096.329630965
+Received chunk time (epoch): 1730271096.745659881
+After serialization time (epoch): 1730271096.911463806
+Transfer duration: .416028916 seconds
+Serialization duration: .165803925 seconds
+Total Transfer duration: .581832841 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:36.652876644
+Extracted Received chunk at: 2024-10-30T07:51:37.062208282
+Extracted After serialization at: 2024-10-30T07:51:37.242756483
+Start transfer time (epoch): 1730271096.652876644
+Received chunk time (epoch): 1730271097.062208282
+After serialization time (epoch): 1730271097.242756483
+Transfer duration: .409331638 seconds
+Serialization duration: .180548201 seconds
+Total Transfer duration: .589879839 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:36.965900712
+Extracted Received chunk at: 2024-10-30T07:51:37.395149555
+Extracted After serialization at: 2024-10-30T07:51:37.565456650
+Start transfer time (epoch): 1730271096.965900712
+Received chunk time (epoch): 1730271097.395149555
+After serialization time (epoch): 1730271097.565456650
+Transfer duration: .429248843 seconds
+Serialization duration: .170307095 seconds
+Total Transfer duration: .599555938 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:37.301093717
+Extracted Received chunk at: 2024-10-30T07:51:37.718655988
+Extracted After serialization at: 2024-10-30T07:51:37.888026568
+Start transfer time (epoch): 1730271097.301093717
+Received chunk time (epoch): 1730271097.718655988
+After serialization time (epoch): 1730271097.888026568
+Transfer duration: .417562271 seconds
+Serialization duration: .169370580 seconds
+Total Transfer duration: .586932851 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:37.623867933
+Extracted Received chunk at: 2024-10-30T07:51:38.038952668
+Extracted After serialization at: 2024-10-30T07:51:38.207172707
+Start transfer time (epoch): 1730271097.623867933
+Received chunk time (epoch): 1730271098.038952668
+After serialization time (epoch): 1730271098.207172707
+Transfer duration: .415084735 seconds
+Serialization duration: .168220039 seconds
+Total Transfer duration: .583304774 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:37.942785593
+Extracted Received chunk at: 2024-10-30T07:51:38.376348822
+Extracted After serialization at: 2024-10-30T07:51:38.545057305
+Start transfer time (epoch): 1730271097.942785593
+Received chunk time (epoch): 1730271098.376348822
+After serialization time (epoch): 1730271098.545057305
+Transfer duration: .433563229 seconds
+Serialization duration: .168708483 seconds
+Total Transfer duration: .602271712 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:38.282176069
+Extracted Received chunk at: 2024-10-30T07:51:38.700677146
+Extracted After serialization at: 2024-10-30T07:51:38.866357343
+Start transfer time (epoch): 1730271098.282176069
+Received chunk time (epoch): 1730271098.700677146
+After serialization time (epoch): 1730271098.866357343
+Transfer duration: .418501077 seconds
+Serialization duration: .165680197 seconds
+Total Transfer duration: .584181274 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:38.606675834
+Extracted Received chunk at: 2024-10-30T07:51:39.020445385
+Extracted After serialization at: 2024-10-30T07:51:39.203744695
+Start transfer time (epoch): 1730271098.606675834
+Received chunk time (epoch): 1730271099.020445385
+After serialization time (epoch): 1730271099.203744695
+Transfer duration: .413769551 seconds
+Serialization duration: .183299310 seconds
+Total Transfer duration: .597068861 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:38.923178408
+Extracted Received chunk at: 2024-10-30T07:51:39.365301356
+Extracted After serialization at: 2024-10-30T07:51:39.533072052
+Start transfer time (epoch): 1730271098.923178408
+Received chunk time (epoch): 1730271099.365301356
+After serialization time (epoch): 1730271099.533072052
+Transfer duration: .442122948 seconds
+Serialization duration: .167770696 seconds
+Total Transfer duration: .609893644 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:39.270670286
+Extracted Received chunk at: 2024-10-30T07:51:39.683141871
+Extracted After serialization at: 2024-10-30T07:51:39.848265275
+Start transfer time (epoch): 1730271099.270670286
+Received chunk time (epoch): 1730271099.683141871
+After serialization time (epoch): 1730271099.848265275
+Transfer duration: .412471585 seconds
+Serialization duration: .165123404 seconds
+Total Transfer duration: .577594989 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:39.589546156
+Extracted Received chunk at: 2024-10-30T07:51:40.006769288
+Extracted After serialization at: 2024-10-30T07:51:40.194772555
+Start transfer time (epoch): 1730271099.589546156
+Received chunk time (epoch): 1730271100.006769288
+After serialization time (epoch): 1730271100.194772555
+Transfer duration: .417223132 seconds
+Serialization duration: .188003267 seconds
+Total Transfer duration: .605226399 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:39.912436140
+Extracted Received chunk at: 2024-10-30T07:51:40.361340072
+Extracted After serialization at: 2024-10-30T07:51:40.527896504
+Start transfer time (epoch): 1730271099.912436140
+Received chunk time (epoch): 1730271100.361340072
+After serialization time (epoch): 1730271100.527896504
+Transfer duration: .448903932 seconds
+Serialization duration: .166556432 seconds
+Total Transfer duration: .615460364 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:40.264317727
+Extracted Received chunk at: 2024-10-30T07:51:40.676789610
+Extracted After serialization at: 2024-10-30T07:51:40.843232018
+Start transfer time (epoch): 1730271100.264317727
+Received chunk time (epoch): 1730271100.676789610
+After serialization time (epoch): 1730271100.843232018
+Transfer duration: .412471883 seconds
+Serialization duration: .166442408 seconds
+Total Transfer duration: .578914291 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:40.582738324
+Extracted Received chunk at: 2024-10-30T07:51:41.006278397
+Extracted After serialization at: 2024-10-30T07:51:41.192315559
+Start transfer time (epoch): 1730271100.582738324
+Received chunk time (epoch): 1730271101.006278397
+After serialization time (epoch): 1730271101.192315559
+Transfer duration: .423540073 seconds
+Serialization duration: .186037162 seconds
+Total Transfer duration: .609577235 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:40.911114757
+Extracted Received chunk at: 2024-10-30T07:51:41.350828851
+Extracted After serialization at: 2024-10-30T07:51:41.518343349
+Start transfer time (epoch): 1730271100.911114757
+Received chunk time (epoch): 1730271101.350828851
+After serialization time (epoch): 1730271101.518343349
+Transfer duration: .439714094 seconds
+Serialization duration: .167514498 seconds
+Total Transfer duration: .607228592 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:41.255237929
+Extracted Received chunk at: 2024-10-30T07:51:41.677713154
+Extracted After serialization at: 2024-10-30T07:51:41.861538946
+Start transfer time (epoch): 1730271101.255237929
+Received chunk time (epoch): 1730271101.677713154
+After serialization time (epoch): 1730271101.861538946
+Transfer duration: .422475225 seconds
+Serialization duration: .183825792 seconds
+Total Transfer duration: .606301017 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:41.583464089
+Extracted Received chunk at: 2024-10-30T07:51:42.015034717
+Extracted After serialization at: 2024-10-30T07:51:42.197523482
+Start transfer time (epoch): 1730271101.583464089
+Received chunk time (epoch): 1730271102.015034717
+After serialization time (epoch): 1730271102.197523482
+Transfer duration: .431570628 seconds
+Serialization duration: .182488765 seconds
+Total Transfer duration: .614059393 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:41.921777897
+Extracted Received chunk at: 2024-10-30T07:51:42.351479454
+Extracted After serialization at: 2024-10-30T07:51:42.533731575
+Start transfer time (epoch): 1730271101.921777897
+Received chunk time (epoch): 1730271102.351479454
+After serialization time (epoch): 1730271102.533731575
+Transfer duration: .429701557 seconds
+Serialization duration: .182252121 seconds
+Total Transfer duration: .611953678 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:42.258180330
+Extracted Received chunk at: 2024-10-30T07:51:42.684861165
+Extracted After serialization at: 2024-10-30T07:51:42.867247292
+Start transfer time (epoch): 1730271102.258180330
+Received chunk time (epoch): 1730271102.684861165
+After serialization time (epoch): 1730271102.867247292
+Transfer duration: .426680835 seconds
+Serialization duration: .182386127 seconds
+Total Transfer duration: .609066962 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:42.591858376
+Extracted Received chunk at: 2024-10-30T07:51:43.013591776
+Extracted After serialization at: 2024-10-30T07:51:43.182067768
+Start transfer time (epoch): 1730271102.591858376
+Received chunk time (epoch): 1730271103.013591776
+After serialization time (epoch): 1730271103.182067768
+Transfer duration: .421733400 seconds
+Serialization duration: .168475992 seconds
+Total Transfer duration: .590209392 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:42.919627552
+Extracted Received chunk at: 2024-10-30T07:51:43.331652376
+Extracted After serialization at: 2024-10-30T07:51:43.510704258
+Start transfer time (epoch): 1730271102.919627552
+Received chunk time (epoch): 1730271103.331652376
+After serialization time (epoch): 1730271103.510704258
+Transfer duration: .412024824 seconds
+Serialization duration: .179051882 seconds
+Total Transfer duration: .591076706 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:43.237116031
+Extracted Received chunk at: 2024-10-30T07:51:43.672018883
+Extracted After serialization at: 2024-10-30T07:51:43.854827430
+Start transfer time (epoch): 1730271103.237116031
+Received chunk time (epoch): 1730271103.672018883
+After serialization time (epoch): 1730271103.854827430
+Transfer duration: .434902852 seconds
+Serialization duration: .182808547 seconds
+Total Transfer duration: .617711399 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:43.577140889
+Extracted Received chunk at: 2024-10-30T07:51:44.005973778
+Extracted After serialization at: 2024-10-30T07:51:44.175452558
+Start transfer time (epoch): 1730271103.577140889
+Received chunk time (epoch): 1730271104.005973778
+After serialization time (epoch): 1730271104.175452558
+Transfer duration: .428832889 seconds
+Serialization duration: .169478780 seconds
+Total Transfer duration: .598311669 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:43.912203123
+Extracted Received chunk at: 2024-10-30T07:51:44.341255625
+Extracted After serialization at: 2024-10-30T07:51:44.529171641
+Start transfer time (epoch): 1730271103.912203123
+Received chunk time (epoch): 1730271104.341255625
+After serialization time (epoch): 1730271104.529171641
+Transfer duration: .429052502 seconds
+Serialization duration: .187916016 seconds
+Total Transfer duration: .616968518 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:44.245888189
+Extracted Received chunk at: 2024-10-30T07:51:44.676884927
+Extracted After serialization at: 2024-10-30T07:51:44.858945344
+Start transfer time (epoch): 1730271104.245888189
+Received chunk time (epoch): 1730271104.676884927
+After serialization time (epoch): 1730271104.858945344
+Transfer duration: .430996738 seconds
+Serialization duration: .182060417 seconds
+Total Transfer duration: .613057155 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:44.582123642
+Extracted Received chunk at: 2024-10-30T07:51:45.007685889
+Extracted After serialization at: 2024-10-30T07:51:45.177521139
+Start transfer time (epoch): 1730271104.582123642
+Received chunk time (epoch): 1730271105.007685889
+After serialization time (epoch): 1730271105.177521139
+Transfer duration: .425562247 seconds
+Serialization duration: .169835250 seconds
+Total Transfer duration: .595397497 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:44.912595086
+Extracted Received chunk at: 2024-10-30T07:51:45.342221625
+Extracted After serialization at: 2024-10-30T07:51:45.512934686
+Start transfer time (epoch): 1730271104.912595086
+Received chunk time (epoch): 1730271105.342221625
+After serialization time (epoch): 1730271105.512934686
+Transfer duration: .429626539 seconds
+Serialization duration: .170713061 seconds
+Total Transfer duration: .600339600 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:45.247492323
+Extracted Received chunk at: 2024-10-30T07:51:45.658288226
+Extracted After serialization at: 2024-10-30T07:51:45.824678795
+Start transfer time (epoch): 1730271105.247492323
+Received chunk time (epoch): 1730271105.658288226
+After serialization time (epoch): 1730271105.824678795
+Transfer duration: .410795903 seconds
+Serialization duration: .166390569 seconds
+Total Transfer duration: .577186472 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:45.563553647
+Extracted Received chunk at: 2024-10-30T07:51:45.975206077
+Extracted After serialization at: 2024-10-30T07:51:46.159416326
+Start transfer time (epoch): 1730271105.563553647
+Received chunk time (epoch): 1730271105.975206077
+After serialization time (epoch): 1730271106.159416326
+Transfer duration: .411652430 seconds
+Serialization duration: .184210249 seconds
+Total Transfer duration: .595862679 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:51:45.880599180
+Extracted Received chunk at: 2024-10-30T07:51:46.312707603
+Extracted After serialization at: 2024-10-30T07:51:46.499997219
+Start transfer time (epoch): 1730271105.880599180
+Received chunk time (epoch): 1730271106.312707603
+After serialization time (epoch): 1730271106.499997219
+Transfer duration: .432108423 seconds
+Serialization duration: .187289616 seconds
+Total Transfer duration: .619398039 seconds
+----------
+ROUND 60
+Extracted Start transfer at: 2024-10-30 07:53:01.463758929
+Extracted Received chunk at: 2024-10-30T07:53:01.922773815
+Extracted After serialization at: 2024-10-30T07:53:02.101615891
+Start transfer time (epoch): 1730271181.463758929
+Received chunk time (epoch): 1730271181.922773815
+After serialization time (epoch): 1730271182.101615891
+Transfer duration: .459014886 seconds
+Serialization duration: .178842076 seconds
+Total Transfer duration: .637856962 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:01.827794759
+Extracted Received chunk at: 2024-10-30T07:53:02.254389823
+Extracted After serialization at: 2024-10-30T07:53:02.432183461
+Start transfer time (epoch): 1730271181.827794759
+Received chunk time (epoch): 1730271182.254389823
+After serialization time (epoch): 1730271182.432183461
+Transfer duration: .426595064 seconds
+Serialization duration: .177793638 seconds
+Total Transfer duration: .604388702 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:02.160529567
+Extracted Received chunk at: 2024-10-30T07:53:02.586193354
+Extracted After serialization at: 2024-10-30T07:53:02.763816641
+Start transfer time (epoch): 1730271182.160529567
+Received chunk time (epoch): 1730271182.586193354
+After serialization time (epoch): 1730271182.763816641
+Transfer duration: .425663787 seconds
+Serialization duration: .177623287 seconds
+Total Transfer duration: .603287074 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:02.492368985
+Extracted Received chunk at: 2024-10-30T07:53:02.916350851
+Extracted After serialization at: 2024-10-30T07:53:03.098008028
+Start transfer time (epoch): 1730271182.492368985
+Received chunk time (epoch): 1730271182.916350851
+After serialization time (epoch): 1730271183.098008028
+Transfer duration: .423981866 seconds
+Serialization duration: .181657177 seconds
+Total Transfer duration: .605639043 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:02.822998094
+Extracted Received chunk at: 2024-10-30T07:53:03.251069718
+Extracted After serialization at: 2024-10-30T07:53:03.431254096
+Start transfer time (epoch): 1730271182.822998094
+Received chunk time (epoch): 1730271183.251069718
+After serialization time (epoch): 1730271183.431254096
+Transfer duration: .428071624 seconds
+Serialization duration: .180184378 seconds
+Total Transfer duration: .608256002 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:03.157463333
+Extracted Received chunk at: 2024-10-30T07:53:03.577289842
+Extracted After serialization at: 2024-10-30T07:53:03.743185336
+Start transfer time (epoch): 1730271183.157463333
+Received chunk time (epoch): 1730271183.577289842
+After serialization time (epoch): 1730271183.743185336
+Transfer duration: .419826509 seconds
+Serialization duration: .165895494 seconds
+Total Transfer duration: .585722003 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:03.483032938
+Extracted Received chunk at: 2024-10-30T07:53:03.898985112
+Extracted After serialization at: 2024-10-30T07:53:04.078675341
+Start transfer time (epoch): 1730271183.483032938
+Received chunk time (epoch): 1730271183.898985112
+After serialization time (epoch): 1730271184.078675341
+Transfer duration: .415952174 seconds
+Serialization duration: .179690229 seconds
+Total Transfer duration: .595642403 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:03.805279106
+Extracted Received chunk at: 2024-10-30T07:53:04.236562228
+Extracted After serialization at: 2024-10-30T07:53:04.402395045
+Start transfer time (epoch): 1730271183.805279106
+Received chunk time (epoch): 1730271184.236562228
+After serialization time (epoch): 1730271184.402395045
+Transfer duration: .431283122 seconds
+Serialization duration: .165832817 seconds
+Total Transfer duration: .597115939 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:04.141034930
+Extracted Received chunk at: 2024-10-30T07:53:04.563750131
+Extracted After serialization at: 2024-10-30T07:53:04.743977402
+Start transfer time (epoch): 1730271184.141034930
+Received chunk time (epoch): 1730271184.563750131
+After serialization time (epoch): 1730271184.743977402
+Transfer duration: .422715201 seconds
+Serialization duration: .180227271 seconds
+Total Transfer duration: .602942472 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:04.468559558
+Extracted Received chunk at: 2024-10-30T07:53:04.894172746
+Extracted After serialization at: 2024-10-30T07:53:05.077928877
+Start transfer time (epoch): 1730271184.468559558
+Received chunk time (epoch): 1730271184.894172746
+After serialization time (epoch): 1730271185.077928877
+Transfer duration: .425613188 seconds
+Serialization duration: .183756131 seconds
+Total Transfer duration: .609369319 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:04.799695104
+Extracted Received chunk at: 2024-10-30T07:53:05.223695689
+Extracted After serialization at: 2024-10-30T07:53:05.403547209
+Start transfer time (epoch): 1730271184.799695104
+Received chunk time (epoch): 1730271185.223695689
+After serialization time (epoch): 1730271185.403547209
+Transfer duration: .424000585 seconds
+Serialization duration: .179851520 seconds
+Total Transfer duration: .603852105 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:05.126297726
+Extracted Received chunk at: 2024-10-30T07:53:05.556001569
+Extracted After serialization at: 2024-10-30T07:53:05.735627395
+Start transfer time (epoch): 1730271185.126297726
+Received chunk time (epoch): 1730271185.556001569
+After serialization time (epoch): 1730271185.735627395
+Transfer duration: .429703843 seconds
+Serialization duration: .179625826 seconds
+Total Transfer duration: .609329669 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:05.461083134
+Extracted Received chunk at: 2024-10-30T07:53:05.882807289
+Extracted After serialization at: 2024-10-30T07:53:06.066532740
+Start transfer time (epoch): 1730271185.461083134
+Received chunk time (epoch): 1730271185.882807289
+After serialization time (epoch): 1730271186.066532740
+Transfer duration: .421724155 seconds
+Serialization duration: .183725451 seconds
+Total Transfer duration: .605449606 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:05.789799348
+Extracted Received chunk at: 2024-10-30T07:53:06.216844762
+Extracted After serialization at: 2024-10-30T07:53:06.400139479
+Start transfer time (epoch): 1730271185.789799348
+Received chunk time (epoch): 1730271186.216844762
+After serialization time (epoch): 1730271186.400139479
+Transfer duration: .427045414 seconds
+Serialization duration: .183294717 seconds
+Total Transfer duration: .610340131 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:06.121710591
+Extracted Received chunk at: 2024-10-30T07:53:06.552527715
+Extracted After serialization at: 2024-10-30T07:53:06.718456870
+Start transfer time (epoch): 1730271186.121710591
+Received chunk time (epoch): 1730271186.552527715
+After serialization time (epoch): 1730271186.718456870
+Transfer duration: .430817124 seconds
+Serialization duration: .165929155 seconds
+Total Transfer duration: .596746279 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:06.457799236
+Extracted Received chunk at: 2024-10-30T07:53:06.880556472
+Extracted After serialization at: 2024-10-30T07:53:07.044990535
+Start transfer time (epoch): 1730271186.457799236
+Received chunk time (epoch): 1730271186.880556472
+After serialization time (epoch): 1730271187.044990535
+Transfer duration: .422757236 seconds
+Serialization duration: .164434063 seconds
+Total Transfer duration: .587191299 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:06.787316034
+Extracted Received chunk at: 2024-10-30T07:53:07.197417792
+Extracted After serialization at: 2024-10-30T07:53:07.380608045
+Start transfer time (epoch): 1730271186.787316034
+Received chunk time (epoch): 1730271187.197417792
+After serialization time (epoch): 1730271187.380608045
+Transfer duration: .410101758 seconds
+Serialization duration: .183190253 seconds
+Total Transfer duration: .593292011 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:07.102596597
+Extracted Received chunk at: 2024-10-30T07:53:07.530407474
+Extracted After serialization at: 2024-10-30T07:53:07.711389488
+Start transfer time (epoch): 1730271187.102596597
+Received chunk time (epoch): 1730271187.530407474
+After serialization time (epoch): 1730271187.711389488
+Transfer duration: .427810877 seconds
+Serialization duration: .180982014 seconds
+Total Transfer duration: .608792891 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:07.436973046
+Extracted Received chunk at: 2024-10-30T07:53:07.879837340
+Extracted After serialization at: 2024-10-30T07:53:08.060713241
+Start transfer time (epoch): 1730271187.436973046
+Received chunk time (epoch): 1730271187.879837340
+After serialization time (epoch): 1730271188.060713241
+Transfer duration: .442864294 seconds
+Serialization duration: .180875901 seconds
+Total Transfer duration: .623740195 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:07.785392946
+Extracted Received chunk at: 2024-10-30T07:53:08.209957848
+Extracted After serialization at: 2024-10-30T07:53:08.393521006
+Start transfer time (epoch): 1730271187.785392946
+Received chunk time (epoch): 1730271188.209957848
+After serialization time (epoch): 1730271188.393521006
+Transfer duration: .424564902 seconds
+Serialization duration: .183563158 seconds
+Total Transfer duration: .608128060 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:08.114741670
+Extracted Received chunk at: 2024-10-30T07:53:08.557099625
+Extracted After serialization at: 2024-10-30T07:53:08.740029213
+Start transfer time (epoch): 1730271188.114741670
+Received chunk time (epoch): 1730271188.557099625
+After serialization time (epoch): 1730271188.740029213
+Transfer duration: .442357955 seconds
+Serialization duration: .182929588 seconds
+Total Transfer duration: .625287543 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:08.461317067
+Extracted Received chunk at: 2024-10-30T07:53:08.907172946
+Extracted After serialization at: 2024-10-30T07:53:09.086825037
+Start transfer time (epoch): 1730271188.461317067
+Received chunk time (epoch): 1730271188.907172946
+After serialization time (epoch): 1730271189.086825037
+Transfer duration: .445855879 seconds
+Serialization duration: .179652091 seconds
+Total Transfer duration: .625507970 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:08.811793297
+Extracted Received chunk at: 2024-10-30T07:53:09.242709225
+Extracted After serialization at: 2024-10-30T07:53:09.409327018
+Start transfer time (epoch): 1730271188.811793297
+Received chunk time (epoch): 1730271189.242709225
+After serialization time (epoch): 1730271189.409327018
+Transfer duration: .430915928 seconds
+Serialization duration: .166617793 seconds
+Total Transfer duration: .597533721 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:09.147494902
+Extracted Received chunk at: 2024-10-30T07:53:09.563060892
+Extracted After serialization at: 2024-10-30T07:53:09.727771198
+Start transfer time (epoch): 1730271189.147494902
+Received chunk time (epoch): 1730271189.563060892
+After serialization time (epoch): 1730271189.727771198
+Transfer duration: .415565990 seconds
+Serialization duration: .164710306 seconds
+Total Transfer duration: .580276296 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:09.469246941
+Extracted Received chunk at: 2024-10-30T07:53:09.877091614
+Extracted After serialization at: 2024-10-30T07:53:10.061066263
+Start transfer time (epoch): 1730271189.469246941
+Received chunk time (epoch): 1730271189.877091614
+After serialization time (epoch): 1730271190.061066263
+Transfer duration: .407844673 seconds
+Serialization duration: .183974649 seconds
+Total Transfer duration: .591819322 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:09.782641497
+Extracted Received chunk at: 2024-10-30T07:53:10.214100072
+Extracted After serialization at: 2024-10-30T07:53:10.398316141
+Start transfer time (epoch): 1730271189.782641497
+Received chunk time (epoch): 1730271190.214100072
+After serialization time (epoch): 1730271190.398316141
+Transfer duration: .431458575 seconds
+Serialization duration: .184216069 seconds
+Total Transfer duration: .615674644 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:10.119457802
+Extracted Received chunk at: 2024-10-30T07:53:10.556576682
+Extracted After serialization at: 2024-10-30T07:53:10.737415052
+Start transfer time (epoch): 1730271190.119457802
+Received chunk time (epoch): 1730271190.556576682
+After serialization time (epoch): 1730271190.737415052
+Transfer duration: .437118880 seconds
+Serialization duration: .180838370 seconds
+Total Transfer duration: .617957250 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:10.462042564
+Extracted Received chunk at: 2024-10-30T07:53:10.900750984
+Extracted After serialization at: 2024-10-30T07:53:11.065724153
+Start transfer time (epoch): 1730271190.462042564
+Received chunk time (epoch): 1730271190.900750984
+After serialization time (epoch): 1730271191.065724153
+Transfer duration: .438708420 seconds
+Serialization duration: .164973169 seconds
+Total Transfer duration: .603681589 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:10.805813476
+Extracted Received chunk at: 2024-10-30T07:53:11.227370340
+Extracted After serialization at: 2024-10-30T07:53:11.391848620
+Start transfer time (epoch): 1730271190.805813476
+Received chunk time (epoch): 1730271191.227370340
+After serialization time (epoch): 1730271191.391848620
+Transfer duration: .421556864 seconds
+Serialization duration: .164478280 seconds
+Total Transfer duration: .586035144 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:11.133723011
+Extracted Received chunk at: 2024-10-30T07:53:11.549553746
+Extracted After serialization at: 2024-10-30T07:53:11.730906555
+Start transfer time (epoch): 1730271191.133723011
+Received chunk time (epoch): 1730271191.549553746
+After serialization time (epoch): 1730271191.730906555
+Transfer duration: .415830735 seconds
+Serialization duration: .181352809 seconds
+Total Transfer duration: .597183544 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:11.454848694
+Extracted Received chunk at: 2024-10-30T07:53:11.885130915
+Extracted After serialization at: 2024-10-30T07:53:12.068209102
+Start transfer time (epoch): 1730271191.454848694
+Received chunk time (epoch): 1730271191.885130915
+After serialization time (epoch): 1730271192.068209102
+Transfer duration: .430282221 seconds
+Serialization duration: .183078187 seconds
+Total Transfer duration: .613360408 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:11.790324444
+Extracted Received chunk at: 2024-10-30T07:53:12.212963571
+Extracted After serialization at: 2024-10-30T07:53:12.392687636
+Start transfer time (epoch): 1730271191.790324444
+Received chunk time (epoch): 1730271192.212963571
+After serialization time (epoch): 1730271192.392687636
+Transfer duration: .422639127 seconds
+Serialization duration: .179724065 seconds
+Total Transfer duration: .602363192 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:12.118637365
+Extracted Received chunk at: 2024-10-30T07:53:12.544393375
+Extracted After serialization at: 2024-10-30T07:53:12.727843739
+Start transfer time (epoch): 1730271192.118637365
+Received chunk time (epoch): 1730271192.544393375
+After serialization time (epoch): 1730271192.727843739
+Transfer duration: .425756010 seconds
+Serialization duration: .183450364 seconds
+Total Transfer duration: .609206374 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:12.451416510
+Extracted Received chunk at: 2024-10-30T07:53:12.878189999
+Extracted After serialization at: 2024-10-30T07:53:13.057299842
+Start transfer time (epoch): 1730271192.451416510
+Received chunk time (epoch): 1730271192.878189999
+After serialization time (epoch): 1730271193.057299842
+Transfer duration: .426773489 seconds
+Serialization duration: .179109843 seconds
+Total Transfer duration: .605883332 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:12.783583978
+Extracted Received chunk at: 2024-10-30T07:53:13.219831544
+Extracted After serialization at: 2024-10-30T07:53:13.399096609
+Start transfer time (epoch): 1730271192.783583978
+Received chunk time (epoch): 1730271193.219831544
+After serialization time (epoch): 1730271193.399096609
+Transfer duration: .436247566 seconds
+Serialization duration: .179265065 seconds
+Total Transfer duration: .615512631 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:13.125358607
+Extracted Received chunk at: 2024-10-30T07:53:13.562676516
+Extracted After serialization at: 2024-10-30T07:53:13.731332803
+Start transfer time (epoch): 1730271193.125358607
+Received chunk time (epoch): 1730271193.562676516
+After serialization time (epoch): 1730271193.731332803
+Transfer duration: .437317909 seconds
+Serialization duration: .168656287 seconds
+Total Transfer duration: .605974196 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:13.469857936
+Extracted Received chunk at: 2024-10-30T07:53:13.880698049
+Extracted After serialization at: 2024-10-30T07:53:14.045347306
+Start transfer time (epoch): 1730271193.469857936
+Received chunk time (epoch): 1730271193.880698049
+After serialization time (epoch): 1730271194.045347306
+Transfer duration: .410840113 seconds
+Serialization duration: .164649257 seconds
+Total Transfer duration: .575489370 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:13.786269464
+Extracted Received chunk at: 2024-10-30T07:53:14.190352639
+Extracted After serialization at: 2024-10-30T07:53:14.357822957
+Start transfer time (epoch): 1730271193.786269464
+Received chunk time (epoch): 1730271194.190352639
+After serialization time (epoch): 1730271194.357822957
+Transfer duration: .404083175 seconds
+Serialization duration: .167470318 seconds
+Total Transfer duration: .571553493 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:14.097147076
+Extracted Received chunk at: 2024-10-30T07:53:14.507170532
+Extracted After serialization at: 2024-10-30T07:53:14.672625445
+Start transfer time (epoch): 1730271194.097147076
+Received chunk time (epoch): 1730271194.507170532
+After serialization time (epoch): 1730271194.672625445
+Transfer duration: .410023456 seconds
+Serialization duration: .165454913 seconds
+Total Transfer duration: .575478369 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:14.413344824
+Extracted Received chunk at: 2024-10-30T07:53:14.825895549
+Extracted After serialization at: 2024-10-30T07:53:15.005056433
+Start transfer time (epoch): 1730271194.413344824
+Received chunk time (epoch): 1730271194.825895549
+After serialization time (epoch): 1730271195.005056433
+Transfer duration: .412550725 seconds
+Serialization duration: .179160884 seconds
+Total Transfer duration: .591711609 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:14.730643010
+Extracted Received chunk at: 2024-10-30T07:53:15.151586159
+Extracted After serialization at: 2024-10-30T07:53:15.329974419
+Start transfer time (epoch): 1730271194.730643010
+Received chunk time (epoch): 1730271195.151586159
+After serialization time (epoch): 1730271195.329974419
+Transfer duration: .420943149 seconds
+Serialization duration: .178388260 seconds
+Total Transfer duration: .599331409 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:15.057093215
+Extracted Received chunk at: 2024-10-30T07:53:15.478589743
+Extracted After serialization at: 2024-10-30T07:53:15.664041535
+Start transfer time (epoch): 1730271195.057093215
+Received chunk time (epoch): 1730271195.478589743
+After serialization time (epoch): 1730271195.664041535
+Transfer duration: .421496528 seconds
+Serialization duration: .185451792 seconds
+Total Transfer duration: .606948320 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:15.383915509
+Extracted Received chunk at: 2024-10-30T07:53:15.822000089
+Extracted After serialization at: 2024-10-30T07:53:16.001996073
+Start transfer time (epoch): 1730271195.383915509
+Received chunk time (epoch): 1730271195.822000089
+After serialization time (epoch): 1730271196.001996073
+Transfer duration: .438084580 seconds
+Serialization duration: .179995984 seconds
+Total Transfer duration: .618080564 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:15.725540959
+Extracted Received chunk at: 2024-10-30T07:53:16.151056401
+Extracted After serialization at: 2024-10-30T07:53:16.332333930
+Start transfer time (epoch): 1730271195.725540959
+Received chunk time (epoch): 1730271196.151056401
+After serialization time (epoch): 1730271196.332333930
+Transfer duration: .425515442 seconds
+Serialization duration: .181277529 seconds
+Total Transfer duration: .606792971 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:16.057456495
+Extracted Received chunk at: 2024-10-30T07:53:16.486781673
+Extracted After serialization at: 2024-10-30T07:53:16.652182342
+Start transfer time (epoch): 1730271196.057456495
+Received chunk time (epoch): 1730271196.486781673
+After serialization time (epoch): 1730271196.652182342
+Transfer duration: .429325178 seconds
+Serialization duration: .165400669 seconds
+Total Transfer duration: .594725847 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:16.390995585
+Extracted Received chunk at: 2024-10-30T07:53:16.807673839
+Extracted After serialization at: 2024-10-30T07:53:16.986961961
+Start transfer time (epoch): 1730271196.390995585
+Received chunk time (epoch): 1730271196.807673839
+After serialization time (epoch): 1730271196.986961961
+Transfer duration: .416678254 seconds
+Serialization duration: .179288122 seconds
+Total Transfer duration: .595966376 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:16.713772809
+Extracted Received chunk at: 2024-10-30T07:53:17.132169496
+Extracted After serialization at: 2024-10-30T07:53:17.309649993
+Start transfer time (epoch): 1730271196.713772809
+Received chunk time (epoch): 1730271197.132169496
+After serialization time (epoch): 1730271197.309649993
+Transfer duration: .418396687 seconds
+Serialization duration: .177480497 seconds
+Total Transfer duration: .595877184 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:17.038822503
+Extracted Received chunk at: 2024-10-30T07:53:17.456875372
+Extracted After serialization at: 2024-10-30T07:53:17.639821982
+Start transfer time (epoch): 1730271197.038822503
+Received chunk time (epoch): 1730271197.456875372
+After serialization time (epoch): 1730271197.639821982
+Transfer duration: .418052869 seconds
+Serialization duration: .182946610 seconds
+Total Transfer duration: .600999479 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:17.362680932
+Extracted Received chunk at: 2024-10-30T07:53:17.795036797
+Extracted After serialization at: 2024-10-30T07:53:17.976604002
+Start transfer time (epoch): 1730271197.362680932
+Received chunk time (epoch): 1730271197.795036797
+After serialization time (epoch): 1730271197.976604002
+Transfer duration: .432355865 seconds
+Serialization duration: .181567205 seconds
+Total Transfer duration: .613923070 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:17.700441631
+Extracted Received chunk at: 2024-10-30T07:53:18.123712462
+Extracted After serialization at: 2024-10-30T07:53:18.289590351
+Start transfer time (epoch): 1730271197.700441631
+Received chunk time (epoch): 1730271198.123712462
+After serialization time (epoch): 1730271198.289590351
+Transfer duration: .423270831 seconds
+Serialization duration: .165877889 seconds
+Total Transfer duration: .589148720 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:18.028537983
+Extracted Received chunk at: 2024-10-30T07:53:18.440676193
+Extracted After serialization at: 2024-10-30T07:53:18.624579993
+Start transfer time (epoch): 1730271198.028537983
+Received chunk time (epoch): 1730271198.440676193
+After serialization time (epoch): 1730271198.624579993
+Transfer duration: .412138210 seconds
+Serialization duration: .183903800 seconds
+Total Transfer duration: .596042010 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:18.346279119
+Extracted Received chunk at: 2024-10-30T07:53:18.778165581
+Extracted After serialization at: 2024-10-30T07:53:18.942794631
+Start transfer time (epoch): 1730271198.346279119
+Received chunk time (epoch): 1730271198.778165581
+After serialization time (epoch): 1730271198.942794631
+Transfer duration: .431886462 seconds
+Serialization duration: .164629050 seconds
+Total Transfer duration: .596515512 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:18.684197435
+Extracted Received chunk at: 2024-10-30T07:53:19.108585863
+Extracted After serialization at: 2024-10-30T07:53:19.277783991
+Start transfer time (epoch): 1730271198.684197435
+Received chunk time (epoch): 1730271199.108585863
+After serialization time (epoch): 1730271199.277783991
+Transfer duration: .424388428 seconds
+Serialization duration: .169198128 seconds
+Total Transfer duration: .593586556 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:19.014884128
+Extracted Received chunk at: 2024-10-30T07:53:19.427321141
+Extracted After serialization at: 2024-10-30T07:53:19.592431457
+Start transfer time (epoch): 1730271199.014884128
+Received chunk time (epoch): 1730271199.427321141
+After serialization time (epoch): 1730271199.592431457
+Transfer duration: .412437013 seconds
+Serialization duration: .165110316 seconds
+Total Transfer duration: .577547329 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:19.333540998
+Extracted Received chunk at: 2024-10-30T07:53:19.746701372
+Extracted After serialization at: 2024-10-30T07:53:19.931136727
+Start transfer time (epoch): 1730271199.333540998
+Received chunk time (epoch): 1730271199.746701372
+After serialization time (epoch): 1730271199.931136727
+Transfer duration: .413160374 seconds
+Serialization duration: .184435355 seconds
+Total Transfer duration: .597595729 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:19.651097210
+Extracted Received chunk at: 2024-10-30T07:53:20.092281967
+Extracted After serialization at: 2024-10-30T07:53:20.263189974
+Start transfer time (epoch): 1730271199.651097210
+Received chunk time (epoch): 1730271200.092281967
+After serialization time (epoch): 1730271200.263189974
+Transfer duration: .441184757 seconds
+Serialization duration: .170908007 seconds
+Total Transfer duration: .612092764 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:19.996722289
+Extracted Received chunk at: 2024-10-30T07:53:20.412089628
+Extracted After serialization at: 2024-10-30T07:53:20.590606716
+Start transfer time (epoch): 1730271199.996722289
+Received chunk time (epoch): 1730271200.412089628
+After serialization time (epoch): 1730271200.590606716
+Transfer duration: .415367339 seconds
+Serialization duration: .178517088 seconds
+Total Transfer duration: .593884427 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:20.317674740
+Extracted Received chunk at: 2024-10-30T07:53:20.750713769
+Extracted After serialization at: 2024-10-30T07:53:20.917283988
+Start transfer time (epoch): 1730271200.317674740
+Received chunk time (epoch): 1730271200.750713769
+After serialization time (epoch): 1730271200.917283988
+Transfer duration: .433039029 seconds
+Serialization duration: .166570219 seconds
+Total Transfer duration: .599609248 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:53:20.655193808
+Extracted Received chunk at: 2024-10-30T07:53:21.066907595
+Extracted After serialization at: 2024-10-30T07:53:21.251283703
+Start transfer time (epoch): 1730271200.655193808
+Received chunk time (epoch): 1730271201.066907595
+After serialization time (epoch): 1730271201.251283703
+Transfer duration: .411713787 seconds
+Serialization duration: .184376108 seconds
+Total Transfer duration: .596089895 seconds
+----------
+ROUND 80
+Extracted Start transfer at: 2024-10-30 07:54:27.426432010
+Extracted Received chunk at: 2024-10-30T07:54:27.871554166
+Extracted After serialization at: 2024-10-30T07:54:28.055284802
+Start transfer time (epoch): 1730271267.426432010
+Received chunk time (epoch): 1730271267.871554166
+After serialization time (epoch): 1730271268.055284802
+Transfer duration: .445122156 seconds
+Serialization duration: .183730636 seconds
+Total Transfer duration: .628852792 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:27.778218538
+Extracted Received chunk at: 2024-10-30T07:54:28.214131551
+Extracted After serialization at: 2024-10-30T07:54:28.380291072
+Start transfer time (epoch): 1730271267.778218538
+Received chunk time (epoch): 1730271268.214131551
+After serialization time (epoch): 1730271268.380291072
+Transfer duration: .435913013 seconds
+Serialization duration: .166159521 seconds
+Total Transfer duration: .602072534 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:28.117473154
+Extracted Received chunk at: 2024-10-30T07:54:28.536573906
+Extracted After serialization at: 2024-10-30T07:54:28.701040068
+Start transfer time (epoch): 1730271268.117473154
+Received chunk time (epoch): 1730271268.536573906
+After serialization time (epoch): 1730271268.701040068
+Transfer duration: .419100752 seconds
+Serialization duration: .164466162 seconds
+Total Transfer duration: .583566914 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:28.443396179
+Extracted Received chunk at: 2024-10-30T07:54:28.856804736
+Extracted After serialization at: 2024-10-30T07:54:29.038083609
+Start transfer time (epoch): 1730271268.443396179
+Received chunk time (epoch): 1730271268.856804736
+After serialization time (epoch): 1730271269.038083609
+Transfer duration: .413408557 seconds
+Serialization duration: .181278873 seconds
+Total Transfer duration: .594687430 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:28.761949657
+Extracted Received chunk at: 2024-10-30T07:54:29.197180597
+Extracted After serialization at: 2024-10-30T07:54:29.381583709
+Start transfer time (epoch): 1730271268.761949657
+Received chunk time (epoch): 1730271269.197180597
+After serialization time (epoch): 1730271269.381583709
+Transfer duration: .435230940 seconds
+Serialization duration: .184403112 seconds
+Total Transfer duration: .619634052 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:29.102814141
+Extracted Received chunk at: 2024-10-30T07:54:29.534852788
+Extracted After serialization at: 2024-10-30T07:54:29.717329341
+Start transfer time (epoch): 1730271269.102814141
+Received chunk time (epoch): 1730271269.534852788
+After serialization time (epoch): 1730271269.717329341
+Transfer duration: .432038647 seconds
+Serialization duration: .182476553 seconds
+Total Transfer duration: .614515200 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:29.439679283
+Extracted Received chunk at: 2024-10-30T07:54:29.874855829
+Extracted After serialization at: 2024-10-30T07:54:30.058119240
+Start transfer time (epoch): 1730271269.439679283
+Received chunk time (epoch): 1730271269.874855829
+After serialization time (epoch): 1730271270.058119240
+Transfer duration: .435176546 seconds
+Serialization duration: .183263411 seconds
+Total Transfer duration: .618439957 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:29.780859512
+Extracted Received chunk at: 2024-10-30T07:54:30.217109672
+Extracted After serialization at: 2024-10-30T07:54:30.395514627
+Start transfer time (epoch): 1730271269.780859512
+Received chunk time (epoch): 1730271270.217109672
+After serialization time (epoch): 1730271270.395514627
+Transfer duration: .436250160 seconds
+Serialization duration: .178404955 seconds
+Total Transfer duration: .614655115 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:30.121371037
+Extracted Received chunk at: 2024-10-30T07:54:30.549676517
+Extracted After serialization at: 2024-10-30T07:54:30.783666704
+Start transfer time (epoch): 1730271270.121371037
+Received chunk time (epoch): 1730271270.549676517
+After serialization time (epoch): 1730271270.783666704
+Transfer duration: .428305480 seconds
+Serialization duration: .233990187 seconds
+Total Transfer duration: .662295667 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:30.454976068
+Extracted Received chunk at: 2024-10-30T07:54:30.927434913
+Extracted After serialization at: 2024-10-30T07:54:31.095218614
+Start transfer time (epoch): 1730271270.454976068
+Received chunk time (epoch): 1730271270.927434913
+After serialization time (epoch): 1730271271.095218614
+Transfer duration: .472458845 seconds
+Serialization duration: .167783701 seconds
+Total Transfer duration: .640242546 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:30.832047415
+Extracted Received chunk at: 2024-10-30T07:54:31.253478600
+Extracted After serialization at: 2024-10-30T07:54:31.431551515
+Start transfer time (epoch): 1730271270.832047415
+Received chunk time (epoch): 1730271271.253478600
+After serialization time (epoch): 1730271271.431551515
+Transfer duration: .421431185 seconds
+Serialization duration: .178072915 seconds
+Total Transfer duration: .599504100 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:31.160036301
+Extracted Received chunk at: 2024-10-30T07:54:31.579875733
+Extracted After serialization at: 2024-10-30T07:54:31.764501193
+Start transfer time (epoch): 1730271271.160036301
+Received chunk time (epoch): 1730271271.579875733
+After serialization time (epoch): 1730271271.764501193
+Transfer duration: .419839432 seconds
+Serialization duration: .184625460 seconds
+Total Transfer duration: .604464892 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:31.485096307
+Extracted Received chunk at: 2024-10-30T07:54:31.917007069
+Extracted After serialization at: 2024-10-30T07:54:32.094323461
+Start transfer time (epoch): 1730271271.485096307
+Received chunk time (epoch): 1730271271.917007069
+After serialization time (epoch): 1730271272.094323461
+Transfer duration: .431910762 seconds
+Serialization duration: .177316392 seconds
+Total Transfer duration: .609227154 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:31.823062569
+Extracted Received chunk at: 2024-10-30T07:54:32.245835060
+Extracted After serialization at: 2024-10-30T07:54:32.430749787
+Start transfer time (epoch): 1730271271.823062569
+Received chunk time (epoch): 1730271272.245835060
+After serialization time (epoch): 1730271272.430749787
+Transfer duration: .422772491 seconds
+Serialization duration: .184914727 seconds
+Total Transfer duration: .607687218 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:32.152565011
+Extracted Received chunk at: 2024-10-30T07:54:32.583937022
+Extracted After serialization at: 2024-10-30T07:54:32.772650058
+Start transfer time (epoch): 1730271272.152565011
+Received chunk time (epoch): 1730271272.583937022
+After serialization time (epoch): 1730271272.772650058
+Transfer duration: .431372011 seconds
+Serialization duration: .188713036 seconds
+Total Transfer duration: .620085047 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:32.487148192
+Extracted Received chunk at: 2024-10-30T07:54:32.924379166
+Extracted After serialization at: 2024-10-30T07:54:33.091114729
+Start transfer time (epoch): 1730271272.487148192
+Received chunk time (epoch): 1730271272.924379166
+After serialization time (epoch): 1730271273.091114729
+Transfer duration: .437230974 seconds
+Serialization duration: .166735563 seconds
+Total Transfer duration: .603966537 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:32.827962130
+Extracted Received chunk at: 2024-10-30T07:54:33.239430286
+Extracted After serialization at: 2024-10-30T07:54:33.416629942
+Start transfer time (epoch): 1730271272.827962130
+Received chunk time (epoch): 1730271273.239430286
+After serialization time (epoch): 1730271273.416629942
+Transfer duration: .411468156 seconds
+Serialization duration: .177199656 seconds
+Total Transfer duration: .588667812 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:33.144979675
+Extracted Received chunk at: 2024-10-30T07:54:33.573923923
+Extracted After serialization at: 2024-10-30T07:54:33.738897190
+Start transfer time (epoch): 1730271273.144979675
+Received chunk time (epoch): 1730271273.573923923
+After serialization time (epoch): 1730271273.738897190
+Transfer duration: .428944248 seconds
+Serialization duration: .164973267 seconds
+Total Transfer duration: .593917515 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:33.479281290
+Extracted Received chunk at: 2024-10-30T07:54:33.887995797
+Extracted After serialization at: 2024-10-30T07:54:34.072029142
+Start transfer time (epoch): 1730271273.479281290
+Received chunk time (epoch): 1730271273.887995797
+After serialization time (epoch): 1730271274.072029142
+Transfer duration: .408714507 seconds
+Serialization duration: .184033345 seconds
+Total Transfer duration: .592747852 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:33.794639235
+Extracted Received chunk at: 2024-10-30T07:54:34.226258899
+Extracted After serialization at: 2024-10-30T07:54:34.399911395
+Start transfer time (epoch): 1730271273.794639235
+Received chunk time (epoch): 1730271274.226258899
+After serialization time (epoch): 1730271274.399911395
+Transfer duration: .431619664 seconds
+Serialization duration: .173652496 seconds
+Total Transfer duration: .605272160 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:34.128676920
+Extracted Received chunk at: 2024-10-30T07:54:34.552733450
+Extracted After serialization at: 2024-10-30T07:54:34.725446889
+Start transfer time (epoch): 1730271274.128676920
+Received chunk time (epoch): 1730271274.552733450
+After serialization time (epoch): 1730271274.725446889
+Transfer duration: .424056530 seconds
+Serialization duration: .172713439 seconds
+Total Transfer duration: .596769969 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:34.454169823
+Extracted Received chunk at: 2024-10-30T07:54:34.876749772
+Extracted After serialization at: 2024-10-30T07:54:35.041509904
+Start transfer time (epoch): 1730271274.454169823
+Received chunk time (epoch): 1730271274.876749772
+After serialization time (epoch): 1730271275.041509904
+Transfer duration: .422579949 seconds
+Serialization duration: .164760132 seconds
+Total Transfer duration: .587340081 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:34.784032813
+Extracted Received chunk at: 2024-10-30T07:54:35.188715691
+Extracted After serialization at: 2024-10-30T07:54:35.372698826
+Start transfer time (epoch): 1730271274.784032813
+Received chunk time (epoch): 1730271275.188715691
+After serialization time (epoch): 1730271275.372698826
+Transfer duration: .404682878 seconds
+Serialization duration: .183983135 seconds
+Total Transfer duration: .588666013 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:35.095188924
+Extracted Received chunk at: 2024-10-30T07:54:35.523449367
+Extracted After serialization at: 2024-10-30T07:54:35.707779458
+Start transfer time (epoch): 1730271275.095188924
+Received chunk time (epoch): 1730271275.523449367
+After serialization time (epoch): 1730271275.707779458
+Transfer duration: .428260443 seconds
+Serialization duration: .184330091 seconds
+Total Transfer duration: .612590534 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:35.430224558
+Extracted Received chunk at: 2024-10-30T07:54:35.858415187
+Extracted After serialization at: 2024-10-30T07:54:36.035762195
+Start transfer time (epoch): 1730271275.430224558
+Received chunk time (epoch): 1730271275.858415187
+After serialization time (epoch): 1730271276.035762195
+Transfer duration: .428190629 seconds
+Serialization duration: .177347008 seconds
+Total Transfer duration: .605537637 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:35.764984305
+Extracted Received chunk at: 2024-10-30T07:54:36.187106985
+Extracted After serialization at: 2024-10-30T07:54:36.351952358
+Start transfer time (epoch): 1730271275.764984305
+Received chunk time (epoch): 1730271276.187106985
+After serialization time (epoch): 1730271276.351952358
+Transfer duration: .422122680 seconds
+Serialization duration: .164845373 seconds
+Total Transfer duration: .586968053 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:36.093947365
+Extracted Received chunk at: 2024-10-30T07:54:36.504376737
+Extracted After serialization at: 2024-10-30T07:54:36.683096799
+Start transfer time (epoch): 1730271276.093947365
+Received chunk time (epoch): 1730271276.504376737
+After serialization time (epoch): 1730271276.683096799
+Transfer duration: .410429372 seconds
+Serialization duration: .178720062 seconds
+Total Transfer duration: .589149434 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:36.408779530
+Extracted Received chunk at: 2024-10-30T07:54:36.850002251
+Extracted After serialization at: 2024-10-30T07:54:37.027324282
+Start transfer time (epoch): 1730271276.408779530
+Received chunk time (epoch): 1730271276.850002251
+After serialization time (epoch): 1730271277.027324282
+Transfer duration: .441222721 seconds
+Serialization duration: .177322031 seconds
+Total Transfer duration: .618544752 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:36.755935092
+Extracted Received chunk at: 2024-10-30T07:54:37.185947743
+Extracted After serialization at: 2024-10-30T07:54:37.368133522
+Start transfer time (epoch): 1730271276.755935092
+Received chunk time (epoch): 1730271277.185947743
+After serialization time (epoch): 1730271277.368133522
+Transfer duration: .430012651 seconds
+Serialization duration: .182185779 seconds
+Total Transfer duration: .612198430 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:37.093199610
+Extracted Received chunk at: 2024-10-30T07:54:37.517694174
+Extracted After serialization at: 2024-10-30T07:54:37.701443987
+Start transfer time (epoch): 1730271277.093199610
+Received chunk time (epoch): 1730271277.517694174
+After serialization time (epoch): 1730271277.701443987
+Transfer duration: .424494564 seconds
+Serialization duration: .183749813 seconds
+Total Transfer duration: .608244377 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:37.424685278
+Extracted Received chunk at: 2024-10-30T07:54:37.855918472
+Extracted After serialization at: 2024-10-30T07:54:38.040842195
+Start transfer time (epoch): 1730271277.424685278
+Received chunk time (epoch): 1730271277.855918472
+After serialization time (epoch): 1730271278.040842195
+Transfer duration: .431233194 seconds
+Serialization duration: .184923723 seconds
+Total Transfer duration: .616156917 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:37.761606285
+Extracted Received chunk at: 2024-10-30T07:54:38.190971640
+Extracted After serialization at: 2024-10-30T07:54:38.374294849
+Start transfer time (epoch): 1730271277.761606285
+Received chunk time (epoch): 1730271278.190971640
+After serialization time (epoch): 1730271278.374294849
+Transfer duration: .429365355 seconds
+Serialization duration: .183323209 seconds
+Total Transfer duration: .612688564 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:38.094101382
+Extracted Received chunk at: 2024-10-30T07:54:38.540701321
+Extracted After serialization at: 2024-10-30T07:54:38.707879351
+Start transfer time (epoch): 1730271278.094101382
+Received chunk time (epoch): 1730271278.540701321
+After serialization time (epoch): 1730271278.707879351
+Transfer duration: .446599939 seconds
+Serialization duration: .167178030 seconds
+Total Transfer duration: .613777969 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:38.444278492
+Extracted Received chunk at: 2024-10-30T07:54:38.866325109
+Extracted After serialization at: 2024-10-30T07:54:39.032878412
+Start transfer time (epoch): 1730271278.444278492
+Received chunk time (epoch): 1730271278.866325109
+After serialization time (epoch): 1730271279.032878412
+Transfer duration: .422046617 seconds
+Serialization duration: .166553303 seconds
+Total Transfer duration: .588599920 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:38.772052396
+Extracted Received chunk at: 2024-10-30T07:54:39.177742212
+Extracted After serialization at: 2024-10-30T07:54:39.344063360
+Start transfer time (epoch): 1730271278.772052396
+Received chunk time (epoch): 1730271279.177742212
+After serialization time (epoch): 1730271279.344063360
+Transfer duration: .405689816 seconds
+Serialization duration: .166321148 seconds
+Total Transfer duration: .572010964 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:39.084218231
+Extracted Received chunk at: 2024-10-30T07:54:39.496715996
+Extracted After serialization at: 2024-10-30T07:54:39.677483100
+Start transfer time (epoch): 1730271279.084218231
+Received chunk time (epoch): 1730271279.496715996
+After serialization time (epoch): 1730271279.677483100
+Transfer duration: .412497765 seconds
+Serialization duration: .180767104 seconds
+Total Transfer duration: .593264869 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:39.402536668
+Extracted Received chunk at: 2024-10-30T07:54:39.828216741
+Extracted After serialization at: 2024-10-30T07:54:40.006136423
+Start transfer time (epoch): 1730271279.402536668
+Received chunk time (epoch): 1730271279.828216741
+After serialization time (epoch): 1730271280.006136423
+Transfer duration: .425680073 seconds
+Serialization duration: .177919682 seconds
+Total Transfer duration: .603599755 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:39.734217780
+Extracted Received chunk at: 2024-10-30T07:54:40.159270328
+Extracted After serialization at: 2024-10-30T07:54:40.346473278
+Start transfer time (epoch): 1730271279.734217780
+Received chunk time (epoch): 1730271280.159270328
+After serialization time (epoch): 1730271280.346473278
+Transfer duration: .425052548 seconds
+Serialization duration: .187202950 seconds
+Total Transfer duration: .612255498 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:40.064136439
+Extracted Received chunk at: 2024-10-30T07:54:40.509208087
+Extracted After serialization at: 2024-10-30T07:54:40.679185350
+Start transfer time (epoch): 1730271280.064136439
+Received chunk time (epoch): 1730271280.509208087
+After serialization time (epoch): 1730271280.679185350
+Transfer duration: .445071648 seconds
+Serialization duration: .169977263 seconds
+Total Transfer duration: .615048911 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:40.412038095
+Extracted Received chunk at: 2024-10-30T07:54:40.825246962
+Extracted After serialization at: 2024-10-30T07:54:40.990437532
+Start transfer time (epoch): 1730271280.412038095
+Received chunk time (epoch): 1730271280.825246962
+After serialization time (epoch): 1730271280.990437532
+Transfer duration: .413208867 seconds
+Serialization duration: .165190570 seconds
+Total Transfer duration: .578399437 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:40.729939367
+Extracted Received chunk at: 2024-10-30T07:54:41.127314118
+Extracted After serialization at: 2024-10-30T07:54:41.309851678
+Start transfer time (epoch): 1730271280.729939367
+Received chunk time (epoch): 1730271281.127314118
+After serialization time (epoch): 1730271281.309851678
+Transfer duration: .397374751 seconds
+Serialization duration: .182537560 seconds
+Total Transfer duration: .579912311 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:41.032175445
+Extracted Received chunk at: 2024-10-30T07:54:41.452643432
+Extracted After serialization at: 2024-10-30T07:54:41.632067352
+Start transfer time (epoch): 1730271281.032175445
+Received chunk time (epoch): 1730271281.452643432
+After serialization time (epoch): 1730271281.632067352
+Transfer duration: .420467987 seconds
+Serialization duration: .179423920 seconds
+Total Transfer duration: .599891907 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:41.358383717
+Extracted Received chunk at: 2024-10-30T07:54:41.786581940
+Extracted After serialization at: 2024-10-30T07:54:41.968851500
+Start transfer time (epoch): 1730271281.358383717
+Received chunk time (epoch): 1730271281.786581940
+After serialization time (epoch): 1730271281.968851500
+Transfer duration: .428198223 seconds
+Serialization duration: .182269560 seconds
+Total Transfer duration: .610467783 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:41.691880659
+Extracted Received chunk at: 2024-10-30T07:54:42.118030539
+Extracted After serialization at: 2024-10-30T07:54:42.298973809
+Start transfer time (epoch): 1730271281.691880659
+Received chunk time (epoch): 1730271282.118030539
+After serialization time (epoch): 1730271282.298973809
+Transfer duration: .426149880 seconds
+Serialization duration: .180943270 seconds
+Total Transfer duration: .607093150 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:42.024277485
+Extracted Received chunk at: 2024-10-30T07:54:42.449479094
+Extracted After serialization at: 2024-10-30T07:54:42.632451491
+Start transfer time (epoch): 1730271282.024277485
+Received chunk time (epoch): 1730271282.449479094
+After serialization time (epoch): 1730271282.632451491
+Transfer duration: .425201609 seconds
+Serialization duration: .182972397 seconds
+Total Transfer duration: .608174006 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:42.354836043
+Extracted Received chunk at: 2024-10-30T07:54:42.785778664
+Extracted After serialization at: 2024-10-30T07:54:42.950784326
+Start transfer time (epoch): 1730271282.354836043
+Received chunk time (epoch): 1730271282.785778664
+After serialization time (epoch): 1730271282.950784326
+Transfer duration: .430942621 seconds
+Serialization duration: .165005662 seconds
+Total Transfer duration: .595948283 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:42.689374123
+Extracted Received chunk at: 2024-10-30T07:54:43.107536893
+Extracted After serialization at: 2024-10-30T07:54:43.271692139
+Start transfer time (epoch): 1730271282.689374123
+Received chunk time (epoch): 1730271283.107536893
+After serialization time (epoch): 1730271283.271692139
+Transfer duration: .418162770 seconds
+Serialization duration: .164155246 seconds
+Total Transfer duration: .582318016 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:43.014243012
+Extracted Received chunk at: 2024-10-30T07:54:43.426650447
+Extracted After serialization at: 2024-10-30T07:54:43.609050131
+Start transfer time (epoch): 1730271283.014243012
+Received chunk time (epoch): 1730271283.426650447
+After serialization time (epoch): 1730271283.609050131
+Transfer duration: .412407435 seconds
+Serialization duration: .182399684 seconds
+Total Transfer duration: .594807119 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:43.329624662
+Extracted Received chunk at: 2024-10-30T07:54:43.763728614
+Extracted After serialization at: 2024-10-30T07:54:43.943280275
+Start transfer time (epoch): 1730271283.329624662
+Received chunk time (epoch): 1730271283.763728614
+After serialization time (epoch): 1730271283.943280275
+Transfer duration: .434103952 seconds
+Serialization duration: .179551661 seconds
+Total Transfer duration: .613655613 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:43.669469108
+Extracted Received chunk at: 2024-10-30T07:54:44.096454668
+Extracted After serialization at: 2024-10-30T07:54:44.274534825
+Start transfer time (epoch): 1730271283.669469108
+Received chunk time (epoch): 1730271284.096454668
+After serialization time (epoch): 1730271284.274534825
+Transfer duration: .426985560 seconds
+Serialization duration: .178080157 seconds
+Total Transfer duration: .605065717 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:44.003372988
+Extracted Received chunk at: 2024-10-30T07:54:44.420035274
+Extracted After serialization at: 2024-10-30T07:54:44.607087107
+Start transfer time (epoch): 1730271284.003372988
+Received chunk time (epoch): 1730271284.420035274
+After serialization time (epoch): 1730271284.607087107
+Transfer duration: .416662286 seconds
+Serialization duration: .187051833 seconds
+Total Transfer duration: .603714119 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:44.323236967
+Extracted Received chunk at: 2024-10-30T07:54:44.747442628
+Extracted After serialization at: 2024-10-30T07:54:44.912827316
+Start transfer time (epoch): 1730271284.323236967
+Received chunk time (epoch): 1730271284.747442628
+After serialization time (epoch): 1730271284.912827316
+Transfer duration: .424205661 seconds
+Serialization duration: .165384688 seconds
+Total Transfer duration: .589590349 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:44.652419283
+Extracted Received chunk at: 2024-10-30T07:54:45.061552701
+Extracted After serialization at: 2024-10-30T07:54:45.226273352
+Start transfer time (epoch): 1730271284.652419283
+Received chunk time (epoch): 1730271285.061552701
+After serialization time (epoch): 1730271285.226273352
+Transfer duration: .409133418 seconds
+Serialization duration: .164720651 seconds
+Total Transfer duration: .573854069 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:44.968711872
+Extracted Received chunk at: 2024-10-30T07:54:45.385315556
+Extracted After serialization at: 2024-10-30T07:54:45.565460439
+Start transfer time (epoch): 1730271284.968711872
+Received chunk time (epoch): 1730271285.385315556
+After serialization time (epoch): 1730271285.565460439
+Transfer duration: .416603684 seconds
+Serialization duration: .180144883 seconds
+Total Transfer duration: .596748567 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:45.290833566
+Extracted Received chunk at: 2024-10-30T07:54:45.716120432
+Extracted After serialization at: 2024-10-30T07:54:45.880614885
+Start transfer time (epoch): 1730271285.290833566
+Received chunk time (epoch): 1730271285.716120432
+After serialization time (epoch): 1730271285.880614885
+Transfer duration: .425286866 seconds
+Serialization duration: .164494453 seconds
+Total Transfer duration: .589781319 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:45.622439271
+Extracted Received chunk at: 2024-10-30T07:54:46.040842741
+Extracted After serialization at: 2024-10-30T07:54:46.205318361
+Start transfer time (epoch): 1730271285.622439271
+Received chunk time (epoch): 1730271286.040842741
+After serialization time (epoch): 1730271286.205318361
+Transfer duration: .418403470 seconds
+Serialization duration: .164475620 seconds
+Total Transfer duration: .582879090 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:45.948073636
+Extracted Received chunk at: 2024-10-30T07:54:46.364864752
+Extracted After serialization at: 2024-10-30T07:54:46.532502287
+Start transfer time (epoch): 1730271285.948073636
+Received chunk time (epoch): 1730271286.364864752
+After serialization time (epoch): 1730271286.532502287
+Transfer duration: .416791116 seconds
+Serialization duration: .167637535 seconds
+Total Transfer duration: .584428651 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:46.271404029
+Extracted Received chunk at: 2024-10-30T07:54:46.685924248
+Extracted After serialization at: 2024-10-30T07:54:46.865383916
+Start transfer time (epoch): 1730271286.271404029
+Received chunk time (epoch): 1730271286.685924248
+After serialization time (epoch): 1730271286.865383916
+Transfer duration: .414520219 seconds
+Serialization duration: .179459668 seconds
+Total Transfer duration: .593979887 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:46.590928304
+Extracted Received chunk at: 2024-10-30T07:54:47.022402213
+Extracted After serialization at: 2024-10-30T07:54:47.205110550
+Start transfer time (epoch): 1730271286.590928304
+Received chunk time (epoch): 1730271287.022402213
+After serialization time (epoch): 1730271287.205110550
+Transfer duration: .431473909 seconds
+Serialization duration: .182708337 seconds
+Total Transfer duration: .614182246 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:46.927468332
+Extracted Received chunk at: 2024-10-30T07:54:47.368816403
+Extracted After serialization at: 2024-10-30T07:54:47.540213246
+Start transfer time (epoch): 1730271286.927468332
+Received chunk time (epoch): 1730271287.368816403
+After serialization time (epoch): 1730271287.540213246
+Transfer duration: .441348071 seconds
+Serialization duration: .171396843 seconds
+Total Transfer duration: .612744914 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:47.272517348
+Extracted Received chunk at: 2024-10-30T07:54:47.692570408
+Extracted After serialization at: 2024-10-30T07:54:47.865899840
+Start transfer time (epoch): 1730271287.272517348
+Received chunk time (epoch): 1730271287.692570408
+After serialization time (epoch): 1730271287.865899840
+Transfer duration: .420053060 seconds
+Serialization duration: .173329432 seconds
+Total Transfer duration: .593382492 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:47.599593260
+Extracted Received chunk at: 2024-10-30T07:54:48.026490627
+Extracted After serialization at: 2024-10-30T07:54:48.209830570
+Start transfer time (epoch): 1730271287.599593260
+Received chunk time (epoch): 1730271288.026490627
+After serialization time (epoch): 1730271288.209830570
+Transfer duration: .426897367 seconds
+Serialization duration: .183339943 seconds
+Total Transfer duration: .610237310 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:47.929953334
+Extracted Received chunk at: 2024-10-30T07:54:48.362732593
+Extracted After serialization at: 2024-10-30T07:54:48.546618122
+Start transfer time (epoch): 1730271287.929953334
+Received chunk time (epoch): 1730271288.362732593
+After serialization time (epoch): 1730271288.546618122
+Transfer duration: .432779259 seconds
+Serialization duration: .183885529 seconds
+Total Transfer duration: .616664788 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:48.267484768
+Extracted Received chunk at: 2024-10-30T07:54:48.696576474
+Extracted After serialization at: 2024-10-30T07:54:48.862893812
+Start transfer time (epoch): 1730271288.267484768
+Received chunk time (epoch): 1730271288.696576474
+After serialization time (epoch): 1730271288.862893812
+Transfer duration: .429091706 seconds
+Serialization duration: .166317338 seconds
+Total Transfer duration: .595409044 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:48.601456636
+Extracted Received chunk at: 2024-10-30T07:54:49.018804635
+Extracted After serialization at: 2024-10-30T07:54:49.183406543
+Start transfer time (epoch): 1730271288.601456636
+Received chunk time (epoch): 1730271289.018804635
+After serialization time (epoch): 1730271289.183406543
+Transfer duration: .417347999 seconds
+Serialization duration: .164601908 seconds
+Total Transfer duration: .581949907 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:48.924234629
+Extracted Received chunk at: 2024-10-30T07:54:49.333335509
+Extracted After serialization at: 2024-10-30T07:54:49.501322467
+Start transfer time (epoch): 1730271288.924234629
+Received chunk time (epoch): 1730271289.333335509
+After serialization time (epoch): 1730271289.501322467
+Transfer duration: .409100880 seconds
+Serialization duration: .167986958 seconds
+Total Transfer duration: .577087838 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:49.240268881
+Extracted Received chunk at: 2024-10-30T07:54:49.654625327
+Extracted After serialization at: 2024-10-30T07:54:49.825428625
+Start transfer time (epoch): 1730271289.240268881
+Received chunk time (epoch): 1730271289.654625327
+After serialization time (epoch): 1730271289.825428625
+Transfer duration: .414356446 seconds
+Serialization duration: .170803298 seconds
+Total Transfer duration: .585159744 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:49.561183689
+Extracted Received chunk at: 2024-10-30T07:54:49.984961841
+Extracted After serialization at: 2024-10-30T07:54:50.176076717
+Start transfer time (epoch): 1730271289.561183689
+Received chunk time (epoch): 1730271289.984961841
+After serialization time (epoch): 1730271290.176076717
+Transfer duration: .423778152 seconds
+Serialization duration: .191114876 seconds
+Total Transfer duration: .614893028 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:49.888955088
+Extracted Received chunk at: 2024-10-30T07:54:50.311864998
+Extracted After serialization at: 2024-10-30T07:54:50.495999384
+Start transfer time (epoch): 1730271289.888955088
+Received chunk time (epoch): 1730271290.311864998
+After serialization time (epoch): 1730271290.495999384
+Transfer duration: .422909910 seconds
+Serialization duration: .184134386 seconds
+Total Transfer duration: .607044296 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:50.215812837
+Extracted Received chunk at: 2024-10-30T07:54:50.643754444
+Extracted After serialization at: 2024-10-30T07:54:50.830107448
+Start transfer time (epoch): 1730271290.215812837
+Received chunk time (epoch): 1730271290.643754444
+After serialization time (epoch): 1730271290.830107448
+Transfer duration: .427941607 seconds
+Serialization duration: .186353004 seconds
+Total Transfer duration: .614294611 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:50.549198131
+Extracted Received chunk at: 2024-10-30T07:54:50.986599298
+Extracted After serialization at: 2024-10-30T07:54:51.153395059
+Start transfer time (epoch): 1730271290.549198131
+Received chunk time (epoch): 1730271290.986599298
+After serialization time (epoch): 1730271291.153395059
+Transfer duration: .437401167 seconds
+Serialization duration: .166795761 seconds
+Total Transfer duration: .604196928 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:50.890386424
+Extracted Received chunk at: 2024-10-30T07:54:51.316142448
+Extracted After serialization at: 2024-10-30T07:54:51.481894983
+Start transfer time (epoch): 1730271290.890386424
+Received chunk time (epoch): 1730271291.316142448
+After serialization time (epoch): 1730271291.481894983
+Transfer duration: .425756024 seconds
+Serialization duration: .165752535 seconds
+Total Transfer duration: .591508559 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:51.220869183
+Extracted Received chunk at: 2024-10-30T07:54:51.638874911
+Extracted After serialization at: 2024-10-30T07:54:51.804395274
+Start transfer time (epoch): 1730271291.220869183
+Received chunk time (epoch): 1730271291.638874911
+After serialization time (epoch): 1730271291.804395274
+Transfer duration: .418005728 seconds
+Serialization duration: .165520363 seconds
+Total Transfer duration: .583526091 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:51.544357386
+Extracted Received chunk at: 2024-10-30T07:54:51.960210363
+Extracted After serialization at: 2024-10-30T07:54:52.126069957
+Start transfer time (epoch): 1730271291.544357386
+Received chunk time (epoch): 1730271291.960210363
+After serialization time (epoch): 1730271292.126069957
+Transfer duration: .415852977 seconds
+Serialization duration: .165859594 seconds
+Total Transfer duration: .581712571 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:51.864294890
+Extracted Received chunk at: 2024-10-30T07:54:52.273535217
+Extracted After serialization at: 2024-10-30T07:54:52.438555228
+Start transfer time (epoch): 1730271291.864294890
+Received chunk time (epoch): 1730271292.273535217
+After serialization time (epoch): 1730271292.438555228
+Transfer duration: .409240327 seconds
+Serialization duration: .165020011 seconds
+Total Transfer duration: .574260338 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:52.178372815
+Extracted Received chunk at: 2024-10-30T07:54:52.590786424
+Extracted After serialization at: 2024-10-30T07:54:52.769864877
+Start transfer time (epoch): 1730271292.178372815
+Received chunk time (epoch): 1730271292.590786424
+After serialization time (epoch): 1730271292.769864877
+Transfer duration: .412413609 seconds
+Serialization duration: .179078453 seconds
+Total Transfer duration: .591492062 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:52.494352909
+Extracted Received chunk at: 2024-10-30T07:54:52.923581924
+Extracted After serialization at: 2024-10-30T07:54:53.106001435
+Start transfer time (epoch): 1730271292.494352909
+Received chunk time (epoch): 1730271292.923581924
+After serialization time (epoch): 1730271293.106001435
+Transfer duration: .429229015 seconds
+Serialization duration: .182419511 seconds
+Total Transfer duration: .611648526 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:52.828728948
+Extracted Received chunk at: 2024-10-30T07:54:53.258066593
+Extracted After serialization at: 2024-10-30T07:54:53.437402307
+Start transfer time (epoch): 1730271292.828728948
+Received chunk time (epoch): 1730271293.258066593
+After serialization time (epoch): 1730271293.437402307
+Transfer duration: .429337645 seconds
+Serialization duration: .179335714 seconds
+Total Transfer duration: .608673359 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:54:53.162862376
+Extracted Received chunk at: 2024-10-30T07:54:53.585389527
+Extracted After serialization at: 2024-10-30T07:54:53.771135647
+Start transfer time (epoch): 1730271293.162862376
+Received chunk time (epoch): 1730271293.585389527
+After serialization time (epoch): 1730271293.771135647
+Transfer duration: .422527151 seconds
+Serialization duration: .185746120 seconds
+Total Transfer duration: .608273271 seconds
+----------
+ROUND 100
+Extracted Start transfer at: 2024-10-30 07:56:39.677868760
+Extracted Received chunk at: 2024-10-30T07:56:40.111726386
+Extracted After serialization at: 2024-10-30T07:56:40.300686651
+Start transfer time (epoch): 1730271399.677868760
+Received chunk time (epoch): 1730271400.111726386
+After serialization time (epoch): 1730271400.300686651
+Transfer duration: .433857626 seconds
+Serialization duration: .188960265 seconds
+Total Transfer duration: .622817891 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:40.014916921
+Extracted Received chunk at: 2024-10-30T07:56:40.463223690
+Extracted After serialization at: 2024-10-30T07:56:40.647619279
+Start transfer time (epoch): 1730271400.014916921
+Received chunk time (epoch): 1730271400.463223690
+After serialization time (epoch): 1730271400.647619279
+Transfer duration: .448306769 seconds
+Serialization duration: .184395589 seconds
+Total Transfer duration: .632702358 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:40.367312402
+Extracted Received chunk at: 2024-10-30T07:56:40.788993735
+Extracted After serialization at: 2024-10-30T07:56:40.968426049
+Start transfer time (epoch): 1730271400.367312402
+Received chunk time (epoch): 1730271400.788993735
+After serialization time (epoch): 1730271400.968426049
+Transfer duration: .421681333 seconds
+Serialization duration: .179432314 seconds
+Total Transfer duration: .601113647 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:40.695296316
+Extracted Received chunk at: 2024-10-30T07:56:41.125213193
+Extracted After serialization at: 2024-10-30T07:56:41.304178656
+Start transfer time (epoch): 1730271400.695296316
+Received chunk time (epoch): 1730271401.125213193
+After serialization time (epoch): 1730271401.304178656
+Transfer duration: .429916877 seconds
+Serialization duration: .178965463 seconds
+Total Transfer duration: .608882340 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:41.030868290
+Extracted Received chunk at: 2024-10-30T07:56:41.455637357
+Extracted After serialization at: 2024-10-30T07:56:41.620359709
+Start transfer time (epoch): 1730271401.030868290
+Received chunk time (epoch): 1730271401.455637357
+After serialization time (epoch): 1730271401.620359709
+Transfer duration: .424769067 seconds
+Serialization duration: .164722352 seconds
+Total Transfer duration: .589491419 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:41.361970425
+Extracted Received chunk at: 2024-10-30T07:56:41.780811433
+Extracted After serialization at: 2024-10-30T07:56:41.964676841
+Start transfer time (epoch): 1730271401.361970425
+Received chunk time (epoch): 1730271401.780811433
+After serialization time (epoch): 1730271401.964676841
+Transfer duration: .418841008 seconds
+Serialization duration: .183865408 seconds
+Total Transfer duration: .602706416 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:41.685710165
+Extracted Received chunk at: 2024-10-30T07:56:42.115256401
+Extracted After serialization at: 2024-10-30T07:56:42.298750592
+Start transfer time (epoch): 1730271401.685710165
+Received chunk time (epoch): 1730271402.115256401
+After serialization time (epoch): 1730271402.298750592
+Transfer duration: .429546236 seconds
+Serialization duration: .183494191 seconds
+Total Transfer duration: .613040427 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:42.021647227
+Extracted Received chunk at: 2024-10-30T07:56:42.450202380
+Extracted After serialization at: 2024-10-30T07:56:42.629777908
+Start transfer time (epoch): 1730271402.021647227
+Received chunk time (epoch): 1730271402.450202380
+After serialization time (epoch): 1730271402.629777908
+Transfer duration: .428555153 seconds
+Serialization duration: .179575528 seconds
+Total Transfer duration: .608130681 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:42.356146575
+Extracted Received chunk at: 2024-10-30T07:56:42.781868048
+Extracted After serialization at: 2024-10-30T07:56:42.963174357
+Start transfer time (epoch): 1730271402.356146575
+Received chunk time (epoch): 1730271402.781868048
+After serialization time (epoch): 1730271402.963174357
+Transfer duration: .425721473 seconds
+Serialization duration: .181306309 seconds
+Total Transfer duration: .607027782 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:42.688708890
+Extracted Received chunk at: 2024-10-30T07:56:43.118574128
+Extracted After serialization at: 2024-10-30T07:56:43.301248850
+Start transfer time (epoch): 1730271402.688708890
+Received chunk time (epoch): 1730271403.118574128
+After serialization time (epoch): 1730271403.301248850
+Transfer duration: .429865238 seconds
+Serialization duration: .182674722 seconds
+Total Transfer duration: .612539960 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:43.024761031
+Extracted Received chunk at: 2024-10-30T07:56:43.457284687
+Extracted After serialization at: 2024-10-30T07:56:43.635771065
+Start transfer time (epoch): 1730271403.024761031
+Received chunk time (epoch): 1730271403.457284687
+After serialization time (epoch): 1730271403.635771065
+Transfer duration: .432523656 seconds
+Serialization duration: .178486378 seconds
+Total Transfer duration: .611010034 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:43.362731456
+Extracted Received chunk at: 2024-10-30T07:56:43.789069784
+Extracted After serialization at: 2024-10-30T07:56:43.968808973
+Start transfer time (epoch): 1730271403.362731456
+Received chunk time (epoch): 1730271403.789069784
+After serialization time (epoch): 1730271403.968808973
+Transfer duration: .426338328 seconds
+Serialization duration: .179739189 seconds
+Total Transfer duration: .606077517 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:43.694862979
+Extracted Received chunk at: 2024-10-30T07:56:44.116777837
+Extracted After serialization at: 2024-10-30T07:56:44.299730305
+Start transfer time (epoch): 1730271403.694862979
+Received chunk time (epoch): 1730271404.116777837
+After serialization time (epoch): 1730271404.299730305
+Transfer duration: .421914858 seconds
+Serialization duration: .182952468 seconds
+Total Transfer duration: .604867326 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:44.022404585
+Extracted Received chunk at: 2024-10-30T07:56:44.450189087
+Extracted After serialization at: 2024-10-30T07:56:44.630811311
+Start transfer time (epoch): 1730271404.022404585
+Received chunk time (epoch): 1730271404.450189087
+After serialization time (epoch): 1730271404.630811311
+Transfer duration: .427784502 seconds
+Serialization duration: .180622224 seconds
+Total Transfer duration: .608406726 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:44.354076773
+Extracted Received chunk at: 2024-10-30T07:56:44.786656585
+Extracted After serialization at: 2024-10-30T07:56:44.952656281
+Start transfer time (epoch): 1730271404.354076773
+Received chunk time (epoch): 1730271404.786656585
+After serialization time (epoch): 1730271404.952656281
+Transfer duration: .432579812 seconds
+Serialization duration: .165999696 seconds
+Total Transfer duration: .598579508 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:44.691429119
+Extracted Received chunk at: 2024-10-30T07:56:45.105321057
+Extracted After serialization at: 2024-10-30T07:56:45.269918452
+Start transfer time (epoch): 1730271404.691429119
+Received chunk time (epoch): 1730271405.105321057
+After serialization time (epoch): 1730271405.269918452
+Transfer duration: .413891938 seconds
+Serialization duration: .164597395 seconds
+Total Transfer duration: .578489333 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:45.011130328
+Extracted Received chunk at: 2024-10-30T07:56:45.416807703
+Extracted After serialization at: 2024-10-30T07:56:45.584434030
+Start transfer time (epoch): 1730271405.011130328
+Received chunk time (epoch): 1730271405.416807703
+After serialization time (epoch): 1730271405.584434030
+Transfer duration: .405677375 seconds
+Serialization duration: .167626327 seconds
+Total Transfer duration: .573303702 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:45.323717696
+Extracted Received chunk at: 2024-10-30T07:56:45.728477161
+Extracted After serialization at: 2024-10-30T07:56:45.893000332
+Start transfer time (epoch): 1730271405.323717696
+Received chunk time (epoch): 1730271405.728477161
+After serialization time (epoch): 1730271405.893000332
+Transfer duration: .404759465 seconds
+Serialization duration: .164523171 seconds
+Total Transfer duration: .569282636 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:45.635693939
+Extracted Received chunk at: 2024-10-30T07:56:46.045843538
+Extracted After serialization at: 2024-10-30T07:56:46.229220259
+Start transfer time (epoch): 1730271405.635693939
+Received chunk time (epoch): 1730271406.045843538
+After serialization time (epoch): 1730271406.229220259
+Transfer duration: .410149599 seconds
+Serialization duration: .183376721 seconds
+Total Transfer duration: .593526320 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:45.950635997
+Extracted Received chunk at: 2024-10-30T07:56:46.385456776
+Extracted After serialization at: 2024-10-30T07:56:46.569822273
+Start transfer time (epoch): 1730271405.950635997
+Received chunk time (epoch): 1730271406.385456776
+After serialization time (epoch): 1730271406.569822273
+Transfer duration: .434820779 seconds
+Serialization duration: .184365497 seconds
+Total Transfer duration: .619186276 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:46.291607272
+Extracted Received chunk at: 2024-10-30T07:56:46.721047
+Extracted After serialization at: 2024-10-30T07:56:46.898892260
+Start transfer time (epoch): 1730271406.291607272
+Received chunk time (epoch): 1730271406.721047000
+After serialization time (epoch): 1730271406.898892260
+Transfer duration: .429439728 seconds
+Serialization duration: .177845260 seconds
+Total Transfer duration: .607284988 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:46.626005381
+Extracted Received chunk at: 2024-10-30T07:56:47.052087738
+Extracted After serialization at: 2024-10-30T07:56:47.235811484
+Start transfer time (epoch): 1730271406.626005381
+Received chunk time (epoch): 1730271407.052087738
+After serialization time (epoch): 1730271407.235811484
+Transfer duration: .426082357 seconds
+Serialization duration: .183723746 seconds
+Total Transfer duration: .609806103 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:46.956526764
+Extracted Received chunk at: 2024-10-30T07:56:47.398278297
+Extracted After serialization at: 2024-10-30T07:56:47.577279474
+Start transfer time (epoch): 1730271406.956526764
+Received chunk time (epoch): 1730271407.398278297
+After serialization time (epoch): 1730271407.577279474
+Transfer duration: .441751533 seconds
+Serialization duration: .179001177 seconds
+Total Transfer duration: .620752710 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:47.305076961
+Extracted Received chunk at: 2024-10-30T07:56:47.734126434
+Extracted After serialization at: 2024-10-30T07:56:47.913601353
+Start transfer time (epoch): 1730271407.305076961
+Received chunk time (epoch): 1730271407.734126434
+After serialization time (epoch): 1730271407.913601353
+Transfer duration: .429049473 seconds
+Serialization duration: .179474919 seconds
+Total Transfer duration: .608524392 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:47.639401494
+Extracted Received chunk at: 2024-10-30T07:56:48.065936414
+Extracted After serialization at: 2024-10-30T07:56:48.245080621
+Start transfer time (epoch): 1730271407.639401494
+Received chunk time (epoch): 1730271408.065936414
+After serialization time (epoch): 1730271408.245080621
+Transfer duration: .426534920 seconds
+Serialization duration: .179144207 seconds
+Total Transfer duration: .605679127 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:47.970727820
+Extracted Received chunk at: 2024-10-30T07:56:48.402568860
+Extracted After serialization at: 2024-10-30T07:56:48.567570593
+Start transfer time (epoch): 1730271407.970727820
+Received chunk time (epoch): 1730271408.402568860
+After serialization time (epoch): 1730271408.567570593
+Transfer duration: .431841040 seconds
+Serialization duration: .165001733 seconds
+Total Transfer duration: .596842773 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:48.308374716
+Extracted Received chunk at: 2024-10-30T07:56:48.722547560
+Extracted After serialization at: 2024-10-30T07:56:48.886469305
+Start transfer time (epoch): 1730271408.308374716
+Received chunk time (epoch): 1730271408.722547560
+After serialization time (epoch): 1730271408.886469305
+Transfer duration: .414172844 seconds
+Serialization duration: .163921745 seconds
+Total Transfer duration: .578094589 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:48.628376305
+Extracted Received chunk at: 2024-10-30T07:56:49.041047174
+Extracted After serialization at: 2024-10-30T07:56:49.205382651
+Start transfer time (epoch): 1730271408.628376305
+Received chunk time (epoch): 1730271409.041047174
+After serialization time (epoch): 1730271409.205382651
+Transfer duration: .412670869 seconds
+Serialization duration: .164335477 seconds
+Total Transfer duration: .577006346 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:48.947368613
+Extracted Received chunk at: 2024-10-30T07:56:49.354939385
+Extracted After serialization at: 2024-10-30T07:56:49.519073588
+Start transfer time (epoch): 1730271408.947368613
+Received chunk time (epoch): 1730271409.354939385
+After serialization time (epoch): 1730271409.519073588
+Transfer duration: .407570772 seconds
+Serialization duration: .164134203 seconds
+Total Transfer duration: .571704975 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:49.262583047
+Extracted Received chunk at: 2024-10-30T07:56:49.675430361
+Extracted After serialization at: 2024-10-30T07:56:49.839823278
+Start transfer time (epoch): 1730271409.262583047
+Received chunk time (epoch): 1730271409.675430361
+After serialization time (epoch): 1730271409.839823278
+Transfer duration: .412847314 seconds
+Serialization duration: .164392917 seconds
+Total Transfer duration: .577240231 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:49.582084003
+Extracted Received chunk at: 2024-10-30T07:56:49.984815170
+Extracted After serialization at: 2024-10-30T07:56:50.170197714
+Start transfer time (epoch): 1730271409.582084003
+Received chunk time (epoch): 1730271409.984815170
+After serialization time (epoch): 1730271410.170197714
+Transfer duration: .402731167 seconds
+Serialization duration: .185382544 seconds
+Total Transfer duration: .588113711 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:49.890041477
+Extracted Received chunk at: 2024-10-30T07:56:50.324752530
+Extracted After serialization at: 2024-10-30T07:56:50.490732788
+Start transfer time (epoch): 1730271409.890041477
+Received chunk time (epoch): 1730271410.324752530
+After serialization time (epoch): 1730271410.490732788
+Transfer duration: .434711053 seconds
+Serialization duration: .165980258 seconds
+Total Transfer duration: .600691311 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:50.229504138
+Extracted Received chunk at: 2024-10-30T07:56:50.643307664
+Extracted After serialization at: 2024-10-30T07:56:50.814691057
+Start transfer time (epoch): 1730271410.229504138
+Received chunk time (epoch): 1730271410.643307664
+After serialization time (epoch): 1730271410.814691057
+Transfer duration: .413803526 seconds
+Serialization duration: .171383393 seconds
+Total Transfer duration: .585186919 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:50.544792487
+Extracted Received chunk at: 2024-10-30T07:56:50.961910133
+Extracted After serialization at: 2024-10-30T07:56:51.137966350
+Start transfer time (epoch): 1730271410.544792487
+Received chunk time (epoch): 1730271410.961910133
+After serialization time (epoch): 1730271411.137966350
+Transfer duration: .417117646 seconds
+Serialization duration: .176056217 seconds
+Total Transfer duration: .593173863 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:50.868185931
+Extracted Received chunk at: 2024-10-30T07:56:51.300455468
+Extracted After serialization at: 2024-10-30T07:56:51.480749503
+Start transfer time (epoch): 1730271410.868185931
+Received chunk time (epoch): 1730271411.300455468
+After serialization time (epoch): 1730271411.480749503
+Transfer duration: .432269537 seconds
+Serialization duration: .180294035 seconds
+Total Transfer duration: .612563572 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:51.205641455
+Extracted Received chunk at: 2024-10-30T07:56:51.638744721
+Extracted After serialization at: 2024-10-30T07:56:51.822543709
+Start transfer time (epoch): 1730271411.205641455
+Received chunk time (epoch): 1730271411.638744721
+After serialization time (epoch): 1730271411.822543709
+Transfer duration: .433103266 seconds
+Serialization duration: .183798988 seconds
+Total Transfer duration: .616902254 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:51.543982883
+Extracted Received chunk at: 2024-10-30T07:56:51.978190036
+Extracted After serialization at: 2024-10-30T07:56:52.142621624
+Start transfer time (epoch): 1730271411.543982883
+Received chunk time (epoch): 1730271411.978190036
+After serialization time (epoch): 1730271412.142621624
+Transfer duration: .434207153 seconds
+Serialization duration: .164431588 seconds
+Total Transfer duration: .598638741 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:51.881956764
+Extracted Received chunk at: 2024-10-30T07:56:52.298167624
+Extracted After serialization at: 2024-10-30T07:56:52.462443428
+Start transfer time (epoch): 1730271411.881956764
+Received chunk time (epoch): 1730271412.298167624
+After serialization time (epoch): 1730271412.462443428
+Transfer duration: .416210860 seconds
+Serialization duration: .164275804 seconds
+Total Transfer duration: .580486664 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:52.204603453
+Extracted Received chunk at: 2024-10-30T07:56:52.615045989
+Extracted After serialization at: 2024-10-30T07:56:52.779182835
+Start transfer time (epoch): 1730271412.204603453
+Received chunk time (epoch): 1730271412.615045989
+After serialization time (epoch): 1730271412.779182835
+Transfer duration: .410442536 seconds
+Serialization duration: .164136846 seconds
+Total Transfer duration: .574579382 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:52.521704881
+Extracted Received chunk at: 2024-10-30T07:56:52.923589816
+Extracted After serialization at: 2024-10-30T07:56:53.106702141
+Start transfer time (epoch): 1730271412.521704881
+Received chunk time (epoch): 1730271412.923589816
+After serialization time (epoch): 1730271413.106702141
+Transfer duration: .401884935 seconds
+Serialization duration: .183112325 seconds
+Total Transfer duration: .584997260 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:52.829983651
+Extracted Received chunk at: 2024-10-30T07:56:53.258295925
+Extracted After serialization at: 2024-10-30T07:56:53.437395530
+Start transfer time (epoch): 1730271412.829983651
+Received chunk time (epoch): 1730271413.258295925
+After serialization time (epoch): 1730271413.437395530
+Transfer duration: .428312274 seconds
+Serialization duration: .179099605 seconds
+Total Transfer duration: .607411879 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:53.164819406
+Extracted Received chunk at: 2024-10-30T07:56:53.587438037
+Extracted After serialization at: 2024-10-30T07:56:53.773199138
+Start transfer time (epoch): 1730271413.164819406
+Received chunk time (epoch): 1730271413.587438037
+After serialization time (epoch): 1730271413.773199138
+Transfer duration: .422618631 seconds
+Serialization duration: .185761101 seconds
+Total Transfer duration: .608379732 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:53.494072840
+Extracted Received chunk at: 2024-10-30T07:56:53.924431608
+Extracted After serialization at: 2024-10-30T07:56:54.089983038
+Start transfer time (epoch): 1730271413.494072840
+Received chunk time (epoch): 1730271413.924431608
+After serialization time (epoch): 1730271414.089983038
+Transfer duration: .430358768 seconds
+Serialization duration: .165551430 seconds
+Total Transfer duration: .595910198 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:53.829849021
+Extracted Received chunk at: 2024-10-30T07:56:54.245155469
+Extracted After serialization at: 2024-10-30T07:56:54.409630863
+Start transfer time (epoch): 1730271413.829849021
+Received chunk time (epoch): 1730271414.245155469
+After serialization time (epoch): 1730271414.409630863
+Transfer duration: .415306448 seconds
+Serialization duration: .164475394 seconds
+Total Transfer duration: .579781842 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:54.152016940
+Extracted Received chunk at: 2024-10-30T07:56:54.555371154
+Extracted After serialization at: 2024-10-30T07:56:54.720631697
+Start transfer time (epoch): 1730271414.152016940
+Received chunk time (epoch): 1730271414.555371154
+After serialization time (epoch): 1730271414.720631697
+Transfer duration: .403354214 seconds
+Serialization duration: .165260543 seconds
+Total Transfer duration: .568614757 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:54.462150708
+Extracted Received chunk at: 2024-10-30T07:56:54.874286746
+Extracted After serialization at: 2024-10-30T07:56:55.038647730
+Start transfer time (epoch): 1730271414.462150708
+Received chunk time (epoch): 1730271414.874286746
+After serialization time (epoch): 1730271415.038647730
+Transfer duration: .412136038 seconds
+Serialization duration: .164360984 seconds
+Total Transfer duration: .576497022 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:54.781884253
+Extracted Received chunk at: 2024-10-30T07:56:55.192100706
+Extracted After serialization at: 2024-10-30T07:56:55.355919828
+Start transfer time (epoch): 1730271414.781884253
+Received chunk time (epoch): 1730271415.192100706
+After serialization time (epoch): 1730271415.355919828
+Transfer duration: .410216453 seconds
+Serialization duration: .163819122 seconds
+Total Transfer duration: .574035575 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:55.099679242
+Extracted Received chunk at: 2024-10-30T07:56:55.517387984
+Extracted After serialization at: 2024-10-30T07:56:55.681352673
+Start transfer time (epoch): 1730271415.099679242
+Received chunk time (epoch): 1730271415.517387984
+After serialization time (epoch): 1730271415.681352673
+Transfer duration: .417708742 seconds
+Serialization duration: .163964689 seconds
+Total Transfer duration: .581673431 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:55.423802840
+Extracted Received chunk at: 2024-10-30T07:56:55.838206249
+Extracted After serialization at: 2024-10-30T07:56:56.003611441
+Start transfer time (epoch): 1730271415.423802840
+Received chunk time (epoch): 1730271415.838206249
+After serialization time (epoch): 1730271416.003611441
+Transfer duration: .414403409 seconds
+Serialization duration: .165405192 seconds
+Total Transfer duration: .579808601 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:55.744083417
+Extracted Received chunk at: 2024-10-30T07:56:56.169797276
+Extracted After serialization at: 2024-10-30T07:56:56.350087150
+Start transfer time (epoch): 1730271415.744083417
+Received chunk time (epoch): 1730271416.169797276
+After serialization time (epoch): 1730271416.350087150
+Transfer duration: .425713859 seconds
+Serialization duration: .180289874 seconds
+Total Transfer duration: .606003733 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:56.074600737
+Extracted Received chunk at: 2024-10-30T07:56:56.501805155
+Extracted After serialization at: 2024-10-30T07:56:56.666174469
+Start transfer time (epoch): 1730271416.074600737
+Received chunk time (epoch): 1730271416.501805155
+After serialization time (epoch): 1730271416.666174469
+Transfer duration: .427204418 seconds
+Serialization duration: .164369314 seconds
+Total Transfer duration: .591573732 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:56.405640837
+Extracted Received chunk at: 2024-10-30T07:56:56.824607509
+Extracted After serialization at: 2024-10-30T07:56:57.004369447
+Start transfer time (epoch): 1730271416.405640837
+Received chunk time (epoch): 1730271416.824607509
+After serialization time (epoch): 1730271417.004369447
+Transfer duration: .418966672 seconds
+Serialization duration: .179761938 seconds
+Total Transfer duration: .598728610 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:56.729496037
+Extracted Received chunk at: 2024-10-30T07:56:57.158225888
+Extracted After serialization at: 2024-10-30T07:56:57.336121506
+Start transfer time (epoch): 1730271416.729496037
+Received chunk time (epoch): 1730271417.158225888
+After serialization time (epoch): 1730271417.336121506
+Transfer duration: .428729851 seconds
+Serialization duration: .177895618 seconds
+Total Transfer duration: .606625469 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:57.063163862
+Extracted Received chunk at: 2024-10-30T07:56:57.481905091
+Extracted After serialization at: 2024-10-30T07:56:57.667206218
+Start transfer time (epoch): 1730271417.063163862
+Received chunk time (epoch): 1730271417.481905091
+After serialization time (epoch): 1730271417.667206218
+Transfer duration: .418741229 seconds
+Serialization duration: .185301127 seconds
+Total Transfer duration: .604042356 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:57.386932593
+Extracted Received chunk at: 2024-10-30T07:56:57.818975508
+Extracted After serialization at: 2024-10-30T07:56:57.994273363
+Start transfer time (epoch): 1730271417.386932593
+Received chunk time (epoch): 1730271417.818975508
+After serialization time (epoch): 1730271417.994273363
+Transfer duration: .432042915 seconds
+Serialization duration: .175297855 seconds
+Total Transfer duration: .607340770 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:57.723169629
+Extracted Received chunk at: 2024-10-30T07:56:58.149389964
+Extracted After serialization at: 2024-10-30T07:56:58.332042166
+Start transfer time (epoch): 1730271417.723169629
+Received chunk time (epoch): 1730271418.149389964
+After serialization time (epoch): 1730271418.332042166
+Transfer duration: .426220335 seconds
+Serialization duration: .182652202 seconds
+Total Transfer duration: .608872537 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:58.055067861
+Extracted Received chunk at: 2024-10-30T07:56:58.488714669
+Extracted After serialization at: 2024-10-30T07:56:58.668407689
+Start transfer time (epoch): 1730271418.055067861
+Received chunk time (epoch): 1730271418.488714669
+After serialization time (epoch): 1730271418.668407689
+Transfer duration: .433646808 seconds
+Serialization duration: .179693020 seconds
+Total Transfer duration: .613339828 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:58.395276729
+Extracted Received chunk at: 2024-10-30T07:56:58.822903771
+Extracted After serialization at: 2024-10-30T07:56:59.003295848
+Start transfer time (epoch): 1730271418.395276729
+Received chunk time (epoch): 1730271418.822903771
+After serialization time (epoch): 1730271419.003295848
+Transfer duration: .427627042 seconds
+Serialization duration: .180392077 seconds
+Total Transfer duration: .608019119 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:58.727403319
+Extracted Received chunk at: 2024-10-30T07:56:59.148592170
+Extracted After serialization at: 2024-10-30T07:56:59.327423030
+Start transfer time (epoch): 1730271418.727403319
+Received chunk time (epoch): 1730271419.148592170
+After serialization time (epoch): 1730271419.327423030
+Transfer duration: .421188851 seconds
+Serialization duration: .178830860 seconds
+Total Transfer duration: .600019711 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:59.054840984
+Extracted Received chunk at: 2024-10-30T07:56:59.473683338
+Extracted After serialization at: 2024-10-30T07:56:59.638873900
+Start transfer time (epoch): 1730271419.054840984
+Received chunk time (epoch): 1730271419.473683338
+After serialization time (epoch): 1730271419.638873900
+Transfer duration: .418842354 seconds
+Serialization duration: .165190562 seconds
+Total Transfer duration: .584032916 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:59.379845121
+Extracted Received chunk at: 2024-10-30T07:56:59.804879857
+Extracted After serialization at: 2024-10-30T07:56:59.992558684
+Start transfer time (epoch): 1730271419.379845121
+Received chunk time (epoch): 1730271419.804879857
+After serialization time (epoch): 1730271419.992558684
+Transfer duration: .425034736 seconds
+Serialization duration: .187678827 seconds
+Total Transfer duration: .612713563 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:56:59.709301687
+Extracted Received chunk at: 2024-10-30T07:57:00.139313531
+Extracted After serialization at: 2024-10-30T07:57:00.305441228
+Start transfer time (epoch): 1730271419.709301687
+Received chunk time (epoch): 1730271420.139313531
+After serialization time (epoch): 1730271420.305441228
+Transfer duration: .430011844 seconds
+Serialization duration: .166127697 seconds
+Total Transfer duration: .596139541 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:00.042781826
+Extracted Received chunk at: 2024-10-30T07:57:00.458922261
+Extracted After serialization at: 2024-10-30T07:57:00.624464741
+Start transfer time (epoch): 1730271420.042781826
+Received chunk time (epoch): 1730271420.458922261
+After serialization time (epoch): 1730271420.624464741
+Transfer duration: .416140435 seconds
+Serialization duration: .165542480 seconds
+Total Transfer duration: .581682915 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:00.364732825
+Extracted Received chunk at: 2024-10-30T07:57:00.776679681
+Extracted After serialization at: 2024-10-30T07:57:00.942855904
+Start transfer time (epoch): 1730271420.364732825
+Received chunk time (epoch): 1730271420.776679681
+After serialization time (epoch): 1730271420.942855904
+Transfer duration: .411946856 seconds
+Serialization duration: .166176223 seconds
+Total Transfer duration: .578123079 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:00.682170614
+Extracted Received chunk at: 2024-10-30T07:57:01.097413969
+Extracted After serialization at: 2024-10-30T07:57:01.278471217
+Start transfer time (epoch): 1730271420.682170614
+Received chunk time (epoch): 1730271421.097413969
+After serialization time (epoch): 1730271421.278471217
+Transfer duration: .415243355 seconds
+Serialization duration: .181057248 seconds
+Total Transfer duration: .596300603 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:00.999730152
+Extracted Received chunk at: 2024-10-30T07:57:01.433864745
+Extracted After serialization at: 2024-10-30T07:57:01.605671797
+Start transfer time (epoch): 1730271420.999730152
+Received chunk time (epoch): 1730271421.433864745
+After serialization time (epoch): 1730271421.605671797
+Transfer duration: .434134593 seconds
+Serialization duration: .171807052 seconds
+Total Transfer duration: .605941645 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:01.335558852
+Extracted Received chunk at: 2024-10-30T07:57:01.768691448
+Extracted After serialization at: 2024-10-30T07:57:01.958953440
+Start transfer time (epoch): 1730271421.335558852
+Received chunk time (epoch): 1730271421.768691448
+After serialization time (epoch): 1730271421.958953440
+Transfer duration: .433132596 seconds
+Serialization duration: .190261992 seconds
+Total Transfer duration: .623394588 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:01.671274312
+Extracted Received chunk at: 2024-10-30T07:57:02.110189144
+Extracted After serialization at: 2024-10-30T07:57:02.278702340
+Start transfer time (epoch): 1730271421.671274312
+Received chunk time (epoch): 1730271422.110189144
+After serialization time (epoch): 1730271422.278702340
+Transfer duration: .438914832 seconds
+Serialization duration: .168513196 seconds
+Total Transfer duration: .607428028 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:02.012098157
+Extracted Received chunk at: 2024-10-30T07:57:02.429470091
+Extracted After serialization at: 2024-10-30T07:57:02.609924461
+Start transfer time (epoch): 1730271422.012098157
+Received chunk time (epoch): 1730271422.429470091
+After serialization time (epoch): 1730271422.609924461
+Transfer duration: .417371934 seconds
+Serialization duration: .180454370 seconds
+Total Transfer duration: .597826304 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:02.333495139
+Extracted Received chunk at: 2024-10-30T07:57:02.775496473
+Extracted After serialization at: 2024-10-30T07:57:02.942074254
+Start transfer time (epoch): 1730271422.333495139
+Received chunk time (epoch): 1730271422.775496473
+After serialization time (epoch): 1730271422.942074254
+Transfer duration: .442001334 seconds
+Serialization duration: .166577781 seconds
+Total Transfer duration: .608579115 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:02.679983940
+Extracted Received chunk at: 2024-10-30T07:57:03.095421169
+Extracted After serialization at: 2024-10-30T07:57:03.275943335
+Start transfer time (epoch): 1730271422.679983940
+Received chunk time (epoch): 1730271423.095421169
+After serialization time (epoch): 1730271423.275943335
+Transfer duration: .415437229 seconds
+Serialization duration: .180522166 seconds
+Total Transfer duration: .595959395 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:02.999376965
+Extracted Received chunk at: 2024-10-30T07:57:03.425715456
+Extracted After serialization at: 2024-10-30T07:57:03.610795595
+Start transfer time (epoch): 1730271422.999376965
+Received chunk time (epoch): 1730271423.425715456
+After serialization time (epoch): 1730271423.610795595
+Transfer duration: .426338491 seconds
+Serialization duration: .185080139 seconds
+Total Transfer duration: .611418630 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:03.330408265
+Extracted Received chunk at: 2024-10-30T07:57:03.755797352
+Extracted After serialization at: 2024-10-30T07:57:03.939731507
+Start transfer time (epoch): 1730271423.330408265
+Received chunk time (epoch): 1730271423.755797352
+After serialization time (epoch): 1730271423.939731507
+Transfer duration: .425389087 seconds
+Serialization duration: .183934155 seconds
+Total Transfer duration: .609323242 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:03.661085962
+Extracted Received chunk at: 2024-10-30T07:57:04.101758615
+Extracted After serialization at: 2024-10-30T07:57:04.290485975
+Start transfer time (epoch): 1730271423.661085962
+Received chunk time (epoch): 1730271424.101758615
+After serialization time (epoch): 1730271424.290485975
+Transfer duration: .440672653 seconds
+Serialization duration: .188727360 seconds
+Total Transfer duration: .629400013 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:04.004694622
+Extracted Received chunk at: 2024-10-30T07:57:04.439064774
+Extracted After serialization at: 2024-10-30T07:57:04.622089069
+Start transfer time (epoch): 1730271424.004694622
+Received chunk time (epoch): 1730271424.439064774
+After serialization time (epoch): 1730271424.622089069
+Transfer duration: .434370152 seconds
+Serialization duration: .183024295 seconds
+Total Transfer duration: .617394447 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:04.343564370
+Extracted Received chunk at: 2024-10-30T07:57:04.776527220
+Extracted After serialization at: 2024-10-30T07:57:04.960984153
+Start transfer time (epoch): 1730271424.343564370
+Received chunk time (epoch): 1730271424.776527220
+After serialization time (epoch): 1730271424.960984153
+Transfer duration: .432962850 seconds
+Serialization duration: .184456933 seconds
+Total Transfer duration: .617419783 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:04.681599385
+Extracted Received chunk at: 2024-10-30T07:57:05.113641095
+Extracted After serialization at: 2024-10-30T07:57:05.292831349
+Start transfer time (epoch): 1730271424.681599385
+Received chunk time (epoch): 1730271425.113641095
+After serialization time (epoch): 1730271425.292831349
+Transfer duration: .432041710 seconds
+Serialization duration: .179190254 seconds
+Total Transfer duration: .611231964 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:05.019092998
+Extracted Received chunk at: 2024-10-30T07:57:05.445160972
+Extracted After serialization at: 2024-10-30T07:57:05.626413077
+Start transfer time (epoch): 1730271425.019092998
+Received chunk time (epoch): 1730271425.445160972
+After serialization time (epoch): 1730271425.626413077
+Transfer duration: .426067974 seconds
+Serialization duration: .181252105 seconds
+Total Transfer duration: .607320079 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:05.350018866
+Extracted Received chunk at: 2024-10-30T07:57:05.777842033
+Extracted After serialization at: 2024-10-30T07:57:05.944228420
+Start transfer time (epoch): 1730271425.350018866
+Received chunk time (epoch): 1730271425.777842033
+After serialization time (epoch): 1730271425.944228420
+Transfer duration: .427823167 seconds
+Serialization duration: .166386387 seconds
+Total Transfer duration: .594209554 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:05.681638868
+Extracted Received chunk at: 2024-10-30T07:57:06.098966439
+Extracted After serialization at: 2024-10-30T07:57:06.284610282
+Start transfer time (epoch): 1730271425.681638868
+Received chunk time (epoch): 1730271426.098966439
+After serialization time (epoch): 1730271426.284610282
+Transfer duration: .417327571 seconds
+Serialization duration: .185643843 seconds
+Total Transfer duration: .602971414 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:06.002968213
+Extracted Received chunk at: 2024-10-30T07:57:06.442084896
+Extracted After serialization at: 2024-10-30T07:57:06.609009445
+Start transfer time (epoch): 1730271426.002968213
+Received chunk time (epoch): 1730271426.442084896
+After serialization time (epoch): 1730271426.609009445
+Transfer duration: .439116683 seconds
+Serialization duration: .166924549 seconds
+Total Transfer duration: .606041232 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:06.344454673
+Extracted Received chunk at: 2024-10-30T07:57:06.756330397
+Extracted After serialization at: 2024-10-30T07:57:06.936757265
+Start transfer time (epoch): 1730271426.344454673
+Received chunk time (epoch): 1730271426.756330397
+After serialization time (epoch): 1730271426.936757265
+Transfer duration: .411875724 seconds
+Serialization duration: .180426868 seconds
+Total Transfer duration: .592302592 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:06.660333803
+Extracted Received chunk at: 2024-10-30T07:57:07.098420285
+Extracted After serialization at: 2024-10-30T07:57:07.283920012
+Start transfer time (epoch): 1730271426.660333803
+Received chunk time (epoch): 1730271427.098420285
+After serialization time (epoch): 1730271427.283920012
+Transfer duration: .438086482 seconds
+Serialization duration: .185499727 seconds
+Total Transfer duration: .623586209 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:07.000866772
+Extracted Received chunk at: 2024-10-30T07:57:07.438292584
+Extracted After serialization at: 2024-10-30T07:57:07.604338466
+Start transfer time (epoch): 1730271427.000866772
+Received chunk time (epoch): 1730271427.438292584
+After serialization time (epoch): 1730271427.604338466
+Transfer duration: .437425812 seconds
+Serialization duration: .166045882 seconds
+Total Transfer duration: .603471694 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:07.342967228
+Extracted Received chunk at: 2024-10-30T07:57:07.753173653
+Extracted After serialization at: 2024-10-30T07:57:07.918631533
+Start transfer time (epoch): 1730271427.342967228
+Received chunk time (epoch): 1730271427.753173653
+After serialization time (epoch): 1730271427.918631533
+Transfer duration: .410206425 seconds
+Serialization duration: .165457880 seconds
+Total Transfer duration: .575664305 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:07.659037978
+Extracted Received chunk at: 2024-10-30T07:57:08.062909273
+Extracted After serialization at: 2024-10-30T07:57:08.228975907
+Start transfer time (epoch): 1730271427.659037978
+Received chunk time (epoch): 1730271428.062909273
+After serialization time (epoch): 1730271428.228975907
+Transfer duration: .403871295 seconds
+Serialization duration: .166066634 seconds
+Total Transfer duration: .569937929 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:07.968704940
+Extracted Received chunk at: 2024-10-30T07:57:08.382694010
+Extracted After serialization at: 2024-10-30T07:57:08.548753929
+Start transfer time (epoch): 1730271427.968704940
+Received chunk time (epoch): 1730271428.382694010
+After serialization time (epoch): 1730271428.548753929
+Transfer duration: .413989070 seconds
+Serialization duration: .166059919 seconds
+Total Transfer duration: .580048989 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:08.288179564
+Extracted Received chunk at: 2024-10-30T07:57:08.705164627
+Extracted After serialization at: 2024-10-30T07:57:08.871070524
+Start transfer time (epoch): 1730271428.288179564
+Received chunk time (epoch): 1730271428.705164627
+After serialization time (epoch): 1730271428.871070524
+Transfer duration: .416985063 seconds
+Serialization duration: .165905897 seconds
+Total Transfer duration: .582890960 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:08.611428193
+Extracted Received chunk at: 2024-10-30T07:57:09.023325376
+Extracted After serialization at: 2024-10-30T07:57:09.204065048
+Start transfer time (epoch): 1730271428.611428193
+Received chunk time (epoch): 1730271429.023325376
+After serialization time (epoch): 1730271429.204065048
+Transfer duration: .411897183 seconds
+Serialization duration: .180739672 seconds
+Total Transfer duration: .592636855 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:08.927276189
+Extracted Received chunk at: 2024-10-30T07:57:09.354696256
+Extracted After serialization at: 2024-10-30T07:57:09.526779192
+Start transfer time (epoch): 1730271428.927276189
+Received chunk time (epoch): 1730271429.354696256
+After serialization time (epoch): 1730271429.526779192
+Transfer duration: .427420067 seconds
+Serialization duration: .172082936 seconds
+Total Transfer duration: .599503003 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:09.259876859
+Extracted Received chunk at: 2024-10-30T07:57:09.684968852
+Extracted After serialization at: 2024-10-30T07:57:09.864097001
+Start transfer time (epoch): 1730271429.259876859
+Received chunk time (epoch): 1730271429.684968852
+After serialization time (epoch): 1730271429.864097001
+Transfer duration: .425091993 seconds
+Serialization duration: .179128149 seconds
+Total Transfer duration: .604220142 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:09.592065336
+Extracted Received chunk at: 2024-10-30T07:57:10.028776660
+Extracted After serialization at: 2024-10-30T07:57:10.216588446
+Start transfer time (epoch): 1730271429.592065336
+Received chunk time (epoch): 1730271430.028776660
+After serialization time (epoch): 1730271430.216588446
+Transfer duration: .436711324 seconds
+Serialization duration: .187811786 seconds
+Total Transfer duration: .624523110 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:09.932139758
+Extracted Received chunk at: 2024-10-30T07:57:10.375045409
+Extracted After serialization at: 2024-10-30T07:57:10.559475454
+Start transfer time (epoch): 1730271429.932139758
+Received chunk time (epoch): 1730271430.375045409
+After serialization time (epoch): 1730271430.559475454
+Transfer duration: .442905651 seconds
+Serialization duration: .184430045 seconds
+Total Transfer duration: .627335696 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:10.278045525
+Extracted Received chunk at: 2024-10-30T07:57:10.715828363
+Extracted After serialization at: 2024-10-30T07:57:10.882239037
+Start transfer time (epoch): 1730271430.278045525
+Received chunk time (epoch): 1730271430.715828363
+After serialization time (epoch): 1730271430.882239037
+Transfer duration: .437782838 seconds
+Serialization duration: .166410674 seconds
+Total Transfer duration: .604193512 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:10.620540282
+Extracted Received chunk at: 2024-10-30T07:57:11.038684539
+Extracted After serialization at: 2024-10-30T07:57:11.217683619
+Start transfer time (epoch): 1730271430.620540282
+Received chunk time (epoch): 1730271431.038684539
+After serialization time (epoch): 1730271431.217683619
+Transfer duration: .418144257 seconds
+Serialization duration: .178999080 seconds
+Total Transfer duration: .597143337 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:10.943383454
+Extracted Received chunk at: 2024-10-30T07:57:11.379151322
+Extracted After serialization at: 2024-10-30T07:57:11.562395180
+Start transfer time (epoch): 1730271430.943383454
+Received chunk time (epoch): 1730271431.379151322
+After serialization time (epoch): 1730271431.562395180
+Transfer duration: .435767868 seconds
+Serialization duration: .183243858 seconds
+Total Transfer duration: .619011726 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:11.283343719
+Extracted Received chunk at: 2024-10-30T07:57:11.725280886
+Extracted After serialization at: 2024-10-30T07:57:11.911118852
+Start transfer time (epoch): 1730271431.283343719
+Received chunk time (epoch): 1730271431.725280886
+After serialization time (epoch): 1730271431.911118852
+Transfer duration: .441937167 seconds
+Serialization duration: .185837966 seconds
+Total Transfer duration: .627775133 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:11.629713745
+Extracted Received chunk at: 2024-10-30T07:57:12.063409921
+Extracted After serialization at: 2024-10-30T07:57:12.244486271
+Start transfer time (epoch): 1730271431.629713745
+Received chunk time (epoch): 1730271432.063409921
+After serialization time (epoch): 1730271432.244486271
+Transfer duration: .433696176 seconds
+Serialization duration: .181076350 seconds
+Total Transfer duration: .614772526 seconds
+----------
+Extracted Start transfer at: 2024-10-30 07:57:11.966129974
+Extracted Received chunk at: 2024-10-30T07:57:12.395450056
+Extracted After serialization at: 2024-10-30T07:57:12.573007599
+Start transfer time (epoch): 1730271431.966129974
+Received chunk time (epoch): 1730271432.395450056
+After serialization time (epoch): 1730271432.573007599
+Transfer duration: .429320082 seconds
+Serialization duration: .177557543 seconds
+Total Transfer duration: .606877625 seconds
+----------

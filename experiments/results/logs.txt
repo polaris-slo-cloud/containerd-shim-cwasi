@@ -1,0 +1,172 @@
+Round 1
+
+Call external func at 2024-09-13 08:48:35.364537768 UTC
+Host function invoked at 2024-09-13 08:48:35.364731448 UTC
+Server is listening on port 8080 at 2024-09-13 08:48:35.459049220 UTC
+New client connected at 2024-09-13 08:48:40.104915261 UTC
+Data size 104857720 bytes
+start transfer at 2024-09-13T08:48:40.104985100Z
+Overall sent 104857720 bytes at 2024-09-13T08:48:40.966038031Z
+
+Connected to the server at 128.131.57.188:8080
+Received 104857720 bytes at 2024-09-13T08:48:40.996420653Z
+Wasm B started at 2024-09-13 08:48:41.340046538 UTC
+Args read at 2024-09-13 08:48:47.317059668 UTC
+Wasm B finished result 2024-09-13 08:48:47.317445794 UTC at 1726217327317059668
+FnB Shim Finished. Result from moduleB: 1726217327317059668
+
+Round 2
+
+Call external func at 2024-09-13 09:07:11.846557515 UTC
+Host function invoked at 2024-09-13 09:07:11.846739660 UTC
+Server is listening on port 8080 at 2024-09-13 09:07:11.942272333 UTC
+New client connected at 2024-09-13 09:07:18.465995924 UTC
+Data size 104857720 bytes
+start transfer at 2024-09-13T09:07:18.466114234Z
+Overall sent 104857720 bytes at 2024-09-13T09:07:19.332788176Z
+
+Connected to the server at 128.131.57.188:8080
+Received 104857720 bytes at 2024-09-13T09:07:19.356678721Z
+Wasm B started at 2024-09-13 09:07:19.703758878 UTC
+Args read at 2024-09-13 09:07:25.699593256 UTC
+Wasm B finished result 2024-09-13 09:07:25.699962633 UTC at 1726218445699593256
+
+Round 3 
+
+Call external func at 2024-09-13 09:08:30.845848007 UTC
+Host function invoked at 2024-09-13 09:08:30.846035489 UTC
+Server is listening on port 8080 at 2024-09-13 09:08:30.940092448 UTC
+New client connected at 2024-09-13 09:08:33.412841172 UTC
+Data size 104857720 bytes
+start transfer at 2024-09-13T09:08:33.412907494Z
+Overall sent 104857720 bytes at 2024-09-13T09:08:34.281474151Z
+
+Connected to the server at 128.131.57.188:8080
+Received 104857720 bytes at 2024-09-13T09:08:34.303758650Z
+Wasm B started at 2024-09-13 09:08:34.641486050 UTC
+Args read at 2024-09-13 09:08:40.600098964 UTC
+Wasm B finished result 2024-09-13 09:08:40.600455241 UTC at 1726218520600098964
+
+Round 4
+
+Call external func at 2024-09-13 09:09:04.023163457 UTC
+Host function invoked at 2024-09-13 09:09:04.023367978 UTC
+Server is listening on port 8080 at 2024-09-13 09:09:04.113773573 UTC
+New client connected at 2024-09-13 09:09:08.535662881 UTC
+Data size 104857720 bytes
+start transfer at 2024-09-13T09:09:08.535721589Z
+Overall sent 104857720 bytes at 2024-09-13T09:09:09.401970168Z
+
+Connected to the server at 128.131.57.188:8080
+Received 104857720 bytes at 2024-09-13T09:09:09.426427025Z
+Wasm B started at 2024-09-13 09:09:09.767579077 UTC
+Args read at 2024-09-13 09:09:15.741208926 UTC
+Wasm B finished result 2024-09-13 09:09:15.741578086 UTC at 1726218555741208926
+
+
+Round 5
+
+Call external func at 2024-09-13 09:10:05.842899711 UTC
+Host function invoked at 2024-09-13 09:10:05.843077878 UTC
+Server is listening on port 8080 at 2024-09-13 09:10:05.933551261 UTC
+New client connected at 2024-09-13 09:10:08.463325538 UTC
+Data size 104857720 bytes
+start transfer at 2024-09-13T09:10:08.463397763Z
+Overall sent 104857720 bytes at 2024-09-13T09:10:09.329441232Z
+
+Connected to the server at 128.131.57.188:8080
+Received 104857720 bytes at 2024-09-13T09:10:09.354571617Z
+Wasm B started at 2024-09-13 09:10:09.693856584 UTC
+Args read at 2024-09-13 09:10:15.724437486 UTC
+Wasm B finished result 2024-09-13 09:10:15.724803392 UTC at 1726218615724437486
+FnB Shim Finished. Result from moduleB: 1726218615724437486
+
+Round 6 
+
+Call external func at 2024-09-13 09:11:25.664567353 UTC
+Host function invoked at 2024-09-13 09:11:25.664770825 UTC
+Server is listening on port 8080 at 2024-09-13 09:11:25.755873931 UTC
+New client connected at 2024-09-13 09:11:26.184459043 UTC
+Data size 104857720 bytes
+start transfer at 2024-09-13T09:11:26.184534656Z
+Overall sent 104857720 bytes at 2024-09-13T09:11:27.043498360Z
+
+Connected to the server at 128.131.57.188:8080
+Received 104857720 bytes at 2024-09-13T09:11:27.075669290Z
+Wasm B started at 2024-09-13 09:11:27.413769132 UTC
+Args read at 2024-09-13 09:11:33.513250309 UTC
+Wasm B finished result 2024-09-13 09:11:33.513651488 UTC at 1726218693513250309
+FnB Shim Finished. Result from moduleB: 1726218693513250309
+
+Round 7 
+
+Call external func at 2024-09-13 09:14:27.700966733 UTC
+Host function invoked at 2024-09-13 09:14:27.701167534 UTC
+Server is listening on port 8080 at 2024-09-13 09:14:27.790757583 UTC
+New client connected at 2024-09-13 09:14:28.660175884 UTC
+Data size 104857720 bytes
+start transfer at 2024-09-13T09:14:28.660242221Z
+Overall sent 104857720 bytes at 2024-09-13T09:14:29.526499449Z
+
+Connected to the server at 128.131.57.188:8080
+Received 104857720 bytes at 2024-09-13T09:14:29.551241991Z
+Wasm B started at 2024-09-13 09:14:29.896020081 UTC
+Args read at 2024-09-13 09:14:35.874551705 UTC
+Wasm B finished result 2024-09-13 09:14:35.874913604 UTC at 1726218875874551705
+FnB Shim Finished. Result from moduleB: 1726218875874551705
+
+Round 8 
+
+Call external func at 2024-09-13 09:15:08.491247755 UTC
+Host function invoked at 2024-09-13 09:15:08.491444597 UTC
+Server is listening on port 8080 at 2024-09-13 09:15:08.578560070 UTC
+New client connected at 2024-09-13 09:15:09.904425695 UTC
+Data size 104857720 bytes
+start transfer at 2024-09-13T09:15:09.904498785Z
+Overall sent 104857720 bytes at 2024-09-13T09:15:10.765837143Z
+
+Connected to the server at 128.131.57.188:8080
+Received 104857720 bytes at 2024-09-13T09:15:10.795090838Z
+Wasm B started at 2024-09-13 09:15:11.133214514 UTC
+Args read at 2024-09-13 09:15:17.087996599 UTC
+Wasm B finished result 2024-09-13 09:15:17.088384795 UTC at 1726218917087996599
+FnB Shim Finished. Result from moduleB: 1726218917087996599
+
+Round 9 
+
+Call external func at 2024-09-13 09:16:18.045109464 UTC
+Host function invoked at 2024-09-13 09:16:18.045302607 UTC
+Server is listening on port 8080 at 2024-09-13 09:16:18.131562512 UTC
+New client connected at 2024-09-13 09:16:20.111120002 UTC
+Data size 104857720 bytes
+start transfer at 2024-09-13T09:16:20.111190492Z
+Overall sent 104857720 bytes at 2024-09-13T09:16:20.971293452Z
+
+Connected to the server at 128.131.57.188:8080
+Received 104857720 bytes at 2024-09-13T09:16:21.001860377Z
+Wasm B started at 2024-09-13 09:16:21.337777529 UTC
+Args read at 2024-09-13 09:16:27.322440925 UTC
+Wasm B finished result 2024-09-13 09:16:27.322799256 UTC at 1726218987322440925
+FnB Shim Finished. Result from moduleB: 1726218987322440925
+
+Round 10
+
+Call external func at 2024-09-13 09:16:47.704626625 UTC
+Host function invoked at 2024-09-13 09:16:47.704818809 UTC
+Server is listening on port 8080 at 2024-09-13 09:16:47.789493632 UTC
+New client connected at 2024-09-13 09:16:50.319807216 UTC
+Data size 104857720 bytes
+start transfer at 2024-09-13T09:16:50.319881754Z
+Overall sent 104857720 bytes at 2024-09-13T09:16:51.177285240Z
+
+Connected to the server at 128.131.57.188:8080
+Received 104857720 bytes at 2024-09-13T09:16:51.210863847Z
+Wasm B started at 2024-09-13 09:16:51.546947479 UTC
+Args read at 2024-09-13 09:16:57.556475242 UTC
+Wasm B finished result 2024-09-13 09:16:57.556839105 UTC at 1726219017556475242
+FnB Shim Finished. Result from moduleB: 1726219017556475242
+
+
+
+
+

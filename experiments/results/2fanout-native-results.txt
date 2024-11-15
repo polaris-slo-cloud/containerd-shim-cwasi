@@ -1,0 +1,947 @@
+
+ROUND 1
+Start transfer of 10485760 at 2024-10-31 08:27:09.774073412 UTC for 1
+Received chunk at 2024-10-31T08:27:09.786685567 UTC for 1
+After serialization at 2024-10-31T08:27:09.886578623 UTC for 1
+
+ROUND 10
+Start transfer of 10485760 at 2024-10-31 08:29:00.750632430 UTC for 1
+Received chunk at 2024-10-31T08:29:00.761957068 UTC for 1
+After serialization at 2024-10-31T08:29:00.861096634 UTC for 1
+Start transfer of 10485760 at 2024-10-31 08:29:00.950485107 UTC for 2
+Received chunk at 2024-10-31T08:29:00.960448171 UTC for 2
+After serialization at 2024-10-31T08:29:01.059380890 UTC for 2
+Start transfer of 10485760 at 2024-10-31 08:29:01.137030666 UTC for 3
+Received chunk at 2024-10-31T08:29:01.140989619 UTC for 3
+After serialization at 2024-10-31T08:29:01.235870542 UTC for 3
+Start transfer of 10485760 at 2024-10-31 08:29:01.299024419 UTC for 4
+Received chunk at 2024-10-31T08:29:01.305588760 UTC for 4
+After serialization at 2024-10-31T08:29:01.397638016 UTC for 4
+Start transfer of 10485760 at 2024-10-31 08:29:01.465578564 UTC for 5
+Received chunk at 2024-10-31T08:29:01.471267394 UTC for 5
+After serialization at 2024-10-31T08:29:01.564089920 UTC for 5
+Start transfer of 10485760 at 2024-10-31 08:29:01.650894772 UTC for 6
+Received chunk at 2024-10-31T08:29:01.654967611 UTC for 6
+After serialization at 2024-10-31T08:29:01.747757578 UTC for 6
+Start transfer of 10485760 at 2024-10-31 08:29:01.841679894 UTC for 7
+Received chunk at 2024-10-31T08:29:01.845533755 UTC for 7
+After serialization at 2024-10-31T08:29:01.937691394 UTC for 7
+Start transfer of 10485760 at 2024-10-31 08:29:02.028264653 UTC for 8
+Received chunk at 2024-10-31T08:29:02.032849891 UTC for 8
+After serialization at 2024-10-31T08:29:02.127813239 UTC for 8
+Start transfer of 10485760 at 2024-10-31 08:29:02.215195317 UTC for 9
+Received chunk at 2024-10-31T08:29:02.219288651 UTC for 9
+After serialization at 2024-10-31T08:29:02.312731295 UTC for 9
+Start transfer of 10485760 at 2024-10-31 08:29:02.379005394 UTC for 10
+Received chunk at 2024-10-31T08:29:02.383010622 UTC for 10
+After serialization at 2024-10-31T08:29:02.475402555 UTC for 10
+
+ROUND 20
+Start transfer of 10485760 at 2024-10-31 08:30:10.040562022 UTC for 1
+Received chunk at 2024-10-31T08:30:10.052913771 UTC for 1
+After serialization at 2024-10-31T08:30:10.152671866 UTC for 1
+Start transfer of 10485760 at 2024-10-31 08:30:10.245688727 UTC for 2
+Received chunk at 2024-10-31T08:30:10.256621598 UTC for 2
+After serialization at 2024-10-31T08:30:10.354590523 UTC for 2
+Start transfer of 10485760 at 2024-10-31 08:30:10.432513867 UTC for 3
+Received chunk at 2024-10-31T08:30:10.436309539 UTC for 3
+After serialization at 2024-10-31T08:30:10.530037 UTC for 3
+Start transfer of 10485760 at 2024-10-31 08:30:10.598217446 UTC for 4
+Received chunk at 2024-10-31T08:30:10.604451843 UTC for 4
+After serialization at 2024-10-31T08:30:10.700713244 UTC for 4
+Start transfer of 10485760 at 2024-10-31 08:30:10.787104864 UTC for 5
+Received chunk at 2024-10-31T08:30:10.790743928 UTC for 5
+After serialization at 2024-10-31T08:30:10.882821022 UTC for 5
+Start transfer of 10485760 at 2024-10-31 08:30:10.965128423 UTC for 6
+Received chunk at 2024-10-31T08:30:10.969223272 UTC for 6
+After serialization at 2024-10-31T08:30:11.060823806 UTC for 6
+Start transfer of 10485760 at 2024-10-31 08:30:11.144507955 UTC for 7
+Received chunk at 2024-10-31T08:30:11.148509614 UTC for 7
+After serialization at 2024-10-31T08:30:11.240174072 UTC for 7
+Start transfer of 10485760 at 2024-10-31 08:30:11.319866460 UTC for 8
+Received chunk at 2024-10-31T08:30:11.326869964 UTC for 8
+After serialization at 2024-10-31T08:30:11.418562621 UTC for 8
+Start transfer of 10485760 at 2024-10-31 08:30:11.489736285 UTC for 9
+Received chunk at 2024-10-31T08:30:11.493591426 UTC for 9
+After serialization at 2024-10-31T08:30:11.586052362 UTC for 9
+Start transfer of 10485760 at 2024-10-31 08:30:11.665782712 UTC for 10
+Received chunk at 2024-10-31T08:30:11.670167364 UTC for 10
+After serialization at 2024-10-31T08:30:11.761762391 UTC for 10
+Start transfer of 10485760 at 2024-10-31 08:30:11.852228297 UTC for 11
+Received chunk at 2024-10-31T08:30:11.856053192 UTC for 11
+After serialization at 2024-10-31T08:30:11.947621653 UTC for 11
+Start transfer of 10485760 at 2024-10-31 08:30:12.035796438 UTC for 12
+Received chunk at 2024-10-31T08:30:12.039753209 UTC for 12
+After serialization at 2024-10-31T08:30:12.131269085 UTC for 12
+Start transfer of 10485760 at 2024-10-31 08:30:12.217843408 UTC for 13
+Received chunk at 2024-10-31T08:30:12.222456310 UTC for 13
+After serialization at 2024-10-31T08:30:12.314151757 UTC for 13
+Start transfer of 10485760 at 2024-10-31 08:30:12.400479689 UTC for 14
+Received chunk at 2024-10-31T08:30:12.404086975 UTC for 14
+After serialization at 2024-10-31T08:30:12.495823849 UTC for 14
+Start transfer of 10485760 at 2024-10-31 08:30:12.587160547 UTC for 15
+Received chunk at 2024-10-31T08:30:12.591185709 UTC for 15
+After serialization at 2024-10-31T08:30:12.682855820 UTC for 15
+Start transfer of 10485760 at 2024-10-31 08:30:12.775735427 UTC for 16
+Received chunk at 2024-10-31T08:30:12.779544867 UTC for 16
+After serialization at 2024-10-31T08:30:12.873584049 UTC for 16
+Start transfer of 10485760 at 2024-10-31 08:30:12.938907440 UTC for 17
+Received chunk at 2024-10-31T08:30:12.943485968 UTC for 17
+After serialization at 2024-10-31T08:30:13.035694717 UTC for 17
+Start transfer of 10485760 at 2024-10-31 08:30:13.112779529 UTC for 18
+Received chunk at 2024-10-31T08:30:13.116686787 UTC for 18
+After serialization at 2024-10-31T08:30:13.209605069 UTC for 18
+Start transfer of 10485760 at 2024-10-31 08:30:13.296333382 UTC for 19
+Received chunk at 2024-10-31T08:30:13.299889403 UTC for 19
+After serialization at 2024-10-31T08:30:13.393289140 UTC for 19
+Start transfer of 10485760 at 2024-10-31 08:30:13.477295628 UTC for 20
+Received chunk at 2024-10-31T08:30:13.481135148 UTC for 20
+After serialization at 2024-10-31T08:30:13.573052568 UTC for 20
+
+ROUND 40
+Start transfer of 10485760 at 2024-10-31 08:31:04.593548294 UTC for 1
+Received chunk at 2024-10-31T08:31:04.604100794 UTC for 1
+After serialization at 2024-10-31T08:31:04.703338679 UTC for 1
+Start transfer of 10485760 at 2024-10-31 08:31:04.779695849 UTC for 2
+Received chunk at 2024-10-31T08:31:04.789619400 UTC for 2
+After serialization at 2024-10-31T08:31:04.887082802 UTC for 2
+Start transfer of 10485760 at 2024-10-31 08:31:04.975109102 UTC for 3
+Received chunk at 2024-10-31T08:31:04.979111129 UTC for 3
+After serialization at 2024-10-31T08:31:05.075547848 UTC for 3
+Start transfer of 10485760 at 2024-10-31 08:31:05.170103771 UTC for 4
+Received chunk at 2024-10-31T08:31:05.173939751 UTC for 4
+After serialization at 2024-10-31T08:31:05.272892341 UTC for 4
+Start transfer of 10485760 at 2024-10-31 08:31:05.373851304 UTC for 5
+Received chunk at 2024-10-31T08:31:05.378180287 UTC for 5
+After serialization at 2024-10-31T08:31:05.470726918 UTC for 5
+Start transfer of 10485760 at 2024-10-31 08:31:05.547824630 UTC for 6
+Received chunk at 2024-10-31T08:31:05.551662121 UTC for 6
+After serialization at 2024-10-31T08:31:05.643411352 UTC for 6
+Start transfer of 10485760 at 2024-10-31 08:31:05.736993810 UTC for 7
+Received chunk at 2024-10-31T08:31:05.740657274 UTC for 7
+After serialization at 2024-10-31T08:31:05.834553418 UTC for 7
+Start transfer of 10485760 at 2024-10-31 08:31:05.921288266 UTC for 8
+Received chunk at 2024-10-31T08:31:05.925832731 UTC for 8
+After serialization at 2024-10-31T08:31:06.020589022 UTC for 8
+Start transfer of 10485760 at 2024-10-31 08:31:06.116683453 UTC for 9
+Received chunk at 2024-10-31T08:31:06.120281794 UTC for 9
+After serialization at 2024-10-31T08:31:06.218277818 UTC for 9
+Start transfer of 10485760 at 2024-10-31 08:31:06.316684779 UTC for 10
+Received chunk at 2024-10-31T08:31:06.320481413 UTC for 10
+After serialization at 2024-10-31T08:31:06.413024492 UTC for 10
+Start transfer of 10485760 at 2024-10-31 08:31:06.513979361 UTC for 11
+Received chunk at 2024-10-31T08:31:06.517674570 UTC for 11
+After serialization at 2024-10-31T08:31:06.609501601 UTC for 11
+Start transfer of 10485760 at 2024-10-31 08:31:06.696106321 UTC for 12
+Received chunk at 2024-10-31T08:31:06.700539631 UTC for 12
+After serialization at 2024-10-31T08:31:06.793190137 UTC for 12
+Start transfer of 10485760 at 2024-10-31 08:31:06.862149160 UTC for 13
+Received chunk at 2024-10-31T08:31:06.866052946 UTC for 13
+After serialization at 2024-10-31T08:31:06.958172073 UTC for 13
+Start transfer of 10485760 at 2024-10-31 08:31:07.047261244 UTC for 14
+Received chunk at 2024-10-31T08:31:07.050902189 UTC for 14
+After serialization at 2024-10-31T08:31:07.142881407 UTC for 14
+Start transfer of 10485760 at 2024-10-31 08:31:07.225448387 UTC for 15
+Received chunk at 2024-10-31T08:31:07.231317781 UTC for 15
+After serialization at 2024-10-31T08:31:07.323277303 UTC for 15
+Start transfer of 10485760 at 2024-10-31 08:31:07.401650309 UTC for 16
+Received chunk at 2024-10-31T08:31:07.405417655 UTC for 16
+After serialization at 2024-10-31T08:31:07.499228665 UTC for 16
+Start transfer of 10485760 at 2024-10-31 08:31:07.569869278 UTC for 17
+Received chunk at 2024-10-31T08:31:07.574361654 UTC for 17
+After serialization at 2024-10-31T08:31:07.670331877 UTC for 17
+Start transfer of 10485760 at 2024-10-31 08:31:07.760642007 UTC for 18
+Received chunk at 2024-10-31T08:31:07.764552317 UTC for 18
+After serialization at 2024-10-31T08:31:07.863886578 UTC for 18
+Start transfer of 10485760 at 2024-10-31 08:31:07.964272110 UTC for 19
+Received chunk at 2024-10-31T08:31:07.968036667 UTC for 19
+After serialization at 2024-10-31T08:31:08.061901440 UTC for 19
+Start transfer of 10485760 at 2024-10-31 08:31:08.143664359 UTC for 20
+Received chunk at 2024-10-31T08:31:08.147456450 UTC for 20
+After serialization at 2024-10-31T08:31:08.241189258 UTC for 20
+Start transfer of 10485760 at 2024-10-31 08:31:08.356263546 UTC for 21
+Received chunk at 2024-10-31T08:31:08.360139342 UTC for 21
+After serialization at 2024-10-31T08:31:08.453139948 UTC for 21
+Start transfer of 10485760 at 2024-10-31 08:31:08.520628568 UTC for 22
+Received chunk at 2024-10-31T08:31:08.525605831 UTC for 22
+After serialization at 2024-10-31T08:31:08.617585789 UTC for 22
+Start transfer of 10485760 at 2024-10-31 08:31:08.705727084 UTC for 23
+Received chunk at 2024-10-31T08:31:08.709451024 UTC for 23
+After serialization at 2024-10-31T08:31:08.801303671 UTC for 23
+Start transfer of 10485760 at 2024-10-31 08:31:08.882638977 UTC for 24
+Received chunk at 2024-10-31T08:31:08.886581819 UTC for 24
+After serialization at 2024-10-31T08:31:08.978790217 UTC for 24
+Start transfer of 10485760 at 2024-10-31 08:31:09.066845824 UTC for 25
+Received chunk at 2024-10-31T08:31:09.071410703 UTC for 25
+After serialization at 2024-10-31T08:31:09.165239503 UTC for 25
+Start transfer of 10485760 at 2024-10-31 08:31:09.254092826 UTC for 26
+Received chunk at 2024-10-31T08:31:09.258549488 UTC for 26
+After serialization at 2024-10-31T08:31:09.351058647 UTC for 26
+Start transfer of 10485760 at 2024-10-31 08:31:09.437940939 UTC for 27
+Received chunk at 2024-10-31T08:31:09.441497179 UTC for 27
+After serialization at 2024-10-31T08:31:09.533837116 UTC for 27
+Start transfer of 10485760 at 2024-10-31 08:31:09.632955599 UTC for 28
+Received chunk at 2024-10-31T08:31:09.636874888 UTC for 28
+After serialization at 2024-10-31T08:31:09.730497111 UTC for 28
+Start transfer of 10485760 at 2024-10-31 08:31:09.816636854 UTC for 29
+Received chunk at 2024-10-31T08:31:09.820214720 UTC for 29
+After serialization at 2024-10-31T08:31:09.917802494 UTC for 29
+Start transfer of 10485760 at 2024-10-31 08:31:10.007968956 UTC for 30
+Received chunk at 2024-10-31T08:31:10.011932904 UTC for 30
+After serialization at 2024-10-31T08:31:10.103902466 UTC for 30
+Start transfer of 10485760 at 2024-10-31 08:31:10.178298987 UTC for 31
+Received chunk at 2024-10-31T08:31:10.182043436 UTC for 31
+After serialization at 2024-10-31T08:31:10.276115106 UTC for 31
+Start transfer of 10485760 at 2024-10-31 08:31:10.358973844 UTC for 32
+Received chunk at 2024-10-31T08:31:10.362611403 UTC for 32
+After serialization at 2024-10-31T08:31:10.454728685 UTC for 32
+Start transfer of 10485760 at 2024-10-31 08:31:10.533906118 UTC for 33
+Received chunk at 2024-10-31T08:31:10.537633074 UTC for 33
+After serialization at 2024-10-31T08:31:10.631168296 UTC for 33
+Start transfer of 10485760 at 2024-10-31 08:31:10.725845181 UTC for 34
+Received chunk at 2024-10-31T08:31:10.730311584 UTC for 34
+After serialization at 2024-10-31T08:31:10.825217973 UTC for 34
+Start transfer of 10485760 at 2024-10-31 08:31:10.912252109 UTC for 35
+Received chunk at 2024-10-31T08:31:10.916290940 UTC for 35
+After serialization at 2024-10-31T08:31:11.011812646 UTC for 35
+Start transfer of 10485760 at 2024-10-31 08:31:11.106103936 UTC for 36
+Received chunk at 2024-10-31T08:31:11.109902210 UTC for 36
+After serialization at 2024-10-31T08:31:11.211745178 UTC for 36
+Start transfer of 10485760 at 2024-10-31 08:31:11.294424885 UTC for 37
+Received chunk at 2024-10-31T08:31:11.298088921 UTC for 37
+After serialization at 2024-10-31T08:31:11.396174286 UTC for 37
+Start transfer of 10485760 at 2024-10-31 08:31:11.477048670 UTC for 38
+Received chunk at 2024-10-31T08:31:11.480832257 UTC for 38
+After serialization at 2024-10-31T08:31:11.572374675 UTC for 38
+Start transfer of 10485760 at 2024-10-31 08:31:11.657487297 UTC for 39
+Received chunk at 2024-10-31T08:31:11.661203462 UTC for 39
+After serialization at 2024-10-31T08:31:11.752408089 UTC for 39
+Start transfer of 10485760 at 2024-10-31 08:31:11.831753860 UTC for 40
+Received chunk at 2024-10-31T08:31:11.835689212 UTC for 40
+After serialization at 2024-10-31T08:31:11.930048209 UTC for 40
+
+ROUND 60
+Start transfer of 10485760 at 2024-10-31 08:32:07.013121303 UTC for 1
+Received chunk at 2024-10-31T08:32:07.024836116 UTC for 1
+After serialization at 2024-10-31T08:32:07.122976770 UTC for 1
+Start transfer of 10485760 at 2024-10-31 08:32:07.215573501 UTC for 2
+Received chunk at 2024-10-31T08:32:07.221850247 UTC for 2
+After serialization at 2024-10-31T08:32:07.320268800 UTC for 2
+Start transfer of 10485760 at 2024-10-31 08:32:07.418109349 UTC for 3
+Received chunk at 2024-10-31T08:32:07.429113346 UTC for 3
+After serialization at 2024-10-31T08:32:07.521175773 UTC for 3
+Start transfer of 10485760 at 2024-10-31 08:32:07.607416243 UTC for 4
+Received chunk at 2024-10-31T08:32:07.612034177 UTC for 4
+After serialization at 2024-10-31T08:32:07.706322372 UTC for 4
+Start transfer of 10485760 at 2024-10-31 08:32:07.793361234 UTC for 5
+Received chunk at 2024-10-31T08:32:07.797198295 UTC for 5
+After serialization at 2024-10-31T08:32:07.890643332 UTC for 5
+Start transfer of 10485760 at 2024-10-31 08:32:07.974376664 UTC for 6
+Received chunk at 2024-10-31T08:32:07.978128923 UTC for 6
+After serialization at 2024-10-31T08:32:08.070291128 UTC for 6
+Start transfer of 10485760 at 2024-10-31 08:32:08.144584238 UTC for 7
+Received chunk at 2024-10-31T08:32:08.151820352 UTC for 7
+After serialization at 2024-10-31T08:32:08.243758208 UTC for 7
+Start transfer of 10485760 at 2024-10-31 08:32:08.314740438 UTC for 8
+Received chunk at 2024-10-31T08:32:08.318629281 UTC for 8
+After serialization at 2024-10-31T08:32:08.413293626 UTC for 8
+Start transfer of 10485760 at 2024-10-31 08:32:08.484337788 UTC for 9
+Received chunk at 2024-10-31T08:32:08.488381543 UTC for 9
+After serialization at 2024-10-31T08:32:08.581672083 UTC for 9
+Start transfer of 10485760 at 2024-10-31 08:32:08.660343246 UTC for 10
+Received chunk at 2024-10-31T08:32:08.664367936 UTC for 10
+After serialization at 2024-10-31T08:32:08.758212717 UTC for 10
+Start transfer of 10485760 at 2024-10-31 08:32:08.832816753 UTC for 11
+Received chunk at 2024-10-31T08:32:08.837034496 UTC for 11
+After serialization at 2024-10-31T08:32:08.929882279 UTC for 11
+Start transfer of 10485760 at 2024-10-31 08:32:09.026291533 UTC for 12
+Received chunk at 2024-10-31T08:32:09.030417840 UTC for 12
+After serialization at 2024-10-31T08:32:09.123115796 UTC for 12
+Start transfer of 10485760 at 2024-10-31 08:32:09.184068654 UTC for 13
+Received chunk at 2024-10-31T08:32:09.187970484 UTC for 13
+After serialization at 2024-10-31T08:32:09.280186983 UTC for 13
+Start transfer of 10485760 at 2024-10-31 08:32:09.363431526 UTC for 14
+Received chunk at 2024-10-31T08:32:09.367628346 UTC for 14
+After serialization at 2024-10-31T08:32:09.459622196 UTC for 14
+Start transfer of 10485760 at 2024-10-31 08:32:09.544438080 UTC for 15
+Received chunk at 2024-10-31T08:32:09.548107472 UTC for 15
+After serialization at 2024-10-31T08:32:09.640864562 UTC for 15
+Start transfer of 10485760 at 2024-10-31 08:32:09.726056578 UTC for 16
+Received chunk at 2024-10-31T08:32:09.729934255 UTC for 16
+After serialization at 2024-10-31T08:32:09.822066232 UTC for 16
+Start transfer of 10485760 at 2024-10-31 08:32:09.911361437 UTC for 17
+Received chunk at 2024-10-31T08:32:09.916145266 UTC for 17
+After serialization at 2024-10-31T08:32:10.008282564 UTC for 17
+Start transfer of 10485760 at 2024-10-31 08:32:10.091014387 UTC for 18
+Received chunk at 2024-10-31T08:32:10.094649103 UTC for 18
+After serialization at 2024-10-31T08:32:10.187664326 UTC for 18
+Start transfer of 10485760 at 2024-10-31 08:32:10.278842822 UTC for 19
+Received chunk at 2024-10-31T08:32:10.282730396 UTC for 19
+After serialization at 2024-10-31T08:32:10.375533393 UTC for 19
+Start transfer of 10485760 at 2024-10-31 08:32:10.464564795 UTC for 20
+Received chunk at 2024-10-31T08:32:10.468450765 UTC for 20
+After serialization at 2024-10-31T08:32:10.561528105 UTC for 20
+Start transfer of 10485760 at 2024-10-31 08:32:10.653126894 UTC for 21
+Received chunk at 2024-10-31T08:32:10.657265908 UTC for 21
+After serialization at 2024-10-31T08:32:10.749891201 UTC for 21
+Start transfer of 10485760 at 2024-10-31 08:32:10.835225424 UTC for 22
+Received chunk at 2024-10-31T08:32:10.839328375 UTC for 22
+After serialization at 2024-10-31T08:32:10.931959033 UTC for 22
+Start transfer of 10485760 at 2024-10-31 08:32:11.030851991 UTC for 23
+Received chunk at 2024-10-31T08:32:11.034968061 UTC for 23
+After serialization at 2024-10-31T08:32:11.127798858 UTC for 23
+Start transfer of 10485760 at 2024-10-31 08:32:11.212915211 UTC for 24
+Received chunk at 2024-10-31T08:32:11.217385573 UTC for 24
+After serialization at 2024-10-31T08:32:11.310650700 UTC for 24
+Start transfer of 10485760 at 2024-10-31 08:32:11.392156393 UTC for 25
+Received chunk at 2024-10-31T08:32:11.395938009 UTC for 25
+After serialization at 2024-10-31T08:32:11.488705026 UTC for 25
+Start transfer of 10485760 at 2024-10-31 08:32:11.577615204 UTC for 26
+Received chunk at 2024-10-31T08:32:11.581771322 UTC for 26
+After serialization at 2024-10-31T08:32:11.673951590 UTC for 26
+Start transfer of 10485760 at 2024-10-31 08:32:11.767605302 UTC for 27
+Received chunk at 2024-10-31T08:32:11.771655184 UTC for 27
+After serialization at 2024-10-31T08:32:11.864226613 UTC for 27
+Start transfer of 10485760 at 2024-10-31 08:32:11.951638514 UTC for 28
+Received chunk at 2024-10-31T08:32:11.955599149 UTC for 28
+After serialization at 2024-10-31T08:32:12.047674504 UTC for 28
+Start transfer of 10485760 at 2024-10-31 08:32:12.141389200 UTC for 29
+Received chunk at 2024-10-31T08:32:12.145301329 UTC for 29
+After serialization at 2024-10-31T08:32:12.237135321 UTC for 29
+Start transfer of 10485760 at 2024-10-31 08:32:12.326151319 UTC for 30
+Received chunk at 2024-10-31T08:32:12.330051282 UTC for 30
+After serialization at 2024-10-31T08:32:12.423131692 UTC for 30
+Start transfer of 10485760 at 2024-10-31 08:32:12.505716326 UTC for 31
+Received chunk at 2024-10-31T08:32:12.509472259 UTC for 31
+After serialization at 2024-10-31T08:32:12.601448140 UTC for 31
+Start transfer of 10485760 at 2024-10-31 08:32:12.694247383 UTC for 32
+Received chunk at 2024-10-31T08:32:12.698187275 UTC for 32
+After serialization at 2024-10-31T08:32:12.790385099 UTC for 32
+Start transfer of 10485760 at 2024-10-31 08:32:12.879406176 UTC for 33
+Received chunk at 2024-10-31T08:32:12.883605099 UTC for 33
+After serialization at 2024-10-31T08:32:12.977086595 UTC for 33
+Start transfer of 10485760 at 2024-10-31 08:32:13.065251142 UTC for 34
+Received chunk at 2024-10-31T08:32:13.069653365 UTC for 34
+After serialization at 2024-10-31T08:32:13.162471266 UTC for 34
+Start transfer of 10485760 at 2024-10-31 08:32:13.253039894 UTC for 35
+Received chunk at 2024-10-31T08:32:13.256789988 UTC for 35
+After serialization at 2024-10-31T08:32:13.350110430 UTC for 35
+Start transfer of 10485760 at 2024-10-31 08:32:13.434218170 UTC for 36
+Received chunk at 2024-10-31T08:32:13.438058603 UTC for 36
+After serialization at 2024-10-31T08:32:13.530272533 UTC for 36
+Start transfer of 10485760 at 2024-10-31 08:32:13.616901108 UTC for 37
+Received chunk at 2024-10-31T08:32:13.620547037 UTC for 37
+After serialization at 2024-10-31T08:32:13.715046452 UTC for 37
+Start transfer of 10485760 at 2024-10-31 08:32:13.802708664 UTC for 38
+Received chunk at 2024-10-31T08:32:13.806555120 UTC for 38
+After serialization at 2024-10-31T08:32:13.898555256 UTC for 38
+Start transfer of 10485760 at 2024-10-31 08:32:13.981616077 UTC for 39
+Received chunk at 2024-10-31T08:32:13.985681376 UTC for 39
+After serialization at 2024-10-31T08:32:14.079815920 UTC for 39
+Start transfer of 10485760 at 2024-10-31 08:32:14.176358017 UTC for 40
+Received chunk at 2024-10-31T08:32:14.180249996 UTC for 40
+After serialization at 2024-10-31T08:32:14.273182225 UTC for 40
+Start transfer of 10485760 at 2024-10-31 08:32:14.356608437 UTC for 41
+Received chunk at 2024-10-31T08:32:14.360633459 UTC for 41
+After serialization at 2024-10-31T08:32:14.453050303 UTC for 41
+Start transfer of 10485760 at 2024-10-31 08:32:14.527507175 UTC for 42
+Received chunk at 2024-10-31T08:32:14.531329208 UTC for 42
+After serialization at 2024-10-31T08:32:14.626884130 UTC for 42
+Start transfer of 10485760 at 2024-10-31 08:32:14.709724337 UTC for 43
+Received chunk at 2024-10-31T08:32:14.713599329 UTC for 43
+After serialization at 2024-10-31T08:32:14.806090703 UTC for 43
+Start transfer of 10485760 at 2024-10-31 08:32:14.902169664 UTC for 44
+Received chunk at 2024-10-31T08:32:14.906022449 UTC for 44
+After serialization at 2024-10-31T08:32:14.998674206 UTC for 44
+Start transfer of 10485760 at 2024-10-31 08:32:15.078913793 UTC for 45
+Received chunk at 2024-10-31T08:32:15.082665392 UTC for 45
+After serialization at 2024-10-31T08:32:15.176280821 UTC for 45
+Start transfer of 10485760 at 2024-10-31 08:32:15.257812861 UTC for 46
+Received chunk at 2024-10-31T08:32:15.261835327 UTC for 46
+After serialization at 2024-10-31T08:32:15.355229678 UTC for 46
+Start transfer of 10485760 at 2024-10-31 08:32:15.444495481 UTC for 47
+Received chunk at 2024-10-31T08:32:15.448284487 UTC for 47
+After serialization at 2024-10-31T08:32:15.540439347 UTC for 47
+Start transfer of 10485760 at 2024-10-31 08:32:15.637735271 UTC for 48
+Received chunk at 2024-10-31T08:32:15.641688921 UTC for 48
+After serialization at 2024-10-31T08:32:15.734719700 UTC for 48
+Start transfer of 10485760 at 2024-10-31 08:32:15.823821072 UTC for 49
+Received chunk at 2024-10-31T08:32:15.827683337 UTC for 49
+After serialization at 2024-10-31T08:32:15.921656221 UTC for 49
+Start transfer of 10485760 at 2024-10-31 08:32:16.006136405 UTC for 50
+Received chunk at 2024-10-31T08:32:16.011920584 UTC for 50
+After serialization at 2024-10-31T08:32:16.105253564 UTC for 50
+Start transfer of 10485760 at 2024-10-31 08:32:16.170085590 UTC for 51
+Received chunk at 2024-10-31T08:32:16.174027283 UTC for 51
+After serialization at 2024-10-31T08:32:16.268311374 UTC for 51
+Start transfer of 10485760 at 2024-10-31 08:32:16.341530715 UTC for 52
+Received chunk at 2024-10-31T08:32:16.345594304 UTC for 52
+After serialization at 2024-10-31T08:32:16.437824581 UTC for 52
+Start transfer of 10485760 at 2024-10-31 08:32:16.524291896 UTC for 53
+Received chunk at 2024-10-31T08:32:16.528091739 UTC for 53
+After serialization at 2024-10-31T08:32:16.620138358 UTC for 53
+Start transfer of 10485760 at 2024-10-31 08:32:16.708661467 UTC for 54
+Received chunk at 2024-10-31T08:32:16.712600961 UTC for 54
+After serialization at 2024-10-31T08:32:16.805804540 UTC for 54
+Start transfer of 10485760 at 2024-10-31 08:32:16.900126746 UTC for 55
+Received chunk at 2024-10-31T08:32:16.904109889 UTC for 55
+After serialization at 2024-10-31T08:32:16.996408034 UTC for 55
+Start transfer of 10485760 at 2024-10-31 08:32:17.073830385 UTC for 56
+Received chunk at 2024-10-31T08:32:17.077521033 UTC for 56
+After serialization at 2024-10-31T08:32:17.169401233 UTC for 56
+Start transfer of 10485760 at 2024-10-31 08:32:17.258395136 UTC for 57
+Received chunk at 2024-10-31T08:32:17.263648214 UTC for 57
+After serialization at 2024-10-31T08:32:17.355107591 UTC for 57
+Start transfer of 10485760 at 2024-10-31 08:32:17.449710167 UTC for 58
+Received chunk at 2024-10-31T08:32:17.453906829 UTC for 58
+After serialization at 2024-10-31T08:32:17.547080350 UTC for 58
+Start transfer of 10485760 at 2024-10-31 08:32:17.635382364 UTC for 59
+Received chunk at 2024-10-31T08:32:17.639380124 UTC for 59
+After serialization at 2024-10-31T08:32:17.731974752 UTC for 59
+Start transfer of 10485760 at 2024-10-31 08:32:17.804508305 UTC for 60
+Received chunk at 2024-10-31T08:32:17.808247030 UTC for 60
+After serialization at 2024-10-31T08:32:17.900958130 UTC for 60
+
+ROUND 80
+Start transfer of 10485760 at 2024-10-31 08:33:21.218326017 UTC for 1
+Received chunk at 2024-10-31T08:33:21.229086255 UTC for 1
+After serialization at 2024-10-31T08:33:21.327695680 UTC for 1
+Start transfer of 10485760 at 2024-10-31 08:33:21.407563569 UTC for 2
+Received chunk at 2024-10-31T08:33:21.412850717 UTC for 2
+After serialization at 2024-10-31T08:33:21.510245990 UTC for 2
+Start transfer of 10485760 at 2024-10-31 08:33:21.617351446 UTC for 3
+Received chunk at 2024-10-31T08:33:21.628205119 UTC for 3
+After serialization at 2024-10-31T08:33:21.721628432 UTC for 3
+Start transfer of 10485760 at 2024-10-31 08:33:21.816799383 UTC for 4
+Received chunk at 2024-10-31T08:33:21.820682304 UTC for 4
+After serialization at 2024-10-31T08:33:21.916391545 UTC for 4
+Start transfer of 10485760 at 2024-10-31 08:33:22.000818758 UTC for 5
+Received chunk at 2024-10-31T08:33:22.004721591 UTC for 5
+After serialization at 2024-10-31T08:33:22.097914435 UTC for 5
+Start transfer of 10485760 at 2024-10-31 08:33:22.180382978 UTC for 6
+Received chunk at 2024-10-31T08:33:22.184429918 UTC for 6
+After serialization at 2024-10-31T08:33:22.277049296 UTC for 6
+Start transfer of 10485760 at 2024-10-31 08:33:22.382785706 UTC for 7
+Received chunk at 2024-10-31T08:33:22.386653068 UTC for 7
+After serialization at 2024-10-31T08:33:22.479062779 UTC for 7
+Start transfer of 10485760 at 2024-10-31 08:33:22.577209750 UTC for 8
+Received chunk at 2024-10-31T08:33:22.581169525 UTC for 8
+After serialization at 2024-10-31T08:33:22.673330619 UTC for 8
+Start transfer of 10485760 at 2024-10-31 08:33:22.776502512 UTC for 9
+Received chunk at 2024-10-31T08:33:22.780513156 UTC for 9
+After serialization at 2024-10-31T08:33:22.875112990 UTC for 9
+Start transfer of 10485760 at 2024-10-31 08:33:22.965551517 UTC for 10
+Received chunk at 2024-10-31T08:33:22.969342209 UTC for 10
+After serialization at 2024-10-31T08:33:23.061530872 UTC for 10
+Start transfer of 10485760 at 2024-10-31 08:33:23.161758443 UTC for 11
+Received chunk at 2024-10-31T08:33:23.165575904 UTC for 11
+After serialization at 2024-10-31T08:33:23.259663698 UTC for 11
+Start transfer of 10485760 at 2024-10-31 08:33:23.339179035 UTC for 12
+Received chunk at 2024-10-31T08:33:23.342883233 UTC for 12
+After serialization at 2024-10-31T08:33:23.435611512 UTC for 12
+Start transfer of 10485760 at 2024-10-31 08:33:23.528444971 UTC for 13
+Received chunk at 2024-10-31T08:33:23.532409471 UTC for 13
+After serialization at 2024-10-31T08:33:23.627066209 UTC for 13
+Start transfer of 10485760 at 2024-10-31 08:33:23.713200214 UTC for 14
+Received chunk at 2024-10-31T08:33:23.717128356 UTC for 14
+After serialization at 2024-10-31T08:33:23.809085503 UTC for 14
+Start transfer of 10485760 at 2024-10-31 08:33:23.904362844 UTC for 15
+Received chunk at 2024-10-31T08:33:23.908389058 UTC for 15
+After serialization at 2024-10-31T08:33:24.000302260 UTC for 15
+Start transfer of 10485760 at 2024-10-31 08:33:24.081703913 UTC for 16
+Received chunk at 2024-10-31T08:33:24.085653769 UTC for 16
+After serialization at 2024-10-31T08:33:24.179325229 UTC for 16
+Start transfer of 10485760 at 2024-10-31 08:33:24.273065874 UTC for 17
+Received chunk at 2024-10-31T08:33:24.277180114 UTC for 17
+After serialization at 2024-10-31T08:33:24.370421505 UTC for 17
+Start transfer of 10485760 at 2024-10-31 08:33:24.453178262 UTC for 18
+Received chunk at 2024-10-31T08:33:24.457009006 UTC for 18
+After serialization at 2024-10-31T08:33:24.549076830 UTC for 18
+Start transfer of 10485760 at 2024-10-31 08:33:24.643368412 UTC for 19
+Received chunk at 2024-10-31T08:33:24.652154366 UTC for 19
+After serialization at 2024-10-31T08:33:24.745818784 UTC for 19
+Start transfer of 10485760 at 2024-10-31 08:33:24.857872883 UTC for 20
+Received chunk at 2024-10-31T08:33:24.863088161 UTC for 20
+After serialization at 2024-10-31T08:33:24.958312084 UTC for 20
+Start transfer of 10485760 at 2024-10-31 08:33:25.048309851 UTC for 21
+Received chunk at 2024-10-31T08:33:25.052181700 UTC for 21
+After serialization at 2024-10-31T08:33:25.145398261 UTC for 21
+Start transfer of 10485760 at 2024-10-31 08:33:25.237604786 UTC for 22
+Received chunk at 2024-10-31T08:33:25.241576076 UTC for 22
+After serialization at 2024-10-31T08:33:25.334574404 UTC for 22
+Start transfer of 10485760 at 2024-10-31 08:33:25.433072073 UTC for 23
+Received chunk at 2024-10-31T08:33:25.436981889 UTC for 23
+After serialization at 2024-10-31T08:33:25.529815480 UTC for 23
+Start transfer of 10485760 at 2024-10-31 08:33:25.623438693 UTC for 24
+Received chunk at 2024-10-31T08:33:25.629485173 UTC for 24
+After serialization at 2024-10-31T08:33:25.721022268 UTC for 24
+Start transfer of 10485760 at 2024-10-31 08:33:25.791191911 UTC for 25
+Received chunk at 2024-10-31T08:33:25.794863262 UTC for 25
+After serialization at 2024-10-31T08:33:25.886683757 UTC for 25
+Start transfer of 10485760 at 2024-10-31 08:33:25.975318359 UTC for 26
+Received chunk at 2024-10-31T08:33:25.979339278 UTC for 26
+After serialization at 2024-10-31T08:33:26.071279786 UTC for 26
+Start transfer of 10485760 at 2024-10-31 08:33:26.153505407 UTC for 27
+Received chunk at 2024-10-31T08:33:26.157316150 UTC for 27
+After serialization at 2024-10-31T08:33:26.249355897 UTC for 27
+Start transfer of 10485760 at 2024-10-31 08:33:26.338973202 UTC for 28
+Received chunk at 2024-10-31T08:33:26.344141161 UTC for 28
+After serialization at 2024-10-31T08:33:26.435431880 UTC for 28
+Start transfer of 10485760 at 2024-10-31 08:33:26.504837775 UTC for 29
+Received chunk at 2024-10-31T08:33:26.510068513 UTC for 29
+After serialization at 2024-10-31T08:33:26.601912168 UTC for 29
+Start transfer of 10485760 at 2024-10-31 08:33:26.679284727 UTC for 30
+Received chunk at 2024-10-31T08:33:26.682978262 UTC for 30
+After serialization at 2024-10-31T08:33:26.776639591 UTC for 30
+Start transfer of 10485760 at 2024-10-31 08:33:26.868860744 UTC for 31
+Received chunk at 2024-10-31T08:33:26.872617555 UTC for 31
+After serialization at 2024-10-31T08:33:26.967229520 UTC for 31
+Start transfer of 10485760 at 2024-10-31 08:33:27.051081100 UTC for 32
+Received chunk at 2024-10-31T08:33:27.054872515 UTC for 32
+After serialization at 2024-10-31T08:33:27.147593032 UTC for 32
+Start transfer of 10485760 at 2024-10-31 08:33:27.235607864 UTC for 33
+Received chunk at 2024-10-31T08:33:27.239527250 UTC for 33
+After serialization at 2024-10-31T08:33:27.331781961 UTC for 33
+Start transfer of 10485760 at 2024-10-31 08:33:27.412793852 UTC for 34
+Received chunk at 2024-10-31T08:33:27.416698147 UTC for 34
+After serialization at 2024-10-31T08:33:27.508641785 UTC for 34
+Start transfer of 10485760 at 2024-10-31 08:33:27.592523752 UTC for 35
+Received chunk at 2024-10-31T08:33:27.597134715 UTC for 35
+After serialization at 2024-10-31T08:33:27.688858175 UTC for 35
+Start transfer of 10485760 at 2024-10-31 08:33:27.776077829 UTC for 36
+Received chunk at 2024-10-31T08:33:27.780070006 UTC for 36
+After serialization at 2024-10-31T08:33:27.871909407 UTC for 36
+Start transfer of 10485760 at 2024-10-31 08:33:27.956951841 UTC for 37
+Received chunk at 2024-10-31T08:33:27.960844462 UTC for 37
+After serialization at 2024-10-31T08:33:28.052435652 UTC for 37
+Start transfer of 10485760 at 2024-10-31 08:33:28.149315568 UTC for 38
+Received chunk at 2024-10-31T08:33:28.153166995 UTC for 38
+After serialization at 2024-10-31T08:33:28.245194484 UTC for 38
+Start transfer of 10485760 at 2024-10-31 08:33:28.327243280 UTC for 39
+Received chunk at 2024-10-31T08:33:28.331178595 UTC for 39
+After serialization at 2024-10-31T08:33:28.424661012 UTC for 39
+Start transfer of 10485760 at 2024-10-31 08:33:28.512926233 UTC for 40
+Received chunk at 2024-10-31T08:33:28.516796051 UTC for 40
+After serialization at 2024-10-31T08:33:28.609298034 UTC for 40
+Start transfer of 10485760 at 2024-10-31 08:33:28.694969613 UTC for 41
+Received chunk at 2024-10-31T08:33:28.698669117 UTC for 41
+After serialization at 2024-10-31T08:33:28.790955027 UTC for 41
+Start transfer of 10485760 at 2024-10-31 08:33:28.872186023 UTC for 42
+Received chunk at 2024-10-31T08:33:28.875892942 UTC for 42
+After serialization at 2024-10-31T08:33:28.967791571 UTC for 42
+Start transfer of 10485760 at 2024-10-31 08:33:29.076868089 UTC for 43
+Received chunk at 2024-10-31T08:33:29.081127496 UTC for 43
+After serialization at 2024-10-31T08:33:29.173008181 UTC for 43
+Start transfer of 10485760 at 2024-10-31 08:33:29.267983368 UTC for 44
+Received chunk at 2024-10-31T08:33:29.271894298 UTC for 44
+After serialization at 2024-10-31T08:33:29.364225179 UTC for 44
+Start transfer of 10485760 at 2024-10-31 08:33:29.451583574 UTC for 45
+Received chunk at 2024-10-31T08:33:29.455339571 UTC for 45
+After serialization at 2024-10-31T08:33:29.549012839 UTC for 45
+Start transfer of 10485760 at 2024-10-31 08:33:29.644307887 UTC for 46
+Received chunk at 2024-10-31T08:33:29.648085291 UTC for 46
+After serialization at 2024-10-31T08:33:29.741016192 UTC for 46
+Start transfer of 10485760 at 2024-10-31 08:33:29.826087751 UTC for 47
+Received chunk at 2024-10-31T08:33:29.830038444 UTC for 47
+After serialization at 2024-10-31T08:33:29.922183437 UTC for 47
+Start transfer of 10485760 at 2024-10-31 08:33:30.009034559 UTC for 48
+Received chunk at 2024-10-31T08:33:30.012845677 UTC for 48
+After serialization at 2024-10-31T08:33:30.106619307 UTC for 48
+Start transfer of 10485760 at 2024-10-31 08:33:30.201347562 UTC for 49
+Received chunk at 2024-10-31T08:33:30.205365834 UTC for 49
+After serialization at 2024-10-31T08:33:30.298211329 UTC for 49
+Start transfer of 10485760 at 2024-10-31 08:33:30.370166250 UTC for 50
+Received chunk at 2024-10-31T08:33:30.373808453 UTC for 50
+After serialization at 2024-10-31T08:33:30.468255812 UTC for 50
+Start transfer of 10485760 at 2024-10-31 08:33:30.553415980 UTC for 51
+Received chunk at 2024-10-31T08:33:30.557138603 UTC for 51
+After serialization at 2024-10-31T08:33:30.649472010 UTC for 51
+Start transfer of 10485760 at 2024-10-31 08:33:30.734033828 UTC for 52
+Received chunk at 2024-10-31T08:33:30.737938823 UTC for 52
+After serialization at 2024-10-31T08:33:30.829818969 UTC for 52
+Start transfer of 10485760 at 2024-10-31 08:33:30.917212288 UTC for 53
+Received chunk at 2024-10-31T08:33:30.920888893 UTC for 53
+After serialization at 2024-10-31T08:33:31.014520248 UTC for 53
+Start transfer of 10485760 at 2024-10-31 08:33:31.105489668 UTC for 54
+Received chunk at 2024-10-31T08:33:31.109361974 UTC for 54
+After serialization at 2024-10-31T08:33:31.201517295 UTC for 54
+Start transfer of 10485760 at 2024-10-31 08:33:31.298605492 UTC for 55
+Received chunk at 2024-10-31T08:33:31.302545655 UTC for 55
+After serialization at 2024-10-31T08:33:31.395093356 UTC for 55
+Start transfer of 10485760 at 2024-10-31 08:33:31.482347777 UTC for 56
+Received chunk at 2024-10-31T08:33:31.486139112 UTC for 56
+After serialization at 2024-10-31T08:33:31.577919593 UTC for 56
+Start transfer of 10485760 at 2024-10-31 08:33:31.663034026 UTC for 57
+Received chunk at 2024-10-31T08:33:31.666985160 UTC for 57
+After serialization at 2024-10-31T08:33:31.758593485 UTC for 57
+Start transfer of 10485760 at 2024-10-31 08:33:31.855229083 UTC for 58
+Received chunk at 2024-10-31T08:33:31.859171225 UTC for 58
+After serialization at 2024-10-31T08:33:31.952709524 UTC for 58
+Start transfer of 10485760 at 2024-10-31 08:33:32.037883642 UTC for 59
+Received chunk at 2024-10-31T08:33:32.042462589 UTC for 59
+After serialization at 2024-10-31T08:33:32.136020157 UTC for 59
+Start transfer of 10485760 at 2024-10-31 08:33:32.218135442 UTC for 60
+Received chunk at 2024-10-31T08:33:32.221837671 UTC for 60
+After serialization at 2024-10-31T08:33:32.313950937 UTC for 60
+Start transfer of 10485760 at 2024-10-31 08:33:32.398102478 UTC for 61
+Received chunk at 2024-10-31T08:33:32.402202053 UTC for 61
+After serialization at 2024-10-31T08:33:32.494349484 UTC for 61
+Start transfer of 10485760 at 2024-10-31 08:33:32.584339266 UTC for 62
+Received chunk at 2024-10-31T08:33:32.589235073 UTC for 62
+After serialization at 2024-10-31T08:33:32.681159800 UTC for 62
+Start transfer of 10485760 at 2024-10-31 08:33:32.752044082 UTC for 63
+Received chunk at 2024-10-31T08:33:32.755962765 UTC for 63
+After serialization at 2024-10-31T08:33:32.848260111 UTC for 63
+Start transfer of 10485760 at 2024-10-31 08:33:32.928337018 UTC for 64
+Received chunk at 2024-10-31T08:33:32.932123028 UTC for 64
+After serialization at 2024-10-31T08:33:33.024666389 UTC for 64
+Start transfer of 10485760 at 2024-10-31 08:33:33.119936958 UTC for 65
+Received chunk at 2024-10-31T08:33:33.123818456 UTC for 65
+After serialization at 2024-10-31T08:33:33.216131999 UTC for 65
+Start transfer of 10485760 at 2024-10-31 08:33:33.311789502 UTC for 66
+Received chunk at 2024-10-31T08:33:33.315717678 UTC for 66
+After serialization at 2024-10-31T08:33:33.407584862 UTC for 66
+Start transfer of 10485760 at 2024-10-31 08:33:33.483195710 UTC for 67
+Received chunk at 2024-10-31T08:33:33.486748463 UTC for 67
+After serialization at 2024-10-31T08:33:33.578504057 UTC for 67
+Start transfer of 10485760 at 2024-10-31 08:33:33.676587999 UTC for 68
+Received chunk at 2024-10-31T08:33:33.680519770 UTC for 68
+After serialization at 2024-10-31T08:33:33.772449562 UTC for 68
+Start transfer of 10485760 at 2024-10-31 08:33:33.862274792 UTC for 69
+Received chunk at 2024-10-31T08:33:33.866206930 UTC for 69
+After serialization at 2024-10-31T08:33:33.957849784 UTC for 69
+Start transfer of 10485760 at 2024-10-31 08:33:34.038551824 UTC for 70
+Received chunk at 2024-10-31T08:33:34.042290341 UTC for 70
+After serialization at 2024-10-31T08:33:34.135975728 UTC for 70
+Start transfer of 10485760 at 2024-10-31 08:33:34.222015933 UTC for 71
+Received chunk at 2024-10-31T08:33:34.226450698 UTC for 71
+After serialization at 2024-10-31T08:33:34.319908234 UTC for 71
+Start transfer of 10485760 at 2024-10-31 08:33:34.422880102 UTC for 72
+Received chunk at 2024-10-31T08:33:34.427307218 UTC for 72
+After serialization at 2024-10-31T08:33:34.521722492 UTC for 72
+Start transfer of 10485760 at 2024-10-31 08:33:34.620908845 UTC for 73
+Received chunk at 2024-10-31T08:33:34.625892550 UTC for 73
+After serialization at 2024-10-31T08:33:34.720816789 UTC for 73
+Start transfer of 10485760 at 2024-10-31 08:33:34.802206801 UTC for 74
+Received chunk at 2024-10-31T08:33:34.806899139 UTC for 74
+After serialization at 2024-10-31T08:33:34.899554306 UTC for 74
+Start transfer of 10485760 at 2024-10-31 08:33:34.977871037 UTC for 75
+Received chunk at 2024-10-31T08:33:34.981690436 UTC for 75
+After serialization at 2024-10-31T08:33:35.074793727 UTC for 75
+Start transfer of 10485760 at 2024-10-31 08:33:35.156896419 UTC for 76
+Received chunk at 2024-10-31T08:33:35.160760164 UTC for 76
+After serialization at 2024-10-31T08:33:35.253155938 UTC for 76
+Start transfer of 10485760 at 2024-10-31 08:33:35.353810528 UTC for 77
+Received chunk at 2024-10-31T08:33:35.357914112 UTC for 77
+After serialization at 2024-10-31T08:33:35.450196540 UTC for 77
+Start transfer of 10485760 at 2024-10-31 08:33:35.545764712 UTC for 78
+Received chunk at 2024-10-31T08:33:35.549803008 UTC for 78
+After serialization at 2024-10-31T08:33:35.642029060 UTC for 78
+Start transfer of 10485760 at 2024-10-31 08:33:35.730510854 UTC for 79
+Received chunk at 2024-10-31T08:33:35.734312736 UTC for 79
+After serialization at 2024-10-31T08:33:35.825957424 UTC for 79
+Start transfer of 10485760 at 2024-10-31 08:33:35.907027353 UTC for 80
+Received chunk at 2024-10-31T08:33:35.910830701 UTC for 80
+After serialization at 2024-10-31T08:33:36.004154832 UTC for 80
+
+ROUND 100
+Start transfer of 10485760 at 2024-10-31 08:34:43.246356996 UTC for 1
+Received chunk at 2024-10-31T08:34:43.257298346 UTC for 1
+After serialization at 2024-10-31T08:34:43.357317556 UTC for 1
+Start transfer of 10485760 at 2024-10-31 08:34:43.442701215 UTC for 2
+Received chunk at 2024-10-31T08:34:43.448000469 UTC for 2
+After serialization at 2024-10-31T08:34:43.548239196 UTC for 2
+Start transfer of 10485760 at 2024-10-31 08:34:43.639010418 UTC for 3
+Received chunk at 2024-10-31T08:34:43.650686593 UTC for 3
+After serialization at 2024-10-31T08:34:43.747606956 UTC for 3
+Start transfer of 10485760 at 2024-10-31 08:34:43.825151621 UTC for 4
+Received chunk at 2024-10-31T08:34:43.829094583 UTC for 4
+After serialization at 2024-10-31T08:34:43.922391254 UTC for 4
+Start transfer of 10485760 at 2024-10-31 08:34:44.006255820 UTC for 5
+Received chunk at 2024-10-31T08:34:44.010220193 UTC for 5
+After serialization at 2024-10-31T08:34:44.108078036 UTC for 5
+Start transfer of 10485760 at 2024-10-31 08:34:44.193131507 UTC for 6
+Received chunk at 2024-10-31T08:34:44.197115817 UTC for 6
+After serialization at 2024-10-31T08:34:44.289399570 UTC for 6
+Start transfer of 10485760 at 2024-10-31 08:34:44.376757215 UTC for 7
+Received chunk at 2024-10-31T08:34:44.380696570 UTC for 7
+After serialization at 2024-10-31T08:34:44.472362095 UTC for 7
+Start transfer of 10485760 at 2024-10-31 08:34:44.557326322 UTC for 8
+Received chunk at 2024-10-31T08:34:44.561177518 UTC for 8
+After serialization at 2024-10-31T08:34:44.653232715 UTC for 8
+Start transfer of 10485760 at 2024-10-31 08:34:44.745686455 UTC for 9
+Received chunk at 2024-10-31T08:34:44.749637959 UTC for 9
+After serialization at 2024-10-31T08:34:44.843765977 UTC for 9
+Start transfer of 10485760 at 2024-10-31 08:34:44.932873299 UTC for 10
+Received chunk at 2024-10-31T08:34:44.937343007 UTC for 10
+After serialization at 2024-10-31T08:34:45.030083421 UTC for 10
+Start transfer of 10485760 at 2024-10-31 08:34:45.101151013 UTC for 11
+Received chunk at 2024-10-31T08:34:45.105180279 UTC for 11
+After serialization at 2024-10-31T08:34:45.197337965 UTC for 11
+Start transfer of 10485760 at 2024-10-31 08:34:45.269186204 UTC for 12
+Received chunk at 2024-10-31T08:34:45.273197001 UTC for 12
+After serialization at 2024-10-31T08:34:45.366004 UTC for 12
+Start transfer of 10485760 at 2024-10-31 08:34:45.451817867 UTC for 13
+Received chunk at 2024-10-31T08:34:45.455797482 UTC for 13
+After serialization at 2024-10-31T08:34:45.549428447 UTC for 13
+Start transfer of 10485760 at 2024-10-31 08:34:45.638425409 UTC for 14
+Received chunk at 2024-10-31T08:34:45.642407742 UTC for 14
+After serialization at 2024-10-31T08:34:45.735176615 UTC for 14
+Start transfer of 10485760 at 2024-10-31 08:34:45.812624004 UTC for 15
+Received chunk at 2024-10-31T08:34:45.816413202 UTC for 15
+After serialization at 2024-10-31T08:34:45.909370492 UTC for 15
+Start transfer of 10485760 at 2024-10-31 08:34:46.003033142 UTC for 16
+Received chunk at 2024-10-31T08:34:46.009321890 UTC for 16
+After serialization at 2024-10-31T08:34:46.101890609 UTC for 16
+Start transfer of 10485760 at 2024-10-31 08:34:46.193137078 UTC for 17
+Received chunk at 2024-10-31T08:34:46.197472779 UTC for 17
+After serialization at 2024-10-31T08:34:46.290731739 UTC for 17
+Start transfer of 10485760 at 2024-10-31 08:34:46.380035003 UTC for 18
+Received chunk at 2024-10-31T08:34:46.384249360 UTC for 18
+After serialization at 2024-10-31T08:34:46.475841678 UTC for 18
+Start transfer of 10485760 at 2024-10-31 08:34:46.558974578 UTC for 19
+Received chunk at 2024-10-31T08:34:46.562833055 UTC for 19
+After serialization at 2024-10-31T08:34:46.654730474 UTC for 19
+Start transfer of 10485760 at 2024-10-31 08:34:46.742931840 UTC for 20
+Received chunk at 2024-10-31T08:34:46.747066937 UTC for 20
+After serialization at 2024-10-31T08:34:46.839241888 UTC for 20
+Start transfer of 10485760 at 2024-10-31 08:34:46.917887280 UTC for 21
+Received chunk at 2024-10-31T08:34:46.921823929 UTC for 21
+After serialization at 2024-10-31T08:34:47.017598765 UTC for 21
+Start transfer of 10485760 at 2024-10-31 08:34:47.112652554 UTC for 22
+Received chunk at 2024-10-31T08:34:47.116802344 UTC for 22
+After serialization at 2024-10-31T08:34:47.208868137 UTC for 22
+Start transfer of 10485760 at 2024-10-31 08:34:47.294486998 UTC for 23
+Received chunk at 2024-10-31T08:34:47.298848402 UTC for 23
+After serialization at 2024-10-31T08:34:47.390350958 UTC for 23
+Start transfer of 10485760 at 2024-10-31 08:34:47.473066984 UTC for 24
+Received chunk at 2024-10-31T08:34:47.477060061 UTC for 24
+After serialization at 2024-10-31T08:34:47.572027049 UTC for 24
+Start transfer of 10485760 at 2024-10-31 08:34:47.666057426 UTC for 25
+Received chunk at 2024-10-31T08:34:47.670138429 UTC for 25
+After serialization at 2024-10-31T08:34:47.762663578 UTC for 25
+Start transfer of 10485760 at 2024-10-31 08:34:47.858390993 UTC for 26
+Received chunk at 2024-10-31T08:34:47.862475165 UTC for 26
+After serialization at 2024-10-31T08:34:47.955288440 UTC for 26
+Start transfer of 10485760 at 2024-10-31 08:34:48.033969482 UTC for 27
+Received chunk at 2024-10-31T08:34:48.038021870 UTC for 27
+After serialization at 2024-10-31T08:34:48.131661663 UTC for 27
+Start transfer of 10485760 at 2024-10-31 08:34:48.211259628 UTC for 28
+Received chunk at 2024-10-31T08:34:48.215166932 UTC for 28
+After serialization at 2024-10-31T08:34:48.307565515 UTC for 28
+Start transfer of 10485760 at 2024-10-31 08:34:48.371835941 UTC for 29
+Received chunk at 2024-10-31T08:34:48.375838335 UTC for 29
+After serialization at 2024-10-31T08:34:48.467403917 UTC for 29
+Start transfer of 10485760 at 2024-10-31 08:34:48.551764111 UTC for 30
+Received chunk at 2024-10-31T08:34:48.556799252 UTC for 30
+After serialization at 2024-10-31T08:34:48.650255873 UTC for 30
+Start transfer of 10485760 at 2024-10-31 08:34:48.733919058 UTC for 31
+Received chunk at 2024-10-31T08:34:48.738258038 UTC for 31
+After serialization at 2024-10-31T08:34:48.831549117 UTC for 31
+Start transfer of 10485760 at 2024-10-31 08:34:48.924168769 UTC for 32
+Received chunk at 2024-10-31T08:34:48.928534112 UTC for 32
+After serialization at 2024-10-31T08:34:49.021129689 UTC for 32
+Start transfer of 10485760 at 2024-10-31 08:34:49.106155680 UTC for 33
+Received chunk at 2024-10-31T08:34:49.110022785 UTC for 33
+After serialization at 2024-10-31T08:34:49.203109211 UTC for 33
+Start transfer of 10485760 at 2024-10-31 08:34:49.291912066 UTC for 34
+Received chunk at 2024-10-31T08:34:49.295783208 UTC for 34
+After serialization at 2024-10-31T08:34:49.387972520 UTC for 34
+Start transfer of 10485760 at 2024-10-31 08:34:49.478858881 UTC for 35
+Received chunk at 2024-10-31T08:34:49.483302602 UTC for 35
+After serialization at 2024-10-31T08:34:49.575379181 UTC for 35
+Start transfer of 10485760 at 2024-10-31 08:34:49.657514845 UTC for 36
+Received chunk at 2024-10-31T08:34:49.661436197 UTC for 36
+After serialization at 2024-10-31T08:34:49.753388391 UTC for 36
+Start transfer of 10485760 at 2024-10-31 08:34:49.839433234 UTC for 37
+Received chunk at 2024-10-31T08:34:49.843518297 UTC for 37
+After serialization at 2024-10-31T08:34:49.935586559 UTC for 37
+Start transfer of 10485760 at 2024-10-31 08:34:50.019035910 UTC for 38
+Received chunk at 2024-10-31T08:34:50.023475058 UTC for 38
+After serialization at 2024-10-31T08:34:50.116140077 UTC for 38
+Start transfer of 10485760 at 2024-10-31 08:34:50.194602015 UTC for 39
+Received chunk at 2024-10-31T08:34:50.198563908 UTC for 39
+After serialization at 2024-10-31T08:34:50.291425493 UTC for 39
+Start transfer of 10485760 at 2024-10-31 08:34:50.370509950 UTC for 40
+Received chunk at 2024-10-31T08:34:50.374335259 UTC for 40
+After serialization at 2024-10-31T08:34:50.467340037 UTC for 40
+Start transfer of 10485760 at 2024-10-31 08:34:50.555171655 UTC for 41
+Received chunk at 2024-10-31T08:34:50.559448892 UTC for 41
+After serialization at 2024-10-31T08:34:50.652231106 UTC for 41
+Start transfer of 10485760 at 2024-10-31 08:34:50.735274513 UTC for 42
+Received chunk at 2024-10-31T08:34:50.739333566 UTC for 42
+After serialization at 2024-10-31T08:34:50.831262748 UTC for 42
+Start transfer of 10485760 at 2024-10-31 08:34:50.911800027 UTC for 43
+Received chunk at 2024-10-31T08:34:50.915729939 UTC for 43
+After serialization at 2024-10-31T08:34:51.011297416 UTC for 43
+Start transfer of 10485760 at 2024-10-31 08:34:51.102416759 UTC for 44
+Received chunk at 2024-10-31T08:34:51.106394782 UTC for 44
+After serialization at 2024-10-31T08:34:51.199634520 UTC for 44
+Start transfer of 10485760 at 2024-10-31 08:34:51.278991389 UTC for 45
+Received chunk at 2024-10-31T08:34:51.283147671 UTC for 45
+After serialization at 2024-10-31T08:34:51.374527319 UTC for 45
+Start transfer of 10485760 at 2024-10-31 08:34:51.466046028 UTC for 46
+Received chunk at 2024-10-31T08:34:51.470176981 UTC for 46
+After serialization at 2024-10-31T08:34:51.563353823 UTC for 46
+Start transfer of 10485760 at 2024-10-31 08:34:51.660458428 UTC for 47
+Received chunk at 2024-10-31T08:34:51.664573271 UTC for 47
+After serialization at 2024-10-31T08:34:51.756916139 UTC for 47
+Start transfer of 10485760 at 2024-10-31 08:34:51.845157336 UTC for 48
+Received chunk at 2024-10-31T08:34:51.849053073 UTC for 48
+After serialization at 2024-10-31T08:34:51.940519083 UTC for 48
+Start transfer of 10485760 at 2024-10-31 08:34:52.038565094 UTC for 49
+Received chunk at 2024-10-31T08:34:52.043237774 UTC for 49
+After serialization at 2024-10-31T08:34:52.136941200 UTC for 49
+Start transfer of 10485760 at 2024-10-31 08:34:52.214150840 UTC for 50
+Received chunk at 2024-10-31T08:34:52.218058728 UTC for 50
+After serialization at 2024-10-31T08:34:52.309881791 UTC for 50
+Start transfer of 10485760 at 2024-10-31 08:34:52.421154995 UTC for 51
+Received chunk at 2024-10-31T08:34:52.426446341 UTC for 51
+After serialization at 2024-10-31T08:34:52.519534131 UTC for 51
+Start transfer of 10485760 at 2024-10-31 08:34:52.641047428 UTC for 52
+Received chunk at 2024-10-31T08:34:52.645295593 UTC for 52
+After serialization at 2024-10-31T08:34:52.739813386 UTC for 52
+Start transfer of 10485760 at 2024-10-31 08:34:52.826268598 UTC for 53
+Received chunk at 2024-10-31T08:34:52.830162241 UTC for 53
+After serialization at 2024-10-31T08:34:52.923067083 UTC for 53
+Start transfer of 10485760 at 2024-10-31 08:34:53.009371019 UTC for 54
+Received chunk at 2024-10-31T08:34:53.013561543 UTC for 54
+After serialization at 2024-10-31T08:34:53.106175536 UTC for 54
+Start transfer of 10485760 at 2024-10-31 08:34:53.182999620 UTC for 55
+Received chunk at 2024-10-31T08:34:53.186923220 UTC for 55
+After serialization at 2024-10-31T08:34:53.281296470 UTC for 55
+Start transfer of 10485760 at 2024-10-31 08:34:53.357881145 UTC for 56
+Received chunk at 2024-10-31T08:34:53.361653063 UTC for 56
+After serialization at 2024-10-31T08:34:53.454431488 UTC for 56
+Start transfer of 10485760 at 2024-10-31 08:34:53.541946484 UTC for 57
+Received chunk at 2024-10-31T08:34:53.545890151 UTC for 57
+After serialization at 2024-10-31T08:34:53.637896232 UTC for 57
+Start transfer of 10485760 at 2024-10-31 08:34:53.724550925 UTC for 58
+Received chunk at 2024-10-31T08:34:53.729254074 UTC for 58
+After serialization at 2024-10-31T08:34:53.820743023 UTC for 58
+Start transfer of 10485760 at 2024-10-31 08:34:53.905262813 UTC for 59
+Received chunk at 2024-10-31T08:34:53.909370290 UTC for 59
+After serialization at 2024-10-31T08:34:54.002733923 UTC for 59
+Start transfer of 10485760 at 2024-10-31 08:34:54.089918220 UTC for 60
+Received chunk at 2024-10-31T08:34:54.093945647 UTC for 60
+After serialization at 2024-10-31T08:34:54.186486347 UTC for 60
+Start transfer of 10485760 at 2024-10-31 08:34:54.275865932 UTC for 61
+Received chunk at 2024-10-31T08:34:54.280111332 UTC for 61
+After serialization at 2024-10-31T08:34:54.372199773 UTC for 61
+Start transfer of 10485760 at 2024-10-31 08:34:54.435384769 UTC for 62
+Received chunk at 2024-10-31T08:34:54.439606470 UTC for 62
+After serialization at 2024-10-31T08:34:54.532601686 UTC for 62
+Start transfer of 10485760 at 2024-10-31 08:34:54.602075175 UTC for 63
+Received chunk at 2024-10-31T08:34:54.606461587 UTC for 63
+After serialization at 2024-10-31T08:34:54.703000979 UTC for 63
+Start transfer of 10485760 at 2024-10-31 08:34:54.792228155 UTC for 64
+Received chunk at 2024-10-31T08:34:54.796332739 UTC for 64
+After serialization at 2024-10-31T08:34:54.891148922 UTC for 64
+Start transfer of 10485760 at 2024-10-31 08:34:54.977755633 UTC for 65
+Received chunk at 2024-10-31T08:34:54.981868376 UTC for 65
+After serialization at 2024-10-31T08:34:55.074927676 UTC for 65
+Start transfer of 10485760 at 2024-10-31 08:34:55.154464771 UTC for 66
+Received chunk at 2024-10-31T08:34:55.158354684 UTC for 66
+After serialization at 2024-10-31T08:34:55.254535841 UTC for 66
+Start transfer of 10485760 at 2024-10-31 08:34:55.350325481 UTC for 67
+Received chunk at 2024-10-31T08:34:55.354512293 UTC for 67
+After serialization at 2024-10-31T08:34:55.447292681 UTC for 67
+Start transfer of 10485760 at 2024-10-31 08:34:55.532038693 UTC for 68
+Received chunk at 2024-10-31T08:34:55.536508880 UTC for 68
+After serialization at 2024-10-31T08:34:55.630635076 UTC for 68
+Start transfer of 10485760 at 2024-10-31 08:34:55.712701508 UTC for 69
+Received chunk at 2024-10-31T08:34:55.716824444 UTC for 69
+After serialization at 2024-10-31T08:34:55.811171805 UTC for 69
+Start transfer of 10485760 at 2024-10-31 08:34:55.894481430 UTC for 70
+Received chunk at 2024-10-31T08:34:55.898407693 UTC for 70
+After serialization at 2024-10-31T08:34:55.991300581 UTC for 70
+Start transfer of 10485760 at 2024-10-31 08:34:56.062815478 UTC for 71
+Received chunk at 2024-10-31T08:34:56.066860979 UTC for 71
+After serialization at 2024-10-31T08:34:56.159261920 UTC for 71
+Start transfer of 10485760 at 2024-10-31 08:34:56.226230572 UTC for 72
+Received chunk at 2024-10-31T08:34:56.230120267 UTC for 72
+After serialization at 2024-10-31T08:34:56.323576178 UTC for 72
+Start transfer of 10485760 at 2024-10-31 08:34:56.424681830 UTC for 73
+Received chunk at 2024-10-31T08:34:56.428934200 UTC for 73
+After serialization at 2024-10-31T08:34:56.520756014 UTC for 73
+Start transfer of 10485760 at 2024-10-31 08:34:56.600762041 UTC for 74
+Received chunk at 2024-10-31T08:34:56.606181745 UTC for 74
+After serialization at 2024-10-31T08:34:56.699288836 UTC for 74
+Start transfer of 10485760 at 2024-10-31 08:34:56.788436387 UTC for 75
+Received chunk at 2024-10-31T08:34:56.792966953 UTC for 75
+After serialization at 2024-10-31T08:34:56.886284567 UTC for 75
+Start transfer of 10485760 at 2024-10-31 08:34:56.983500616 UTC for 76
+Received chunk at 2024-10-31T08:34:56.987898621 UTC for 76
+After serialization at 2024-10-31T08:34:57.081139507 UTC for 76
+Start transfer of 10485760 at 2024-10-31 08:34:57.168613616 UTC for 77
+Received chunk at 2024-10-31T08:34:57.174046532 UTC for 77
+After serialization at 2024-10-31T08:34:57.269383413 UTC for 77
+Start transfer of 10485760 at 2024-10-31 08:34:57.342721624 UTC for 78
+Received chunk at 2024-10-31T08:34:57.346815649 UTC for 78
+After serialization at 2024-10-31T08:34:57.440156035 UTC for 78
+Start transfer of 10485760 at 2024-10-31 08:34:57.528628321 UTC for 79
+Received chunk at 2024-10-31T08:34:57.532553541 UTC for 79
+After serialization at 2024-10-31T08:34:57.625398870 UTC for 79
+Start transfer of 10485760 at 2024-10-31 08:34:57.722065889 UTC for 80
+Received chunk at 2024-10-31T08:34:57.726185531 UTC for 80
+After serialization at 2024-10-31T08:34:57.818953096 UTC for 80
+Start transfer of 10485760 at 2024-10-31 08:34:57.910780898 UTC for 81
+Received chunk at 2024-10-31T08:34:57.916098166 UTC for 81
+After serialization at 2024-10-31T08:34:58.009116108 UTC for 81
+Start transfer of 10485760 at 2024-10-31 08:34:58.098222737 UTC for 82
+Received chunk at 2024-10-31T08:34:58.102268215 UTC for 82
+After serialization at 2024-10-31T08:34:58.193826846 UTC for 82
+Start transfer of 10485760 at 2024-10-31 08:34:58.285631082 UTC for 83
+Received chunk at 2024-10-31T08:34:58.289998288 UTC for 83
+After serialization at 2024-10-31T08:34:58.381632118 UTC for 83
+Start transfer of 10485760 at 2024-10-31 08:34:58.471886590 UTC for 84
+Received chunk at 2024-10-31T08:34:58.475786788 UTC for 84
+After serialization at 2024-10-31T08:34:58.569756733 UTC for 84
+Start transfer of 10485760 at 2024-10-31 08:34:58.663682370 UTC for 85
+Received chunk at 2024-10-31T08:34:58.667719574 UTC for 85
+After serialization at 2024-10-31T08:34:58.760109619 UTC for 85
+Start transfer of 10485760 at 2024-10-31 08:34:58.854268902 UTC for 86
+Received chunk at 2024-10-31T08:34:58.858462138 UTC for 86
+After serialization at 2024-10-31T08:34:58.950969222 UTC for 86
+Start transfer of 10485760 at 2024-10-31 08:34:59.034301280 UTC for 87
+Received chunk at 2024-10-31T08:34:59.038428712 UTC for 87
+After serialization at 2024-10-31T08:34:59.132902619 UTC for 87
+Start transfer of 10485760 at 2024-10-31 08:34:59.224266218 UTC for 88
+Received chunk at 2024-10-31T08:34:59.228244108 UTC for 88
+After serialization at 2024-10-31T08:34:59.321348996 UTC for 88
+Start transfer of 10485760 at 2024-10-31 08:34:59.405419908 UTC for 89
+Received chunk at 2024-10-31T08:34:59.409539354 UTC for 89
+After serialization at 2024-10-31T08:34:59.502028224 UTC for 89
+Start transfer of 10485760 at 2024-10-31 08:34:59.582523197 UTC for 90
+Received chunk at 2024-10-31T08:34:59.586502322 UTC for 90
+After serialization at 2024-10-31T08:34:59.678380220 UTC for 90
+Start transfer of 10485760 at 2024-10-31 08:34:59.775994034 UTC for 91
+Received chunk at 2024-10-31T08:34:59.780119935 UTC for 91
+After serialization at 2024-10-31T08:34:59.872164889 UTC for 91
+Start transfer of 10485760 at 2024-10-31 08:34:59.956812420 UTC for 92
+Received chunk at 2024-10-31T08:34:59.960850760 UTC for 92
+After serialization at 2024-10-31T08:35:00.052090819 UTC for 92
+Start transfer of 10485760 at 2024-10-31 08:35:00.134040117 UTC for 93
+Received chunk at 2024-10-31T08:35:00.138022543 UTC for 93
+After serialization at 2024-10-31T08:35:00.232363806 UTC for 93
+Start transfer of 10485760 at 2024-10-31 08:35:00.328706490 UTC for 94
+Received chunk at 2024-10-31T08:35:00.333492872 UTC for 94
+After serialization at 2024-10-31T08:35:00.427949302 UTC for 94
+Start transfer of 10485760 at 2024-10-31 08:35:00.501686004 UTC for 95
+Received chunk at 2024-10-31T08:35:00.506061640 UTC for 95
+After serialization at 2024-10-31T08:35:00.598054129 UTC for 95
+Start transfer of 10485760 at 2024-10-31 08:35:00.672365888 UTC for 96
+Received chunk at 2024-10-31T08:35:00.676190973 UTC for 96
+After serialization at 2024-10-31T08:35:00.770614174 UTC for 96
+Start transfer of 10485760 at 2024-10-31 08:35:00.856954353 UTC for 97
+Received chunk at 2024-10-31T08:35:00.861259073 UTC for 97
+After serialization at 2024-10-31T08:35:00.954648913 UTC for 97
+Start transfer of 10485760 at 2024-10-31 08:35:01.045732928 UTC for 98
+Received chunk at 2024-10-31T08:35:01.049683354 UTC for 98
+After serialization at 2024-10-31T08:35:01.142765484 UTC for 98
+Start transfer of 10485760 at 2024-10-31 08:35:01.230933368 UTC for 99
+Received chunk at 2024-10-31T08:35:01.235143500 UTC for 99
+After serialization at 2024-10-31T08:35:01.327022902 UTC for 99
+Start transfer of 10485760 at 2024-10-31 08:35:01.418335339 UTC for 100
+Received chunk at 2024-10-31T08:35:01.422500758 UTC for 100
+After serialization at 2024-10-31T08:35:01.515474273 UTC for 100

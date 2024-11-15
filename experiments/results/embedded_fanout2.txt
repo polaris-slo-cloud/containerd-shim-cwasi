@@ -1,0 +1,1619 @@
+ROUND 1
+
+[sudo] password for kenia: 
+ROUND file_10M.txt
+[2024-10-28 22:04:16.214] [error] Bind guest directory failed:54
+[2024-10-28 22:04:16.214] [error] Bind guest directory failed:54
+Secondary function 
+downloading http://127.0.0.1:8888/files/file_10M.txt
+Starting task 1
+start transfer at 2024-10-28 22:04:21.202463563 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:04:21.221413321Z for 1
+After serialization at 2024-10-28T22:04:21.221425021Z for 1
+Finished task 1
+All tasks completed.
+
+All files have been processed.
+
+
+ROUND 10
+
+ROUND file_10M.txt
+[2024-10-28 22:05:16.561] [error] Bind guest directory failed:54
+[2024-10-28 22:05:16.561] [error] Bind guest directory failed:54
+Secondary function 
+downloading http://127.0.0.1:8888/files/file_10M.txt
+Starting task 1
+start transfer at 2024-10-28 22:05:21.630695290 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:05:21.648148872Z for 1
+After serialization at 2024-10-28T22:05:21.648159696Z for 1
+Finished task 1
+Starting task 2
+start transfer at 2024-10-28 22:05:21.650543200 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:05:21.659762415Z for 2
+After serialization at 2024-10-28T22:05:21.659772165Z for 2
+Finished task 2
+Starting task 3
+start transfer at 2024-10-28 22:05:21.661824916 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:05:21.665006714Z for 3
+After serialization at 2024-10-28T22:05:21.665015192Z for 3
+Finished task 3
+Starting task 4
+start transfer at 2024-10-28 22:05:21.668448037 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:05:21.672030131Z for 4
+After serialization at 2024-10-28T22:05:21.672039651Z for 4
+Finished task 4
+Starting task 5
+start transfer at 2024-10-28 22:05:21.674323046 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:05:21.677481790Z for 5
+After serialization at 2024-10-28T22:05:21.677490959Z for 5
+Finished task 5
+Starting task 6
+start transfer at 2024-10-28 22:05:21.679603461 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:05:21.682737739Z for 6
+After serialization at 2024-10-28T22:05:21.682747103Z for 6
+Finished task 6
+Starting task 7
+start transfer at 2024-10-28 22:05:21.684761786 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:05:21.687857454Z for 7
+After serialization at 2024-10-28T22:05:21.687866280Z for 7
+Finished task 7
+Starting task 8
+start transfer at 2024-10-28 22:05:21.689833008 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:05:21.692844599Z for 8
+After serialization at 2024-10-28T22:05:21.692861975Z for 8
+Finished task 8
+Starting task 9
+start transfer at 2024-10-28 22:05:21.694761622 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:05:21.697825789Z for 9
+After serialization at 2024-10-28T22:05:21.697834939Z for 9
+Finished task 9
+Starting task 10
+start transfer at 2024-10-28 22:05:21.699829390 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:05:21.702900874Z for 10
+After serialization at 2024-10-28T22:05:21.702909466Z for 10
+Finished task 10
+All tasks completed.
+
+
+ROUND 20
+
+ROUND file_10M.txt
+[2024-10-28 22:07:20.475] [error] Bind guest directory failed:54
+[2024-10-28 22:07:20.475] [error] Bind guest directory failed:54
+Secondary function 
+downloading http://127.0.0.1:8888/files/file_10M.txt
+Starting task 1
+start transfer at 2024-10-28 22:07:25.652646824 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:07:25.670540959Z for 1
+After serialization at 2024-10-28T22:07:25.670552840Z for 1
+Finished task 1
+Starting task 2
+start transfer at 2024-10-28 22:07:25.673396976 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:07:25.683347465Z for 2
+After serialization at 2024-10-28T22:07:25.683357304Z for 2
+Finished task 2
+Starting task 3
+start transfer at 2024-10-28 22:07:25.685552375 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:07:25.688973661Z for 3
+After serialization at 2024-10-28T22:07:25.688982985Z for 3
+Finished task 3
+Starting task 4
+start transfer at 2024-10-28 22:07:25.692316576 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:07:25.695988390Z for 4
+After serialization at 2024-10-28T22:07:25.695997524Z for 4
+Finished task 4
+Starting task 5
+start transfer at 2024-10-28 22:07:25.698079209 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:07:25.701252438Z for 5
+After serialization at 2024-10-28T22:07:25.701261715Z for 5
+Finished task 5
+Starting task 6
+start transfer at 2024-10-28 22:07:25.703403132 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:07:25.706470061Z for 6
+After serialization at 2024-10-28T22:07:25.706479543Z for 6
+Finished task 6
+Starting task 7
+start transfer at 2024-10-28 22:07:25.708395415 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:07:25.711474217Z for 7
+After serialization at 2024-10-28T22:07:25.711482612Z for 7
+Finished task 7
+Starting task 8
+start transfer at 2024-10-28 22:07:25.713385877 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:07:25.716458537Z for 8
+After serialization at 2024-10-28T22:07:25.716467022Z for 8
+Finished task 8
+Starting task 9
+start transfer at 2024-10-28 22:07:25.718544471 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:07:25.721596085Z for 9
+After serialization at 2024-10-28T22:07:25.721605475Z for 9
+Finished task 9
+Starting task 10
+start transfer at 2024-10-28 22:07:25.723542977 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:07:25.726651407Z for 10
+After serialization at 2024-10-28T22:07:25.726660047Z for 10
+Finished task 10
+Starting task 11
+start transfer at 2024-10-28 22:07:25.728715827 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:07:25.731845106Z for 11
+After serialization at 2024-10-28T22:07:25.731862191Z for 11
+Finished task 11
+Starting task 12
+start transfer at 2024-10-28 22:07:25.733775906 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:07:25.736905804Z for 12
+After serialization at 2024-10-28T22:07:25.736915402Z for 12
+Finished task 12
+Starting task 13
+start transfer at 2024-10-28 22:07:25.739081910 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:07:25.742230122Z for 13
+After serialization at 2024-10-28T22:07:25.742239013Z for 13
+Finished task 13
+Starting task 14
+start transfer at 2024-10-28 22:07:25.744219353 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:07:25.747335798Z for 14
+After serialization at 2024-10-28T22:07:25.747345249Z for 14
+Finished task 14
+Starting task 15
+start transfer at 2024-10-28 22:07:25.749408764 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:07:25.752474794Z for 15
+After serialization at 2024-10-28T22:07:25.752483455Z for 15
+Finished task 15
+Starting task 16
+start transfer at 2024-10-28 22:07:25.754661086 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:07:25.757725499Z for 16
+After serialization at 2024-10-28T22:07:25.757733860Z for 16
+Finished task 16
+Starting task 17
+start transfer at 2024-10-28 22:07:25.759732913 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:07:25.762763679Z for 17
+After serialization at 2024-10-28T22:07:25.762772573Z for 17
+Finished task 17
+Starting task 18
+start transfer at 2024-10-28 22:07:25.764728188 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:07:25.767809649Z for 18
+After serialization at 2024-10-28T22:07:25.767818358Z for 18
+Finished task 18
+Starting task 19
+start transfer at 2024-10-28 22:07:25.769859513 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:07:25.772950240Z for 19
+After serialization at 2024-10-28T22:07:25.772958324Z for 19
+Finished task 19
+Starting task 20
+start transfer at 2024-10-28 22:07:25.775056489 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:07:25.778184855Z for 20
+After serialization at 2024-10-28T22:07:25.778193216Z for 20
+Finished task 20
+All tasks completed.
+
+All files have been processed.
+
+ROUND 40
+
+Secondary function 
+downloading http://127.0.0.1:8888/files/file_10M.txt
+Starting task 1
+start transfer at 2024-10-28 22:08:14.230295481 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:08:14.248832451Z for 1
+After serialization at 2024-10-28T22:08:14.248865023Z for 1
+Finished task 1
+Starting task 2
+start transfer at 2024-10-28 22:08:14.251593970 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:08:14.261257854Z for 2
+After serialization at 2024-10-28T22:08:14.261267091Z for 2
+Finished task 2
+Starting task 3
+start transfer at 2024-10-28 22:08:14.263438055 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:08:14.267000750Z for 3
+After serialization at 2024-10-28T22:08:14.267010473Z for 3
+Finished task 3
+Starting task 4
+start transfer at 2024-10-28 22:08:14.270519374 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:08:14.274512586Z for 4
+After serialization at 2024-10-28T22:08:14.274521211Z for 4
+Finished task 4
+Starting task 5
+start transfer at 2024-10-28 22:08:14.276835633 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:08:14.280622230Z for 5
+After serialization at 2024-10-28T22:08:14.280632267Z for 5
+Finished task 5
+Starting task 6
+start transfer at 2024-10-28 22:08:14.282687876 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:08:14.286478877Z for 6
+After serialization at 2024-10-28T22:08:14.286503192Z for 6
+Finished task 6
+Starting task 7
+start transfer at 2024-10-28 22:08:14.288595053 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:08:14.292045266Z for 7
+After serialization at 2024-10-28T22:08:14.292053683Z for 7
+Finished task 7
+Starting task 8
+start transfer at 2024-10-28 22:08:14.294156599 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:08:14.297538748Z for 8
+After serialization at 2024-10-28T22:08:14.297546989Z for 8
+Finished task 8
+Starting task 9
+start transfer at 2024-10-28 22:08:14.299455470 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:08:14.302709676Z for 9
+After serialization at 2024-10-28T22:08:14.302717784Z for 9
+Finished task 9
+Starting task 10
+start transfer at 2024-10-28 22:08:14.304660844 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.308030664Z for 10
+After serialization at 2024-10-28T22:08:14.308039423Z for 10
+Finished task 10
+Starting task 11
+start transfer at 2024-10-28 22:08:14.310071621 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.313280868Z for 11
+After serialization at 2024-10-28T22:08:14.313289429Z for 11
+Finished task 11
+Starting task 12
+start transfer at 2024-10-28 22:08:14.315273856 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.318578894Z for 12
+After serialization at 2024-10-28T22:08:14.318587513Z for 12
+Finished task 12
+Starting task 13
+start transfer at 2024-10-28 22:08:14.320584010 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.323693501Z for 13
+After serialization at 2024-10-28T22:08:14.323702234Z for 13
+Finished task 13
+Starting task 14
+start transfer at 2024-10-28 22:08:14.325646626 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.329056389Z for 14
+After serialization at 2024-10-28T22:08:14.329065204Z for 14
+Finished task 14
+Starting task 15
+start transfer at 2024-10-28 22:08:14.331112288 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.334357762Z for 15
+After serialization at 2024-10-28T22:08:14.334366768Z for 15
+Finished task 15
+Starting task 16
+start transfer at 2024-10-28 22:08:14.336595759 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.339793169Z for 16
+After serialization at 2024-10-28T22:08:14.339801438Z for 16
+Finished task 16
+Starting task 17
+start transfer at 2024-10-28 22:08:14.341876614 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.345031698Z for 17
+After serialization at 2024-10-28T22:08:14.345039498Z for 17
+Finished task 17
+Starting task 18
+start transfer at 2024-10-28 22:08:14.346926431 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.350121570Z for 18
+After serialization at 2024-10-28T22:08:14.350130181Z for 18
+Finished task 18
+Starting task 19
+start transfer at 2024-10-28 22:08:14.352206101 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.355622739Z for 19
+After serialization at 2024-10-28T22:08:14.355631325Z for 19
+Finished task 19
+Starting task 20
+start transfer at 2024-10-28 22:08:14.357755382 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.361157395Z for 20
+After serialization at 2024-10-28T22:08:14.361165608Z for 20
+Finished task 20
+Starting task 21
+start transfer at 2024-10-28 22:08:14.363090799 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.366459235Z for 21
+After serialization at 2024-10-28T22:08:14.366467907Z for 21
+Finished task 21
+Starting task 22
+start transfer at 2024-10-28 22:08:14.368570239 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.371751635Z for 22
+After serialization at 2024-10-28T22:08:14.371760026Z for 22
+Finished task 22
+Starting task 23
+start transfer at 2024-10-28 22:08:14.373745786 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.376996347Z for 23
+After serialization at 2024-10-28T22:08:14.377005341Z for 23
+Finished task 23
+Starting task 24
+start transfer at 2024-10-28 22:08:14.379000161 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.382224437Z for 24
+After serialization at 2024-10-28T22:08:14.382232735Z for 24
+Finished task 24
+Starting task 25
+start transfer at 2024-10-28 22:08:14.384241322 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.387564475Z for 25
+After serialization at 2024-10-28T22:08:14.387572543Z for 25
+Finished task 25
+Starting task 26
+start transfer at 2024-10-28 22:08:14.389539321 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.392718286Z for 26
+After serialization at 2024-10-28T22:08:14.392726602Z for 26
+Finished task 26
+Starting task 27
+start transfer at 2024-10-28 22:08:14.394889702 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.398113645Z for 27
+After serialization at 2024-10-28T22:08:14.398122494Z for 27
+Finished task 27
+Starting task 28
+start transfer at 2024-10-28 22:08:14.400169972 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.403365051Z for 28
+After serialization at 2024-10-28T22:08:14.403373352Z for 28
+Finished task 28
+Starting task 29
+start transfer at 2024-10-28 22:08:14.405357778 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.408572418Z for 29
+After serialization at 2024-10-28T22:08:14.408581401Z for 29
+Finished task 29
+Starting task 30
+start transfer at 2024-10-28 22:08:14.410609848 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.413741384Z for 30
+After serialization at 2024-10-28T22:08:14.413749494Z for 30
+Finished task 30
+Starting task 31
+start transfer at 2024-10-28 22:08:14.415686068 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.418916562Z for 31
+After serialization at 2024-10-28T22:08:14.418925067Z for 31
+Finished task 31
+Starting task 32
+start transfer at 2024-10-28 22:08:14.420986755 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.424143140Z for 32
+After serialization at 2024-10-28T22:08:14.424151750Z for 32
+Finished task 32
+Starting task 33
+start transfer at 2024-10-28 22:08:14.426252943 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.429462809Z for 33
+After serialization at 2024-10-28T22:08:14.429471138Z for 33
+Finished task 33
+Starting task 34
+start transfer at 2024-10-28 22:08:14.431430038 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.434536088Z for 34
+After serialization at 2024-10-28T22:08:14.434544495Z for 34
+Finished task 34
+Starting task 35
+start transfer at 2024-10-28 22:08:14.436675406 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.439877957Z for 35
+After serialization at 2024-10-28T22:08:14.439886506Z for 35
+Finished task 35
+Starting task 36
+start transfer at 2024-10-28 22:08:14.441940093 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.445078499Z for 36
+After serialization at 2024-10-28T22:08:14.445086634Z for 36
+Finished task 36
+Starting task 37
+start transfer at 2024-10-28 22:08:14.447129424 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.450254702Z for 37
+After serialization at 2024-10-28T22:08:14.450262251Z for 37
+Finished task 37
+Starting task 38
+start transfer at 2024-10-28 22:08:14.452171510 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.455292455Z for 38
+After serialization at 2024-10-28T22:08:14.455300793Z for 38
+Finished task 38
+Starting task 39
+start transfer at 2024-10-28 22:08:14.457373770 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.460549672Z for 39
+After serialization at 2024-10-28T22:08:14.460557874Z for 39
+Finished task 39
+Starting task 40
+start transfer at 2024-10-28 22:08:14.462634940 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:08:14.465866295Z for 40
+After serialization at 2024-10-28T22:08:14.465874243Z for 40
+Finished task 40
+All tasks completed.
+
+All files have been processed.
+
+
+ROUND 60
+
+Secondary function 
+downloading http://127.0.0.1:8888/files/file_10M.txt
+Starting task 1
+start transfer at 2024-10-28 22:09:00.428730815 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:09:00.447082311Z for 1
+After serialization at 2024-10-28T22:09:00.447093313Z for 1
+Finished task 1
+Starting task 2
+start transfer at 2024-10-28 22:09:00.449904787 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:09:00.459349226Z for 2
+After serialization at 2024-10-28T22:09:00.459356800Z for 2
+Finished task 2
+Starting task 3
+start transfer at 2024-10-28 22:09:00.461469688 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:09:00.464652619Z for 3
+After serialization at 2024-10-28T22:09:00.464660591Z for 3
+Finished task 3
+Starting task 4
+start transfer at 2024-10-28 22:09:00.468117307 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:09:00.471754480Z for 4
+After serialization at 2024-10-28T22:09:00.471762265Z for 4
+Finished task 4
+Starting task 5
+start transfer at 2024-10-28 22:09:00.473956853 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:09:00.477151129Z for 5
+After serialization at 2024-10-28T22:09:00.477158804Z for 5
+Finished task 5
+Starting task 6
+start transfer at 2024-10-28 22:09:00.479170435 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:09:00.482289862Z for 6
+After serialization at 2024-10-28T22:09:00.482297183Z for 6
+Finished task 6
+Starting task 7
+start transfer at 2024-10-28 22:09:00.484223632 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:09:00.487356930Z for 7
+After serialization at 2024-10-28T22:09:00.487364274Z for 7
+Finished task 7
+Starting task 8
+start transfer at 2024-10-28 22:09:00.489265618 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:09:00.492336845Z for 8
+After serialization at 2024-10-28T22:09:00.492343956Z for 8
+Finished task 8
+Starting task 9
+start transfer at 2024-10-28 22:09:00.494400984 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:09:00.497546196Z for 9
+After serialization at 2024-10-28T22:09:00.497553507Z for 9
+Finished task 9
+Starting task 10
+start transfer at 2024-10-28 22:09:00.499559506 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.502667047Z for 10
+After serialization at 2024-10-28T22:09:00.502674655Z for 10
+Finished task 10
+Starting task 11
+start transfer at 2024-10-28 22:09:00.504693661 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.507800141Z for 11
+After serialization at 2024-10-28T22:09:00.507807817Z for 11
+Finished task 11
+Starting task 12
+start transfer at 2024-10-28 22:09:00.509858491 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.512950193Z for 12
+After serialization at 2024-10-28T22:09:00.512957920Z for 12
+Finished task 12
+Starting task 13
+start transfer at 2024-10-28 22:09:00.515009411 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.518126272Z for 13
+After serialization at 2024-10-28T22:09:00.518134135Z for 13
+Finished task 13
+Starting task 14
+start transfer at 2024-10-28 22:09:00.520306525 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.523395139Z for 14
+After serialization at 2024-10-28T22:09:00.523402691Z for 14
+Finished task 14
+Starting task 15
+start transfer at 2024-10-28 22:09:00.525454263 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.528621280Z for 15
+After serialization at 2024-10-28T22:09:00.528629361Z for 15
+Finished task 15
+Starting task 16
+start transfer at 2024-10-28 22:09:00.530510605 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.533627205Z for 16
+After serialization at 2024-10-28T22:09:00.533634577Z for 16
+Finished task 16
+Starting task 17
+start transfer at 2024-10-28 22:09:00.535639889 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.538765661Z for 17
+After serialization at 2024-10-28T22:09:00.538773611Z for 17
+Finished task 17
+Starting task 18
+start transfer at 2024-10-28 22:09:00.540673846 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.543728649Z for 18
+After serialization at 2024-10-28T22:09:00.543735686Z for 18
+Finished task 18
+Starting task 19
+start transfer at 2024-10-28 22:09:00.545719411 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.548798612Z for 19
+After serialization at 2024-10-28T22:09:00.548806322Z for 19
+Finished task 19
+Starting task 20
+start transfer at 2024-10-28 22:09:00.550825682 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.553866295Z for 20
+After serialization at 2024-10-28T22:09:00.553874481Z for 20
+Finished task 20
+Starting task 21
+start transfer at 2024-10-28 22:09:00.555923096 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.559049693Z for 21
+After serialization at 2024-10-28T22:09:00.559057616Z for 21
+Finished task 21
+Starting task 22
+start transfer at 2024-10-28 22:09:00.561192882 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.564298399Z for 22
+After serialization at 2024-10-28T22:09:00.564305929Z for 22
+Finished task 22
+Starting task 23
+start transfer at 2024-10-28 22:09:00.566188008 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.569297404Z for 23
+After serialization at 2024-10-28T22:09:00.569304882Z for 23
+Finished task 23
+Starting task 24
+start transfer at 2024-10-28 22:09:00.571354959 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.574647133Z for 24
+After serialization at 2024-10-28T22:09:00.574654801Z for 24
+Finished task 24
+Starting task 25
+start transfer at 2024-10-28 22:09:00.576905517 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.580274433Z for 25
+After serialization at 2024-10-28T22:09:00.580282515Z for 25
+Finished task 25
+Starting task 26
+start transfer at 2024-10-28 22:09:00.582323173 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.585669251Z for 26
+After serialization at 2024-10-28T22:09:00.585677134Z for 26
+Finished task 26
+Starting task 27
+start transfer at 2024-10-28 22:09:00.587814761 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.591007269Z for 27
+After serialization at 2024-10-28T22:09:00.591014954Z for 27
+Finished task 27
+Starting task 28
+start transfer at 2024-10-28 22:09:00.593150193 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.596295657Z for 28
+After serialization at 2024-10-28T22:09:00.596303336Z for 28
+Finished task 28
+Starting task 29
+start transfer at 2024-10-28 22:09:00.598176718 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.601269633Z for 29
+After serialization at 2024-10-28T22:09:00.601276992Z for 29
+Finished task 29
+Starting task 30
+start transfer at 2024-10-28 22:09:00.603267889 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.606390687Z for 30
+After serialization at 2024-10-28T22:09:00.606398124Z for 30
+Finished task 30
+Starting task 31
+start transfer at 2024-10-28 22:09:00.608395804 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.611519068Z for 31
+After serialization at 2024-10-28T22:09:00.611526900Z for 31
+Finished task 31
+Starting task 32
+start transfer at 2024-10-28 22:09:00.613673373 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.616785682Z for 32
+After serialization at 2024-10-28T22:09:00.616793174Z for 32
+Finished task 32
+Starting task 33
+start transfer at 2024-10-28 22:09:00.618713781 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.621809770Z for 33
+After serialization at 2024-10-28T22:09:00.621817326Z for 33
+Finished task 33
+Starting task 34
+start transfer at 2024-10-28 22:09:00.623819244 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.626975097Z for 34
+After serialization at 2024-10-28T22:09:00.626983227Z for 34
+Finished task 34
+Starting task 35
+start transfer at 2024-10-28 22:09:00.628914537 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.632025771Z for 35
+After serialization at 2024-10-28T22:09:00.632044126Z for 35
+Finished task 35
+Starting task 36
+start transfer at 2024-10-28 22:09:00.634032784 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.637191335Z for 36
+After serialization at 2024-10-28T22:09:00.637199469Z for 36
+Finished task 36
+Starting task 37
+start transfer at 2024-10-28 22:09:00.639244905 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.642417126Z for 37
+After serialization at 2024-10-28T22:09:00.642424827Z for 37
+Finished task 37
+Starting task 38
+start transfer at 2024-10-28 22:09:00.644593361 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.647730138Z for 38
+After serialization at 2024-10-28T22:09:00.647737287Z for 38
+Finished task 38
+Starting task 39
+start transfer at 2024-10-28 22:09:00.649719431 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.652805102Z for 39
+After serialization at 2024-10-28T22:09:00.652812416Z for 39
+Finished task 39
+Starting task 40
+start transfer at 2024-10-28 22:09:00.654823274 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.657953466Z for 40
+After serialization at 2024-10-28T22:09:00.657961990Z for 40
+Finished task 40
+Starting task 41
+start transfer at 2024-10-28 22:09:00.659977370 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.663051923Z for 41
+After serialization at 2024-10-28T22:09:00.663066009Z for 41
+Finished task 41
+Starting task 42
+start transfer at 2024-10-28 22:09:00.665076211 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.668208852Z for 42
+After serialization at 2024-10-28T22:09:00.668216327Z for 42
+Finished task 42
+Starting task 43
+start transfer at 2024-10-28 22:09:00.670252475 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.673332578Z for 43
+After serialization at 2024-10-28T22:09:00.673340916Z for 43
+Finished task 43
+Starting task 44
+start transfer at 2024-10-28 22:09:00.675282683 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.678387657Z for 44
+After serialization at 2024-10-28T22:09:00.678395048Z for 44
+Finished task 44
+Starting task 45
+start transfer at 2024-10-28 22:09:00.680264476 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.683345344Z for 45
+After serialization at 2024-10-28T22:09:00.683353608Z for 45
+Finished task 45
+Starting task 46
+start transfer at 2024-10-28 22:09:00.685536502 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.688617297Z for 46
+After serialization at 2024-10-28T22:09:00.688624641Z for 46
+Finished task 46
+Starting task 47
+start transfer at 2024-10-28 22:09:00.690524806 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.693553682Z for 47
+After serialization at 2024-10-28T22:09:00.693562447Z for 47
+Finished task 47
+Starting task 48
+start transfer at 2024-10-28 22:09:00.695440039 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.698503435Z for 48
+After serialization at 2024-10-28T22:09:00.698511503Z for 48
+Finished task 48
+Starting task 49
+start transfer at 2024-10-28 22:09:00.700592545 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.703607503Z for 49
+After serialization at 2024-10-28T22:09:00.703614732Z for 49
+Finished task 49
+Starting task 50
+start transfer at 2024-10-28 22:09:00.705616994 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.708652574Z for 50
+After serialization at 2024-10-28T22:09:00.708659354Z for 50
+Finished task 50
+Starting task 51
+start transfer at 2024-10-28 22:09:00.710528936 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.713543342Z for 51
+After serialization at 2024-10-28T22:09:00.713550988Z for 51
+Finished task 51
+Starting task 52
+start transfer at 2024-10-28 22:09:00.715442707 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.718491527Z for 52
+After serialization at 2024-10-28T22:09:00.718498752Z for 52
+Finished task 52
+Starting task 53
+start transfer at 2024-10-28 22:09:00.720511694 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.723550582Z for 53
+After serialization at 2024-10-28T22:09:00.723558202Z for 53
+Finished task 53
+Starting task 54
+start transfer at 2024-10-28 22:09:00.725468366 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.728547977Z for 54
+After serialization at 2024-10-28T22:09:00.728555237Z for 54
+Finished task 54
+Starting task 55
+start transfer at 2024-10-28 22:09:00.730336671 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.733406556Z for 55
+After serialization at 2024-10-28T22:09:00.733413823Z for 55
+Finished task 55
+Starting task 56
+start transfer at 2024-10-28 22:09:00.735282463 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.738432419Z for 56
+After serialization at 2024-10-28T22:09:00.738439570Z for 56
+Finished task 56
+Starting task 57
+start transfer at 2024-10-28 22:09:00.740383929 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.743458666Z for 57
+After serialization at 2024-10-28T22:09:00.743466195Z for 57
+Finished task 57
+Starting task 58
+start transfer at 2024-10-28 22:09:00.745258794 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.748314788Z for 58
+After serialization at 2024-10-28T22:09:00.748322356Z for 58
+Finished task 58
+Starting task 59
+start transfer at 2024-10-28 22:09:00.750446614 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.753462356Z for 59
+After serialization at 2024-10-28T22:09:00.753469342Z for 59
+Finished task 59
+Starting task 60
+start transfer at 2024-10-28 22:09:00.755361027 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:00.758409979Z for 60
+After serialization at 2024-10-28T22:09:00.758416987Z for 60
+Finished task 60
+All tasks completed.
+
+ROUND 80
+
+Secondary function 
+downloading http://127.0.0.1:8888/files/file_10M.txt
+Starting task 1
+start transfer at 2024-10-28 22:09:58.782508088 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:09:58.801343044Z for 1
+After serialization at 2024-10-28T22:09:58.801355268Z for 1
+Finished task 1
+Starting task 2
+start transfer at 2024-10-28 22:09:58.803892482 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:09:58.813796362Z for 2
+After serialization at 2024-10-28T22:09:58.813805398Z for 2
+Finished task 2
+Starting task 3
+start transfer at 2024-10-28 22:09:58.815823930 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:09:58.819235911Z for 3
+After serialization at 2024-10-28T22:09:58.819245411Z for 3
+Finished task 3
+Starting task 4
+start transfer at 2024-10-28 22:09:58.822674102 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:09:58.826681589Z for 4
+After serialization at 2024-10-28T22:09:58.826690596Z for 4
+Finished task 4
+Starting task 5
+start transfer at 2024-10-28 22:09:58.828979037 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:09:58.832396189Z for 5
+After serialization at 2024-10-28T22:09:58.832405395Z for 5
+Finished task 5
+Starting task 6
+start transfer at 2024-10-28 22:09:58.834482256 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:09:58.837825951Z for 6
+After serialization at 2024-10-28T22:09:58.837834468Z for 6
+Finished task 6
+Starting task 7
+start transfer at 2024-10-28 22:09:58.840068799 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:09:58.843294390Z for 7
+After serialization at 2024-10-28T22:09:58.843304579Z for 7
+Finished task 7
+Starting task 8
+start transfer at 2024-10-28 22:09:58.845306545 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:09:58.848569485Z for 8
+After serialization at 2024-10-28T22:09:58.848577744Z for 8
+Finished task 8
+Starting task 9
+start transfer at 2024-10-28 22:09:58.850670643 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:09:58.853912732Z for 9
+After serialization at 2024-10-28T22:09:58.853921613Z for 9
+Finished task 9
+Starting task 10
+start transfer at 2024-10-28 22:09:58.855940638 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.859293231Z for 10
+After serialization at 2024-10-28T22:09:58.859301540Z for 10
+Finished task 10
+Starting task 11
+start transfer at 2024-10-28 22:09:58.861433125 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.864709054Z for 11
+After serialization at 2024-10-28T22:09:58.864717180Z for 11
+Finished task 11
+Starting task 12
+start transfer at 2024-10-28 22:09:58.866825941 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.870084715Z for 12
+After serialization at 2024-10-28T22:09:58.870093574Z for 12
+Finished task 12
+Starting task 13
+start transfer at 2024-10-28 22:09:58.872093029 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.875367042Z for 13
+After serialization at 2024-10-28T22:09:58.875376491Z for 13
+Finished task 13
+Starting task 14
+start transfer at 2024-10-28 22:09:58.877507412 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.880796384Z for 14
+After serialization at 2024-10-28T22:09:58.880804674Z for 14
+Finished task 14
+Starting task 15
+start transfer at 2024-10-28 22:09:58.882945082 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.886233095Z for 15
+After serialization at 2024-10-28T22:09:58.886241653Z for 15
+Finished task 15
+Starting task 16
+start transfer at 2024-10-28 22:09:58.888139263 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.891380084Z for 16
+After serialization at 2024-10-28T22:09:58.891389126Z for 16
+Finished task 16
+Starting task 17
+start transfer at 2024-10-28 22:09:58.893616987 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.896900609Z for 17
+After serialization at 2024-10-28T22:09:58.896908948Z for 17
+Finished task 17
+Starting task 18
+start transfer at 2024-10-28 22:09:58.898800480 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.902048042Z for 18
+After serialization at 2024-10-28T22:09:58.902056472Z for 18
+Finished task 18
+Starting task 19
+start transfer at 2024-10-28 22:09:58.903925267 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.907203453Z for 19
+After serialization at 2024-10-28T22:09:58.907211625Z for 19
+Finished task 19
+Starting task 20
+start transfer at 2024-10-28 22:09:58.909184360 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.912416394Z for 20
+After serialization at 2024-10-28T22:09:58.912424875Z for 20
+Finished task 20
+Starting task 21
+start transfer at 2024-10-28 22:09:58.914524558 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.917831064Z for 21
+After serialization at 2024-10-28T22:09:58.917839405Z for 21
+Finished task 21
+Starting task 22
+start transfer at 2024-10-28 22:09:58.919737421 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.922975578Z for 22
+After serialization at 2024-10-28T22:09:58.922984300Z for 22
+Finished task 22
+Starting task 23
+start transfer at 2024-10-28 22:09:58.924992833 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.928317881Z for 23
+After serialization at 2024-10-28T22:09:58.928326400Z for 23
+Finished task 23
+Starting task 24
+start transfer at 2024-10-28 22:09:58.930453234 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.933733105Z for 24
+After serialization at 2024-10-28T22:09:58.933742141Z for 24
+Finished task 24
+Starting task 25
+start transfer at 2024-10-28 22:09:58.935951583 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.939278703Z for 25
+After serialization at 2024-10-28T22:09:58.939287159Z for 25
+Finished task 25
+Starting task 26
+start transfer at 2024-10-28 22:09:58.941389659 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.944694159Z for 26
+After serialization at 2024-10-28T22:09:58.944704212Z for 26
+Finished task 26
+Starting task 27
+start transfer at 2024-10-28 22:09:58.946901384 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.950205263Z for 27
+After serialization at 2024-10-28T22:09:58.950213462Z for 27
+Finished task 27
+Starting task 28
+start transfer at 2024-10-28 22:09:58.952216238 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.955547940Z for 28
+After serialization at 2024-10-28T22:09:58.955556265Z for 28
+Finished task 28
+Starting task 29
+start transfer at 2024-10-28 22:09:58.957762685 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.961096294Z for 29
+After serialization at 2024-10-28T22:09:58.961104913Z for 29
+Finished task 29
+Starting task 30
+start transfer at 2024-10-28 22:09:58.963107310 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.966430585Z for 30
+After serialization at 2024-10-28T22:09:58.966440048Z for 30
+Finished task 30
+Starting task 31
+start transfer at 2024-10-28 22:09:58.968496502 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.971811306Z for 31
+After serialization at 2024-10-28T22:09:58.971819140Z for 31
+Finished task 31
+Starting task 32
+start transfer at 2024-10-28 22:09:58.973989088 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.977350053Z for 32
+After serialization at 2024-10-28T22:09:58.977357999Z for 32
+Finished task 32
+Starting task 33
+start transfer at 2024-10-28 22:09:58.979670235 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.983477554Z for 33
+After serialization at 2024-10-28T22:09:58.983486939Z for 33
+Finished task 33
+Starting task 34
+start transfer at 2024-10-28 22:09:58.985659427 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.989342423Z for 34
+After serialization at 2024-10-28T22:09:58.989350538Z for 34
+Finished task 34
+Starting task 35
+start transfer at 2024-10-28 22:09:58.991475036 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:58.994861355Z for 35
+After serialization at 2024-10-28T22:09:58.994870193Z for 35
+Finished task 35
+Starting task 36
+start transfer at 2024-10-28 22:09:58.996959466 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.000253766Z for 36
+After serialization at 2024-10-28T22:09:59.000261716Z for 36
+Finished task 36
+Starting task 37
+start transfer at 2024-10-28 22:09:59.002477746 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.005821229Z for 37
+After serialization at 2024-10-28T22:09:59.005830044Z for 37
+Finished task 37
+Starting task 38
+start transfer at 2024-10-28 22:09:59.008032398 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.011373586Z for 38
+After serialization at 2024-10-28T22:09:59.011381431Z for 38
+Finished task 38
+Starting task 39
+start transfer at 2024-10-28 22:09:59.013556567 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.016961915Z for 39
+After serialization at 2024-10-28T22:09:59.016969978Z for 39
+Finished task 39
+Starting task 40
+start transfer at 2024-10-28 22:09:59.018998694 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.022592608Z for 40
+After serialization at 2024-10-28T22:09:59.022601052Z for 40
+Finished task 40
+Starting task 41
+start transfer at 2024-10-28 22:09:59.024562023 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.028077146Z for 41
+After serialization at 2024-10-28T22:09:59.028085158Z for 41
+Finished task 41
+Starting task 42
+start transfer at 2024-10-28 22:09:59.030247994 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.033659876Z for 42
+After serialization at 2024-10-28T22:09:59.033668129Z for 42
+Finished task 42
+Starting task 43
+start transfer at 2024-10-28 22:09:59.035902058 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.039146129Z for 43
+After serialization at 2024-10-28T22:09:59.039154650Z for 43
+Finished task 43
+Starting task 44
+start transfer at 2024-10-28 22:09:59.041310439 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.044548726Z for 44
+After serialization at 2024-10-28T22:09:59.044556782Z for 44
+Finished task 44
+Starting task 45
+start transfer at 2024-10-28 22:09:59.046593220 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.049811283Z for 45
+After serialization at 2024-10-28T22:09:59.049819028Z for 45
+Finished task 45
+Starting task 46
+start transfer at 2024-10-28 22:09:59.051772633 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.055018942Z for 46
+After serialization at 2024-10-28T22:09:59.055027310Z for 46
+Finished task 46
+Starting task 47
+start transfer at 2024-10-28 22:09:59.057310891 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.060631702Z for 47
+After serialization at 2024-10-28T22:09:59.060639842Z for 47
+Finished task 47
+Starting task 48
+start transfer at 2024-10-28 22:09:59.062878340 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.066161563Z for 48
+After serialization at 2024-10-28T22:09:59.066169504Z for 48
+Finished task 48
+Starting task 49
+start transfer at 2024-10-28 22:09:59.068334653 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.071646719Z for 49
+After serialization at 2024-10-28T22:09:59.071655117Z for 49
+Finished task 49
+Starting task 50
+start transfer at 2024-10-28 22:09:59.073707856 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.077518799Z for 50
+After serialization at 2024-10-28T22:09:59.077528046Z for 50
+Finished task 50
+Starting task 51
+start transfer at 2024-10-28 22:09:59.079825756 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.083289575Z for 51
+After serialization at 2024-10-28T22:09:59.083298152Z for 51
+Finished task 51
+Starting task 52
+start transfer at 2024-10-28 22:09:59.085373494 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.088766820Z for 52
+After serialization at 2024-10-28T22:09:59.088774476Z for 52
+Finished task 52
+Starting task 53
+start transfer at 2024-10-28 22:09:59.090951444 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.094280618Z for 53
+After serialization at 2024-10-28T22:09:59.094289826Z for 53
+Finished task 53
+Starting task 54
+start transfer at 2024-10-28 22:09:59.096521117 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.099825519Z for 54
+After serialization at 2024-10-28T22:09:59.099834507Z for 54
+Finished task 54
+Starting task 55
+start transfer at 2024-10-28 22:09:59.101950807 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.105258179Z for 55
+After serialization at 2024-10-28T22:09:59.105266532Z for 55
+Finished task 55
+Starting task 56
+start transfer at 2024-10-28 22:09:59.107329384 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.110578741Z for 56
+After serialization at 2024-10-28T22:09:59.110586603Z for 56
+Finished task 56
+Starting task 57
+start transfer at 2024-10-28 22:09:59.112659573 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.115919215Z for 57
+After serialization at 2024-10-28T22:09:59.115927388Z for 57
+Finished task 57
+Starting task 58
+start transfer at 2024-10-28 22:09:59.117944819 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.121246004Z for 58
+After serialization at 2024-10-28T22:09:59.121254461Z for 58
+Finished task 58
+Starting task 59
+start transfer at 2024-10-28 22:09:59.123368894 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.126700427Z for 59
+After serialization at 2024-10-28T22:09:59.126708295Z for 59
+Finished task 59
+Starting task 60
+start transfer at 2024-10-28 22:09:59.128970078 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.132277980Z for 60
+After serialization at 2024-10-28T22:09:59.132286730Z for 60
+Finished task 60
+Starting task 61
+start transfer at 2024-10-28 22:09:59.134418057 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.137745210Z for 61
+After serialization at 2024-10-28T22:09:59.137752989Z for 61
+Finished task 61
+Starting task 62
+start transfer at 2024-10-28 22:09:59.142118201 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.146231650Z for 62
+After serialization at 2024-10-28T22:09:59.146239357Z for 62
+Finished task 62
+Starting task 63
+start transfer at 2024-10-28 22:09:59.148610409 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.152051045Z for 63
+After serialization at 2024-10-28T22:09:59.152058900Z for 63
+Finished task 63
+Starting task 64
+start transfer at 2024-10-28 22:09:59.154094293 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.157415015Z for 64
+After serialization at 2024-10-28T22:09:59.157423842Z for 64
+Finished task 64
+Starting task 65
+start transfer at 2024-10-28 22:09:59.159556477 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.162824478Z for 65
+After serialization at 2024-10-28T22:09:59.162832995Z for 65
+Finished task 65
+Starting task 66
+start transfer at 2024-10-28 22:09:59.165037987 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.168335399Z for 66
+After serialization at 2024-10-28T22:09:59.168343617Z for 66
+Finished task 66
+Starting task 67
+start transfer at 2024-10-28 22:09:59.170341589 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.173612972Z for 67
+After serialization at 2024-10-28T22:09:59.173621333Z for 67
+Finished task 67
+Starting task 68
+start transfer at 2024-10-28 22:09:59.175604640 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.178916239Z for 68
+After serialization at 2024-10-28T22:09:59.178924772Z for 68
+Finished task 68
+Starting task 69
+start transfer at 2024-10-28 22:09:59.180997963 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.184207081Z for 69
+After serialization at 2024-10-28T22:09:59.184215470Z for 69
+Finished task 69
+Starting task 70
+start transfer at 2024-10-28 22:09:59.186353813 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.189713686Z for 70
+After serialization at 2024-10-28T22:09:59.189739705Z for 70
+Finished task 70
+Starting task 71
+start transfer at 2024-10-28 22:09:59.191868257 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.195182109Z for 71
+After serialization at 2024-10-28T22:09:59.195190377Z for 71
+Finished task 71
+Starting task 72
+start transfer at 2024-10-28 22:09:59.197479496 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.200774262Z for 72
+After serialization at 2024-10-28T22:09:59.200782236Z for 72
+Finished task 72
+Starting task 73
+start transfer at 2024-10-28 22:09:59.202876015 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.206190878Z for 73
+After serialization at 2024-10-28T22:09:59.206200001Z for 73
+Finished task 73
+Starting task 74
+start transfer at 2024-10-28 22:09:59.208177630 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.211536163Z for 74
+After serialization at 2024-10-28T22:09:59.211544075Z for 74
+Finished task 74
+Starting task 75
+start transfer at 2024-10-28 22:09:59.213861171 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.217261917Z for 75
+After serialization at 2024-10-28T22:09:59.217270012Z for 75
+Finished task 75
+Starting task 76
+start transfer at 2024-10-28 22:09:59.219391694 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.222705336Z for 76
+After serialization at 2024-10-28T22:09:59.222713742Z for 76
+Finished task 76
+Starting task 77
+start transfer at 2024-10-28 22:09:59.224858285 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.228221429Z for 77
+After serialization at 2024-10-28T22:09:59.228230759Z for 77
+Finished task 77
+Starting task 78
+start transfer at 2024-10-28 22:09:59.230400481 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.233729853Z for 78
+After serialization at 2024-10-28T22:09:59.233737825Z for 78
+Finished task 78
+Starting task 79
+start transfer at 2024-10-28 22:09:59.235951347 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.239279593Z for 79
+After serialization at 2024-10-28T22:09:59.239287733Z for 79
+Finished task 79
+Starting task 80
+start transfer at 2024-10-28 22:09:59.241272887 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:09:59.244542459Z for 80
+After serialization at 2024-10-28T22:09:59.244550893Z for 80
+Finished task 80
+All tasks completed.
+
+All files have been processed.
+
+ROUND 100 
+
+Secondary function 
+downloading http://127.0.0.1:8888/files/file_10M.txt
+Starting task 1
+start transfer at 2024-10-28 22:11:44.343235842 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:11:44.362283411Z for 1
+After serialization at 2024-10-28T22:11:44.362294774Z for 1
+Finished task 1
+Starting task 2
+start transfer at 2024-10-28 22:11:44.364773111 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:11:44.374961425Z for 2
+After serialization at 2024-10-28T22:11:44.374970268Z for 2
+Finished task 2
+Starting task 3
+start transfer at 2024-10-28 22:11:44.377121125 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:11:44.380700061Z for 3
+After serialization at 2024-10-28T22:11:44.380709215Z for 3
+Finished task 3
+Starting task 4
+start transfer at 2024-10-28 22:11:44.384058870 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:11:44.388144333Z for 4
+After serialization at 2024-10-28T22:11:44.388153600Z for 4
+Finished task 4
+Starting task 5
+start transfer at 2024-10-28 22:11:44.390365325 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:11:44.393837500Z for 5
+After serialization at 2024-10-28T22:11:44.393856011Z for 5
+Finished task 5
+Starting task 6
+start transfer at 2024-10-28 22:11:44.395910633 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:11:44.399262880Z for 6
+After serialization at 2024-10-28T22:11:44.399271393Z for 6
+Finished task 6
+Starting task 7
+start transfer at 2024-10-28 22:11:44.401328976 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:11:44.404757335Z for 7
+After serialization at 2024-10-28T22:11:44.404766320Z for 7
+Finished task 7
+Starting task 8
+start transfer at 2024-10-28 22:11:44.406795253 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:11:44.410281417Z for 8
+After serialization at 2024-10-28T22:11:44.410289753Z for 8
+Finished task 8
+Starting task 9
+start transfer at 2024-10-28 22:11:44.412272209 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:11:44.415758233Z for 9
+After serialization at 2024-10-28T22:11:44.415766778Z for 9
+Finished task 9
+Starting task 10
+start transfer at 2024-10-28 22:11:44.417873822 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.421402124Z for 10
+After serialization at 2024-10-28T22:11:44.421411100Z for 10
+Finished task 10
+Starting task 11
+start transfer at 2024-10-28 22:11:44.423452285 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.426925766Z for 11
+After serialization at 2024-10-28T22:11:44.426934649Z for 11
+Finished task 11
+Starting task 12
+start transfer at 2024-10-28 22:11:44.429189986 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.432646011Z for 12
+After serialization at 2024-10-28T22:11:44.432654387Z for 12
+Finished task 12
+Starting task 13
+start transfer at 2024-10-28 22:11:44.434703061 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.438202243Z for 13
+After serialization at 2024-10-28T22:11:44.438210847Z for 13
+Finished task 13
+Starting task 14
+start transfer at 2024-10-28 22:11:44.440236235 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.443724085Z for 14
+After serialization at 2024-10-28T22:11:44.443734173Z for 14
+Finished task 14
+Starting task 15
+start transfer at 2024-10-28 22:11:44.445554070 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.449035222Z for 15
+After serialization at 2024-10-28T22:11:44.449044634Z for 15
+Finished task 15
+Starting task 16
+start transfer at 2024-10-28 22:11:44.451067020 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.454521737Z for 16
+After serialization at 2024-10-28T22:11:44.454530622Z for 16
+Finished task 16
+Starting task 17
+start transfer at 2024-10-28 22:11:44.456601525 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.460076957Z for 17
+After serialization at 2024-10-28T22:11:44.460085585Z for 17
+Finished task 17
+Starting task 18
+start transfer at 2024-10-28 22:11:44.462170116 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.465638328Z for 18
+After serialization at 2024-10-28T22:11:44.465647667Z for 18
+Finished task 18
+Starting task 19
+start transfer at 2024-10-28 22:11:44.467906266 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.471356210Z for 19
+After serialization at 2024-10-28T22:11:44.471375839Z for 19
+Finished task 19
+Starting task 20
+start transfer at 2024-10-28 22:11:44.473460973 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.476903053Z for 20
+After serialization at 2024-10-28T22:11:44.476912296Z for 20
+Finished task 20
+Starting task 21
+start transfer at 2024-10-28 22:11:44.478872981 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.482343296Z for 21
+After serialization at 2024-10-28T22:11:44.482352303Z for 21
+Finished task 21
+Starting task 22
+start transfer at 2024-10-28 22:11:44.484289733 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.487731318Z for 22
+After serialization at 2024-10-28T22:11:44.487740094Z for 22
+Finished task 22
+Starting task 23
+start transfer at 2024-10-28 22:11:44.489887323 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.493289440Z for 23
+After serialization at 2024-10-28T22:11:44.493298406Z for 23
+Finished task 23
+Starting task 24
+start transfer at 2024-10-28 22:11:44.495456640 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.498883348Z for 24
+After serialization at 2024-10-28T22:11:44.498892408Z for 24
+Finished task 24
+Starting task 25
+start transfer at 2024-10-28 22:11:44.500934175 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.504387227Z for 25
+After serialization at 2024-10-28T22:11:44.504396740Z for 25
+Finished task 25
+Starting task 26
+start transfer at 2024-10-28 22:11:44.506435290 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.509877739Z for 26
+After serialization at 2024-10-28T22:11:44.509886750Z for 26
+Finished task 26
+Starting task 27
+start transfer at 2024-10-28 22:11:44.511961530 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.515400063Z for 27
+After serialization at 2024-10-28T22:11:44.515409425Z for 27
+Finished task 27
+Starting task 28
+start transfer at 2024-10-28 22:11:44.517363854 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.520818920Z for 28
+After serialization at 2024-10-28T22:11:44.520828478Z for 28
+Finished task 28
+Starting task 29
+start transfer at 2024-10-28 22:11:44.522967544 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.526435772Z for 29
+After serialization at 2024-10-28T22:11:44.526444688Z for 29
+Finished task 29
+Starting task 30
+start transfer at 2024-10-28 22:11:44.528535509 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.532179543Z for 30
+After serialization at 2024-10-28T22:11:44.532188925Z for 30
+Finished task 30
+Starting task 31
+start transfer at 2024-10-28 22:11:44.534242949 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.537902154Z for 31
+After serialization at 2024-10-28T22:11:44.537911342Z for 31
+Finished task 31
+Starting task 32
+start transfer at 2024-10-28 22:11:44.539806261 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.543350430Z for 32
+After serialization at 2024-10-28T22:11:44.543359158Z for 32
+Finished task 32
+Starting task 33
+start transfer at 2024-10-28 22:11:44.545507679 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.548968898Z for 33
+After serialization at 2024-10-28T22:11:44.548977962Z for 33
+Finished task 33
+Starting task 34
+start transfer at 2024-10-28 22:11:44.551012852 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.554436117Z for 34
+After serialization at 2024-10-28T22:11:44.554445702Z for 34
+Finished task 34
+Starting task 35
+start transfer at 2024-10-28 22:11:44.556493087 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.559925674Z for 35
+After serialization at 2024-10-28T22:11:44.559934589Z for 35
+Finished task 35
+Starting task 36
+start transfer at 2024-10-28 22:11:44.562039201 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.565639134Z for 36
+After serialization at 2024-10-28T22:11:44.565649043Z for 36
+Finished task 36
+Starting task 37
+start transfer at 2024-10-28 22:11:44.567723385 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.571315431Z for 37
+After serialization at 2024-10-28T22:11:44.571323950Z for 37
+Finished task 37
+Starting task 38
+start transfer at 2024-10-28 22:11:44.573558984 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.577077400Z for 38
+After serialization at 2024-10-28T22:11:44.577086274Z for 38
+Finished task 38
+Starting task 39
+start transfer at 2024-10-28 22:11:44.579277984 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.582743343Z for 39
+After serialization at 2024-10-28T22:11:44.582751823Z for 39
+Finished task 39
+Starting task 40
+start transfer at 2024-10-28 22:11:44.584845117 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.588299728Z for 40
+After serialization at 2024-10-28T22:11:44.588308384Z for 40
+Finished task 40
+Starting task 41
+start transfer at 2024-10-28 22:11:44.590278723 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.593630911Z for 41
+After serialization at 2024-10-28T22:11:44.593639406Z for 41
+Finished task 41
+Starting task 42
+start transfer at 2024-10-28 22:11:44.595601724 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.599017782Z for 42
+After serialization at 2024-10-28T22:11:44.599027078Z for 42
+Finished task 42
+Starting task 43
+start transfer at 2024-10-28 22:11:44.600975023 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.604410380Z for 43
+After serialization at 2024-10-28T22:11:44.604419735Z for 43
+Finished task 43
+Starting task 44
+start transfer at 2024-10-28 22:11:44.606534360 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.610082088Z for 44
+After serialization at 2024-10-28T22:11:44.610090875Z for 44
+Finished task 44
+Starting task 45
+start transfer at 2024-10-28 22:11:44.612235377 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.615890940Z for 45
+After serialization at 2024-10-28T22:11:44.615900271Z for 45
+Finished task 45
+Starting task 46
+start transfer at 2024-10-28 22:11:44.618057699 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.621661320Z for 46
+After serialization at 2024-10-28T22:11:44.621670780Z for 46
+Finished task 46
+Starting task 47
+start transfer at 2024-10-28 22:11:44.623794607 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.627302408Z for 47
+After serialization at 2024-10-28T22:11:44.627311352Z for 47
+Finished task 47
+Starting task 48
+start transfer at 2024-10-28 22:11:44.629331737 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.632747868Z for 48
+After serialization at 2024-10-28T22:11:44.632756785Z for 48
+Finished task 48
+Starting task 49
+start transfer at 2024-10-28 22:11:44.634752790 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.638206994Z for 49
+After serialization at 2024-10-28T22:11:44.638216009Z for 49
+Finished task 49
+Starting task 50
+start transfer at 2024-10-28 22:11:44.640278266 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.643706056Z for 50
+After serialization at 2024-10-28T22:11:44.643714743Z for 50
+Finished task 50
+Starting task 51
+start transfer at 2024-10-28 22:11:44.645938481 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.649645792Z for 51
+After serialization at 2024-10-28T22:11:44.649654969Z for 51
+Finished task 51
+Starting task 52
+start transfer at 2024-10-28 22:11:44.651798395 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.655638779Z for 52
+After serialization at 2024-10-28T22:11:44.655647829Z for 52
+Finished task 52
+Starting task 53
+start transfer at 2024-10-28 22:11:44.657828639 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.661686361Z for 53
+After serialization at 2024-10-28T22:11:44.661695195Z for 53
+Finished task 53
+Starting task 54
+start transfer at 2024-10-28 22:11:44.663620185 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.667339228Z for 54
+After serialization at 2024-10-28T22:11:44.667348574Z for 54
+Finished task 54
+Starting task 55
+start transfer at 2024-10-28 22:11:44.669516890 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.673039054Z for 55
+After serialization at 2024-10-28T22:11:44.673048215Z for 55
+Finished task 55
+Starting task 56
+start transfer at 2024-10-28 22:11:44.675171295 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.678648632Z for 56
+After serialization at 2024-10-28T22:11:44.678657371Z for 56
+Finished task 56
+Starting task 57
+start transfer at 2024-10-28 22:11:44.680761608 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.684224800Z for 57
+After serialization at 2024-10-28T22:11:44.684233155Z for 57
+Finished task 57
+Starting task 58
+start transfer at 2024-10-28 22:11:44.686205643 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.689595810Z for 58
+After serialization at 2024-10-28T22:11:44.689605264Z for 58
+Finished task 58
+Starting task 59
+start transfer at 2024-10-28 22:11:44.691520419 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.695020002Z for 59
+After serialization at 2024-10-28T22:11:44.695029667Z for 59
+Finished task 59
+Starting task 60
+start transfer at 2024-10-28 22:11:44.697040940 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.700501072Z for 60
+After serialization at 2024-10-28T22:11:44.700510471Z for 60
+Finished task 60
+Starting task 61
+start transfer at 2024-10-28 22:11:44.702697882 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.706110650Z for 61
+After serialization at 2024-10-28T22:11:44.706119178Z for 61
+Finished task 61
+Starting task 62
+start transfer at 2024-10-28 22:11:44.710497989 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.714697347Z for 62
+After serialization at 2024-10-28T22:11:44.714706853Z for 62
+Finished task 62
+Starting task 63
+start transfer at 2024-10-28 22:11:44.717032675 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.720733669Z for 63
+After serialization at 2024-10-28T22:11:44.720742624Z for 63
+Finished task 63
+Starting task 64
+start transfer at 2024-10-28 22:11:44.722946239 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.726645070Z for 64
+After serialization at 2024-10-28T22:11:44.726653654Z for 64
+Finished task 64
+Starting task 65
+start transfer at 2024-10-28 22:11:44.728785629 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.732546659Z for 65
+After serialization at 2024-10-28T22:11:44.732555313Z for 65
+Finished task 65
+Starting task 66
+start transfer at 2024-10-28 22:11:44.734730318 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.738422632Z for 66
+After serialization at 2024-10-28T22:11:44.738431365Z for 66
+Finished task 66
+Starting task 67
+start transfer at 2024-10-28 22:11:44.740643601 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.744169986Z for 67
+After serialization at 2024-10-28T22:11:44.744179009Z for 67
+Finished task 67
+Starting task 68
+start transfer at 2024-10-28 22:11:44.746198459 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.749626706Z for 68
+After serialization at 2024-10-28T22:11:44.749634982Z for 68
+Finished task 68
+Starting task 69
+start transfer at 2024-10-28 22:11:44.751674961 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.755060550Z for 69
+After serialization at 2024-10-28T22:11:44.755068966Z for 69
+Finished task 69
+Starting task 70
+start transfer at 2024-10-28 22:11:44.757084025 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.760563700Z for 70
+After serialization at 2024-10-28T22:11:44.760571863Z for 70
+Finished task 70
+Starting task 71
+start transfer at 2024-10-28 22:11:44.762695670 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.766183800Z for 71
+After serialization at 2024-10-28T22:11:44.766192361Z for 71
+Finished task 71
+Starting task 72
+start transfer at 2024-10-28 22:11:44.768320164 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.771824344Z for 72
+After serialization at 2024-10-28T22:11:44.771832897Z for 72
+Finished task 72
+Starting task 73
+start transfer at 2024-10-28 22:11:44.774000033 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.777547468Z for 73
+After serialization at 2024-10-28T22:11:44.777556048Z for 73
+Finished task 73
+Starting task 74
+start transfer at 2024-10-28 22:11:44.779740076 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.783201577Z for 74
+After serialization at 2024-10-28T22:11:44.783209718Z for 74
+Finished task 74
+Starting task 75
+start transfer at 2024-10-28 22:11:44.785234152 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.788665317Z for 75
+After serialization at 2024-10-28T22:11:44.788674439Z for 75
+Finished task 75
+Starting task 76
+start transfer at 2024-10-28 22:11:44.790754352 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.794170919Z for 76
+After serialization at 2024-10-28T22:11:44.794179304Z for 76
+Finished task 76
+Starting task 77
+start transfer at 2024-10-28 22:11:44.796203506 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.799937314Z for 77
+After serialization at 2024-10-28T22:11:44.799945308Z for 77
+Finished task 77
+Starting task 78
+start transfer at 2024-10-28 22:11:44.801927090 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.805871645Z for 78
+After serialization at 2024-10-28T22:11:44.805880806Z for 78
+Finished task 78
+Starting task 79
+start transfer at 2024-10-28 22:11:44.807889 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.811668549Z for 79
+After serialization at 2024-10-28T22:11:44.811676838Z for 79
+Finished task 79
+Starting task 80
+start transfer at 2024-10-28 22:11:44.813642766 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.817511832Z for 80
+After serialization at 2024-10-28T22:11:44.817521702Z for 80
+Finished task 80
+Starting task 81
+start transfer at 2024-10-28 22:11:44.819759820 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.824173999Z for 81
+After serialization at 2024-10-28T22:11:44.824182571Z for 81
+Finished task 81
+Starting task 82
+start transfer at 2024-10-28 22:11:44.826436454 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.830788254Z for 82
+After serialization at 2024-10-28T22:11:44.830797637Z for 82
+Finished task 82
+Starting task 83
+start transfer at 2024-10-28 22:11:44.833126280 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.837510108Z for 83
+After serialization at 2024-10-28T22:11:44.837518828Z for 83
+Finished task 83
+Starting task 84
+start transfer at 2024-10-28 22:11:44.839628936 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.843807013Z for 84
+After serialization at 2024-10-28T22:11:44.843815514Z for 84
+Finished task 84
+Starting task 85
+start transfer at 2024-10-28 22:11:44.845928376 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.850061010Z for 85
+After serialization at 2024-10-28T22:11:44.850070480Z for 85
+Finished task 85
+Starting task 86
+start transfer at 2024-10-28 22:11:44.852120839 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.856688103Z for 86
+After serialization at 2024-10-28T22:11:44.856697478Z for 86
+Finished task 86
+Starting task 87
+start transfer at 2024-10-28 22:11:44.859033416 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.863558811Z for 87
+After serialization at 2024-10-28T22:11:44.863567859Z for 87
+Finished task 87
+Starting task 88
+start transfer at 2024-10-28 22:11:44.865936058 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.873051764Z for 88
+After serialization at 2024-10-28T22:11:44.873061135Z for 88
+Finished task 88
+Starting task 89
+start transfer at 2024-10-28 22:11:44.875447809 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.879754222Z for 89
+After serialization at 2024-10-28T22:11:44.879762842Z for 89
+Finished task 89
+Starting task 90
+start transfer at 2024-10-28 22:11:44.882192942 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.886068403Z for 90
+After serialization at 2024-10-28T22:11:44.886077455Z for 90
+Finished task 90
+Starting task 91
+start transfer at 2024-10-28 22:11:44.888386133 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.891940198Z for 91
+After serialization at 2024-10-28T22:11:44.891949154Z for 91
+Finished task 91
+Starting task 92
+start transfer at 2024-10-28 22:11:44.894025537 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.897481957Z for 92
+After serialization at 2024-10-28T22:11:44.897490456Z for 92
+Finished task 92
+Starting task 93
+start transfer at 2024-10-28 22:11:44.899684741 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.903169551Z for 93
+After serialization at 2024-10-28T22:11:44.903178746Z for 93
+Finished task 93
+Starting task 94
+start transfer at 2024-10-28 22:11:44.905381085 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.908837270Z for 94
+After serialization at 2024-10-28T22:11:44.908846651Z for 94
+Finished task 94
+Starting task 95
+start transfer at 2024-10-28 22:11:44.911036362 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.914556492Z for 95
+After serialization at 2024-10-28T22:11:44.914565675Z for 95
+Finished task 95
+Starting task 96
+start transfer at 2024-10-28 22:11:44.916897853 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.920435535Z for 96
+After serialization at 2024-10-28T22:11:44.920444352Z for 96
+Finished task 96
+Starting task 97
+start transfer at 2024-10-28 22:11:44.922716608 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.926219867Z for 97
+After serialization at 2024-10-28T22:11:44.926229183Z for 97
+Finished task 97
+Starting task 98
+start transfer at 2024-10-28 22:11:44.928264803 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.931698673Z for 98
+After serialization at 2024-10-28T22:11:44.931707037Z for 98
+Finished task 98
+Starting task 99
+start transfer at 2024-10-28 22:11:44.933969140 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:11:44.937431835Z for 99
+After serialization at 2024-10-28T22:11:44.937440316Z for 99
+Finished task 99
+Starting task 100
+start transfer at 2024-10-28 22:11:44.939394870 UTC
+Received chunk of size: 10941686 at 2024-10-28T22:11:44.942823213Z for 100
+After serialization at 2024-10-28T22:11:44.942831370Z for 100
+Finished task 100
+All tasks completed.
+
+All files have been processed.

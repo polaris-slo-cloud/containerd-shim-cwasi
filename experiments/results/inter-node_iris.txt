@@ -1,0 +1,263 @@
+ROUND 1MB
+
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file started at 2024-10-10 10:12:12.501340733 UTC
+Downloading finished at 2024-10-10 10:12:12.513327257 UTC
+Data copied to string at 2024-10-10 10:12:12.513484057 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-10 10:12:12.516129826 UTC
+start transfer at 2024-10-10 10:12:12.516277893 UTC
+
+Received 1048696 bytes at 2024-10-10 10:12:12.531016434 UTC
+After serialization at 2024-10-10T10:12:12.532126063Z
+FnB Shim Finished. Result from moduleB: 5
+
+ROUND 2MB
+
+Data copied to string at 2024-10-10 10:17:25.517953526 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-10 10:17:25.521982217 UTC
+start transfer at 2024-10-10 10:17:25.522137270 UTC
+Server closed
+printing final result 100
+
+before init
+Received 2097272 bytes at 2024-10-10 10:17:25.546200580 UTC
+After serialization at 2024-10-10T10:17:25.546421124Z
+FnB Shim Finished. Result from moduleB: 5
+
+ROUND 4MB
+
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file started at 2024-10-10 10:18:05.757557031 UTC
+Downloading finished at 2024-10-10 10:18:05.791828814 UTC
+Data copied to string at 2024-10-10 10:18:05.792117818 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-10 10:18:05.799950164 UTC
+start transfer at 2024-10-10 10:18:05.800106568 UTC
+Server closed
+printing final result 100
+
+Secondary function true
+before init
+Received 4194424 bytes at 2024-10-10 10:18:05.846486082 UTC
+After serialization at 2024-10-10T10:18:05.846733638Z
+FnB Shim Finished. Result from moduleB: 5
+kenia@rondo:~$
+
+ROUND 6MB
+
+Downloading file started at 2024-10-10 10:18:40.025732424 UTC
+Downloading finished at 2024-10-10 10:18:40.065799906 UTC
+Data copied to string at 2024-10-10 10:18:40.065965106 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-10 10:18:40.076893025 UTC
+start transfer at 2024-10-10 10:18:40.077051015 UTC
+Server closed
+printing final result 100
+
+Secondary function true
+before init
+Received 6291576 bytes at 2024-10-10 10:18:40.144535066 UTC
+After serialization at 2024-10-10T10:18:40.144784287Z
+FnB Shim Finished. Result from moduleB: 5
+
+ROUND 8MB
+
+Downloading file started at 2024-10-10 10:19:08.100572285 UTC
+Downloading finished at 2024-10-10 10:19:08.142695632 UTC
+Data copied to string at 2024-10-10 10:19:08.142866815 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-10 10:19:08.156839557 UTC
+start transfer at 2024-10-10 10:19:08.157036016 UTC
+Server closed
+printing final result 100
+
+Secondary function true
+before init
+Received 8388728 bytes at 2024-10-10 10:19:08.245929393 UTC
+After serialization at 2024-10-10T10:19:08.246173363Z
+FnB Shim Finished. Result from moduleB: 5
+
+ROUND 10MB
+
+Downloading file started at 2024-10-10 10:20:13.865627002 UTC
+Downloading finished at 2024-10-10 10:20:13.913388083 UTC
+Data copied to string at 2024-10-10 10:20:13.913551420 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-10 10:20:13.930862468 UTC
+start transfer at 2024-10-10 10:20:13.931019362 UTC
+Server closed
+printing final result 100
+
+Secondary function true
+before init
+Received 10485880 bytes at 2024-10-10 10:20:14.041680102 UTC
+After serialization at 2024-10-10T10:20:14.041915203Z
+FnB Shim Finished. Result from moduleB: 5
+
+ROUND 20MB
+
+Downloading file started at 2024-10-10 10:20:45.820675231 UTC
+Downloading finished at 2024-10-10 10:20:45.920623204 UTC
+Data copied to string at 2024-10-10 10:20:45.920791016 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-10 10:20:45.961582419 UTC
+start transfer at 2024-10-10 10:20:45.961739585 UTC
+Server closed
+printing final result 100
+
+[2024-10-10 10:20:42.781] [error] Bind guest directory failed:54
+[2024-10-10 10:20:42.781] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received 20971640 bytes at 2024-10-10 10:20:46.184919248 UTC
+After serialization at 2024-10-10T10:20:46.185145175Z
+FnB Shim Finished. Result from moduleB: 5
+
+
+ROUND 40 MB
+
+Downloading file started at 2024-10-10 10:21:14.266324789 UTC
+Downloading finished at 2024-10-10 10:21:14.480383572 UTC
+Data copied to string at 2024-10-10 10:21:14.480558274 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-10 10:21:14.564146555 UTC
+start transfer at 2024-10-10 10:21:14.564307670 UTC
+Server closed
+printing final result 100
+
+Secondary function true
+before init
+Received 41943160 bytes at 2024-10-10 10:21:15.007590520 UTC
+After serialization at 2024-10-10T10:21:15.007821142Z
+FnB Shim Finished. Result from moduleB: 5
+
+ROUND 60MB
+
+Data copied to string at 2024-10-10 10:21:47.733680548 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-10 10:21:47.859362684 UTC
+start transfer at 2024-10-10 10:21:47.859531615 UTC
+Server closed
+printing final result 100
+
+[2024-10-10 10:21:43.242] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received 62914680 bytes at 2024-10-10 10:21:48.524569114 UTC
+After serialization at 2024-10-10T10:21:48.524823044Z
+FnB Shim Finished. Result from moduleB: 5
+kenia@rondo:~$
+
+ROUND 100M
+
+Downloading finished at 2024-10-10 10:22:18.238110124 UTC
+Data copied to string at 2024-10-10 10:22:18.238286123 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-10 10:22:18.446618176 UTC
+start transfer at 2024-10-10 10:22:18.446797418 UTC
+
+before init
+Received 104857720 bytes at 2024-10-10 10:22:19.543373581 UTC
+After serialization at 2024-10-10T10:22:19.543638495Z
+FnB Shim Finished. Result from moduleB: 5
+
+
+ROUND 200 MB
+
+Greetings from func_a 2024-10-10 10:23:11.202679231 UTC
+args: ["/func_a.wasm", "func_b.wasm", "file_200M.txt"] read at 2024-10-10 10:23:11.203608177 UTC
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file started at 2024-10-10 10:23:11.204634011 UTC
+Downloading finished at 2024-10-10 10:23:12.161490900 UTC
+Data copied to string at 2024-10-10 10:23:12.161670278 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-10 10:23:12.574064202 UTC
+start transfer at 2024-10-10 10:23:12.574238499 UTC
+
+Received 209715320 bytes at 2024-10-10 10:23:14.749533606 UTC
+After serialization at 2024-10-10T10:23:14.749788974Z
+FnB Shim Finished. Result from moduleB: 5
+
+ROUND 300MB
+
+Data copied to string at 2024-10-10 10:24:15.791438554 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-10 10:24:16.377227830 UTC
+start transfer at 2024-10-10 10:24:16.377397011 UTC
+Server closed
+printing final result 100
+
+[2024-10-10 10:24:05.692] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received 314572920 bytes at 2024-10-10 10:24:19.625409641 UTC
+After serialization at 2024-10-10T10:24:19.625742511Z
+FnB Shim Finished. Result from moduleB: 5
+
+ROUND 400M
+
+Downloading finished at 2024-10-10 10:24:53.743228491 UTC
+Data copied to string at 2024-10-10 10:24:53.743408443 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-10 10:24:54.517916071 UTC
+start transfer at 2024-10-10 10:24:54.518093543 UTC
+Server closed
+printing final result 100
+
+[2024-10-10 10:24:46.972] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received 419430520 bytes at 2024-10-10 10:24:58.841362323 UTC
+After serialization at 2024-10-10T10:24:58.841615712Z
+FnB Shim Finished. Result from moduleB: 5
+
+ROUND 500
+
+Data copied to string at 2024-10-10 10:25:28.013382510 UTC
+Response Status: 200 OK
+Value of FUNCTIONS_NUM: 1
+Process response 
+Call external func at 2024-10-10 10:25:28.972137945 UTC
+start transfer at 2024-10-10 10:25:28.972299806 UTC
+Server closed
+
+[2024-10-10 10:25:21.302] [error] Bind guest directory failed:54
+[2024-10-10 10:25:21.302] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Received 524288120 bytes at 2024-10-10 10:25:34.375444461 UTC
+After serialization at 2024-10-10T10:25:34.375699649Z
+FnB Shim Finished. Result from moduleB: 5
+
+
+
+
+

@@ -1,0 +1,1327 @@
+ROUND 1
+
+
+Starting func_b for file: file_10M.txt
+[2024-10-28 22:29:57.083] [error] Bind guest directory failed:54
+[2024-10-28 22:29:57.083] [error] Bind guest directory failed:54
+Secondary function true
+before init
+Socket created successfully at "/run/containerd/io.containerd.runtime.v2.task/k8s.io/c1m11-file-10M.sock" 2024-10-28 22:29:57.089616241 UTC
+Starting func_a for file: file_10M.txt
+[2024-10-28 22:30:02.086] [error] Bind guest directory failed:54
+[2024-10-28 22:30:02.086] [error] Bind guest directory failed:54
+Secondary function 
+downloading http://127.0.0.1:8888/files/file_10M.txt
+Starting task 1
+start transfer at 2024-10-28 22:30:07.084998684 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:30:07.140650658Z for 1
+After serialization at 2024-10-28T22:30:07.140663705Z for 1
+FnB Shim Finished. Result from moduleB: 5
+Finished task 1
+All tasks completed.
+Func_a finished processing file_10M.txt
+Func_b finished processing file_10M.txt
+Killing remaining processes if any
+
+All files have been processed.
+
+ROUND 10
+
+downloading http://127.0.0.1:8888/files/file_10M.txt
+Starting task 1
+start transfer at 2024-10-28 22:32:37.791356509 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:32:37.846480234Z for 1
+Finished task 1
+After serialization at 2024-10-28T22:32:37.846493707Z for 1
+FnB Shim Finished. Result from moduleB: 5
+Starting task 2
+start transfer at 2024-10-28 22:32:37.851129422 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:32:37.911068025Z for 2
+Finished task 2
+Starting task 3
+After serialization at 2024-10-28T22:32:37.911081312Z for 2
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:32:37.916216766 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:32:37.969935223Z for 3
+After serialization at 2024-10-28T22:32:37.969947992Z for 3Finished task 3
+Starting task 4
+
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:32:37.973695082 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:32:38.030341313Z for 4
+After serialization at 2024-10-28T22:32:38.030356190Z for 4
+FnB Shim Finished. Result from moduleB: 5
+Finished task 4
+Starting task 5
+start transfer at 2024-10-28 22:32:38.034625265 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:32:38.086374013Z for 5
+After serialization at 2024-10-28T22:32:38.086393217Z for 5
+FnB Shim Finished. Result from moduleB: 5
+Finished task 5
+Starting task 6
+start transfer at 2024-10-28 22:32:38.090743697 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:32:38.140701652Z for 6
+After serialization at 2024-10-28T22:32:38.140714957Z for 6
+FnB Shim Finished. Result from moduleB: 5
+Finished task 6
+Starting task 7
+start transfer at 2024-10-28 22:32:38.144749857 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:32:38.188916176Z for 7
+After serialization at 2024-10-28T22:32:38.188930079Z for 7
+FnB Shim Finished. Result from moduleB: 5
+Finished task 7
+Starting task 8
+start transfer at 2024-10-28 22:32:38.193436881 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:32:38.244036521Z for 8
+After serialization at 2024-10-28T22:32:38.244050609Z for 8
+FnB Shim Finished. Result from moduleB: 5
+Finished task 8
+Starting task 9
+start transfer at 2024-10-28 22:32:38.247801424 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:32:38.298572892Z for 9
+After serialization at 2024-10-28T22:32:38.298586313Z for 9
+FnB Shim Finished. Result from moduleB: 5
+Finished task 9
+Starting task 10
+start transfer at 2024-10-28 22:32:38.302041451 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:32:38.351855014Z for 10
+After serialization at 2024-10-28T22:32:38.351875846Z for 10
+FnB Shim Finished. Result from moduleB: 5
+Finished task 10
+All tasks completed.
+Func_a finished processing file_10M.txt
+Func_b finished processing file_10M.txt
+Killing remaining processes if any
+
+ROUND 20
+
+Secondary function 
+downloading http://127.0.0.1:8888/files/file_10M.txt
+Starting task 1
+start transfer at 2024-10-28 22:38:42.205538434 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:38:42.258338344Z for 1
+After serialization at 2024-10-28T22:38:42.258352057Z for 1
+FnB Shim Finished. Result from moduleB: 5
+Finished task 1
+Starting task 2
+start transfer at 2024-10-28 22:38:42.264434972 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:38:42.328952063Z for 2
+After serialization at 2024-10-28T22:38:42.328967537Z for 2
+FnB Shim Finished. Result from moduleB: 5
+Finished task 2
+Starting task 3
+start transfer at 2024-10-28 22:38:42.334110681 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:38:42.388666528Z for 3
+After serialization at 2024-10-28T22:38:42.388679739Z for 3
+FnB Shim Finished. Result from moduleB: 5
+Finished task 3
+Starting task 4
+start transfer at 2024-10-28 22:38:42.392593839 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:38:42.442132964Z for 4Finished task 4
+
+After serialization at 2024-10-28T22:38:42.442146076Z for 4Starting task 5
+FnB Shim Finished. Result from moduleB: 5
+
+start transfer at 2024-10-28 22:38:42.446676496 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:38:42.498769498Z for 5
+After serialization at 2024-10-28T22:38:42.498782500Z for 5
+FnB Shim Finished. Result from moduleB: 5
+Finished task 5
+Starting task 6
+start transfer at 2024-10-28 22:38:42.502723113 UTC
+Finished task 6
+Starting task 7
+Received chunk of size: 10941684 at 2024-10-28T22:38:42.562795447Z for 6
+After serialization at 2024-10-28T22:38:42.562809257Z for 6
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:38:42.566543992 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:38:42.621764838Z for 7
+After serialization at 2024-10-28T22:38:42.621779112Z for 7
+FnB Shim Finished. Result from moduleB: 5
+Finished task 7
+Starting task 8
+start transfer at 2024-10-28 22:38:42.626001099 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:38:42.678617349Z for 8
+After serialization at 2024-10-28T22:38:42.678631941Z for 8
+FnB Shim Finished. Result from moduleB: 5
+Finished task 8
+Starting task 9
+start transfer at 2024-10-28 22:38:42.683399281 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:38:42.734593630Z for 9
+After serialization at 2024-10-28T22:38:42.734606265Z for 9
+FnB Shim Finished. Result from moduleB: 5
+Finished task 9
+Starting task 10
+start transfer at 2024-10-28 22:38:42.739280479 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:38:42.790822578Z for 10
+After serialization at 2024-10-28T22:38:42.790836333Z for 10
+FnB Shim Finished. Result from moduleB: 5
+Finished task 10
+Starting task 11
+start transfer at 2024-10-28 22:38:42.795980509 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:38:42.845898953Z for 11
+After serialization at 2024-10-28T22:38:42.845911172Z for 11
+FnB Shim Finished. Result from moduleB: 5
+Finished task 11
+Starting task 12
+start transfer at 2024-10-28 22:38:42.849893262 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:38:42.905759780Z for 12
+After serialization at 2024-10-28T22:38:42.905771812Z for 12
+FnB Shim Finished. Result from moduleB: 5
+Finished task 12
+Starting task 13
+start transfer at 2024-10-28 22:38:42.909625851 UTC
+Finished task 13Received chunk of size: 10941685 at 2024-10-28T22:38:42.962667070Z for 13
+Starting task 14
+
+After serialization at 2024-10-28T22:38:42.962679030Z for 13
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:38:42.967085737 UTC
+Finished task 14
+Starting task 15
+Received chunk of size: 10941685 at 2024-10-28T22:38:43.018219728Z for 14
+After serialization at 2024-10-28T22:38:43.018233430Z for 14
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:38:43.022975632 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:38:43.084143055Z for 15
+After serialization at 2024-10-28T22:38:43.084157517Z for 15
+FnB Shim Finished. Result from moduleB: 5
+Finished task 15
+Starting task 16
+start transfer at 2024-10-28 22:38:43.090237278 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:38:43.148204096Z for 16
+After serialization at 2024-10-28T22:38:43.148224756Z for 16
+FnB Shim Finished. Result from moduleB: 5
+Finished task 16
+Starting task 17
+start transfer at 2024-10-28 22:38:43.151989654 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:38:43.205546479Z for 17
+After serialization at 2024-10-28T22:38:43.205559632Z for 17
+FnB Shim Finished. Result from moduleB: 5
+Finished task 17
+Starting task 18
+start transfer at 2024-10-28 22:38:43.210660491 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:38:43.265427891Z for 18
+After serialization at 2024-10-28T22:38:43.265440002Z for 18
+FnB Shim Finished. Result from moduleB: 5
+Finished task 18
+Starting task 19
+start transfer at 2024-10-28 22:38:43.270552856 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:38:43.329666174Z for 19
+After serialization at 2024-10-28T22:38:43.329682499Z for 19
+FnB Shim Finished. Result from moduleB: 5
+Finished task 19
+Starting task 20
+start transfer at 2024-10-28 22:38:43.333559712 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:38:43.391579619Z for 20
+After serialization at 2024-10-28T22:38:43.391593172Z for 20
+FnB Shim Finished. Result from moduleB: 5
+Finished task 20
+All tasks completed.
+Func_a finished processing file_10M.txt
+Func_b finished processing file_10M.txt
+Killing remaining processes if any
+
+All files have been processed.
+
+
+ROUND 40
+
+Starting task 1
+start transfer at 2024-10-28 22:39:43.898986110 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:39:43.955011861Z for 1
+After serialization at 2024-10-28T22:39:43.955025007Z for 1
+FnB Shim Finished. Result from moduleB: 5
+Finished task 1
+Starting task 2
+start transfer at 2024-10-28 22:39:43.962604773 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:39:44.020095441Z for 2
+After serialization at 2024-10-28T22:39:44.020109243Z for 2
+FnB Shim Finished. Result from moduleB: 5
+Finished task 2
+Starting task 3
+start transfer at 2024-10-28 22:39:44.024432029 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:39:44.087887498Z for 3
+After serialization at 2024-10-28T22:39:44.087900509Z for 3
+FnB Shim Finished. Result from moduleB: 5
+Finished task 3
+Starting task 4
+start transfer at 2024-10-28 22:39:44.092722865 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:39:44.140383323Z for 4
+After serialization at 2024-10-28T22:39:44.140395201Z for 4
+FnB Shim Finished. Result from moduleB: 5
+Finished task 4
+Starting task 5
+start transfer at 2024-10-28 22:39:44.144216783 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:39:44.201126178Z for 5
+After serialization at 2024-10-28T22:39:44.201140448Z for 5
+FnB Shim Finished. Result from moduleB: 5
+Finished task 5
+Starting task 6
+start transfer at 2024-10-28 22:39:44.205799372 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:39:44.262765140Z for 6
+After serialization at 2024-10-28T22:39:44.262778798Z for 6
+FnB Shim Finished. Result from moduleB: 5
+Finished task 6
+Starting task 7
+start transfer at 2024-10-28 22:39:44.266722001 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:39:44.322464600Z for 7
+After serialization at 2024-10-28T22:39:44.322477112Z for 7
+FnB Shim Finished. Result from moduleB: 5
+Finished task 7
+Starting task 8
+start transfer at 2024-10-28 22:39:44.326691383 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:39:44.385345032Z for 8
+After serialization at 2024-10-28T22:39:44.385358074Z for 8
+FnB Shim Finished. Result from moduleB: 5
+Finished task 8
+Starting task 9
+start transfer at 2024-10-28 22:39:44.389257744 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:39:44.442943611Z for 9
+After serialization at 2024-10-28T22:39:44.442956466Z for 9
+FnB Shim Finished. Result from moduleB: 5
+Finished task 9
+Starting task 10
+start transfer at 2024-10-28 22:39:44.447088240 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:44.502743852Z for 10
+Finished task 10After serialization at 2024-10-28T22:39:44.502756198Z for 10
+FnB Shim Finished. Result from moduleB: 5
+
+Starting task 11
+start transfer at 2024-10-28 22:39:44.506292557 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:44.560262583Z for 11
+After serialization at 2024-10-28T22:39:44.560280262Z for 11
+FnB Shim Finished. Result from moduleB: 5
+Finished task 11
+Starting task 12
+start transfer at 2024-10-28 22:39:44.565867687 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:44.615336497Z for 12
+After serialization at 2024-10-28T22:39:44.615350085Z for 12
+FnB Shim Finished. Result from moduleB: 5
+Finished task 12
+Starting task 13
+start transfer at 2024-10-28 22:39:44.618822463 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:44.672814872Z for 13
+After serialization at 2024-10-28T22:39:44.672826971Z for 13
+FnB Shim Finished. Result from moduleB: 5
+Finished task 13
+Starting task 14
+start transfer at 2024-10-28 22:39:44.677867029 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:44.729828078Z for 14
+After serialization at 2024-10-28T22:39:44.729842133Z for 14
+FnB Shim Finished. Result from moduleB: 5
+Finished task 14
+Starting task 15
+start transfer at 2024-10-28 22:39:44.734969159 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:44.798051586Z for 15
+Finished task 15
+Starting task 16
+After serialization at 2024-10-28T22:39:44.798066270Z for 15
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:39:44.806231961 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:44.867738298Z for 16
+After serialization at 2024-10-28T22:39:44.867751102Z for 16
+FnB Shim Finished. Result from moduleB: 5
+Finished task 16
+Starting task 17
+start transfer at 2024-10-28 22:39:44.875983182 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:44.939315932Z for 17
+Finished task 17
+Starting task 18
+After serialization at 2024-10-28T22:39:44.939329013Z for 17
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:39:44.945406824 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:45.003945418Z for 18
+After serialization at 2024-10-28T22:39:45.003958934Z for 18
+FnB Shim Finished. Result from moduleB: 5
+Finished task 18
+Starting task 19
+start transfer at 2024-10-28 22:39:45.008202032 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:45.062663268Z for 19
+After serialization at 2024-10-28T22:39:45.062677033Z for 19
+Finished task 19
+FnB Shim Finished. Result from moduleB: 5
+Starting task 20
+start transfer at 2024-10-28 22:39:45.066761690 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:45.119263723Z for 20
+After serialization at 2024-10-28T22:39:45.119277704Z for 20
+FnB Shim Finished. Result from moduleB: 5
+Finished task 20
+Starting task 21
+start transfer at 2024-10-28 22:39:45.122692392 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:45.173219783Z for 21
+After serialization at 2024-10-28T22:39:45.173231856Z for 21
+FnB Shim Finished. Result from moduleB: 5
+Finished task 21
+Starting task 22
+start transfer at 2024-10-28 22:39:45.179018097 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:45.236351392Z for 22
+After serialization at 2024-10-28T22:39:45.236364072Z for 22
+FnB Shim Finished. Result from moduleB: 5
+Finished task 22
+Starting task 23
+start transfer at 2024-10-28 22:39:45.241837527 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:45.293685352Z for 23
+After serialization at 2024-10-28T22:39:45.293698380Z for 23
+FnB Shim Finished. Result from moduleB: 5
+Finished task 23
+Starting task 24
+start transfer at 2024-10-28 22:39:45.298321435 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:45.354123765Z for 24
+Finished task 24
+Starting task 25
+After serialization at 2024-10-28T22:39:45.354135987Z for 24
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:39:45.357513033 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:45.413506221Z for 25
+After serialization at 2024-10-28T22:39:45.413519311Z for 25
+FnB Shim Finished. Result from moduleB: 5
+Finished task 25
+Starting task 26
+start transfer at 2024-10-28 22:39:45.418630649 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:45.474174810Z for 26
+After serialization at 2024-10-28T22:39:45.474196498Z for 26
+FnB Shim Finished. Result from moduleB: 5
+Finished task 26
+Starting task 27
+start transfer at 2024-10-28 22:39:45.477864990 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:45.530575337Z for 27
+After serialization at 2024-10-28T22:39:45.530588183Z for 27
+FnB Shim Finished. Result from moduleB: 5
+Finished task 27
+Starting task 28
+start transfer at 2024-10-28 22:39:45.536325015 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:45.593764256Z for 28
+After serialization at 2024-10-28T22:39:45.593779094Z for 28
+FnB Shim Finished. Result from moduleB: 5
+Finished task 28
+Starting task 29
+start transfer at 2024-10-28 22:39:45.599637772 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:45.650986860Z for 29
+After serialization at 2024-10-28T22:39:45.650999915Z for 29
+FnB Shim Finished. Result from moduleB: 5
+Finished task 29
+Starting task 30
+start transfer at 2024-10-28 22:39:45.655667195 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:45.708699448Z for 30
+After serialization at 2024-10-28T22:39:45.708712535Z for 30
+FnB Shim Finished. Result from moduleB: 5
+Finished task 30
+Starting task 31
+start transfer at 2024-10-28 22:39:45.713839601 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:45.765234966Z for 31
+After serialization at 2024-10-28T22:39:45.765248477Z for 31
+FnB Shim Finished. Result from moduleB: 5Finished task 31
+Starting task 32
+
+start transfer at 2024-10-28 22:39:45.770196550 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:45.821401215Z for 32
+After serialization at 2024-10-28T22:39:45.821413126Z for 32
+FnB Shim Finished. Result from moduleB: 5
+Finished task 32
+Starting task 33
+start transfer at 2024-10-28 22:39:45.826926675 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:45.877732667Z for 33
+After serialization at 2024-10-28T22:39:45.877745687Z for 33
+FnB Shim Finished. Result from moduleB: 5
+Finished task 33
+Starting task 34
+start transfer at 2024-10-28 22:39:45.881490897 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:45.937703510Z for 34
+After serialization at 2024-10-28T22:39:45.937716999Z for 34
+Finished task 34
+Starting task 35
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:39:45.941116625 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:46.000306182Z for 35
+After serialization at 2024-10-28T22:39:46.000320563Z for 35
+FnB Shim Finished. Result from moduleB: 5
+Finished task 35
+Starting task 36
+start transfer at 2024-10-28 22:39:46.006333539 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:46.055448344Z for 36
+After serialization at 2024-10-28T22:39:46.055461661Z for 36
+FnB Shim Finished. Result from moduleB: 5
+Finished task 36
+Starting task 37
+start transfer at 2024-10-28 22:39:46.059350503 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:46.120485503Z for 37
+Finished task 37
+Starting task 38
+After serialization at 2024-10-28T22:39:46.120499099Z for 37
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:39:46.124664790 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:46.180465605Z for 38
+After serialization at 2024-10-28T22:39:46.180479037Z for 38
+FnB Shim Finished. Result from moduleB: 5
+Finished task 38
+Starting task 39
+start transfer at 2024-10-28 22:39:46.188990909 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:46.241895003Z for 39
+After serialization at 2024-10-28T22:39:46.241909041Z for 39
+FnB Shim Finished. Result from moduleB: 5
+Finished task 39
+Starting task 40
+start transfer at 2024-10-28 22:39:46.245758600 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:39:46.296387678Z for 40
+After serialization at 2024-10-28T22:39:46.296402072Z for 40
+FnB Shim Finished. Result from moduleB: 5
+Finished task 40
+All tasks completed.
+Func_a finished processing file_10M.txt
+Func_b finished processing file_10M.txt
+Killing remaining processes if any
+
+ROUND 60
+
+Starting task 1
+start transfer at 2024-10-28 22:42:19.567424489 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:42:19.623419725Z for 1
+After serialization at 2024-10-28T22:42:19.623444604Z for 1
+FnB Shim Finished. Result from moduleB: 5
+Finished task 1
+Starting task 2
+start transfer at 2024-10-28 22:42:19.629293547 UTC
+Finished task 2
+Starting task 3
+Received chunk of size: 10941684 at 2024-10-28T22:42:19.694975221Z for 2
+After serialization at 2024-10-28T22:42:19.694987338Z for 2
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:42:19.699673893 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:42:19.749919890Z for 3
+After serialization at 2024-10-28T22:42:19.749932652Z for 3
+FnB Shim Finished. Result from moduleB: 5
+Finished task 3
+Starting task 4
+start transfer at 2024-10-28 22:42:19.755021881 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:42:19.805599278Z for 4
+After serialization at 2024-10-28T22:42:19.805614331Z for 4
+FnB Shim Finished. Result from moduleB: 5
+Finished task 4
+Starting task 5
+start transfer at 2024-10-28 22:42:19.811352674 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:42:19.860169498Z for 5
+After serialization at 2024-10-28T22:42:19.860182233Z for 5
+FnB Shim Finished. Result from moduleB: 5
+Finished task 5
+Starting task 6
+start transfer at 2024-10-28 22:42:19.864293259 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:42:19.916223152Z for 6
+After serialization at 2024-10-28T22:42:19.916235694Z for 6
+FnB Shim Finished. Result from moduleB: 5
+Finished task 6
+Starting task 7
+start transfer at 2024-10-28 22:42:19.920606168 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:42:19.973156612Z for 7
+After serialization at 2024-10-28T22:42:19.973168759Z for 7
+FnB Shim Finished. Result from moduleB: 5
+Finished task 7
+Starting task 8
+start transfer at 2024-10-28 22:42:19.977380151 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:42:20.032555424Z for 8
+After serialization at 2024-10-28T22:42:20.032567776Z for 8
+FnB Shim Finished. Result from moduleB: 5
+Finished task 8
+Starting task 9
+start transfer at 2024-10-28 22:42:20.037815585 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:42:20.090386346Z for 9
+After serialization at 2024-10-28T22:42:20.090397740Z for 9
+FnB Shim Finished. Result from moduleB: 5
+Finished task 9
+Starting task 10
+start transfer at 2024-10-28 22:42:20.095779774 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:20.148380611Z for 10
+After serialization at 2024-10-28T22:42:20.148392834Z for 10
+FnB Shim Finished. Result from moduleB: 5
+Finished task 10
+Starting task 11
+start transfer at 2024-10-28 22:42:20.152535141 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:20.201299797Z for 11
+After serialization at 2024-10-28T22:42:20.201311777Z for 11
+FnB Shim Finished. Result from moduleB: 5
+Finished task 11
+Starting task 12
+start transfer at 2024-10-28 22:42:20.206065142 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:20.259473006Z for 12
+After serialization at 2024-10-28T22:42:20.259485121Z for 12
+FnB Shim Finished. Result from moduleB: 5
+Finished task 12
+Starting task 13
+start transfer at 2024-10-28 22:42:20.264351411 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:20.319269487Z for 13Finished task 13
+Starting task 14
+
+After serialization at 2024-10-28T22:42:20.319283049Z for 13
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:42:20.323495831 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:20.380062037Z for 14
+After serialization at 2024-10-28T22:42:20.380076129Z for 14
+FnB Shim Finished. Result from moduleB: 5
+Finished task 14
+Starting task 15
+start transfer at 2024-10-28 22:42:20.385687275 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:20.434097650Z for 15
+After serialization at 2024-10-28T22:42:20.434109688Z for 15
+FnB Shim Finished. Result from moduleB: 5
+Finished task 15
+Starting task 16
+start transfer at 2024-10-28 22:42:20.438709119 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:20.493797386Z for 16
+After serialization at 2024-10-28T22:42:20.493810131Z for 16
+FnB Shim Finished. Result from moduleB: 5
+Finished task 16
+Starting task 17
+start transfer at 2024-10-28 22:42:20.498817395 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:20.551389845Z for 17Finished task 17
+Starting task 18
+
+After serialization at 2024-10-28T22:42:20.551403453Z for 17
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:42:20.557037602 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:20.616240998Z for 18
+After serialization at 2024-10-28T22:42:20.616253996Z for 18
+FnB Shim Finished. Result from moduleB: 5
+Finished task 18
+Starting task 19
+start transfer at 2024-10-28 22:42:20.622345587 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:20.671697987Z for 19
+After serialization at 2024-10-28T22:42:20.671711630Z for 19
+FnB Shim Finished. Result from moduleB: 5
+Finished task 19
+Starting task 20
+start transfer at 2024-10-28 22:42:20.676755830 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:20.730202925Z for 20
+After serialization at 2024-10-28T22:42:20.730215017Z for 20
+FnB Shim Finished. Result from moduleB: 5
+Finished task 20
+Starting task 21
+start transfer at 2024-10-28 22:42:20.734586179 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:20.790209867Z for 21
+After serialization at 2024-10-28T22:42:20.790223332Z for 21
+FnB Shim Finished. Result from moduleB: 5
+Finished task 21
+Starting task 22
+start transfer at 2024-10-28 22:42:20.794476401 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:20.848419610Z for 22
+After serialization at 2024-10-28T22:42:20.848433552Z for 22
+FnB Shim Finished. Result from moduleB: 5
+Finished task 22
+Starting task 23
+start transfer at 2024-10-28 22:42:20.853353845 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:20.898508685Z for 23
+After serialization at 2024-10-28T22:42:20.898522023Z for 23
+FnB Shim Finished. Result from moduleB: 5
+Finished task 23
+Starting task 24
+start transfer at 2024-10-28 22:42:20.903281026 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:20.958263790Z for 24
+After serialization at 2024-10-28T22:42:20.958276752Z for 24
+FnB Shim Finished. Result from moduleB: 5
+Finished task 24
+Starting task 25
+start transfer at 2024-10-28 22:42:20.962139069 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:21.017627585Z for 25
+After serialization at 2024-10-28T22:42:21.017640546Z for 25
+FnB Shim Finished. Result from moduleB: 5Finished task 25
+Starting task 26
+
+start transfer at 2024-10-28 22:42:21.022146880 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:21.080359555Z for 26
+Finished task 26
+Starting task 27
+After serialization at 2024-10-28T22:42:21.080372793Z for 26
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:42:21.087130725 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:21.145844472Z for 27
+After serialization at 2024-10-28T22:42:21.145869353Z for 27
+FnB Shim Finished. Result from moduleB: 5
+Finished task 27
+Starting task 28
+start transfer at 2024-10-28 22:42:21.149957621 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:21.203783879Z for 28Finished task 28
+Starting task 29
+
+After serialization at 2024-10-28T22:42:21.203797257Z for 28
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:42:21.208557480 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:21.263293261Z for 29
+After serialization at 2024-10-28T22:42:21.263305374Z for 29
+FnB Shim Finished. Result from moduleB: 5
+Finished task 29
+Starting task 30
+start transfer at 2024-10-28 22:42:21.268979934 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:21.322207573Z for 30Finished task 30
+Starting task 31
+
+After serialization at 2024-10-28T22:42:21.322220361Z for 30
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:42:21.329061061 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:21.384399556Z for 31
+Finished task 31
+Starting task 32
+After serialization at 2024-10-28T22:42:21.384412935Z for 31
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:42:21.390811595 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:21.445447280Z for 32
+After serialization at 2024-10-28T22:42:21.445460343Z for 32
+FnB Shim Finished. Result from moduleB: 5
+Finished task 32
+Starting task 33
+start transfer at 2024-10-28 22:42:21.452360143 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:21.516607547Z for 33
+After serialization at 2024-10-28T22:42:21.516621437Z for 33Finished task 33
+Starting task 34
+
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:42:21.523102682 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:21.584049682Z for 34
+After serialization at 2024-10-28T22:42:21.584062990Z for 34
+FnB Shim Finished. Result from moduleB: 5
+Finished task 34
+Starting task 35
+start transfer at 2024-10-28 22:42:21.588082642 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:21.638916518Z for 35
+Finished task 35After serialization at 2024-10-28T22:42:21.638931140Z for 35
+FnB Shim Finished. Result from moduleB: 5
+
+Starting task 36
+start transfer at 2024-10-28 22:42:21.645796716 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:21.703356451Z for 36
+After serialization at 2024-10-28T22:42:21.703369164Z for 36
+FnB Shim Finished. Result from moduleB: 5
+Finished task 36
+Starting task 37
+start transfer at 2024-10-28 22:42:21.707904712 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:21.762914535Z for 37
+After serialization at 2024-10-28T22:42:21.762928392Z for 37
+FnB Shim Finished. Result from moduleB: 5
+Finished task 37
+Starting task 38
+start transfer at 2024-10-28 22:42:21.767707724 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:21.816916895Z for 38
+After serialization at 2024-10-28T22:42:21.816929839Z for 38
+FnB Shim Finished. Result from moduleB: 5
+Finished task 38
+Starting task 39
+start transfer at 2024-10-28 22:42:21.821410287 UTC
+Finished task 39
+Starting task 40
+Received chunk of size: 10941685 at 2024-10-28T22:42:21.877592104Z for 39
+After serialization at 2024-10-28T22:42:21.877605925Z for 39
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:42:21.881951822 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:21.932914431Z for 40
+After serialization at 2024-10-28T22:42:21.932928088Z for 40
+FnB Shim Finished. Result from moduleB: 5
+Finished task 40
+Starting task 41
+start transfer at 2024-10-28 22:42:21.939385695 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:21.994023675Z for 41
+After serialization at 2024-10-28T22:42:21.994037589Z for 41
+FnB Shim Finished. Result from moduleB: 5Finished task 41
+
+Starting task 42
+start transfer at 2024-10-28 22:42:21.998668063 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:22.047931886Z for 42
+After serialization at 2024-10-28T22:42:22.047943691Z for 42
+FnB Shim Finished. Result from moduleB: 5
+Finished task 42
+Starting task 43
+start transfer at 2024-10-28 22:42:22.054184259 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:22.109579127Z for 43
+After serialization at 2024-10-28T22:42:22.109592442Z for 43
+FnB Shim Finished. Result from moduleB: 5
+Finished task 43
+Starting task 44
+start transfer at 2024-10-28 22:42:22.115947595 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:22.170003208Z for 44
+After serialization at 2024-10-28T22:42:22.170016882Z for 44
+Finished task 44
+FnB Shim Finished. Result from moduleB: 5
+Starting task 45
+start transfer at 2024-10-28 22:42:22.176432923 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:22.227943137Z for 45
+After serialization at 2024-10-28T22:42:22.227957259Z for 45
+FnB Shim Finished. Result from moduleB: 5
+Finished task 45
+Starting task 46
+start transfer at 2024-10-28 22:42:22.232470318 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:22.289079675Z for 46
+After serialization at 2024-10-28T22:42:22.289097994Z for 46
+FnB Shim Finished. Result from moduleB: 5
+Finished task 46
+Starting task 47
+start transfer at 2024-10-28 22:42:22.293584806 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:22.350642575Z for 47
+After serialization at 2024-10-28T22:42:22.350656657Z for 47
+FnB Shim Finished. Result from moduleB: 5
+Finished task 47
+Starting task 48
+start transfer at 2024-10-28 22:42:22.355361042 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:22.409638668Z for 48
+After serialization at 2024-10-28T22:42:22.409652040Z for 48
+Finished task 48
+Starting task 49
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:42:22.415259363 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:22.467287763Z for 49
+After serialization at 2024-10-28T22:42:22.467299810Z for 49
+Finished task 49
+Starting task 50
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:42:22.473884482 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:22.531021342Z for 50
+After serialization at 2024-10-28T22:42:22.531033746Z for 50
+FnB Shim Finished. Result from moduleB: 5
+Finished task 50
+Starting task 51
+start transfer at 2024-10-28 22:42:22.537001043 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:22.587324234Z for 51
+After serialization at 2024-10-28T22:42:22.587337205Z for 51
+FnB Shim Finished. Result from moduleB: 5
+Finished task 51
+Starting task 52
+start transfer at 2024-10-28 22:42:22.592647345 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:22.649680154Z for 52
+After serialization at 2024-10-28T22:42:22.649698225Z for 52
+FnB Shim Finished. Result from moduleB: 5
+Finished task 52
+Starting task 53
+start transfer at 2024-10-28 22:42:22.656467343 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:22.705985493Z for 53
+After serialization at 2024-10-28T22:42:22.705998905Z for 53
+FnB Shim Finished. Result from moduleB: 5
+Finished task 53
+Starting task 54
+start transfer at 2024-10-28 22:42:22.710409435 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:22.767744706Z for 54
+After serialization at 2024-10-28T22:42:22.767758320Z for 54
+FnB Shim Finished. Result from moduleB: 5
+Finished task 54
+Starting task 55
+start transfer at 2024-10-28 22:42:22.773615197 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:22.833531148Z for 55
+After serialization at 2024-10-28T22:42:22.833543660Z for 55
+FnB Shim Finished. Result from moduleB: 5
+Finished task 55
+Starting task 56
+start transfer at 2024-10-28 22:42:22.839153328 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:22.894725036Z for 56
+After serialization at 2024-10-28T22:42:22.894739866Z for 56
+FnB Shim Finished. Result from moduleB: 5
+Finished task 56
+Starting task 57
+start transfer at 2024-10-28 22:42:22.900621707 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:22.949817790Z for 57
+After serialization at 2024-10-28T22:42:22.949831804Z for 57
+FnB Shim Finished. Result from moduleB: 5
+Finished task 57
+Starting task 58
+start transfer at 2024-10-28 22:42:22.953948794 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:23.006053042Z for 58
+After serialization at 2024-10-28T22:42:23.006064838Z for 58
+FnB Shim Finished. Result from moduleB: 5
+Finished task 58
+Starting task 59
+start transfer at 2024-10-28 22:42:23.011029987 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:23.060499379Z for 59
+After serialization at 2024-10-28T22:42:23.060511090Z for 59
+FnB Shim Finished. Result from moduleB: 5
+Finished task 59
+Starting task 60
+start transfer at 2024-10-28 22:42:23.066394701 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:42:23.123739300Z for 60
+After serialization at 2024-10-28T22:42:23.123751815Z for 60
+FnB Shim Finished. Result from moduleB: 5
+Finished task 60
+All tasks completed.
+Func_a finished processing file_10M.txt
+Func_b finished processing file_10M.txt
+Killing remaining processes if any
+
+ROUND 80
+
+Secondary function 
+downloading http://127.0.0.1:8888/files/file_10M.txt
+Starting task 1
+start transfer at 2024-10-28 22:46:06.686361300 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:46:06.741618555Z for 1
+Finished task 1
+Starting task 2
+After serialization at 2024-10-28T22:46:06.741631088Z for 1
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:06.746587721 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:46:06.806567279Z for 2
+After serialization at 2024-10-28T22:46:06.806581793Z for 2
+FnB Shim Finished. Result from moduleB: 5
+Finished task 2
+Starting task 3
+start transfer at 2024-10-28 22:46:06.810666083 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:46:06.863089544Z for 3
+After serialization at 2024-10-28T22:46:06.863102027Z for 3
+FnB Shim Finished. Result from moduleB: 5
+Finished task 3
+Starting task 4
+start transfer at 2024-10-28 22:46:06.867831125 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:46:06.927727614Z for 4
+After serialization at 2024-10-28T22:46:06.927752873Z for 4
+FnB Shim Finished. Result from moduleB: 5
+Finished task 4
+Starting task 5
+start transfer at 2024-10-28 22:46:06.932869734 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:46:06.983492345Z for 5
+After serialization at 2024-10-28T22:46:06.983505645Z for 5
+FnB Shim Finished. Result from moduleB: 5
+Finished task 5
+Starting task 6
+start transfer at 2024-10-28 22:46:06.986796349 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:46:07.039824709Z for 6
+After serialization at 2024-10-28T22:46:07.039838175Z for 6
+FnB Shim Finished. Result from moduleB: 5
+Finished task 6
+Starting task 7
+start transfer at 2024-10-28 22:46:07.044796859 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:46:07.100667422Z for 7
+After serialization at 2024-10-28T22:46:07.100680751Z for 7
+FnB Shim Finished. Result from moduleB: 5
+Finished task 7
+Starting task 8
+start transfer at 2024-10-28 22:46:07.105020108 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:46:07.159480412Z for 8
+After serialization at 2024-10-28T22:46:07.159493218Z for 8
+FnB Shim Finished. Result from moduleB: 5
+Finished task 8
+Starting task 9
+start transfer at 2024-10-28 22:46:07.167125857 UTC
+Received chunk of size: 10941684 at 2024-10-28T22:46:07.222460841Z for 9Finished task 9
+Starting task 10
+
+After serialization at 2024-10-28T22:46:07.222475657Z for 9
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:07.227554084 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:07.284643687Z for 10
+Finished task 10After serialization at 2024-10-28T22:46:07.284656333Z for 10
+FnB Shim Finished. Result from moduleB: 5
+
+Starting task 11
+start transfer at 2024-10-28 22:46:07.291550943 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:07.351231395Z for 11Finished task 11
+
+After serialization at 2024-10-28T22:46:07.351243979Z for 11
+FnB Shim Finished. Result from moduleB: 5
+Starting task 12
+start transfer at 2024-10-28 22:46:07.355470592 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:07.405973082Z for 12
+After serialization at 2024-10-28T22:46:07.405986756Z for 12
+FnB Shim Finished. Result from moduleB: 5
+Finished task 12
+Starting task 13
+start transfer at 2024-10-28 22:46:07.409588395 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:07.473458987Z for 13
+After serialization at 2024-10-28T22:46:07.473471698Z for 13
+FnB Shim Finished. Result from moduleB: 5
+Finished task 13
+Starting task 14
+start transfer at 2024-10-28 22:46:07.478664154 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:07.534743556Z for 14
+After serialization at 2024-10-28T22:46:07.534757292Z for 14
+FnB Shim Finished. Result from moduleB: 5
+Finished task 14
+Starting task 15
+start transfer at 2024-10-28 22:46:07.538432465 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:07.590016070Z for 15
+Finished task 15
+Starting task 16
+After serialization at 2024-10-28T22:46:07.590028760Z for 15
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:07.594125139 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:07.649536587Z for 16
+Finished task 16
+Starting task 17
+After serialization at 2024-10-28T22:46:07.649550350Z for 16
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:07.655939529 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:07.714535395Z for 17
+Finished task 17
+Starting task 18After serialization at 2024-10-28T22:46:07.714549558Z for 17
+FnB Shim Finished. Result from moduleB: 5
+
+start transfer at 2024-10-28 22:46:07.719077345 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:07.775209127Z for 18
+After serialization at 2024-10-28T22:46:07.775223238Z for 18
+FnB Shim Finished. Result from moduleB: 5
+Finished task 18
+Starting task 19
+start transfer at 2024-10-28 22:46:07.778878904 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:07.833704378Z for 19
+After serialization at 2024-10-28T22:46:07.833718079Z for 19
+FnB Shim Finished. Result from moduleB: 5
+Finished task 19
+Starting task 20
+start transfer at 2024-10-28 22:46:07.837423790 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:07.891774173Z for 20
+After serialization at 2024-10-28T22:46:07.891800602Z for 20
+FnB Shim Finished. Result from moduleB: 5
+Finished task 20
+Starting task 21
+start transfer at 2024-10-28 22:46:07.895662719 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:07.948809787Z for 21
+After serialization at 2024-10-28T22:46:07.948826377Z for 21
+FnB Shim Finished. Result from moduleB: 5
+Finished task 21
+Starting task 22
+start transfer at 2024-10-28 22:46:07.952483731 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:08.001857048Z for 22
+After serialization at 2024-10-28T22:46:08.001869812Z for 22Finished task 22
+Starting task 23
+
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:08.006704214 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:08.061142681Z for 23
+After serialization at 2024-10-28T22:46:08.061155289Z for 23
+FnB Shim Finished. Result from moduleB: 5
+Finished task 23
+Starting task 24
+start transfer at 2024-10-28 22:46:08.065043394 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:08.119630500Z for 24
+After serialization at 2024-10-28T22:46:08.119644067Z for 24
+FnB Shim Finished. Result from moduleB: 5
+Finished task 24
+Starting task 25
+start transfer at 2024-10-28 22:46:08.125542011 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:08.176858900Z for 25
+After serialization at 2024-10-28T22:46:08.176871799Z for 25
+FnB Shim Finished. Result from moduleB: 5
+Finished task 25
+Starting task 26
+start transfer at 2024-10-28 22:46:08.180959767 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:08.230675798Z for 26
+After serialization at 2024-10-28T22:46:08.230688034Z for 26
+FnB Shim Finished. Result from moduleB: 5
+Finished task 26
+Starting task 27
+start transfer at 2024-10-28 22:46:08.235016400 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:08.286883832Z for 27Finished task 27
+Starting task 28
+
+After serialization at 2024-10-28T22:46:08.286896971Z for 27
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:08.290382364 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:08.342620275Z for 28
+After serialization at 2024-10-28T22:46:08.342633235Z for 28
+FnB Shim Finished. Result from moduleB: 5
+Finished task 28
+Starting task 29
+start transfer at 2024-10-28 22:46:08.346543776 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:08.397121724Z for 29
+After serialization at 2024-10-28T22:46:08.397134437Z for 29
+FnB Shim Finished. Result from moduleB: 5
+Finished task 29
+Starting task 30
+start transfer at 2024-10-28 22:46:08.401499773 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:08.461887816Z for 30
+After serialization at 2024-10-28T22:46:08.461901117Z for 30
+FnB Shim Finished. Result from moduleB: 5
+Finished task 30
+Starting task 31
+start transfer at 2024-10-28 22:46:08.467107599 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:08.523860570Z for 31
+After serialization at 2024-10-28T22:46:08.523873745Z for 31
+FnB Shim Finished. Result from moduleB: 5
+Finished task 31
+Starting task 32
+start transfer at 2024-10-28 22:46:08.527474719 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:08.580290481Z for 32
+After serialization at 2024-10-28T22:46:08.580303758Z for 32
+FnB Shim Finished. Result from moduleB: 5
+Finished task 32
+Starting task 33
+start transfer at 2024-10-28 22:46:08.586149960 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:08.641087744Z for 33
+After serialization at 2024-10-28T22:46:08.641101227Z for 33Finished task 33
+Starting task 34
+
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:08.645196205 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:08.695432832Z for 34
+Finished task 34
+Starting task 35
+After serialization at 2024-10-28T22:46:08.695446616Z for 34
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:08.698961231 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:08.753674408Z for 35
+After serialization at 2024-10-28T22:46:08.753688169Z for 35
+FnB Shim Finished. Result from moduleB: 5
+Finished task 35
+Starting task 36
+start transfer at 2024-10-28 22:46:08.758591500 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:08.809030056Z for 36
+After serialization at 2024-10-28T22:46:08.809043714Z for 36
+FnB Shim Finished. Result from moduleB: 5
+Finished task 36
+Starting task 37
+start transfer at 2024-10-28 22:46:08.816982584 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:08.875012151Z for 37
+Finished task 37After serialization at 2024-10-28T22:46:08.875025672Z for 37
+Starting task 38
+
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:08.878972146 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:08.935969012Z for 38
+Finished task 38
+Starting task 39
+After serialization at 2024-10-28T22:46:08.935982463Z for 38
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:08.939803247 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:08.988825942Z for 39
+After serialization at 2024-10-28T22:46:08.988839604Z for 39
+FnB Shim Finished. Result from moduleB: 5
+Finished task 39
+Starting task 40
+start transfer at 2024-10-28 22:46:08.995869232 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:09.053927114Z for 40
+After serialization at 2024-10-28T22:46:09.053939774Z for 40Finished task 40
+Starting task 41
+
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:09.060090527 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:09.110330523Z for 41
+After serialization at 2024-10-28T22:46:09.110342621Z for 41
+FnB Shim Finished. Result from moduleB: 5
+Finished task 41
+Starting task 42
+start transfer at 2024-10-28 22:46:09.116489853 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:09.173127358Z for 42
+After serialization at 2024-10-28T22:46:09.173139910Z for 42
+FnB Shim Finished. Result from moduleB: 5
+Finished task 42
+Starting task 43
+start transfer at 2024-10-28 22:46:09.180042183 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:09.231693926Z for 43
+After serialization at 2024-10-28T22:46:09.231706687Z for 43Finished task 43
+
+FnB Shim Finished. Result from moduleB: 5
+Starting task 44
+start transfer at 2024-10-28 22:46:09.237172293 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:09.309621726Z for 44
+After serialization at 2024-10-28T22:46:09.309641019Z for 44
+FnB Shim Finished. Result from moduleB: 5
+Finished task 44
+Starting task 45
+start transfer at 2024-10-28 22:46:09.315314047 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:09.370250629Z for 45
+Finished task 45
+Starting task 46
+After serialization at 2024-10-28T22:46:09.370263405Z for 45
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:09.377619373 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:09.429311199Z for 46Finished task 46
+After serialization at 2024-10-28T22:46:09.429324652Z for 46
+FnB Shim Finished. Result from moduleB: 5
+
+Starting task 47
+start transfer at 2024-10-28 22:46:09.434318931 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:09.489375502Z for 47
+After serialization at 2024-10-28T22:46:09.489388913Z for 47
+FnB Shim Finished. Result from moduleB: 5
+Finished task 47
+Starting task 48
+start transfer at 2024-10-28 22:46:09.493691248 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:09.548634884Z for 48
+After serialization at 2024-10-28T22:46:09.548647059Z for 48
+FnB Shim Finished. Result from moduleB: 5
+Finished task 48
+Starting task 49
+start transfer at 2024-10-28 22:46:09.552862163 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:09.605549278Z for 49
+After serialization at 2024-10-28T22:46:09.605562555Z for 49
+FnB Shim Finished. Result from moduleB: 5
+Finished task 49
+Starting task 50
+start transfer at 2024-10-28 22:46:09.609573264 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:09.660171652Z for 50
+After serialization at 2024-10-28T22:46:09.660184653Z for 50
+FnB Shim Finished. Result from moduleB: 5
+Finished task 50
+Starting task 51
+start transfer at 2024-10-28 22:46:09.664589705 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:09.717934343Z for 51
+After serialization at 2024-10-28T22:46:09.717948430Z for 51
+FnB Shim Finished. Result from moduleB: 5
+Finished task 51
+Starting task 52
+start transfer at 2024-10-28 22:46:09.722066260 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:09.782727826Z for 52Finished task 52
+Starting task 53
+
+After serialization at 2024-10-28T22:46:09.782740629Z for 52
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:09.786408825 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:09.841826005Z for 53
+After serialization at 2024-10-28T22:46:09.841838094Z for 53
+FnB Shim Finished. Result from moduleB: 5Finished task 53
+Starting task 54
+
+start transfer at 2024-10-28 22:46:09.846780790 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:09.898653285Z for 54
+After serialization at 2024-10-28T22:46:09.898665176Z for 54
+FnB Shim Finished. Result from moduleB: 5
+Finished task 54
+Starting task 55
+start transfer at 2024-10-28 22:46:09.905525811 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:09.962968447Z for 55
+Finished task 55
+Starting task 56
+After serialization at 2024-10-28T22:46:09.962981360Z for 55
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:09.967722614 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:10.023705515Z for 56
+Finished task 56
+Starting task 57
+After serialization at 2024-10-28T22:46:10.023718984Z for 56
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:10.027701130 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:10.081703400Z for 57
+After serialization at 2024-10-28T22:46:10.081716468Z for 57
+FnB Shim Finished. Result from moduleB: 5
+Finished task 57
+Starting task 58
+start transfer at 2024-10-28 22:46:10.087828134 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:10.146003391Z for 58
+After serialization at 2024-10-28T22:46:10.146018216Z for 58
+FnB Shim Finished. Result from moduleB: 5
+Finished task 58
+Starting task 59
+start transfer at 2024-10-28 22:46:10.150641286 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:10.204993646Z for 59
+After serialization at 2024-10-28T22:46:10.205007499Z for 59
+FnB Shim Finished. Result from moduleB: 5
+Finished task 59
+Starting task 60
+start transfer at 2024-10-28 22:46:10.208986145 UTC
+Finished task 60
+Starting task 61
+Received chunk of size: 10941685 at 2024-10-28T22:46:10.263210827Z for 60
+After serialization at 2024-10-28T22:46:10.263223282Z for 60
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:10.267900469 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:10.318821500Z for 61
+After serialization at 2024-10-28T22:46:10.318835856Z for 61
+FnB Shim Finished. Result from moduleB: 5
+Finished task 61
+Starting task 62
+start transfer at 2024-10-28 22:46:10.325580970 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:10.382573519Z for 62
+After serialization at 2024-10-28T22:46:10.382587262Z for 62
+FnB Shim Finished. Result from moduleB: 5
+Finished task 62
+Starting task 63
+start transfer at 2024-10-28 22:46:10.387084414 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:10.440974365Z for 63
+After serialization at 2024-10-28T22:46:10.440988266Z for 63
+Finished task 63
+Starting task 64
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:10.445841461 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:10.499881082Z for 64
+After serialization at 2024-10-28T22:46:10.499893998Z for 64
+FnB Shim Finished. Result from moduleB: 5
+Finished task 64
+Starting task 65
+start transfer at 2024-10-28 22:46:10.503473522 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:10.550335968Z for 65
+After serialization at 2024-10-28T22:46:10.550348412Z for 65
+FnB Shim Finished. Result from moduleB: 5
+Finished task 65
+Starting task 66
+start transfer at 2024-10-28 22:46:10.553893104 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:10.609949113Z for 66
+After serialization at 2024-10-28T22:46:10.609962421Z for 66
+FnB Shim Finished. Result from moduleB: 5
+Finished task 66
+Starting task 67
+start transfer at 2024-10-28 22:46:10.614696409 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:10.667633888Z for 67
+After serialization at 2024-10-28T22:46:10.667646670Z for 67
+FnB Shim Finished. Result from moduleB: 5
+Finished task 67
+Starting task 68
+start transfer at 2024-10-28 22:46:10.672539344 UTC
+Finished task 68
+Starting task 69
+Received chunk of size: 10941685 at 2024-10-28T22:46:10.722583121Z for 68
+After serialization at 2024-10-28T22:46:10.722596580Z for 68
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:10.727405145 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:10.785239548Z for 69
+Finished task 69
+Starting task 70
+After serialization at 2024-10-28T22:46:10.785266190Z for 69
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:10.790011566 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:10.847464627Z for 70
+After serialization at 2024-10-28T22:46:10.847479494Z for 70
+FnB Shim Finished. Result from moduleB: 5
+Finished task 70
+Starting task 71
+start transfer at 2024-10-28 22:46:10.852085844 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:10.915778788Z for 71
+After serialization at 2024-10-28T22:46:10.915805252Z for 71
+FnB Shim Finished. Result from moduleB: 5
+Finished task 71
+Starting task 72
+start transfer at 2024-10-28 22:46:10.922693908 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:10.974026775Z for 72
+After serialization at 2024-10-28T22:46:10.974039591Z for 72
+FnB Shim Finished. Result from moduleB: 5
+Finished task 72
+Starting task 73
+start transfer at 2024-10-28 22:46:10.979285196 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:11.034378233Z for 73
+After serialization at 2024-10-28T22:46:11.034391383Z for 73
+FnB Shim Finished. Result from moduleB: 5
+Finished task 73
+Starting task 74
+start transfer at 2024-10-28 22:46:11.038487450 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:11.089359857Z for 74
+After serialization at 2024-10-28T22:46:11.089372736Z for 74
+FnB Shim Finished. Result from moduleB: 5
+Finished task 74
+Starting task 75
+start transfer at 2024-10-28 22:46:11.093356530 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:11.146588472Z for 75
+After serialization at 2024-10-28T22:46:11.146602994Z for 75
+FnB Shim Finished. Result from moduleB: 5
+Finished task 75
+Starting task 76
+start transfer at 2024-10-28 22:46:11.154614973 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:11.216902943Z for 76
+After serialization at 2024-10-28T22:46:11.216916521Z for 76
+FnB Shim Finished. Result from moduleB: 5
+Finished task 76
+Starting task 77
+start transfer at 2024-10-28 22:46:11.222004738 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:11.279988910Z for 77
+After serialization at 2024-10-28T22:46:11.280001760Z for 77
+FnB Shim Finished. Result from moduleB: 5
+Finished task 77
+Starting task 78
+start transfer at 2024-10-28 22:46:11.285727922 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:11.333946411Z for 78Finished task 78
+Starting task 79
+
+After serialization at 2024-10-28T22:46:11.333960635Z for 78
+FnB Shim Finished. Result from moduleB: 5
+start transfer at 2024-10-28 22:46:11.340507871 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:11.397343712Z for 79
+After serialization at 2024-10-28T22:46:11.397356343Z for 79
+FnB Shim Finished. Result from moduleB: 5
+Finished task 79
+Starting task 80
+start transfer at 2024-10-28 22:46:11.401667473 UTC
+Received chunk of size: 10941685 at 2024-10-28T22:46:11.450526541Z for 80
+After serialization at 2024-10-28T22:46:11.450539217Z for 80
+FnB Shim Finished. Result from moduleB: 5
+Finished task 80
+All tasks completed.
+

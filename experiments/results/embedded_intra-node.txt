@@ -1,0 +1,155 @@
+ROUND file_1M.txt
+Greetings from wasm-app!
+args: ["./run-wasm-app", "./target/wasm32-wasi/release/wasm_lib.wasm", "file_1M.txt"] read at 2024-10-09 11:02:13.790706210 UTC
+Downloading file started at 2024-10-09 11:02:13.790946270 UTC
+Downloading finished at 2024-10-09 11:02:13.804352827 UTC
+Data copied to string at 2024-10-09 11:02:13.804527862 UTC
+Response Status: 200 OK
+start transfer at 2024-10-09 11:02:13.804727502 UTC
+Received chunk of size: 1048576 at 2024-10-09T11:02:13.806006654Z
+After serialization at 2024-10-09T11:02:13.807140750Z
+
+ROUND file_2M.txt
+Greetings from wasm-app!
+args: ["./run-wasm-app", "./target/wasm32-wasi/release/wasm_lib.wasm", "file_2M.txt"] read at 2024-10-09 11:02:14.838271141 UTC
+Downloading file started at 2024-10-09 11:02:14.838519331 UTC
+Downloading finished at 2024-10-09 11:02:14.858120325 UTC
+Data copied to string at 2024-10-09 11:02:14.858292041 UTC
+Response Status: 200 OK
+start transfer at 2024-10-09 11:02:14.858466011 UTC
+Received chunk of size: 2097152 at 2024-10-09T11:02:14.860747650Z
+After serialization at 2024-10-09T11:02:14.862970578Z
+
+ROUND file_4M.txt
+Greetings from wasm-app!
+args: ["./run-wasm-app", "./target/wasm32-wasi/release/wasm_lib.wasm", "file_4M.txt"] read at 2024-10-09 11:02:15.894319387 UTC
+Downloading file started at 2024-10-09 11:02:15.894545348 UTC
+Downloading finished at 2024-10-09 11:02:15.921934143 UTC
+Data copied to string at 2024-10-09 11:02:15.922107261 UTC
+Response Status: 200 OK
+start transfer at 2024-10-09 11:02:15.922283334 UTC
+Received chunk of size: 4194304 at 2024-10-09T11:02:15.926560241Z
+After serialization at 2024-10-09T11:02:15.930885176Z
+
+ROUND file_6M.txt
+Greetings from wasm-app!
+args: ["./run-wasm-app", "./target/wasm32-wasi/release/wasm_lib.wasm", "file_6M.txt"] read at 2024-10-09 11:02:16.952161863 UTC
+Downloading file started at 2024-10-09 11:02:16.952404658 UTC
+Downloading finished at 2024-10-09 11:02:16.990535613 UTC
+Data copied to string at 2024-10-09 11:02:16.990722469 UTC
+Response Status: 200 OK
+start transfer at 2024-10-09 11:02:16.990902023 UTC
+Received chunk of size: 6291456 at 2024-10-09T11:02:16.996710701Z
+After serialization at 2024-10-09T11:02:17.002454132Z
+
+ROUND file_8M.txt
+Greetings from wasm-app!
+args: ["./run-wasm-app", "./target/wasm32-wasi/release/wasm_lib.wasm", "file_8M.txt"] read at 2024-10-09 11:02:18.034963267 UTC
+Downloading file started at 2024-10-09 11:02:18.035223723 UTC
+Downloading finished at 2024-10-09 11:02:18.085837792 UTC
+Data copied to string at 2024-10-09 11:02:18.086102080 UTC
+Response Status: 200 OK
+start transfer at 2024-10-09 11:02:18.086423786 UTC
+Received chunk of size: 8388608 at 2024-10-09T11:02:18.094554532Z
+After serialization at 2024-10-09T11:02:18.103032005Z
+
+ROUND file_10M.txt
+Greetings from wasm-app!
+args: ["./run-wasm-app", "./target/wasm32-wasi/release/wasm_lib.wasm", "file_10M.txt"] read at 2024-10-09 11:02:19.136027620 UTC
+Downloading file started at 2024-10-09 11:02:19.136300757 UTC
+Downloading finished at 2024-10-09 11:02:19.195666371 UTC
+Data copied to string at 2024-10-09 11:02:19.195831265 UTC
+Response Status: 200 OK
+start transfer at 2024-10-09 11:02:19.195997411 UTC
+Received chunk of size: 10485760 at 2024-10-09T11:02:19.206809564Z
+After serialization at 2024-10-09T11:02:19.218519964Z
+
+ROUND file_20M.txt
+Greetings from wasm-app!
+args: ["./run-wasm-app", "./target/wasm32-wasi/release/wasm_lib.wasm", "file_20M.txt"] read at 2024-10-09 11:02:20.255571711 UTC
+Downloading file started at 2024-10-09 11:02:20.255827569 UTC
+Downloading finished at 2024-10-09 11:02:20.366752208 UTC
+Data copied to string at 2024-10-09 11:02:20.366925964 UTC
+Response Status: 200 OK
+start transfer at 2024-10-09 11:02:20.367118831 UTC
+Received chunk of size: 20971520 at 2024-10-09T11:02:20.388252161Z
+After serialization at 2024-10-09T11:02:20.410206268Z
+
+ROUND file_40M.txt
+Greetings from wasm-app!
+args: ["./run-wasm-app", "./target/wasm32-wasi/release/wasm_lib.wasm", "file_40M.txt"] read at 2024-10-09 11:02:21.447126124 UTC
+Downloading file started at 2024-10-09 11:02:21.447363169 UTC
+Downloading finished at 2024-10-09 11:02:21.665047231 UTC
+Data copied to string at 2024-10-09 11:02:21.665240732 UTC
+Response Status: 200 OK
+start transfer at 2024-10-09 11:02:21.665414760 UTC
+Received chunk of size: 41943040 at 2024-10-09T11:02:21.707746129Z
+After serialization at 2024-10-09T11:02:21.754872051Z
+
+ROUND file_60M.txt
+Greetings from wasm-app!
+args: ["./run-wasm-app", "./target/wasm32-wasi/release/wasm_lib.wasm", "file_60M.txt"] read at 2024-10-09 11:02:22.796402759 UTC
+Downloading file started at 2024-10-09 11:02:22.796653358 UTC
+Downloading finished at 2024-10-09 11:02:23.155243757 UTC
+Data copied to string at 2024-10-09 11:02:23.155412166 UTC
+Response Status: 200 OK
+start transfer at 2024-10-09 11:02:23.155579225 UTC
+Received chunk of size: 62914560 at 2024-10-09T11:02:23.220595510Z
+After serialization at 2024-10-09T11:02:23.288480789Z
+
+ROUND file_100M.txt
+Greetings from wasm-app!
+args: ["./run-wasm-app", "./target/wasm32-wasi/release/wasm_lib.wasm", "file_100M.txt"] read at 2024-10-09 11:02:24.334484692 UTC
+Downloading file started at 2024-10-09 11:02:24.334920131 UTC
+Downloading finished at 2024-10-09 11:02:24.947737289 UTC
+Data copied to string at 2024-10-09 11:02:24.947917953 UTC
+Response Status: 200 OK
+start transfer at 2024-10-09 11:02:24.948125297 UTC
+Received chunk of size: 104857600 at 2024-10-09T11:02:25.049219574Z
+After serialization at 2024-10-09T11:02:25.174537660Z
+
+ROUND file_200M.txt
+Greetings from wasm-app!
+args: ["./run-wasm-app", "./target/wasm32-wasi/release/wasm_lib.wasm", "file_200M.txt"] read at 2024-10-09 11:02:26.227236722 UTC
+Downloading file started at 2024-10-09 11:02:26.227549987 UTC
+Downloading finished at 2024-10-09 11:02:27.327793487 UTC
+Data copied to string at 2024-10-09 11:02:27.327993151 UTC
+Response Status: 200 OK
+start transfer at 2024-10-09 11:02:27.328196951 UTC
+Received chunk of size: 209715200 at 2024-10-09T11:02:27.553375573Z
+After serialization at 2024-10-09T11:02:27.779703389Z
+
+ROUND file_300M.txt
+Greetings from wasm-app!
+args: ["./run-wasm-app", "./target/wasm32-wasi/release/wasm_lib.wasm", "file_300M.txt"] read at 2024-10-09 11:02:28.855522953 UTC
+Downloading file started at 2024-10-09 11:02:28.855790050 UTC
+Downloading finished at 2024-10-09 11:02:30.427107105 UTC
+Data copied to string at 2024-10-09 11:02:30.427316016 UTC
+Response Status: 200 OK
+start transfer at 2024-10-09 11:02:30.427512871 UTC
+Received chunk of size: 314572800 at 2024-10-09T11:02:30.734411316Z
+After serialization at 2024-10-09T11:02:31.042121610Z
+
+ROUND file_400M.txt
+Greetings from wasm-app!
+args: ["./run-wasm-app", "./target/wasm32-wasi/release/wasm_lib.wasm", "file_400M.txt"] read at 2024-10-09 11:02:32.134287772 UTC
+Downloading file started at 2024-10-09 11:02:32.134533395 UTC
+Downloading finished at 2024-10-09 11:02:34.289919463 UTC
+Data copied to string at 2024-10-09 11:02:34.290138320 UTC
+Response Status: 200 OK
+start transfer at 2024-10-09 11:02:34.290315657 UTC
+Received chunk of size: 419430400 at 2024-10-09T11:02:34.740714836Z
+After serialization at 2024-10-09T11:02:35.165444507Z
+
+ROUND file_500M.txt
+Greetings from wasm-app!
+args: ["./run-wasm-app", "./target/wasm32-wasi/release/wasm_lib.wasm", "file_500M.txt"] read at 2024-10-09 11:02:36.275705371 UTC
+Downloading file started at 2024-10-09 11:02:36.275947073 UTC
+Downloading finished at 2024-10-09 11:02:38.922463045 UTC
+Data copied to string at 2024-10-09 11:02:38.922652028 UTC
+Response Status: 200 OK
+start transfer at 2024-10-09 11:02:38.922827762 UTC
+Received chunk of size: 524288000 at 2024-10-09T11:02:39.428370749Z
+After serialization at 2024-10-09T11:02:39.941846262Z
+
+All files have been processed.

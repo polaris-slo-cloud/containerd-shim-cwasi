@@ -1,0 +1,152 @@
+ROUND file_1M.txt
+
+start transfer of 1048576 at 2024-10-02 14:31:37.288419143 UTC
+
+Received chunk of size: 1048576 at 2024-10-02T14:31:37.300895113Z
+After serialization at 2024-10-02T14:31:37.302163017Z
+
+ROUND file_2M.txt
+
+args: ["/function", "a", "file_2M.txt"]
+Value of STORAGE_IP: 128.131.57.188:8888
+Downloading file
+Status: 200 OK
+start transfer of 2097152 at 2024-10-02 15:08:42.525729759 UTC
+Received chunk of size: 2097152 at 2024-10-02T15:08:42.539430250Z
+After serialization at 2024-10-02T15:08:42.541635477Z
+
+
+ROUND file_4M.txt
+
+args: ["/function", "a", "file_4M.txt"]
+Value of STORAGE_IP: 128.131.57.188:8888
+Downloading file
+Status: 200 OK
+start transfer of 4194304 at 2024-10-02 14:45:17.287751777 UTC
+Received chunk of size: 4194304 at 2024-10-02T14:45:17.304498436Z
+After serialization at 2024-10-02T14:45:17.308633639Z
+
+ROUND file_6M.txt
+
+args: ["/function", "a", "file_6M.txt"]
+Value of STORAGE_IP: 128.131.57.188:8888
+Downloading file
+Status: 200 OK
+start transfer of 6291456 at 2024-10-02 14:47:15.815882400 UTC
+Received chunk of size: 6291456 at 2024-10-02T14:47:15.846952725Z
+After serialization at 2024-10-02T14:47:15.853511442Z
+
+ROUND file_8M.txt
+
+Defaulted container "web-server" out of: web-server, queue-proxy
+args: ["/function", "a", "file_8M.txt"]
+Value of STORAGE_IP: 128.131.57.188:8888
+Downloading file
+Status: 200 OK
+start transfer of 8388608 at 2024-10-02 14:48:03.202085492 UTC
+
+Received chunk of size: 8388608 at 2024-10-02T14:48:03.240972496Z
+After serialization at 2024-10-02T14:48:03.249536643Z
+
+
+ROUND file_10M.txt
+
+args: ["/function", "a", "file_10M.txt"]
+Value of STORAGE_IP: 128.131.57.188:8888
+Downloading file
+Status: 200 OK
+start transfer of 10485760 at 2024-10-02 14:50:07.714426002 UTC
+
+Received chunk of size: 10485760 at 2024-10-02T14:50:07.743933721Z
+After serialization at 2024-10-02T14:50:07.752224543Z
+
+ROUND file_20M.txt
+
+args: ["/function", "a", "file_20M.txt"]
+Value of STORAGE_IP: 128.131.57.188:8888
+Downloading file
+Status: 200 OK
+start transfer of 20971520 at 2024-10-02 14:53:50.785842306 UTC
+
+Received chunk of size: 20971520 at 2024-10-02T14:53:50.853499899Z
+After serialization at 2024-10-02T14:53:50.894011610Z
+
+
+ROUND file_40M.txt
+
+args: ["/function", "a", "file_40M.txt"]
+Value of STORAGE_IP: 128.131.57.188:8888
+Downloading file
+Status: 200 OK
+start transfer of 41943040 at 2024-10-02 14:55:23.164247891 UTC
+
+Received chunk of size: 41943040 at 2024-10-02T14:55:23.284729196Z
+After serialization at 2024-10-02T14:55:23.339767245Z
+
+
+ROUND file_60M.txt
+
+args: ["/function", "a", "file_60M.txt"]
+Value of STORAGE_IP: 128.131.57.188:8888
+Downloading file
+Status: 200 OK
+start transfer of 62914560 at 2024-10-02 14:56:09.869568719 UTC
+
+Received chunk of size: 62914560 at 2024-10-02T14:56:10.038971373Z
+After serialization at 2024-10-02T14:56:10.102028088Z
+
+
+ROUND file_100M.txt
+
+args: ["/function", "a", "file_100M.txt"]
+Value of STORAGE_IP: 128.131.57.188:8888
+Downloading file
+Status: 200 OK
+start transfer of 104857600 at 2024-10-02 14:57:10.128431951 UTC
+
+Received chunk of size: 104857600 at 2024-10-02T14:57:10.354786228Z
+After serialization at 2024-10-02T14:57:10.451772877Z
+
+
+ROUND file_200M.txt
+
+args: ["/function", "a", "file_200M.txt"]
+Value of STORAGE_IP: 128.131.57.188:8888
+Downloading file
+Status: 200 OK
+start transfer of 209715200 at 2024-10-02 14:58:34.973855093 UTC
+Received chunk of size: 209715200 at 2024-10-02T14:58:35.427898223Z
+After serialization at 2024-10-02T14:58:35.632805840Z
+
+ROUND file_300M.txt
+
+args: ["/function", "a", "file_300M.txt"]
+Value of STORAGE_IP: 128.131.57.188:8888
+Downloading file
+Status: 200 OK
+start transfer of 314572800 at 2024-10-02 14:59:36.590359967 UTC
+Received chunk of size: 314572800 at 2024-10-02T14:59:37.265841290Z
+After serialization at 2024-10-02T14:59:37.726512497Z
+
+ROUND file_400M.txt
+
+args: ["/function", "a", "file_400M.txt"]
+Value of STORAGE_IP: 128.131.57.188:8888
+Downloading file
+Status: 200 OK
+start transfer of 419430400 at 2024-10-02 15:00:51.374443 UTC
+Received chunk of size: 419430400 at 2024-10-02T15:00:52.362903117Z
+After serialization at 2024-10-02T15:00:52.788193293Z
+
+ROUND file_500M.txt
+
+args: ["/function", "a", "file_500M.txt"]
+Value of STORAGE_IP: 128.131.57.188:8888
+Downloading file
+Status: 200 OK
+start transfer of 524288000 at 2024-10-02 15:02:53.298403217 UTC
+
+Received chunk of size: 524288000 at 2024-10-02T15:02:54.470213357Z
+After serialization at 2024-10-02T15:02:55.185101278Z
+
+All files have been processed.

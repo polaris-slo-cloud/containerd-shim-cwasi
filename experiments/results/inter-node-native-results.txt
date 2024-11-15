@@ -1,0 +1,1265 @@
+ROUND 1
+ROUND 10
+ROUND 20
+ROUND 40
+ROUND 60
+ROUND 80
+ROUND 100
+
+ROUND 1
+  Task 1:
+    Start transfer: 2024-10-30 07:26:42.322948469
+    Received chunk: 2024-10-30T07:26:42.332775802
+    Serialization: 2024-10-30T07:26:42.432212929
+
+ROUND 10
+  Task 1:
+    Start transfer: 2024-10-30 07:27:19.454835249
+    Received chunk: 2024-10-30T07:27:19.457311685
+    Serialization: 2024-10-30T07:27:20.554499619
+  Task 2:
+    Start transfer: 2024-10-30 07:27:19.497772206
+    Received chunk: 2024-10-30T07:27:19.506149625
+    Serialization: 2024-10-30T07:27:20.547810058
+  Task 3:
+    Start transfer: 2024-10-30 07:27:19.646837914
+    Received chunk: 2024-10-30T07:27:19.655719499
+    Serialization: 2024-10-30T07:27:20.561518380
+  Task 4:
+    Start transfer: 2024-10-30 07:27:19.356939068
+    Received chunk: 2024-10-30T07:27:19.365957366
+    Serialization: 2024-10-30T07:27:20.546037208
+  Task 5:
+    Start transfer: 2024-10-30 07:27:19.601428088
+    Received chunk: 2024-10-30T07:27:19.603513694
+    Serialization: 2024-10-30T07:27:20.553641419
+  Task 6:
+    Start transfer: 2024-10-30 07:27:19.304088731
+    Received chunk: 2024-10-30T07:27:19.313247051
+    Serialization: 2024-10-30T07:27:20.555445225
+  Task 7:
+    Start transfer: 2024-10-30 07:27:19.411815394
+    Received chunk: 2024-10-30T07:27:19.413770998
+    Serialization: 2024-10-30T07:27:20.547043019
+  Task 8:
+    Start transfer: 2024-10-30 07:27:19.259593440
+    Received chunk: 2024-10-30T07:27:19.263884456
+    Serialization: 2024-10-30T07:27:20.530478597
+  Task 9:
+    Start transfer: 2024-10-30 07:27:19.211004441
+    Received chunk: 2024-10-30T07:27:19.221668091
+    Serialization: 2024-10-30T07:27:20.534778511
+  Task 10:
+    Start transfer: 2024-10-30 07:27:19.546492643
+    Received chunk: 2024-10-30T07:27:19.555533105
+    Serialization: 2024-10-30T07:27:20.556567224
+
+ROUND 20
+  Task 1:
+    Start transfer: 2024-10-30 07:27:48.948753753
+    Received chunk: 2024-10-30T07:27:48.953202007
+    Serialization: 2024-10-30T07:27:51.694790412
+  Task 2:
+    Start transfer: 2024-10-30 07:27:49.162483300
+    Received chunk: 2024-10-30T07:27:49.171752830
+    Serialization: 2024-10-30T07:27:51.716862755
+  Task 3:
+    Start transfer: 2024-10-30 07:27:49.324605862
+    Received chunk: 2024-10-30T07:27:49.333700179
+    Serialization: 2024-10-30T07:27:51.725163167
+  Task 4:
+    Start transfer: 2024-10-30 07:27:49.426727516
+    Received chunk: 2024-10-30T07:27:49.435627382
+    Serialization: 2024-10-30T07:27:51.711748538
+  Task 5:
+    Start transfer: 2024-10-30 07:27:49.631259290
+    Received chunk: 2024-10-30T07:27:49.640005536
+    Serialization: 2024-10-30T07:27:51.723918921
+  Task 6:
+    Start transfer: 2024-10-30 07:27:48.895182607
+    Received chunk: 2024-10-30T07:27:48.905758699
+    Serialization: 2024-10-30T07:27:51.679272403
+  Task 7:
+    Start transfer: 2024-10-30 07:27:49.009573749
+    Received chunk: 2024-10-30T07:27:49.014272231
+    Serialization: 2024-10-30T07:27:51.687192709
+  Task 8:
+    Start transfer: 2024-10-30 07:27:49.119095453
+    Received chunk: 2024-10-30T07:27:49.121299003
+    Serialization: 2024-10-30T07:27:51.728983107
+  Task 9:
+    Start transfer: 2024-10-30 07:27:49.377332023
+    Received chunk: 2024-10-30T07:27:49.385680172
+    Serialization: 2024-10-30T07:27:51.710863769
+  Task 10:
+    Start transfer: 2024-10-30 07:27:49.587108555
+    Received chunk: 2024-10-30T07:27:49.596055426
+    Serialization: 2024-10-30T07:27:51.705820148
+  Task 11:
+    Start transfer: 2024-10-30 07:27:49.061493789
+    Received chunk: 2024-10-30T07:27:49.070735203
+    Serialization: 2024-10-30T07:27:51.732296740
+  Task 12:
+    Start transfer: 2024-10-30 07:27:49.267328492
+    Received chunk: 2024-10-30T07:27:49.276380273
+    Serialization: 2024-10-30T07:27:51.700856245
+  Task 13:
+    Start transfer: 2024-10-30 07:27:49.479622298
+    Received chunk: 2024-10-30T07:27:49.488307313
+    Serialization: 2024-10-30T07:27:51.704780897
+  Task 14:
+    Start transfer: 2024-10-30 07:27:49.218218836
+    Received chunk: 2024-10-30T07:27:49.228652578
+    Serialization: 2024-10-30T07:27:51.692652196
+  Task 15:
+    Start transfer: 2024-10-30 07:27:49.533005573
+    Received chunk: 2024-10-30T07:27:49.543000601
+    Serialization: 2024-10-30T07:27:51.690387716
+  Task 16:
+    Start transfer: 2024-10-30 07:27:49.682853613
+    Received chunk: 2024-10-30T07:27:49.692406510
+    Serialization: 2024-10-30T07:27:51.714736030
+  Task 17:
+    Start transfer: 2024-10-30 07:27:49.850715121
+    Received chunk: 2024-10-30T07:27:49.860419380
+    Serialization: 2024-10-30T07:27:51.719827677
+  Task 18:
+    Start transfer: 2024-10-30 07:27:49.740968398
+    Received chunk: 2024-10-30T07:27:49.749885389
+    Serialization: 2024-10-30T07:27:51.718545024
+  Task 19:
+    Start transfer: 2024-10-30 07:27:49.792038210
+    Received chunk: 2024-10-30T07:27:49.801345244
+    Serialization: 2024-10-30T07:27:51.709937143
+  Task 20:
+    Start transfer: 2024-10-30 07:27:49.897579751
+    Received chunk: 2024-10-30T07:27:49.907962717
+    Serialization: 2024-10-30T07:27:51.726481867
+
+ROUND 40
+  Task 1:
+    Start transfer: 2024-10-30 07:28:33.772711844
+    Received chunk: 2024-10-30T07:28:33.782786088
+    Serialization: 2024-10-30T07:28:39.134806543
+  Task 2:
+    Start transfer: 2024-10-30 07:28:33.732665812
+    Received chunk: 2024-10-30T07:28:33.742017415
+    Serialization: 2024-10-30T07:28:39.091769554
+  Task 3:
+    Start transfer: 2024-10-30 07:28:33.956089466
+    Received chunk: 2024-10-30T07:28:33.965365054
+    Serialization: 2024-10-30T07:28:39.137668444
+  Task 4:
+    Start transfer: 2024-10-30 07:28:34.089809273
+    Received chunk: 2024-10-30T07:28:34.099739549
+    Serialization: 2024-10-30T07:28:39.148182923
+  Task 5:
+    Start transfer: 2024-10-30 07:28:34.421356180
+    Received chunk: 2024-10-30T07:28:34.430699871
+    Serialization: 2024-10-30T07:28:39.106221997
+  Task 6:
+    Start transfer: 2024-10-30 07:28:33.677256692
+    Received chunk: 2024-10-30T07:28:33.686357800
+    Serialization: 2024-10-30T07:28:39.078590532
+  Task 7:
+    Start transfer: 2024-10-30 07:28:33.856670083
+    Received chunk: 2024-10-30T07:28:33.868218314
+    Serialization: 2024-10-30T07:28:39.112130083
+  Task 8:
+    Start transfer: 2024-10-30 07:28:34.135687590
+    Received chunk: 2024-10-30T07:28:34.145523998
+    Serialization: 2024-10-30T07:28:39.104048895
+  Task 9:
+    Start transfer: 2024-10-30 07:28:33.622482515
+    Received chunk: 2024-10-30T07:28:33.631791014
+    Serialization: 2024-10-30T07:28:39.082196640
+  Task 10:
+    Start transfer: 2024-10-30 07:28:33.819222628
+    Received chunk: 2024-10-30T07:28:33.821810229
+    Serialization: 2024-10-30T07:28:39.088708041
+  Task 11:
+    Start transfer: 2024-10-30 07:28:34.003463220
+    Received chunk: 2024-10-30T07:28:34.005563765
+    Serialization: 2024-10-30T07:28:39.140003181
+  Task 12:
+    Start transfer: 2024-10-30 07:28:34.188769831
+    Received chunk: 2024-10-30T07:28:34.197930158
+    Serialization: 2024-10-30T07:28:39.131418636
+  Task 13:
+    Start transfer: 2024-10-30 07:28:34.299135271
+    Received chunk: 2024-10-30T07:28:34.308317639
+    Serialization: 2024-10-30T07:28:39.129531252
+  Task 14:
+    Start transfer: 2024-10-30 07:28:34.534899459
+    Received chunk: 2024-10-30T07:28:34.547594541
+    Serialization: 2024-10-30T07:28:39.105161507
+  Task 15:
+    Start transfer: 2024-10-30 07:28:34.689173975
+    Received chunk: 2024-10-30T07:28:34.699156643
+    Serialization: 2024-10-30T07:28:39.110031995
+  Task 16:
+    Start transfer: 2024-10-30 07:28:34.887469665
+    Received chunk: 2024-10-30T07:28:34.897319521
+    Serialization: 2024-10-30T07:28:39.119676552
+  Task 17:
+    Start transfer: 2024-10-30 07:28:34.998270473
+    Received chunk: 2024-10-30T07:28:35.007346732
+    Serialization: 2024-10-30T07:28:39.150649928
+  Task 18:
+    Start transfer: 2024-10-30 07:28:33.911387631
+    Received chunk: 2024-10-30T07:28:33.913678558
+    Serialization: 2024-10-30T07:28:39.161862526
+  Task 19:
+    Start transfer: 2024-10-30 07:28:34.047580208
+    Received chunk: 2024-10-30T07:28:34.057124308
+    Serialization: 2024-10-30T07:28:39.147088561
+  Task 20:
+    Start transfer: 2024-10-30 07:28:34.251166658
+    Received chunk: 2024-10-30T07:28:34.260588257
+    Serialization: 2024-10-30T07:28:39.152354127
+  Task 21:
+    Start transfer: 2024-10-30 07:28:34.476184034
+    Received chunk: 2024-10-30T07:28:34.485103857
+    Serialization: 2024-10-30T07:28:39.113164575
+  Task 22:
+    Start transfer: 2024-10-30 07:28:34.794068117
+    Received chunk: 2024-10-30T07:28:34.803777571
+    Serialization: 2024-10-30T07:28:39.118408194
+  Task 23:
+    Start transfer: 2024-10-30 07:28:35.050200866
+    Received chunk: 2024-10-30T07:28:35.059742240
+    Serialization: 2024-10-30T07:28:39.098309426
+  Task 24:
+    Start transfer: 2024-10-30 07:28:34.362429700
+    Received chunk: 2024-10-30T07:28:34.372678989
+    Serialization: 2024-10-30T07:28:39.141875107
+  Task 25:
+    Start transfer: 2024-10-30 07:28:34.594753713
+    Received chunk: 2024-10-30T07:28:34.603672066
+    Serialization: 2024-10-30T07:28:39.097368721
+  Task 26:
+    Start transfer: 2024-10-30 07:28:34.736606690
+    Received chunk: 2024-10-30T07:28:34.744823809
+    Serialization: 2024-10-30T07:28:39.136871576
+  Task 27:
+    Start transfer: 2024-10-30 07:28:34.945182750
+    Received chunk: 2024-10-30T07:28:34.955400408
+    Serialization: 2024-10-30T07:28:39.145318827
+  Task 28:
+    Start transfer: 2024-10-30 07:28:35.155775677
+    Received chunk: 2024-10-30T07:28:35.165093125
+    Serialization: 2024-10-30T07:28:39.128157466
+  Task 29:
+    Start transfer: 2024-10-30 07:28:34.642029330
+    Received chunk: 2024-10-30T07:28:34.651704611
+    Serialization: 2024-10-30T07:28:39.111015423
+  Task 30:
+    Start transfer: 2024-10-30 07:28:34.836847492
+    Received chunk: 2024-10-30T07:28:34.850187181
+    Serialization: 2024-10-30T07:28:39.117159081
+  Task 31:
+    Start transfer: 2024-10-30 07:28:35.105619973
+    Received chunk: 2024-10-30T07:28:35.115153276
+    Serialization: 2024-10-30T07:28:39.120659596
+  Task 32:
+    Start transfer: 2024-10-30 07:28:35.277849289
+    Received chunk: 2024-10-30T07:28:35.288028017
+    Serialization: 2024-10-30T07:28:39.100104588
+  Task 33:
+    Start transfer: 2024-10-30 07:28:35.382799710
+    Received chunk: 2024-10-30T07:28:35.391490726
+    Serialization: 2024-10-30T07:28:39.125900303
+  Task 34:
+    Start transfer: 2024-10-30 07:28:35.625758454
+    Received chunk: 2024-10-30T07:28:35.635046939
+    Serialization: 2024-10-30T07:28:39.159472746
+  Task 35:
+    Start transfer: 2024-10-30 07:28:35.560385180
+    Received chunk: 2024-10-30T07:28:35.576203289
+    Serialization: 2024-10-30T07:28:39.251156142
+  Task 36:
+    Start transfer: 2024-10-30 07:28:35.212187323
+    Received chunk: 2024-10-30T07:28:35.221140426
+    Serialization: 2024-10-30T07:28:39.157113014
+  Task 37:
+    Start transfer: 2024-10-30 07:28:33.557767307
+    Received chunk: 2024-10-30T07:28:33.572666957
+    Serialization: 2024-10-30T07:28:39.081242245
+  Task 38:
+    Start transfer: 2024-10-30 07:28:35.328729893
+    Received chunk: 2024-10-30T07:28:35.337598235
+    Serialization: 2024-10-30T07:28:39.124816114
+  Task 39:
+    Start transfer: 2024-10-30 07:28:35.493152917
+    Received chunk: 2024-10-30T07:28:35.502024067
+    Serialization: 2024-10-30T07:28:39.254064783
+  Task 40:
+    Start transfer: 2024-10-30 07:28:35.437989779
+    Received chunk: 2024-10-30T07:28:35.447180095
+    Serialization: 2024-10-30T07:28:39.160878604
+
+ROUND 60
+  Task 1:
+    Start transfer: 2024-10-30 07:29:07.985864632
+    Received chunk: 2024-10-30T07:29:07.995173408
+    Serialization: 2024-10-30T07:29:16.067550860
+  Task 2:
+    Start transfer: 2024-10-30 07:29:08.170036986
+    Received chunk: 2024-10-30T07:29:08.179331490
+    Serialization: 2024-10-30T07:29:16.079502500
+  Task 3:
+    Start transfer: 2024-10-30 07:29:08.364391522
+    Received chunk: 2024-10-30T07:29:08.374358758
+    Serialization: 2024-10-30T07:29:16.155954210
+  Task 4:
+    Start transfer: 2024-10-30 07:29:08.525860584
+    Received chunk: 2024-10-30T07:29:08.534877211
+    Serialization: 2024-10-30T07:29:16.157198746
+  Task 5:
+    Start transfer: 2024-10-30 07:29:08.732289698
+    Received chunk: 2024-10-30T07:29:08.741639049
+    Serialization: 2024-10-30T07:29:16.148792309
+  Task 6:
+    Start transfer: 2024-10-30 07:29:08.930645124
+    Received chunk: 2024-10-30T07:29:08.939852972
+    Serialization: 2024-10-30T07:29:16.185296413
+  Task 7:
+    Start transfer: 2024-10-30 07:29:09.100209609
+    Received chunk: 2024-10-30T07:29:09.108783276
+    Serialization: 2024-10-30T07:29:16.125848988
+  Task 8:
+    Start transfer: 2024-10-30 07:29:09.360844202
+    Received chunk: 2024-10-30T07:29:09.370283463
+    Serialization: 2024-10-30T07:29:16.105112576
+  Task 9:
+    Start transfer: 2024-10-30 07:29:09.522089432
+    Received chunk: 2024-10-30T07:29:09.534626590
+    Serialization: 2024-10-30T07:29:16.127726880
+  Task 10:
+    Start transfer: 2024-10-30 07:29:09.720346985
+    Received chunk: 2024-10-30T07:29:09.729606590
+    Serialization: 2024-10-30T07:29:16.303650141
+  Task 11:
+    Start transfer: 2024-10-30 07:29:08.131380363
+    Received chunk: 2024-10-30T07:29:08.141316599
+    Serialization: 2024-10-30T07:29:16.088202445
+  Task 12:
+    Start transfer: 2024-10-30 07:29:08.316865288
+    Received chunk: 2024-10-30T07:29:08.325922659
+    Serialization: 2024-10-30T07:29:16.122250145
+  Task 13:
+    Start transfer: 2024-10-30 07:29:08.628409801
+    Received chunk: 2024-10-30T07:29:08.638220043
+    Serialization: 2024-10-30T07:29:16.388735341
+  Task 14:
+    Start transfer: 2024-10-30 07:29:08.861881994
+    Received chunk: 2024-10-30T07:29:08.872165292
+    Serialization: 2024-10-30T07:29:16.100679028
+  Task 15:
+    Start transfer: 2024-10-30 07:29:09.152812813
+    Received chunk: 2024-10-30T07:29:09.161840262
+    Serialization: 2024-10-30T07:29:16.139910452
+  Task 16:
+    Start transfer: 2024-10-30 07:29:09.312694489
+    Received chunk: 2024-10-30T07:29:09.321378825
+    Serialization: 2024-10-30T07:29:16.115046229
+  Task 17:
+    Start transfer: 2024-10-30 07:29:09.479221339
+    Received chunk: 2024-10-30T07:29:09.488177574
+    Serialization: 2024-10-30T07:29:16.098581156
+  Task 18:
+    Start transfer: 2024-10-30 07:29:09.667489573
+    Received chunk: 2024-10-30T07:29:09.676839310
+    Serialization: 2024-10-30T07:29:16.145745583
+  Task 19:
+    Start transfer: 2024-10-30 07:29:08.037157571
+    Received chunk: 2024-10-30T07:29:08.047022622
+    Serialization: 2024-10-30T07:29:16.064842838
+  Task 20:
+    Start transfer: 2024-10-30 07:29:08.261699993
+    Received chunk: 2024-10-30T07:29:08.272193163
+    Serialization: 2024-10-30T07:29:16.164670689
+  Task 21:
+    Start transfer: 2024-10-30 07:29:08.465857939
+    Received chunk: 2024-10-30T07:29:08.475029702
+    Serialization: 2024-10-30T07:29:16.172122184
+  Task 22:
+    Start transfer: 2024-10-30 07:29:08.678556435
+    Received chunk: 2024-10-30T07:29:08.688750718
+    Serialization: 2024-10-30T07:29:16.086449901
+  Task 23:
+    Start transfer: 2024-10-30 07:29:08.817215072
+    Received chunk: 2024-10-30T07:29:08.826342444
+    Serialization: 2024-10-30T07:29:16.452947651
+  Task 24:
+    Start transfer: 2024-10-30 07:29:09.056500996
+    Received chunk: 2024-10-30T07:29:09.064746718
+    Serialization: 2024-10-30T07:29:16.116489842
+  Task 25:
+    Start transfer: 2024-10-30 07:29:08.086979940
+    Received chunk: 2024-10-30T07:29:08.095977530
+    Serialization: 2024-10-30T07:29:16.082287401
+  Task 26:
+    Start transfer: 2024-10-30 07:29:08.219400112
+    Received chunk: 2024-10-30T07:29:08.228659764
+    Serialization: 2024-10-30T07:29:16.085449863
+  Task 27:
+    Start transfer: 2024-10-30 07:29:08.407680410
+    Received chunk: 2024-10-30T07:29:08.419543025
+    Serialization: 2024-10-30T07:29:16.112690790
+  Task 28:
+    Start transfer: 2024-10-30 07:29:08.573568918
+    Received chunk: 2024-10-30T07:29:08.583116338
+    Serialization: 2024-10-30T07:29:16.416992716
+  Task 29:
+    Start transfer: 2024-10-30 07:29:08.777876250
+    Received chunk: 2024-10-30T07:29:08.786574361
+    Serialization: 2024-10-30T07:29:16.415956521
+  Task 30:
+    Start transfer: 2024-10-30 07:29:08.989920086
+    Received chunk: 2024-10-30T07:29:08.999473095
+    Serialization: 2024-10-30T07:29:16.168335122
+  Task 31:
+    Start transfer: 2024-10-30 07:29:09.205378344
+    Received chunk: 2024-10-30T07:29:09.214281260
+    Serialization: 2024-10-30T07:29:16.108050685
+  Task 32:
+    Start transfer: 2024-10-30 07:29:09.419596305
+    Received chunk: 2024-10-30T07:29:09.429625771
+    Serialization: 2024-10-30T07:29:16.147376275
+  Task 33:
+    Start transfer: 2024-10-30 07:29:09.621655267
+    Received chunk: 2024-10-30T07:29:09.630908283
+    Serialization: 2024-10-30T07:29:16.180833780
+  Task 34:
+    Start transfer: 2024-10-30 07:29:09.780565017
+    Received chunk: 2024-10-30T07:29:09.789544487
+    Serialization: 2024-10-30T07:29:16.121188037
+  Task 35:
+    Start transfer: 2024-10-30 07:29:09.258333648
+    Received chunk: 2024-10-30T07:29:09.267872270
+    Serialization: 2024-10-30T07:29:16.096614124
+  Task 36:
+    Start transfer: 2024-10-30 07:29:09.572444460
+    Received chunk: 2024-10-30T07:29:09.582384948
+    Serialization: 2024-10-30T07:29:16.134839970
+  Task 37:
+    Start transfer: 2024-10-30 07:29:09.833968654
+    Received chunk: 2024-10-30T07:29:09.842935029
+    Serialization: 2024-10-30T07:29:16.131329423
+  Task 38:
+    Start transfer: 2024-10-30 07:29:10.105080067
+    Received chunk: 2024-10-30T07:29:10.113929718
+    Serialization: 2024-10-30T07:29:16.102014298
+  Task 39:
+    Start transfer: 2024-10-30 07:29:10.338224606
+    Received chunk: 2024-10-30T07:29:10.347561226
+    Serialization: 2024-10-30T07:29:16.175305980
+  Task 40:
+    Start transfer: 2024-10-30 07:29:10.549380161
+    Received chunk: 2024-10-30T07:29:10.559922326
+    Serialization: 2024-10-30T07:29:16.186548913
+  Task 41:
+    Start transfer: 2024-10-30 07:29:10.851671396
+    Received chunk: 2024-10-30T07:29:10.861019009
+    Serialization: 2024-10-30T07:29:16.094596526
+  Task 42:
+    Start transfer: 2024-10-30 07:29:09.894526539
+    Received chunk: 2024-10-30T07:29:09.903460222
+    Serialization: 2024-10-30T07:29:16.165628590
+  Task 43:
+    Start transfer: 2024-10-30 07:29:10.050291945
+    Received chunk: 2024-10-30T07:29:10.059598140
+    Serialization: 2024-10-30T07:29:16.138917017
+  Task 44:
+    Start transfer: 2024-10-30 07:29:10.276756804
+    Received chunk: 2024-10-30T07:29:10.286168043
+    Serialization: 2024-10-30T07:29:16.141480493
+  Task 45:
+    Start transfer: 2024-10-30 07:29:10.457011
+    Received chunk: 2024-10-30T07:29:10.466309758
+    Serialization: 2024-10-30T07:29:16.130106878
+  Task 46:
+    Start transfer: 2024-10-30 07:29:10.640952525
+    Received chunk: 2024-10-30T07:29:10.650129533
+    Serialization: 2024-10-30T07:29:16.445880570
+  Task 47:
+    Start transfer: 2024-10-30 07:29:09.952608837
+    Received chunk: 2024-10-30T07:29:09.962008208
+    Serialization: 2024-10-30T07:29:16.173206869
+  Task 48:
+    Start transfer: 2024-10-30 07:29:10.164594163
+    Received chunk: 2024-10-30T07:29:10.173019614
+    Serialization: 2024-10-30T07:29:16.183810702
+  Task 49:
+    Start transfer: 2024-10-30 07:29:10.398488757
+    Received chunk: 2024-10-30T07:29:10.407916461
+    Serialization: 2024-10-30T07:29:16.170624358
+  Task 50:
+    Start transfer: 2024-10-30 07:29:10.594693164
+    Received chunk: 2024-10-30T07:29:10.604946948
+    Serialization: 2024-10-30T07:29:16.090342631
+  Task 51:
+    Start transfer: 2024-10-30 07:29:10.007090122
+    Received chunk: 2024-10-30T07:29:10.015613928
+    Serialization: 2024-10-30T07:29:16.444749706
+  Task 52:
+    Start transfer: 2024-10-30 07:29:10.221883950
+    Received chunk: 2024-10-30T07:29:10.231351479
+    Serialization: 2024-10-30T07:29:16.095538945
+  Task 53:
+    Start transfer: 2024-10-30 07:29:10.505823295
+    Received chunk: 2024-10-30T07:29:10.515208068
+    Serialization: 2024-10-30T07:29:16.109189310
+  Task 54:
+    Start transfer: 2024-10-30 07:29:10.700804070
+    Received chunk: 2024-10-30T07:29:10.709999580
+    Serialization: 2024-10-30T07:29:16.136535268
+  Task 55:
+    Start transfer: 2024-10-30 07:29:07.915360738
+    Received chunk: 2024-10-30T07:29:07.925732373
+    Serialization: 2024-10-30T07:29:16.072614540
+  Task 56:
+    Start transfer: 2024-10-30 07:29:10.805998413
+    Received chunk: 2024-10-30T07:29:10.815946256
+    Serialization: 2024-10-30T07:29:16.144571499
+  Task 57:
+    Start transfer: 2024-10-30 07:29:10.961803017
+    Received chunk: 2024-10-30T07:29:10.971171546
+    Serialization: 2024-10-30T07:29:16.154805106
+  Task 58:
+    Start transfer: 2024-10-30 07:29:10.756954601
+    Received chunk: 2024-10-30T07:29:10.766343492
+    Serialization: 2024-10-30T07:29:16.159384826
+  Task 59:
+    Start transfer: 2024-10-30 07:29:10.905564699
+    Received chunk: 2024-10-30T07:29:10.914967282
+    Serialization: 2024-10-30T07:29:16.113727637
+  Task 60:
+    Start transfer: 2024-10-30 07:29:11.029173487
+    Received chunk: 2024-10-30T07:29:11.043431816
+    Serialization: 2024-10-30T07:29:16.187877120
+
+ROUND 80
+  Task 1:
+    Start transfer: 2024-10-30 07:29:38.690731925
+    Received chunk: 2024-10-30T07:29:38.700329833
+    Serialization: 2024-10-30T07:29:49.975419845
+  Task 2:
+    Start transfer: 2024-10-30 07:29:38.850814803
+    Received chunk: 2024-10-30T07:29:38.860436078
+    Serialization: 2024-10-30T07:29:49.718995443
+  Task 3:
+    Start transfer: 2024-10-30 07:29:39.085326164
+    Received chunk: 2024-10-30T07:29:39.094994130
+    Serialization: 2024-10-30T07:29:49.783838649
+  Task 4:
+    Start transfer: 2024-10-30 07:29:38.638973964
+    Received chunk: 2024-10-30T07:29:38.648700070
+    Serialization: 2024-10-30T07:29:49.701821029
+  Task 5:
+    Start transfer: 2024-10-30 07:29:38.907577379
+    Received chunk: 2024-10-30T07:29:38.917605890
+    Serialization: 2024-10-30T07:29:49.722614013
+  Task 6:
+    Start transfer: 2024-10-30 07:29:38.744986811
+    Received chunk: 2024-10-30T07:29:38.754774552
+    Serialization: 2024-10-30T07:29:49.725388514
+  Task 7:
+    Start transfer: 2024-10-30 07:29:38.961420918
+    Received chunk: 2024-10-30T07:29:38.971451050
+    Serialization: 2024-10-30T07:29:49.926396662
+  Task 8:
+    Start transfer: 2024-10-30 07:29:39.131842331
+    Received chunk: 2024-10-30T07:29:39.140981555
+    Serialization: 2024-10-30T07:29:49.776770137
+  Task 9:
+    Start transfer: 2024-10-30 07:29:39.308709516
+    Received chunk: 2024-10-30T07:29:39.317979213
+    Serialization: 2024-10-30T07:29:49.733259060
+  Task 10:
+    Start transfer: 2024-10-30 07:29:39.457686358
+    Received chunk: 2024-10-30T07:29:39.466500949
+    Serialization: 2024-10-30T07:29:49.747683494
+  Task 11:
+    Start transfer: 2024-10-30 07:29:38.803293924
+    Received chunk: 2024-10-30T07:29:38.812871580
+    Serialization: 2024-10-30T07:29:49.724247944
+  Task 12:
+    Start transfer: 2024-10-30 07:29:39.033533679
+    Received chunk: 2024-10-30T07:29:39.043638496
+    Serialization: 2024-10-30T07:29:49.829117017
+  Task 13:
+    Start transfer: 2024-10-30 07:29:39.359301822
+    Received chunk: 2024-10-30T07:29:39.368381390
+    Serialization: 2024-10-30T07:29:49.736662186
+  Task 14:
+    Start transfer: 2024-10-30 07:29:39.602399581
+    Received chunk: 2024-10-30T07:29:39.611631358
+    Serialization: 2024-10-30T07:29:49.756062878
+  Task 15:
+    Start transfer: 2024-10-30 07:29:39.819049158
+    Received chunk: 2024-10-30T07:29:39.828792196
+    Serialization: 2024-10-30T07:29:49.771877703
+  Task 16:
+    Start transfer: 2024-10-30 07:29:40.060607777
+    Received chunk: 2024-10-30T07:29:40.070467792
+    Serialization: 2024-10-30T07:29:49.731672092
+  Task 17:
+    Start transfer: 2024-10-30 07:29:40.231228320
+    Received chunk: 2024-10-30T07:29:40.240298837
+    Serialization: 2024-10-30T07:29:49.794081359
+  Task 18:
+    Start transfer: 2024-10-30 07:29:40.505376413
+    Received chunk: 2024-10-30T07:29:40.514650912
+    Serialization: 2024-10-30T07:29:49.744780151
+  Task 19:
+    Start transfer: 2024-10-30 07:29:40.706163922
+    Received chunk: 2024-10-30T07:29:40.714800381
+    Serialization: 2024-10-30T07:29:49.846685403
+  Task 20:
+    Start transfer: 2024-10-30 07:29:40.911470471
+    Received chunk: 2024-10-30T07:29:40.919867211
+    Serialization: 2024-10-30T07:29:49.772844603
+  Task 21:
+    Start transfer: 2024-10-30 07:29:41.166327404
+    Received chunk: 2024-10-30T07:29:41.175386040
+    Serialization: 2024-10-30T07:29:49.806208902
+  Task 22:
+    Start transfer: 2024-10-30 07:29:41.365918610
+    Received chunk: 2024-10-30T07:29:41.374334386
+    Serialization: 2024-10-30T07:29:49.857336321
+  Task 23:
+    Start transfer: 2024-10-30 07:29:41.620676486
+    Received chunk: 2024-10-30T07:29:41.629727997
+    Serialization: 2024-10-30T07:29:49.818274994
+  Task 24:
+    Start transfer: 2024-10-30 07:29:39.188176178
+    Received chunk: 2024-10-30T07:29:39.197793922
+    Serialization: 2024-10-30T07:29:49.729812365
+  Task 25:
+    Start transfer: 2024-10-30 07:29:39.402216593
+    Received chunk: 2024-10-30T07:29:39.413170392
+    Serialization: 2024-10-30T07:29:49.810898008
+  Task 26:
+    Start transfer: 2024-10-30 07:29:39.651936640
+    Received chunk: 2024-10-30T07:29:39.661116700
+    Serialization: 2024-10-30T07:29:49.950491205
+  Task 27:
+    Start transfer: 2024-10-30 07:29:39.908165038
+    Received chunk: 2024-10-30T07:29:39.917499290
+    Serialization: 2024-10-30T07:29:49.821062441
+  Task 28:
+    Start transfer: 2024-10-30 07:29:40.113462311
+    Received chunk: 2024-10-30T07:29:40.122257090
+    Serialization: 2024-10-30T07:29:49.781430415
+  Task 29:
+    Start transfer: 2024-10-30 07:29:40.335743648
+    Received chunk: 2024-10-30T07:29:40.344925079
+    Serialization: 2024-10-30T07:29:49.853472356
+  Task 30:
+    Start transfer: 2024-10-30 07:29:40.548136928
+    Received chunk: 2024-10-30T07:29:40.556737888
+    Serialization: 2024-10-30T07:29:49.775768239
+  Task 31:
+    Start transfer: 2024-10-30 07:29:40.862873045
+    Received chunk: 2024-10-30T07:29:40.872038554
+    Serialization: 2024-10-30T07:29:49.761366424
+  Task 32:
+    Start transfer: 2024-10-30 07:29:41.118467757
+    Received chunk: 2024-10-30T07:29:41.127536173
+    Serialization: 2024-10-30T07:29:49.803839128
+  Task 33:
+    Start transfer: 2024-10-30 07:29:41.311891610
+    Received chunk: 2024-10-30T07:29:41.320988553
+    Serialization: 2024-10-30T07:29:49.749905661
+  Task 34:
+    Start transfer: 2024-10-30 07:29:41.520519724
+    Received chunk: 2024-10-30T07:29:41.529385977
+    Serialization: 2024-10-30T07:29:49.871808909
+  Task 35:
+    Start transfer: 2024-10-30 07:29:41.676206783
+    Received chunk: 2024-10-30T07:29:41.685680046
+    Serialization: 2024-10-30T07:29:49.874473258
+  Task 36:
+    Start transfer: 2024-10-30 07:29:41.775623327
+    Received chunk: 2024-10-30T07:29:41.784499513
+    Serialization: 2024-10-30T07:29:49.785165505
+  Task 37:
+    Start transfer: 2024-10-30 07:29:41.986601327
+    Received chunk: 2024-10-30T07:29:41.995921138
+    Serialization: 2024-10-30T07:29:49.800284455
+  Task 38:
+    Start transfer: 2024-10-30 07:29:42.133206865
+    Received chunk: 2024-10-30T07:29:42.142050889
+    Serialization: 2024-10-30T07:29:49.817032840
+  Task 39:
+    Start transfer: 2024-10-30 07:29:39.247720960
+    Received chunk: 2024-10-30T07:29:39.256996215
+    Serialization: 2024-10-30T07:29:49.739922226
+  Task 40:
+    Start transfer: 2024-10-30 07:29:39.500767974
+    Received chunk: 2024-10-30T07:29:39.510363839
+    Serialization: 2024-10-30T07:29:49.963346962
+  Task 41:
+    Start transfer: 2024-10-30 07:29:39.707426876
+    Received chunk: 2024-10-30T07:29:39.717332245
+    Serialization: 2024-10-30T07:29:49.764565889
+  Task 42:
+    Start transfer: 2024-10-30 07:29:39.865261605
+    Received chunk: 2024-10-30T07:29:39.874195765
+    Serialization: 2024-10-30T07:29:49.758048883
+  Task 43:
+    Start transfer: 2024-10-30 07:29:39.953162044
+    Received chunk: 2024-10-30T07:29:39.962198946
+    Serialization: 2024-10-30T07:29:49.840865123
+  Task 44:
+    Start transfer: 2024-10-30 07:29:40.177292764
+    Received chunk: 2024-10-30T07:29:40.186403594
+    Serialization: 2024-10-30T07:29:49.801643431
+  Task 45:
+    Start transfer: 2024-10-30 07:29:40.400883734
+    Received chunk: 2024-10-30T07:29:40.412394911
+    Serialization: 2024-10-30T07:29:49.826181863
+  Task 46:
+    Start transfer: 2024-10-30 07:29:40.609556400
+    Received chunk: 2024-10-30T07:29:40.619871605
+    Serialization: 2024-10-30T07:29:49.839799282
+  Task 47:
+    Start transfer: 2024-10-30 07:29:40.752166304
+    Received chunk: 2024-10-30T07:29:40.765490140
+    Serialization: 2024-10-30T07:29:49.768635701
+  Task 48:
+    Start transfer: 2024-10-30 07:29:41.020569616
+    Received chunk: 2024-10-30T07:29:41.030021701
+    Serialization: 2024-10-30T07:29:49.767029638
+  Task 49:
+    Start transfer: 2024-10-30 07:29:41.215199819
+    Received chunk: 2024-10-30T07:29:41.224308468
+    Serialization: 2024-10-30T07:29:49.787557844
+  Task 50:
+    Start transfer: 2024-10-30 07:29:39.545987327
+    Received chunk: 2024-10-30T07:29:39.555271425
+    Serialization: 2024-10-30T07:29:49.746612360
+  Task 51:
+    Start transfer: 2024-10-30 07:29:39.764723863
+    Received chunk: 2024-10-30T07:29:39.773745991
+    Serialization: 2024-10-30T07:29:49.791660171
+  Task 52:
+    Start transfer: 2024-10-30 07:29:40.009283048
+    Received chunk: 2024-10-30T07:29:40.018612024
+    Serialization: 2024-10-30T07:29:49.815974584
+  Task 53:
+    Start transfer: 2024-10-30 07:29:40.290281651
+    Received chunk: 2024-10-30T07:29:40.300054234
+    Serialization: 2024-10-30T07:29:49.809637435
+  Task 54:
+    Start transfer: 2024-10-30 07:29:40.457828542
+    Received chunk: 2024-10-30T07:29:40.468478047
+    Serialization: 2024-10-30T07:29:49.865308518
+  Task 55:
+    Start transfer: 2024-10-30 07:29:40.659072086
+    Received chunk: 2024-10-30T07:29:40.667928723
+    Serialization: 2024-10-30T07:29:49.875440205
+  Task 56:
+    Start transfer: 2024-10-30 07:29:40.816590791
+    Received chunk: 2024-10-30T07:29:40.826540260
+    Serialization: 2024-10-30T07:29:49.766009762
+  Task 57:
+    Start transfer: 2024-10-30 07:29:40.970556955
+    Received chunk: 2024-10-30T07:29:40.979557210
+    Serialization: 2024-10-30T07:29:49.792728905
+  Task 58:
+    Start transfer: 2024-10-30 07:29:41.074133013
+    Received chunk: 2024-10-30T07:29:41.082742909
+    Serialization: 2024-10-30T07:29:49.812253345
+  Task 59:
+    Start transfer: 2024-10-30 07:29:41.259301119
+    Received chunk: 2024-10-30T07:29:41.268285508
+    Serialization: 2024-10-30T07:29:49.850422788
+  Task 60:
+    Start transfer: 2024-10-30 07:29:41.466379084
+    Received chunk: 2024-10-30T07:29:41.477952313
+    Serialization: 2024-10-30T07:29:49.759889289
+  Task 61:
+    Start transfer: 2024-10-30 07:29:41.721954013
+    Received chunk: 2024-10-30T07:29:41.731512479
+    Serialization: 2024-10-30T07:29:49.827712364
+  Task 62:
+    Start transfer: 2024-10-30 07:29:41.877368830
+    Received chunk: 2024-10-30T07:29:41.887057669
+    Serialization: 2024-10-30T07:29:49.835835461
+  Task 63:
+    Start transfer: 2024-10-30 07:29:42.080082801
+    Received chunk: 2024-10-30T07:29:42.089750949
+    Serialization: 2024-10-30T07:29:49.738953798
+  Task 64:
+    Start transfer: 2024-10-30 07:29:41.414690306
+    Received chunk: 2024-10-30T07:29:41.424312303
+    Serialization: 2024-10-30T07:29:49.782845096
+  Task 65:
+    Start transfer: 2024-10-30 07:29:41.572492772
+    Received chunk: 2024-10-30T07:29:41.582633296
+    Serialization: 2024-10-30T07:29:49.824910428
+  Task 66:
+    Start transfer: 2024-10-30 07:29:41.930092936
+    Received chunk: 2024-10-30T07:29:41.940454526
+    Serialization: 2024-10-30T07:29:49.842186575
+  Task 67:
+    Start transfer: 2024-10-30 07:29:42.179908204
+    Received chunk: 2024-10-30T07:29:42.189515772
+    Serialization: 2024-10-30T07:29:49.795157063
+  Task 68:
+    Start transfer: 2024-10-30 07:29:42.444303529
+    Received chunk: 2024-10-30T07:29:42.453703514
+    Serialization: 2024-10-30T07:29:49.849016721
+  Task 69:
+    Start transfer: 2024-10-30 07:29:41.823035531
+    Received chunk: 2024-10-30T07:29:41.832457471
+    Serialization: 2024-10-30T07:29:49.802660836
+  Task 70:
+    Start transfer: 2024-10-30 07:29:42.030570729
+    Received chunk: 2024-10-30T07:29:42.043149455
+    Serialization: 2024-10-30T07:29:49.852314685
+  Task 71:
+    Start transfer: 2024-10-30 07:29:42.292481504
+    Received chunk: 2024-10-30T07:29:42.303169558
+    Serialization: 2024-10-30T07:29:49.861292903
+  Task 72:
+    Start transfer: 2024-10-30 07:29:42.518886430
+    Received chunk: 2024-10-30T07:29:42.528197946
+    Serialization: 2024-10-30T07:29:49.868494240
+  Task 73:
+    Start transfer: 2024-10-30 07:29:42.236299214
+    Received chunk: 2024-10-30T07:29:42.246830627
+    Serialization: 2024-10-30T07:29:49.855963845
+  Task 74:
+    Start transfer: 2024-10-30 07:29:42.395061138
+    Received chunk: 2024-10-30T07:29:42.405503754
+    Serialization: 2024-10-30T07:29:49.751373936
+  Task 75:
+    Start transfer: 2024-10-30 07:29:42.569537760
+    Received chunk: 2024-10-30T07:29:42.579694109
+    Serialization: 2024-10-30T07:29:49.860212049
+  Task 76:
+    Start transfer: 2024-10-30 07:29:42.348455899
+    Received chunk: 2024-10-30T07:29:42.359633522
+    Serialization: 2024-10-30T07:29:49.866649217
+  Task 77:
+    Start transfer: 2024-10-30 07:29:38.586265136
+    Received chunk: 2024-10-30T07:29:38.599736194
+    Serialization: 2024-10-30T07:29:49.705517384
+  Task 78:
+    Start transfer: 2024-10-30 07:29:42.682324567
+    Received chunk: 2024-10-30T07:29:42.691301010
+    Serialization: 2024-10-30T07:29:49.741124402
+  Task 79:
+    Start transfer: 2024-10-30 07:29:42.625597936
+    Received chunk: 2024-10-30T07:29:42.634898207
+    Serialization: 2024-10-30T07:29:49.834377506
+  Task 80:
+    Start transfer: 2024-10-30 07:29:42.736066837
+    Received chunk: 2024-10-30T07:29:42.746394394
+    Serialization: 2024-10-30T07:29:49.870110445
+
+ROUND 100
+  Task 1:
+    Start transfer: 2024-10-30 07:30:15.739361276
+    Received chunk: 2024-10-30T07:30:15.748964455
+    Serialization: 2024-10-30T07:30:29.142649663
+  Task 2:
+    Start transfer: 2024-10-30 07:30:15.949837223
+    Received chunk: 2024-10-30T07:30:15.960089433
+    Serialization: 2024-10-30T07:30:29.268198713
+  Task 3:
+    Start transfer: 2024-10-30 07:30:16.149886958
+    Received chunk: 2024-10-30T07:30:16.159030081
+    Serialization: 2024-10-30T07:30:29.284484619
+  Task 4:
+    Start transfer: 2024-10-30 07:30:16.299029736
+    Received chunk: 2024-10-30T07:30:16.308261915
+    Serialization: 2024-10-30T07:30:29.297092962
+  Task 5:
+    Start transfer: 2024-10-30 07:30:16.509095976
+    Received chunk: 2024-10-30T07:30:16.518279841
+    Serialization: 2024-10-30T07:30:29.289673144
+  Task 6:
+    Start transfer: 2024-10-30 07:30:16.648224172
+    Received chunk: 2024-10-30T07:30:16.657828471
+    Serialization: 2024-10-30T07:30:29.302535612
+  Task 7:
+    Start transfer: 2024-10-30 07:30:16.854162766
+    Received chunk: 2024-10-30T07:30:16.863437430
+    Serialization: 2024-10-30T07:30:29.323764210
+  Task 8:
+    Start transfer: 2024-10-30 07:30:17.010045581
+    Received chunk: 2024-10-30T07:30:17.019516058
+    Serialization: 2024-10-30T07:30:29.819766007
+  Task 9:
+    Start transfer: 2024-10-30 07:30:17.203673758
+    Received chunk: 2024-10-30T07:30:17.212893936
+    Serialization: 2024-10-30T07:30:29.401303465
+  Task 10:
+    Start transfer: 2024-10-30 07:30:17.396330552
+    Received chunk: 2024-10-30T07:30:17.405364342
+    Serialization: 2024-10-30T07:30:29.405252430
+  Task 11:
+    Start transfer: 2024-10-30 07:30:17.619202015
+    Received chunk: 2024-10-30T07:30:17.628715844
+    Serialization: 2024-10-30T07:30:29.475468861
+  Task 12:
+    Start transfer: 2024-10-30 07:30:17.860840012
+    Received chunk: 2024-10-30T07:30:17.869633881
+    Serialization: 2024-10-30T07:30:29.479708536
+  Task 13:
+    Start transfer: 2024-10-30 07:30:18.109915075
+    Received chunk: 2024-10-30T07:30:18.118847380
+    Serialization: 2024-10-30T07:30:29.367148545
+  Task 14:
+    Start transfer: 2024-10-30 07:30:15.898534376
+    Received chunk: 2024-10-30T07:30:15.907665292
+    Serialization: 2024-10-30T07:30:29.829950526
+  Task 15:
+    Start transfer: 2024-10-30 07:30:16.195729909
+    Received chunk: 2024-10-30T07:30:16.205597841
+    Serialization: 2024-10-30T07:30:29.504439767
+  Task 16:
+    Start transfer: 2024-10-30 07:30:16.449066205
+    Received chunk: 2024-10-30T07:30:16.459129529
+    Serialization: 2024-10-30T07:30:29.326019801
+  Task 17:
+    Start transfer: 2024-10-30 07:30:16.741748353
+    Received chunk: 2024-10-30T07:30:16.750749804
+    Serialization: 2024-10-30T07:30:29.309156674
+  Task 18:
+    Start transfer: 2024-10-30 07:30:16.955861565
+    Received chunk: 2024-10-30T07:30:16.966737621
+    Serialization: 2024-10-30T07:30:29.292081159
+  Task 19:
+    Start transfer: 2024-10-30 07:30:17.159176226
+    Received chunk: 2024-10-30T07:30:17.169186990
+    Serialization: 2024-10-30T07:30:29.465541422
+  Task 20:
+    Start transfer: 2024-10-30 07:30:17.244644130
+    Received chunk: 2024-10-30T07:30:17.253898581
+    Serialization: 2024-10-30T07:30:29.332475103
+  Task 21:
+    Start transfer: 2024-10-30 07:30:17.458196853
+    Received chunk: 2024-10-30T07:30:17.468262288
+    Serialization: 2024-10-30T07:30:29.420479809
+  Task 22:
+    Start transfer: 2024-10-30 07:30:17.666749909
+    Received chunk: 2024-10-30T07:30:17.677597231
+    Serialization: 2024-10-30T07:30:29.473633747
+  Task 23:
+    Start transfer: 2024-10-30 07:30:17.764650344
+    Received chunk: 2024-10-30T07:30:17.773646686
+    Serialization: 2024-10-30T07:30:29.397504531
+  Task 24:
+    Start transfer: 2024-10-30 07:30:17.958969960
+    Received chunk: 2024-10-30T07:30:17.969302298
+    Serialization: 2024-10-30T07:30:29.431566675
+  Task 25:
+    Start transfer: 2024-10-30 07:30:18.162444420
+    Received chunk: 2024-10-30T07:30:18.171314943
+    Serialization: 2024-10-30T07:30:29.838662639
+  Task 26:
+    Start transfer: 2024-10-30 07:30:18.390708349
+    Received chunk: 2024-10-30T07:30:18.399693832
+    Serialization: 2024-10-30T07:30:29.328970093
+  Task 27:
+    Start transfer: 2024-10-30 07:30:18.595023576
+    Received chunk: 2024-10-30T07:30:18.605457930
+    Serialization: 2024-10-30T07:30:29.339802128
+  Task 28:
+    Start transfer: 2024-10-30 07:30:15.850936747
+    Received chunk: 2024-10-30T07:30:15.860302778
+    Serialization: 2024-10-30T07:30:29.257645944
+  Task 29:
+    Start transfer: 2024-10-30 07:30:16.051197282
+    Received chunk: 2024-10-30T07:30:16.060829072
+    Serialization: 2024-10-30T07:30:29.282531840
+  Task 30:
+    Start transfer: 2024-10-30 07:30:16.246752229
+    Received chunk: 2024-10-30T07:30:16.257318095
+    Serialization: 2024-10-30T07:30:29.294896999
+  Task 31:
+    Start transfer: 2024-10-30 07:30:16.392128163
+    Received chunk: 2024-10-30T07:30:16.401331311
+    Serialization: 2024-10-30T07:30:29.321525892
+  Task 32:
+    Start transfer: 2024-10-30 07:30:16.609095692
+    Received chunk: 2024-10-30T07:30:16.618817857
+    Serialization: 2024-10-30T07:30:29.320225041
+  Task 33:
+    Start transfer: 2024-10-30 07:30:16.792611247
+    Received chunk: 2024-10-30T07:30:16.801448770
+    Serialization: 2024-10-30T07:30:29.315162757
+  Task 34:
+    Start transfer: 2024-10-30 07:30:17.057386551
+    Received chunk: 2024-10-30T07:30:17.069417727
+    Serialization: 2024-10-30T07:30:29.780298093
+  Task 35:
+    Start transfer: 2024-10-30 07:30:17.343065360
+    Received chunk: 2024-10-30T07:30:17.352441896
+    Serialization: 2024-10-30T07:30:29.352974545
+  Task 36:
+    Start transfer: 2024-10-30 07:30:17.571029299
+    Received chunk: 2024-10-30T07:30:17.580351600
+    Serialization: 2024-10-30T07:30:29.466880739
+  Task 37:
+    Start transfer: 2024-10-30 07:30:17.812689951
+    Received chunk: 2024-10-30T07:30:17.822519204
+    Serialization: 2024-10-30T07:30:29.422484960
+  Task 38:
+    Start transfer: 2024-10-30 07:30:18.006729598
+    Received chunk: 2024-10-30T07:30:18.015865034
+    Serialization: 2024-10-30T07:30:29.296006801
+  Task 39:
+    Start transfer: 2024-10-30 07:30:18.206871823
+    Received chunk: 2024-10-30T07:30:18.216182223
+    Serialization: 2024-10-30T07:30:29.368731415
+  Task 40:
+    Start transfer: 2024-10-30 07:30:18.338814700
+    Received chunk: 2024-10-30T07:30:18.349381712
+    Serialization: 2024-10-30T07:30:29.370996402
+  Task 41:
+    Start transfer: 2024-10-30 07:30:15.800263709
+    Received chunk: 2024-10-30T07:30:15.802950165
+    Serialization: 2024-10-30T07:30:29.724784150
+  Task 42:
+    Start transfer: 2024-10-30 07:30:16.006860809
+    Received chunk: 2024-10-30T07:30:16.016431045
+    Serialization: 2024-10-30T07:30:29.281089577
+  Task 43:
+    Start transfer: 2024-10-30 07:30:16.097353552
+    Received chunk: 2024-10-30T07:30:16.107458350
+    Serialization: 2024-10-30T07:30:29.287620990
+  Task 44:
+    Start transfer: 2024-10-30 07:30:16.344819692
+    Received chunk: 2024-10-30T07:30:16.353853730
+    Serialization: 2024-10-30T07:30:29.305316060
+  Task 45:
+    Start transfer: 2024-10-30 07:30:16.561562476
+    Received chunk: 2024-10-30T07:30:16.571040658
+    Serialization: 2024-10-30T07:30:29.306951059
+  Task 46:
+    Start transfer: 2024-10-30 07:30:16.695400477
+    Received chunk: 2024-10-30T07:30:16.704395436
+    Serialization: 2024-10-30T07:30:29.314021601
+  Task 47:
+    Start transfer: 2024-10-30 07:30:16.902959480
+    Received chunk: 2024-10-30T07:30:16.911837021
+    Serialization: 2024-10-30T07:30:29.303972169
+  Task 48:
+    Start transfer: 2024-10-30 07:30:17.111468527
+    Received chunk: 2024-10-30T07:30:17.120491026
+    Serialization: 2024-10-30T07:30:29.351255841
+  Task 49:
+    Start transfer: 2024-10-30 07:30:17.296481320
+    Received chunk: 2024-10-30T07:30:17.306574789
+    Serialization: 2024-10-30T07:30:29.347426105
+  Task 50:
+    Start transfer: 2024-10-30 07:30:17.515896589
+    Received chunk: 2024-10-30T07:30:17.524700671
+    Serialization: 2024-10-30T07:30:29.375302751
+  Task 51:
+    Start transfer: 2024-10-30 07:30:17.716638781
+    Received chunk: 2024-10-30T07:30:17.726484038
+    Serialization: 2024-10-30T07:30:29.410740290
+  Task 52:
+    Start transfer: 2024-10-30 07:30:17.905895024
+    Received chunk: 2024-10-30T07:30:17.915135641
+    Serialization: 2024-10-30T07:30:29.360938382
+  Task 53:
+    Start transfer: 2024-10-30 07:30:18.057050728
+    Received chunk: 2024-10-30T07:30:18.066150450
+    Serialization: 2024-10-30T07:30:29.453619131
+  Task 54:
+    Start transfer: 2024-10-30 07:30:18.250601266
+    Received chunk: 2024-10-30T07:30:18.259781260
+    Serialization: 2024-10-30T07:30:29.377441611
+  Task 55:
+    Start transfer: 2024-10-30 07:30:18.449435063
+    Received chunk: 2024-10-30T07:30:18.462434195
+    Serialization: 2024-10-30T07:30:29.765379647
+  Task 56:
+    Start transfer: 2024-10-30 07:30:18.549491461
+    Received chunk: 2024-10-30T07:30:18.558920113
+    Serialization: 2024-10-30T07:30:29.477537854
+  Task 57:
+    Start transfer: 2024-10-30 07:30:18.294738869
+    Received chunk: 2024-10-30T07:30:18.303833169
+    Serialization: 2024-10-30T07:30:29.459080635
+  Task 58:
+    Start transfer: 2024-10-30 07:30:18.640127928
+    Received chunk: 2024-10-30T07:30:18.649358164
+    Serialization: 2024-10-30T07:30:29.342606865
+  Task 59:
+    Start transfer: 2024-10-30 07:30:18.850328841
+    Received chunk: 2024-10-30T07:30:18.859692201
+    Serialization: 2024-10-30T07:30:29.468775405
+  Task 60:
+    Start transfer: 2024-10-30 07:30:19.144900325
+    Received chunk: 2024-10-30T07:30:19.153985293
+    Serialization: 2024-10-30T07:30:29.384432214
+  Task 61:
+    Start transfer: 2024-10-30 07:30:19.392753616
+    Received chunk: 2024-10-30T07:30:19.401443770
+    Serialization: 2024-10-30T07:30:29.330806127
+  Task 62:
+    Start transfer: 2024-10-30 07:30:19.654714745
+    Received chunk: 2024-10-30T07:30:19.663804934
+    Serialization: 2024-10-30T07:30:29.362514368
+  Task 63:
+    Start transfer: 2024-10-30 07:30:19.861576150
+    Received chunk: 2024-10-30T07:30:19.871116545
+    Serialization: 2024-10-30T07:30:29.403844270
+  Task 64:
+    Start transfer: 2024-10-30 07:30:20.011335513
+    Received chunk: 2024-10-30T07:30:20.020700105
+    Serialization: 2024-10-30T07:30:29.451146066
+  Task 65:
+    Start transfer: 2024-10-30 07:30:20.227972255
+    Received chunk: 2024-10-30T07:30:20.237114624
+    Serialization: 2024-10-30T07:30:29.380076586
+  Task 66:
+    Start transfer: 2024-10-30 07:30:20.371809101
+    Received chunk: 2024-10-30T07:30:20.381225638
+    Serialization: 2024-10-30T07:30:29.388115487
+  Task 67:
+    Start transfer: 2024-10-30 07:30:20.590993995
+    Received chunk: 2024-10-30T07:30:20.601135668
+    Serialization: 2024-10-30T07:30:29.335822898
+  Task 68:
+    Start transfer: 2024-10-30 07:30:20.692390334
+    Received chunk: 2024-10-30T07:30:20.701798558
+    Serialization: 2024-10-30T07:30:29.440661809
+  Task 69:
+    Start transfer: 2024-10-30 07:30:18.500152781
+    Received chunk: 2024-10-30T07:30:18.509619989
+    Serialization: 2024-10-30T07:30:29.364120279
+  Task 70:
+    Start transfer: 2024-10-30 07:30:18.692248263
+    Received chunk: 2024-10-30T07:30:18.701517904
+    Serialization: 2024-10-30T07:30:29.316590904
+  Task 71:
+    Start transfer: 2024-10-30 07:30:18.908967649
+    Received chunk: 2024-10-30T07:30:18.918037497
+    Serialization: 2024-10-30T07:30:29.356171773
+  Task 72:
+    Start transfer: 2024-10-30 07:30:19.090291006
+    Received chunk: 2024-10-30T07:30:19.099417529
+    Serialization: 2024-10-30T07:30:29.457411909
+  Task 73:
+    Start transfer: 2024-10-30 07:30:19.330520288
+    Received chunk: 2024-10-30T07:30:19.340012804
+    Serialization: 2024-10-30T07:30:29.399366621
+  Task 74:
+    Start transfer: 2024-10-30 07:30:19.548261701
+    Received chunk: 2024-10-30T07:30:19.558989114
+    Serialization: 2024-10-30T07:30:29.423961907
+  Task 75:
+    Start transfer: 2024-10-30 07:30:19.717472538
+    Received chunk: 2024-10-30T07:30:19.726959226
+    Serialization: 2024-10-30T07:30:29.359628207
+  Task 76:
+    Start transfer: 2024-10-30 07:30:19.906395176
+    Received chunk: 2024-10-30T07:30:19.914934248
+    Serialization: 2024-10-30T07:30:29.414096135
+  Task 77:
+    Start transfer: 2024-10-30 07:30:20.171822183
+    Received chunk: 2024-10-30T07:30:20.181179470
+    Serialization: 2024-10-30T07:30:29.836576957
+  Task 78:
+    Start transfer: 2024-10-30 07:30:18.803297281
+    Received chunk: 2024-10-30T07:30:18.812621683
+    Serialization: 2024-10-30T07:30:29.456014807
+  Task 79:
+    Start transfer: 2024-10-30 07:30:18.963146703
+    Received chunk: 2024-10-30T07:30:18.973608480
+    Serialization: 2024-10-30T07:30:29.447881494
+  Task 80:
+    Start transfer: 2024-10-30 07:30:19.214338
+    Received chunk: 2024-10-30T07:30:19.223397513
+    Serialization: 2024-10-30T07:30:29.391243202
+  Task 81:
+    Start transfer: 2024-10-30 07:30:19.440749294
+    Received chunk: 2024-10-30T07:30:19.451085826
+    Serialization: 2024-10-30T07:30:29.427034227
+  Task 82:
+    Start transfer: 2024-10-30 07:30:19.601816766
+    Received chunk: 2024-10-30T07:30:19.611728007
+    Serialization: 2024-10-30T07:30:29.436406037
+  Task 83:
+    Start transfer: 2024-10-30 07:30:19.771513165
+    Received chunk: 2024-10-30T07:30:19.780822425
+    Serialization: 2024-10-30T07:30:29.386461491
+  Task 84:
+    Start transfer: 2024-10-30 07:30:18.745102799
+    Received chunk: 2024-10-30T07:30:18.754849545
+    Serialization: 2024-10-30T07:30:29.349811433
+  Task 85:
+    Start transfer: 2024-10-30 07:30:19.031194933
+    Received chunk: 2024-10-30T07:30:19.041808673
+    Serialization: 2024-10-30T07:30:29.412248520
+  Task 86:
+    Start transfer: 2024-10-30 07:30:19.276590327
+    Received chunk: 2024-10-30T07:30:19.285801514
+    Serialization: 2024-10-30T07:30:29.346279220
+  Task 87:
+    Start transfer: 2024-10-30 07:30:19.493623799
+    Received chunk: 2024-10-30T07:30:19.503191768
+    Serialization: 2024-10-30T07:30:29.344458772
+  Task 88:
+    Start transfer: 2024-10-30 07:30:19.823071041
+    Received chunk: 2024-10-30T07:30:19.832223198
+    Serialization: 2024-10-30T07:30:29.394106857
+  Task 89:
+    Start transfer: 2024-10-30 07:30:19.954977449
+    Received chunk: 2024-10-30T07:30:19.965663911
+    Serialization: 2024-10-30T07:30:29.442133482
+  Task 90:
+    Start transfer: 2024-10-30 07:30:20.119569105
+    Received chunk: 2024-10-30T07:30:20.128044368
+    Serialization: 2024-10-30T07:30:29.439442540
+  Task 91:
+    Start transfer: 2024-10-30 07:30:20.325346915
+    Received chunk: 2024-10-30T07:30:20.334117373
+    Serialization: 2024-10-30T07:30:29.446720958
+  Task 92:
+    Start transfer: 2024-10-30 07:30:20.532383431
+    Received chunk: 2024-10-30T07:30:20.542450094
+    Serialization: 2024-10-30T07:30:29.836012275
+  Task 93:
+    Start transfer: 2024-10-30 07:30:20.069799497
+    Received chunk: 2024-10-30T07:30:20.078720363
+    Serialization: 2024-10-30T07:30:29.425449800
+  Task 94:
+    Start transfer: 2024-10-30 07:30:20.276521832
+    Received chunk: 2024-10-30T07:30:20.285223621
+    Serialization: 2024-10-30T07:30:29.383212096
+  Task 95:
+    Start transfer: 2024-10-30 07:30:20.481196622
+    Received chunk: 2024-10-30T07:30:20.490658508
+    Serialization: 2024-10-30T07:30:29.373824696
+  Task 96:
+    Start transfer: 2024-10-30 07:30:20.425547195
+    Received chunk: 2024-10-30T07:30:20.434031298
+    Serialization: 2024-10-30T07:30:29.463840872
+  Task 97:
+    Start transfer: 2024-10-30 07:30:15.687081818
+    Received chunk: 2024-10-30T07:30:15.698337364
+    Serialization: 2024-10-30T07:30:29.155009650
+  Task 98:
+    Start transfer: 2024-10-30 07:30:20.644971236
+    Received chunk: 2024-10-30T07:30:20.654405420
+    Serialization: 2024-10-30T07:30:29.392403484
+  Task 99:
+    Start transfer: 2024-10-30 07:30:20.743227349
+    Received chunk: 2024-10-30T07:30:20.752489518
+    Serialization: 2024-10-30T07:30:29.406770761
+  Task 100:
+    Start transfer: 2024-10-30 07:30:20.808173462
+    Received chunk: 2024-10-30T07:30:20.819105521
+    Serialization: 2024-10-30T07:30:29.416488106

@@ -1,0 +1,103 @@
+start transfer of 104857600 at 2024-09-14 10:29:13.483834349 UTC
+
+Received chunk of size: 104857602 at 2024-09-14T10:29:14.557794157Z
+After serialization at 2024-09-14T10:29:14.653899728Z
+
+ROUND 1MB
+
+start transfer of 1048576 at 2024-09-14 15:27:01.754342230 UTC
+
+Received chunk of size: 1048576 at 2024-09-14T15:27:01.768923816Z
+After serialization at 2024-09-14T15:27:01.771285654Z
+
+ROUND 2MB
+
+start transfer of 2097152 at 2024-09-14 15:31:39.653705753 UTC
+
+Received chunk of size: 2097152 at 2024-09-14T15:31:39.678096686Z
+After serialization at 2024-09-14T15:31:39.679787059Z
+
+ROUND 4MB
+
+start transfer of 4194304 at 2024-09-14 15:32:12.478655443 UTC
+
+Received chunk of size: 4194304 at 2024-09-14T15:32:12.520238768Z
+After serialization at 2024-09-14T15:32:12.524021654Z
+
+ROUND 6MB
+
+start transfer of 6291456 at 2024-09-14 15:32:54.807708306 UTC
+
+Received chunk of size: 6291456 at 2024-09-14T15:32:54.869596214Z
+After serialization at 2024-09-14T15:32:54.878575366Z
+
+ROUND 8MB
+
+start transfer of 8388608 at 2024-09-14 15:33:25.447789667 UTC
+
+Received chunk of size: 8388608 at 2024-09-14T15:33:25.529860694Z
+After serialization at 2024-09-14T15:33:25.536952024Z
+
+ROUND 10MB
+
+start transfer of 10485760 at 2024-09-14 15:33:54.339074012 UTC
+
+Received chunk of size: 10485760 at 2024-09-14T15:33:54.438787648Z
+After serialization at 2024-09-14T15:33:54.447470829Z
+
+ROUND 20MB
+
+start transfer of 20971520 at 2024-09-14 15:34:21.580046571 UTC
+
+Received chunk of size: 20971520 at 2024-09-14T15:34:21.782566724Z
+After serialization at 2024-09-14T15:34:21.801787757Z
+
+ROUND 40MB
+
+start transfer of 41943040 at 2024-09-14 15:34:54.823774751 UTC
+
+Received chunk of size: 41943040 at 2024-09-14T15:34:55.222019154Z
+After serialization at 2024-09-14T15:34:55.265217990Z
+
+ROUND 60MB
+
+start transfer of 62914560 at 2024-09-14 15:35:30.271529901 UTC
+
+Received chunk of size: 62914560 at 2024-09-14T15:35:30.864732702Z
+After serialization at 2024-09-14T15:35:30.937954948Z
+
+ROUND 100MB
+
+start transfer of 104857600 at 2024-09-14 10:29:13.483834349 UTC
+
+Received chunk of size: 104857602 at 2024-09-14T10:29:14.557794157Z
+After serialization at 2024-09-14T10:29:14.653899728Z
+
+ROUND 200 MB
+
+start transfer of 209715200 at 2024-09-14 16:38:12.152805656 UTC
+
+Received chunk of size: 209715200 at 2024-09-14T16:38:14.152268191Z
+After serialization at 2024-09-14T16:38:14.346417119Z
+
+ROUND 300 MB
+
+start transfer of 314572800 at 2024-09-14 16:39:26.484763959 UTC
+
+Received chunk of size: 314572800 at 2024-09-14T16:39:29.452511052Z
+After serialization at 2024-09-14T16:39:29.742635876Z
+
+ROUND 400MB
+
+start transfer of 419430400 at 2024-09-14 16:40:17.367687137 UTC
+
+Received chunk of size: 419430400 at 2024-09-14T16:40:21.465503831Z
+After serialization at 2024-09-14T16:40:21.848310329Z
+
+ROUND 500 MB
+
+start transfer of 524288000 at 2024-09-14 16:41:00.650275912 UTC
+
+Received chunk of size: 524288000 at 2024-09-14T16:41:05.810425399Z
+After serialization at 2024-09-14T16:41:06.284635807Z
+

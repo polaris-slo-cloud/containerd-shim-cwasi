@@ -1,0 +1,3155 @@
+ROUND 1
+
+Listening on http://0.0.0.0:8080
+
+Starting task 1
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:24:36.624078987 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:24:36.650027245Z
+After serialization at 2024-10-28T21:24:36.833695899Z
+Finished task 1
+All tasks completed.
+
+
+ROUND 10
+
+ROUND file_10M.txt
+Listening on http://0.0.0.0:8080
+
+Starting task 1
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:27:02.700804258 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:27:02.723583962Z
+After serialization at 2024-10-28T21:27:02.900598884Z
+Finished task 1
+Starting task 2
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:27:02.972695458 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:27:02.985868524Z
+After serialization at 2024-10-28T21:27:03.168669874Z
+Finished task 2
+Starting task 3
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:27:03.210900048 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:27:03.221441144Z
+After serialization at 2024-10-28T21:27:03.397516129Z
+Finished task 3
+Starting task 4
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:27:03.437232627 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:27:03.448539953Z
+After serialization at 2024-10-28T21:27:03.623717727Z
+Finished task 4
+Starting task 5
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:27:03.686001895 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:27:03.695133075Z
+After serialization at 2024-10-28T21:27:03.868766518Z
+Finished task 5
+Starting task 6
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:27:03.915739395 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:27:03.925482542Z
+After serialization at 2024-10-28T21:27:04.099154144Z
+Finished task 6
+Starting task 7
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:27:04.140062085 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:27:04.148723040Z
+After serialization at 2024-10-28T21:27:04.322856005Z
+Finished task 7
+Starting task 8
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:27:04.375665844 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:27:04.384421792Z
+After serialization at 2024-10-28T21:27:04.563601436Z
+Finished task 8
+Starting task 9
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:27:04.615397752 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:27:04.624612507Z
+After serialization at 2024-10-28T21:27:04.803579901Z
+Finished task 9
+Starting task 10
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:27:04.882060333 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:27:04.892076763Z
+After serialization at 2024-10-28T21:27:05.069748268Z
+Finished task 10
+All tasks completed.
+
+
+ROUND 20
+
+ROUND file_10M.txt
+Listening on http://0.0.0.0:8080
+
+Starting task 1
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:47.665661354 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:47.690665357Z
+After serialization at 2024-10-28T21:29:47.864238586Z
+Finished task 1
+Starting task 2
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:47.909322343 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:47.918062873Z
+After serialization at 2024-10-28T21:29:48.091770410Z
+Finished task 2
+Starting task 3
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:48.142093433 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:48.151752479Z
+After serialization at 2024-10-28T21:29:48.341206223Z
+Finished task 3
+Starting task 4
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:48.396269498 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:48.405776913Z
+After serialization at 2024-10-28T21:29:48.580779799Z
+Finished task 4
+Starting task 5
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:48.627063255 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:48.639367063Z
+After serialization at 2024-10-28T21:29:48.816979733Z
+Finished task 5
+Starting task 6
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:48.875520771 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:48.884776616Z
+After serialization at 2024-10-28T21:29:49.057971644Z
+Finished task 6
+Starting task 7
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:49.096993880 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:49.106044310Z
+After serialization at 2024-10-28T21:29:49.288365735Z
+Finished task 7
+Starting task 8
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:49.343564370 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:49.354794433Z
+After serialization at 2024-10-28T21:29:49.528861171Z
+Finished task 8
+Starting task 9
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:49.587647555 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:49.597105133Z
+After serialization at 2024-10-28T21:29:49.787398451Z
+Finished task 9
+Starting task 10
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:49.837589648 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:49.846800728Z
+After serialization at 2024-10-28T21:29:50.020045206Z
+Finished task 10
+Starting task 11
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:50.080965591 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:50.093012707Z
+After serialization at 2024-10-28T21:29:50.271897498Z
+Finished task 11
+Starting task 12
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:50.311225939 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:50.319814859Z
+After serialization at 2024-10-28T21:29:50.493902531Z
+Finished task 12
+Starting task 13
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:50.539325445 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:50.547778260Z
+After serialization at 2024-10-28T21:29:50.723370861Z
+Finished task 13
+Starting task 14
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:50.763216835 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:50.771633322Z
+After serialization at 2024-10-28T21:29:50.946361863Z
+Finished task 14
+Starting task 15
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:50.991812952 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:51.002561410Z
+After serialization at 2024-10-28T21:29:51.181817751Z
+Finished task 15
+Starting task 16
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:51.248762523 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:51.258159650Z
+After serialization at 2024-10-28T21:29:51.438490915Z
+Finished task 16
+Starting task 17
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:51.487590068 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:51.496656403Z
+After serialization at 2024-10-28T21:29:51.672798612Z
+Finished task 17
+Starting task 18
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:51.720163645 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:51.729616310Z
+After serialization at 2024-10-28T21:29:51.904227330Z
+Finished task 18
+Starting task 19
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:51.963946670 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:51.972395795Z
+After serialization at 2024-10-28T21:29:52.146594537Z
+Finished task 19
+Starting task 20
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:29:52.190780288 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:29:52.199594282Z
+After serialization at 2024-10-28T21:29:52.374237606Z
+Finished task 20
+All tasks completed.
+
+ROUND 40
+
+
+Listening on http://0.0.0.0:8080
+
+Starting task 1
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:30:59.272612430 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:30:59.292714901Z
+After serialization at 2024-10-28T21:30:59.466834551Z
+Finished task 1
+Starting task 2
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:30:59.525142386 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:30:59.535953364Z
+After serialization at 2024-10-28T21:30:59.713348422Z
+Finished task 2
+Starting task 3
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:30:59.767457267 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:30:59.778953272Z
+After serialization at 2024-10-28T21:30:59.952990844Z
+Finished task 3
+Starting task 4
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:00.004304998 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:00.012480285Z
+After serialization at 2024-10-28T21:31:00.186164241Z
+Finished task 4
+Starting task 5
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:00.250270630 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:00.262495323Z
+After serialization at 2024-10-28T21:31:00.438471085Z
+Finished task 5
+Starting task 6
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:00.485612487 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:00.494036084Z
+After serialization at 2024-10-28T21:31:00.677926061Z
+Finished task 6
+Starting task 7
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:00.729448522 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:00.739533370Z
+After serialization at 2024-10-28T21:31:00.914630388Z
+Finished task 7
+Starting task 8
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:00.974145846 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:00.982444701Z
+After serialization at 2024-10-28T21:31:01.168244775Z
+Finished task 8
+Starting task 9
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:01.220788261 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:01.230601631Z
+After serialization at 2024-10-28T21:31:01.411262664Z
+Finished task 9
+Starting task 10
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:01.469777897 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:01.478630540Z
+After serialization at 2024-10-28T21:31:01.654330017Z
+Finished task 10
+Starting task 11
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:01.704296502 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:01.714418918Z
+After serialization at 2024-10-28T21:31:01.894645807Z
+Finished task 11
+Starting task 12
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:01.945593287 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:01.954724400Z
+After serialization at 2024-10-28T21:31:02.131908834Z
+Finished task 12
+Starting task 13
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:02.184816225 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:02.193210235Z
+After serialization at 2024-10-28T21:31:02.367595481Z
+Finished task 13
+Starting task 14
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:02.415788139 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:02.426029837Z
+After serialization at 2024-10-28T21:31:02.601437804Z
+Finished task 14
+Starting task 15
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:02.656189612 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:02.665599215Z
+After serialization at 2024-10-28T21:31:02.842054410Z
+Finished task 15
+Starting task 16
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:02.896831373 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:02.907957514Z
+After serialization at 2024-10-28T21:31:03.082034446Z
+Finished task 16
+Starting task 17
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:03.128660623 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:03.136848056Z
+After serialization at 2024-10-28T21:31:03.311367296Z
+Finished task 17
+Starting task 18
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:03.364182943 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:03.372631057Z
+After serialization at 2024-10-28T21:31:03.546714227Z
+Finished task 18
+Starting task 19
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:03.598203945 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:03.607743774Z
+After serialization at 2024-10-28T21:31:03.784048622Z
+Finished task 19
+Starting task 20
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:03.829793588 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:03.840867792Z
+After serialization at 2024-10-28T21:31:04.017472335Z
+Finished task 20
+Starting task 21
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:04.067808224 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:04.078298144Z
+After serialization at 2024-10-28T21:31:04.257468814Z
+Finished task 21
+Starting task 22
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:04.303285649 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:04.314236410Z
+After serialization at 2024-10-28T21:31:04.492911457Z
+Finished task 22
+Starting task 23
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:04.545769769 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:04.559808577Z
+After serialization at 2024-10-28T21:31:04.737854141Z
+Finished task 23
+Starting task 24
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:04.788926576 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:04.799850314Z
+After serialization at 2024-10-28T21:31:04.983717944Z
+Finished task 24
+Starting task 25
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:05.034427436 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:05.042977587Z
+After serialization at 2024-10-28T21:31:05.217768041Z
+Finished task 25
+Starting task 26
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:05.267696407 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:05.275910255Z
+After serialization at 2024-10-28T21:31:05.450156472Z
+
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+
+Finished task 26
+Starting task 27
+Connect to "http://127.0.0.1:8080/"
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:05.496301894 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:05.505473457Z
+After serialization at 2024-10-28T21:31:05.679341106Z
+Finished task 27
+Starting task 28
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:05.725113151 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:05.733514804Z
+After serialization at 2024-10-28T21:31:05.907478187Z
+Finished task 28
+Starting task 29
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:05.963114588 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:05.973734396Z
+After serialization at 2024-10-28T21:31:06.149912593Z
+Finished task 29
+Starting task 30
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:06.202240835 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:06.210961416Z
+After serialization at 2024-10-28T21:31:06.384302530Z
+Finished task 30
+Starting task 31
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:06.430787150 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:06.439296010Z
+After serialization at 2024-10-28T21:31:06.613402372Z
+Finished task 31
+Starting task 32
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:06.669358565 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:06.679241394Z
+After serialization at 2024-10-28T21:31:06.852615725Z
+Finished task 32
+Starting task 33
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:06.896457322 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:06.904774028Z
+After serialization at 2024-10-28T21:31:07.080868422Z
+Finished task 33
+Starting task 34
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:07.134910662 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:07.144872293Z
+After serialization at 2024-10-28T21:31:07.322059207Z
+Finished task 34
+Starting task 35
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:07.366035437 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:07.375361486Z
+After serialization at 2024-10-28T21:31:07.549469616Z
+Finished task 35
+Starting task 36
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:07.597537407 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:07.606010901Z
+After serialization at 2024-10-28T21:31:07.779545413Z
+Finished task 36
+Starting task 37
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:07.831991037 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:07.840378687Z
+After serialization at 2024-10-28T21:31:08.014017756Z
+Finished task 37
+Starting task 38
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:08.067096887 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:08.075954708Z
+After serialization at 2024-10-28T21:31:08.252162707Z
+Finished task 38
+Starting task 39
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:08.307510926 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:08.315624942Z
+After serialization at 2024-10-28T21:31:08.493085310Z
+Finished task 39
+Starting task 40
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:31:08.556588300 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:31:08.564856147Z
+After serialization at 2024-10-28T21:31:08.739947945Z
+Finished task 40
+All tasks completed.
+
+ROUND 60 
+
+Starting task 1
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:29.565379693 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:29.590048929Z
+After serialization at 2024-10-28T21:32:29.765272054Z
+Finished task 1
+Starting task 2
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:29.813687287 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:29.822371879Z
+After serialization at 2024-10-28T21:32:29.998958349Z
+Finished task 2
+Starting task 3
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:30.046454197 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:30.056252456Z
+After serialization at 2024-10-28T21:32:30.230991100Z
+Finished task 3
+Starting task 4
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:30.286551637 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:30.296548301Z
+After serialization at 2024-10-28T21:32:30.470238576Z
+Finished task 4
+Starting task 5
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:30.512892374 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:30.521109451Z
+After serialization at 2024-10-28T21:32:30.696006889Z
+Finished task 5
+Starting task 6
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:30.735629152 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:30.743900356Z
+After serialization at 2024-10-28T21:32:30.918374361Z
+Finished task 6
+Starting task 7
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:30.968412990 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:30.976577168Z
+After serialization at 2024-10-28T21:32:31.167448241Z
+Finished task 7
+Starting task 8
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:31.204882306 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:31.213397660Z
+After serialization at 2024-10-28T21:32:31.389103448Z
+Finished task 8
+Starting task 9
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:31.434131333 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:31.442496672Z
+After serialization at 2024-10-28T21:32:31.617750251Z
+Finished task 9
+Starting task 10
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:31.666902674 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:31.675157762Z
+After serialization at 2024-10-28T21:32:31.849312546Z
+Finished task 10
+Starting task 11
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:31.904936849 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:31.913582220Z
+After serialization at 2024-10-28T21:32:32.088585280Z
+Finished task 11
+Starting task 12
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:32.147110187 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:32.155915381Z
+After serialization at 2024-10-28T21:32:32.345179965Z
+Finished task 12
+Starting task 13
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:32.390981863 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:32.399358982Z
+After serialization at 2024-10-28T21:32:32.575528838Z
+Finished task 13
+Starting task 14
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:32.629621913 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:32.638318449Z
+After serialization at 2024-10-28T21:32:32.813669846Z
+Finished task 14
+Starting task 15
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:32.874894673 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:32.883764345Z
+After serialization at 2024-10-28T21:32:33.060063796Z
+Finished task 15
+Starting task 16
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:33.107770081 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:33.117761326Z
+After serialization at 2024-10-28T21:32:33.291648221Z
+Finished task 16
+Starting task 17
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:33.339265056 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:33.347841005Z
+After serialization at 2024-10-28T21:32:33.522068705Z
+Finished task 17
+Starting task 18
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:33.562149279 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:33.571675979Z
+After serialization at 2024-10-28T21:32:33.747441344Z
+Finished task 18
+Starting task 19
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:33.809269686 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:33.817646811Z
+After serialization at 2024-10-28T21:32:33.993528979Z
+Finished task 19
+Starting task 20
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:34.048040765 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:34.057607175Z
+After serialization at 2024-10-28T21:32:34.237266907Z
+Finished task 20
+Starting task 21
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:34.287478684 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:34.296260059Z
+After serialization at 2024-10-28T21:32:34.470528588Z
+Finished task 21
+Starting task 22
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:34.526399684 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:34.535613887Z
+After serialization at 2024-10-28T21:32:34.710299357Z
+Finished task 22
+Starting task 23
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:34.768205709 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:34.777568849Z
+After serialization at 2024-10-28T21:32:34.951895669Z
+Finished task 23
+Starting task 24
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:34.998095297 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:35.010751527Z
+After serialization at 2024-10-28T21:32:35.187397168Z
+Finished task 24
+Starting task 25
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:35.239367440 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:35.248165697Z
+After serialization at 2024-10-28T21:32:35.424899852Z
+Finished task 25
+Starting task 26
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:35.472454457 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:35.480717634Z
+After serialization at 2024-10-28T21:32:35.655469872Z
+Finished task 26
+Starting task 27
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:35.703885562 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:35.712612352Z
+After serialization at 2024-10-28T21:32:35.889721840Z
+Finished task 27
+Starting task 28
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:35.942829685 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:35.951870267Z
+After serialization at 2024-10-28T21:32:36.137207873Z
+Finished task 28
+Starting task 29
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:36.192874226 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:36.201824094Z
+After serialization at 2024-10-28T21:32:36.377771223Z
+Finished task 29
+Starting task 30
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:36.420531634 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:36.430081920Z
+After serialization at 2024-10-28T21:32:36.606567621Z
+Finished task 30
+Starting task 31
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:36.654946156 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:36.663461325Z
+After serialization at 2024-10-28T21:32:36.840514265Z
+Finished task 31
+Starting task 32
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:36.884963423 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:36.893920870Z
+After serialization at 2024-10-28T21:32:37.081097095Z
+Finished task 32
+Starting task 33
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:37.135860822 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:37.144167315Z
+After serialization at 2024-10-28T21:32:37.328920367Z
+Finished task 33
+Starting task 34
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:37.379004208 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:37.387970237Z
+After serialization at 2024-10-28T21:32:37.575223307Z
+Finished task 34
+Starting task 35
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:37.627135057 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:37.635697909Z
+After serialization at 2024-10-28T21:32:37.810427518Z
+Finished task 35
+Starting task 36
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:37.861411657 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:37.870563266Z
+After serialization at 2024-10-28T21:32:38.048478422Z
+Finished task 36
+Starting task 37
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:38.099041531 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:38.107624511Z
+After serialization at 2024-10-28T21:32:38.286862532Z
+Finished task 37
+Starting task 38
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:38.334612029 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:38.344154857Z
+After serialization at 2024-10-28T21:32:38.522547325Z
+Finished task 38
+Starting task 39
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:38.564667172 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:38.572838197Z
+After serialization at 2024-10-28T21:32:38.748503611Z
+Finished task 39
+Starting task 40
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:38.793541170 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:38.801842018Z
+After serialization at 2024-10-28T21:32:38.976404128Z
+Finished task 40
+Starting task 41
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:39.020341440 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:39.028404583Z
+After serialization at 2024-10-28T21:32:39.202186610Z
+Finished task 41
+Starting task 42
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:39.258349741 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:39.266442856Z
+After serialization at 2024-10-28T21:32:39.439844295Z
+Finished task 42
+Starting task 43
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:39.494471973 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:39.505622899Z
+After serialization at 2024-10-28T21:32:39.680404617Z
+Finished task 43
+Starting task 44
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:39.735474455 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:39.749722691Z
+After serialization at 2024-10-28T21:32:39.925842098Z
+Finished task 44
+Starting task 45
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:39.978408529 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:39.987021920Z
+After serialization at 2024-10-28T21:32:40.160991031Z
+Finished task 45
+Starting task 46
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:40.214610137 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:40.223776518Z
+After serialization at 2024-10-28T21:32:40.396124624Z
+Finished task 46
+Starting task 47
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:40.454178575 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:40.462775580Z
+After serialization at 2024-10-28T21:32:40.636319332Z
+Finished task 47
+Starting task 48
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:40.684246443 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:40.693745269Z
+After serialization at 2024-10-28T21:32:40.870493364Z
+Finished task 48
+Starting task 49
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:40.919553580 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:40.929330425Z
+After serialization at 2024-10-28T21:32:41.104837916Z
+Finished task 49
+Starting task 50
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:41.162505782 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:41.174166204Z
+After serialization at 2024-10-28T21:32:41.347912121Z
+Finished task 50
+Starting task 51
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:41.399443240 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:41.407414687Z
+After serialization at 2024-10-28T21:32:41.581125260Z
+Finished task 51
+Starting task 52
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:41.631741558 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:41.641544604Z
+After serialization at 2024-10-28T21:32:41.816624998Z
+Finished task 52
+Starting task 53
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:41.869255588 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:41.877882519Z
+After serialization at 2024-10-28T21:32:42.060838092Z
+Finished task 53
+Starting task 54
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:42.116720620 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:42.125650769Z
+After serialization at 2024-10-28T21:32:42.306601946Z
+Finished task 54
+Starting task 55
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:42.361686399 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:42.370523942Z
+After serialization at 2024-10-28T21:32:42.546048541Z
+Finished task 55
+Starting task 56
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:42.600783227 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:42.610066711Z
+After serialization at 2024-10-28T21:32:42.784098579Z
+Finished task 56
+Starting task 57
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:42.827129528 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:42.836119422Z
+After serialization at 2024-10-28T21:32:43.011339730Z
+Finished task 57
+Starting task 58
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:43.066543252 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:43.074820950Z
+After serialization at 2024-10-28T21:32:43.258023294Z
+Finished task 58
+Starting task 59
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:43.314283761 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:43.323836790Z
+After serialization at 2024-10-28T21:32:43.498888348Z
+Finished task 59
+Starting task 60
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:32:43.543883371 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:32:43.554019196Z
+After serialization at 2024-10-28T21:32:43.730944987Z
+Finished task 60
+All tasks completed.
+
+
+ROUND 80
+
+Starting task 1
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:24.706215263 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:24.731176207Z
+After serialization at 2024-10-28T21:35:24.907845839Z
+Finished task 1
+Starting task 2
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:24.950760043 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:24.961477705Z
+After serialization at 2024-10-28T21:35:25.142944517Z
+Finished task 2
+Starting task 3
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:25.185641176 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:25.195804533Z
+After serialization at 2024-10-28T21:35:25.371596826Z
+Finished task 3
+Starting task 4
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:25.422779801 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:25.431819088Z
+After serialization at 2024-10-28T21:35:25.605253393Z
+Finished task 4
+Starting task 5
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:25.656021794 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:25.665099872Z
+After serialization at 2024-10-28T21:35:25.843540720Z
+Finished task 5
+Starting task 6
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:25.893979428 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:25.906527404Z
+After serialization at 2024-10-28T21:35:26.090341550Z
+Finished task 6
+Starting task 7
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:26.135305770 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:26.146702619Z
+After serialization at 2024-10-28T21:35:26.322610270Z
+Finished task 7
+Starting task 8
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:26.373464408 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:26.382815119Z
+After serialization at 2024-10-28T21:35:26.558458891Z
+Finished task 8
+Starting task 9
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:26.605749940 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:26.614317215Z
+After serialization at 2024-10-28T21:35:26.788109636Z
+Finished task 9
+Starting task 10
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:26.839448062 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:26.848435774Z
+After serialization at 2024-10-28T21:35:27.026797272Z
+Finished task 10
+Starting task 11
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:27.072998109 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:27.081556796Z
+After serialization at 2024-10-28T21:35:27.257082734Z
+Finished task 11
+Starting task 12
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:27.310490583 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:27.321539184Z
+After serialization at 2024-10-28T21:35:27.497102941Z
+Finished task 12
+Starting task 13
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:27.557122174 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:27.568940311Z
+After serialization at 2024-10-28T21:35:27.744169248Z
+Finished task 13
+Starting task 14
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:27.786069932 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:27.795619325Z
+After serialization at 2024-10-28T21:35:27.969869929Z
+Finished task 14
+Starting task 15
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:28.009329513 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:28.017673177Z
+After serialization at 2024-10-28T21:35:28.193205228Z
+Finished task 15
+Starting task 16
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:28.239625579 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:28.249027787Z
+After serialization at 2024-10-28T21:35:28.423685790Z
+Finished task 16
+Starting task 17
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:28.477888377 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:28.487787822Z
+After serialization at 2024-10-28T21:35:28.664199728Z
+Finished task 17
+Starting task 18
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:28.713228689 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:28.722576307Z
+After serialization at 2024-10-28T21:35:28.898034379Z
+Finished task 18
+Starting task 19
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:28.951029236 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:28.960019975Z
+After serialization at 2024-10-28T21:35:29.135275627Z
+Finished task 19
+Starting task 20
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:29.180368188 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:29.189173122Z
+After serialization at 2024-10-28T21:35:29.364200676Z
+Finished task 20
+Starting task 21
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:29.409616738 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:29.418489029Z
+After serialization at 2024-10-28T21:35:29.592158412Z
+Finished task 21
+Starting task 22
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:29.627612923 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:29.637033826Z
+After serialization at 2024-10-28T21:35:29.810712537Z
+Finished task 22
+Starting task 23
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:29.859452527 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:29.868095002Z
+After serialization at 2024-10-28T21:35:30.042899059Z
+Finished task 23
+Starting task 24
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:30.092403554 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:30.102922207Z
+After serialization at 2024-10-28T21:35:30.276480782Z
+Finished task 24
+Starting task 25
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:30.321867164 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:30.332322371Z
+After serialization at 2024-10-28T21:35:30.506658102Z
+Finished task 25
+Starting task 26
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:30.561629470 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:30.572942456Z
+After serialization at 2024-10-28T21:35:30.743186571Z
+Finished task 26
+Starting task 27
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:30.794636001 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:30.804198765Z
+After serialization at 2024-10-28T21:35:30.980646040Z
+Finished task 27
+Starting task 28
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:31.035681848 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:31.044680743Z
+After serialization at 2024-10-28T21:35:31.226538060Z
+Finished task 28
+Starting task 29
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:31.270630234 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:31.279952662Z
+After serialization at 2024-10-28T21:35:31.453550058Z
+Finished task 29
+Starting task 30
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:31.499645848 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:31.508283555Z
+After serialization at 2024-10-28T21:35:31.681883344Z
+Finished task 30
+Starting task 31
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:31.734974628 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:31.743409422Z
+After serialization at 2024-10-28T21:35:31.917021716Z
+Finished task 31
+Starting task 32
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:31.959816340 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:31.968444617Z
+After serialization at 2024-10-28T21:35:32.146272282Z
+Finished task 32
+Starting task 33
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:32.197524838 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:32.206832492Z
+After serialization at 2024-10-28T21:35:32.381063042Z
+Finished task 33
+Starting task 34
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:32.434562676 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:32.443560588Z
+After serialization at 2024-10-28T21:35:32.626752479Z
+Finished task 34
+Starting task 35
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:32.675482873 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:32.684998388Z
+After serialization at 2024-10-28T21:35:32.862074122Z
+Finished task 35
+Starting task 36
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:32.904260530 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:32.914804679Z
+After serialization at 2024-10-28T21:35:33.089767128Z
+Finished task 36
+Starting task 37
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:33.128085704 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:33.138941277Z
+After serialization at 2024-10-28T21:35:33.314920292Z
+Finished task 37
+Starting task 38
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:33.362098264 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:33.371793945Z
+After serialization at 2024-10-28T21:35:33.548440791Z
+Finished task 38
+Starting task 39
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:33.591006618 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:33.600488732Z
+After serialization at 2024-10-28T21:35:33.775542672Z
+Finished task 39
+Starting task 40
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:33.819576973 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:33.828153777Z
+After serialization at 2024-10-28T21:35:34.004549144Z
+Finished task 40
+Starting task 41
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:34.058114964 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:34.066883836Z
+After serialization at 2024-10-28T21:35:34.244619699Z
+Finished task 41
+Starting task 42
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:34.300778769 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:34.309553482Z
+After serialization at 2024-10-28T21:35:34.486987941Z
+Finished task 42
+Starting task 43
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:34.536454451 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:34.545329912Z
+After serialization at 2024-10-28T21:35:34.722562416Z
+Finished task 43
+Starting task 44
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:34.764104602 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:34.773393307Z
+After serialization at 2024-10-28T21:35:34.954517987Z
+Finished task 44
+Starting task 45
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:35.011386263 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:35.020146553Z
+After serialization at 2024-10-28T21:35:35.193338166Z
+Finished task 45
+Starting task 46
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:35.247921888 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:35.256648436Z
+After serialization at 2024-10-28T21:35:35.431569702Z
+Finished task 46
+Starting task 47
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:35.487983521 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:35.499958392Z
+After serialization at 2024-10-28T21:35:35.676084989Z
+Finished task 47
+Starting task 48
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:35.723205468 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:35.732876669Z
+After serialization at 2024-10-28T21:35:35.905990550Z
+Finished task 48
+Starting task 49
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:35.960130622 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:35.973735340Z
+After serialization at 2024-10-28T21:35:36.160575234Z
+Finished task 49
+Starting task 50
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:36.207069049 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:36.216429301Z
+After serialization at 2024-10-28T21:35:36.390792836Z
+Finished task 50
+Starting task 51
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:36.440507863 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:36.449223438Z
+After serialization at 2024-10-28T21:35:36.632561683Z
+Finished task 51
+Starting task 52
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:36.687947770 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:36.696867513Z
+After serialization at 2024-10-28T21:35:36.872817099Z
+Finished task 52
+Starting task 53
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:36.920344836 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:36.931090347Z
+After serialization at 2024-10-28T21:35:37.107851241Z
+Finished task 53
+Starting task 54
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:37.166579888 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:37.177105436Z
+After serialization at 2024-10-28T21:35:37.353843135Z
+Finished task 54
+Starting task 55
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:37.390737643 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:37.399820730Z
+After serialization at 2024-10-28T21:35:37.573554940Z
+Finished task 55
+Starting task 56
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:37.615991349 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:37.625812584Z
+After serialization at 2024-10-28T21:35:37.799633272Z
+Finished task 56
+Starting task 57
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:37.840398916 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:37.849859295Z
+After serialization at 2024-10-28T21:35:38.026685256Z
+Finished task 57
+Starting task 58
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:38.068572200 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:38.080616001Z
+After serialization at 2024-10-28T21:35:38.256800781Z
+Finished task 58
+Starting task 59
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:38.307300847 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:38.316509140Z
+After serialization at 2024-10-28T21:35:38.492032106Z
+Finished task 59
+Starting task 60
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:38.539559184 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:38.548132062Z
+After serialization at 2024-10-28T21:35:38.722423262Z
+Finished task 60
+Starting task 61
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:38.770990114 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:38.779815828Z
+After serialization at 2024-10-28T21:35:38.955671549Z
+Finished task 61
+Starting task 62
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:39.008006905 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:39.017386015Z
+After serialization at 2024-10-28T21:35:39.199100791Z
+Finished task 62
+Starting task 63
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:39.247834770 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:39.256669165Z
+After serialization at 2024-10-28T21:35:39.432726012Z
+Finished task 63
+Starting task 64
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:39.481606269 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:39.492719574Z
+After serialization at 2024-10-28T21:35:39.669128558Z
+Finished task 64
+Starting task 65
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:39.704856943 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:39.713966392Z
+After serialization at 2024-10-28T21:35:39.889777479Z
+Finished task 65
+Starting task 66
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:39.932382520 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:39.945803439Z
+After serialization at 2024-10-28T21:35:40.120264699Z
+Finished task 66
+Starting task 67
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:40.172823273 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:40.181356916Z
+After serialization at 2024-10-28T21:35:40.357639773Z
+Finished task 67
+Starting task 68
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:40.401439139 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:40.410750645Z
+After serialization at 2024-10-28T21:35:40.587104415Z
+Finished task 68
+Starting task 69
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:40.625520676 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:40.635445632Z
+After serialization at 2024-10-28T21:35:40.812705683Z
+Finished task 69
+Starting task 70
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:40.866545386 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:40.875973079Z
+After serialization at 2024-10-28T21:35:41.053986911Z
+Finished task 70
+Starting task 71
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:41.119746518 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:41.131921926Z
+After serialization at 2024-10-28T21:35:41.313928890Z
+Finished task 71
+Starting task 72
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:41.370446216 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:41.380024099Z
+After serialization at 2024-10-28T21:35:41.570407863Z
+Finished task 72
+Starting task 73
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:41.628567978 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:41.638476763Z
+After serialization at 2024-10-28T21:35:41.813086728Z
+Finished task 73
+Starting task 74
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:41.862950224 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:41.871633742Z
+After serialization at 2024-10-28T21:35:42.046790926Z
+Finished task 74
+Starting task 75
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:42.107658125 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:42.116556720Z
+After serialization at 2024-10-28T21:35:42.291824650Z
+Finished task 75
+Starting task 76
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:42.335911543 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:42.344961547Z
+After serialization at 2024-10-28T21:35:42.524067855Z
+Finished task 76
+Starting task 77
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:42.573787561 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:42.583405372Z
+After serialization at 2024-10-28T21:35:42.759265825Z
+Finished task 77
+Starting task 78
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:42.813882364 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:42.825240379Z
+After serialization at 2024-10-28T21:35:43.000794183Z
+Finished task 78
+Starting task 79
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:43.065157506 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:43.075214275Z
+After serialization at 2024-10-28T21:35:43.253570678Z
+Finished task 79
+Starting task 80
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:35:43.304129598 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:35:43.314961871Z
+After serialization at 2024-10-28T21:35:43.491927476Z
+Finished task 80
+All tasks completed.
+
+
+ROUND 100
+
+Starting task 1
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:28.751452222 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:28.772503787Z
+After serialization at 2024-10-28T21:36:28.948078530Z
+Finished task 1
+Starting task 2
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:28.995149907 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:29.003758087Z
+After serialization at 2024-10-28T21:36:29.180975214Z
+Finished task 2
+Starting task 3
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:29.247291872 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:29.255787869Z
+After serialization at 2024-10-28T21:36:29.433297978Z
+Finished task 3
+Starting task 4
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:29.489182954 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:29.497942039Z
+After serialization at 2024-10-28T21:36:29.676395647Z
+Finished task 4
+Starting task 5
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:29.723701220 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:29.732537109Z
+After serialization at 2024-10-28T21:36:29.909706323Z
+Finished task 5
+Starting task 6
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:29.964060693 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:29.972599627Z
+After serialization at 2024-10-28T21:36:30.148979757Z
+Finished task 6
+Starting task 7
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:30.199636274 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:30.208064265Z
+After serialization at 2024-10-28T21:36:30.384688632Z
+Finished task 7
+Starting task 8
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:30.455356529 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:30.465357889Z
+After serialization at 2024-10-28T21:36:30.644046587Z
+Finished task 8
+Starting task 9
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:30.701163388 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:30.710816442Z
+After serialization at 2024-10-28T21:36:30.885166591Z
+Finished task 9
+Starting task 10
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:30.937926116 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:30.946652645Z
+After serialization at 2024-10-28T21:36:31.124459449Z
+Finished task 10
+Starting task 11
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:31.173011083 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:31.181825512Z
+After serialization at 2024-10-28T21:36:31.355600752Z
+Finished task 11
+Starting task 12
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:31.403345322 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:31.411920271Z
+After serialization at 2024-10-28T21:36:31.587355608Z
+Finished task 12
+Starting task 13
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:31.640759083 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:31.650482968Z
+After serialization at 2024-10-28T21:36:31.824919077Z
+Finished task 13
+Starting task 14
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:31.882048373 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:31.890306218Z
+After serialization at 2024-10-28T21:36:32.064760192Z
+Finished task 14
+Starting task 15
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:32.117910435 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:32.126279867Z
+After serialization at 2024-10-28T21:36:32.301017138Z
+Finished task 15
+Starting task 16
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:32.346614682 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:32.355980330Z
+After serialization at 2024-10-28T21:36:32.530540650Z
+Finished task 16
+Starting task 17
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:32.584199757 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:32.594059193Z
+After serialization at 2024-10-28T21:36:32.768701900Z
+Finished task 17
+Starting task 18
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:32.821397766 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:32.829670680Z
+After serialization at 2024-10-28T21:36:33.004635964Z
+Finished task 18
+Starting task 19
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:33.056943110 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:33.066028532Z
+After serialization at 2024-10-28T21:36:33.242822934Z
+Finished task 19
+Starting task 20
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:33.298324442 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:33.308877220Z
+After serialization at 2024-10-28T21:36:33.487195170Z
+Finished task 20
+Starting task 21
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:33.550646597 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:33.559041696Z
+After serialization at 2024-10-28T21:36:33.734547078Z
+Finished task 21
+Starting task 22
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:33.784088408 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:33.792504999Z
+After serialization at 2024-10-28T21:36:33.965662444Z
+Finished task 22
+Starting task 23
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:34.012922769 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:34.021172340Z
+After serialization at 2024-10-28T21:36:34.194872352Z
+Finished task 23
+Starting task 24
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:34.247497430 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:34.256809972Z
+After serialization at 2024-10-28T21:36:34.430811920Z
+Finished task 24
+Starting task 25
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:34.495541435 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:34.504003675Z
+After serialization at 2024-10-28T21:36:34.679333884Z
+Finished task 25
+Starting task 26
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:34.725643829 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:34.733841017Z
+After serialization at 2024-10-28T21:36:34.910675880Z
+Finished task 26
+Starting task 27
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:34.954160245 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:34.965813381Z
+After serialization at 2024-10-28T21:36:35.142543266Z
+Finished task 27
+Starting task 28
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:35.197167052 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:35.206636918Z
+After serialization at 2024-10-28T21:36:35.381360469Z
+Finished task 28
+Starting task 29
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:35.427987052 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:35.437432687Z
+After serialization at 2024-10-28T21:36:35.614281986Z
+Finished task 29
+Starting task 30
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:35.683146182 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:35.692216875Z
+After serialization at 2024-10-28T21:36:35.867455709Z
+Finished task 30
+Starting task 31
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:35.914395221 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:35.923606338Z
+After serialization at 2024-10-28T21:36:36.098329558Z
+Finished task 31
+Starting task 32
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:36.143327166 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:36.153250544Z
+After serialization at 2024-10-28T21:36:36.330442240Z
+Finished task 32
+Starting task 33
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:36.385635014 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:36.394256591Z
+After serialization at 2024-10-28T21:36:36.570401096Z
+Finished task 33
+Starting task 34
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:36.607793464 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:36.616168760Z
+After serialization at 2024-10-28T21:36:36.792277822Z
+Finished task 34
+Starting task 35
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:36.853816737 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:36.862370535Z
+After serialization at 2024-10-28T21:36:37.040442780Z
+Finished task 35
+Starting task 36
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:37.087610047 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:37.096260035Z
+After serialization at 2024-10-28T21:36:37.273607523Z
+Finished task 36
+Starting task 37
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:37.332801315 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:37.343629060Z
+After serialization at 2024-10-28T21:36:37.518342597Z
+Finished task 37
+Starting task 38
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:37.570073393 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:37.580579765Z
+After serialization at 2024-10-28T21:36:37.757087444Z
+Finished task 38
+Starting task 39
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:37.812059803 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:37.821262171Z
+After serialization at 2024-10-28T21:36:37.996108152Z
+Finished task 39
+Starting task 40
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:38.048748476 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:38.062921473Z
+After serialization at 2024-10-28T21:36:38.237077512Z
+Finished task 40
+Starting task 41
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:38.281987345 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:38.290860983Z
+After serialization at 2024-10-28T21:36:38.466192483Z
+Finished task 41
+Starting task 42
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:38.518672093 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:38.528217014Z
+After serialization at 2024-10-28T21:36:38.703599679Z
+Finished task 42
+Starting task 43
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:38.750672891 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:38.759360898Z
+After serialization at 2024-10-28T21:36:38.933404436Z
+Finished task 43
+Starting task 44
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:38.984981420 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:38.993392492Z
+After serialization at 2024-10-28T21:36:39.167026672Z
+Finished task 44
+Starting task 45
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:39.215187742 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:39.223638169Z
+After serialization at 2024-10-28T21:36:39.400820723Z
+Finished task 45
+Starting task 46
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:39.445550304 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:39.455522459Z
+After serialization at 2024-10-28T21:36:39.630711033Z
+Finished task 46
+Starting task 47
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:39.676307438 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:39.686061696Z
+After serialization at 2024-10-28T21:36:39.868466299Z
+Finished task 47
+Starting task 48
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:39.916590594 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:39.925482299Z
+After serialization at 2024-10-28T21:36:40.098284889Z
+Finished task 48
+Starting task 49
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:40.149812071 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:40.158180729Z
+After serialization at 2024-10-28T21:36:40.331427129Z
+Finished task 49
+Starting task 50
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:40.380250750 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:40.388815186Z
+After serialization at 2024-10-28T21:36:40.567971960Z
+Finished task 50
+Starting task 51
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:40.617256852 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:40.625893989Z
+After serialization at 2024-10-28T21:36:40.802259072Z
+Finished task 51
+Starting task 52
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:40.867261594 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:40.879417176Z
+After serialization at 2024-10-28T21:36:41.054721782Z
+Finished task 52
+Starting task 53
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:41.105675448 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:41.117800575Z
+After serialization at 2024-10-28T21:36:41.294126798Z
+Finished task 53
+Starting task 54
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:41.341421327 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:41.350176378Z
+After serialization at 2024-10-28T21:36:41.525312480Z
+Finished task 54
+Starting task 55
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:41.586372195 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:41.596501744Z
+After serialization at 2024-10-28T21:36:41.771077816Z
+Finished task 55
+Starting task 56
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:41.820241414 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:41.828623472Z
+After serialization at 2024-10-28T21:36:42.007106206Z
+Finished task 56
+Starting task 57
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:42.060814219 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:42.069096924Z
+After serialization at 2024-10-28T21:36:42.249857210Z
+Finished task 57
+Starting task 58
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:42.299674954 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:42.308157499Z
+After serialization at 2024-10-28T21:36:42.485786386Z
+Finished task 58
+Starting task 59
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:42.533124810 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:42.542633548Z
+After serialization at 2024-10-28T21:36:42.717824853Z
+Finished task 59
+Starting task 60
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:42.767219778 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:42.776109933Z
+After serialization at 2024-10-28T21:36:42.951476300Z
+Finished task 60
+Starting task 61
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:43.008199412 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:43.017101843Z
+After serialization at 2024-10-28T21:36:43.191165166Z
+Finished task 61
+Starting task 62
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:43.246227096 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:43.255129013Z
+After serialization at 2024-10-28T21:36:43.438539857Z
+Finished task 62
+Starting task 63
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:43.488771777 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:43.498683918Z
+After serialization at 2024-10-28T21:36:43.675995176Z
+Finished task 63
+Starting task 64
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:43.730470871 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:43.739197974Z
+After serialization at 2024-10-28T21:36:43.914249100Z
+Finished task 64
+Starting task 65
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:43.961262613 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:43.974066019Z
+After serialization at 2024-10-28T21:36:44.149949797Z
+Finished task 65
+Starting task 66
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:44.201768687 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:44.210609369Z
+After serialization at 2024-10-28T21:36:44.387482443Z
+Finished task 66
+Starting task 67
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:44.429890269 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:44.438595298Z
+After serialization at 2024-10-28T21:36:44.614199231Z
+Finished task 67
+Starting task 68
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:44.662729490 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:44.672270878Z
+After serialization at 2024-10-28T21:36:44.849446405Z
+Finished task 68
+Starting task 69
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:44.898514391 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:44.909325076Z
+After serialization at 2024-10-28T21:36:45.085408149Z
+Finished task 69
+Starting task 70
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:45.136194763 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:45.145569623Z
+After serialization at 2024-10-28T21:36:45.342822170Z
+Finished task 70
+Starting task 71
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:45.402926588 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:45.417148629Z
+After serialization at 2024-10-28T21:36:45.595461628Z
+Finished task 71
+Starting task 72
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:45.635867804 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:45.644623311Z
+After serialization at 2024-10-28T21:36:45.820793452Z
+Finished task 72
+Starting task 73
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:45.868557494 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:45.877378870Z
+After serialization at 2024-10-28T21:36:46.054674104Z
+Finished task 73
+Starting task 74
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:46.127333869 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:46.136368315Z
+After serialization at 2024-10-28T21:36:46.317767012Z
+Finished task 74
+Starting task 75
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:46.366710335 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:46.376619981Z
+After serialization at 2024-10-28T21:36:46.554813840Z
+Finished task 75
+Starting task 76
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:46.608960379 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:46.625060284Z
+After serialization at 2024-10-28T21:36:46.801089287Z
+Finished task 76
+Starting task 77
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:46.844898839 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:46.854722133Z
+After serialization at 2024-10-28T21:36:47.034717927Z
+Finished task 77
+Starting task 78
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:47.087651091 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:47.097425598Z
+After serialization at 2024-10-28T21:36:47.275198566Z
+Finished task 78
+Starting task 79
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:47.332827922 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:47.343723756Z
+After serialization at 2024-10-28T21:36:47.520460881Z
+Finished task 79
+Starting task 80
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:47.574729882 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:47.585934061Z
+After serialization at 2024-10-28T21:36:47.761747763Z
+Finished task 80
+Starting task 81
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:47.805776805 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:47.814647857Z
+After serialization at 2024-10-28T21:36:47.990334906Z
+Finished task 81
+Starting task 82
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:48.040552308 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:48.049500062Z
+After serialization at 2024-10-28T21:36:48.224909767Z
+Finished task 82
+Starting task 83
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:48.276103674 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:48.284715916Z
+After serialization at 2024-10-28T21:36:48.461510963Z
+Finished task 83
+Starting task 84
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:48.504399252 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:48.513390450Z
+After serialization at 2024-10-28T21:36:48.690931965Z
+Finished task 84
+Starting task 85
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:48.740554642 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:48.750202753Z
+After serialization at 2024-10-28T21:36:48.926616524Z
+Finished task 85
+Starting task 86
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:48.973341978 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:48.983467267Z
+After serialization at 2024-10-28T21:36:49.158865826Z
+Finished task 86
+Starting task 87
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:49.210938759 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:49.219911123Z
+After serialization at 2024-10-28T21:36:49.397114081Z
+Finished task 87
+Starting task 88
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:49.455261275 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:49.464164502Z
+After serialization at 2024-10-28T21:36:49.641086966Z
+Finished task 88
+Starting task 89
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:49.695182172 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:49.705668439Z
+After serialization at 2024-10-28T21:36:49.880781481Z
+Finished task 89
+Starting task 90
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:49.933778498 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:49.943176794Z
+After serialization at 2024-10-28T21:36:50.123827231Z
+Finished task 90
+Starting task 91
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:50.179245509 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:50.189238958Z
+After serialization at 2024-10-28T21:36:50.365044436Z
+Finished task 91
+Starting task 92
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:50.414686815 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:50.424444301Z
+After serialization at 2024-10-28T21:36:50.602089913Z
+Finished task 92
+Starting task 93
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:50.653812281 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:50.664456245Z
+After serialization at 2024-10-28T21:36:50.839231886Z
+Finished task 93
+Starting task 94
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:50.879188580 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:50.887820563Z
+After serialization at 2024-10-28T21:36:51.063039625Z
+Finished task 94
+Starting task 95
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:51.125033230 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:51.135460529Z
+After serialization at 2024-10-28T21:36:51.315035832Z
+Finished task 95
+Starting task 96
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:51.374322380 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:51.383226955Z
+After serialization at 2024-10-28T21:36:51.559181359Z
+Finished task 96
+Starting task 97
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:51.599403847 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:51.609197126Z
+After serialization at 2024-10-28T21:36:51.783583473Z
+Finished task 97
+Starting task 98
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:51.826551506 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:51.835139537Z
+After serialization at 2024-10-28T21:36:52.012990751Z
+Finished task 98
+Starting task 99
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:52.081719834 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:52.090457674Z
+After serialization at 2024-10-28T21:36:52.264086059Z
+Finished task 99
+Starting task 100
+Connect to "http://127.0.0.1:8080/"
+args: ["/func_b_vanilla.wasm", "aaaa", "file_10M.txt"]
+Value of STORAGE_IP: 127.0.0.1:8888
+Downloading file
+Status: 200 OK
+Start transfer of 10485760 at 2024-10-28 21:36:52.310385967 UTC
+Received chunk of size: 10485760 at 2024-10-28T21:36:52.318855074Z
+After serialization at 2024-10-28T21:36:52.494872816Z
+Finished task 100
+All tasks completed.
+
+
