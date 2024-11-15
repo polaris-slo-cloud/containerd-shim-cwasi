@@ -17,13 +17,15 @@ use std::sync::{
 };
 use std::{thread};
 use wasmedge_sdk::{config::{CommonConfigOptions, ConfigBuilder, HostRegistrationConfigOptions}, ImportObjectBuilder, params, PluginManager, Vm};
+use wasmedge_sdk::WasmVal;
 use containerd_shim_cwasi::error::WasmRuntimeError;
 use regex::Regex;
 use itertools::Itertools;
 use wasmedge_sdk::error::HostFuncError;
-
+use wasmedge_sdk::ExternalInstanceType::Memory;
 use containerd_shim_cwasi::messaging::{dispatcher, shim_listener};
 use containerd_shim_cwasi::utils::{oci_utils, snapshot_utils};
+use containerd_shim_cwasi::utils::snapshot_utils::download_file_content;
 
 static mut STDIN_FD: Option<RawFd> = None;
 static mut STDOUT_FD: Option<RawFd> = None;
@@ -122,24 +124,63 @@ pub fn prepare_module(mut vm: Vm, spec: &oci::Spec, stdin_path: String, stdout_p
     let mod_path = oci::get_root(spec).join(cmd);
     info!("register wasm app from file {:?}",mod_path);
     let mod_path_print = mod_path.clone();
-    let additional_modules = extract_modules_from_wat(mod_path_print.as_path());
+
+    //let additional_modules = extract_modules_from_wat(mod_path_print.as_path(), args[1]);
+    /*let additional_modules: Vec<String> = snapshot_utils::get_existing_image(args[1].split_whitespace().map(|s| s.to_string()).collect());
+
+
     for module_path in additional_modules {
         let additional_module = Path::new(module_path.as_str());
         let module_name = additional_module.file_name().unwrap().to_str().unwrap().replace(".wasm","");
         info!("additional module name {:?} {:?}",module_name, module_path);
         vm = vm.clone().register_module_from_file(module_name,additional_module)?;
     }
-
+     */
+    //6174
+    //vm = vm.clone().register_module_from_file("alice-lib","/var/lib/containerd/io.containerd.snapshotter.v1.overlayfs/snapshots/6294/fs/alice-lib.wasm")?;
     info!("setting up wasi");
+    let response = download_file_content();
+    let mut new_args = args.to_vec();
+    new_args.push(response);
     let mut wasi_instance = vm.wasi_module()?;
     wasi_instance.initialize(
-        Some(args.iter().map(|s| s as &str).collect()),
+        Some(new_args.iter().map(|s| s as &str).collect()),
         Some(envs.iter().map(|s| s as &str).collect()),
         Some(preopens),
     );
 
+    let vm_shared = Arc::new(Mutex::new(vm.clone()));
+
+    let vm_shared_for_closure = Arc::clone(&vm_shared);
+    //.with_func::<(i32, i32), i32>("func_connect", dispatcher::func_connect)?
     let import = ImportObjectBuilder::new()
-        .with_func::<(i32, i32), i32>("func_connect", dispatcher::func_connect)?
+        .with_func::<(i32, i32), i32>("func_connect", move |caller, input| {
+            // parse the first argument of WasmValue type
+            //println!("[+] external function called: func_connect");
+
+            let address = input[0].to_i32();
+            let len = input[1].to_i32();
+            let result = dispatcher::func_connect(caller, input)?;
+
+            /*let mut vm_locked = vm_shared_for_closure.lock().unwrap();
+
+            let alice_instance = vm_locked.named_module("alice-lib").unwrap();
+            let mut alice_memory = alice_instance.memory("memory").unwrap();
+            let allocate = alice_instance.func("allocate").unwrap();
+            let alloc_result = allocate.call(&mut *vm_locked, params!(len)).unwrap();
+            let greet_mem_addr = alloc_result[0].to_i32();
+            //println!("greet mem addr {}",greet_mem_addr);
+            let instance = vm_locked.named_module("main").unwrap();
+            let main_memory = instance.memory("memory").unwrap();
+            let payload = main_memory.read(address as u32, len as u32).expect("fail to get string");
+            //println!("payload {:?}",payload);
+
+            let _ = alice_memory.write(payload, greet_mem_addr as u32);
+            let greet = alice_instance.func("hello_greet").unwrap();
+            let _ = greet.call(&mut *vm_locked, params!(greet_mem_addr as i32, len)).unwrap();
+             */
+            Ok(result) // Return the result of the function to match the expected type
+        })?
         .build("cwasi_export")?;
 
     let vm= vm.register_import_module(import)?.register_module_from_file("main", mod_path)?;
@@ -149,7 +190,7 @@ pub fn prepare_module(mut vm: Vm, spec: &oci::Spec, stdin_path: String, stdout_p
 
 pub fn extract_modules_from_wat(path: &Path) -> Vec<String>{
     let mod_wat = wasmprinter::print_file(path).unwrap();
-    //info!("module wat {:?}",mod_wat);
+    info!("module wat {:?}",mod_wat);
     let re = Regex::new(r#"\bimport\s+\S+"#).unwrap();
     let matches = re.find_iter(mod_wat.as_str()).map(|s| s.as_str()).unique().collect_vec();
     let mut modules: Vec<String> = vec![];
@@ -334,6 +375,7 @@ impl EngineGetter for Wasi {
             .with_host_registration_config(host_options)
             .build()
             .map_err(anyhow::Error::msg)?;
+
         let vm = Vm::new(Some(config)).map_err(anyhow::Error::msg)?;
         Ok(vm)
     }

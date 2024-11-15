@@ -1,11 +1,11 @@
-use std::fs;
+
 use crate::config::HandlerConfig;
-use actix_web::{http::Method, web::Data, HttpRequest, HttpResponse};
-use log::info;
+use actix_web::{http::Method, web, web::Data, HttpMessage, HttpRequest, HttpResponse};
+use actix_web::web::Bytes;
 use http_req::request;
 
 // Implement your function's logic here
-pub async fn index(req: HttpRequest, config: Data<HandlerConfig>) -> HttpResponse {
+pub async fn index(req: HttpRequest, body: Bytes) -> HttpResponse {
     //info!("{:#?}", req);
     if req.method() == Method::GET {
         let args: Vec<String> = std::env::args().collect();
@@ -14,16 +14,25 @@ pub async fn index(req: HttpRequest, config: Data<HandlerConfig>) -> HttpRespons
         println!("Value of STORAGE_IP: {}", storage_ip);
 
         println!("Downloading file");
+        let req_id = req.headers()
+            .get("Req-Header")
+            .and_then(|header_value| header_value.to_str().ok())
+            .unwrap_or("0");
 
         let file:String = args[2].parse().unwrap();
         let mut writer = Vec::new(); //container for body of a response
         let res = request::get("http://".to_owned()+&storage_ip+ &"/files/".to_owned()+&file, &mut writer).unwrap();
         println!("Status: {} {}", res.status_code(), res.reason());
         let len = writer.len();
-        println!("Start transfer of {} at {}", len, chrono::offset::Utc::now());
+        println!("Start transfer of {} at {} for {}", len, chrono::offset::Utc::now(),req_id);
         HttpResponse::Ok().body(writer)
+    } else if req.method() == Method::POST{
+        let mut response = format!("Received {} at {:?}", body.len(), chrono::offset::Utc::now());
+        let body_string = String::from_utf8(body.to_vec()).unwrap();
+        response = format!("{} \nAfter serialization at {:?} ",response, chrono::offset::Utc::now());
+        HttpResponse::Ok().body(response)
     } else {
-        HttpResponse::Ok().body(format!("Thanks {}!\n", config.name))
+        HttpResponse::Ok().body(format!("Thanks!!\n"))
     }
 }
 

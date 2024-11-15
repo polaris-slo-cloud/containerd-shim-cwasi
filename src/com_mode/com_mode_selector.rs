@@ -33,8 +33,8 @@ impl CommModeSelector {
             weight_cpu_usage: 0.25,
             weight_memory_usage: 0.15,
             weight_bandwidth_usage: 0.1,
-            data_volume: 500.0, // Example data volume
-            execution_time: 0.5, // Example execution time
+            data_volume: 500.0,
+            execution_time: 0.5,
         }
     }
 

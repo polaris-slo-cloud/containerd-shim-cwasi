@@ -59,7 +59,8 @@ pub fn cwasi_function() -> i32 {
 pub fn send_request(input_string: &str) -> String{
     println!("Process response ");
     let start = chrono::offset::Utc::now();
-    let full_payload = "{\"source_channel\":\"func_a.wasm\",\"target_channel\":\"func_b.wasm\",\"payload\":\"".to_owned() +input_string+"\",\"start\":\"" +&start.to_string()+"\"}";
+    //let full_payload = "{\"source_channel\":\"func_a.wasm\",\"target_channel\":\"func_b.wasm\",\"payload\":\"".to_owned() +input_string+"\",\"start\":\"" +&start.to_string()+"\"}";
+    let full_payload = format!("task={} start {}",0, input_string);
     let input_bytes = full_payload.as_bytes();
     //let input_bytes = Arc::new(Mutex::new(full_payload.into_bytes()));
     //let len = input_bytes.lock().unwrap().len() as i32;
@@ -79,7 +80,7 @@ pub fn send_request(input_string: &str) -> String{
     let bytes = std::slice::from_raw_parts(ptr, response_length as usize);
     println!("After bytes slice {}",chrono::offset::Utc::now());
     let response = &std::str::from_utf8_unchecked(bytes);
-    println!("response string {:?} ",response);
+    //println!("response string {:?} ",response);
 
     //let cloned_input_bytes = Arc::clone(&input_bytes).lock().unwrap().clone();
 

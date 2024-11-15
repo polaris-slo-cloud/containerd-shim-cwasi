@@ -1,0 +1,71 @@
+use reqwest;  // Use the reqwest crate for HTTP requests
+use std::{env, result};
+use std::error::Error;
+use tokio;
+use reqwest::header::{HeaderMap, HeaderValue};
+use reqwest::Client;
+
+// Use a custom Result type alias
+type Result<T> = std::result::Result<T, Box<dyn Error + Send + Sync>>;
+
+
+async fn http_client(url: &str, task_id: usize) -> Result<String> {
+
+    let client = Client::new();
+
+    // Create headers
+    let mut headers = HeaderMap::new();
+    let req_id = task_id.clone();
+    headers.insert("Req-Header", HeaderValue::from_str(req_id.to_string().as_str())?);
+
+    // Make the request with headers
+    let response = client.get(url)
+        .headers(headers)
+        .send()
+        .await?;
+
+    println!("Received chunk of {:?} at {:?} for {:?}", response.content_length().unwrap(), chrono::offset::Utc::now(),task_id);
+    let body = response.text().await?;
+    println!("After serialization at {:?} for {:?}", chrono::offset::Utc::now(),task_id);
+
+    Ok(body)
+}
+
+async fn fanout_task(task_id: usize, func_b_url: String) {
+    println!("Starting task {}", task_id);
+    println!("Connect to {:?}", func_b_url);
+    let _response_string = http_client(func_b_url.as_str(),task_id).await.unwrap();
+    println!("Finished task {}", task_id);
+}
+
+fn fetch_env_variables() -> (String, usize) {
+    let funcb_url: String = env::var("FUNCB_URL").expect("Error: FUNCB_URL not found");
+
+    let num_tasks: usize = env::var("NUM_TASKS").expect("Error: Missing num tasks")
+        .parse().expect("NUM_TASKS must be a valid number");
+
+    (funcb_url, num_tasks)
+}
+
+// Main function that orchestrates the fanout logic
+#[tokio::main]
+async fn main() -> Result<()> {
+    // Fetch environment variables, including the number of tasks
+    let (funcb_url, num_tasks) = fetch_env_variables();
+
+    // Create a vector to store the tasks
+    let mut task_handles = Vec::new();
+
+    // Spawn the number of tasks defined in the environment
+    for i in 0..num_tasks {
+        task_handles.push(tokio::spawn(fanout_task(i + 1, funcb_url.clone())));
+    }
+
+    // Wait for all tasks to complete
+    for handle in task_handles {
+        handle.await.unwrap();
+    }
+
+    println!("All tasks completed.");
+    Ok(())
+}

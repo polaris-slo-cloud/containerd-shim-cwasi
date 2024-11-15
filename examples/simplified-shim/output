@@ -1,0 +1,7 @@
+downloading http://127.0.0.1:8888/files/file_1M.txt
+Starting task 1 with content: result Response { status: Status { version: "HTTP/1.1", code: StatusCode(404), reason: "Not Found" }, headers: Headers({Ascii("content-length"): "9", Ascii("date"): "Sun, 20 Oct 2024 19:11:17 GMT", Ascii("content-type"): "text/plain; charset=utf-8"}) }
+res len 252 
+Finished task 1
+All tasks completed.
+Received chunk of size: 252 at 2024-10-20T19:11:17.629573631Z
+After serialization at 2024-10-20T19:11:17.629607040Z

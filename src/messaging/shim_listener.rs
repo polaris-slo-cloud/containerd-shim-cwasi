@@ -12,7 +12,7 @@ use crate::messaging::message::Message;
 use chrono;
 use chrono::{DateTime, Duration, SecondsFormat, Utc};
 use crate::messaging::redis_utils;
-use crate::utils::oci_utils;
+use crate::utils::{oci_utils, snapshot_utils};
 use std::result::Result;
 use crate::utils::time_utils::epoch_todate;
 use std::fs::File;
@@ -87,9 +87,9 @@ impl ShimListener {
             buffer.extend_from_slice(&chunk[..bytes_read]);
         }
 
-        /*
+
         //println!("Received {} bytes at {}", buffer.len(), Utc::now());
-        println!("finished socket at {:?}", Utc::now());
+       // println!("finished socket at {:?}", Utc::now());
         if !buffer.is_empty() {
             let result = self.call_vm_with_input(buffer)?;
             let client_response = format!(
@@ -99,9 +99,6 @@ impl ShimListener {
             socket.write_all(client_response.as_bytes())?;
             socket.flush()?;
         }
-
-
-         */
         Ok(())
     }
 
@@ -210,7 +207,7 @@ impl ShimListener {
         let mut memory = main_instance.memory("memory").unwrap();
         let _ = memory.write(input, func_addr as u32);
 
-        let cwasi_func = main_instance.func("cwasi_function").unwrap();
+        let cwasi_func = main_instance.func("hello_greet").unwrap();
         let res = cwasi_func.call(vm, params!(func_addr, len)).unwrap();
         //let res = vm.run_func(Some("main"), "cwasi_function", params!())?;
 
@@ -241,13 +238,33 @@ impl ShimListener {
     }
 }
 
-
-pub fn connect_unix_socket(input_fn_a:Vec<u8>, socket_path: String)-> Result<String, Error> {
+//socket_path = find_container_path_parallel(BUNDLE_PATH.as_deref().unwrap_or(""), external_function_type)
+pub fn connect_unix_socket(input_fn_a:Vec<u8>, mut socket_path: String) -> Result<String, Error> {
     //connect to socket
-    let mut stream = UnixStream::connect(socket_path+".sock").unwrap();
-    //let input_fn_b = format!("Data input from source fn {} \n", input_fn_a);
-    //let bytes = input_fn_a.as_bytes();
-    println!("start socket at {:?}", Utc::now());
+    //println!("Connecting to {:?}", socket_path);
+
+    const MAX_RETRIES: u32 = 1000; // Maximum value for u32 (4,294,967,295)
+
+    let mut retries = 0;
+    let mut stream: UnixStream;
+
+    loop {
+        match UnixStream::connect(socket_path.clone() + ".sock") {
+            Ok(s) => {
+                stream = s;
+                break;
+            },
+            Err(err) => {
+                retries += 1;
+                if retries >= MAX_RETRIES {
+                    panic!("Exceeded maximum retries, failed to connect to socket.");
+                }
+                socket_path = unsafe{snapshot_utils::find_container_path_parallel(BUNDLE_PATH.as_deref().unwrap_or(""), "alice-lib.wasm")};
+            }
+        }
+    }
+
+    //let mut stream = UnixStream::connect(socket_path+".sock").unwrap();
     if let Err(e) = stream.write_all(input_fn_a.as_slice()) {
         eprintln!("Failed to write data: {:?}", e);
     }
@@ -315,7 +332,8 @@ pub async fn init_listener(bundle_path: String, oci_spec: Spec, vm: Vm) -> Resul
     }
 
      */
-    //let mut listener2 = ShimListener::new(bundle_path, oci_spec.clone(), vm);
+    //let mut listener = ShimListener::new(bundle_path, oci_spec.clone(), vm);
+    //listener.create_server_socket().expect("socket creation error");
     //listener2.read_from_memory();
     Ok(())
 }

@@ -1,0 +1,8 @@
+[package]
+name = "fanout-wasi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio_wasi = { version = "1.25", features = ["rt", "macros", "net", "time", "io-util"]}
+chrono = "0.4.24"

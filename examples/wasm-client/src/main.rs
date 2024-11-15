@@ -1,3 +1,5 @@
+use std::thread::sleep;
+use std::time::Duration;
 use chrono;
 use wasmedge_http_req::request;
 
@@ -9,4 +11,5 @@ fn main() {
 
     let body_string = String::from_utf8(writer.to_vec()).unwrap();
     println!("After serialization at {:?}", chrono::offset::Utc::now());
+    sleep(Duration::from_secs(5))
 }

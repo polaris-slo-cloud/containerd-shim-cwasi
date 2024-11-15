@@ -33,15 +33,30 @@ fn wasm_alloc(size: usize) -> *mut u8 {
 pub extern fn hello_greet(ptr: i32, len: i32) {
 
     let ptr = ptr as *const u8;
-    //let raw_bytes = unsafe { str::from_raw_parts(ptr, len as usize) };
-    //let raw_string = unsafe {String::from_raw_parts(ptr as *mut u8, len as usize, len as usize)};
-
     let string_vec = unsafe { Vec::from_raw_parts(ptr as *mut u8, len as usize, len as usize)};
-    //println!("Received chunk of size: {} at {:?}", len, chrono::offset::Utc::now());
+    let received_chunk =chrono::offset::Utc::now();
     let raw_string = unsafe { String::from_utf8_unchecked(string_vec) };
-
-    //let subject_str = str::from_utf8(raw_bytes).expect("Invalid UTF-8");
-    println!("After serialization at {:?}", chrono::offset::Utc::now());
+    let after_serialization =chrono::offset::Utc::now();
+    let task_id = extract_task_id(&raw_string).unwrap_or("0");
+    println!("Received chunk of size: {} at {:?} for {}", len, received_chunk, task_id);
+    println!("After serialization at {:?} for {}",after_serialization,task_id);
     //println!("Received subject: {:?}", raw_string);
 
+}
+
+// Function to extract the task ID from the string
+fn extract_task_id(content_task: &str) -> Option<&str> {
+    // Look for the substring "task=" and the position of " start"
+    let task_prefix = "task=";
+    let start_marker = " start";
+
+    if let Some(start_idx) = content_task.find(task_prefix) {
+        if let Some(end_idx) = content_task.find(start_marker) {
+            // Get the slice of the task ID by slicing between the found indexes
+            let task_id_start = start_idx + task_prefix.len(); // Skip "task="
+            return Some(&content_task[task_id_start..end_idx]);
+        }
+    }
+
+    None // Return None if extraction fails
 }
